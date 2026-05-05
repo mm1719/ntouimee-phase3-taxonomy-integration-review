@@ -75,7 +75,7 @@ export function DetailDrawer({ node, candidate, samples, onClose, onOpenSamples 
         <div className="drawer-section">
           <button className="primary-button" onClick={() => onOpenSamples(candidate.entry_id)}>
             <Images size={16} />
-            Open {samples.length || 5} sample thumbnails
+            Open {samples.length || 10} sample thumbnails
           </button>
           <p className="muted">
             Public mode serves resized thumbnails and keeps the original source as a relative reference.

@@ -18,7 +18,7 @@ export function SamplePage({ candidate, samples, onBack }: Props) {
         <p className="eyebrow">Sample image records</p>
         <h1>{candidate.label}</h1>
         <p>
-          {candidate.dataset_id} · {Number(candidate.image_count).toLocaleString()} images · showing up to 5 thumbnails
+          {candidate.dataset_id} · {Number(candidate.image_count).toLocaleString()} images · showing up to 10 thumbnails
         </p>
       </div>
       <div className="sample-grid">
