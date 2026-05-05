@@ -72,15 +72,6 @@ function App() {
   }
 
   const sampleCandidate = sampleEntry ? candidateByEntry.get(sampleEntry) : undefined;
-  if (sampleEntry && sampleCandidate) {
-    return (
-      <SamplePage
-        candidate={sampleCandidate}
-        samples={data.samples[sampleEntry] ?? []}
-        onBack={() => setSampleEntry(null)}
-      />
-    );
-  }
 
   function toggleDataset(dataset: DatasetId) {
     setDatasets((current) => {
@@ -109,89 +100,90 @@ function App() {
 
   return (
     <div className="app-shell">
-      <header className="topbar">
-        <div>
-          <p className="eyebrow">Phase 3 FlowCAM integration</p>
-          <h1>Valid Class Taxonomy</h1>
-        </div>
-        <button className="help-button" onClick={() => setHelpOpen(true)} aria-label="Open terminology help">
-          <HelpCircle size={18} />
-          Terms
-        </button>
-        <div className="summary-grid">
-          <Stat label="Entries" value="261" />
-          <Stat label="AphiaIDs" value="165" />
-          <Stat label="Placements" value="264" />
-          <Stat label="Images" value="405,177" />
-        </div>
-      </header>
-
-      <div className="workspace">
-        <aside className="filters">
-          <div className="searchbox">
-            <Search size={16} />
-            <input
-              value={query}
-              onChange={(event) => setQuery(event.target.value)}
-              placeholder="Search label, taxon, AphiaID"
-            />
+      <div className={sampleCandidate ? "taxonomy-view hidden-view" : "taxonomy-view"}>
+        <header className="topbar">
+          <div>
+            <p className="eyebrow">Phase 3 FlowCAM integration</p>
+            <h1>Valid Class Taxonomy</h1>
           </div>
+          <button className="help-button" onClick={() => setHelpOpen(true)} aria-label="Open terminology help">
+            <HelpCircle size={18} />
+            Terms
+          </button>
+          <div className="summary-grid">
+            <Stat label="Entries" value="261" />
+            <Stat label="AphiaIDs" value="165" />
+            <Stat label="Placements" value="264" />
+            <Stat label="Images" value="405,177" />
+          </div>
+        </header>
 
-          <section>
-            <h2><SlidersHorizontal size={16} /> Datasets</h2>
-            {DATASETS.map((dataset) => (
-              <label className="check-row" key={dataset}>
-                <input
-                  type="checkbox"
-                  checked={datasets.has(dataset)}
-                  onChange={() => toggleDataset(dataset)}
-                />
-                {DATASET_LABELS[dataset]}
-              </label>
-            ))}
-          </section>
-
-          <section>
-            <h2>Risk filters</h2>
-            {Object.keys(RISK_LABELS).map((risk) => (
-              <label className="check-row" key={risk}>
-                <input
-                  type="checkbox"
-                  checked={risks.has(risk)}
-                  onChange={() => toggleRisk(risk)}
-                />
-                {RISK_LABELS[risk]} ({riskCounts[risk] ?? 0})
-              </label>
-            ))}
-          </section>
-
-          <section>
-            <h2>Terminal rank</h2>
-            <select value={rank} onChange={(event) => setRank(event.target.value)}>
-              <option value="">All ranks</option>
-              {ranks.map((item) => (
-                <option key={item} value={item}>{item}</option>
-              ))}
-            </select>
-          </section>
-
-          <section>
-            <label className="switch-row">
+        <div className="workspace">
+          <aside className="filters">
+            <div className="searchbox">
+              <Search size={16} />
               <input
-                type="checkbox"
-                checked={showIntermediate}
-                onChange={(event) => setShowIntermediate(event.target.checked)}
+                value={query}
+                onChange={(event) => setQuery(event.target.value)}
+                placeholder="Search label, taxon, AphiaID"
               />
-              Show intermediate ranks
-            </label>
-            <p className="muted">
-              Hidden mode visually skips intermediate ranks and connects their children to the nearest visible parent.
-            </p>
-          </section>
-        </aside>
+            </div>
 
-        <main className="tree-panel">
-          <div className="panel-header">
+            <section>
+              <h2><SlidersHorizontal size={16} /> Datasets</h2>
+              {DATASETS.map((dataset) => (
+                <label className="check-row" key={dataset}>
+                  <input
+                    type="checkbox"
+                    checked={datasets.has(dataset)}
+                    onChange={() => toggleDataset(dataset)}
+                  />
+                  {DATASET_LABELS[dataset]}
+                </label>
+              ))}
+            </section>
+
+            <section>
+              <h2>Risk filters</h2>
+              {Object.keys(RISK_LABELS).map((risk) => (
+                <label className="check-row" key={risk}>
+                  <input
+                    type="checkbox"
+                    checked={risks.has(risk)}
+                    onChange={() => toggleRisk(risk)}
+                  />
+                  {RISK_LABELS[risk]} ({riskCounts[risk] ?? 0})
+                </label>
+              ))}
+            </section>
+
+            <section>
+              <h2>Terminal rank</h2>
+              <select value={rank} onChange={(event) => setRank(event.target.value)}>
+                <option value="">All ranks</option>
+                {ranks.map((item) => (
+                  <option key={item} value={item}>{item}</option>
+                ))}
+              </select>
+            </section>
+
+            <section>
+              <label className="switch-row">
+                <input
+                  type="checkbox"
+                  checked={showIntermediate}
+                  onChange={(event) => setShowIntermediate(event.target.checked)}
+                />
+                Show intermediate ranks
+              </label>
+              <p className="muted">
+                Hidden mode visually skips intermediate ranks and connects their children to the nearest visible parent.
+              </p>
+            </section>
+          </aside>
+
+          <main className="tree-panel">
+            <div className="panel-header">
             <div>
               <p className="eyebrow">Tree</p>
               <h2>WoRMS lineage structure</h2>
@@ -251,6 +243,14 @@ function App() {
           onOpenSamples={setSampleEntry}
         />
       </div>
+      </div>
+      {sampleEntry && sampleCandidate && (
+        <SamplePage
+          candidate={sampleCandidate}
+          samples={data.samples[sampleEntry] ?? []}
+          onBack={() => setSampleEntry(null)}
+        />
+      )}
       <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)} />
     </div>
   );

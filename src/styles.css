@@ -11,6 +11,7 @@ button, input, select { font: inherit; }
 .error-screen h1 { color: #991b1b; margin: 8px 0 14px; }
 .error-screen pre { max-width: 100%; overflow: auto; border: 1px solid #fecaca; background: #fff1f2; color: #7f1d1d; border-radius: 8px; padding: 12px; white-space: pre-wrap; }
 .app-shell { min-height: 100vh; }
+.hidden-view { display: none; }
 .topbar { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 22px; border-bottom: 1px solid #d9ddd4; background: rgba(255,255,255,.94); backdrop-filter: blur(10px); }
 h1, h2, h3, p { margin: 0; }
 h1 { font-size: 26px; letter-spacing: 0; }
