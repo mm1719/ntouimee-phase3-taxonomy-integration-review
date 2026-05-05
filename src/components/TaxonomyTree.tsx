@@ -20,17 +20,25 @@ export function TaxonomyTree({ node, onSelect, depth = 0, autoOpenForTerminal = 
   const hasDirectTerminal = terminalPlacements.length > 0;
   const defaultOpen = shouldDefaultOpen(node, depth);
   const [isOpen, setIsOpen] = useState(defaultOpen);
-  const [openedByUser, setOpenedByUser] = useState(defaultOpen);
+  const [openedByUser, setOpenedByUser] = useState(false);
+  const [autoOpenedForTerminal, setAutoOpenedForTerminal] = useState(false);
+  const [userClosedAutoOpen, setUserClosedAutoOpen] = useState(false);
   const suppressNextToggle = useRef(false);
+  const showTerminalPlacements = terminalPlacements.length > 0 && (openedByUser || autoOpenedForTerminal);
   const size = Math.max(8, Math.min(26, 8 + Math.sqrt(Math.max(0, node.image_count)) / 45));
 
   useEffect(() => {
-    if (autoOpenForTerminal && hasDirectTerminal && !isOpen) {
+    if (!autoOpenForTerminal) {
+      setUserClosedAutoOpen(false);
+      return;
+    }
+    if (hasDirectTerminal && !isOpen && !userClosedAutoOpen) {
       suppressNextToggle.current = true;
       setIsOpen(true);
+      setAutoOpenedForTerminal(true);
       setOpenedByUser(false);
     }
-  }, [autoOpenForTerminal, hasDirectTerminal, isOpen]);
+  }, [autoOpenForTerminal, hasDirectTerminal, isOpen, userClosedAutoOpen]);
 
   const content = (
     <div className="node-row" onClick={() => onSelect(node)}>
@@ -72,14 +80,22 @@ export function TaxonomyTree({ node, onSelect, depth = 0, autoOpenForTerminal = 
           return;
         }
         setIsOpen(nextOpen);
-        if (nextOpen) setOpenedByUser(true);
+        if (nextOpen) {
+          setOpenedByUser(true);
+          setAutoOpenedForTerminal(false);
+          setUserClosedAutoOpen(false);
+        } else {
+          setOpenedByUser(false);
+          setAutoOpenedForTerminal(false);
+          setUserClosedAutoOpen(true);
+        }
       }}
     >
       <summary>
         <ChevronRight className="chevron" size={16} />
         {content}
       </summary>
-      {terminalPlacements.length > 0 && (
+      {showTerminalPlacements && (
         <div className="terminal-strip">
           <span className="terminal-label">
             Terminal here{hasFinerDescendants ? " · finer descendants below" : ""}
