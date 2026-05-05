@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from "react";
 import { ChevronRight } from "lucide-react";
 import { DatasetBadge, NoteBadge, RiskBadge } from "./Badges";
 import { shouldDefaultOpen } from "../utils/tree";
@@ -6,15 +7,30 @@ import type { TreeNode } from "../types";
 type Props = {
   node: TreeNode;
   onSelect: (node: TreeNode) => void;
+  depth?: number;
+  autoOpenForTerminal?: boolean;
 };
 
-export function TaxonomyTree({ node, onSelect }: Props) {
+export function TaxonomyTree({ node, onSelect, depth = 0, autoOpenForTerminal = false }: Props) {
   const children = node.children ?? [];
   const isLeaf = node.type === "dataset_class";
   const terminalPlacements = children.filter((child) => child.type === "dataset_class");
   const taxonChildren = children.filter((child) => child.type !== "dataset_class");
   const hasFinerDescendants = taxonChildren.length > 0;
+  const hasDirectTerminal = terminalPlacements.length > 0;
+  const defaultOpen = shouldDefaultOpen(node, depth);
+  const [isOpen, setIsOpen] = useState(defaultOpen);
+  const [openedByUser, setOpenedByUser] = useState(defaultOpen);
+  const suppressNextToggle = useRef(false);
   const size = Math.max(8, Math.min(26, 8 + Math.sqrt(Math.max(0, node.image_count)) / 45));
+
+  useEffect(() => {
+    if (autoOpenForTerminal && hasDirectTerminal && !isOpen) {
+      suppressNextToggle.current = true;
+      setIsOpen(true);
+      setOpenedByUser(false);
+    }
+  }, [autoOpenForTerminal, hasDirectTerminal, isOpen]);
 
   const content = (
     <div className="node-row" onClick={() => onSelect(node)}>
@@ -46,7 +62,19 @@ export function TaxonomyTree({ node, onSelect }: Props) {
   }
 
   return (
-    <details className="tree-branch" open={shouldDefaultOpen(node)}>
+    <details
+      className="tree-branch"
+      open={isOpen}
+      onToggle={(event) => {
+        const nextOpen = event.currentTarget.open;
+        if (suppressNextToggle.current) {
+          suppressNextToggle.current = false;
+          return;
+        }
+        setIsOpen(nextOpen);
+        if (nextOpen) setOpenedByUser(true);
+      }}
+    >
       <summary>
         <ChevronRight className="chevron" size={16} />
         {content}
@@ -78,6 +106,8 @@ export function TaxonomyTree({ node, onSelect }: Props) {
             key={child.placement_id ?? child.entry_id ?? `${child.rank}-${child.aphia_id}-${child.name}`}
             node={child}
             onSelect={onSelect}
+            depth={depth + 1}
+            autoOpenForTerminal={isOpen && openedByUser}
           />
         ))}
       </div>

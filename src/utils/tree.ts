@@ -104,17 +104,9 @@ export function filterTree(node: TreeNode, filters: Filters, forceDescendants = 
   return [merged];
 }
 
-export function shouldDefaultOpen(node: TreeNode): boolean {
+export function shouldDefaultOpen(node: TreeNode, depth: number): boolean {
   if (node.type === "root") return true;
-  if (["Superdomain", "Kingdom"].includes(node.rank ?? "")) return true;
-  if (node.rank === "Phylum") return false;
-  const hasPhylumBelow = (node.children ?? []).some((child) => containsRank(child, "Phylum"));
-  return !hasPhylumBelow && (node.children ?? []).some((child) => child.type === "taxon");
-}
-
-function containsRank(node: TreeNode, rank: string): boolean {
-  if (node.rank === rank) return true;
-  return (node.children ?? []).some((child) => containsRank(child, rank));
+  return depth < 3;
 }
 
 export function collectRanks(node: TreeNode): string[] {
