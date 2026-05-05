@@ -1,4 +1,4 @@
-# Valid Class Taxonomy Demo
+# NTOU IMEE Phase 3 Valid Class Taxonomy
 
 Interactive taxonomy tree prototype for the phase 3 valid-class lineage study.
 
