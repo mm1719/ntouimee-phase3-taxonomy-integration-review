@@ -111,10 +111,10 @@ function App() {
             Terms
           </button>
           <div className="summary-grid">
-            <Stat label="Entries" value="261" />
-            <Stat label="AphiaIDs" value="165" />
-            <Stat label="Placements" value="264" />
-            <Stat label="Images" value="405,177" />
+            <Stat label="Entries" value="263" />
+            <Stat label="AphiaIDs" value="167" />
+            <Stat label="Placements" value="266" />
+            <Stat label="Images" value="408,973" />
           </div>
         </header>
 

@@ -1166,71 +1166,31 @@
                                   "selected_aphia_id": "605114",
                                   "selected_aphia_source": "worms_name_assignment",
                                   "type": "dataset_class"
-                                },
-                                {
-                                  "children": [],
-                                  "dataset_id": "tara_pacific_bongo",
-                                  "dataset_label": "Tara Pacific Bongo",
-                                  "entry_id": "tara_pacific_bongo::Hemiaulus",
-                                  "image_count": 262,
-                                  "lineage_notes": [],
-                                  "name": "Hemiaulus",
-                                  "placement_id": "tara_pacific_bongo::Hemiaulus::605114::1",
-                                  "risk_flags": [
-                                    "dwca_aphia_mismatch"
-                                  ],
-                                  "selected_aphia_id": "605114",
-                                  "selected_aphia_source": "worms_validation_due_dwca_mismatch",
-                                  "type": "dataset_class"
-                                },
-                                {
-                                  "children": [],
-                                  "dataset_id": "tara_pacific_deck",
-                                  "dataset_label": "Tara Pacific Deck",
-                                  "entry_id": "tara_pacific_deck::Hemiaulus",
-                                  "image_count": 5922,
-                                  "lineage_notes": [],
-                                  "name": "Hemiaulus",
-                                  "placement_id": "tara_pacific_deck::Hemiaulus::605114::1",
-                                  "risk_flags": [
-                                    "dwca_aphia_mismatch"
-                                  ],
-                                  "selected_aphia_id": "605114",
-                                  "selected_aphia_source": "worms_validation_due_dwca_mismatch",
-                                  "type": "dataset_class"
                                 }
                               ],
                               "datasets": [
-                                "flowcam_net",
-                                "tara_pacific_deck",
-                                "tara_pacific_bongo"
+                                "flowcam_net"
                               ],
-                              "entry_count": 3,
-                              "image_count": 6392,
+                              "entry_count": 1,
+                              "image_count": 208,
                               "key": "Genus::605114::Hemiaulus",
                               "lineage_notes": [],
                               "name": "Hemiaulus",
                               "rank": "Genus",
-                              "risk_flags": [
-                                "dwca_aphia_mismatch"
-                              ],
+                              "risk_flags": [],
                               "type": "taxon"
                             }
                           ],
                           "datasets": [
-                            "flowcam_net",
-                            "tara_pacific_deck",
-                            "tara_pacific_bongo"
+                            "flowcam_net"
                           ],
-                          "entry_count": 3,
-                          "image_count": 6392,
+                          "entry_count": 1,
+                          "image_count": 208,
                           "key": "Subclass::595704::Bacillariophyceae incertae sedis",
                           "lineage_notes": [],
                           "name": "Bacillariophyceae incertae sedis",
                           "rank": "Subclass",
-                          "risk_flags": [
-                            "dwca_aphia_mismatch"
-                          ],
+                          "risk_flags": [],
                           "type": "taxon"
                         },
                         {
@@ -1427,13 +1387,43 @@
                                               "selected_aphia_id": "149151",
                                               "selected_aphia_source": "local_aphia_id_validation",
                                               "type": "dataset_class"
+                                            },
+                                            {
+                                              "children": [],
+                                              "dataset_id": "tara_pacific_bongo",
+                                              "dataset_label": "Tara Pacific Bongo",
+                                              "entry_id": "tara_pacific_bongo::Pseudo-nitzschia",
+                                              "image_count": 462,
+                                              "lineage_notes": [],
+                                              "name": "Pseudo-nitzschia",
+                                              "placement_id": "tara_pacific_bongo::Pseudo-nitzschia::149151::1",
+                                              "risk_flags": [],
+                                              "selected_aphia_id": "149151",
+                                              "selected_aphia_source": "dwca_scientificNameID_exact_match",
+                                              "type": "dataset_class"
+                                            },
+                                            {
+                                              "children": [],
+                                              "dataset_id": "ifremer_srn",
+                                              "dataset_label": "Ifremer SRN",
+                                              "entry_id": "ifremer_srn::Pseudo_nitzschia",
+                                              "image_count": 2178,
+                                              "lineage_notes": [],
+                                              "name": "Pseudo_nitzschia",
+                                              "placement_id": "ifremer_srn::Pseudo_nitzschia::149151::1",
+                                              "risk_flags": [],
+                                              "selected_aphia_id": "149151",
+                                              "selected_aphia_source": "local_aphia_id_validation",
+                                              "type": "dataset_class"
                                             }
                                           ],
                                           "datasets": [
-                                            "life_watch"
+                                            "life_watch",
+                                            "tara_pacific_bongo",
+                                            "ifremer_srn"
                                           ],
-                                          "entry_count": 1,
-                                          "image_count": 8800,
+                                          "entry_count": 3,
+                                          "image_count": 11440,
                                           "key": "Genus::149151::Pseudo-nitzschia",
                                           "lineage_notes": [],
                                           "name": "Pseudo-nitzschia",
@@ -1460,10 +1450,11 @@
                                         "life_watch",
                                         "flowcam_net",
                                         "tara_pacific_deck",
-                                        "tara_pacific_bongo"
+                                        "tara_pacific_bongo",
+                                        "ifremer_srn"
                                       ],
-                                      "entry_count": 8,
-                                      "image_count": 14654,
+                                      "entry_count": 10,
+                                      "image_count": 17294,
                                       "key": "Family::149002::Bacillariaceae",
                                       "lineage_notes": [],
                                       "name": "Bacillariaceae",
@@ -1476,10 +1467,11 @@
                                     "life_watch",
                                     "flowcam_net",
                                     "tara_pacific_deck",
-                                    "tara_pacific_bongo"
+                                    "tara_pacific_bongo",
+                                    "ifremer_srn"
                                   ],
-                                  "entry_count": 8,
-                                  "image_count": 14654,
+                                  "entry_count": 10,
+                                  "image_count": 17294,
                                   "key": "Order::149001::Bacillariales",
                                   "lineage_notes": [],
                                   "name": "Bacillariales",
@@ -1616,10 +1608,11 @@
                                 "life_watch",
                                 "flowcam_net",
                                 "tara_pacific_deck",
-                                "tara_pacific_bongo"
+                                "tara_pacific_bongo",
+                                "ifremer_srn"
                               ],
-                              "entry_count": 10,
-                              "image_count": 15809,
+                              "entry_count": 12,
+                              "image_count": 18449,
                               "key": "Superorder::591186::Bacillariophycanae",
                               "lineage_notes": [],
                               "name": "Bacillariophycanae",
@@ -1678,10 +1671,11 @@
                             "life_watch",
                             "flowcam_net",
                             "tara_pacific_deck",
-                            "tara_pacific_bongo"
+                            "tara_pacific_bongo",
+                            "ifremer_srn"
                           ],
-                          "entry_count": 11,
-                          "image_count": 24545,
+                          "entry_count": 13,
+                          "image_count": 27185,
                           "key": "Subclass::148902::Bacillariophycidae",
                           "lineage_notes": [],
                           "name": "Bacillariophycidae",
@@ -1984,6 +1978,57 @@
                                           "rank": "Genus",
                                           "risk_flags": [],
                                           "type": "taxon"
+                                        },
+                                        {
+                                          "aphia_id": "163248",
+                                          "children": [
+                                            {
+                                              "children": [],
+                                              "dataset_id": "tara_pacific_bongo",
+                                              "dataset_label": "Tara Pacific Bongo",
+                                              "entry_id": "tara_pacific_bongo::Hemiaulus",
+                                              "image_count": 262,
+                                              "lineage_notes": [],
+                                              "name": "Hemiaulus",
+                                              "placement_id": "tara_pacific_bongo::Hemiaulus::163248::1",
+                                              "risk_flags": [
+                                                "dwca_aphia_mismatch"
+                                              ],
+                                              "selected_aphia_id": "163248",
+                                              "selected_aphia_source": "worms_validation_due_dwca_mismatch",
+                                              "type": "dataset_class"
+                                            },
+                                            {
+                                              "children": [],
+                                              "dataset_id": "tara_pacific_deck",
+                                              "dataset_label": "Tara Pacific Deck",
+                                              "entry_id": "tara_pacific_deck::Hemiaulus",
+                                              "image_count": 5922,
+                                              "lineage_notes": [],
+                                              "name": "Hemiaulus",
+                                              "placement_id": "tara_pacific_deck::Hemiaulus::163248::1",
+                                              "risk_flags": [
+                                                "dwca_aphia_mismatch"
+                                              ],
+                                              "selected_aphia_id": "163248",
+                                              "selected_aphia_source": "worms_validation_due_dwca_mismatch",
+                                              "type": "dataset_class"
+                                            }
+                                          ],
+                                          "datasets": [
+                                            "tara_pacific_deck",
+                                            "tara_pacific_bongo"
+                                          ],
+                                          "entry_count": 2,
+                                          "image_count": 6184,
+                                          "key": "Genus::163248::Hemiaulus",
+                                          "lineage_notes": [],
+                                          "name": "Hemiaulus",
+                                          "rank": "Genus",
+                                          "risk_flags": [
+                                            "dwca_aphia_mismatch"
+                                          ],
+                                          "type": "taxon"
                                         }
                                       ],
                                       "datasets": [
@@ -1992,13 +2037,15 @@
                                         "tara_pacific_deck",
                                         "tara_pacific_bongo"
                                       ],
-                                      "entry_count": 5,
-                                      "image_count": 12446,
+                                      "entry_count": 7,
+                                      "image_count": 18630,
                                       "key": "Family::149235::Hemiaulaceae",
                                       "lineage_notes": [],
                                       "name": "Hemiaulaceae",
                                       "rank": "Family",
-                                      "risk_flags": [],
+                                      "risk_flags": [
+                                        "dwca_aphia_mismatch"
+                                      ],
                                       "type": "taxon"
                                     }
                                   ],
@@ -2008,14 +2055,15 @@
                                     "tara_pacific_deck",
                                     "tara_pacific_bongo"
                                   ],
-                                  "entry_count": 7,
-                                  "image_count": 21967,
+                                  "entry_count": 9,
+                                  "image_count": 28151,
                                   "key": "Order::149234::Hemiaulales",
                                   "lineage_notes": [],
                                   "name": "Hemiaulales",
                                   "rank": "Order",
                                   "risk_flags": [
-                                    "contaminated"
+                                    "contaminated",
+                                    "dwca_aphia_mismatch"
                                   ],
                                   "type": "taxon"
                                 },
@@ -2317,8 +2365,8 @@
                                 "tara_pacific_deck",
                                 "tara_pacific_bongo"
                               ],
-                              "entry_count": 16,
-                              "image_count": 43108,
+                              "entry_count": 18,
+                              "image_count": 49292,
                               "key": "Superorder::591192::Biddulphianae",
                               "lineage_notes": [
                                 "intermediate_rank"
@@ -2326,7 +2374,8 @@
                               "name": "Biddulphianae",
                               "rank": "Superorder",
                               "risk_flags": [
-                                "contaminated"
+                                "contaminated",
+                                "dwca_aphia_mismatch"
                               ],
                               "type": "taxon"
                             },
@@ -2463,37 +2512,18 @@
                                                   "selected_aphia_id": "961865",
                                                   "selected_aphia_source": "worms_name_assignment",
                                                   "type": "dataset_class"
-                                                },
-                                                {
-                                                  "children": [],
-                                                  "dataset_id": "tara_pacific_deck",
-                                                  "dataset_label": "Tara Pacific Deck",
-                                                  "entry_id": "tara_pacific_deck::Chaetoceros peruvianus",
-                                                  "image_count": 1369,
-                                                  "lineage_notes": [],
-                                                  "name": "Chaetoceros peruvianus",
-                                                  "placement_id": "tara_pacific_deck::Chaetoceros peruvianus::961865::1",
-                                                  "risk_flags": [
-                                                    "dwca_aphia_mismatch"
-                                                  ],
-                                                  "selected_aphia_id": "961865",
-                                                  "selected_aphia_source": "worms_validation_due_dwca_mismatch",
-                                                  "type": "dataset_class"
                                                 }
                                               ],
                                               "datasets": [
-                                                "flowcam_net",
-                                                "tara_pacific_deck"
+                                                "flowcam_net"
                                               ],
-                                              "entry_count": 2,
-                                              "image_count": 1494,
+                                              "entry_count": 1,
+                                              "image_count": 125,
                                               "key": "Species::961865::Chaetoceros peruvianus",
                                               "lineage_notes": [],
                                               "name": "Chaetoceros peruvianus",
                                               "rank": "Species",
-                                              "risk_flags": [
-                                                "dwca_aphia_mismatch"
-                                              ],
+                                              "risk_flags": [],
                                               "type": "taxon"
                                             },
                                             {
@@ -2604,15 +2634,13 @@
                                             "flowcam_net",
                                             "tara_pacific_deck"
                                           ],
-                                          "entry_count": 9,
-                                          "image_count": 16704,
+                                          "entry_count": 8,
+                                          "image_count": 15335,
                                           "key": "Genus::148985::Chaetoceros",
                                           "lineage_notes": [],
                                           "name": "Chaetoceros",
                                           "rank": "Genus",
-                                          "risk_flags": [
-                                            "dwca_aphia_mismatch"
-                                          ],
+                                          "risk_flags": [],
                                           "type": "taxon"
                                         }
                                       ],
@@ -2621,15 +2649,13 @@
                                         "flowcam_net",
                                         "tara_pacific_deck"
                                       ],
-                                      "entry_count": 11,
-                                      "image_count": 20976,
+                                      "entry_count": 10,
+                                      "image_count": 19607,
                                       "key": "Family::148984::Chaetocerotaceae",
                                       "lineage_notes": [],
                                       "name": "Chaetocerotaceae",
                                       "rank": "Family",
-                                      "risk_flags": [
-                                        "dwca_aphia_mismatch"
-                                      ],
+                                      "risk_flags": [],
                                       "type": "taxon"
                                     }
                                   ],
@@ -2638,15 +2664,13 @@
                                     "flowcam_net",
                                     "tara_pacific_deck"
                                   ],
-                                  "entry_count": 11,
-                                  "image_count": 20976,
+                                  "entry_count": 10,
+                                  "image_count": 19607,
                                   "key": "Order::593505::Chaetocerotanae incertae sedis",
                                   "lineage_notes": [],
                                   "name": "Chaetocerotanae incertae sedis",
                                   "rank": "Order",
-                                  "risk_flags": [
-                                    "dwca_aphia_mismatch"
-                                  ],
+                                  "risk_flags": [],
                                   "type": "taxon"
                                 },
                                 {
@@ -2701,15 +2725,13 @@
                                 "flowcam_net",
                                 "tara_pacific_deck"
                               ],
-                              "entry_count": 12,
-                              "image_count": 21287,
+                              "entry_count": 11,
+                              "image_count": 19918,
                               "key": "Superorder::591197::Chaetocerotanae",
                               "lineage_notes": [],
                               "name": "Chaetocerotanae",
                               "rank": "Superorder",
-                              "risk_flags": [
-                                "dwca_aphia_mismatch"
-                              ],
+                              "risk_flags": [],
                               "type": "taxon"
                             },
                             {
@@ -3181,37 +3203,19 @@
                                               "rank": "Species",
                                               "risk_flags": [],
                                               "type": "taxon"
-                                            },
-                                            {
-                                              "children": [],
-                                              "dataset_id": "tara_pacific_bongo",
-                                              "dataset_label": "Tara Pacific Bongo",
-                                              "entry_id": "tara_pacific_bongo::Hemidiscus",
-                                              "image_count": 15,
-                                              "lineage_notes": [],
-                                              "name": "Hemidiscus",
-                                              "placement_id": "tara_pacific_bongo::Hemidiscus::180366::1",
-                                              "risk_flags": [
-                                                "dwca_aphia_mismatch"
-                                              ],
-                                              "selected_aphia_id": "180366",
-                                              "selected_aphia_source": "worms_validation_due_dwca_mismatch",
-                                              "type": "dataset_class"
                                             }
                                           ],
                                           "datasets": [
                                             "tara_pacific_deck",
                                             "tara_pacific_bongo"
                                           ],
-                                          "entry_count": 3,
-                                          "image_count": 175,
+                                          "entry_count": 2,
+                                          "image_count": 160,
                                           "key": "Genus::180366::Hemidiscus",
                                           "lineage_notes": [],
                                           "name": "Hemidiscus",
                                           "rank": "Genus",
-                                          "risk_flags": [
-                                            "dwca_aphia_mismatch"
-                                          ],
+                                          "risk_flags": [],
                                           "type": "taxon"
                                         }
                                       ],
@@ -3219,15 +3223,13 @@
                                         "tara_pacific_deck",
                                         "tara_pacific_bongo"
                                       ],
-                                      "entry_count": 3,
-                                      "image_count": 175,
+                                      "entry_count": 2,
+                                      "image_count": 160,
                                       "key": "Family::148943::Hemidiscaceae",
                                       "lineage_notes": [],
                                       "name": "Hemidiscaceae",
                                       "rank": "Family",
-                                      "risk_flags": [
-                                        "dwca_aphia_mismatch"
-                                      ],
+                                      "risk_flags": [],
                                       "type": "taxon"
                                     }
                                   ],
@@ -3237,15 +3239,13 @@
                                     "tara_pacific_deck",
                                     "tara_pacific_bongo"
                                   ],
-                                  "entry_count": 10,
-                                  "image_count": 7914,
+                                  "entry_count": 9,
+                                  "image_count": 7899,
                                   "key": "Order::148915::Coscinodiscales",
                                   "lineage_notes": [],
                                   "name": "Coscinodiscales",
                                   "rank": "Order",
-                                  "risk_flags": [
-                                    "dwca_aphia_mismatch"
-                                  ],
+                                  "risk_flags": [],
                                   "type": "taxon"
                                 },
                                 {
@@ -3441,15 +3441,13 @@
                                 "tara_pacific_deck",
                                 "tara_pacific_bongo"
                               ],
-                              "entry_count": 17,
-                              "image_count": 24986,
+                              "entry_count": 16,
+                              "image_count": 24971,
                               "key": "Superorder::591190::Coscinodiscanae",
                               "lineage_notes": [],
                               "name": "Coscinodiscanae",
                               "rank": "Superorder",
-                              "risk_flags": [
-                                "dwca_aphia_mismatch"
-                              ],
+                              "risk_flags": [],
                               "type": "taxon"
                             },
                             {
@@ -4449,7 +4447,7 @@
                             "tara_pacific_bongo"
                           ],
                           "entry_count": 75,
-                          "image_count": 167032,
+                          "image_count": 171832,
                           "key": "Subclass::148971::Coscinodiscophycidae",
                           "lineage_notes": [
                             "intermediate_rank"
@@ -4930,10 +4928,11 @@
                         "life_watch",
                         "flowcam_net",
                         "tara_pacific_deck",
-                        "tara_pacific_bongo"
+                        "tara_pacific_bongo",
+                        "ifremer_srn"
                       ],
                       "entry_count": 104,
-                      "image_count": 299758,
+                      "image_count": 301014,
                       "key": "Class::148899::Bacillariophyceae",
                       "lineage_notes": [
                         "intermediate_rank"
@@ -4951,10 +4950,11 @@
                     "life_watch",
                     "flowcam_net",
                     "tara_pacific_deck",
-                    "tara_pacific_bongo"
+                    "tara_pacific_bongo",
+                    "ifremer_srn"
                   ],
                   "entry_count": 104,
-                  "image_count": 299758,
+                  "image_count": 301014,
                   "key": "Subphylum::493822::Bacillariophytina",
                   "lineage_notes": [
                     "intermediate_rank"
@@ -4972,10 +4972,11 @@
                 "life_watch",
                 "flowcam_net",
                 "tara_pacific_deck",
-                "tara_pacific_bongo"
+                "tara_pacific_bongo",
+                "ifremer_srn"
               ],
               "entry_count": 104,
-              "image_count": 299758,
+              "image_count": 301014,
               "key": "Phylum::370437::Heterokontophyta",
               "lineage_notes": [
                 "intermediate_rank"
@@ -4986,6 +4987,184 @@
                 "contaminated",
                 "dwca_aphia_mismatch"
               ],
+              "type": "taxon"
+            },
+            {
+              "aphia_id": "582418",
+              "children": [
+                {
+                  "aphia_id": "369190",
+                  "children": [
+                    {
+                      "aphia_id": "1731399",
+                      "children": [
+                        {
+                          "aphia_id": "592906",
+                          "children": [
+                            {
+                              "aphia_id": "236093",
+                              "children": [
+                                {
+                                  "aphia_id": "577970",
+                                  "children": [
+                                    {
+                                      "aphia_id": "115072",
+                                      "children": [
+                                        {
+                                          "aphia_id": "115088",
+                                          "children": [
+                                            {
+                                              "aphia_id": "160538",
+                                              "children": [
+                                                {
+                                                  "children": [],
+                                                  "dataset_id": "ifremer_srn",
+                                                  "dataset_label": "Ifremer SRN",
+                                                  "entry_id": "ifremer_srn::Phaeocystis_globosa",
+                                                  "image_count": 2525,
+                                                  "lineage_notes": [
+                                                    "intermediate_rank"
+                                                  ],
+                                                  "name": "Phaeocystis_globosa",
+                                                  "placement_id": "ifremer_srn::Phaeocystis_globosa::160538::1",
+                                                  "risk_flags": [],
+                                                  "selected_aphia_id": "160538",
+                                                  "selected_aphia_source": "local_aphia_id_validation",
+                                                  "type": "dataset_class"
+                                                }
+                                              ],
+                                              "datasets": [
+                                                "ifremer_srn"
+                                              ],
+                                              "entry_count": 1,
+                                              "image_count": 2525,
+                                              "key": "Species::160538::Phaeocystis globosa",
+                                              "lineage_notes": [
+                                                "intermediate_rank"
+                                              ],
+                                              "name": "Phaeocystis globosa",
+                                              "rank": "Species",
+                                              "risk_flags": [],
+                                              "type": "taxon"
+                                            }
+                                          ],
+                                          "datasets": [
+                                            "ifremer_srn"
+                                          ],
+                                          "entry_count": 1,
+                                          "image_count": 2525,
+                                          "key": "Genus::115088::Phaeocystis",
+                                          "lineage_notes": [
+                                            "intermediate_rank"
+                                          ],
+                                          "name": "Phaeocystis",
+                                          "rank": "Genus",
+                                          "risk_flags": [],
+                                          "type": "taxon"
+                                        }
+                                      ],
+                                      "datasets": [
+                                        "ifremer_srn"
+                                      ],
+                                      "entry_count": 1,
+                                      "image_count": 2525,
+                                      "key": "Family::115072::Phaeocystaceae",
+                                      "lineage_notes": [
+                                        "intermediate_rank"
+                                      ],
+                                      "name": "Phaeocystaceae",
+                                      "rank": "Family",
+                                      "risk_flags": [],
+                                      "type": "taxon"
+                                    }
+                                  ],
+                                  "datasets": [
+                                    "ifremer_srn"
+                                  ],
+                                  "entry_count": 1,
+                                  "image_count": 2525,
+                                  "key": "Order::577970::Phaeocystales",
+                                  "lineage_notes": [
+                                    "intermediate_rank"
+                                  ],
+                                  "name": "Phaeocystales",
+                                  "rank": "Order",
+                                  "risk_flags": [],
+                                  "type": "taxon"
+                                }
+                              ],
+                              "datasets": [
+                                "ifremer_srn"
+                              ],
+                              "entry_count": 1,
+                              "image_count": 2525,
+                              "key": "Subclass::236093::Prymnesiophycidae",
+                              "lineage_notes": [
+                                "intermediate_rank"
+                              ],
+                              "name": "Prymnesiophycidae",
+                              "rank": "Subclass",
+                              "risk_flags": [],
+                              "type": "taxon"
+                            }
+                          ],
+                          "datasets": [
+                            "ifremer_srn"
+                          ],
+                          "entry_count": 1,
+                          "image_count": 2525,
+                          "key": "Class::592906::Coccolithophyceae",
+                          "lineage_notes": [
+                            "intermediate_rank"
+                          ],
+                          "name": "Coccolithophyceae",
+                          "rank": "Class",
+                          "risk_flags": [],
+                          "type": "taxon"
+                        }
+                      ],
+                      "datasets": [
+                        "ifremer_srn"
+                      ],
+                      "entry_count": 1,
+                      "image_count": 2525,
+                      "key": "Subphylum::1731399::Haptophytina",
+                      "lineage_notes": [
+                        "intermediate_rank"
+                      ],
+                      "name": "Haptophytina",
+                      "rank": "Subphylum",
+                      "risk_flags": [],
+                      "type": "taxon"
+                    }
+                  ],
+                  "datasets": [
+                    "ifremer_srn"
+                  ],
+                  "entry_count": 1,
+                  "image_count": 2525,
+                  "key": "Phylum::369190::Haptophyta",
+                  "lineage_notes": [
+                    "intermediate_rank"
+                  ],
+                  "name": "Haptophyta",
+                  "rank": "Phylum",
+                  "risk_flags": [],
+                  "type": "taxon"
+                }
+              ],
+              "datasets": [
+                "ifremer_srn"
+              ],
+              "entry_count": 1,
+              "image_count": 2525,
+              "key": "Subkingdom::582418::Hacrobia",
+              "lineage_notes": [
+                "intermediate_rank"
+              ],
+              "name": "Hacrobia",
+              "rank": "Subkingdom",
+              "risk_flags": [],
               "type": "taxon"
             },
             {
@@ -9062,6 +9241,144 @@
                       "aphia_id": "1410",
                       "children": [
                         {
+                          "aphia_id": "1048156",
+                          "children": [
+                            {
+                              "aphia_id": "1048157",
+                              "children": [
+                                {
+                                  "aphia_id": "1048160",
+                                  "children": [
+                                    {
+                                      "aphia_id": "1048313",
+                                      "children": [
+                                        {
+                                          "aphia_id": "526314",
+                                          "children": [
+                                            {
+                                              "aphia_id": "737409",
+                                              "children": [
+                                                {
+                                                  "children": [],
+                                                  "dataset_id": "tara_pacific_bongo",
+                                                  "dataset_label": "Tara Pacific Bongo",
+                                                  "entry_id": "tara_pacific_bongo::Hemidiscus",
+                                                  "image_count": 15,
+                                                  "lineage_notes": [
+                                                    "intermediate_rank"
+                                                  ],
+                                                  "name": "Hemidiscus",
+                                                  "placement_id": "tara_pacific_bongo::Hemidiscus::737409::1",
+                                                  "risk_flags": [
+                                                    "dwca_aphia_mismatch"
+                                                  ],
+                                                  "selected_aphia_id": "737409",
+                                                  "selected_aphia_source": "worms_validation_due_dwca_mismatch",
+                                                  "type": "dataset_class"
+                                                }
+                                              ],
+                                              "datasets": [
+                                                "tara_pacific_bongo"
+                                              ],
+                                              "entry_count": 1,
+                                              "image_count": 15,
+                                              "key": "Genus::737409::Hemidiscus",
+                                              "lineage_notes": [
+                                                "intermediate_rank"
+                                              ],
+                                              "name": "Hemidiscus",
+                                              "rank": "Genus",
+                                              "risk_flags": [
+                                                "dwca_aphia_mismatch"
+                                              ],
+                                              "type": "taxon"
+                                            }
+                                          ],
+                                          "datasets": [
+                                            "tara_pacific_bongo"
+                                          ],
+                                          "entry_count": 1,
+                                          "image_count": 15,
+                                          "key": "Family::526314::Lasiodiscidae",
+                                          "lineage_notes": [
+                                            "intermediate_rank"
+                                          ],
+                                          "name": "Lasiodiscidae",
+                                          "rank": "Family",
+                                          "risk_flags": [
+                                            "dwca_aphia_mismatch"
+                                          ],
+                                          "type": "taxon"
+                                        }
+                                      ],
+                                      "datasets": [
+                                        "tara_pacific_bongo"
+                                      ],
+                                      "entry_count": 1,
+                                      "image_count": 15,
+                                      "key": "Superfamily::1048313::Lasiodiscoidea",
+                                      "lineage_notes": [
+                                        "intermediate_rank"
+                                      ],
+                                      "name": "Lasiodiscoidea",
+                                      "rank": "Superfamily",
+                                      "risk_flags": [
+                                        "dwca_aphia_mismatch"
+                                      ],
+                                      "type": "taxon"
+                                    }
+                                  ],
+                                  "datasets": [
+                                    "tara_pacific_bongo"
+                                  ],
+                                  "entry_count": 1,
+                                  "image_count": 15,
+                                  "key": "Order::1048160::Archaediscida",
+                                  "lineage_notes": [
+                                    "intermediate_rank"
+                                  ],
+                                  "name": "Archaediscida",
+                                  "rank": "Order",
+                                  "risk_flags": [
+                                    "dwca_aphia_mismatch"
+                                  ],
+                                  "type": "taxon"
+                                }
+                              ],
+                              "datasets": [
+                                "tara_pacific_bongo"
+                              ],
+                              "entry_count": 1,
+                              "image_count": 15,
+                              "key": "Subclass::1048157::Afusulinana",
+                              "lineage_notes": [
+                                "intermediate_rank"
+                              ],
+                              "name": "Afusulinana",
+                              "rank": "Subclass",
+                              "risk_flags": [
+                                "dwca_aphia_mismatch"
+                              ],
+                              "type": "taxon"
+                            }
+                          ],
+                          "datasets": [
+                            "tara_pacific_bongo"
+                          ],
+                          "entry_count": 1,
+                          "image_count": 15,
+                          "key": "Class::1048156::Fusulinata",
+                          "lineage_notes": [
+                            "intermediate_rank"
+                          ],
+                          "name": "Fusulinata",
+                          "rank": "Class",
+                          "risk_flags": [
+                            "dwca_aphia_mismatch"
+                          ],
+                          "type": "taxon"
+                        },
+                        {
                           "children": [],
                           "dataset_id": "flowcam_net",
                           "dataset_label": "FlowCAMNet",
@@ -9132,15 +9449,17 @@
                         "tara_pacific_deck",
                         "tara_pacific_bongo"
                       ],
-                      "entry_count": 4,
-                      "image_count": 801,
+                      "entry_count": 5,
+                      "image_count": 816,
                       "key": "Phylum::1410::Foraminifera",
                       "lineage_notes": [
                         "intermediate_rank"
                       ],
                       "name": "Foraminifera",
                       "rank": "Phylum",
-                      "risk_flags": [],
+                      "risk_flags": [
+                        "dwca_aphia_mismatch"
+                      ],
                       "type": "taxon"
                     },
                     {
@@ -9445,15 +9764,17 @@
                     "tara_pacific_deck",
                     "tara_pacific_bongo"
                   ],
-                  "entry_count": 13,
-                  "image_count": 10345,
+                  "entry_count": 14,
+                  "image_count": 10360,
                   "key": "Infrakingdom::582420::Rhizaria",
                   "lineage_notes": [
                     "intermediate_rank"
                   ],
                   "name": "Rhizaria",
                   "rank": "Infrakingdom",
-                  "risk_flags": [],
+                  "risk_flags": [
+                    "dwca_aphia_mismatch"
+                  ],
                   "type": "taxon"
                 }
               ],
@@ -9463,8 +9784,8 @@
                 "tara_pacific_deck",
                 "tara_pacific_bongo"
               ],
-              "entry_count": 132,
-              "image_count": 100740,
+              "entry_count": 133,
+              "image_count": 100755,
               "key": "Subkingdom::582419::Harosa",
               "lineage_notes": [
                 "intermediate_rank"
@@ -9473,6 +9794,7 @@
               "rank": "Subkingdom",
               "risk_flags": [
                 "contaminated",
+                "dwca_aphia_mismatch",
                 "multiple_valid_aphia_ids"
               ],
               "type": "taxon"
@@ -9482,10 +9804,11 @@
             "life_watch",
             "flowcam_net",
             "tara_pacific_deck",
-            "tara_pacific_bongo"
+            "tara_pacific_bongo",
+            "ifremer_srn"
           ],
-          "entry_count": 236,
-          "image_count": 400498,
+          "entry_count": 238,
+          "image_count": 404294,
           "key": "Kingdom::7::Chromista",
           "lineage_notes": [
             "intermediate_rank"
@@ -9742,10 +10065,11 @@
         "life_watch",
         "flowcam_net",
         "tara_pacific_deck",
-        "tara_pacific_bongo"
+        "tara_pacific_bongo",
+        "ifremer_srn"
       ],
-      "entry_count": 264,
-      "image_count": 408881,
+      "entry_count": 266,
+      "image_count": 412677,
       "key": "Superdomain::1::Biota",
       "lineage_notes": [
         "intermediate_rank"
@@ -9760,15 +10084,17 @@
       "type": "taxon"
     }
   ],
-  "dataset_class_entry_count": 261,
+  "dataset_class_entry_count": 263,
   "dataset_colors": {
     "flowcam_net": "#16a34a",
+    "ifremer_srn": "#0891b2",
     "life_watch": "#2563eb",
     "tara_pacific_bongo": "#9333ea",
     "tara_pacific_deck": "#dc2626"
   },
   "dataset_labels": {
     "flowcam_net": "FlowCAMNet",
+    "ifremer_srn": "Ifremer SRN",
     "life_watch": "LifeWatch",
     "tara_pacific_bongo": "Tara Pacific Bongo",
     "tara_pacific_deck": "Tara Pacific Deck"
@@ -9777,15 +10103,16 @@
     "life_watch",
     "flowcam_net",
     "tara_pacific_deck",
-    "tara_pacific_bongo"
+    "tara_pacific_bongo",
+    "ifremer_srn"
   ],
-  "entry_count": 264,
-  "image_count": 408881,
+  "entry_count": 266,
+  "image_count": 412677,
   "lineage_notes": [
     "intermediate_rank"
   ],
   "name": "WoRMS Taxonomy",
-  "placement_weighted_image_count": 408881,
+  "placement_weighted_image_count": 412677,
   "rank": "Root",
   "risk_flags": [
     "contaminated",
@@ -9793,5 +10120,5 @@
     "multiple_valid_aphia_ids"
   ],
   "type": "root",
-  "unique_candidate_image_count": 405177
+  "unique_candidate_image_count": 408973
 }
