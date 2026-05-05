@@ -1823,7 +1823,7 @@
                                                     "contaminated"
                                                   ],
                                                   "selected_aphia_id": "447730",
-                                                  "selected_aphia_source": "local_aphia_id_validation",
+                                                  "selected_aphia_source": "worms_name_assignment",
                                                   "type": "dataset_class"
                                                 }
                                               ],
@@ -6487,7 +6487,7 @@
                                                 "contaminated"
                                               ],
                                               "selected_aphia_id": "732976",
-                                              "selected_aphia_source": "local_aphia_id_validation",
+                                              "selected_aphia_source": "worms_name_assignment",
                                               "type": "dataset_class"
                                             }
                                           ],
@@ -9004,7 +9004,7 @@
                                     "contaminated"
                                   ],
                                   "selected_aphia_id": "146203",
-                                  "selected_aphia_source": "local_aphia_id_validation",
+                                  "selected_aphia_source": "worms_name_assignment",
                                   "type": "dataset_class"
                                 }
                               ],
