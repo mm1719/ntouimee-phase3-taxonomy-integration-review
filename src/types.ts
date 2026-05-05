@@ -2,7 +2,8 @@ export type DatasetId =
   | "life_watch"
   | "flowcam_net"
   | "tara_pacific_deck"
-  | "tara_pacific_bongo";
+  | "tara_pacific_bongo"
+  | "ifremer_srn";
 
 export type TreeNode = {
   type: "root" | "taxon" | "dataset_class";
