@@ -13,11 +13,50 @@ export function HelpModal({ open, onClose }: Props) {
         <div className="drawer-header">
           <div>
             <p className="eyebrow">Terminology</p>
-            <h2>Risk definitions and taxonomy examples</h2>
+            <h2>Summary statistics, risk definitions, and taxonomy examples</h2>
           </div>
           <button className="icon-button" onClick={onClose} aria-label="Close help">
             <X size={18} />
           </button>
+        </div>
+
+        <div className="help-section">
+          <h3>Summary statistics</h3>
+          <dl className="help-list">
+            <div>
+              <dt>Entries</dt>
+              <dd>
+                Valid dataset-class entries. Dataset identity is preserved, so
+                LifeWatch <code>Tripos</code> and FlowCam 2026 <code>Tripos</code>
+                count as two entries even if they resolve to the same selected
+                AphiaID.
+              </dd>
+            </div>
+            <div>
+              <dt>AphiaIDs</dt>
+              <dd>
+                Unique selected WoRMS AphiaIDs across all valid entries. This is
+                the de-duplicated taxonomy count after entries are resolved to
+                their selected WoRMS identifiers.
+              </dd>
+            </div>
+            <div>
+              <dt>Placements</dt>
+              <dd>
+                Taxonomy-tree positions drawn from entries. One entry usually
+                creates one placement, but an entry with multiple valid selected
+                AphiaIDs creates multiple placements, so placements can be higher
+                than entries.
+              </dd>
+            </div>
+            <div>
+              <dt>Images</dt>
+              <dd>
+                Unique candidate images covered by valid entries. This is not the
+                total source image count and is not multiplied by tree placements.
+              </dd>
+            </div>
+          </dl>
         </div>
 
         <div className="help-section">
