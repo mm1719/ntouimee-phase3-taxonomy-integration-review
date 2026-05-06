@@ -26,6 +26,7 @@ export type TreeNode = {
   dataset_colors?: Record<DatasetId, string>;
   dataset_labels?: Record<DatasetId, string>;
   dataset_class_entry_count?: number;
+  unique_selected_aphia_id_count?: number;
   unique_candidate_image_count?: number;
   placement_weighted_image_count?: number;
 };

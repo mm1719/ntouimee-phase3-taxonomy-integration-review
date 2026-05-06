@@ -29,7 +29,7 @@
                     {
                       "children": [],
                       "dataset_id": "life_watch_2026_image_library",
-                      "dataset_label": "LifeWatch 2026 Images",
+                      "dataset_label": "FlowCam 2026",
                       "entry_id": "life_watch_2026_image_library::Polychaeta",
                       "image_count": 12,
                       "lineage_notes": [],
@@ -396,7 +396,7 @@
                             {
                               "children": [],
                               "dataset_id": "life_watch_2026_image_library",
-                              "dataset_label": "LifeWatch 2026 Images",
+                              "dataset_label": "FlowCam 2026",
                               "entry_id": "life_watch_2026_image_library::Copepoda adult",
                               "image_count": 38,
                               "lineage_notes": [],
@@ -454,7 +454,7 @@
                                         {
                                           "children": [],
                                           "dataset_id": "life_watch_2026_image_library",
-                                          "dataset_label": "LifeWatch 2026 Images",
+                                          "dataset_label": "FlowCam 2026",
                                           "entry_id": "life_watch_2026_image_library::Decapoda",
                                           "image_count": 2,
                                           "lineage_notes": [],
@@ -552,7 +552,7 @@
                     {
                       "children": [],
                       "dataset_id": "life_watch_2026_image_library",
-                      "dataset_label": "LifeWatch 2026 Images",
+                      "dataset_label": "FlowCam 2026",
                       "entry_id": "life_watch_2026_image_library::Crustacea",
                       "image_count": 5,
                       "lineage_notes": [],
@@ -639,7 +639,7 @@
                         {
                           "children": [],
                           "dataset_id": "life_watch_2026_image_library",
-                          "dataset_label": "LifeWatch 2026 Images",
+                          "dataset_label": "FlowCam 2026",
                           "entry_id": "life_watch_2026_image_library::Appendicularia",
                           "image_count": 12,
                           "lineage_notes": [],
@@ -746,7 +746,7 @@
                 {
                   "children": [],
                   "dataset_id": "life_watch_2026_image_library",
-                  "dataset_label": "LifeWatch 2026 Images",
+                  "dataset_label": "FlowCam 2026",
                   "entry_id": "life_watch_2026_image_library::Cnidaria",
                   "image_count": 12,
                   "lineage_notes": [],
@@ -783,7 +783,7 @@
                         {
                           "children": [],
                           "dataset_id": "life_watch_2026_image_library",
-                          "dataset_label": "LifeWatch 2026 Images",
+                          "dataset_label": "FlowCam 2026",
                           "entry_id": "life_watch_2026_image_library::Holothuroidea ossicles",
                           "image_count": 6,
                           "lineage_notes": [],
@@ -853,7 +853,7 @@
                 {
                   "children": [],
                   "dataset_id": "life_watch_2026_image_library",
-                  "dataset_label": "LifeWatch 2026 Images",
+                  "dataset_label": "FlowCam 2026",
                   "entry_id": "life_watch_2026_image_library::Mollusca",
                   "image_count": 105,
                   "lineage_notes": [],
@@ -881,7 +881,7 @@
                 {
                   "children": [],
                   "dataset_id": "life_watch_2026_image_library",
-                  "dataset_label": "LifeWatch 2026 Images",
+                  "dataset_label": "FlowCam 2026",
                   "entry_id": "life_watch_2026_image_library::Mollusca incertae",
                   "image_count": 31,
                   "lineage_notes": [],
@@ -913,7 +913,7 @@
                 {
                   "children": [],
                   "dataset_id": "life_watch_2026_image_library",
-                  "dataset_label": "LifeWatch 2026 Images",
+                  "dataset_label": "FlowCam 2026",
                   "entry_id": "life_watch_2026_image_library::Nematoda",
                   "image_count": 111,
                   "lineage_notes": [],
@@ -943,7 +943,7 @@
                 {
                   "children": [],
                   "dataset_id": "life_watch_2026_image_library",
-                  "dataset_label": "LifeWatch 2026 Images",
+                  "dataset_label": "FlowCam 2026",
                   "entry_id": "life_watch_2026_image_library::Porifera spicule",
                   "image_count": 8,
                   "lineage_notes": [],
@@ -1002,7 +1002,7 @@
                 {
                   "children": [],
                   "dataset_id": "life_watch_2026_image_library",
-                  "dataset_label": "LifeWatch 2026 Images",
+                  "dataset_label": "FlowCam 2026",
                   "entry_id": "life_watch_2026_image_library::Rotifera",
                   "image_count": 8,
                   "lineage_notes": [],
@@ -1521,7 +1521,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Achnanthes",
                                               "image_count": 1,
                                               "lineage_notes": [],
@@ -1586,7 +1586,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Bacillaria paxillifer",
                                                   "image_count": 646,
                                                   "lineage_notes": [],
@@ -1779,7 +1779,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Pseudo-nitzschia",
                                               "image_count": 53220,
                                               "lineage_notes": [],
@@ -1910,7 +1910,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Diploneis",
                                               "image_count": 14,
                                               "lineage_notes": [],
@@ -1961,7 +1961,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Meuniera membranacea",
                                                   "image_count": 246,
                                                   "lineage_notes": [],
@@ -2083,7 +2083,7 @@
                                     {
                                       "children": [],
                                       "dataset_id": "life_watch_2026_image_library",
-                                      "dataset_label": "LifeWatch 2026 Images",
+                                      "dataset_label": "FlowCam 2026",
                                       "entry_id": "life_watch_2026_image_library::Zygoceros",
                                       "image_count": 2756,
                                       "lineage_notes": [],
@@ -2161,7 +2161,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Biddulphia alternans",
                                                   "image_count": 27,
                                                   "lineage_notes": [],
@@ -2288,7 +2288,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Bellerochea",
                                                   "image_count": 25776,
                                                   "lineage_notes": [],
@@ -2302,7 +2302,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Bellerochea horologicalis",
                                                   "image_count": 24,
                                                   "lineage_notes": [],
@@ -2445,7 +2445,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Eucampia",
                                               "image_count": 6903,
                                               "lineage_notes": [],
@@ -2632,7 +2632,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Auliscus",
                                               "image_count": 12,
                                               "lineage_notes": [],
@@ -2665,7 +2665,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Hobaniella longicruris",
                                                   "image_count": 475,
                                                   "lineage_notes": [],
@@ -2730,7 +2730,7 @@
                                                     {
                                                       "children": [],
                                                       "dataset_id": "life_watch_2026_image_library",
-                                                      "dataset_label": "LifeWatch 2026 Images",
+                                                      "dataset_label": "FlowCam 2026",
                                                       "entry_id": "life_watch_2026_image_library::Odontella rhombus f. trigona",
                                                       "image_count": 20,
                                                       "lineage_notes": [
@@ -2831,7 +2831,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Ralfsiella smithii",
                                                   "image_count": 28,
                                                   "lineage_notes": [],
@@ -2877,7 +2877,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Triceratium favus",
                                                   "image_count": 29,
                                                   "lineage_notes": [],
@@ -2936,7 +2936,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Trieres mobiliensis/T. regia",
                                               "image_count": 505,
                                               "lineage_notes": [],
@@ -3028,7 +3028,7 @@
                                 {
                                   "children": [],
                                   "dataset_id": "life_watch_2026_image_library",
-                                  "dataset_label": "LifeWatch 2026 Images",
+                                  "dataset_label": "FlowCam 2026",
                                   "entry_id": "life_watch_2026_image_library::Biddulphianae",
                                   "image_count": 14055,
                                   "lineage_notes": [],
@@ -3104,7 +3104,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Bacteriastrum",
                                               "image_count": 737,
                                               "lineage_notes": [],
@@ -3139,7 +3139,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Chaetoceros affinis",
                                                   "image_count": 5,
                                                   "lineage_notes": [],
@@ -3184,7 +3184,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Chaetoceros danicus",
                                                   "image_count": 3,
                                                   "lineage_notes": [],
@@ -3289,7 +3289,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Chaetoceros socialis",
                                                   "image_count": 11,
                                                   "lineage_notes": [],
@@ -3359,7 +3359,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Chaetoceros",
                                               "image_count": 33675,
                                               "lineage_notes": [],
@@ -3373,7 +3373,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Chaetoceros curvisetus/C. pseudocurvisetus",
                                               "image_count": 549,
                                               "lineage_notes": [],
@@ -3523,7 +3523,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Corethron",
                                               "image_count": 7,
                                               "lineage_notes": [],
@@ -3616,7 +3616,7 @@
                                         {
                                           "children": [],
                                           "dataset_id": "life_watch_2026_image_library",
-                                          "dataset_label": "LifeWatch 2026 Images",
+                                          "dataset_label": "FlowCam 2026",
                                           "entry_id": "life_watch_2026_image_library::Asterolampraceae",
                                           "image_count": 8,
                                           "lineage_notes": [],
@@ -3719,7 +3719,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Aulacodiscus argus",
                                                   "image_count": 27,
                                                   "lineage_notes": [],
@@ -3798,7 +3798,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Coscinodiscus concinnus",
                                                   "image_count": 4,
                                                   "lineage_notes": [],
@@ -3843,7 +3843,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Coscinodiscus granii",
                                                   "image_count": 13,
                                                   "lineage_notes": [],
@@ -3888,7 +3888,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Coscinodiscus wailesii",
                                                   "image_count": 2,
                                                   "lineage_notes": [],
@@ -3967,7 +3967,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Actinoptychus senarius",
                                                   "image_count": 10,
                                                   "lineage_notes": [],
@@ -4012,7 +4012,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Actinoptychus splendens",
                                                   "image_count": 15,
                                                   "lineage_notes": [],
@@ -4068,7 +4068,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Actinoptychus",
                                               "image_count": 207,
                                               "lineage_notes": [],
@@ -4161,7 +4161,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Hemidiscus",
                                               "image_count": 1,
                                               "lineage_notes": [],
@@ -4306,7 +4306,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Stephanopyxis",
                                               "image_count": 852,
                                               "lineage_notes": [],
@@ -4386,7 +4386,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Paralia",
                                               "image_count": 505,
                                               "lineage_notes": [],
@@ -4522,7 +4522,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Plagiogrammopsis vanheurckii",
                                                   "image_count": 2,
                                                   "lineage_notes": [],
@@ -4619,7 +4619,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Ditylum brightwellii",
                                                   "image_count": 87438,
                                                   "lineage_notes": [],
@@ -4726,7 +4726,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Helicotheca tamesis",
                                                   "image_count": 1572,
                                                   "lineage_notes": [],
@@ -4803,7 +4803,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Lithodesmium undulatum",
                                                   "image_count": 2958,
                                                   "lineage_notes": [],
@@ -4985,7 +4985,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Guinardia delicatula",
                                                   "image_count": 1517,
                                                   "lineage_notes": [],
@@ -5030,7 +5030,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Guinardia flaccida",
                                                   "image_count": 39681,
                                                   "lineage_notes": [],
@@ -5137,7 +5137,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Neocalyptrella robusta",
                                                   "image_count": 463,
                                                   "lineage_notes": [],
@@ -5199,7 +5199,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Proboscia alata",
                                                   "image_count": 3,
                                                   "lineage_notes": [],
@@ -5244,7 +5244,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Proboscia indica",
                                                   "image_count": 615,
                                                   "lineage_notes": [],
@@ -5286,7 +5286,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Proboscia",
                                               "image_count": 47,
                                               "lineage_notes": [],
@@ -5331,7 +5331,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Rhizosolenia",
                                               "image_count": 148420,
                                               "lineage_notes": [],
@@ -5359,7 +5359,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
                                               "image_count": 30341,
                                               "lineage_notes": [],
@@ -5479,7 +5479,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Detonula",
                                               "image_count": 2,
                                               "lineage_notes": [],
@@ -5523,7 +5523,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Skeletonema",
                                               "image_count": 27,
                                               "lineage_notes": [],
@@ -5665,7 +5665,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Thalassiosira punctigera",
                                                   "image_count": 17,
                                                   "lineage_notes": [],
@@ -5820,7 +5820,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Asterionella",
                                               "image_count": 7808,
                                               "lineage_notes": [],
@@ -5899,7 +5899,7 @@
                                                 {
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026 Images",
+                                                  "dataset_label": "FlowCam 2026",
                                                   "entry_id": "life_watch_2026_image_library::Asteroplanus karianus",
                                                   "image_count": 2,
                                                   "lineage_notes": [],
@@ -6040,7 +6040,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Licmophora",
                                               "image_count": 5,
                                               "lineage_notes": [],
@@ -6294,7 +6294,7 @@
                         {
                           "children": [],
                           "dataset_id": "life_watch_2026_image_library",
-                          "dataset_label": "LifeWatch 2026 Images",
+                          "dataset_label": "FlowCam 2026",
                           "entry_id": "life_watch_2026_image_library::Bacillariophyceae",
                           "image_count": 8259,
                           "lineage_notes": [],
@@ -6350,7 +6350,7 @@
                         {
                           "children": [],
                           "dataset_id": "life_watch_2026_image_library",
-                          "dataset_label": "LifeWatch 2026 Images",
+                          "dataset_label": "FlowCam 2026",
                           "entry_id": "life_watch_2026_image_library::Bacillariophyceae_type1_colony",
                           "image_count": 11,
                           "lineage_notes": [],
@@ -6551,7 +6551,7 @@
                             {
                               "children": [],
                               "dataset_id": "life_watch_2026_image_library",
-                              "dataset_label": "LifeWatch 2026 Images",
+                              "dataset_label": "FlowCam 2026",
                               "entry_id": "life_watch_2026_image_library::Coccolithophyceae",
                               "image_count": 1,
                               "lineage_notes": [
@@ -6796,7 +6796,7 @@
                                                     {
                                                       "children": [],
                                                       "dataset_id": "life_watch_2026_image_library",
-                                                      "dataset_label": "LifeWatch 2026 Images",
+                                                      "dataset_label": "FlowCam 2026",
                                                       "entry_id": "life_watch_2026_image_library::Tintinnopsis",
                                                       "image_count": 6,
                                                       "lineage_notes": [
@@ -7410,7 +7410,7 @@
                                                     {
                                                       "children": [],
                                                       "dataset_id": "life_watch_2026_image_library",
-                                                      "dataset_label": "LifeWatch 2026 Images",
+                                                      "dataset_label": "FlowCam 2026",
                                                       "entry_id": "life_watch_2026_image_library::Favella",
                                                       "image_count": 9,
                                                       "lineage_notes": [
@@ -7990,7 +7990,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Tintinnina",
                                               "image_count": 23,
                                               "lineage_notes": [
@@ -8328,7 +8328,7 @@
                                         {
                                           "children": [],
                                           "dataset_id": "life_watch_2026_image_library",
-                                          "dataset_label": "LifeWatch 2026 Images",
+                                          "dataset_label": "FlowCam 2026",
                                           "entry_id": "life_watch_2026_image_library::Peritrichia",
                                           "image_count": 54,
                                           "lineage_notes": [
@@ -8402,7 +8402,7 @@
                                         {
                                           "children": [],
                                           "dataset_id": "life_watch_2026_image_library",
-                                          "dataset_label": "LifeWatch 2026 Images",
+                                          "dataset_label": "FlowCam 2026",
                                           "entry_id": "life_watch_2026_image_library::Suctoria",
                                           "image_count": 54,
                                           "lineage_notes": [
@@ -8504,7 +8504,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Stentor",
                                               "image_count": 1,
                                               "lineage_notes": [
@@ -8627,7 +8627,7 @@
                         {
                           "children": [],
                           "dataset_id": "life_watch_2026_image_library",
-                          "dataset_label": "LifeWatch 2026 Images",
+                          "dataset_label": "FlowCam 2026",
                           "entry_id": "life_watch_2026_image_library::Ciliophora",
                           "image_count": 2,
                           "lineage_notes": [
@@ -9086,7 +9086,7 @@
                                                     {
                                                       "children": [],
                                                       "dataset_id": "life_watch_2026_image_library",
-                                                      "dataset_label": "LifeWatch 2026 Images",
+                                                      "dataset_label": "FlowCam 2026",
                                                       "entry_id": "life_watch_2026_image_library::Akashiwo sanguinea",
                                                       "image_count": 1,
                                                       "lineage_notes": [
@@ -9285,7 +9285,7 @@
                                         {
                                           "children": [],
                                           "dataset_id": "life_watch_2026_image_library",
-                                          "dataset_label": "LifeWatch 2026 Images",
+                                          "dataset_label": "FlowCam 2026",
                                           "entry_id": "life_watch_2026_image_library::Noctilucales",
                                           "image_count": 1478,
                                           "lineage_notes": [
@@ -9707,7 +9707,7 @@
                                                         {
                                                           "children": [],
                                                           "dataset_id": "life_watch_2026_image_library",
-                                                          "dataset_label": "LifeWatch 2026 Images",
+                                                          "dataset_label": "FlowCam 2026",
                                                           "entry_id": "life_watch_2026_image_library::Tripos furca",
                                                           "image_count": 13,
                                                           "lineage_notes": [
@@ -9744,7 +9744,7 @@
                                                         {
                                                           "children": [],
                                                           "dataset_id": "life_watch_2026_image_library",
-                                                          "dataset_label": "LifeWatch 2026 Images",
+                                                          "dataset_label": "FlowCam 2026",
                                                           "entry_id": "life_watch_2026_image_library::Tripos fusus",
                                                           "image_count": 588,
                                                           "lineage_notes": [
@@ -9813,7 +9813,7 @@
                                                         {
                                                           "children": [],
                                                           "dataset_id": "life_watch_2026_image_library",
-                                                          "dataset_label": "LifeWatch 2026 Images",
+                                                          "dataset_label": "FlowCam 2026",
                                                           "entry_id": "life_watch_2026_image_library::Tripos lineatus",
                                                           "image_count": 21,
                                                           "lineage_notes": [
@@ -9865,7 +9865,7 @@
                                                     {
                                                       "children": [],
                                                       "dataset_id": "life_watch_2026_image_library",
-                                                      "dataset_label": "LifeWatch 2026 Images",
+                                                      "dataset_label": "FlowCam 2026",
                                                       "entry_id": "life_watch_2026_image_library::Tripos",
                                                       "image_count": 101,
                                                       "lineage_notes": [
@@ -10191,7 +10191,7 @@
                                                         {
                                                           "children": [],
                                                           "dataset_id": "life_watch_2026_image_library",
-                                                          "dataset_label": "LifeWatch 2026 Images",
+                                                          "dataset_label": "FlowCam 2026",
                                                           "entry_id": "life_watch_2026_image_library::Dissodinium pseudolunula",
                                                           "image_count": 4,
                                                           "lineage_notes": [
@@ -10701,7 +10701,7 @@
                                                     {
                                                       "children": [],
                                                       "dataset_id": "life_watch_2026_image_library",
-                                                      "dataset_label": "LifeWatch 2026 Images",
+                                                      "dataset_label": "FlowCam 2026",
                                                       "entry_id": "life_watch_2026_image_library::Protoperidinium",
                                                       "image_count": 151,
                                                       "lineage_notes": [
@@ -10920,7 +10920,7 @@
                                 {
                                   "children": [],
                                   "dataset_id": "life_watch_2026_image_library",
-                                  "dataset_label": "LifeWatch 2026 Images",
+                                  "dataset_label": "FlowCam 2026",
                                   "entry_id": "life_watch_2026_image_library::Dinoflagellata",
                                   "image_count": 525,
                                   "lineage_notes": [
@@ -11343,7 +11343,7 @@
                         {
                           "children": [],
                           "dataset_id": "life_watch_2026_image_library",
-                          "dataset_label": "LifeWatch 2026 Images",
+                          "dataset_label": "FlowCam 2026",
                           "entry_id": "life_watch_2026_image_library::Foraminifera",
                           "image_count": 7,
                           "lineage_notes": [
@@ -11545,7 +11545,7 @@
                                     {
                                       "children": [],
                                       "dataset_id": "life_watch_2026_image_library",
-                                      "dataset_label": "LifeWatch 2026 Images",
+                                      "dataset_label": "FlowCam 2026",
                                       "entry_id": "life_watch_2026_image_library::Nassellaria",
                                       "image_count": 11,
                                       "lineage_notes": [
@@ -11694,7 +11694,7 @@
                         {
                           "children": [],
                           "dataset_id": "life_watch_2026_image_library",
-                          "dataset_label": "LifeWatch 2026 Images",
+                          "dataset_label": "FlowCam 2026",
                           "entry_id": "life_watch_2026_image_library::Radiozoa incertae",
                           "image_count": 12,
                           "lineage_notes": [
@@ -11855,7 +11855,7 @@
                                             {
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
-                                              "dataset_label": "LifeWatch 2026 Images",
+                                              "dataset_label": "FlowCam 2026",
                                               "entry_id": "life_watch_2026_image_library::Cosmarium",
                                               "image_count": 1,
                                               "lineage_notes": [
@@ -12245,7 +12245,7 @@
     "flowcam_net": "FlowCAMNet",
     "ifremer_srn": "Ifremer SRN",
     "life_watch": "LifeWatch",
-    "life_watch_2026_image_library": "LifeWatch 2026 Images",
+    "life_watch_2026_image_library": "FlowCam 2026",
     "tara_pacific_bongo": "Tara Pacific Bongo",
     "tara_pacific_deck": "Tara Pacific Deck"
   },
@@ -12271,5 +12271,6 @@
     "multiple_valid_aphia_ids"
   ],
   "type": "root",
-  "unique_candidate_image_count": 882942
+  "unique_candidate_image_count": 882942,
+  "unique_selected_aphia_id_count": 188
 }

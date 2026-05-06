@@ -111,10 +111,10 @@ function App() {
             Terms
           </button>
           <div className="summary-grid">
-            <Stat label="Entries" value="263" />
-            <Stat label="AphiaIDs" value="167" />
-            <Stat label="Placements" value="266" />
-            <Stat label="Images" value="408,973" />
+            <Stat label="Entries" value={formatNumber(data.tree.dataset_class_entry_count)} />
+            <Stat label="AphiaIDs" value={formatNumber(data.tree.unique_selected_aphia_id_count)} />
+            <Stat label="Placements" value={formatNumber(data.tree.entry_count)} />
+            <Stat label="Images" value={formatNumber(data.tree.unique_candidate_image_count)} />
           </div>
         </header>
 
@@ -263,6 +263,10 @@ function Stat({ label, value }: { label: string; value: string }) {
       <strong>{value}</strong>
     </div>
   );
+}
+
+function formatNumber(value: number | undefined) {
+  return typeof value === "number" ? value.toLocaleString() : "0";
 }
 
 export default App;
