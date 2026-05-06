@@ -178,7 +178,6 @@ function App() {
                 <Stat label="Non-taxonomic" value={formatNumber(data.invalid.summary.table_counts.non_taxonomic_category)} />
                 <Stat label="Mismatch" value={formatNumber(data.invalid.summary.table_counts.taxonomic_mismatch)} />
                 <Stat label="Invalid images" value={formatNumber(data.invalid.summary.total_image_count)} />
-                <Stat label="Thumbs/dataset" value={String(data.invalid.summary.sample_limit_per_dataset)} />
               </>
             )}
           </div>
