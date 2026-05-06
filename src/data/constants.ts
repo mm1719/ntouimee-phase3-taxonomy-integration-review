@@ -2,7 +2,7 @@ import type { DatasetId } from "../types";
 
 export const DATASET_LABELS: Record<DatasetId, string> = {
   life_watch: "LifeWatch",
-  life_watch_2026_image_library: "FlowCam 2026",
+  life_watch_2026_image_library: "LifeWatch 2026",
   flowcam_net: "FlowCAMNet",
   tara_pacific_deck: "Tara Pacific Deck",
   tara_pacific_bongo: "Tara Pacific Bongo",

@@ -27,7 +27,7 @@ export function HelpModal({ open, onClose }: Props) {
               <dt>Entries</dt>
               <dd>
                 Valid dataset-class entries. Dataset identity is preserved, so
-                LifeWatch <code>Tripos</code> and FlowCam 2026 <code>Tripos</code>
+                LifeWatch <code>Tripos</code> and LifeWatch 2026 <code>Tripos</code>
                 count as two entries even if they resolve to the same selected
                 AphiaID.
               </dd>
