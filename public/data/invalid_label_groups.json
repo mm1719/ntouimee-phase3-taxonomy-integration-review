@@ -17285,6 +17285,11 @@
     "table_counts": {
       "non_taxonomic_category": 142,
       "taxonomic_mismatch": 35
-    }
+    },
+    "table_image_counts": {
+      "non_taxonomic_category": 3163168,
+      "taxonomic_mismatch": 367401
+    },
+    "total_image_count": 3530569
   }
 }

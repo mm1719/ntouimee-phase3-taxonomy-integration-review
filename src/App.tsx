@@ -151,7 +151,7 @@ function App() {
         <header className="topbar">
           <div>
             <p className="eyebrow">Phase 3 FlowCAM integration</p>
-            <h1>Phase 3 FlowCAM Taxonomy Integration Review</h1>
+            <h1>Taxonomy Integration Review</h1>
           </div>
           <nav className="topnav" aria-label="Review sections">
             <button className={route === "valid" ? "active" : ""} onClick={() => navigate("valid")}>
@@ -177,8 +177,8 @@ function App() {
               <>
                 <Stat label="Non-taxonomic" value={formatNumber(data.invalid.summary.table_counts.non_taxonomic_category)} />
                 <Stat label="Mismatch" value={formatNumber(data.invalid.summary.table_counts.taxonomic_mismatch)} />
-                <Stat label="Samples/group" value={String(data.invalid.summary.sample_limit_per_dataset)} />
-                <Stat label="Overlap" value="Hidden" />
+                <Stat label="Invalid images" value={formatNumber(data.invalid.summary.total_image_count)} />
+                <Stat label="Thumbs/dataset" value={String(data.invalid.summary.sample_limit_per_dataset)} />
               </>
             )}
           </div>
@@ -323,7 +323,6 @@ function App() {
                 data={data.invalid}
                 selected={selectedInvalid}
                 onSelect={setSelectedInvalid}
-                onOpenSamples={setInvalidSampleKey}
               />
               <InvalidDetailDrawer
                 group={selectedInvalid}

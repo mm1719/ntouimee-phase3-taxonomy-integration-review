@@ -108,5 +108,7 @@ export type InvalidLabelData = {
     sample_limit_per_dataset: number;
     excluded_valid_tree_overlap_default: boolean;
     table_counts: Record<string, number>;
+    table_image_counts: Record<string, number>;
+    total_image_count: number;
   };
 };

@@ -1,4 +1,4 @@
-# Phase 3 FlowCAM Taxonomy Integration Review
+# Taxonomy Integration Review
 
 Interactive review dashboard for the phase 3 valid-class taxonomy tree and remaining invalid-label review tables.
 

@@ -43,6 +43,7 @@ select { width: 100%; border: 1px solid #cfd5ca; border-radius: 8px; padding: 8p
 .tree-toolbar { display: flex; align-items: center; justify-content: flex-end; gap: 6px; margin: -4px 0 10px; }
 .tree-toolbar button { border: 1px solid #cfd5ca; background: #fff; border-radius: 6px; padding: 5px 8px; cursor: pointer; }
 .tree-toolbar button:hover { background: #f8faf7; border-color: #9aa59a; }
+.compact-toolbar { margin: 6px 0 0; }
 .tree-scale .node-name { font-size: 1em; }
 .tree-scale .node-meta { font-size: .84em; }
 .tree-scale .terminal-chip strong { font-size: .9em; }
@@ -50,6 +51,7 @@ select { width: 100%; border: 1px solid #cfd5ca; border-radius: 8px; padding: 8p
 .empty-state { min-height: 320px; display: grid; align-content: center; justify-items: center; gap: 8px; border: 1px dashed #cfd5ca; background: #fbfcfa; border-radius: 8px; color: #526071; text-align: center; padding: 24px; }
 .empty-state h2 { color: #253044; font-size: 18px; }
 .panel-header { display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; margin-bottom: 12px; }
+.panel-actions { display: grid; justify-items: end; gap: 2px; }
 .tree-branch { margin-left: 16px; }
 .tree-branch > summary { list-style: none; display: flex; align-items: center; min-height: 32px; cursor: pointer; }
 .tree-branch > summary::-webkit-details-marker { display: none; }
@@ -107,9 +109,11 @@ th, td { text-align: left; border-bottom: 1px solid #eef0ea; padding: 8px; white
 th { color: #526071; background: #fafbf8; cursor: pointer; }
 tbody tr:hover { background: #f8faf7; }
 .invalid-panel { padding: 14px; }
-.dense-table table { font-size: 12px; }
+.dense-table table { font-size: .92em; }
 .dense-table th, .dense-table td { padding: 7px; }
 .strong-cell { font-weight: 650; color: #1f2937; }
+.alias-list { display: grid; gap: 3px; min-width: 180px; max-width: 360px; white-space: normal; overflow-wrap: anywhere; line-height: 1.28; }
+.alias-token { display: block; }
 .selected-row { background: #eff6ff; }
 .detail-list { margin: 8px 0 0; padding-left: 18px; color: #465568; font-size: 12px; line-height: 1.45; }
 .detail-list li + li { margin-top: 5px; }

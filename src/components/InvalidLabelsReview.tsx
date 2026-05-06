@@ -6,9 +6,8 @@ import {
   useReactTable,
   type SortingState
 } from "@tanstack/react-table";
-import { Images, Search } from "lucide-react";
+import { Search } from "lucide-react";
 import { useMemo, useState } from "react";
-import { DatasetBadge } from "./Badges";
 import type { DatasetId, InvalidLabelData, InvalidLabelGroup } from "../types";
 import { DATASET_LABELS, DATASETS } from "../data/constants";
 
@@ -18,7 +17,6 @@ type Props = {
   data: InvalidLabelData;
   selected: InvalidLabelGroup | null;
   onSelect: (group: InvalidLabelGroup) => void;
-  onOpenSamples: (sampleKey: string) => void;
 };
 
 const TABLES: Array<{ key: InvalidTableKey; label: string }> = [
@@ -35,12 +33,13 @@ function aliasSort(value: string) {
     .join("|");
 }
 
-export function InvalidLabelsReview({ data, selected, onSelect, onOpenSamples }: Props) {
+export function InvalidLabelsReview({ data, selected, onSelect }: Props) {
   const [activeTable, setActiveTable] = useState<InvalidTableKey>("non_taxonomic_category");
   const [query, setQuery] = useState("");
   const [datasets, setDatasets] = useState<Set<DatasetId>>(new Set(DATASETS));
   const [showValidTreeOverlap, setShowValidTreeOverlap] = useState(false);
   const [sorting, setSorting] = useState<SortingState>([]);
+  const [tableScale, setTableScale] = useState(1);
 
   const rows = useMemo(() => {
     const normalizedQuery = query.trim().toLocaleLowerCase();
@@ -65,13 +64,24 @@ export function InvalidLabelsReview({ data, selected, onSelect, onOpenSamples }:
 
   const columns = useMemo(
     () => [
+      helper.display({
+        id: "row_id",
+        header: "ID",
+        cell: (info) => info.row.index + 1
+      }),
       helper.accessor((row) => row.aliases.join(" / "), {
         id: "aliases",
         header: "Aliases",
-        cell: (info) => <span className="strong-cell">{info.getValue()}</span>
+        cell: (info) => (
+          <div className="alias-list">
+            {info.row.original.aliases.map((alias) => (
+              <span className="alias-token strong-cell" key={alias}>{alias}</span>
+            ))}
+          </div>
+        )
       }),
       helper.accessor("total_image_count", {
-        header: "Total",
+        header: "Images",
         cell: (info) => info.getValue().toLocaleString()
       }),
       ...DATASETS.map((dataset) =>
@@ -83,34 +93,9 @@ export function InvalidLabelsReview({ data, selected, onSelect, onOpenSamples }:
             cell: (info) => info.getValue().toLocaleString()
           }
         )
-      ),
-      helper.display({
-        id: "datasets",
-        header: "Datasets",
-        cell: (info) => (
-          <div className="stack">
-            {info.row.original.dataset_ids.map((dataset) => <DatasetBadge key={dataset} id={dataset} />)}
-          </div>
-        )
-      }),
-      helper.display({
-        id: "samples",
-        header: "Samples",
-        cell: (info) => (
-          <button
-            className="icon-button"
-            onClick={(event) => {
-              event.stopPropagation();
-              onOpenSamples(info.row.original.sample_key);
-            }}
-            aria-label={`Open samples for ${info.row.original.aliases.join(", ")}`}
-          >
-            <Images size={15} />
-          </button>
-        )
-      })
+      )
     ],
-    [onOpenSamples]
+    []
   );
 
   const table = useReactTable({
@@ -193,12 +178,20 @@ export function InvalidLabelsReview({ data, selected, onSelect, onOpenSamples }:
             <p className="eyebrow">Invalid labels</p>
             <h2>{TABLES.find((table) => table.key === activeTable)?.label}</h2>
           </div>
-          <p className="muted">
-            {rows.length.toLocaleString()} grouped rows · sorted case-insensitively by alias
-          </p>
+          <div className="panel-actions">
+            <p className="muted">
+              {rows.length.toLocaleString()} grouped rows · sorted case-insensitively by alias
+            </p>
+            <div className="tree-toolbar compact-toolbar">
+              <span className="muted">Table text</span>
+              <button onClick={() => setTableScale((value) => Math.max(0.92, value - 0.08))}>A-</button>
+              <button onClick={() => setTableScale(1)}>Reset</button>
+              <button onClick={() => setTableScale((value) => Math.min(1.32, value + 0.08))}>A+</button>
+            </div>
+          </div>
         </div>
 
-        <div className="table-wrap dense-table">
+        <div className="table-wrap dense-table" style={{ fontSize: `${tableScale}rem` }}>
           <table>
             <thead>
               {table.getHeaderGroups().map((group) => (
