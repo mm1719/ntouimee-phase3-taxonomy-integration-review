@@ -46,7 +46,33 @@ export function DetailDrawer({ node, candidate, samples, onClose, onOpenSamples 
         <div><dt>Placements</dt><dd>{node.entry_count.toLocaleString()}</dd></div>
         {candidate && <div><dt>Source priority</dt><dd>{candidate.selected_aphia_source}</dd></div>}
         {candidate && <div><dt>Terminal rank</dt><dd>{candidate.terminal_ranks.split("|").join(", ")}</dd></div>}
+        {candidate?.original_label && candidate.original_label !== candidate.label && (
+          <div><dt>Original label</dt><dd>{candidate.original_label}</dd></div>
+        )}
       </dl>
+
+      {candidate?.synonym_note && (
+        <div className="drawer-section">
+          <h3>Synonym correction</h3>
+          <dl className="kv compact-kv">
+            <div><dt>Accepted name</dt><dd>{candidate.accepted_name || "n/a"}</dd></div>
+            <div><dt>Accepted AphiaID</dt><dd>{candidate.accepted_aphia_id || "n/a"}</dd></div>
+          </dl>
+          <p className="muted">{candidate.synonym_note}</p>
+        </div>
+      )}
+
+      {candidate?.broad_class && (
+        <div className="drawer-section">
+          <h3>Broad class mapping</h3>
+          <dl className="kv compact-kv">
+            <div><dt>Broad class</dt><dd>{candidate.broad_class}</dd></div>
+            <div><dt>Original label</dt><dd>{candidate.broad_class_original_label || candidate.original_label}</dd></div>
+            <div><dt>Broad AphiaID</dt><dd>{candidate.broad_class_aphia_id || "n/a"}</dd></div>
+          </dl>
+          <p className="path-text">{candidate.broad_class_source_file}</p>
+        </div>
+      )}
 
       {candidate && (
         <div className="drawer-section">

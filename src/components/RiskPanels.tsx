@@ -22,7 +22,20 @@ export function RiskPanels({ candidates, onSelect }: Props) {
   const [sorting, setSorting] = useState<SortingState>([]);
 
   const rows = useMemo(
-    () => candidates.filter((row) => row.risk_flags.split("|").includes(activeRisk)),
+    () => {
+      const filtered = candidates.filter((row) => row.risk_flags.split("|").includes(activeRisk));
+      if (activeRisk !== "broad_class") return filtered;
+      const seenBroadClasses = new Set<string>();
+      return [...filtered]
+        .sort((a, b) => Number(b.image_count) - Number(a.image_count))
+        .filter((row) => {
+          const broadClass = row.broad_class || "unknown";
+          if (seenBroadClasses.has(broadClass)) return false;
+          seenBroadClasses.add(broadClass);
+          return true;
+        })
+        .slice(0, 6);
+    },
     [activeRisk, candidates]
   );
 
@@ -35,7 +48,14 @@ export function RiskPanels({ candidates, onSelect }: Props) {
         cell: (info) => Number(info.getValue()).toLocaleString()
       }),
       helper.accessor("selected_aphia_ids", { header: "Selected AphiaID" }),
-      helper.accessor("dwca_aphia_ids", { header: "DwC AphiaID" }),
+      helper.accessor("dwca_aphia_ids", {
+        header: "DwC/Broad AphiaID",
+        cell: (info) => {
+          const row = info.row.original;
+          return row.broad_class_aphia_id || info.getValue();
+        }
+      }),
+      helper.accessor("broad_class", { header: "Broad class" }),
       helper.accessor("terminal_ranks", { header: "Terminal rank" })
     ],
     []
@@ -58,7 +78,7 @@ export function RiskPanels({ candidates, onSelect }: Props) {
           <h2>Risk review panels</h2>
         </div>
         <div className="segmented">
-          {["dwca_aphia_mismatch", "contaminated", "multiple_valid_aphia_ids"].map((risk) => (
+          {["dwca_aphia_mismatch", "contaminated", "multiple_valid_aphia_ids", "broad_class"].map((risk) => (
             <button
               key={risk}
               className={risk === activeRisk ? "active" : ""}
@@ -71,6 +91,11 @@ export function RiskPanels({ candidates, onSelect }: Props) {
       </div>
 
       <div className="table-wrap">
+        {activeRisk === "broad_class" && (
+          <p className="muted panel-note">
+            Showing up to six examples, with one row per broad class.
+          </p>
+        )}
         <table>
           <thead>
             {table.getHeaderGroups().map((group) => (

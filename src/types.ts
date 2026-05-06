@@ -15,8 +15,14 @@ export type TreeNode = {
   placement_id?: string;
   dataset_id?: DatasetId;
   dataset_label?: string;
+  original_label?: string;
   selected_aphia_id?: string;
   selected_aphia_source?: string;
+  synonym_note?: string;
+  broad_class?: string;
+  broad_class_original_label?: string;
+  broad_class_aphia_id?: string;
+  broad_class_source_file?: string;
   image_count: number;
   entry_count: number;
   datasets?: DatasetId[];
@@ -35,6 +41,7 @@ export type Candidate = {
   entry_id: string;
   dataset_id: DatasetId;
   label: string;
+  original_label: string;
   image_count: string;
   selected_aphia_ids: string;
   selected_aphia_source: string;
@@ -47,6 +54,13 @@ export type Candidate = {
   worms_aphia_ids: string;
   dwca_aphia_ids: string;
   worms_record_urls: string;
+  synonym_note: string;
+  accepted_name: string;
+  accepted_aphia_id: string;
+  broad_class: string;
+  broad_class_original_label: string;
+  broad_class_aphia_id: string;
+  broad_class_source_file: string;
   source_example: string;
 };
 

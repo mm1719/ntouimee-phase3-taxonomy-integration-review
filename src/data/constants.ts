@@ -35,7 +35,8 @@ export const CORE_RANKS = new Set([
 export const RISK_LABELS: Record<string, string> = {
   dwca_aphia_mismatch: "DwC/Aphia mismatch",
   contaminated: "Contaminated",
-  multiple_valid_aphia_ids: "Multiple AphiaID"
+  multiple_valid_aphia_ids: "Multiple AphiaID",
+  broad_class: "Broad class"
 };
 
 export const NOTE_LABELS: Record<string, string> = {

@@ -10,7 +10,7 @@ export function DatasetBadge({ id }: { id: DatasetId }) {
 }
 
 export function RiskBadge({ risk }: { risk: string }) {
-  return <span className="risk-badge">{RISK_LABELS[risk] ?? risk}</span>;
+  return <span className={`risk-badge risk-${risk}`}>{RISK_LABELS[risk] ?? risk}</span>;
 }
 
 export function NoteBadge({ note }: { note: string }) {

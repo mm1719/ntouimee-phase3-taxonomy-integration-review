@@ -71,6 +71,7 @@ select { width: 100%; border: 1px solid #cfd5ca; border-radius: 8px; padding: 8p
 .badge, .risk-badge, .note-badge, .pill { border-radius: 5px; padding: 2px 6px; font-size: 12px; white-space: nowrap; background: #fff; }
 .badge { border-left: 4px solid; border-top: 1px solid #e5e7eb; border-right: 1px solid #e5e7eb; border-bottom: 1px solid #e5e7eb; }
 .risk-badge { border: 1px solid #d97706; color: #92400e; background: #fff7ed; }
+.risk-broad_class { border-color: #ea580c; color: #9a3412; background: #ffedd5; }
 .note-badge { border: 1px solid #a3aab6; color: #344054; background: #f8fafc; }
 .pill { border: 1px solid #ccd3ca; background: #f8faf7; }
 .pill-row, .stack { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -83,12 +84,14 @@ select { width: 100%; border: 1px solid #cfd5ca; border-radius: 8px; padding: 8p
 .primary-button { border: 1px solid #1d4ed8; background: #1d4ed8; color: #fff; padding: 8px 10px; }
 .drawer-section { border-top: 1px solid #eceee8; margin-top: 14px; padding-top: 14px; }
 .kv div { display: grid; grid-template-columns: 110px 1fr; gap: 8px; padding: 7px 0; border-bottom: 1px solid #f0f2ed; }
+.compact-kv div { grid-template-columns: 130px 1fr; padding: 5px 0; }
 .kv dt { color: #667085; }
 .kv dd { margin: 0; overflow-wrap: anywhere; }
 .path-text { color: #465568; overflow-wrap: anywhere; font-size: 12px; line-height: 1.45; }
 .link { display: block; color: #1d4ed8; overflow-wrap: anywhere; font-size: 12px; }
 
 .panel { margin-top: 18px; padding: 14px; }
+.panel-note { margin: -4px 0 8px; }
 .segmented { display: flex; flex-wrap: wrap; gap: 6px; }
 .segmented button { border: 1px solid #d7dbd2; background: #fff; border-radius: 7px; padding: 4px; cursor: pointer; }
 .segmented button.active { background: #fef3c7; border-color: #f59e0b; }

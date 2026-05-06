@@ -30,6 +30,8 @@ Current demo data is generated from the phase 3 study outputs, then copied into 
 2. The script writes the canonical visualization outputs to `studies/valid_class_taxonomy_visualization/`, including:
    - `valid_class_candidates.csv`
    - `taxonomy_tree.json`
+   - `taxonomy_lineage_report.md`
+   - `round1_invalid_label_cleanup.md` under `studies/label_aphia_inventory/`
 3. The current demo uses copied static data under `public/data/`:
    - `public/data/taxonomy_tree.json`
    - `public/data/valid_class_candidates.csv`
@@ -38,3 +40,8 @@ Current demo data is generated from the phase 3 study outputs, then copied into 
 5. The React app fetches `/data/taxonomy_tree.json`, `/data/valid_class_candidates.csv`, and `/data/class_image_samples.json` at runtime.
 
 `studies/label_aphia_inventory/worms_invalid_labels_for_review.*` is a manual review report, not a frontend data source. A label can be listed for review while still appearing in the demo when it is a contaminated or otherwise risk-flagged valid-tree candidate.
+
+Round 1 cleanup adds two display-only promotion paths to the demo:
+
+- Synonym corrections use the accepted WoRMS AphiaID and display labels as `accepted/original`, such as `Chaetoceros peruvianum/peruvianus`.
+- Tara Pacific broad-class promotions display labels as `broad class: original label`, use the broad-class AphiaID for tree placement, and add the `Broad class` risk flag.

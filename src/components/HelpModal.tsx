@@ -85,6 +85,15 @@ export function HelpModal({ open, onClose }: Props) {
                 placed in multiple lineage positions rather than merged automatically.
               </dd>
             </div>
+            <div>
+              <dt>Broad class</dt>
+              <dd>
+                Tara Pacific invalid label was mapped to a literature-derived
+                broad class, and that broad class exact-matched WoRMS. The tree
+                places it under the broad-class terminal while preserving the
+                original label in the detail drawer.
+              </dd>
+            </div>
           </dl>
         </div>
 
