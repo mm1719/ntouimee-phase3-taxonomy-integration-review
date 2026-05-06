@@ -1,6 +1,6 @@
-# NTOU IMEE Phase 3 Valid Class Taxonomy
+# Phase 3 FlowCAM Taxonomy Integration Review
 
-Interactive taxonomy tree prototype for the phase 3 valid-class lineage study.
+Interactive review dashboard for the phase 3 valid-class taxonomy tree and remaining invalid-label review tables.
 
 ## Development
 
@@ -19,6 +19,11 @@ npm run build
 
 The app reads static study exports from `public/data/` and resized sample thumbnails from `public/samples/`. Original local image paths are not exposed; sample metadata keeps relative `source_ref` values for traceability.
 
+Routes:
+
+- `/valid`: valid class taxonomy tree.
+- `/invalid`: invalid labels review tables.
+
 ## Demo Data Flow
 
 Current demo data is generated from the phase 3 study outputs, then copied into this Vite app as static files:
@@ -36,8 +41,10 @@ Current demo data is generated from the phase 3 study outputs, then copied into 
    - `public/data/taxonomy_tree.json`
    - `public/data/valid_class_candidates.csv`
    - `public/data/class_image_samples.json`
+   - `public/data/invalid_label_groups.json`
 4. `scripts/build_valid_class_demo_samples.py` builds `class_image_samples.json` and thumbnail files under `public/samples/` from the analysis-ready manifests.
-5. The React app fetches `/data/taxonomy_tree.json`, `/data/valid_class_candidates.csv`, and `/data/class_image_samples.json` at runtime.
+5. `scripts/build_invalid_label_demo_data.py` builds `invalid_label_groups.json` and invalid thumbnails under `public/invalid-samples/` from `worms_invalid_labels_for_review.csv` and analysis-ready manifests.
+6. The React app fetches `/data/taxonomy_tree.json`, `/data/valid_class_candidates.csv`, `/data/class_image_samples.json`, and `/data/invalid_label_groups.json` at runtime.
 
 `studies/label_aphia_inventory/worms_invalid_labels_for_review.*` is a manual review report, not a frontend data source. A label can be listed for review while still appearing in the demo when it is a contaminated or otherwise risk-flagged valid-tree candidate.
 

@@ -75,3 +75,38 @@ export type ImageSample = {
 };
 
 export type SampleMap = Record<string, ImageSample[]>;
+
+export type InvalidDatasetEvidence = {
+  dataset_id: DatasetId;
+  aliases: string[];
+  image_count: number;
+  reasons: string[];
+  source_examples: string[];
+  worms_sources: string[];
+  valid_tree_entry: "yes" | "no";
+};
+
+export type InvalidLabelGroup = {
+  group_key: string;
+  sample_key: string;
+  aliases: string[];
+  status: "Non-Taxonomic Category" | "Taxonomic Mismatch";
+  dataset_ids: DatasetId[];
+  total_image_count: number;
+  include_valid_tree_overlap: boolean;
+  datasets: InvalidDatasetEvidence[];
+};
+
+export type InvalidLabelData = {
+  tables: {
+    non_taxonomic_category: InvalidLabelGroup[];
+    taxonomic_mismatch: InvalidLabelGroup[];
+  };
+  samples: SampleMap;
+  summary: {
+    source: string;
+    sample_limit_per_dataset: number;
+    excluded_valid_tree_overlap_default: boolean;
+    table_counts: Record<string, number>;
+  };
+};

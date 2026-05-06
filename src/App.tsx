@@ -2,11 +2,13 @@ import { useEffect, useMemo, useState } from "react";
 import { HelpCircle, Search, SlidersHorizontal } from "lucide-react";
 import { DetailDrawer } from "./components/DetailDrawer";
 import { HelpModal } from "./components/HelpModal";
+import { InvalidDetailDrawer } from "./components/InvalidDetailDrawer";
+import { InvalidLabelsReview } from "./components/InvalidLabelsReview";
 import { RiskPanels } from "./components/RiskPanels";
 import { SamplePage } from "./components/SamplePage";
 import { TaxonomyTree } from "./components/TaxonomyTree";
 import { DATASET_LABELS, DATASETS, RISK_LABELS } from "./data/constants";
-import type { Candidate, DatasetId, SampleMap, TreeNode } from "./types";
+import type { Candidate, DatasetId, InvalidLabelData, InvalidLabelGroup, SampleMap, TreeNode } from "./types";
 import { parseCsv } from "./utils/csv";
 import { collectRanks, filterTree, normalizeTree, type Filters } from "./utils/tree";
 
@@ -14,10 +16,18 @@ type DataState = {
   tree: TreeNode;
   candidates: Candidate[];
   samples: SampleMap;
+  invalid: InvalidLabelData;
 };
+
+type Route = "valid" | "invalid";
+
+function currentRoute(): Route {
+  return window.location.pathname.startsWith("/invalid") ? "invalid" : "valid";
+}
 
 function App() {
   const [data, setData] = useState<DataState | null>(null);
+  const [route, setRoute] = useState<Route>(currentRoute());
   const [query, setQuery] = useState("");
   const [datasets, setDatasets] = useState<Set<DatasetId>>(new Set(DATASETS));
   const [risks, setRisks] = useState<Set<string>>(new Set());
@@ -26,23 +36,46 @@ function App() {
   const [treeScale, setTreeScale] = useState(1.08);
   const [helpOpen, setHelpOpen] = useState(false);
   const [selected, setSelected] = useState<TreeNode | null>(null);
+  const [selectedInvalid, setSelectedInvalid] = useState<InvalidLabelGroup | null>(null);
   const [sampleEntry, setSampleEntry] = useState<string | null>(null);
+  const [invalidSampleKey, setInvalidSampleKey] = useState<string | null>(null);
 
   useEffect(() => {
     async function load() {
-      const [treeRes, candidatesRes, samplesRes] = await Promise.all([
+      const [treeRes, candidatesRes, samplesRes, invalidRes] = await Promise.all([
         fetch("/data/taxonomy_tree.json"),
         fetch("/data/valid_class_candidates.csv"),
-        fetch("/data/class_image_samples.json")
+        fetch("/data/class_image_samples.json"),
+        fetch("/data/invalid_label_groups.json")
       ]);
       const tree = (await treeRes.json()) as TreeNode;
       setData({
         tree: normalizeTree(tree),
         candidates: parseCsv<Candidate>(await candidatesRes.text()),
-        samples: await samplesRes.json()
+        samples: await samplesRes.json(),
+        invalid: await invalidRes.json()
       });
     }
     void load();
+  }, []);
+
+  useEffect(() => {
+    function handlePopState() {
+      setRoute(currentRoute());
+      setSelected(null);
+      setSelectedInvalid(null);
+      setSampleEntry(null);
+      setInvalidSampleKey(null);
+    }
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, []);
+
+  useEffect(() => {
+    if (window.location.pathname === "/") {
+      window.history.replaceState(null, "", "/valid");
+      setRoute("valid");
+    }
   }, []);
 
   const candidateByEntry = useMemo(() => {
@@ -72,6 +105,20 @@ function App() {
   }
 
   const sampleCandidate = sampleEntry ? candidateByEntry.get(sampleEntry) : undefined;
+  const invalidSampleGroup = invalidSampleKey
+    ? [...data.invalid.tables.non_taxonomic_category, ...data.invalid.tables.taxonomic_mismatch]
+        .find((group) => group.sample_key === invalidSampleKey)
+    : undefined;
+
+  function navigate(nextRoute: Route) {
+    const path = nextRoute === "valid" ? "/valid" : "/invalid";
+    window.history.pushState(null, "", path);
+    setRoute(nextRoute);
+    setSelected(null);
+    setSelectedInvalid(null);
+    setSampleEntry(null);
+    setInvalidSampleKey(null);
+  }
 
   function toggleDataset(dataset: DatasetId) {
     setDatasets((current) => {
@@ -100,26 +147,47 @@ function App() {
 
   return (
     <div className="app-shell">
-      <div className={sampleCandidate ? "taxonomy-view hidden-view" : "taxonomy-view"}>
+      <div className={sampleCandidate || invalidSampleGroup ? "taxonomy-view hidden-view" : "taxonomy-view"}>
         <header className="topbar">
           <div>
             <p className="eyebrow">Phase 3 FlowCAM integration</p>
-            <h1>Valid Class Taxonomy</h1>
+            <h1>Phase 3 FlowCAM Taxonomy Integration Review</h1>
           </div>
+          <nav className="topnav" aria-label="Review sections">
+            <button className={route === "valid" ? "active" : ""} onClick={() => navigate("valid")}>
+              Valid tree
+            </button>
+            <button className={route === "invalid" ? "active" : ""} onClick={() => navigate("invalid")}>
+              Invalid labels
+            </button>
+          </nav>
           <button className="help-button" onClick={() => setHelpOpen(true)} aria-label="Open terminology help">
             <HelpCircle size={18} />
             Terms
           </button>
           <div className="summary-grid">
-            <Stat label="Entries" value={formatNumber(data.tree.dataset_class_entry_count)} />
-            <Stat label="AphiaIDs" value={formatNumber(data.tree.unique_selected_aphia_id_count)} />
-            <Stat label="Placements" value={formatNumber(data.tree.entry_count)} />
-            <Stat label="Images" value={formatNumber(data.tree.unique_candidate_image_count)} />
+            {route === "valid" ? (
+              <>
+                <Stat label="Entries" value={formatNumber(data.tree.dataset_class_entry_count)} />
+                <Stat label="AphiaIDs" value={formatNumber(data.tree.unique_selected_aphia_id_count)} />
+                <Stat label="Placements" value={formatNumber(data.tree.entry_count)} />
+                <Stat label="Images" value={formatNumber(data.tree.unique_candidate_image_count)} />
+              </>
+            ) : (
+              <>
+                <Stat label="Non-taxonomic" value={formatNumber(data.invalid.summary.table_counts.non_taxonomic_category)} />
+                <Stat label="Mismatch" value={formatNumber(data.invalid.summary.table_counts.taxonomic_mismatch)} />
+                <Stat label="Samples/group" value={String(data.invalid.summary.sample_limit_per_dataset)} />
+                <Stat label="Overlap" value="Hidden" />
+              </>
+            )}
           </div>
         </header>
 
         <div className="workspace">
-          <aside className="filters">
+          {route === "valid" ? (
+            <>
+            <aside className="filters">
             <div className="searchbox">
               <Search size={16} />
               <input
@@ -180,9 +248,9 @@ function App() {
                 Hidden mode visually skips intermediate ranks and connects their children to the nearest visible parent.
               </p>
             </section>
-          </aside>
+            </aside>
 
-          <main className="tree-panel">
+            <main className="tree-panel">
             <div className="panel-header">
             <div>
               <p className="eyebrow">Tree</p>
@@ -239,15 +307,32 @@ function App() {
               }
             }}
           />
-        </main>
+            </main>
 
-        <DetailDrawer
-          node={selected}
-          candidate={selectedCandidate}
-          samples={selectedSamples}
-          onClose={() => setSelected(null)}
-          onOpenSamples={setSampleEntry}
-        />
+            <DetailDrawer
+              node={selected}
+              candidate={selectedCandidate}
+              samples={selectedSamples}
+              onClose={() => setSelected(null)}
+              onOpenSamples={setSampleEntry}
+            />
+            </>
+          ) : (
+            <>
+              <InvalidLabelsReview
+                data={data.invalid}
+                selected={selectedInvalid}
+                onSelect={setSelectedInvalid}
+                onOpenSamples={setInvalidSampleKey}
+              />
+              <InvalidDetailDrawer
+                group={selectedInvalid}
+                samples={selectedInvalid ? data.invalid.samples[selectedInvalid.sample_key] ?? [] : []}
+                onClose={() => setSelectedInvalid(null)}
+                onOpenSamples={setInvalidSampleKey}
+              />
+            </>
+          )}
       </div>
       </div>
       {sampleEntry && sampleCandidate && (
@@ -255,6 +340,15 @@ function App() {
           candidate={sampleCandidate}
           samples={data.samples[sampleEntry] ?? []}
           onBack={() => setSampleEntry(null)}
+        />
+      )}
+      {invalidSampleKey && invalidSampleGroup && (
+        <SamplePage
+          title={invalidSampleGroup.aliases.join(" / ")}
+          subtitle={`${invalidSampleGroup.status} · ${invalidSampleGroup.total_image_count.toLocaleString()} images · showing up to 5 thumbnails per dataset`}
+          backLabel="Back to invalid labels"
+          samples={data.invalid.samples[invalidSampleKey] ?? []}
+          onBack={() => setInvalidSampleKey(null)}
         />
       )}
       <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)} />

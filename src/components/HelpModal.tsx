@@ -98,6 +98,44 @@ export function HelpModal({ open, onClose }: Props) {
         </div>
 
         <div className="help-section">
+          <h3>Invalid label review</h3>
+          <dl className="help-list">
+            <div>
+              <dt>Invalid label</dt>
+              <dd>
+                A dataset label that remains outside the valid taxonomy tree after
+                round 0 and round 1 cleanup. These rows are kept for expert review,
+                not automatic integration.
+              </dd>
+            </div>
+            <div>
+              <dt>Non-Taxonomic Category</dt>
+              <dd>
+                A label that is non-biological, grouped, temporary, too coarse for
+                strict matching, or lacks an exact usable WoRMS match under the
+                current rules.
+              </dd>
+            </div>
+            <div>
+              <dt>Taxonomic Mismatch</dt>
+              <dd>
+                A local numeric AphiaID resolves to a WoRMS taxon that does not
+                match the dataset label. The original reason text is preserved in
+                the invalid detail drawer.
+              </dd>
+            </div>
+            <div>
+              <dt>Valid-tree overlap</dt>
+              <dd>
+                An invalid-review row whose dataset label is already represented in
+                the valid tree, usually as a contaminated candidate. Invalid review
+                hides these rows by default.
+              </dd>
+            </div>
+          </dl>
+        </div>
+
+        <div className="help-section">
           <h3>Taxonomy display examples</h3>
           <p className="muted help-note">
             These examples explain how to read the tree. They are not risk examples unless
