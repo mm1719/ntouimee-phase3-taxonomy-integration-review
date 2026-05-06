@@ -19,7 +19,6 @@ h2 { font-size: 16px; letter-spacing: 0; }
 h3 { font-size: 14px; }
 .eyebrow { color: #657185; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; font-weight: 700; }
 .summary-grid { display: grid; grid-template-columns: repeat(4, minmax(92px, 1fr)); gap: 8px; }
-.summary-grid-invalid { grid-template-columns: repeat(3, minmax(112px, 1fr)); margin-left: auto; }
 .stat { border: 1px solid #d7dbd2; background: #fff; border-radius: 8px; padding: 8px 10px; }
 .stat span { display: block; color: #667085; font-size: 12px; }
 .stat strong { display: block; font-size: 18px; }

@@ -165,7 +165,7 @@ function App() {
             <HelpCircle size={18} />
             Terms
           </button>
-          <div className={`summary-grid ${route === "invalid" ? "summary-grid-invalid" : ""}`}>
+          <div className="summary-grid">
             {route === "valid" ? (
               <>
                 <Stat label="Entries" value={formatNumber(data.tree.dataset_class_entry_count)} />
@@ -177,6 +177,13 @@ function App() {
               <>
                 <Stat label="Non-taxonomic" value={formatNumber(data.invalid.summary.table_counts.non_taxonomic_category)} />
                 <Stat label="Mismatch" value={formatNumber(data.invalid.summary.table_counts.taxonomic_mismatch)} />
+                <Stat
+                  label="Total invalid"
+                  value={formatNumber(
+                    data.invalid.summary.table_counts.non_taxonomic_category +
+                      data.invalid.summary.table_counts.taxonomic_mismatch
+                  )}
+                />
                 <Stat label="Invalid images" value={formatNumber(data.invalid.summary.total_image_count)} />
               </>
             )}
