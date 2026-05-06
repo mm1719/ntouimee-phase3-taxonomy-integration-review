@@ -1,5 +1,6 @@
 export type DatasetId =
   | "life_watch"
+  | "life_watch_2026_image_library"
   | "flowcam_net"
   | "tara_pacific_deck"
   | "tara_pacific_bongo"

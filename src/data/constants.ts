@@ -2,6 +2,7 @@ import type { DatasetId } from "../types";
 
 export const DATASET_LABELS: Record<DatasetId, string> = {
   life_watch: "LifeWatch",
+  life_watch_2026_image_library: "LifeWatch 2026 Images",
   flowcam_net: "FlowCAMNet",
   tara_pacific_deck: "Tara Pacific Deck",
   tara_pacific_bongo: "Tara Pacific Bongo",
@@ -10,6 +11,7 @@ export const DATASET_LABELS: Record<DatasetId, string> = {
 
 export const DATASET_COLORS: Record<DatasetId, string> = {
   life_watch: "#2563eb",
+  life_watch_2026_image_library: "#7c3aed",
   flowcam_net: "#16a34a",
   tara_pacific_deck: "#f97316",
   tara_pacific_bongo: "#dc2626",
