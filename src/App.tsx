@@ -165,7 +165,7 @@ function App() {
             <HelpCircle size={18} />
             Terms
           </button>
-          <div className="summary-grid">
+          <div className={`summary-grid ${route === "invalid" ? "summary-grid-invalid" : ""}`}>
             {route === "valid" ? (
               <>
                 <Stat label="Entries" value={formatNumber(data.tree.dataset_class_entry_count)} />
