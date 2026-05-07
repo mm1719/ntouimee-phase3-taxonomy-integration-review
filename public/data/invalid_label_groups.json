@@ -1627,38 +1627,7 @@
         "group_key": "fiber",
         "sample_key": "non_taxonomic_category::fiber",
         "aliases": [
-          "fiber"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "flowcam_net"
-        ],
-        "total_image_count": 8873,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "flowcam_net",
-            "aliases": [
-              "fiber"
-            ],
-            "image_count": 8873,
-            "reasons": [
-              "Strict rule: label contains non-taxonomic, grouped, or temporary-category markers"
-            ],
-            "source_examples": [
-              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/fiber?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "fuber",
-        "sample_key": "non_taxonomic_category::fuber",
-        "aliases": [
+          "fiber",
           "fiber<detritus",
           "Fibers"
         ],
@@ -1666,10 +1635,11 @@
         "dataset_ids": [
           "life_watch",
           "life_watch_2026_image_library",
+          "flowcam_net",
           "tara_pacific_deck",
           "tara_pacific_bongo"
         ],
-        "total_image_count": 181065,
+        "total_image_count": 189938,
         "include_valid_tree_overlap": false,
         "datasets": [
           {
@@ -1705,6 +1675,23 @@
             ],
             "worms_sources": [
               "https://www.marinespecies.org/rest/AphiaRecordsByName/Fibers?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no"
+          },
+          {
+            "dataset_id": "flowcam_net",
+            "aliases": [
+              "fiber"
+            ],
+            "image_count": 8873,
+            "reasons": [
+              "Strict rule: label contains non-taxonomic, grouped, or temporary-category markers"
+            ],
+            "source_examples": [
+              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
+            ],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/fiber?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
           },
@@ -8288,6 +8275,96 @@
     ],
     "non_taxonomic_category::fiber": [
       {
+        "dataset_id": "life_watch",
+        "label": "Fibers",
+        "image_id": "2C01348A-A6CB-4C36-8910-0A4E01187B19",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/fibers/01_116da7dcfe.jpg",
+        "source_ref": "datasets/LifeWatch/data/images/Fibers/ecotaxa_Fibers_2C01348A-A6CB-4C36-8910-0A4E01187B19.jpg",
+        "width": "18",
+        "height": "159"
+      },
+      {
+        "dataset_id": "life_watch",
+        "label": "Fibers",
+        "image_id": "4C69FE6E-0AA5-4CBA-BB94-4140D2084F7D",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/fibers/02_36f3b351ce.jpg",
+        "source_ref": "datasets/LifeWatch/data/images/Fibers/ecotaxa_Fibers_4C69FE6E-0AA5-4CBA-BB94-4140D2084F7D.jpg",
+        "width": "29",
+        "height": "77"
+      },
+      {
+        "dataset_id": "life_watch",
+        "label": "Fibers",
+        "image_id": "B449A03F-68FD-49B1-BB05-7A3AA22FD137",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/fibers/03_39a05c2a1b.jpg",
+        "source_ref": "datasets/LifeWatch/data/images/Fibers/ecotaxa_Fibers_B449A03F-68FD-49B1-BB05-7A3AA22FD137.jpg",
+        "width": "20",
+        "height": "92"
+      },
+      {
+        "dataset_id": "life_watch",
+        "label": "Fibers",
+        "image_id": "243AF60F-FF06-4BBB-95B2-09C773788160",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/fibers/04_a9a7c9cec6.jpg",
+        "source_ref": "datasets/LifeWatch/data/images/Fibers/ecotaxa_Fibers_243AF60F-FF06-4BBB-95B2-09C773788160.jpg",
+        "width": "107",
+        "height": "37"
+      },
+      {
+        "dataset_id": "life_watch",
+        "label": "Fibers",
+        "image_id": "51913AB0-5C36-4A82-8A4E-61A1478BDA2B",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/fibers/05_b2072faba4.jpg",
+        "source_ref": "datasets/LifeWatch/data/images/Fibers/ecotaxa_Fibers_51913AB0-5C36-4A82-8A4E-61A1478BDA2B.jpg",
+        "width": "46",
+        "height": "91"
+      },
+      {
+        "dataset_id": "life_watch_2026_image_library",
+        "label": "Fibers",
+        "image_id": "636D54C4-2EBB-4E26-8ACA-0B793EB676FD",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/fibers/01_1f0e18da00.jpg",
+        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Fibers/636D54C4-2EBB-4E26-8ACA-0B793EB676FD.png",
+        "width": "",
+        "height": ""
+      },
+      {
+        "dataset_id": "life_watch_2026_image_library",
+        "label": "Fibers",
+        "image_id": "416033BB-C26F-4AE7-96D4-DE90EB5AE49F",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/fibers/02_50459549a0.jpg",
+        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Fibers/416033BB-C26F-4AE7-96D4-DE90EB5AE49F.png",
+        "width": "",
+        "height": ""
+      },
+      {
+        "dataset_id": "life_watch_2026_image_library",
+        "label": "Fibers",
+        "image_id": "547C5C24-EF0F-4D30-B0F6-438EDF242D9A",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/fibers/03_102577bc98.jpg",
+        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Fibers/547C5C24-EF0F-4D30-B0F6-438EDF242D9A.png",
+        "width": "",
+        "height": ""
+      },
+      {
+        "dataset_id": "life_watch_2026_image_library",
+        "label": "Fibers",
+        "image_id": "32EE71DE-3A38-4227-9B69-F402862AD470",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/fibers/04_97964ed01b.jpg",
+        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Fibers/32EE71DE-3A38-4227-9B69-F402862AD470.png",
+        "width": "",
+        "height": ""
+      },
+      {
+        "dataset_id": "life_watch_2026_image_library",
+        "label": "Fibers",
+        "image_id": "02FD62E1-7402-46F1-AD05-BAA80F7B03C7",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/fibers/05_ef9c369982.jpg",
+        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Fibers/02FD62E1-7402-46F1-AD05-BAA80F7B03C7.png",
+        "width": "",
+        "height": ""
+      },
+      {
         "dataset_id": "flowcam_net",
         "label": "fiber",
         "image_id": "165658976",
@@ -8331,104 +8408,12 @@
         "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/fiber/165383734.png",
         "width": "9",
         "height": "74"
-      }
-    ],
-    "non_taxonomic_category::fuber": [
-      {
-        "dataset_id": "life_watch",
-        "label": "Fibers",
-        "image_id": "2C01348A-A6CB-4C36-8910-0A4E01187B19",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/fibers/01_dd45934f2a.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Fibers/ecotaxa_Fibers_2C01348A-A6CB-4C36-8910-0A4E01187B19.jpg",
-        "width": "18",
-        "height": "159"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Fibers",
-        "image_id": "4C69FE6E-0AA5-4CBA-BB94-4140D2084F7D",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/fibers/02_35f945738f.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Fibers/ecotaxa_Fibers_4C69FE6E-0AA5-4CBA-BB94-4140D2084F7D.jpg",
-        "width": "29",
-        "height": "77"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Fibers",
-        "image_id": "B449A03F-68FD-49B1-BB05-7A3AA22FD137",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/fibers/03_433eb00922.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Fibers/ecotaxa_Fibers_B449A03F-68FD-49B1-BB05-7A3AA22FD137.jpg",
-        "width": "20",
-        "height": "92"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Fibers",
-        "image_id": "243AF60F-FF06-4BBB-95B2-09C773788160",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/fibers/04_ad41a9b9f7.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Fibers/ecotaxa_Fibers_243AF60F-FF06-4BBB-95B2-09C773788160.jpg",
-        "width": "107",
-        "height": "37"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Fibers",
-        "image_id": "51913AB0-5C36-4A82-8A4E-61A1478BDA2B",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/fibers/05_ff5124505e.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Fibers/ecotaxa_Fibers_51913AB0-5C36-4A82-8A4E-61A1478BDA2B.jpg",
-        "width": "46",
-        "height": "91"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Fibers",
-        "image_id": "636D54C4-2EBB-4E26-8ACA-0B793EB676FD",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/fibers/01_990b27df43.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Fibers/636D54C4-2EBB-4E26-8ACA-0B793EB676FD.png",
-        "width": "",
-        "height": ""
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Fibers",
-        "image_id": "416033BB-C26F-4AE7-96D4-DE90EB5AE49F",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/fibers/02_ea35354539.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Fibers/416033BB-C26F-4AE7-96D4-DE90EB5AE49F.png",
-        "width": "",
-        "height": ""
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Fibers",
-        "image_id": "547C5C24-EF0F-4D30-B0F6-438EDF242D9A",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/fibers/03_4714d43e18.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Fibers/547C5C24-EF0F-4D30-B0F6-438EDF242D9A.png",
-        "width": "",
-        "height": ""
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Fibers",
-        "image_id": "32EE71DE-3A38-4227-9B69-F402862AD470",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/fibers/04_3ba71ce7f4.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Fibers/32EE71DE-3A38-4227-9B69-F402862AD470.png",
-        "width": "",
-        "height": ""
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Fibers",
-        "image_id": "02FD62E1-7402-46F1-AD05-BAA80F7B03C7",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/fibers/05_ad9bdf81be.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Fibers/02FD62E1-7402-46F1-AD05-BAA80F7B03C7.png",
-        "width": "",
-        "height": ""
       },
       {
         "dataset_id": "tara_pacific_deck",
         "label": "fiber<detritus",
         "image_id": "i00_oa136_001_g100014429_2051",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/fiber_detritus/01_eba88f57ff.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/fiber_detritus/01_95ffe8001e.jpg",
         "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_2051.jpg",
         "width": "97",
         "height": "129"
@@ -8437,7 +8422,7 @@
         "dataset_id": "tara_pacific_deck",
         "label": "fiber<detritus",
         "image_id": "i00_oa136_001_g100014429_10357",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/fiber_detritus/02_a61ea65db6.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/fiber_detritus/02_c207782293.jpg",
         "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_10357.jpg",
         "width": "97",
         "height": "122"
@@ -8446,7 +8431,7 @@
         "dataset_id": "tara_pacific_deck",
         "label": "fiber<detritus",
         "image_id": "i00_oa136_001_g100014429_43",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/fiber_detritus/03_97aeb13d60.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/fiber_detritus/03_f015db91e0.jpg",
         "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_43.jpg",
         "width": "97",
         "height": "99"
@@ -8455,7 +8440,7 @@
         "dataset_id": "tara_pacific_deck",
         "label": "fiber<detritus",
         "image_id": "i00_oa136_001_g100014429_483",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/fiber_detritus/04_396a840266.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/fiber_detritus/04_72c8c474eb.jpg",
         "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_483.jpg",
         "width": "97",
         "height": "122"
@@ -8464,7 +8449,7 @@
         "dataset_id": "tara_pacific_deck",
         "label": "fiber<detritus",
         "image_id": "i00_oa136_001_g100014429_2595",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/fiber_detritus/05_aa5269cecf.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/fiber_detritus/05_f7f7bf22a2.jpg",
         "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_2595.jpg",
         "width": "97",
         "height": "75"
@@ -8473,7 +8458,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "fiber<detritus",
         "image_id": "aw_i04_s4_002_r110001920_7438",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/fiber_detritus/01_8c2a13743b.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/fiber_detritus/01_3726702a46.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_7438.jpg",
         "width": "97",
         "height": "175"
@@ -8482,7 +8467,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "fiber<detritus",
         "image_id": "aw_i04_s4_002_r110001920_9758",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/fiber_detritus/02_53d467686d.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/fiber_detritus/02_17e7534bf8.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_9758.jpg",
         "width": "97",
         "height": "122"
@@ -8491,7 +8476,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "fiber<detritus",
         "image_id": "aw_i04_s4_002_r110001920_6231",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/fiber_detritus/03_064dec212a.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/fiber_detritus/03_8427b4c26d.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_6231.jpg",
         "width": "97",
         "height": "106"
@@ -8500,7 +8485,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "fiber<detritus",
         "image_id": "aw_i04_s4_002_r110001920_17777",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/fiber_detritus/04_f72f48a7e1.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/fiber_detritus/04_b0878ca31e.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_17777.jpg",
         "width": "97",
         "height": "142"
@@ -8509,7 +8494,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "fiber<detritus",
         "image_id": "aw_i04_s4_002_r110001920_8866",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/fiber_detritus/05_409bcc1aab.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/fiber_detritus/05_231c79fc60.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_8866.jpg",
         "width": "97",
         "height": "101"
@@ -15222,7 +15207,7 @@
     "sample_limit_per_dataset": 5,
     "excluded_valid_tree_overlap_default": true,
     "table_counts": {
-      "non_taxonomic_category": 104,
+      "non_taxonomic_category": 103,
       "taxonomic_mismatch": 32
     },
     "table_image_counts": {
