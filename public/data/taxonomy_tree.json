@@ -477,7 +477,7 @@
                               "broad_class": "Copepoda",
                               "broad_class_aphia_id": "1080",
                               "broad_class_original_label": "Copepoda<Maxillopoda",
-                              "broad_class_source_file": "studies/label_aphia_inventory/tara_pacific_bongo_broad_class.json",
+                              "broad_class_source_file": "round2_broad_class_expansion",
                               "children": [],
                               "dataset_id": "tara_pacific_bongo",
                               "dataset_label": "Tara Pacific Bongo",
@@ -491,7 +491,29 @@
                                 "broad_class"
                               ],
                               "selected_aphia_id": "1080",
-                              "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                              "selected_aphia_source": "round2_broad_class_mapping",
+                              "synonym_note": "",
+                              "type": "dataset_class"
+                            },
+                            {
+                              "broad_class": "Copepoda",
+                              "broad_class_aphia_id": "1080",
+                              "broad_class_original_label": "Copepoda<Maxillopoda",
+                              "broad_class_source_file": "round2_broad_class_expansion",
+                              "children": [],
+                              "dataset_id": "tara_pacific_deck",
+                              "dataset_label": "Tara Pacific Deck",
+                              "entry_id": "tara_pacific_deck::Copepoda<Maxillopoda",
+                              "image_count": 451,
+                              "lineage_notes": [],
+                              "name": "Copepoda: Copepoda<Maxillopoda",
+                              "original_label": "Copepoda<Maxillopoda",
+                              "placement_id": "tara_pacific_deck::Copepoda<Maxillopoda::1080::1",
+                              "risk_flags": [
+                                "broad_class"
+                              ],
+                              "selected_aphia_id": "1080",
+                              "selected_aphia_source": "round2_broad_class_mapping",
                               "synonym_note": "",
                               "type": "dataset_class"
                             },
@@ -542,10 +564,11 @@
                             "life_watch",
                             "life_watch_2026_image_library",
                             "flowcam_net",
+                            "tara_pacific_deck",
                             "tara_pacific_bongo"
                           ],
-                          "entry_count": 12,
-                          "image_count": 2358,
+                          "entry_count": 13,
+                          "image_count": 2809,
                           "key": "Class::1080::Copepoda",
                           "lineage_notes": [
                             "intermediate_rank"
@@ -646,10 +669,11 @@
                         "life_watch",
                         "life_watch_2026_image_library",
                         "flowcam_net",
+                        "tara_pacific_deck",
                         "tara_pacific_bongo"
                       ],
-                      "entry_count": 13,
-                      "image_count": 2360,
+                      "entry_count": 14,
+                      "image_count": 2811,
                       "key": "Superclass::845959::Multicrustacea",
                       "lineage_notes": [
                         "intermediate_rank"
@@ -775,8 +799,8 @@
                     "tara_pacific_deck",
                     "tara_pacific_bongo"
                   ],
-                  "entry_count": 18,
-                  "image_count": 16171,
+                  "entry_count": 19,
+                  "image_count": 16622,
                   "key": "Subphylum::1066::Crustacea",
                   "lineage_notes": [
                     "intermediate_rank"
@@ -796,8 +820,8 @@
                 "tara_pacific_deck",
                 "tara_pacific_bongo"
               ],
-              "entry_count": 18,
-              "image_count": 16171,
+              "entry_count": 19,
+              "image_count": 16622,
               "key": "Phylum::1065::Arthropoda",
               "lineage_notes": [
                 "intermediate_rank"
@@ -1415,8 +1439,8 @@
             "tara_pacific_deck",
             "tara_pacific_bongo"
           ],
-          "entry_count": 40,
-          "image_count": 19256,
+          "entry_count": 41,
+          "image_count": 19707,
           "key": "Kingdom::2::Animalia",
           "lineage_notes": [
             "intermediate_rank"
@@ -1819,7 +1843,31 @@
                       "broad_class": "Cyanobacteria",
                       "broad_class_aphia_id": "146537",
                       "broad_class_original_label": "cyano a",
-                      "broad_class_source_file": "studies/label_aphia_inventory/tara_pacific_deck_broad_class.json",
+                      "broad_class_source_file": "round2_broad_class_expansion",
+                      "children": [],
+                      "dataset_id": "flowcam_net",
+                      "dataset_label": "FlowCAMNet",
+                      "entry_id": "flowcam_net::cyano a",
+                      "image_count": 7301,
+                      "lineage_notes": [
+                        "intermediate_rank"
+                      ],
+                      "name": "Cyanobacteria: cyano a",
+                      "original_label": "cyano a",
+                      "placement_id": "flowcam_net::cyano a::146537::1",
+                      "risk_flags": [
+                        "broad_class"
+                      ],
+                      "selected_aphia_id": "146537",
+                      "selected_aphia_source": "round2_broad_class_mapping",
+                      "synonym_note": "",
+                      "type": "dataset_class"
+                    },
+                    {
+                      "broad_class": "Cyanobacteria",
+                      "broad_class_aphia_id": "146537",
+                      "broad_class_original_label": "cyano a",
+                      "broad_class_source_file": "round2_broad_class_expansion",
                       "children": [],
                       "dataset_id": "tara_pacific_deck",
                       "dataset_label": "Tara Pacific Deck",
@@ -1835,7 +1883,7 @@
                         "broad_class"
                       ],
                       "selected_aphia_id": "146537",
-                      "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                      "selected_aphia_source": "round2_broad_class_mapping",
                       "synonym_note": "",
                       "type": "dataset_class"
                     },
@@ -1843,7 +1891,31 @@
                       "broad_class": "Cyanobacteria",
                       "broad_class_aphia_id": "146537",
                       "broad_class_original_label": "cyano b",
-                      "broad_class_source_file": "studies/label_aphia_inventory/tara_pacific_deck_broad_class.json",
+                      "broad_class_source_file": "round2_broad_class_expansion",
+                      "children": [],
+                      "dataset_id": "flowcam_net",
+                      "dataset_label": "FlowCAMNet",
+                      "entry_id": "flowcam_net::cyano b",
+                      "image_count": 36215,
+                      "lineage_notes": [
+                        "intermediate_rank"
+                      ],
+                      "name": "Cyanobacteria: cyano b",
+                      "original_label": "cyano b",
+                      "placement_id": "flowcam_net::cyano b::146537::1",
+                      "risk_flags": [
+                        "broad_class"
+                      ],
+                      "selected_aphia_id": "146537",
+                      "selected_aphia_source": "round2_broad_class_mapping",
+                      "synonym_note": "",
+                      "type": "dataset_class"
+                    },
+                    {
+                      "broad_class": "Cyanobacteria",
+                      "broad_class_aphia_id": "146537",
+                      "broad_class_original_label": "cyano b",
+                      "broad_class_source_file": "round2_broad_class_expansion",
                       "children": [],
                       "dataset_id": "tara_pacific_deck",
                       "dataset_label": "Tara Pacific Deck",
@@ -1859,7 +1931,7 @@
                         "broad_class"
                       ],
                       "selected_aphia_id": "146537",
-                      "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                      "selected_aphia_source": "round2_broad_class_mapping",
                       "synonym_note": "",
                       "type": "dataset_class"
                     },
@@ -1867,7 +1939,7 @@
                       "broad_class": "Cyanobacteria",
                       "broad_class_aphia_id": "146537",
                       "broad_class_original_label": "Cyanobacteria<Proteobacteria",
-                      "broad_class_source_file": "studies/label_aphia_inventory/tara_pacific_bongo_broad_class.json",
+                      "broad_class_source_file": "round2_broad_class_expansion",
                       "children": [],
                       "dataset_id": "tara_pacific_bongo",
                       "dataset_label": "Tara Pacific Bongo",
@@ -1883,7 +1955,79 @@
                         "broad_class"
                       ],
                       "selected_aphia_id": "146537",
-                      "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                      "selected_aphia_source": "round2_broad_class_mapping",
+                      "synonym_note": "",
+                      "type": "dataset_class"
+                    },
+                    {
+                      "broad_class": "Cyanobacteria",
+                      "broad_class_aphia_id": "146537",
+                      "broad_class_original_label": "Cyanobacteria<Proteobacteria",
+                      "broad_class_source_file": "round2_broad_class_expansion",
+                      "children": [],
+                      "dataset_id": "tara_pacific_deck",
+                      "dataset_label": "Tara Pacific Deck",
+                      "entry_id": "tara_pacific_deck::Cyanobacteria<Proteobacteria",
+                      "image_count": 2339,
+                      "lineage_notes": [
+                        "intermediate_rank"
+                      ],
+                      "name": "Cyanobacteria: Cyanobacteria<Proteobacteria",
+                      "original_label": "Cyanobacteria<Proteobacteria",
+                      "placement_id": "tara_pacific_deck::Cyanobacteria<Proteobacteria::146537::1",
+                      "risk_flags": [
+                        "broad_class"
+                      ],
+                      "selected_aphia_id": "146537",
+                      "selected_aphia_source": "round2_broad_class_mapping",
+                      "synonym_note": "",
+                      "type": "dataset_class"
+                    },
+                    {
+                      "broad_class": "Cyanobacteria",
+                      "broad_class_aphia_id": "146537",
+                      "broad_class_original_label": "UCYNA like",
+                      "broad_class_source_file": "studies/label_aphia_inventory/tara_pacific_bongo_broad_class.json",
+                      "children": [],
+                      "dataset_id": "tara_pacific_bongo",
+                      "dataset_label": "Tara Pacific Bongo",
+                      "entry_id": "tara_pacific_bongo::UCYNA like",
+                      "image_count": 9,
+                      "lineage_notes": [
+                        "intermediate_rank"
+                      ],
+                      "name": "Cyanobacteria: UCYNA like",
+                      "original_label": "UCYNA like",
+                      "placement_id": "tara_pacific_bongo::UCYNA like::146537::1",
+                      "risk_flags": [
+                        "broad_class"
+                      ],
+                      "selected_aphia_id": "146537",
+                      "selected_aphia_source": "round2_broad_class_mapping",
+                      "synonym_note": "",
+                      "type": "dataset_class"
+                    },
+                    {
+                      "broad_class": "Cyanobacteria",
+                      "broad_class_aphia_id": "146537",
+                      "broad_class_original_label": "UCYNA like",
+                      "broad_class_source_file": "studies/label_aphia_inventory/tara_pacific_deck_broad_class.json",
+                      "children": [],
+                      "dataset_id": "tara_pacific_deck",
+                      "dataset_label": "Tara Pacific Deck",
+                      "entry_id": "tara_pacific_deck::UCYNA like",
+                      "image_count": 435,
+                      "lineage_notes": [
+                        "intermediate_rank"
+                      ],
+                      "name": "Cyanobacteria: UCYNA like",
+                      "original_label": "UCYNA like",
+                      "placement_id": "tara_pacific_deck::UCYNA like::146537::1",
+                      "risk_flags": [
+                        "broad_class"
+                      ],
+                      "selected_aphia_id": "146537",
+                      "selected_aphia_source": "round2_broad_class_mapping",
                       "synonym_note": "",
                       "type": "dataset_class"
                     }
@@ -1893,8 +2037,8 @@
                     "tara_pacific_deck",
                     "tara_pacific_bongo"
                   ],
-                  "entry_count": 9,
-                  "image_count": 50614,
+                  "entry_count": 14,
+                  "image_count": 96913,
                   "key": "Phylum::146537::Cyanobacteria",
                   "lineage_notes": [
                     "intermediate_rank"
@@ -1912,8 +2056,8 @@
                 "tara_pacific_deck",
                 "tara_pacific_bongo"
               ],
-              "entry_count": 9,
-              "image_count": 50614,
+              "entry_count": 14,
+              "image_count": 96913,
               "key": "Subkingdom::1741194::Negibacteria",
               "lineage_notes": [
                 "intermediate_rank"
@@ -1931,8 +2075,8 @@
             "tara_pacific_deck",
             "tara_pacific_bongo"
           ],
-          "entry_count": 9,
-          "image_count": 50614,
+          "entry_count": 14,
+          "image_count": 96913,
           "key": "Kingdom::6::Bacteria",
           "lineage_notes": [
             "intermediate_rank"
@@ -1954,7 +2098,7 @@
                   "broad_class": "Bacillariophyta",
                   "broad_class_aphia_id": "148898",
                   "broad_class_original_label": "Bacteriastrum<Mediophyceae",
-                  "broad_class_source_file": "studies/label_aphia_inventory/tara_pacific_bongo_broad_class.json",
+                  "broad_class_source_file": "round2_broad_class_expansion",
                   "children": [],
                   "dataset_id": "tara_pacific_bongo",
                   "dataset_label": "Tara Pacific Bongo",
@@ -1968,7 +2112,29 @@
                     "broad_class"
                   ],
                   "selected_aphia_id": "148898",
-                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                  "selected_aphia_source": "round2_broad_class_mapping",
+                  "synonym_note": "",
+                  "type": "dataset_class"
+                },
+                {
+                  "broad_class": "Bacillariophyta",
+                  "broad_class_aphia_id": "148898",
+                  "broad_class_original_label": "Bacteriastrum<Mediophyceae",
+                  "broad_class_source_file": "round2_broad_class_expansion",
+                  "children": [],
+                  "dataset_id": "tara_pacific_deck",
+                  "dataset_label": "Tara Pacific Deck",
+                  "entry_id": "tara_pacific_deck::Bacteriastrum<Mediophyceae",
+                  "image_count": 1747,
+                  "lineage_notes": [],
+                  "name": "Bacillariophyta: Bacteriastrum<Mediophyceae",
+                  "original_label": "Bacteriastrum<Mediophyceae",
+                  "placement_id": "tara_pacific_deck::Bacteriastrum<Mediophyceae::148898::1",
+                  "risk_flags": [
+                    "broad_class"
+                  ],
+                  "selected_aphia_id": "148898",
+                  "selected_aphia_source": "round2_broad_class_mapping",
                   "synonym_note": "",
                   "type": "dataset_class"
                 },
@@ -2020,7 +2186,7 @@
                   "broad_class": "Bacillariophyta",
                   "broad_class_aphia_id": "148898",
                   "broad_class_original_label": "Chaetoceros<Mediophyceae",
-                  "broad_class_source_file": "studies/label_aphia_inventory/tara_pacific_bongo_broad_class.json",
+                  "broad_class_source_file": "round2_broad_class_expansion",
                   "children": [],
                   "dataset_id": "tara_pacific_bongo",
                   "dataset_label": "Tara Pacific Bongo",
@@ -2034,7 +2200,117 @@
                     "broad_class"
                   ],
                   "selected_aphia_id": "148898",
-                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                  "selected_aphia_source": "round2_broad_class_mapping",
+                  "synonym_note": "",
+                  "type": "dataset_class"
+                },
+                {
+                  "broad_class": "Bacillariophyta",
+                  "broad_class_aphia_id": "148898",
+                  "broad_class_original_label": "Chaetoceros<Mediophyceae",
+                  "broad_class_source_file": "round2_broad_class_expansion",
+                  "children": [],
+                  "dataset_id": "tara_pacific_deck",
+                  "dataset_label": "Tara Pacific Deck",
+                  "entry_id": "tara_pacific_deck::Chaetoceros<Mediophyceae",
+                  "image_count": 10226,
+                  "lineage_notes": [],
+                  "name": "Bacillariophyta: Chaetoceros<Mediophyceae",
+                  "original_label": "Chaetoceros<Mediophyceae",
+                  "placement_id": "tara_pacific_deck::Chaetoceros<Mediophyceae::148898::1",
+                  "risk_flags": [
+                    "broad_class"
+                  ],
+                  "selected_aphia_id": "148898",
+                  "selected_aphia_source": "round2_broad_class_mapping",
+                  "synonym_note": "",
+                  "type": "dataset_class"
+                },
+                {
+                  "broad_class": "Bacillariophyta",
+                  "broad_class_aphia_id": "148898",
+                  "broad_class_original_label": "chainlarge",
+                  "broad_class_source_file": "studies/label_aphia_inventory/tara_pacific_bongo_broad_class.json",
+                  "children": [],
+                  "dataset_id": "tara_pacific_bongo",
+                  "dataset_label": "Tara Pacific Bongo",
+                  "entry_id": "tara_pacific_bongo::chainlarge",
+                  "image_count": 445,
+                  "lineage_notes": [],
+                  "name": "Bacillariophyta: chainlarge",
+                  "original_label": "chainlarge",
+                  "placement_id": "tara_pacific_bongo::chainlarge::148898::1",
+                  "risk_flags": [
+                    "broad_class"
+                  ],
+                  "selected_aphia_id": "148898",
+                  "selected_aphia_source": "round2_broad_class_mapping",
+                  "synonym_note": "",
+                  "type": "dataset_class"
+                },
+                {
+                  "broad_class": "Bacillariophyta",
+                  "broad_class_aphia_id": "148898",
+                  "broad_class_original_label": "chainlarge",
+                  "broad_class_source_file": "studies/label_aphia_inventory/tara_pacific_deck_broad_class.json",
+                  "children": [],
+                  "dataset_id": "tara_pacific_deck",
+                  "dataset_label": "Tara Pacific Deck",
+                  "entry_id": "tara_pacific_deck::chainlarge",
+                  "image_count": 1654,
+                  "lineage_notes": [],
+                  "name": "Bacillariophyta: chainlarge",
+                  "original_label": "chainlarge",
+                  "placement_id": "tara_pacific_deck::chainlarge::148898::1",
+                  "risk_flags": [
+                    "broad_class"
+                  ],
+                  "selected_aphia_id": "148898",
+                  "selected_aphia_source": "round2_broad_class_mapping",
+                  "synonym_note": "",
+                  "type": "dataset_class"
+                },
+                {
+                  "broad_class": "Bacillariophyta",
+                  "broad_class_aphia_id": "148898",
+                  "broad_class_original_label": "chainthin",
+                  "broad_class_source_file": "studies/label_aphia_inventory/tara_pacific_bongo_broad_class.json",
+                  "children": [],
+                  "dataset_id": "tara_pacific_bongo",
+                  "dataset_label": "Tara Pacific Bongo",
+                  "entry_id": "tara_pacific_bongo::chainthin",
+                  "image_count": 5483,
+                  "lineage_notes": [],
+                  "name": "Bacillariophyta: chainthin",
+                  "original_label": "chainthin",
+                  "placement_id": "tara_pacific_bongo::chainthin::148898::1",
+                  "risk_flags": [
+                    "broad_class"
+                  ],
+                  "selected_aphia_id": "148898",
+                  "selected_aphia_source": "round2_broad_class_mapping",
+                  "synonym_note": "",
+                  "type": "dataset_class"
+                },
+                {
+                  "broad_class": "Bacillariophyta",
+                  "broad_class_aphia_id": "148898",
+                  "broad_class_original_label": "chainthin",
+                  "broad_class_source_file": "studies/label_aphia_inventory/tara_pacific_deck_broad_class.json",
+                  "children": [],
+                  "dataset_id": "tara_pacific_deck",
+                  "dataset_label": "Tara Pacific Deck",
+                  "entry_id": "tara_pacific_deck::chainthin",
+                  "image_count": 29380,
+                  "lineage_notes": [],
+                  "name": "Bacillariophyta: chainthin",
+                  "original_label": "chainthin",
+                  "placement_id": "tara_pacific_deck::chainthin::148898::1",
+                  "risk_flags": [
+                    "broad_class"
+                  ],
+                  "selected_aphia_id": "148898",
+                  "selected_aphia_source": "round2_broad_class_mapping",
                   "synonym_note": "",
                   "type": "dataset_class"
                 },
@@ -2042,7 +2318,29 @@
                   "broad_class": "Bacillariophyta",
                   "broad_class_aphia_id": "148898",
                   "broad_class_original_label": "Climacodium inter. Crocosphaera",
-                  "broad_class_source_file": "studies/label_aphia_inventory/tara_pacific_deck_broad_class.json",
+                  "broad_class_source_file": "round2_broad_class_expansion",
+                  "children": [],
+                  "dataset_id": "flowcam_net",
+                  "dataset_label": "FlowCAMNet",
+                  "entry_id": "flowcam_net::Climacodium inter. Crocosphaera",
+                  "image_count": 345,
+                  "lineage_notes": [],
+                  "name": "Bacillariophyta: Climacodium inter. Crocosphaera",
+                  "original_label": "Climacodium inter. Crocosphaera",
+                  "placement_id": "flowcam_net::Climacodium inter. Crocosphaera::148898::1",
+                  "risk_flags": [
+                    "broad_class"
+                  ],
+                  "selected_aphia_id": "148898",
+                  "selected_aphia_source": "round2_broad_class_mapping",
+                  "synonym_note": "",
+                  "type": "dataset_class"
+                },
+                {
+                  "broad_class": "Bacillariophyta",
+                  "broad_class_aphia_id": "148898",
+                  "broad_class_original_label": "Climacodium inter. Crocosphaera",
+                  "broad_class_source_file": "round2_broad_class_expansion",
                   "children": [],
                   "dataset_id": "tara_pacific_deck",
                   "dataset_label": "Tara Pacific Deck",
@@ -2056,7 +2354,7 @@
                     "broad_class"
                   ],
                   "selected_aphia_id": "148898",
-                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                  "selected_aphia_source": "round2_broad_class_mapping",
                   "synonym_note": "",
                   "type": "dataset_class"
                 },
@@ -2348,11 +2646,12 @@
                 }
               ],
               "datasets": [
+                "flowcam_net",
                 "tara_pacific_deck",
                 "tara_pacific_bongo"
               ],
-              "entry_count": 18,
-              "image_count": 56570,
+              "entry_count": 25,
+              "image_count": 105850,
               "key": "Phylum::148898::Bacillariophyta",
               "lineage_notes": [],
               "name": "Bacillariophyta",
@@ -14968,8 +15267,8 @@
             "tara_pacific_bongo",
             "ifremer_srn"
           ],
-          "entry_count": 345,
-          "image_count": 941367,
+          "entry_count": 352,
+          "image_count": 990647,
           "key": "Kingdom::7::Chromista",
           "lineage_notes": [
             "intermediate_rank"
@@ -15393,8 +15692,8 @@
         "tara_pacific_bongo",
         "ifremer_srn"
       ],
-      "entry_count": 397,
-      "image_count": 1012280,
+      "entry_count": 410,
+      "image_count": 1108310,
       "key": "Superdomain::1::Biota",
       "lineage_notes": [
         "intermediate_rank"
@@ -15410,7 +15709,7 @@
       "type": "taxon"
     }
   ],
-  "dataset_class_entry_count": 394,
+  "dataset_class_entry_count": 407,
   "dataset_colors": {
     "flowcam_net": "#16a34a",
     "ifremer_srn": "#0891b2",
@@ -15435,13 +15734,13 @@
     "tara_pacific_bongo",
     "ifremer_srn"
   ],
-  "entry_count": 397,
-  "image_count": 1012280,
+  "entry_count": 410,
+  "image_count": 1108310,
   "lineage_notes": [
     "intermediate_rank"
   ],
   "name": "WoRMS Taxonomy",
-  "placement_weighted_image_count": 1012280,
+  "placement_weighted_image_count": 1108310,
   "rank": "Root",
   "risk_flags": [
     "broad_class",
@@ -15450,6 +15749,6 @@
     "multiple_valid_aphia_ids"
   ],
   "type": "root",
-  "unique_candidate_image_count": 1008576,
+  "unique_candidate_image_count": 1104606,
   "unique_selected_aphia_id_count": 191
 }

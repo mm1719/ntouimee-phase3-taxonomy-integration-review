@@ -34,6 +34,8 @@ function App() {
   const [rank, setRank] = useState("");
   const [showIntermediate, setShowIntermediate] = useState(true);
   const [treeScale, setTreeScale] = useState(1.08);
+  const [forceOpenAll, setForceOpenAll] = useState(false);
+  const [treeResetKey, setTreeResetKey] = useState(0);
   const [helpOpen, setHelpOpen] = useState(false);
   const [selected, setSelected] = useState<TreeNode | null>(null);
   const [selectedInvalid, setSelectedInvalid] = useState<InvalidLabelGroup | null>(null);
@@ -77,6 +79,11 @@ function App() {
       setRoute("valid");
     }
   }, []);
+
+  useEffect(() => {
+    setForceOpenAll(false);
+    setTreeResetKey((value) => value + 1);
+  }, [query, datasets, risks, rank, showIntermediate]);
 
   const candidateByEntry = useMemo(() => {
     const map = new Map<string, Candidate>();
@@ -271,10 +278,24 @@ function App() {
             <button onClick={() => setTreeScale((value) => Math.max(0.95, value - 0.08))}>A-</button>
             <button onClick={() => setTreeScale(1.08)}>Reset</button>
             <button onClick={() => setTreeScale((value) => Math.min(1.4, value + 0.08))}>A+</button>
+            <button onClick={() => setForceOpenAll(true)}>Expand all</button>
+            <button
+              onClick={() => {
+                setForceOpenAll(false);
+                setTreeResetKey((value) => value + 1);
+              }}
+            >
+              Default open
+            </button>
           </div>
           <div className="tree-scale" style={{ fontSize: `${treeScale}rem` }}>
             {visibleTree ? (
-              <TaxonomyTree node={visibleTree} onSelect={setSelected} />
+              <TaxonomyTree
+                key={`${treeResetKey}-${forceOpenAll ? "all" : "default"}`}
+                node={visibleTree}
+                onSelect={setSelected}
+                forceOpenAll={forceOpenAll}
+              />
             ) : (
               <div className="empty-state">
                 <p className="eyebrow">No matches</p>
@@ -306,6 +327,7 @@ function App() {
                   broad_class_original_label: candidate.broad_class_original_label,
                   broad_class_aphia_id: candidate.broad_class_aphia_id,
                   broad_class_source_file: candidate.broad_class_source_file,
+                  contaminated_sources: candidate.contaminated_sources,
                   lineage_notes: candidate.lineage_notes.split("|").filter(Boolean),
                   risk_flags: candidate.risk_flags.split("|").filter(Boolean),
                   children: []

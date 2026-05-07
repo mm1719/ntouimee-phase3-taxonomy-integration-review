@@ -23,6 +23,7 @@ export type TreeNode = {
   broad_class_original_label?: string;
   broad_class_aphia_id?: string;
   broad_class_source_file?: string;
+  contaminated_sources?: string;
   image_count: number;
   entry_count: number;
   datasets?: DatasetId[];
@@ -49,6 +50,7 @@ export type Candidate = {
   terminal_ranks: string;
   lineage_notes: string;
   risk_flags: string;
+  contaminated_sources: string;
   validation_statuses: string;
   invalid_statuses: string;
   worms_aphia_ids: string;

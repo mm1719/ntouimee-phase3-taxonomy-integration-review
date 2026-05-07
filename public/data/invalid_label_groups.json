@@ -2,16 +2,18 @@
   "tables": {
     "non_taxonomic_category": [
       {
-        "group_key": "aggregate",
-        "sample_key": "non_taxonomic_category::aggregate",
+        "group_key": "aggregates",
+        "sample_key": "non_taxonomic_category::aggregates",
         "aliases": [
-          "Aggregate"
+          "Aggregate",
+          "aggregates"
         ],
         "status": "Non-Taxonomic Category",
         "dataset_ids": [
-          "life_watch_2026_image_library"
+          "life_watch_2026_image_library",
+          "tara_pacific_bongo"
         ],
-        "total_image_count": 2704,
+        "total_image_count": 5683,
         "include_valid_tree_overlap": false,
         "datasets": [
           {
@@ -31,22 +33,7 @@
               "https://www.marinespecies.org/rest/AphiaRecordsByName/Aggregate?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "aggregates",
-        "sample_key": "non_taxonomic_category::aggregates",
-        "aliases": [
-          "aggregates"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 2979,
-        "include_valid_tree_overlap": false,
-        "datasets": [
+          },
           {
             "dataset_id": "tara_pacific_bongo",
             "aliases": [
@@ -234,48 +221,19 @@
         ]
       },
       {
-        "group_key": "bacteriastrum<mediophyceae",
-        "sample_key": "non_taxonomic_category::bacteriastrum<mediophyceae",
-        "aliases": [
-          "Bacteriastrum<Mediophyceae"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck"
-        ],
-        "total_image_count": 1747,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "Bacteriastrum<Mediophyceae"
-            ],
-            "image_count": 1747,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Bacteriastrum%3CMediophyceae?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
         "group_key": "badfocus",
         "sample_key": "non_taxonomic_category::badfocus",
         "aliases": [
-          "badfocus"
+          "badfocus",
+          "badfocus<artefact"
         ],
         "status": "Non-Taxonomic Category",
         "dataset_ids": [
-          "flowcam_net"
+          "flowcam_net",
+          "tara_pacific_deck",
+          "tara_pacific_bongo"
         ],
-        "total_image_count": 431,
+        "total_image_count": 22821,
         "include_valid_tree_overlap": false,
         "datasets": [
           {
@@ -294,23 +252,7 @@
               "https://www.marinespecies.org/rest/AphiaRecordsByName/badfocus?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "badfocus<artefact",
-        "sample_key": "non_taxonomic_category::badfocus<artefact",
-        "aliases": [
-          "badfocus<artefact"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck",
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 22390,
-        "include_valid_tree_overlap": false,
-        "datasets": [
+          },
           {
             "dataset_id": "tara_pacific_deck",
             "aliases": [
@@ -662,38 +604,6 @@
         ]
       },
       {
-        "group_key": "chaetoceros<mediophyceae",
-        "sample_key": "non_taxonomic_category::chaetoceros<mediophyceae",
-        "aliases": [
-          "Chaetoceros<Mediophyceae"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck"
-        ],
-        "total_image_count": 10226,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "Chaetoceros<Mediophyceae"
-            ],
-            "image_count": 10226,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Chaetoceros%3CMediophyceae?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
         "group_key": "chainlarge",
         "sample_key": "non_taxonomic_category::chainlarge",
         "aliases": [
@@ -701,11 +611,9 @@
         ],
         "status": "Non-Taxonomic Category",
         "dataset_ids": [
-          "flowcam_net",
-          "tara_pacific_deck",
-          "tara_pacific_bongo"
+          "flowcam_net"
         ],
-        "total_image_count": 2521,
+        "total_image_count": 422,
         "include_valid_tree_overlap": false,
         "datasets": [
           {
@@ -724,38 +632,6 @@
               "https://www.marinespecies.org/rest/AphiaRecordsByName/chainlarge?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
-          },
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "chainlarge"
-            ],
-            "image_count": 1654,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/chainlarge?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          },
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "chainlarge"
-            ],
-            "image_count": 445,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/chainlarge?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
           }
         ]
       },
@@ -767,11 +643,9 @@
         ],
         "status": "Non-Taxonomic Category",
         "dataset_ids": [
-          "flowcam_net",
-          "tara_pacific_deck",
-          "tara_pacific_bongo"
+          "flowcam_net"
         ],
-        "total_image_count": 36610,
+        "total_image_count": 1747,
         "include_valid_tree_overlap": false,
         "datasets": [
           {
@@ -788,70 +662,6 @@
             ],
             "worms_sources": [
               "https://www.marinespecies.org/rest/AphiaRecordsByName/chainthin?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          },
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "chainthin"
-            ],
-            "image_count": 29380,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/chainthin?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          },
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "chainthin"
-            ],
-            "image_count": 5483,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/chainthin?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "climacodium inter. crocosphaera",
-        "sample_key": "non_taxonomic_category::climacodium inter. crocosphaera",
-        "aliases": [
-          "Climacodium inter. Crocosphaera"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "flowcam_net"
-        ],
-        "total_image_count": 345,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "flowcam_net",
-            "aliases": [
-              "Climacodium inter. Crocosphaera"
-            ],
-            "image_count": 345,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Climacodium%20inter.%20Crocosphaera?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
           }
@@ -916,38 +726,6 @@
             ],
             "worms_sources": [
               "https://www.marinespecies.org/rest/AphiaRecordsByName/contrasted%20blob?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "copepoda<maxillopoda",
-        "sample_key": "non_taxonomic_category::copepoda<maxillopoda",
-        "aliases": [
-          "Copepoda<Maxillopoda"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck"
-        ],
-        "total_image_count": 451,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "Copepoda<Maxillopoda"
-            ],
-            "image_count": 451,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Copepoda%3CMaxillopoda?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
           }
@@ -1055,13 +833,15 @@
         "group_key": "crustaceae-part",
         "sample_key": "non_taxonomic_category::crustaceae-part",
         "aliases": [
-          "Crustaceae-part"
+          "Crustaceae-part",
+          "Crustaceae:part"
         ],
         "status": "Non-Taxonomic Category",
         "dataset_ids": [
-          "life_watch"
+          "life_watch",
+          "life_watch_2026_image_library"
         ],
-        "total_image_count": 8797,
+        "total_image_count": 17484,
         "include_valid_tree_overlap": false,
         "datasets": [
           {
@@ -1082,22 +862,7 @@
               "https://www.marinespecies.org/rest/AphiaRecordsByName/Crustaceae%20part?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "crustaceae:part",
-        "sample_key": "non_taxonomic_category::crustaceae:part",
-        "aliases": [
-          "Crustaceae:part"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 8687,
-        "include_valid_tree_overlap": false,
-        "datasets": [
+          },
           {
             "dataset_id": "life_watch_2026_image_library",
             "aliases": [
@@ -1112,102 +877,6 @@
             ],
             "worms_sources": [
               "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1066"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "cyano a",
-        "sample_key": "non_taxonomic_category::cyano a",
-        "aliases": [
-          "cyano a"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "flowcam_net"
-        ],
-        "total_image_count": 7301,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "flowcam_net",
-            "aliases": [
-              "cyano a"
-            ],
-            "image_count": 7301,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/cyano%20a?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "cyano b",
-        "sample_key": "non_taxonomic_category::cyano b",
-        "aliases": [
-          "cyano b"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "flowcam_net"
-        ],
-        "total_image_count": 36215,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "flowcam_net",
-            "aliases": [
-              "cyano b"
-            ],
-            "image_count": 36215,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/cyano%20b?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "cyanobacteria<proteobacteria",
-        "sample_key": "non_taxonomic_category::cyanobacteria<proteobacteria",
-        "aliases": [
-          "Cyanobacteria<Proteobacteria"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck"
-        ],
-        "total_image_count": 2339,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "Cyanobacteria<Proteobacteria"
-            ],
-            "image_count": 2339,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Cyanobacteria%3CProteobacteria?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
           }
@@ -1835,16 +1504,18 @@
         ]
       },
       {
-        "group_key": "egg+cyst",
-        "sample_key": "non_taxonomic_category::egg+cyst",
+        "group_key": "egg/cyst",
+        "sample_key": "non_taxonomic_category::egg/cyst",
         "aliases": [
-          "Egg+Cyst"
+          "Egg+Cyst",
+          "Egg/Cyst"
         ],
         "status": "Non-Taxonomic Category",
         "dataset_ids": [
-          "life_watch"
+          "life_watch",
+          "life_watch_2026_image_library"
         ],
-        "total_image_count": 8797,
+        "total_image_count": 30954,
         "include_valid_tree_overlap": false,
         "datasets": [
           {
@@ -1864,22 +1535,7 @@
               "https://www.marinespecies.org/rest/AphiaRecordsByName/Egg/Cyst?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "egg/cyst",
-        "sample_key": "non_taxonomic_category::egg/cyst",
-        "aliases": [
-          "Egg/Cyst"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 22157,
-        "include_valid_tree_overlap": false,
-        "datasets": [
+          },
           {
             "dataset_id": "life_watch_2026_image_library",
             "aliases": [
@@ -2064,65 +1720,20 @@
         ]
       },
       {
-        "group_key": "fiber<detritus",
-        "sample_key": "non_taxonomic_category::fiber<detritus",
+        "group_key": "fuber",
+        "sample_key": "non_taxonomic_category::fuber",
         "aliases": [
-          "fiber<detritus"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck",
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 85465,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "fiber<detritus"
-            ],
-            "image_count": 64964,
-            "reasons": [
-              "Strict rule: label contains non-taxonomic, grouped, or temporary-category markers"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/fiber%3Cdetritus?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          },
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "fiber<detritus"
-            ],
-            "image_count": 20501,
-            "reasons": [
-              "Strict rule: label contains non-taxonomic, grouped, or temporary-category markers"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/fiber%3Cdetritus?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "fibers",
-        "sample_key": "non_taxonomic_category::fibers",
-        "aliases": [
+          "fiber<detritus",
           "Fibers"
         ],
         "status": "Non-Taxonomic Category",
         "dataset_ids": [
           "life_watch",
-          "life_watch_2026_image_library"
+          "life_watch_2026_image_library",
+          "tara_pacific_deck",
+          "tara_pacific_bongo"
         ],
-        "total_image_count": 95600,
+        "total_image_count": 181065,
         "include_valid_tree_overlap": false,
         "datasets": [
           {
@@ -2158,6 +1769,38 @@
             ],
             "worms_sources": [
               "https://www.marinespecies.org/rest/AphiaRecordsByName/Fibers?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no"
+          },
+          {
+            "dataset_id": "tara_pacific_deck",
+            "aliases": [
+              "fiber<detritus"
+            ],
+            "image_count": 64964,
+            "reasons": [
+              "Strict rule: label contains non-taxonomic, grouped, or temporary-category markers"
+            ],
+            "source_examples": [
+              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
+            ],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/fiber%3Cdetritus?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no"
+          },
+          {
+            "dataset_id": "tara_pacific_bongo",
+            "aliases": [
+              "fiber<detritus"
+            ],
+            "image_count": 20501,
+            "reasons": [
+              "Strict rule: label contains non-taxonomic, grouped, or temporary-category markers"
+            ],
+            "source_examples": [],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/fiber%3Cdetritus?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
           }
@@ -3098,18 +2741,37 @@
         ]
       },
       {
-        "group_key": "other<living",
-        "sample_key": "non_taxonomic_category::other<living",
+        "group_key": "other living",
+        "sample_key": "non_taxonomic_category::other living",
         "aliases": [
-          "other<living"
+          "other<living",
+          "other_living"
         ],
         "status": "Non-Taxonomic Category",
         "dataset_ids": [
+          "flowcam_net",
           "tara_pacific_bongo"
         ],
-        "total_image_count": 6540,
+        "total_image_count": 7128,
         "include_valid_tree_overlap": false,
         "datasets": [
+          {
+            "dataset_id": "flowcam_net",
+            "aliases": [
+              "other_living"
+            ],
+            "image_count": 588,
+            "reasons": [
+              "No local AphiaID and no exact WoRMS name match under strict validation"
+            ],
+            "source_examples": [
+              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
+            ],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/other%20living?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no"
+          },
           {
             "dataset_id": "tara_pacific_bongo",
             "aliases": [
@@ -3154,38 +2816,6 @@
             ],
             "worms_sources": [
               "https://www.marinespecies.org/rest/AphiaRecordsByName/other%20egg?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "other living",
-        "sample_key": "non_taxonomic_category::other living",
-        "aliases": [
-          "other_living"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "flowcam_net"
-        ],
-        "total_image_count": 588,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "flowcam_net",
-            "aliases": [
-              "other_living"
-            ],
-            "image_count": 588,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/other%20living?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
           }
@@ -4231,8 +3861,8 @@
         ]
       },
       {
-        "group_key": "synedra+thalassionema",
-        "sample_key": "non_taxonomic_category::synedra+thalassionema",
+        "group_key": "synedra/thalassionema",
+        "sample_key": "non_taxonomic_category::synedra/thalassionema",
         "aliases": [
           "Synedra+Thalassionema"
         ],
@@ -4848,8 +4478,8 @@
         ]
       },
       {
-        "group_key": "thalassiosira+porosira",
-        "sample_key": "non_taxonomic_category::thalassiosira+porosira",
+        "group_key": "thalassiosira/porosira",
+        "sample_key": "non_taxonomic_category::thalassiosira/porosira",
         "aliases": [
           "Thalassiosira+Porosira"
         ],
@@ -5083,11 +4713,9 @@
         ],
         "status": "Non-Taxonomic Category",
         "dataset_ids": [
-          "flowcam_net",
-          "tara_pacific_deck",
-          "tara_pacific_bongo"
+          "flowcam_net"
         ],
-        "total_image_count": 1180,
+        "total_image_count": 736,
         "include_valid_tree_overlap": false,
         "datasets": [
           {
@@ -5106,38 +4734,6 @@
               "https://www.marinespecies.org/rest/AphiaRecordsByName/UCYNA%20like?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
-          },
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "UCYNA like"
-            ],
-            "image_count": 435,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/UCYNA%20like?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          },
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "UCYNA like"
-            ],
-            "image_count": 9,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/UCYNA%20like?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
           }
         ]
       },
@@ -5145,121 +4741,31 @@
         "group_key": "unknown",
         "sample_key": "non_taxonomic_category::unknown",
         "aliases": [
-          "Unknown"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 65028,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "life_watch_2026_image_library",
-            "aliases": [
-              "Unknown"
-            ],
-            "image_count": 65028,
-            "reasons": [
-              "Local AphiaID source contains non-numeric/non-AphiaID values: Unknown",
-              "Strict rule: label contains non-taxonomic, grouped, or temporary-category markers"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Unknown?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "unknown 3",
-        "sample_key": "non_taxonomic_category::unknown 3",
-        "aliases": [
-          "Unknown_3"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 1087,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "life_watch_2026_image_library",
-            "aliases": [
-              "Unknown_3"
-            ],
-            "image_count": 1087,
-            "reasons": [
-              "Local AphiaID source contains non-numeric/non-AphiaID values: Unknown_3",
-              "Strict rule: label contains non-taxonomic, grouped, or temporary-category markers"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Unknown%203?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "unknown 5",
-        "sample_key": "non_taxonomic_category::unknown 5",
-        "aliases": [
-          "Unknown_5"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 78,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "life_watch_2026_image_library",
-            "aliases": [
-              "Unknown_5"
-            ],
-            "image_count": 78,
-            "reasons": [
-              "Local AphiaID source contains non-numeric/non-AphiaID values: Unknown_5",
-              "Strict rule: label contains non-taxonomic, grouped, or temporary-category markers"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Unknown%205?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "unknown 8",
-        "sample_key": "non_taxonomic_category::unknown 8",
-        "aliases": [
+          "Unknown",
+          "Unknown_3",
+          "Unknown_5",
           "Unknown_8"
         ],
         "status": "Non-Taxonomic Category",
         "dataset_ids": [
           "life_watch_2026_image_library"
         ],
-        "total_image_count": 79,
+        "total_image_count": 66272,
         "include_valid_tree_overlap": false,
         "datasets": [
           {
             "dataset_id": "life_watch_2026_image_library",
             "aliases": [
+              "Unknown",
+              "Unknown_3",
+              "Unknown_5",
               "Unknown_8"
             ],
-            "image_count": 79,
+            "image_count": 66272,
             "reasons": [
+              "Local AphiaID source contains non-numeric/non-AphiaID values: Unknown",
+              "Local AphiaID source contains non-numeric/non-AphiaID values: Unknown_3",
+              "Local AphiaID source contains non-numeric/non-AphiaID values: Unknown_5",
               "Local AphiaID source contains non-numeric/non-AphiaID values: Unknown_8",
               "Strict rule: label contains non-taxonomic, grouped, or temporary-category markers"
             ],
@@ -5267,7 +4773,10 @@
               "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
             ],
             "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Unknown%208?like=false&marine_only=false"
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/Unknown%203?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/Unknown%205?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/Unknown%208?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/Unknown?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
           }
@@ -5558,13 +5067,15 @@
         "group_key": "crustaceae-part",
         "sample_key": "taxonomic_mismatch::crustaceae-part",
         "aliases": [
-          "Crustaceae-part"
+          "Crustaceae-part",
+          "Crustaceae:part"
         ],
         "status": "Taxonomic Mismatch",
         "dataset_ids": [
-          "life_watch"
+          "life_watch",
+          "life_watch_2026_image_library"
         ],
-        "total_image_count": 8797,
+        "total_image_count": 17484,
         "include_valid_tree_overlap": false,
         "datasets": [
           {
@@ -5586,22 +5097,7 @@
               "https://www.marinespecies.org/rest/AphiaRecordsByName/Crustaceae%20part?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "crustaceae:part",
-        "sample_key": "taxonomic_mismatch::crustaceae:part",
-        "aliases": [
-          "Crustaceae:part"
-        ],
-        "status": "Taxonomic Mismatch",
-        "dataset_ids": [
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 8687,
-        "include_valid_tree_overlap": false,
-        "datasets": [
+          },
           {
             "dataset_id": "life_watch_2026_image_library",
             "aliases": [
@@ -6432,16 +5928,18 @@
         ]
       },
       {
-        "group_key": "synedra+thalassionema",
-        "sample_key": "taxonomic_mismatch::synedra+thalassionema",
+        "group_key": "synedra/thalassionema",
+        "sample_key": "taxonomic_mismatch::synedra/thalassionema",
         "aliases": [
-          "Synedra+Thalassionema"
+          "Synedra+Thalassionema",
+          "Synedra/Thalassionema"
         ],
         "status": "Taxonomic Mismatch",
         "dataset_ids": [
-          "life_watch"
+          "life_watch",
+          "life_watch_2026_image_library"
         ],
-        "total_image_count": 8791,
+        "total_image_count": 17361,
         "include_valid_tree_overlap": false,
         "datasets": [
           {
@@ -6461,22 +5959,7 @@
               "https://www.marinespecies.org/rest/AphiaRecordsByName/Synedra/Thalassionema?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "synedra/thalassionema",
-        "sample_key": "taxonomic_mismatch::synedra/thalassionema",
-        "aliases": [
-          "Synedra/Thalassionema"
-        ],
-        "status": "Taxonomic Mismatch",
-        "dataset_ids": [
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 8570,
-        "include_valid_tree_overlap": false,
-        "datasets": [
+          },
           {
             "dataset_id": "life_watch_2026_image_library",
             "aliases": [
@@ -6497,16 +5980,18 @@
         ]
       },
       {
-        "group_key": "thalassiosira+porosira",
-        "sample_key": "taxonomic_mismatch::thalassiosira+porosira",
+        "group_key": "thalassiosira/porosira",
+        "sample_key": "taxonomic_mismatch::thalassiosira/porosira",
         "aliases": [
-          "Thalassiosira+Porosira"
+          "Thalassiosira+Porosira",
+          "Thalassiosira/Porosira"
         ],
         "status": "Taxonomic Mismatch",
         "dataset_ids": [
-          "life_watch"
+          "life_watch",
+          "life_watch_2026_image_library"
         ],
-        "total_image_count": 2470,
+        "total_image_count": 2564,
         "include_valid_tree_overlap": false,
         "datasets": [
           {
@@ -6526,22 +6011,7 @@
               "https://www.marinespecies.org/rest/AphiaRecordsByName/Thalassiosira/Porosira?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "thalassiosira/porosira",
-        "sample_key": "taxonomic_mismatch::thalassiosira/porosira",
-        "aliases": [
-          "Thalassiosira/Porosira"
-        ],
-        "status": "Taxonomic Mismatch",
-        "dataset_ids": [
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 94,
-        "include_valid_tree_overlap": false,
-        "datasets": [
+          },
           {
             "dataset_id": "life_watch_2026_image_library",
             "aliases": [
@@ -6717,12 +6187,12 @@
     ]
   },
   "samples": {
-    "non_taxonomic_category::aggregate": [
+    "non_taxonomic_category::aggregates": [
       {
         "dataset_id": "life_watch_2026_image_library",
         "label": "Aggregate",
         "image_id": "0156F099-5885-40F4-A0A1-7AE1D22AA5C6",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/aggregate/01_71392b1fe8.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/aggregate/01_5199fa237c.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Aggregate/0156F099-5885-40F4-A0A1-7AE1D22AA5C6.png",
         "width": "",
         "height": ""
@@ -6731,7 +6201,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Aggregate",
         "image_id": "AC1CA539-21B3-4038-9565-F863B62FED9B",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/aggregate/02_33c30f8c91.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/aggregate/02_7cdfbbf397.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Aggregate/AC1CA539-21B3-4038-9565-F863B62FED9B.png",
         "width": "",
         "height": ""
@@ -6740,7 +6210,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Aggregate",
         "image_id": "757252F4-75C9-4497-95C1-FA7F55604892",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/aggregate/03_3dfea3a91d.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/aggregate/03_51cd6f0f42.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Aggregate/757252F4-75C9-4497-95C1-FA7F55604892.png",
         "width": "",
         "height": ""
@@ -6749,7 +6219,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Aggregate",
         "image_id": "05D60156-F4E3-4570-9A81-D192E6148FC6",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/aggregate/04_161d44fdee.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/aggregate/04_baca61d36c.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Aggregate/05D60156-F4E3-4570-9A81-D192E6148FC6.png",
         "width": "",
         "height": ""
@@ -6758,13 +6228,11 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Aggregate",
         "image_id": "C600DE35-0082-41F4-9FCF-9B9FCE6A04C0",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/aggregate/05_2c01577455.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/aggregate/05_3a088337d9.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Aggregate/C600DE35-0082-41F4-9FCF-9B9FCE6A04C0.png",
         "width": "",
         "height": ""
-      }
-    ],
-    "non_taxonomic_category::aggregates": [
+      },
       {
         "dataset_id": "tara_pacific_bongo",
         "label": "aggregates",
@@ -7114,53 +6582,6 @@
         "height": "101"
       }
     ],
-    "non_taxonomic_category::bacteriastrum<mediophyceae": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Bacteriastrum<Mediophyceae",
-        "image_id": "i00_oa136_001_g100014429_11620",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/bacteriastrum_mediophyceae/01_c8e916adac.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_11620.jpg",
-        "width": "97",
-        "height": "80"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Bacteriastrum<Mediophyceae",
-        "image_id": "i00_oa139_001_g100014672_26857",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/bacteriastrum_mediophyceae/02_d6722c348a.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_26857.jpg",
-        "width": "97",
-        "height": "102"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Bacteriastrum<Mediophyceae",
-        "image_id": "i00_oa163_001_g100015598_36117",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/bacteriastrum_mediophyceae/03_cefaf78c37.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_36117.jpg",
-        "width": "97",
-        "height": "85"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Bacteriastrum<Mediophyceae",
-        "image_id": "i00_oa163_001_g100015598_20562",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/bacteriastrum_mediophyceae/04_47d9d0a939.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_20562.jpg",
-        "width": "97",
-        "height": "82"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Bacteriastrum<Mediophyceae",
-        "image_id": "i00_oa163_001_g100015598_10702",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/bacteriastrum_mediophyceae/05_c20d967422.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_10702.jpg",
-        "width": "97",
-        "height": "82"
-      }
-    ],
     "non_taxonomic_category::badfocus": [
       {
         "dataset_id": "flowcam_net",
@@ -7206,14 +6627,12 @@
         "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/badfocus/164770328.png",
         "width": "19",
         "height": "14"
-      }
-    ],
-    "non_taxonomic_category::badfocus<artefact": [
+      },
       {
         "dataset_id": "tara_pacific_deck",
         "label": "badfocus<artefact",
         "image_id": "i04_oa041_002_g100017740_1627",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/badfocus_artefact/01_3c22b4213e.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/badfocus_artefact/01_ce2d39e6a2.jpg",
         "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i04_oa041_002_g100017740/i04_oa041_002_g100017740_1627.jpg",
         "width": "97",
         "height": "59"
@@ -7222,7 +6641,7 @@
         "dataset_id": "tara_pacific_deck",
         "label": "badfocus<artefact",
         "image_id": "i04_oa041_002_g100017740_1243",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/badfocus_artefact/02_2613218f9c.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/badfocus_artefact/02_a7590c4de8.jpg",
         "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i04_oa041_002_g100017740/i04_oa041_002_g100017740_1243.jpg",
         "width": "97",
         "height": "78"
@@ -7231,7 +6650,7 @@
         "dataset_id": "tara_pacific_deck",
         "label": "badfocus<artefact",
         "image_id": "i04_oa041_002_g100017740_735",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/badfocus_artefact/03_ef9a0824f9.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/badfocus_artefact/03_2d8f92c8ea.jpg",
         "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i04_oa041_002_g100017740/i04_oa041_002_g100017740_735.jpg",
         "width": "97",
         "height": "55"
@@ -7240,7 +6659,7 @@
         "dataset_id": "tara_pacific_deck",
         "label": "badfocus<artefact",
         "image_id": "i04_oa041_002_g100017740_111",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/badfocus_artefact/04_6cf851dd5c.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/badfocus_artefact/04_124981727c.jpg",
         "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i04_oa041_002_g100017740/i04_oa041_002_g100017740_111.jpg",
         "width": "97",
         "height": "75"
@@ -7249,7 +6668,7 @@
         "dataset_id": "tara_pacific_deck",
         "label": "badfocus<artefact",
         "image_id": "i04_oa041_002_g100017740_1097",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/badfocus_artefact/05_fb5f9fcf43.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/badfocus_artefact/05_d4245d2079.jpg",
         "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i04_oa041_002_g100017740/i04_oa041_002_g100017740_1097.jpg",
         "width": "97",
         "height": "68"
@@ -7258,7 +6677,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "badfocus<artefact",
         "image_id": "aw_i04_s4_002_r110001920_11201",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/badfocus_artefact/01_0c9130d0ae.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/badfocus_artefact/01_9635a6640f.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_11201.jpg",
         "width": "97",
         "height": "55"
@@ -7267,7 +6686,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "badfocus<artefact",
         "image_id": "aw_i04_s4_002_r110001920_18255",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/badfocus_artefact/02_b05fbb7e9a.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/badfocus_artefact/02_e13044a3e4.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_18255.jpg",
         "width": "97",
         "height": "64"
@@ -7276,7 +6695,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "badfocus<artefact",
         "image_id": "aw_i04_s4_002_r110001920_6189",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/badfocus_artefact/03_a352d800c3.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/badfocus_artefact/03_c941416d44.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_6189.jpg",
         "width": "97",
         "height": "57"
@@ -7285,7 +6704,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "badfocus<artefact",
         "image_id": "aw_i04_s4_002_r110001920_10570",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/badfocus_artefact/04_a71aa508d3.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/badfocus_artefact/04_66400216ec.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_10570.jpg",
         "width": "97",
         "height": "60"
@@ -7294,7 +6713,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "badfocus<artefact",
         "image_id": "aw_i04_s4_002_r110001920_16984",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/badfocus_artefact/05_5ce3cf7663.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/badfocus_artefact/05_c6334a74ee.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_16984.jpg",
         "width": "97",
         "height": "65"
@@ -7811,53 +7230,6 @@
         "height": "109"
       }
     ],
-    "non_taxonomic_category::chaetoceros<mediophyceae": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Chaetoceros<Mediophyceae",
-        "image_id": "i00_oa136_001_g100014429_3911",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/chaetoceros_mediophyceae/01_15b05c2afb.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_3911.jpg",
-        "width": "97",
-        "height": "80"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Chaetoceros<Mediophyceae",
-        "image_id": "i00_oa136_001_g100014429_724",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/chaetoceros_mediophyceae/02_694e5efa22.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_724.jpg",
-        "width": "97",
-        "height": "85"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Chaetoceros<Mediophyceae",
-        "image_id": "i00_oa136_001_g100014429_7874",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/chaetoceros_mediophyceae/03_db8e2067ea.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_7874.jpg",
-        "width": "97",
-        "height": "92"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Chaetoceros<Mediophyceae",
-        "image_id": "i00_oa136_001_g100014429_7203",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/chaetoceros_mediophyceae/04_8eb698ebaf.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_7203.jpg",
-        "width": "97",
-        "height": "71"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Chaetoceros<Mediophyceae",
-        "image_id": "i00_oa136_001_g100014429_4736",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/chaetoceros_mediophyceae/05_f857ead473.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_4736.jpg",
-        "width": "97",
-        "height": "156"
-      }
-    ],
     "non_taxonomic_category::chainlarge": [
       {
         "dataset_id": "flowcam_net",
@@ -7903,96 +7275,6 @@
         "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainlarge/164750617.png",
         "width": "101",
         "height": "52"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "chainlarge",
-        "image_id": "i32_oa230_001_g100013453_1519",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/chainlarge/01_73616f966d.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i32_oa230_001_g100013453/i32_oa230_001_g100013453_1519.jpg",
-        "width": "97",
-        "height": "81"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "chainlarge",
-        "image_id": "i32_oa230_001_g100013453_34837",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/chainlarge/02_80354c3d13.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i32_oa230_001_g100013453/i32_oa230_001_g100013453_34837.jpg",
-        "width": "97",
-        "height": "65"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "chainlarge",
-        "image_id": "i32_oa230_001_g100013453_10068",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/chainlarge/03_9896cc3d8f.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i32_oa230_001_g100013453/i32_oa230_001_g100013453_10068.jpg",
-        "width": "97",
-        "height": "79"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "chainlarge",
-        "image_id": "i32_oa232_001_g100013368_28490",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/chainlarge/04_1760c42d5a.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i32_oa232_001_g100013368/i32_oa232_001_g100013368_28490.jpg",
-        "width": "97",
-        "height": "122"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "chainlarge",
-        "image_id": "i32_oa232_001_g100013368_295",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/chainlarge/05_e7830e8d08.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i32_oa232_001_g100013368/i32_oa232_001_g100013368_295.jpg",
-        "width": "97",
-        "height": "96"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "chainlarge",
-        "image_id": "srf_i10_s2_001_r110001884_19177",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/chainlarge/01_b5c18b5e27.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/srf_i10_s2_001_r110001884/srf_i10_s2_001_r110001884_19177.jpg",
-        "width": "97",
-        "height": "70"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "chainlarge",
-        "image_id": "srf_i10_s2_001_r110001884_14166",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/chainlarge/02_396925ff26.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/srf_i10_s2_001_r110001884/srf_i10_s2_001_r110001884_14166.jpg",
-        "width": "97",
-        "height": "67"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "chainlarge",
-        "image_id": "aw_i04_s4_002_r110001920_11427",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/chainlarge/03_ca1723c5d8.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_11427.jpg",
-        "width": "344",
-        "height": "339"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "chainlarge",
-        "image_id": "aw_i04_s4_002_r110001920_5857",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/chainlarge/04_1624484d2c.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_5857.jpg",
-        "width": "381",
-        "height": "250"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "chainlarge",
-        "image_id": "aw_i04_s4_002_r110001920_5837",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/chainlarge/05_bc28ac5142.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_5837.jpg",
-        "width": "97",
-        "height": "172"
       }
     ],
     "non_taxonomic_category::chainthin": [
@@ -8040,143 +7322,6 @@
         "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainthin/165669116.png",
         "width": "44",
         "height": "44"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "chainthin",
-        "image_id": "i00_oa136_001_g100014429_6301",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/chainthin/01_01a78e160b.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_6301.jpg",
-        "width": "97",
-        "height": "65"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "chainthin",
-        "image_id": "i00_oa136_001_g100014429_4899",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/chainthin/02_b51d779fe2.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_4899.jpg",
-        "width": "97",
-        "height": "62"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "chainthin",
-        "image_id": "i00_oa136_001_g100014429_2420",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/chainthin/03_c837d92b0b.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_2420.jpg",
-        "width": "97",
-        "height": "61"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "chainthin",
-        "image_id": "i00_oa136_001_g100014429_6258",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/chainthin/04_38737bc938.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_6258.jpg",
-        "width": "97",
-        "height": "64"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "chainthin",
-        "image_id": "i00_oa136_001_g100014429_5312",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/chainthin/05_72fead988c.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_5312.jpg",
-        "width": "97",
-        "height": "68"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "chainthin",
-        "image_id": "aw_i04_s4_002_r110001920_17427",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/chainthin/01_ef02ad61d1.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_17427.jpg",
-        "width": "97",
-        "height": "62"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "chainthin",
-        "image_id": "aw_i04_s4_002_r110001920_11327",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/chainthin/02_963dce1ded.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_11327.jpg",
-        "width": "97",
-        "height": "92"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "chainthin",
-        "image_id": "aw_i04_s4_002_r110001920_12522",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/chainthin/03_884faa0b80.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_12522.jpg",
-        "width": "97",
-        "height": "68"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "chainthin",
-        "image_id": "aw_i04_s4_002_r110001920_18472",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/chainthin/04_1f4604c69c.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_18472.jpg",
-        "width": "97",
-        "height": "63"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "chainthin",
-        "image_id": "aw_i04_s4_002_r110001920_10512",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/chainthin/05_2bb6ed423c.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_10512.jpg",
-        "width": "97",
-        "height": "60"
-      }
-    ],
-    "non_taxonomic_category::climacodium inter. crocosphaera": [
-      {
-        "dataset_id": "flowcam_net",
-        "label": "Climacodium inter. Crocosphaera",
-        "image_id": "165334308",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/climacodium_inter._crocosphaera/01_fa057c6cc2.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Climacodium inter. Crocosphaera/165334308.png",
-        "width": "97",
-        "height": "112"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "Climacodium inter. Crocosphaera",
-        "image_id": "165334701",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/climacodium_inter._crocosphaera/02_49fb20fd2d.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Climacodium inter. Crocosphaera/165334701.png",
-        "width": "32",
-        "height": "77"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "Climacodium inter. Crocosphaera",
-        "image_id": "165334856",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/climacodium_inter._crocosphaera/03_d4f4ea8dd4.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Climacodium inter. Crocosphaera/165334856.png",
-        "width": "67",
-        "height": "74"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "Climacodium inter. Crocosphaera",
-        "image_id": "165057374",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/climacodium_inter._crocosphaera/04_e84b4e9fc3.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Climacodium inter. Crocosphaera/165057374.png",
-        "width": "58",
-        "height": "75"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "Climacodium inter. Crocosphaera",
-        "image_id": "165334837",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/climacodium_inter._crocosphaera/05_eda63708f6.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Climacodium inter. Crocosphaera/165334837.png",
-        "width": "66",
-        "height": "80"
       }
     ],
     "non_taxonomic_category::codonellopsis<tintinnidiidae": [
@@ -8271,53 +7416,6 @@
         "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/contrasted_blob/165251847.png",
         "width": "40",
         "height": "46"
-      }
-    ],
-    "non_taxonomic_category::copepoda<maxillopoda": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Copepoda<Maxillopoda",
-        "image_id": "i00_oa136_001_g100014429_230",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/copepoda_maxillopoda/01_d745fed9bd.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_230.jpg",
-        "width": "366",
-        "height": "498"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Copepoda<Maxillopoda",
-        "image_id": "i00_oa136_001_g100014429_3073",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/copepoda_maxillopoda/02_ce3ca92256.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_3073.jpg",
-        "width": "341",
-        "height": "378"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Copepoda<Maxillopoda",
-        "image_id": "i00_oa136_001_g100014429_525",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/copepoda_maxillopoda/03_e42a2278bf.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_525.jpg",
-        "width": "148",
-        "height": "237"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Copepoda<Maxillopoda",
-        "image_id": "i00_oa136_001_g100014429_6338",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/copepoda_maxillopoda/04_810cca4b39.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_6338.jpg",
-        "width": "246",
-        "height": "172"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Copepoda<Maxillopoda",
-        "image_id": "i00_oa139_001_g100014672_9561",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/copepoda_maxillopoda/05_12f5fe86a6.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_9561.jpg",
-        "width": "376",
-        "height": "594"
       }
     ],
     "non_taxonomic_category::copepoda<multicrustacea": [
@@ -8522,14 +7620,12 @@
         "source_ref": "datasets/LifeWatch/data/images/Crustaceae-part/ecotaxa_Crustaceae-part_ADB2D1B1-A474-4490-8DE9-482B767B06FE.jpg",
         "width": "120",
         "height": "76"
-      }
-    ],
-    "non_taxonomic_category::crustaceae:part": [
+      },
       {
         "dataset_id": "life_watch_2026_image_library",
         "label": "Crustaceae:part",
         "image_id": "248C34B1-E71F-4979-9D0E-B845ED1A89F4",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/crustaceae_part/01_efab4d22b0.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/crustaceae_part/01_653f894682.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Crustaceae_part/248C34B1-E71F-4979-9D0E-B845ED1A89F4.png",
         "width": "",
         "height": ""
@@ -8538,7 +7634,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Crustaceae:part",
         "image_id": "DC26DC0D-ED85-4865-B1D6-1870468BD54D",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/crustaceae_part/02_2d6a9f7764.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/crustaceae_part/02_e314863440.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Crustaceae_part/DC26DC0D-ED85-4865-B1D6-1870468BD54D.png",
         "width": "",
         "height": ""
@@ -8547,7 +7643,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Crustaceae:part",
         "image_id": "E94580D3-6A71-4C3D-9409-0DE7E34AF1F4",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/crustaceae_part/03_e8a3090858.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/crustaceae_part/03_d2fe5384ba.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Crustaceae_part/E94580D3-6A71-4C3D-9409-0DE7E34AF1F4.png",
         "width": "",
         "height": ""
@@ -8556,7 +7652,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Crustaceae:part",
         "image_id": "6EE87D69-17B3-4BCC-AF0D-F1CDA8934E94",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/crustaceae_part/04_15b24659f0.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/crustaceae_part/04_7a83f2577c.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Crustaceae_part/6EE87D69-17B3-4BCC-AF0D-F1CDA8934E94.png",
         "width": "",
         "height": ""
@@ -8565,151 +7661,10 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Crustaceae:part",
         "image_id": "C1A89023-53AE-46E3-9CEE-66DAF8E61868",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/crustaceae_part/05_de43dd1b55.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/crustaceae_part/05_ebeee9c6e3.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Crustaceae_part/C1A89023-53AE-46E3-9CEE-66DAF8E61868.png",
         "width": "",
         "height": ""
-      }
-    ],
-    "non_taxonomic_category::cyano a": [
-      {
-        "dataset_id": "flowcam_net",
-        "label": "cyano a",
-        "image_id": "165346695",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/cyano_a/01_5d030d105d.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano a/165346695.png",
-        "width": "45",
-        "height": "42"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "cyano a",
-        "image_id": "165338344",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/cyano_a/02_f6db1dc1a8.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano a/165338344.png",
-        "width": "37",
-        "height": "40"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "cyano a",
-        "image_id": "165349014",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/cyano_a/03_1011503423.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano a/165349014.png",
-        "width": "33",
-        "height": "53"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "cyano a",
-        "image_id": "164740001",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/cyano_a/04_9cb0ba892f.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano a/164740001.png",
-        "width": "71",
-        "height": "10"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "cyano a",
-        "image_id": "165336163",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/cyano_a/05_14eacb91e7.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano a/165336163.png",
-        "width": "23",
-        "height": "47"
-      }
-    ],
-    "non_taxonomic_category::cyano b": [
-      {
-        "dataset_id": "flowcam_net",
-        "label": "cyano b",
-        "image_id": "165368953",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/cyano_b/01_ab3a3c9c62.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano b/165368953.png",
-        "width": "38",
-        "height": "202"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "cyano b",
-        "image_id": "165443605",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/cyano_b/02_22c458ba9b.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano b/165443605.png",
-        "width": "17",
-        "height": "427"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "cyano b",
-        "image_id": "165368662",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/cyano_b/03_71b11d59b6.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano b/165368662.png",
-        "width": "121",
-        "height": "329"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "cyano b",
-        "image_id": "164944829",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/cyano_b/04_45a1198d22.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano b/164944829.png",
-        "width": "97",
-        "height": "453"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "cyano b",
-        "image_id": "165400524",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/cyano_b/05_5fad2ab1a5.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano b/165400524.png",
-        "width": "13",
-        "height": "133"
-      }
-    ],
-    "non_taxonomic_category::cyanobacteria<proteobacteria": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Cyanobacteria<Proteobacteria",
-        "image_id": "i23_oa159_001_g100015434_8014",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/cyanobacteria_proteobacteria/01_652b9088c7.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i23_oa159_001_g100015434/i23_oa159_001_g100015434_8014.jpg",
-        "width": "97",
-        "height": "118"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Cyanobacteria<Proteobacteria",
-        "image_id": "i23_oa159_001_g100015434_20881",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/cyanobacteria_proteobacteria/02_d2d6c80b55.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i23_oa159_001_g100015434/i23_oa159_001_g100015434_20881.jpg",
-        "width": "97",
-        "height": "111"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Cyanobacteria<Proteobacteria",
-        "image_id": "i23_oa159_001_g100015434_18315",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/cyanobacteria_proteobacteria/03_c182f0ca10.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i23_oa159_001_g100015434/i23_oa159_001_g100015434_18315.jpg",
-        "width": "97",
-        "height": "206"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Cyanobacteria<Proteobacteria",
-        "image_id": "i23_oa159_001_g100015434_8475",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/cyanobacteria_proteobacteria/04_721768c296.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i23_oa159_001_g100015434/i23_oa159_001_g100015434_8475.jpg",
-        "width": "97",
-        "height": "109"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Cyanobacteria<Proteobacteria",
-        "image_id": "i23_oa159_001_g100015434_1691",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/cyanobacteria_proteobacteria/05_845973ccff.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i23_oa159_001_g100015434/i23_oa159_001_g100015434_1691.jpg",
-        "width": "97",
-        "height": "94"
       }
     ],
     "non_taxonomic_category::cyst<unicellular": [
@@ -9741,12 +8696,12 @@
         "height": "147"
       }
     ],
-    "non_taxonomic_category::egg+cyst": [
+    "non_taxonomic_category::egg/cyst": [
       {
         "dataset_id": "life_watch",
         "label": "Egg+Cyst",
         "image_id": "10CCCEB8-BEBB-4DC3-BA5F-904F05E43E71",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/egg_cyst/01_23ad307734.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/egg_cyst/01_f4708f0fe4.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Egg+Cyst/ecotaxa_Egg+Cyst_10CCCEB8-BEBB-4DC3-BA5F-904F05E43E71.jpg",
         "width": "83",
         "height": "78"
@@ -9755,7 +8710,7 @@
         "dataset_id": "life_watch",
         "label": "Egg+Cyst",
         "image_id": "9D353E8A-3224-48D7-91D3-0724228F0279",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/egg_cyst/02_bf895080ab.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/egg_cyst/02_bb367adae9.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Egg+Cyst/ecotaxa_Egg+Cyst_9D353E8A-3224-48D7-91D3-0724228F0279.jpg",
         "width": "81",
         "height": "75"
@@ -9764,7 +8719,7 @@
         "dataset_id": "life_watch",
         "label": "Egg+Cyst",
         "image_id": "BB8561F4-119D-4A52-B078-F28391E6DD44",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/egg_cyst/03_1e81c7daad.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/egg_cyst/03_0cc1802286.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Egg+Cyst/ecotaxa_Egg+Cyst_BB8561F4-119D-4A52-B078-F28391E6DD44.jpg",
         "width": "82",
         "height": "85"
@@ -9773,7 +8728,7 @@
         "dataset_id": "life_watch",
         "label": "Egg+Cyst",
         "image_id": "DEB31F12-1C00-468E-B6B5-127C9DFD1B1D",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/egg_cyst/04_52cca87988.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/egg_cyst/04_4831a5ff49.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Egg+Cyst/ecotaxa_Egg+Cyst_DEB31F12-1C00-468E-B6B5-127C9DFD1B1D.jpg",
         "width": "60",
         "height": "84"
@@ -9782,13 +8737,11 @@
         "dataset_id": "life_watch",
         "label": "Egg+Cyst",
         "image_id": "3ECBCC92-C74C-4AFD-A2ED-8556744BADE0",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/egg_cyst/05_d434399e76.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/egg_cyst/05_8610c00405.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Egg+Cyst/ecotaxa_Egg+Cyst_3ECBCC92-C74C-4AFD-A2ED-8556744BADE0.jpg",
         "width": "76",
         "height": "76"
-      }
-    ],
-    "non_taxonomic_category::egg/cyst": [
+      },
       {
         "dataset_id": "life_watch_2026_image_library",
         "label": "Egg/Cyst",
@@ -10113,104 +9066,12 @@
         "height": "74"
       }
     ],
-    "non_taxonomic_category::fiber<detritus": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "fiber<detritus",
-        "image_id": "i00_oa136_001_g100014429_2051",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/fiber_detritus/01_873d12c5f5.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_2051.jpg",
-        "width": "97",
-        "height": "129"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "fiber<detritus",
-        "image_id": "i00_oa136_001_g100014429_10357",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/fiber_detritus/02_0b4951af4e.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_10357.jpg",
-        "width": "97",
-        "height": "122"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "fiber<detritus",
-        "image_id": "i00_oa136_001_g100014429_43",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/fiber_detritus/03_6406cad4c7.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_43.jpg",
-        "width": "97",
-        "height": "99"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "fiber<detritus",
-        "image_id": "i00_oa136_001_g100014429_483",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/fiber_detritus/04_52d13a32b0.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_483.jpg",
-        "width": "97",
-        "height": "122"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "fiber<detritus",
-        "image_id": "i00_oa136_001_g100014429_2595",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/fiber_detritus/05_571104760b.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_2595.jpg",
-        "width": "97",
-        "height": "75"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "fiber<detritus",
-        "image_id": "aw_i04_s4_002_r110001920_7438",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/fiber_detritus/01_c04ecddf1a.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_7438.jpg",
-        "width": "97",
-        "height": "175"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "fiber<detritus",
-        "image_id": "aw_i04_s4_002_r110001920_9758",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/fiber_detritus/02_0514f1ac59.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_9758.jpg",
-        "width": "97",
-        "height": "122"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "fiber<detritus",
-        "image_id": "aw_i04_s4_002_r110001920_6231",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/fiber_detritus/03_1f42bf23da.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_6231.jpg",
-        "width": "97",
-        "height": "106"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "fiber<detritus",
-        "image_id": "aw_i04_s4_002_r110001920_17777",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/fiber_detritus/04_fc3723fb55.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_17777.jpg",
-        "width": "97",
-        "height": "142"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "fiber<detritus",
-        "image_id": "aw_i04_s4_002_r110001920_8866",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/fiber_detritus/05_476a43f524.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_8866.jpg",
-        "width": "97",
-        "height": "101"
-      }
-    ],
-    "non_taxonomic_category::fibers": [
+    "non_taxonomic_category::fuber": [
       {
         "dataset_id": "life_watch",
         "label": "Fibers",
         "image_id": "2C01348A-A6CB-4C36-8910-0A4E01187B19",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/fibers/01_31320a1b30.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/fibers/01_dd45934f2a.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Fibers/ecotaxa_Fibers_2C01348A-A6CB-4C36-8910-0A4E01187B19.jpg",
         "width": "18",
         "height": "159"
@@ -10219,7 +9080,7 @@
         "dataset_id": "life_watch",
         "label": "Fibers",
         "image_id": "4C69FE6E-0AA5-4CBA-BB94-4140D2084F7D",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/fibers/02_dc865cc8a3.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/fibers/02_35f945738f.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Fibers/ecotaxa_Fibers_4C69FE6E-0AA5-4CBA-BB94-4140D2084F7D.jpg",
         "width": "29",
         "height": "77"
@@ -10228,7 +9089,7 @@
         "dataset_id": "life_watch",
         "label": "Fibers",
         "image_id": "B449A03F-68FD-49B1-BB05-7A3AA22FD137",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/fibers/03_49a4056989.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/fibers/03_433eb00922.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Fibers/ecotaxa_Fibers_B449A03F-68FD-49B1-BB05-7A3AA22FD137.jpg",
         "width": "20",
         "height": "92"
@@ -10237,7 +9098,7 @@
         "dataset_id": "life_watch",
         "label": "Fibers",
         "image_id": "243AF60F-FF06-4BBB-95B2-09C773788160",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/fibers/04_05829f5061.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/fibers/04_ad41a9b9f7.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Fibers/ecotaxa_Fibers_243AF60F-FF06-4BBB-95B2-09C773788160.jpg",
         "width": "107",
         "height": "37"
@@ -10246,7 +9107,7 @@
         "dataset_id": "life_watch",
         "label": "Fibers",
         "image_id": "51913AB0-5C36-4A82-8A4E-61A1478BDA2B",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/fibers/05_b914990179.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/fibers/05_ff5124505e.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Fibers/ecotaxa_Fibers_51913AB0-5C36-4A82-8A4E-61A1478BDA2B.jpg",
         "width": "46",
         "height": "91"
@@ -10255,7 +9116,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Fibers",
         "image_id": "636D54C4-2EBB-4E26-8ACA-0B793EB676FD",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/fibers/01_3f6dd6c4d2.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/fibers/01_990b27df43.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Fibers/636D54C4-2EBB-4E26-8ACA-0B793EB676FD.png",
         "width": "",
         "height": ""
@@ -10264,7 +9125,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Fibers",
         "image_id": "416033BB-C26F-4AE7-96D4-DE90EB5AE49F",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/fibers/02_de16f2d663.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/fibers/02_ea35354539.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Fibers/416033BB-C26F-4AE7-96D4-DE90EB5AE49F.png",
         "width": "",
         "height": ""
@@ -10273,7 +9134,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Fibers",
         "image_id": "547C5C24-EF0F-4D30-B0F6-438EDF242D9A",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/fibers/03_b207022d5c.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/fibers/03_4714d43e18.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Fibers/547C5C24-EF0F-4D30-B0F6-438EDF242D9A.png",
         "width": "",
         "height": ""
@@ -10282,7 +9143,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Fibers",
         "image_id": "32EE71DE-3A38-4227-9B69-F402862AD470",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/fibers/04_73f637b532.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/fibers/04_3ba71ce7f4.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Fibers/32EE71DE-3A38-4227-9B69-F402862AD470.png",
         "width": "",
         "height": ""
@@ -10291,10 +9152,100 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Fibers",
         "image_id": "02FD62E1-7402-46F1-AD05-BAA80F7B03C7",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/fibers/05_1b4fc10a66.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/fibers/05_ad9bdf81be.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Fibers/02FD62E1-7402-46F1-AD05-BAA80F7B03C7.png",
         "width": "",
         "height": ""
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "fiber<detritus",
+        "image_id": "i00_oa136_001_g100014429_2051",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/fiber_detritus/01_eba88f57ff.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_2051.jpg",
+        "width": "97",
+        "height": "129"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "fiber<detritus",
+        "image_id": "i00_oa136_001_g100014429_10357",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/fiber_detritus/02_a61ea65db6.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_10357.jpg",
+        "width": "97",
+        "height": "122"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "fiber<detritus",
+        "image_id": "i00_oa136_001_g100014429_43",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/fiber_detritus/03_97aeb13d60.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_43.jpg",
+        "width": "97",
+        "height": "99"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "fiber<detritus",
+        "image_id": "i00_oa136_001_g100014429_483",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/fiber_detritus/04_396a840266.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_483.jpg",
+        "width": "97",
+        "height": "122"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "fiber<detritus",
+        "image_id": "i00_oa136_001_g100014429_2595",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/fiber_detritus/05_aa5269cecf.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_2595.jpg",
+        "width": "97",
+        "height": "75"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "fiber<detritus",
+        "image_id": "aw_i04_s4_002_r110001920_7438",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/fiber_detritus/01_8c2a13743b.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_7438.jpg",
+        "width": "97",
+        "height": "175"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "fiber<detritus",
+        "image_id": "aw_i04_s4_002_r110001920_9758",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/fiber_detritus/02_53d467686d.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_9758.jpg",
+        "width": "97",
+        "height": "122"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "fiber<detritus",
+        "image_id": "aw_i04_s4_002_r110001920_6231",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/fiber_detritus/03_064dec212a.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_6231.jpg",
+        "width": "97",
+        "height": "106"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "fiber<detritus",
+        "image_id": "aw_i04_s4_002_r110001920_17777",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/fiber_detritus/04_f72f48a7e1.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_17777.jpg",
+        "width": "97",
+        "height": "142"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "fiber<detritus",
+        "image_id": "aw_i04_s4_002_r110001920_8866",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/fiber_detritus/05_409bcc1aab.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_8866.jpg",
+        "width": "97",
+        "height": "101"
       }
     ],
     "non_taxonomic_category::guinardia striata+dactyliosolen phuketensis": [
@@ -11852,14 +10803,12 @@
         "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/other_living/164733866.png",
         "width": "115",
         "height": "81"
-      }
-    ],
-    "non_taxonomic_category::other<living": [
+      },
       {
         "dataset_id": "tara_pacific_bongo",
         "label": "other<living",
         "image_id": "aw_i04_s4_002_r110001920_18572",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/other_living/01_29732b3ddd.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/other_living/01_a676eb4464.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_18572.jpg",
         "width": "97",
         "height": "59"
@@ -11868,7 +10817,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "other<living",
         "image_id": "aw_i04_s4_002_r110001920_1928",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/other_living/02_0b84b7a0aa.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/other_living/02_d58178714f.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_1928.jpg",
         "width": "97",
         "height": "70"
@@ -11877,7 +10826,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "other<living",
         "image_id": "aw_i04_s4_002_r110001920_16883",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/other_living/03_3bcf47e158.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/other_living/03_e5f580b385.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_16883.jpg",
         "width": "97",
         "height": "68"
@@ -11886,7 +10835,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "other<living",
         "image_id": "aw_i04_s4_002_r110001920_14854",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/other_living/04_856b80fab2.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/other_living/04_7afed3236d.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_14854.jpg",
         "width": "97",
         "height": "64"
@@ -11895,7 +10844,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "other<living",
         "image_id": "aw_i04_s4_002_r110001920_15918",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/other_living/05_435cc3718d.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/other_living/05_db2203de38.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_15918.jpg",
         "width": "97",
         "height": "59"
@@ -13516,12 +12465,12 @@
         "height": "61"
       }
     ],
-    "non_taxonomic_category::synedra+thalassionema": [
+    "non_taxonomic_category::synedra/thalassionema": [
       {
         "dataset_id": "life_watch",
         "label": "Synedra+Thalassionema",
         "image_id": "A1ECB0D5-8496-43A6-84B7-4C876A146894",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/synedra_thalassionema/01_2b7ad2f945.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/synedra_thalassionema/01_bba199e9f9.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Synedra+Thalassionema/ecotaxa_Synedra+Thalassionema_A1ECB0D5-8496-43A6-84B7-4C876A146894.jpg",
         "width": "68",
         "height": "108"
@@ -13530,7 +12479,7 @@
         "dataset_id": "life_watch",
         "label": "Synedra+Thalassionema",
         "image_id": "D8ECC197-991F-4533-ADA0-DA0828BA1E9D",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/synedra_thalassionema/02_ae91e45e62.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/synedra_thalassionema/02_05e5b45b70.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Synedra+Thalassionema/ecotaxa_Synedra+Thalassionema_D8ECC197-991F-4533-ADA0-DA0828BA1E9D.jpg",
         "width": "82",
         "height": "95"
@@ -13539,7 +12488,7 @@
         "dataset_id": "life_watch",
         "label": "Synedra+Thalassionema",
         "image_id": "2F745CFA-FAD3-4FD1-B657-6E36CE35654D",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/synedra_thalassionema/03_63d89bf999.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/synedra_thalassionema/03_9917d8070a.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Synedra+Thalassionema/ecotaxa_Synedra+Thalassionema_2F745CFA-FAD3-4FD1-B657-6E36CE35654D.jpg",
         "width": "60",
         "height": "57"
@@ -13548,7 +12497,7 @@
         "dataset_id": "life_watch",
         "label": "Synedra+Thalassionema",
         "image_id": "8435A889-7542-4E5F-956B-FDD5FBB1A345",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/synedra_thalassionema/04_072efcc654.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/synedra_thalassionema/04_d7a3cba9ba.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Synedra+Thalassionema/ecotaxa_Synedra+Thalassionema_8435A889-7542-4E5F-956B-FDD5FBB1A345.jpg",
         "width": "61",
         "height": "64"
@@ -13557,7 +12506,7 @@
         "dataset_id": "life_watch",
         "label": "Synedra+Thalassionema",
         "image_id": "9BCE080D-1450-469A-A7C1-EF55567000C8",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/synedra_thalassionema/05_60cf537f6c.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/synedra_thalassionema/05_506bfb502a.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Synedra+Thalassionema/ecotaxa_Synedra+Thalassionema_9BCE080D-1450-469A-A7C1-EF55567000C8.jpg",
         "width": "76",
         "height": "149"
@@ -14542,12 +13491,12 @@
         "height": "253"
       }
     ],
-    "non_taxonomic_category::thalassiosira+porosira": [
+    "non_taxonomic_category::thalassiosira/porosira": [
       {
         "dataset_id": "life_watch",
         "label": "Thalassiosira+Porosira",
         "image_id": "D7841EB6-7E77-45B0-A33D-46D7F79E2B83",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/thalassiosira_porosira/01_59f384e1c4.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/thalassiosira_porosira/01_30e1d7de59.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Thalassiosira+Porosira/ecotaxa_Thalassiosira+Porosira_D7841EB6-7E77-45B0-A33D-46D7F79E2B83.jpg",
         "width": "60",
         "height": "59"
@@ -14556,7 +13505,7 @@
         "dataset_id": "life_watch",
         "label": "Thalassiosira+Porosira",
         "image_id": "2FC215D4-0D2D-4E47-9375-D0C1FDA69927",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/thalassiosira_porosira/02_2c1091b15f.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/thalassiosira_porosira/02_ebc05f0514.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Thalassiosira+Porosira/ecotaxa_Thalassiosira+Porosira_2FC215D4-0D2D-4E47-9375-D0C1FDA69927.jpg",
         "width": "49",
         "height": "62"
@@ -14565,7 +13514,7 @@
         "dataset_id": "life_watch",
         "label": "Thalassiosira+Porosira",
         "image_id": "557E99F0-312C-410A-A267-475C41B3E9B3",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/thalassiosira_porosira/03_94e8952b30.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/thalassiosira_porosira/03_c67308c567.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Thalassiosira+Porosira/ecotaxa_Thalassiosira+Porosira_557E99F0-312C-410A-A267-475C41B3E9B3.jpg",
         "width": "71",
         "height": "119"
@@ -14574,7 +13523,7 @@
         "dataset_id": "life_watch",
         "label": "Thalassiosira+Porosira",
         "image_id": "4984616C-3316-4242-AF96-292B2A278AAA",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/thalassiosira_porosira/04_b86ebbca97.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/thalassiosira_porosira/04_f1079c0a58.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Thalassiosira+Porosira/ecotaxa_Thalassiosira+Porosira_4984616C-3316-4242-AF96-292B2A278AAA.jpg",
         "width": "55",
         "height": "131"
@@ -14583,7 +13532,7 @@
         "dataset_id": "life_watch",
         "label": "Thalassiosira+Porosira",
         "image_id": "140C3220-9181-44C6-923E-02554FD91C6B",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/thalassiosira_porosira/05_cc67e89e46.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/thalassiosira_porosira/05_82f5fecee4.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Thalassiosira+Porosira/ecotaxa_Thalassiosira+Porosira_140C3220-9181-44C6-923E-02554FD91C6B.jpg",
         "width": "55",
         "height": "57"
@@ -14905,96 +13854,6 @@
         "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/UCYNA like/164747351.png",
         "width": "41",
         "height": "34"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "UCYNA like",
-        "image_id": "i21_oa149_001_g100014891_4087",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/ucyna_like/01_006b7bebf1.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i21_oa149_001_g100014891/i21_oa149_001_g100014891_4087.jpg",
-        "width": "97",
-        "height": "77"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "UCYNA like",
-        "image_id": "i23_oa159_001_g100015434_23935",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/ucyna_like/02_a5119aa662.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i23_oa159_001_g100015434/i23_oa159_001_g100015434_23935.jpg",
-        "width": "97",
-        "height": "65"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "UCYNA like",
-        "image_id": "i30_oa217_001_y110000794_2224",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/ucyna_like/03_8ca5d3e7ae.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i30_oa217_001_y110000794/i30_oa217_001_y110000794_2224.jpg",
-        "width": "97",
-        "height": "60"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "UCYNA like",
-        "image_id": "i32_oa232_001_g100013368_24710",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/ucyna_like/04_4d1aea6703.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i32_oa232_001_g100013368/i32_oa232_001_g100013368_24710.jpg",
-        "width": "97",
-        "height": "76"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "UCYNA like",
-        "image_id": "i99_oa194_001_g100013860_20949",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/ucyna_like/05_445a98fe03.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i99_oa194_001_g100013860/i99_oa194_001_g100013860_20949.jpg",
-        "width": "97",
-        "height": "68"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "UCYNA like",
-        "image_id": "aw_i04_s4_002_r110001920_14753",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/ucyna_like/01_085c9fb02c.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_14753.jpg",
-        "width": "97",
-        "height": "59"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "UCYNA like",
-        "image_id": "i04_s1_001_r110001775_12697",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/ucyna_like/02_7a8b2d216b.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/i04_s1_001_r110001775/i04_s1_001_r110001775_12697.jpg",
-        "width": "97",
-        "height": "65"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "UCYNA like",
-        "image_id": "i04_s1_001_r110001775_12012",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/ucyna_like/03_38f87fbaa1.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/i04_s1_001_r110001775/i04_s1_001_r110001775_12012.jpg",
-        "width": "97",
-        "height": "64"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "UCYNA like",
-        "image_id": "i04_s1_001_r110001775_14227",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/ucyna_like/04_07f110211e.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/i04_s1_001_r110001775/i04_s1_001_r110001775_14227.jpg",
-        "width": "97",
-        "height": "63"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "UCYNA like",
-        "image_id": "i04_s1_001_r110001775_5700",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/ucyna_like/05_9e41e955c1.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/i04_s1_001_r110001775/i04_s1_001_r110001775_5700.jpg",
-        "width": "97",
-        "height": "63"
       }
     ],
     "non_taxonomic_category::unknown": [
@@ -15042,14 +13901,12 @@
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Unknown/2F2E8AC6-0652-44EA-83C0-12F79FABF241.png",
         "width": "",
         "height": ""
-      }
-    ],
-    "non_taxonomic_category::unknown 3": [
+      },
       {
         "dataset_id": "life_watch_2026_image_library",
         "label": "Unknown_3",
         "image_id": "3537ACB6-A179-4BDC-B34D-EDF6FA2AC919",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_3/01_299eae568d.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_3/01_34e7a135c9.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Unknown_3/3537ACB6-A179-4BDC-B34D-EDF6FA2AC919.png",
         "width": "",
         "height": ""
@@ -15058,7 +13915,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Unknown_3",
         "image_id": "9FB65E94-00FF-4748-A3A0-F9F1D0D449DC",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_3/02_089f5c02c2.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_3/02_a28533c970.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Unknown_3/9FB65E94-00FF-4748-A3A0-F9F1D0D449DC.png",
         "width": "",
         "height": ""
@@ -15067,7 +13924,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Unknown_3",
         "image_id": "171E95F1-7F63-4546-AB43-32D5E2266FCE",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_3/03_c1ee691a70.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_3/03_1d92d36621.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Unknown_3/171E95F1-7F63-4546-AB43-32D5E2266FCE.png",
         "width": "",
         "height": ""
@@ -15076,7 +13933,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Unknown_3",
         "image_id": "574BCD2B-7761-40A8-A523-3A179D7F228A",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_3/04_8b2e0b0d6b.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_3/04_3981abb24a.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Unknown_3/574BCD2B-7761-40A8-A523-3A179D7F228A.png",
         "width": "",
         "height": ""
@@ -15085,18 +13942,16 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Unknown_3",
         "image_id": "85F4186A-F8BA-48F0-9B09-4BF1D65462B1",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_3/05_a7170d6a75.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_3/05_0e59bb0fdb.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Unknown_3/85F4186A-F8BA-48F0-9B09-4BF1D65462B1.png",
         "width": "",
         "height": ""
-      }
-    ],
-    "non_taxonomic_category::unknown 5": [
+      },
       {
         "dataset_id": "life_watch_2026_image_library",
         "label": "Unknown_5",
         "image_id": "829A20E9-BCD3-463C-96BE-B24677F36398",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_5/01_3e8abba957.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_5/01_b579d519ce.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Unknown_5/829A20E9-BCD3-463C-96BE-B24677F36398.png",
         "width": "",
         "height": ""
@@ -15105,7 +13960,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Unknown_5",
         "image_id": "25A2D350-9722-4A2E-BF6B-5EA1028A07BD",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_5/02_9e3c873df8.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_5/02_3952e6eb9f.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Unknown_5/25A2D350-9722-4A2E-BF6B-5EA1028A07BD.png",
         "width": "",
         "height": ""
@@ -15114,7 +13969,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Unknown_5",
         "image_id": "4E120CE1-1A51-4885-A482-880924B3E3BC",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_5/03_42d34462be.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_5/03_7b77fd8b57.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Unknown_5/4E120CE1-1A51-4885-A482-880924B3E3BC.png",
         "width": "",
         "height": ""
@@ -15123,7 +13978,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Unknown_5",
         "image_id": "F2E73DDE-1378-4CB2-A49B-FF20CB7003AD",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_5/04_ca4a498c89.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_5/04_592875dd4d.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Unknown_5/F2E73DDE-1378-4CB2-A49B-FF20CB7003AD.png",
         "width": "",
         "height": ""
@@ -15132,18 +13987,16 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Unknown_5",
         "image_id": "EED4BA69-AC56-49AE-8FD2-063AD00ABDFC",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_5/05_3dc86847c3.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_5/05_8d022a8362.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Unknown_5/EED4BA69-AC56-49AE-8FD2-063AD00ABDFC.png",
         "width": "",
         "height": ""
-      }
-    ],
-    "non_taxonomic_category::unknown 8": [
+      },
       {
         "dataset_id": "life_watch_2026_image_library",
         "label": "Unknown_8",
         "image_id": "E1F69600-A95B-4E82-AB94-636BC9B2E3E6",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_8/01_7a60319cc7.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_8/01_d2e865455b.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Unknown_8/E1F69600-A95B-4E82-AB94-636BC9B2E3E6.png",
         "width": "",
         "height": ""
@@ -15152,7 +14005,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Unknown_8",
         "image_id": "B73E4CC5-7F82-47C6-A646-99A81B21402A",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_8/02_2bd4790c30.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_8/02_b6b12bd644.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Unknown_8/B73E4CC5-7F82-47C6-A646-99A81B21402A.png",
         "width": "",
         "height": ""
@@ -15161,7 +14014,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Unknown_8",
         "image_id": "87A421CE-4E67-4138-9F53-5C530F50102A",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_8/03_79e0b47354.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_8/03_8c400a8464.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Unknown_8/87A421CE-4E67-4138-9F53-5C530F50102A.png",
         "width": "",
         "height": ""
@@ -15170,7 +14023,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Unknown_8",
         "image_id": "E8D19D7B-1475-41F1-BF07-CC57ED72C0A0",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_8/04_14abfd453e.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_8/04_dafb27934e.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Unknown_8/E8D19D7B-1475-41F1-BF07-CC57ED72C0A0.png",
         "width": "",
         "height": ""
@@ -15179,7 +14032,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Unknown_8",
         "image_id": "BC45D9B9-0964-4967-8CD4-DE905E394AA0",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_8/05_b71e2c68d5.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/unknown_8/05_68e6556bf2.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Unknown_8/BC45D9B9-0964-4967-8CD4-DE905E394AA0.png",
         "width": "",
         "height": ""
@@ -15622,14 +14475,12 @@
         "source_ref": "datasets/LifeWatch/data/images/Crustaceae-part/ecotaxa_Crustaceae-part_ADB2D1B1-A474-4490-8DE9-482B767B06FE.jpg",
         "width": "120",
         "height": "76"
-      }
-    ],
-    "taxonomic_mismatch::crustaceae:part": [
+      },
       {
         "dataset_id": "life_watch_2026_image_library",
         "label": "Crustaceae:part",
         "image_id": "248C34B1-E71F-4979-9D0E-B845ED1A89F4",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/crustaceae_part/01_3df9fc2a16.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/crustaceae_part/01_eb8e889205.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Crustaceae_part/248C34B1-E71F-4979-9D0E-B845ED1A89F4.png",
         "width": "",
         "height": ""
@@ -15638,7 +14489,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Crustaceae:part",
         "image_id": "DC26DC0D-ED85-4865-B1D6-1870468BD54D",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/crustaceae_part/02_cd08825ce1.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/crustaceae_part/02_aae7b08ff7.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Crustaceae_part/DC26DC0D-ED85-4865-B1D6-1870468BD54D.png",
         "width": "",
         "height": ""
@@ -15647,7 +14498,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Crustaceae:part",
         "image_id": "E94580D3-6A71-4C3D-9409-0DE7E34AF1F4",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/crustaceae_part/03_6edfb60bf4.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/crustaceae_part/03_aadd3a35d7.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Crustaceae_part/E94580D3-6A71-4C3D-9409-0DE7E34AF1F4.png",
         "width": "",
         "height": ""
@@ -15656,7 +14507,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Crustaceae:part",
         "image_id": "6EE87D69-17B3-4BCC-AF0D-F1CDA8934E94",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/crustaceae_part/04_af2ea0a7ee.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/crustaceae_part/04_c45ebe4858.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Crustaceae_part/6EE87D69-17B3-4BCC-AF0D-F1CDA8934E94.png",
         "width": "",
         "height": ""
@@ -15665,7 +14516,7 @@
         "dataset_id": "life_watch_2026_image_library",
         "label": "Crustaceae:part",
         "image_id": "C1A89023-53AE-46E3-9CEE-66DAF8E61868",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/crustaceae_part/05_72fc5cae11.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/crustaceae_part/05_7e9d85b256.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Crustaceae_part/C1A89023-53AE-46E3-9CEE-66DAF8E61868.png",
         "width": "",
         "height": ""
@@ -16858,12 +15709,12 @@
         "height": ""
       }
     ],
-    "taxonomic_mismatch::synedra+thalassionema": [
+    "taxonomic_mismatch::synedra/thalassionema": [
       {
         "dataset_id": "life_watch",
         "label": "Synedra+Thalassionema",
         "image_id": "A1ECB0D5-8496-43A6-84B7-4C876A146894",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/synedra_thalassionema/01_a56b3b31ae.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/synedra_thalassionema/01_c5d579d664.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Synedra+Thalassionema/ecotaxa_Synedra+Thalassionema_A1ECB0D5-8496-43A6-84B7-4C876A146894.jpg",
         "width": "68",
         "height": "108"
@@ -16872,7 +15723,7 @@
         "dataset_id": "life_watch",
         "label": "Synedra+Thalassionema",
         "image_id": "D8ECC197-991F-4533-ADA0-DA0828BA1E9D",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/synedra_thalassionema/02_23d0734a96.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/synedra_thalassionema/02_2248ed317b.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Synedra+Thalassionema/ecotaxa_Synedra+Thalassionema_D8ECC197-991F-4533-ADA0-DA0828BA1E9D.jpg",
         "width": "82",
         "height": "95"
@@ -16881,7 +15732,7 @@
         "dataset_id": "life_watch",
         "label": "Synedra+Thalassionema",
         "image_id": "2F745CFA-FAD3-4FD1-B657-6E36CE35654D",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/synedra_thalassionema/03_443e79c343.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/synedra_thalassionema/03_f20254309a.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Synedra+Thalassionema/ecotaxa_Synedra+Thalassionema_2F745CFA-FAD3-4FD1-B657-6E36CE35654D.jpg",
         "width": "60",
         "height": "57"
@@ -16890,7 +15741,7 @@
         "dataset_id": "life_watch",
         "label": "Synedra+Thalassionema",
         "image_id": "8435A889-7542-4E5F-956B-FDD5FBB1A345",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/synedra_thalassionema/04_c5040703e1.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/synedra_thalassionema/04_be6274faf8.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Synedra+Thalassionema/ecotaxa_Synedra+Thalassionema_8435A889-7542-4E5F-956B-FDD5FBB1A345.jpg",
         "width": "61",
         "height": "64"
@@ -16899,13 +15750,11 @@
         "dataset_id": "life_watch",
         "label": "Synedra+Thalassionema",
         "image_id": "9BCE080D-1450-469A-A7C1-EF55567000C8",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/synedra_thalassionema/05_98545b1698.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/synedra_thalassionema/05_531f31eeff.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Synedra+Thalassionema/ecotaxa_Synedra+Thalassionema_9BCE080D-1450-469A-A7C1-EF55567000C8.jpg",
         "width": "76",
         "height": "149"
-      }
-    ],
-    "taxonomic_mismatch::synedra/thalassionema": [
+      },
       {
         "dataset_id": "life_watch_2026_image_library",
         "label": "Synedra/Thalassionema",
@@ -16952,12 +15801,12 @@
         "height": ""
       }
     ],
-    "taxonomic_mismatch::thalassiosira+porosira": [
+    "taxonomic_mismatch::thalassiosira/porosira": [
       {
         "dataset_id": "life_watch",
         "label": "Thalassiosira+Porosira",
         "image_id": "D7841EB6-7E77-45B0-A33D-46D7F79E2B83",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/thalassiosira_porosira/01_0109305c6a.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/thalassiosira_porosira/01_1f2af0054d.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Thalassiosira+Porosira/ecotaxa_Thalassiosira+Porosira_D7841EB6-7E77-45B0-A33D-46D7F79E2B83.jpg",
         "width": "60",
         "height": "59"
@@ -16966,7 +15815,7 @@
         "dataset_id": "life_watch",
         "label": "Thalassiosira+Porosira",
         "image_id": "2FC215D4-0D2D-4E47-9375-D0C1FDA69927",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/thalassiosira_porosira/02_4a4b1faa94.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/thalassiosira_porosira/02_f5b3b2e340.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Thalassiosira+Porosira/ecotaxa_Thalassiosira+Porosira_2FC215D4-0D2D-4E47-9375-D0C1FDA69927.jpg",
         "width": "49",
         "height": "62"
@@ -16975,7 +15824,7 @@
         "dataset_id": "life_watch",
         "label": "Thalassiosira+Porosira",
         "image_id": "557E99F0-312C-410A-A267-475C41B3E9B3",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/thalassiosira_porosira/03_1497c0b297.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/thalassiosira_porosira/03_f2fedc27c8.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Thalassiosira+Porosira/ecotaxa_Thalassiosira+Porosira_557E99F0-312C-410A-A267-475C41B3E9B3.jpg",
         "width": "71",
         "height": "119"
@@ -16984,7 +15833,7 @@
         "dataset_id": "life_watch",
         "label": "Thalassiosira+Porosira",
         "image_id": "4984616C-3316-4242-AF96-292B2A278AAA",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/thalassiosira_porosira/04_31f95df2c2.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/thalassiosira_porosira/04_810b8e13d0.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Thalassiosira+Porosira/ecotaxa_Thalassiosira+Porosira_4984616C-3316-4242-AF96-292B2A278AAA.jpg",
         "width": "55",
         "height": "131"
@@ -16993,13 +15842,11 @@
         "dataset_id": "life_watch",
         "label": "Thalassiosira+Porosira",
         "image_id": "140C3220-9181-44C6-923E-02554FD91C6B",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/thalassiosira_porosira/05_72b0d45aab.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/thalassiosira_porosira/05_98ccaac6b2.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Thalassiosira+Porosira/ecotaxa_Thalassiosira+Porosira_140C3220-9181-44C6-923E-02554FD91C6B.jpg",
         "width": "55",
         "height": "57"
-      }
-    ],
-    "taxonomic_mismatch::thalassiosira/porosira": [
+      },
       {
         "dataset_id": "life_watch_2026_image_library",
         "label": "Thalassiosira/Porosira",
@@ -17283,13 +16130,13 @@
     "sample_limit_per_dataset": 5,
     "excluded_valid_tree_overlap_default": true,
     "table_counts": {
-      "non_taxonomic_category": 142,
-      "taxonomic_mismatch": 35
+      "non_taxonomic_category": 126,
+      "taxonomic_mismatch": 32
     },
     "table_image_counts": {
-      "non_taxonomic_category": 3163168,
+      "non_taxonomic_category": 3067138,
       "taxonomic_mismatch": 367401
     },
-    "total_image_count": 3530569
+    "total_image_count": 3434539
   }
 }

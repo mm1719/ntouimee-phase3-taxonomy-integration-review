@@ -9,9 +9,16 @@ type Props = {
   onSelect: (node: TreeNode) => void;
   depth?: number;
   autoOpenForTerminal?: boolean;
+  forceOpenAll?: boolean;
 };
 
-export function TaxonomyTree({ node, onSelect, depth = 0, autoOpenForTerminal = false }: Props) {
+export function TaxonomyTree({
+  node,
+  onSelect,
+  depth = 0,
+  autoOpenForTerminal = false,
+  forceOpenAll = false
+}: Props) {
   const children = node.children ?? [];
   const isLeaf = node.type === "dataset_class";
   const terminalPlacements = children.filter((child) => child.type === "dataset_class");
@@ -24,10 +31,18 @@ export function TaxonomyTree({ node, onSelect, depth = 0, autoOpenForTerminal = 
   const [autoOpenedForTerminal, setAutoOpenedForTerminal] = useState(false);
   const [userClosedAutoOpen, setUserClosedAutoOpen] = useState(false);
   const suppressNextToggle = useRef(false);
-  const showTerminalPlacements = terminalPlacements.length > 0 && (openedByUser || autoOpenedForTerminal);
+  const showTerminalPlacements =
+    terminalPlacements.length > 0 && (forceOpenAll || openedByUser || autoOpenedForTerminal);
   const size = Math.max(8, Math.min(26, 8 + Math.sqrt(Math.max(0, node.image_count)) / 45));
 
   useEffect(() => {
+    if (forceOpenAll) {
+      setIsOpen(true);
+      setOpenedByUser(true);
+      setAutoOpenedForTerminal(false);
+      setUserClosedAutoOpen(false);
+      return;
+    }
     if (!autoOpenForTerminal) {
       setUserClosedAutoOpen(false);
       return;
@@ -38,7 +53,7 @@ export function TaxonomyTree({ node, onSelect, depth = 0, autoOpenForTerminal = 
       setAutoOpenedForTerminal(true);
       setOpenedByUser(false);
     }
-  }, [autoOpenForTerminal, hasDirectTerminal, isOpen, userClosedAutoOpen]);
+  }, [autoOpenForTerminal, forceOpenAll, hasDirectTerminal, isOpen, userClosedAutoOpen]);
 
   const content = (
     <div className="node-row" onClick={() => onSelect(node)}>
@@ -124,6 +139,7 @@ export function TaxonomyTree({ node, onSelect, depth = 0, autoOpenForTerminal = 
             onSelect={onSelect}
             depth={depth + 1}
             autoOpenForTerminal={isOpen && openedByUser}
+            forceOpenAll={forceOpenAll}
           />
         ))}
       </div>

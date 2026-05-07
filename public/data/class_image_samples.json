@@ -1195,6 +1195,98 @@
       "height": "65"
     }
   ],
+  "flowcam_net::Climacodium inter. Crocosphaera": [
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: Climacodium inter. Crocosphaera",
+      "image_id": "165334308",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_Climacodium_inter._Crocosphaera/01_308f579b21.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Climacodium inter. Crocosphaera/165334308.png",
+      "width": "97",
+      "height": "112"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: Climacodium inter. Crocosphaera",
+      "image_id": "165334701",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_Climacodium_inter._Crocosphaera/02_fc19c7a9f0.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Climacodium inter. Crocosphaera/165334701.png",
+      "width": "32",
+      "height": "77"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: Climacodium inter. Crocosphaera",
+      "image_id": "165334856",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_Climacodium_inter._Crocosphaera/03_0d8de32620.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Climacodium inter. Crocosphaera/165334856.png",
+      "width": "67",
+      "height": "74"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: Climacodium inter. Crocosphaera",
+      "image_id": "165057374",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_Climacodium_inter._Crocosphaera/04_d3fece9807.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Climacodium inter. Crocosphaera/165057374.png",
+      "width": "58",
+      "height": "75"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: Climacodium inter. Crocosphaera",
+      "image_id": "165334837",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_Climacodium_inter._Crocosphaera/05_4a8d214faf.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Climacodium inter. Crocosphaera/165334837.png",
+      "width": "66",
+      "height": "80"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: Climacodium inter. Crocosphaera",
+      "image_id": "165333724",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_Climacodium_inter._Crocosphaera/06_4ae9dfec67.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Climacodium inter. Crocosphaera/165333724.png",
+      "width": "90",
+      "height": "93"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: Climacodium inter. Crocosphaera",
+      "image_id": "165333619",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_Climacodium_inter._Crocosphaera/07_3e1a9f4b4a.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Climacodium inter. Crocosphaera/165333619.png",
+      "width": "112",
+      "height": "102"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: Climacodium inter. Crocosphaera",
+      "image_id": "165541511",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_Climacodium_inter._Crocosphaera/08_4eadb657e3.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Climacodium inter. Crocosphaera/165541511.png",
+      "width": "77",
+      "height": "54"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: Climacodium inter. Crocosphaera",
+      "image_id": "165542375",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_Climacodium_inter._Crocosphaera/09_8dc71a2bd2.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Climacodium inter. Crocosphaera/165542375.png",
+      "width": "121",
+      "height": "154"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: Climacodium inter. Crocosphaera",
+      "image_id": "165057677",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_Climacodium_inter._Crocosphaera/10_973ddb8316.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Climacodium inter. Crocosphaera/165057677.png",
+      "width": "53",
+      "height": "124"
+    }
+  ],
   "flowcam_net::Codonaria": [
     {
       "dataset_id": "flowcam_net",
@@ -5425,6 +5517,190 @@
       "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Xystonellidae/164746942.png",
       "width": "50",
       "height": "137"
+    }
+  ],
+  "flowcam_net::cyano a": [
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: cyano a",
+      "image_id": "165346695",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_cyano_a/01_3a9b52ec6b.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano a/165346695.png",
+      "width": "45",
+      "height": "42"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: cyano a",
+      "image_id": "165338344",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_cyano_a/02_310e673c13.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano a/165338344.png",
+      "width": "37",
+      "height": "40"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: cyano a",
+      "image_id": "165349014",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_cyano_a/03_574d4f53b0.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano a/165349014.png",
+      "width": "33",
+      "height": "53"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: cyano a",
+      "image_id": "164740001",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_cyano_a/04_484a123797.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano a/164740001.png",
+      "width": "71",
+      "height": "10"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: cyano a",
+      "image_id": "165336163",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_cyano_a/05_c88046aeeb.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano a/165336163.png",
+      "width": "23",
+      "height": "47"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: cyano a",
+      "image_id": "165349139",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_cyano_a/06_5c7063b2dc.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano a/165349139.png",
+      "width": "136",
+      "height": "107"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: cyano a",
+      "image_id": "165342729",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_cyano_a/07_a8893a24f5.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano a/165342729.png",
+      "width": "68",
+      "height": "217"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: cyano a",
+      "image_id": "165348221",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_cyano_a/08_66f0927a7c.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano a/165348221.png",
+      "width": "28",
+      "height": "27"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: cyano a",
+      "image_id": "164901449",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_cyano_a/09_94766cf0de.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano a/164901449.png",
+      "width": "154",
+      "height": "357"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: cyano a",
+      "image_id": "165342114",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_cyano_a/10_bdbf8e5e3d.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano a/165342114.png",
+      "width": "35",
+      "height": "164"
+    }
+  ],
+  "flowcam_net::cyano b": [
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: cyano b",
+      "image_id": "165368953",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_cyano_b/01_e3ddc6af3e.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano b/165368953.png",
+      "width": "38",
+      "height": "202"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: cyano b",
+      "image_id": "165443605",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_cyano_b/02_0b29972276.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano b/165443605.png",
+      "width": "17",
+      "height": "427"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: cyano b",
+      "image_id": "165368662",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_cyano_b/03_886f86ed6f.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano b/165368662.png",
+      "width": "121",
+      "height": "329"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: cyano b",
+      "image_id": "164944829",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_cyano_b/04_36720108bc.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano b/164944829.png",
+      "width": "97",
+      "height": "453"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: cyano b",
+      "image_id": "165400524",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_cyano_b/05_778a8a3bb3.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano b/165400524.png",
+      "width": "13",
+      "height": "133"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: cyano b",
+      "image_id": "164936939",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_cyano_b/06_2a9b5bbbc9.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano b/164936939.png",
+      "width": "294",
+      "height": "122"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: cyano b",
+      "image_id": "165408832",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_cyano_b/07_8fc31f04d1.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano b/165408832.png",
+      "width": "13",
+      "height": "143"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: cyano b",
+      "image_id": "164911140",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_cyano_b/08_67644fd4f5.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano b/164911140.png",
+      "width": "248",
+      "height": "632"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: cyano b",
+      "image_id": "165390760",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_cyano_b/09_b483a49717.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano b/165390760.png",
+      "width": "53",
+      "height": "94"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: cyano b",
+      "image_id": "165392476",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_cyano_b/10_cb2713d828.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/cyano b/165392476.png",
+      "width": "225",
+      "height": "221"
     }
   ],
   "ifremer_srn::Phaeocystis_globosa": [
@@ -24642,6 +24918,89 @@
       "height": "307"
     }
   ],
+  "tara_pacific_bongo::UCYNA like": [
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "aw_i04_s4_002_r110001920_14753",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Cyanobacteria_UCYNA_like/01_2502586852.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_14753.jpg",
+      "width": "97",
+      "height": "59"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "i04_s1_001_r110001775_12697",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Cyanobacteria_UCYNA_like/02_0194ca5f7d.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/i04_s1_001_r110001775/i04_s1_001_r110001775_12697.jpg",
+      "width": "97",
+      "height": "65"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "i04_s1_001_r110001775_12012",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Cyanobacteria_UCYNA_like/03_37e7d24630.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/i04_s1_001_r110001775/i04_s1_001_r110001775_12012.jpg",
+      "width": "97",
+      "height": "64"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "i04_s1_001_r110001775_14227",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Cyanobacteria_UCYNA_like/04_d347f20cf9.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/i04_s1_001_r110001775/i04_s1_001_r110001775_14227.jpg",
+      "width": "97",
+      "height": "63"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "i04_s1_001_r110001775_5700",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Cyanobacteria_UCYNA_like/05_1402e580dd.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/i04_s1_001_r110001775/i04_s1_001_r110001775_5700.jpg",
+      "width": "97",
+      "height": "63"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "i04_s2_003_r110001808_5883",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Cyanobacteria_UCYNA_like/06_2d2cbff46b.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/i04_s2_003_r110001808/i04_s2_003_r110001808_5883.jpg",
+      "width": "97",
+      "height": "64"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "i04_s2_003_r110001808_6749",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Cyanobacteria_UCYNA_like/07_b75ac453ed.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/i04_s2_003_r110001808/i04_s2_003_r110001808_6749.jpg",
+      "width": "97",
+      "height": "66"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "i04_s2_003_r110001808_623",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Cyanobacteria_UCYNA_like/08_f699189114.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/i04_s2_003_r110001808/i04_s2_003_r110001808_623.jpg",
+      "width": "97",
+      "height": "61"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "i04_s1_001_r110001775_7205",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Cyanobacteria_UCYNA_like/09_6c6c58531d.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/i04_s1_001_r110001775/i04_s1_001_r110001775_7205.jpg",
+      "width": "97",
+      "height": "82"
+    }
+  ],
   "tara_pacific_bongo::Undellidae": [
     {
       "dataset_id": "tara_pacific_bongo",
@@ -24835,6 +25194,190 @@
       "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/srf_i15_s1_001_r110001043/srf_i15_s1_001_r110001043_7510.jpg",
       "width": "97",
       "height": "66"
+    }
+  ],
+  "tara_pacific_bongo::chainlarge": [
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "srf_i10_s2_001_r110001884_19177",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_chainlarge/01_00c976682e.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/srf_i10_s2_001_r110001884/srf_i10_s2_001_r110001884_19177.jpg",
+      "width": "97",
+      "height": "70"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "srf_i10_s2_001_r110001884_14166",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_chainlarge/02_9893739fe6.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/srf_i10_s2_001_r110001884/srf_i10_s2_001_r110001884_14166.jpg",
+      "width": "97",
+      "height": "67"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "aw_i04_s4_002_r110001920_11427",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_chainlarge/03_0391351507.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_11427.jpg",
+      "width": "344",
+      "height": "339"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "aw_i04_s4_002_r110001920_5857",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_chainlarge/04_705461baee.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_5857.jpg",
+      "width": "381",
+      "height": "250"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "aw_i04_s4_002_r110001920_5837",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_chainlarge/05_7b3a871923.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_5837.jpg",
+      "width": "97",
+      "height": "172"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "aw_i05_s1_001_r110001872_10365",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_chainlarge/06_c08fda6577.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_10365.jpg",
+      "width": "142",
+      "height": "196"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "aw_i05_s1_001_r110001872_9276",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_chainlarge/07_7b7a71abcb.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_9276.jpg",
+      "width": "97",
+      "height": "374"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "aw_i05_s1_001_r110001872_34251",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_chainlarge/08_e220e35dfc.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_34251.jpg",
+      "width": "97",
+      "height": "240"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "aw_i05_s1_001_r110001872_6038",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_chainlarge/09_d46d2a1fa2.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_6038.jpg",
+      "width": "97",
+      "height": "372"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "aw_i05_s1_001_r110001872_14200",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_chainlarge/10_672b22b353.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_14200.jpg",
+      "width": "102",
+      "height": "311"
+    }
+  ],
+  "tara_pacific_bongo::chainthin": [
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "aw_i04_s4_002_r110001920_17427",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_chainthin/01_664bc2572e.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_17427.jpg",
+      "width": "97",
+      "height": "62"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "aw_i04_s4_002_r110001920_11327",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_chainthin/02_66a804fe0c.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_11327.jpg",
+      "width": "97",
+      "height": "92"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "aw_i04_s4_002_r110001920_12522",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_chainthin/03_c7a642a7ff.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_12522.jpg",
+      "width": "97",
+      "height": "68"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "aw_i04_s4_002_r110001920_18472",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_chainthin/04_71a6e43c24.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_18472.jpg",
+      "width": "97",
+      "height": "63"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "aw_i04_s4_002_r110001920_10512",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_chainthin/05_3fa46c486f.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_10512.jpg",
+      "width": "97",
+      "height": "60"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "aw_i04_s4_002_r110001920_9763",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_chainthin/06_7e751fec7c.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_9763.jpg",
+      "width": "97",
+      "height": "64"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "aw_i04_s4_002_r110001920_2305",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_chainthin/07_f57a31492b.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_2305.jpg",
+      "width": "97",
+      "height": "63"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "aw_i04_s4_002_r110001920_4315",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_chainthin/08_6b3bd0e3fc.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_4315.jpg",
+      "width": "97",
+      "height": "61"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "aw_i04_s4_002_r110001920_10687",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_chainthin/09_1faa261185.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_10687.jpg",
+      "width": "97",
+      "height": "58"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "aw_i04_s4_002_r110001920_14158",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_chainthin/10_8cb4cd69fc.jpg",
+      "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_14158.jpg",
+      "width": "97",
+      "height": "58"
     }
   ],
   "tara_pacific_bongo::multiple<Diatoma": [
@@ -26434,6 +26977,98 @@
       "height": "106"
     }
   ],
+  "tara_pacific_deck::Bacteriastrum<Mediophyceae": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: Bacteriastrum<Mediophyceae",
+      "image_id": "i00_oa136_001_g100014429_11620",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_Bacteriastrum_Mediophyceae/01_fdc3d3a5e2.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_11620.jpg",
+      "width": "97",
+      "height": "80"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: Bacteriastrum<Mediophyceae",
+      "image_id": "i00_oa139_001_g100014672_26857",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_Bacteriastrum_Mediophyceae/02_b7d7658e0b.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_26857.jpg",
+      "width": "97",
+      "height": "102"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: Bacteriastrum<Mediophyceae",
+      "image_id": "i00_oa163_001_g100015598_36117",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_Bacteriastrum_Mediophyceae/03_3201967263.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_36117.jpg",
+      "width": "97",
+      "height": "85"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: Bacteriastrum<Mediophyceae",
+      "image_id": "i00_oa163_001_g100015598_20562",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_Bacteriastrum_Mediophyceae/04_1ae86e830d.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_20562.jpg",
+      "width": "97",
+      "height": "82"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: Bacteriastrum<Mediophyceae",
+      "image_id": "i00_oa163_001_g100015598_10702",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_Bacteriastrum_Mediophyceae/05_057e4b5eec.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_10702.jpg",
+      "width": "97",
+      "height": "82"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: Bacteriastrum<Mediophyceae",
+      "image_id": "i00_oa163_001_g100015598_12968",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_Bacteriastrum_Mediophyceae/06_4425f0ab75.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_12968.jpg",
+      "width": "97",
+      "height": "85"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: Bacteriastrum<Mediophyceae",
+      "image_id": "i00_oa163_001_g100015598_30201",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_Bacteriastrum_Mediophyceae/07_2e0b05d10a.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_30201.jpg",
+      "width": "97",
+      "height": "63"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: Bacteriastrum<Mediophyceae",
+      "image_id": "i00_oa163_001_g100015598_12392",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_Bacteriastrum_Mediophyceae/08_998a39d2f4.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_12392.jpg",
+      "width": "97",
+      "height": "115"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: Bacteriastrum<Mediophyceae",
+      "image_id": "i00_oa163_001_g100015598_1581",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_Bacteriastrum_Mediophyceae/09_e5cb16898a.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_1581.jpg",
+      "width": "97",
+      "height": "96"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: Bacteriastrum<Mediophyceae",
+      "image_id": "i00_oa163_001_g100015598_21141",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_Bacteriastrum_Mediophyceae/10_ddd3ab0ec0.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_21141.jpg",
+      "width": "97",
+      "height": "80"
+    }
+  ],
   "tara_pacific_deck::Ceratocorys": [
     {
       "dataset_id": "tara_pacific_deck",
@@ -26708,6 +27343,98 @@
       "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/oa109_002_g100016298/oa109_002_g100016298_513.jpg",
       "width": "138",
       "height": "137"
+    }
+  ],
+  "tara_pacific_deck::Chaetoceros<Mediophyceae": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: Chaetoceros<Mediophyceae",
+      "image_id": "i00_oa136_001_g100014429_3911",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_Chaetoceros_Mediophyceae/01_85d0d3f54f.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_3911.jpg",
+      "width": "97",
+      "height": "80"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: Chaetoceros<Mediophyceae",
+      "image_id": "i00_oa136_001_g100014429_724",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_Chaetoceros_Mediophyceae/02_bc191e7cca.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_724.jpg",
+      "width": "97",
+      "height": "85"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: Chaetoceros<Mediophyceae",
+      "image_id": "i00_oa136_001_g100014429_7874",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_Chaetoceros_Mediophyceae/03_821a69c34d.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_7874.jpg",
+      "width": "97",
+      "height": "92"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: Chaetoceros<Mediophyceae",
+      "image_id": "i00_oa136_001_g100014429_7203",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_Chaetoceros_Mediophyceae/04_5f0a979066.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_7203.jpg",
+      "width": "97",
+      "height": "71"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: Chaetoceros<Mediophyceae",
+      "image_id": "i00_oa136_001_g100014429_4736",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_Chaetoceros_Mediophyceae/05_0abfa15d36.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_4736.jpg",
+      "width": "97",
+      "height": "156"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: Chaetoceros<Mediophyceae",
+      "image_id": "i00_oa136_001_g100014429_107",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_Chaetoceros_Mediophyceae/06_ee45a2ac77.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_107.jpg",
+      "width": "97",
+      "height": "66"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: Chaetoceros<Mediophyceae",
+      "image_id": "i00_oa136_001_g100014429_10298",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_Chaetoceros_Mediophyceae/07_a3c1dbe5fd.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_10298.jpg",
+      "width": "97",
+      "height": "81"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: Chaetoceros<Mediophyceae",
+      "image_id": "i00_oa136_001_g100014429_1856",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_Chaetoceros_Mediophyceae/08_2c1876191d.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_1856.jpg",
+      "width": "97",
+      "height": "70"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: Chaetoceros<Mediophyceae",
+      "image_id": "i00_oa136_001_g100014429_9399",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_Chaetoceros_Mediophyceae/09_27239b45df.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_9399.jpg",
+      "width": "97",
+      "height": "125"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: Chaetoceros<Mediophyceae",
+      "image_id": "i00_oa137_001_g100014437_3835",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_Chaetoceros_Mediophyceae/10_14971c24d2.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa137_001_g100014437/i00_oa137_001_g100014437_3835.jpg",
+      "width": "97",
+      "height": "85"
     }
   ],
   "tara_pacific_deck::Ciliophora": [
@@ -27338,6 +28065,98 @@
       "height": "194"
     }
   ],
+  "tara_pacific_deck::Copepoda<Maxillopoda": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Copepoda: Copepoda<Maxillopoda",
+      "image_id": "i00_oa136_001_g100014429_230",
+      "thumbnail_url": "/samples/tara_pacific_deck/Copepoda_Copepoda_Maxillopoda/01_3a32138ec8.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_230.jpg",
+      "width": "366",
+      "height": "498"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Copepoda: Copepoda<Maxillopoda",
+      "image_id": "i00_oa136_001_g100014429_3073",
+      "thumbnail_url": "/samples/tara_pacific_deck/Copepoda_Copepoda_Maxillopoda/02_e3c7ea40a3.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_3073.jpg",
+      "width": "341",
+      "height": "378"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Copepoda: Copepoda<Maxillopoda",
+      "image_id": "i00_oa136_001_g100014429_525",
+      "thumbnail_url": "/samples/tara_pacific_deck/Copepoda_Copepoda_Maxillopoda/03_30df66ed4d.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_525.jpg",
+      "width": "148",
+      "height": "237"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Copepoda: Copepoda<Maxillopoda",
+      "image_id": "i00_oa136_001_g100014429_6338",
+      "thumbnail_url": "/samples/tara_pacific_deck/Copepoda_Copepoda_Maxillopoda/04_c7ba0d6353.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_6338.jpg",
+      "width": "246",
+      "height": "172"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Copepoda: Copepoda<Maxillopoda",
+      "image_id": "i00_oa139_001_g100014672_9561",
+      "thumbnail_url": "/samples/tara_pacific_deck/Copepoda_Copepoda_Maxillopoda/05_bc130ea9f0.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_9561.jpg",
+      "width": "376",
+      "height": "594"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Copepoda: Copepoda<Maxillopoda",
+      "image_id": "i00_oa139_001_g100014672_20971",
+      "thumbnail_url": "/samples/tara_pacific_deck/Copepoda_Copepoda_Maxillopoda/06_6bb53b3208.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_20971.jpg",
+      "width": "155",
+      "height": "231"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Copepoda: Copepoda<Maxillopoda",
+      "image_id": "i00_oa140_001_g100014681_21525",
+      "thumbnail_url": "/samples/tara_pacific_deck/Copepoda_Copepoda_Maxillopoda/07_9a64f18eab.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa140_001_g100014681/i00_oa140_001_g100014681_21525.jpg",
+      "width": "210",
+      "height": "307"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Copepoda: Copepoda<Maxillopoda",
+      "image_id": "i00_oa140_001_g100014681_36303",
+      "thumbnail_url": "/samples/tara_pacific_deck/Copepoda_Copepoda_Maxillopoda/08_a4dc194e6c.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa140_001_g100014681/i00_oa140_001_g100014681_36303.jpg",
+      "width": "306",
+      "height": "192"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Copepoda: Copepoda<Maxillopoda",
+      "image_id": "i00_oa140_001_g100014681_1549",
+      "thumbnail_url": "/samples/tara_pacific_deck/Copepoda_Copepoda_Maxillopoda/09_8c9fdde896.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa140_001_g100014681/i00_oa140_001_g100014681_1549.jpg",
+      "width": "367",
+      "height": "372"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Copepoda: Copepoda<Maxillopoda",
+      "image_id": "i00_oa140_001_g100014681_5025",
+      "thumbnail_url": "/samples/tara_pacific_deck/Copepoda_Copepoda_Maxillopoda/10_2e5edf040f.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa140_001_g100014681/i00_oa140_001_g100014681_5025.jpg",
+      "width": "386",
+      "height": "416"
+    }
+  ],
   "tara_pacific_deck::Corethron": [
     {
       "dataset_id": "tara_pacific_deck",
@@ -27520,6 +28339,98 @@
       "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_30654.jpg",
       "width": "97",
       "height": "65"
+    }
+  ],
+  "tara_pacific_deck::Cyanobacteria<Proteobacteria": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Cyanobacteria: Cyanobacteria<Proteobacteria",
+      "image_id": "i23_oa159_001_g100015434_8014",
+      "thumbnail_url": "/samples/tara_pacific_deck/Cyanobacteria_Cyanobacteria_Proteobacteria/01_9e3c892923.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i23_oa159_001_g100015434/i23_oa159_001_g100015434_8014.jpg",
+      "width": "97",
+      "height": "118"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Cyanobacteria: Cyanobacteria<Proteobacteria",
+      "image_id": "i23_oa159_001_g100015434_20881",
+      "thumbnail_url": "/samples/tara_pacific_deck/Cyanobacteria_Cyanobacteria_Proteobacteria/02_1963c19c74.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i23_oa159_001_g100015434/i23_oa159_001_g100015434_20881.jpg",
+      "width": "97",
+      "height": "111"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Cyanobacteria: Cyanobacteria<Proteobacteria",
+      "image_id": "i23_oa159_001_g100015434_18315",
+      "thumbnail_url": "/samples/tara_pacific_deck/Cyanobacteria_Cyanobacteria_Proteobacteria/03_cec17a7613.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i23_oa159_001_g100015434/i23_oa159_001_g100015434_18315.jpg",
+      "width": "97",
+      "height": "206"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Cyanobacteria: Cyanobacteria<Proteobacteria",
+      "image_id": "i23_oa159_001_g100015434_8475",
+      "thumbnail_url": "/samples/tara_pacific_deck/Cyanobacteria_Cyanobacteria_Proteobacteria/04_ab8af1da0e.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i23_oa159_001_g100015434/i23_oa159_001_g100015434_8475.jpg",
+      "width": "97",
+      "height": "109"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Cyanobacteria: Cyanobacteria<Proteobacteria",
+      "image_id": "i23_oa159_001_g100015434_1691",
+      "thumbnail_url": "/samples/tara_pacific_deck/Cyanobacteria_Cyanobacteria_Proteobacteria/05_ea294dfa45.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i23_oa159_001_g100015434/i23_oa159_001_g100015434_1691.jpg",
+      "width": "97",
+      "height": "94"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Cyanobacteria: Cyanobacteria<Proteobacteria",
+      "image_id": "i23_oa159_001_g100015434_30455",
+      "thumbnail_url": "/samples/tara_pacific_deck/Cyanobacteria_Cyanobacteria_Proteobacteria/06_4004ee135b.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i23_oa159_001_g100015434/i23_oa159_001_g100015434_30455.jpg",
+      "width": "97",
+      "height": "104"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Cyanobacteria: Cyanobacteria<Proteobacteria",
+      "image_id": "i23_oa159_001_g100015434_24990",
+      "thumbnail_url": "/samples/tara_pacific_deck/Cyanobacteria_Cyanobacteria_Proteobacteria/07_e350251f29.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i23_oa159_001_g100015434/i23_oa159_001_g100015434_24990.jpg",
+      "width": "97",
+      "height": "109"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Cyanobacteria: Cyanobacteria<Proteobacteria",
+      "image_id": "i24_oa162_001_g100015452_6033",
+      "thumbnail_url": "/samples/tara_pacific_deck/Cyanobacteria_Cyanobacteria_Proteobacteria/08_0665942379.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i24_oa162_001_g100015452/i24_oa162_001_g100015452_6033.jpg",
+      "width": "97",
+      "height": "76"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Cyanobacteria: Cyanobacteria<Proteobacteria",
+      "image_id": "oa011_002_g100017109_1120",
+      "thumbnail_url": "/samples/tara_pacific_deck/Cyanobacteria_Cyanobacteria_Proteobacteria/09_bd04299f69.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/oa011_002_g100017109/oa011_002_g100017109_1120.jpg",
+      "width": "97",
+      "height": "179"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Cyanobacteria: Cyanobacteria<Proteobacteria",
+      "image_id": "oa011_002_g100017109_972",
+      "thumbnail_url": "/samples/tara_pacific_deck/Cyanobacteria_Cyanobacteria_Proteobacteria/10_5bf60d6ee1.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/oa011_002_g100017109/oa011_002_g100017109_972.jpg",
+      "width": "97",
+      "height": "262"
     }
   ],
   "tara_pacific_deck::Cyttarocylis": [
@@ -32139,6 +33050,98 @@
       "height": "147"
     }
   ],
+  "tara_pacific_deck::UCYNA like": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "i21_oa149_001_g100014891_4087",
+      "thumbnail_url": "/samples/tara_pacific_deck/Cyanobacteria_UCYNA_like/01_c2a423cd00.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i21_oa149_001_g100014891/i21_oa149_001_g100014891_4087.jpg",
+      "width": "97",
+      "height": "77"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "i23_oa159_001_g100015434_23935",
+      "thumbnail_url": "/samples/tara_pacific_deck/Cyanobacteria_UCYNA_like/02_9fb5de8d9e.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i23_oa159_001_g100015434/i23_oa159_001_g100015434_23935.jpg",
+      "width": "97",
+      "height": "65"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "i30_oa217_001_y110000794_2224",
+      "thumbnail_url": "/samples/tara_pacific_deck/Cyanobacteria_UCYNA_like/03_d861450e96.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i30_oa217_001_y110000794/i30_oa217_001_y110000794_2224.jpg",
+      "width": "97",
+      "height": "60"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "i32_oa232_001_g100013368_24710",
+      "thumbnail_url": "/samples/tara_pacific_deck/Cyanobacteria_UCYNA_like/04_7d5881ac0e.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i32_oa232_001_g100013368/i32_oa232_001_g100013368_24710.jpg",
+      "width": "97",
+      "height": "76"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "i99_oa194_001_g100013860_20949",
+      "thumbnail_url": "/samples/tara_pacific_deck/Cyanobacteria_UCYNA_like/05_65b8b8c6cc.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i99_oa194_001_g100013860/i99_oa194_001_g100013860_20949.jpg",
+      "width": "97",
+      "height": "68"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "i99_oa194_001_g100013860_3784",
+      "thumbnail_url": "/samples/tara_pacific_deck/Cyanobacteria_UCYNA_like/06_534fb27e87.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i99_oa194_001_g100013860/i99_oa194_001_g100013860_3784.jpg",
+      "width": "97",
+      "height": "63"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "i99_oa194_001_g100013860_8256",
+      "thumbnail_url": "/samples/tara_pacific_deck/Cyanobacteria_UCYNA_like/07_fc02e83828.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i99_oa194_001_g100013860/i99_oa194_001_g100013860_8256.jpg",
+      "width": "97",
+      "height": "85"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "i99_oa194_001_g100013860_3384",
+      "thumbnail_url": "/samples/tara_pacific_deck/Cyanobacteria_UCYNA_like/08_4490e05d6d.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i99_oa194_001_g100013860/i99_oa194_001_g100013860_3384.jpg",
+      "width": "97",
+      "height": "60"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "i99_oa195_001_g100012932_21403",
+      "thumbnail_url": "/samples/tara_pacific_deck/Cyanobacteria_UCYNA_like/09_b184b503a6.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i99_oa195_001_g100012932/i99_oa195_001_g100012932_21403.jpg",
+      "width": "97",
+      "height": "73"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "oa031_001_g100017583_13947",
+      "thumbnail_url": "/samples/tara_pacific_deck/Cyanobacteria_UCYNA_like/10_b07e93830b.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/oa031_001_g100017583/oa031_001_g100017583_13947.jpg",
+      "width": "97",
+      "height": "63"
+    }
+  ],
   "tara_pacific_deck::Undellidae": [
     {
       "dataset_id": "tara_pacific_deck",
@@ -32397,6 +33400,190 @@
       "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_1366.jpg",
       "width": "97",
       "height": "251"
+    }
+  ],
+  "tara_pacific_deck::chainlarge": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "i32_oa230_001_g100013453_1519",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_chainlarge/01_c9cc08c90a.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i32_oa230_001_g100013453/i32_oa230_001_g100013453_1519.jpg",
+      "width": "97",
+      "height": "81"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "i32_oa230_001_g100013453_34837",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_chainlarge/02_4f528b6042.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i32_oa230_001_g100013453/i32_oa230_001_g100013453_34837.jpg",
+      "width": "97",
+      "height": "65"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "i32_oa230_001_g100013453_10068",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_chainlarge/03_ab99dba4e0.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i32_oa230_001_g100013453/i32_oa230_001_g100013453_10068.jpg",
+      "width": "97",
+      "height": "79"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "i32_oa232_001_g100013368_28490",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_chainlarge/04_b265154b53.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i32_oa232_001_g100013368/i32_oa232_001_g100013368_28490.jpg",
+      "width": "97",
+      "height": "122"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "i32_oa232_001_g100013368_295",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_chainlarge/05_42be1c739f.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i32_oa232_001_g100013368/i32_oa232_001_g100013368_295.jpg",
+      "width": "97",
+      "height": "96"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "i32_oa232_001_g100013368_32346",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_chainlarge/06_886ea0298f.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i32_oa232_001_g100013368/i32_oa232_001_g100013368_32346.jpg",
+      "width": "97",
+      "height": "83"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "i32_oa232_001_g100013368_32232",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_chainlarge/07_0b6e897a57.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i32_oa232_001_g100013368/i32_oa232_001_g100013368_32232.jpg",
+      "width": "97",
+      "height": "71"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "i32_oa232_001_g100013368_42108",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_chainlarge/08_3e494c44b5.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i32_oa232_001_g100013368/i32_oa232_001_g100013368_42108.jpg",
+      "width": "97",
+      "height": "68"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "i32_oa232_001_g100013368_32166",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_chainlarge/09_24b7da9829.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i32_oa232_001_g100013368/i32_oa232_001_g100013368_32166.jpg",
+      "width": "97",
+      "height": "58"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "i32_oa232_001_g100013368_35285",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_chainlarge/10_9cfc0f83d1.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i32_oa232_001_g100013368/i32_oa232_001_g100013368_35285.jpg",
+      "width": "97",
+      "height": "63"
+    }
+  ],
+  "tara_pacific_deck::chainthin": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "i00_oa136_001_g100014429_6301",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_chainthin/01_11ea14a902.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_6301.jpg",
+      "width": "97",
+      "height": "65"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "i00_oa136_001_g100014429_4899",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_chainthin/02_85baa3aa14.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_4899.jpg",
+      "width": "97",
+      "height": "62"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "i00_oa136_001_g100014429_2420",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_chainthin/03_1eb41686f9.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_2420.jpg",
+      "width": "97",
+      "height": "61"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "i00_oa136_001_g100014429_6258",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_chainthin/04_5875fadd8a.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_6258.jpg",
+      "width": "97",
+      "height": "64"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "i00_oa136_001_g100014429_5312",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_chainthin/05_c0ad886512.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_5312.jpg",
+      "width": "97",
+      "height": "68"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "i00_oa136_001_g100014429_10998",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_chainthin/06_1de90c4e96.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_10998.jpg",
+      "width": "97",
+      "height": "73"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "i00_oa136_001_g100014429_6282",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_chainthin/07_cfd09b0fb7.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_6282.jpg",
+      "width": "97",
+      "height": "62"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "i00_oa136_001_g100014429_5084",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_chainthin/08_9c66622157.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_5084.jpg",
+      "width": "97",
+      "height": "68"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "i00_oa136_001_g100014429_5608",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_chainthin/09_8ae147c03a.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_5608.jpg",
+      "width": "97",
+      "height": "62"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "i00_oa136_001_g100014429_9460",
+      "thumbnail_url": "/samples/tara_pacific_deck/Bacillariophyta_chainthin/10_2fead55427.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_9460.jpg",
+      "width": "97",
+      "height": "81"
     }
   ],
   "tara_pacific_deck::cyano a": [

@@ -40,25 +40,35 @@ export function RiskPanels({ candidates, onSelect }: Props) {
   );
 
   const columns = useMemo(
-    () => [
-      helper.accessor("dataset_id", { header: "Dataset" }),
-      helper.accessor("label", { header: "Label" }),
-      helper.accessor("image_count", {
-        header: "Images",
-        cell: (info) => Number(info.getValue()).toLocaleString()
-      }),
-      helper.accessor("selected_aphia_ids", { header: "Selected AphiaID" }),
-      helper.accessor("dwca_aphia_ids", {
-        header: "DwC/Broad AphiaID",
-        cell: (info) => {
-          const row = info.row.original;
-          return row.broad_class_aphia_id || info.getValue();
-        }
-      }),
-      helper.accessor("broad_class", { header: "Broad class" }),
-      helper.accessor("terminal_ranks", { header: "Terminal rank" })
-    ],
-    []
+    () => {
+      const baseColumns = [
+        helper.accessor("dataset_id", { header: "Dataset" }),
+        helper.accessor("label", { header: "Label" }),
+        helper.accessor("image_count", {
+          header: "Images",
+          cell: (info) => Number(info.getValue()).toLocaleString()
+        }),
+        helper.accessor("selected_aphia_ids", { header: "Selected AphiaID" })
+      ];
+      if (activeRisk === "contaminated") {
+        baseColumns.push(
+          helper.accessor("contaminated_sources", { header: "Contaminated source" })
+        );
+      }
+      baseColumns.push(
+        helper.accessor("dwca_aphia_ids", {
+          header: "DwC/Broad AphiaID",
+          cell: (info) => {
+            const row = info.row.original;
+            return row.broad_class_aphia_id || info.getValue();
+          }
+        }),
+        helper.accessor("broad_class", { header: "Broad class" }),
+        helper.accessor("terminal_ranks", { header: "Terminal rank" })
+      );
+      return baseColumns;
+    },
+    [activeRisk]
   );
 
   const table = useReactTable({

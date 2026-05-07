@@ -74,6 +74,13 @@ export function DetailDrawer({ node, candidate, samples, onClose, onOpenSamples 
         </div>
       )}
 
+      {candidate?.contaminated_sources && (
+        <div className="drawer-section">
+          <h3>Contaminated sources</h3>
+          <p className="path-text">{candidate.contaminated_sources}</p>
+        </div>
+      )}
+
       {candidate && (
         <div className="drawer-section">
           <h3>Selected AphiaIDs</h3>
