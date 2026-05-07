@@ -76,7 +76,7 @@ export function DetailDrawer({ node, candidate, samples, onClose, onOpenSamples 
 
       {candidate?.contaminated_sources && (
         <div className="drawer-section">
-          <h3>Contaminated sources</h3>
+          <h3>Contaminated invalid evidence</h3>
           <p className="path-text">{candidate.contaminated_sources}</p>
         </div>
       )}

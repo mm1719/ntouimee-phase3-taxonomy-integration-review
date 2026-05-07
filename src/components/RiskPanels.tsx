@@ -52,7 +52,7 @@ export function RiskPanels({ candidates, onSelect }: Props) {
       ];
       if (activeRisk === "contaminated") {
         baseColumns.push(
-          helper.accessor("contaminated_sources", { header: "Contaminated source" })
+          helper.accessor("contaminated_sources", { header: "Invalid evidence" })
         );
       }
       baseColumns.push(
