@@ -604,70 +604,6 @@
         ]
       },
       {
-        "group_key": "chainlarge",
-        "sample_key": "non_taxonomic_category::chainlarge",
-        "aliases": [
-          "chainlarge"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "flowcam_net"
-        ],
-        "total_image_count": 422,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "flowcam_net",
-            "aliases": [
-              "chainlarge"
-            ],
-            "image_count": 422,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/chainlarge?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "chainthin",
-        "sample_key": "non_taxonomic_category::chainthin",
-        "aliases": [
-          "chainthin"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "flowcam_net"
-        ],
-        "total_image_count": 1747,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "flowcam_net",
-            "aliases": [
-              "chainthin"
-            ],
-            "image_count": 1747,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/chainthin?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
         "group_key": "codonellopsis<tintinnidiidae",
         "sample_key": "non_taxonomic_category::codonellopsis<tintinnidiidae",
         "aliases": [
@@ -2902,18 +2838,37 @@
         ]
       },
       {
-        "group_key": "part<ciliophora",
-        "sample_key": "non_taxonomic_category::part<ciliophora",
+        "group_key": "part ciliophora",
+        "sample_key": "non_taxonomic_category::part ciliophora",
         "aliases": [
-          "part<Ciliophora"
+          "part<Ciliophora",
+          "part_Ciliophora"
         ],
         "status": "Non-Taxonomic Category",
         "dataset_ids": [
+          "flowcam_net",
           "tara_pacific_deck"
         ],
-        "total_image_count": 1533,
+        "total_image_count": 1681,
         "include_valid_tree_overlap": false,
         "datasets": [
+          {
+            "dataset_id": "flowcam_net",
+            "aliases": [
+              "part_Ciliophora"
+            ],
+            "image_count": 148,
+            "reasons": [
+              "No local AphiaID and no exact WoRMS name match under strict validation"
+            ],
+            "source_examples": [
+              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
+            ],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/part%20Ciliophora?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no"
+          },
           {
             "dataset_id": "tara_pacific_deck",
             "aliases": [
@@ -2934,18 +2889,37 @@
         ]
       },
       {
-        "group_key": "part<crustacea",
-        "sample_key": "non_taxonomic_category::part<crustacea",
+        "group_key": "part crustacea",
+        "sample_key": "non_taxonomic_category::part crustacea",
         "aliases": [
-          "part<Crustacea"
+          "part<Crustacea",
+          "part_Crustacea"
         ],
         "status": "Non-Taxonomic Category",
         "dataset_ids": [
+          "flowcam_net",
           "tara_pacific_deck"
         ],
-        "total_image_count": 3985,
+        "total_image_count": 6865,
         "include_valid_tree_overlap": false,
         "datasets": [
+          {
+            "dataset_id": "flowcam_net",
+            "aliases": [
+              "part_Crustacea"
+            ],
+            "image_count": 2880,
+            "reasons": [
+              "No local AphiaID and no exact WoRMS name match under strict validation"
+            ],
+            "source_examples": [
+              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
+            ],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/part%20Crustacea?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no"
+          },
           {
             "dataset_id": "tara_pacific_deck",
             "aliases": [
@@ -2990,70 +2964,6 @@
             "source_examples": [],
             "worms_sources": [
               "https://www.marinespecies.org/rest/AphiaRecordsByName/part%3Cother?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "part ciliophora",
-        "sample_key": "non_taxonomic_category::part ciliophora",
-        "aliases": [
-          "part_Ciliophora"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "flowcam_net"
-        ],
-        "total_image_count": 148,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "flowcam_net",
-            "aliases": [
-              "part_Ciliophora"
-            ],
-            "image_count": 148,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/part%20Ciliophora?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "part crustacea",
-        "sample_key": "non_taxonomic_category::part crustacea",
-        "aliases": [
-          "part_Crustacea"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "flowcam_net"
-        ],
-        "total_image_count": 2880,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "flowcam_net",
-            "aliases": [
-              "part_Crustacea"
-            ],
-            "image_count": 2880,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/part%20Crustacea?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
           }
@@ -3638,38 +3548,6 @@
         ]
       },
       {
-        "group_key": "rhizosolenia inter. richelia",
-        "sample_key": "non_taxonomic_category::rhizosolenia inter. richelia",
-        "aliases": [
-          "Rhizosolenia inter. Richelia"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "flowcam_net"
-        ],
-        "total_image_count": 806,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "flowcam_net",
-            "aliases": [
-              "Rhizosolenia inter. Richelia"
-            ],
-            "image_count": 806,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Rhizosolenia%20inter.%20Richelia?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
         "group_key": "salpingella<tintinnidae",
         "sample_key": "non_taxonomic_category::salpingella<tintinnidae",
         "aliases": [
@@ -3728,38 +3606,6 @@
             ],
             "worms_sources": [
               "https://www.marinespecies.org/rest/AphiaRecordsByName/Salpingella%3CTintinnidiidae?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "spines<acantharea",
-        "sample_key": "non_taxonomic_category::spines<acantharea",
-        "aliases": [
-          "spines<Acantharea"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck"
-        ],
-        "total_image_count": 42,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "spines<Acantharea"
-            ],
-            "image_count": 42,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/spines%3CAcantharea?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
           }
@@ -3897,548 +3743,95 @@
         "group_key": "t001",
         "sample_key": "non_taxonomic_category::t001",
         "aliases": [
-          "t001"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck",
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 14064,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "t001"
-            ],
-            "image_count": 526,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/t001?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          },
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "t001"
-            ],
-            "image_count": 13538,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/t001?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "t002",
-        "sample_key": "non_taxonomic_category::t002",
-        "aliases": [
-          "t002"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck",
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 1158,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "t002"
-            ],
-            "image_count": 288,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/t002?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          },
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "t002"
-            ],
-            "image_count": 870,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/t002?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "t003",
-        "sample_key": "non_taxonomic_category::t003",
-        "aliases": [
-          "t003"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck",
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 4778,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "t003"
-            ],
-            "image_count": 37,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/t003?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          },
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "t003"
-            ],
-            "image_count": 4741,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/t003?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "t004",
-        "sample_key": "non_taxonomic_category::t004",
-        "aliases": [
-          "t004"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck",
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 1711,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "t004"
-            ],
-            "image_count": 14,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/t004?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          },
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "t004"
-            ],
-            "image_count": 1697,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/t004?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "t005",
-        "sample_key": "non_taxonomic_category::t005",
-        "aliases": [
-          "t005"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 2142,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "t005"
-            ],
-            "image_count": 2142,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/t005?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "t006",
-        "sample_key": "non_taxonomic_category::t006",
-        "aliases": [
-          "t006"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 236,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "t006"
-            ],
-            "image_count": 236,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/t006?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "t007",
-        "sample_key": "non_taxonomic_category::t007",
-        "aliases": [
-          "t007"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 88,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "t007"
-            ],
-            "image_count": 88,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/t007?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "t008",
-        "sample_key": "non_taxonomic_category::t008",
-        "aliases": [
-          "t008"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 716,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "t008"
-            ],
-            "image_count": 716,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/t008?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "t010",
-        "sample_key": "non_taxonomic_category::t010",
-        "aliases": [
-          "t010"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 338,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "t010"
-            ],
-            "image_count": 338,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/t010?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "t011",
-        "sample_key": "non_taxonomic_category::t011",
-        "aliases": [
-          "t011"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 134,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "t011"
-            ],
-            "image_count": 134,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/t011?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "t012",
-        "sample_key": "non_taxonomic_category::t012",
-        "aliases": [
-          "t012"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 133,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "t012"
-            ],
-            "image_count": 133,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/t012?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "t013",
-        "sample_key": "non_taxonomic_category::t013",
-        "aliases": [
-          "t013"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 225,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "t013"
-            ],
-            "image_count": 225,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/t013?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "t014",
-        "sample_key": "non_taxonomic_category::t014",
-        "aliases": [
-          "t014"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 12,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "t014"
-            ],
-            "image_count": 12,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/t014?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "t015",
-        "sample_key": "non_taxonomic_category::t015",
-        "aliases": [
-          "t015"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 28,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "t015"
-            ],
-            "image_count": 28,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/t015?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "t016",
-        "sample_key": "non_taxonomic_category::t016",
-        "aliases": [
-          "t016"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 8,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "t016"
-            ],
-            "image_count": 8,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/t016?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "t017",
-        "sample_key": "non_taxonomic_category::t017",
-        "aliases": [
+          "t001",
+          "t002",
+          "t003",
+          "t004",
+          "t005",
+          "t006",
+          "t007",
+          "t008",
+          "t010",
+          "t011",
+          "t012",
+          "t013",
+          "t014",
+          "t015",
+          "t016",
           "t017"
         ],
         "status": "Non-Taxonomic Category",
         "dataset_ids": [
+          "tara_pacific_deck",
           "tara_pacific_bongo"
         ],
-        "total_image_count": 290,
+        "total_image_count": 26061,
         "include_valid_tree_overlap": false,
         "datasets": [
           {
+            "dataset_id": "tara_pacific_deck",
+            "aliases": [
+              "t001",
+              "t002",
+              "t003",
+              "t004"
+            ],
+            "image_count": 865,
+            "reasons": [
+              "No local AphiaID and no exact WoRMS name match under strict validation"
+            ],
+            "source_examples": [
+              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
+            ],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/t001?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/t002?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/t003?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/t004?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no"
+          },
+          {
             "dataset_id": "tara_pacific_bongo",
             "aliases": [
+              "t001",
+              "t002",
+              "t003",
+              "t004",
+              "t005",
+              "t006",
+              "t007",
+              "t008",
+              "t010",
+              "t011",
+              "t012",
+              "t013",
+              "t014",
+              "t015",
+              "t016",
               "t017"
             ],
-            "image_count": 290,
+            "image_count": 25196,
             "reasons": [
               "No local AphiaID and no exact WoRMS name match under strict validation"
             ],
             "source_examples": [],
             "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/t001?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/t002?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/t003?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/t004?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/t005?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/t006?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/t007?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/t008?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/t010?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/t011?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/t012?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/t013?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/t014?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/t015?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/t016?like=false&marine_only=false",
               "https://www.marinespecies.org/rest/AphiaRecordsByName/t017?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
@@ -4700,38 +4093,6 @@
             "source_examples": [],
             "worms_sources": [
               "https://www.marinespecies.org/rest/AphiaRecordsByName/trochozoa?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "ucyna like",
-        "sample_key": "non_taxonomic_category::ucyna like",
-        "aliases": [
-          "UCYNA like"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "flowcam_net"
-        ],
-        "total_image_count": 736,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "flowcam_net",
-            "aliases": [
-              "UCYNA like"
-            ],
-            "image_count": 736,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/UCYNA%20like?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
           }
@@ -7228,100 +6589,6 @@
         "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_10092.jpg",
         "width": "97",
         "height": "109"
-      }
-    ],
-    "non_taxonomic_category::chainlarge": [
-      {
-        "dataset_id": "flowcam_net",
-        "label": "chainlarge",
-        "image_id": "164845772",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/chainlarge/01_914ed1733f.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainlarge/164845772.png",
-        "width": "60",
-        "height": "104"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "chainlarge",
-        "image_id": "164845177",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/chainlarge/02_bf555a2c98.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainlarge/164845177.png",
-        "width": "46",
-        "height": "112"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "chainlarge",
-        "image_id": "164844819",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/chainlarge/03_5fc54ead5b.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainlarge/164844819.png",
-        "width": "112",
-        "height": "74"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "chainlarge",
-        "image_id": "164846273",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/chainlarge/04_1a887fd111.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainlarge/164846273.png",
-        "width": "39",
-        "height": "59"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "chainlarge",
-        "image_id": "164750617",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/chainlarge/05_083b48058f.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainlarge/164750617.png",
-        "width": "101",
-        "height": "52"
-      }
-    ],
-    "non_taxonomic_category::chainthin": [
-      {
-        "dataset_id": "flowcam_net",
-        "label": "chainthin",
-        "image_id": "165428160",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/chainthin/01_38b57c2375.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainthin/165428160.png",
-        "width": "15",
-        "height": "30"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "chainthin",
-        "image_id": "164841301",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/chainthin/02_54391937c1.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainthin/164841301.png",
-        "width": "17",
-        "height": "89"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "chainthin",
-        "image_id": "165669014",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/chainthin/03_9b14aa678c.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainthin/165669014.png",
-        "width": "74",
-        "height": "39"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "chainthin",
-        "image_id": "165669791",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/chainthin/04_9e2ab3502f.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainthin/165669791.png",
-        "width": "28",
-        "height": "44"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "chainthin",
-        "image_id": "165669116",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/chainthin/05_35e1e27f0c.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainthin/165669116.png",
-        "width": "44",
-        "height": "44"
       }
     ],
     "non_taxonomic_category::codonellopsis<tintinnidiidae": [
@@ -11034,6 +10301,51 @@
         "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/part_Ciliophora/165050377.png",
         "width": "59",
         "height": "72"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Ciliophora",
+        "image_id": "i00_oa139_001_g100014672_5575",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/01_852e5c715c.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_5575.jpg",
+        "width": "97",
+        "height": "68"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Ciliophora",
+        "image_id": "i00_oa139_001_g100014672_12779",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/02_9f09a9a883.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_12779.jpg",
+        "width": "97",
+        "height": "82"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Ciliophora",
+        "image_id": "i00_oa139_001_g100014672_46899",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/03_54c6d75324.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_46899.jpg",
+        "width": "97",
+        "height": "70"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Ciliophora",
+        "image_id": "i00_oa139_001_g100014672_20035",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/04_d6c1e0324c.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_20035.jpg",
+        "width": "97",
+        "height": "118"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Ciliophora",
+        "image_id": "i00_oa139_001_g100014672_42396",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/05_69f8fe2acd.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_42396.jpg",
+        "width": "97",
+        "height": "158"
       }
     ],
     "non_taxonomic_category::part crustacea": [
@@ -11081,6 +10393,51 @@
         "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/part_Crustacea/164919906.png",
         "width": "106",
         "height": "43"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Crustacea",
+        "image_id": "i00_oa136_001_g100014429_8730",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/01_e7757f58d2.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_8730.jpg",
+        "width": "97",
+        "height": "124"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Crustacea",
+        "image_id": "i00_oa140_001_g100014681_2653",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/02_f93984fbb4.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa140_001_g100014681/i00_oa140_001_g100014681_2653.jpg",
+        "width": "97",
+        "height": "180"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Crustacea",
+        "image_id": "i00_oa164_001_g100015584_25267",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/03_6988c82d98.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa164_001_g100015584/i00_oa164_001_g100015584_25267.jpg",
+        "width": "97",
+        "height": "94"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Crustacea",
+        "image_id": "i00_oa164_001_g100015584_3170",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/04_acb57eb053.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa164_001_g100015584/i00_oa164_001_g100015584_3170.jpg",
+        "width": "97",
+        "height": "60"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Crustacea",
+        "image_id": "oa031_001_g100017583_3055",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/05_1f11672a61.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/oa031_001_g100017583/oa031_001_g100017583_3055.jpg",
+        "width": "97",
+        "height": "74"
       }
     ],
     "non_taxonomic_category::part ditylum": [
@@ -11175,100 +10532,6 @@
         "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/part_Odontella/164858100.png",
         "width": "86",
         "height": "103"
-      }
-    ],
-    "non_taxonomic_category::part<ciliophora": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Ciliophora",
-        "image_id": "i00_oa139_001_g100014672_5575",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/01_85ac234045.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_5575.jpg",
-        "width": "97",
-        "height": "68"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Ciliophora",
-        "image_id": "i00_oa139_001_g100014672_12779",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/02_3d4398159e.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_12779.jpg",
-        "width": "97",
-        "height": "82"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Ciliophora",
-        "image_id": "i00_oa139_001_g100014672_46899",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/03_97fa94aaf5.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_46899.jpg",
-        "width": "97",
-        "height": "70"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Ciliophora",
-        "image_id": "i00_oa139_001_g100014672_20035",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/04_a71aaab6af.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_20035.jpg",
-        "width": "97",
-        "height": "118"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Ciliophora",
-        "image_id": "i00_oa139_001_g100014672_42396",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/05_e8840de075.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_42396.jpg",
-        "width": "97",
-        "height": "158"
-      }
-    ],
-    "non_taxonomic_category::part<crustacea": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Crustacea",
-        "image_id": "i00_oa136_001_g100014429_8730",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/01_82496de467.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_8730.jpg",
-        "width": "97",
-        "height": "124"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Crustacea",
-        "image_id": "i00_oa140_001_g100014681_2653",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/02_3805d76e7d.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa140_001_g100014681/i00_oa140_001_g100014681_2653.jpg",
-        "width": "97",
-        "height": "180"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Crustacea",
-        "image_id": "i00_oa164_001_g100015584_25267",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/03_f338a8e316.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa164_001_g100015584/i00_oa164_001_g100015584_25267.jpg",
-        "width": "97",
-        "height": "94"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Crustacea",
-        "image_id": "i00_oa164_001_g100015584_3170",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/04_97a4cf7734.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/i00_oa164_001_g100015584/i00_oa164_001_g100015584_3170.jpg",
-        "width": "97",
-        "height": "60"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Crustacea",
-        "image_id": "oa031_001_g100017583_3055",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/05_d5867a1b6c.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/oa031_001_g100017583/oa031_001_g100017583_3055.jpg",
-        "width": "97",
-        "height": "74"
       }
     ],
     "non_taxonomic_category::part<other": [
@@ -12154,53 +11417,6 @@
         "height": "94"
       }
     ],
-    "non_taxonomic_category::rhizosolenia inter. richelia": [
-      {
-        "dataset_id": "flowcam_net",
-        "label": "Rhizosolenia inter. Richelia",
-        "image_id": "165038898",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/rhizosolenia_inter._richelia/01_0bb267339d.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Rhizosolenia inter. Richelia/165038898.png",
-        "width": "24",
-        "height": "119"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "Rhizosolenia inter. Richelia",
-        "image_id": "165674125",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/rhizosolenia_inter._richelia/02_8bfe8826af.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Rhizosolenia inter. Richelia/165674125.png",
-        "width": "18",
-        "height": "116"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "Rhizosolenia inter. Richelia",
-        "image_id": "165334547",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/rhizosolenia_inter._richelia/03_63cc1f4c7c.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Rhizosolenia inter. Richelia/165334547.png",
-        "width": "19",
-        "height": "78"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "Rhizosolenia inter. Richelia",
-        "image_id": "165673447",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/rhizosolenia_inter._richelia/04_ef3a8e18b0.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Rhizosolenia inter. Richelia/165673447.png",
-        "width": "72",
-        "height": "82"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "Rhizosolenia inter. Richelia",
-        "image_id": "165673157",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/rhizosolenia_inter._richelia/05_5c8c2e608c.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Rhizosolenia inter. Richelia/165673157.png",
-        "width": "16",
-        "height": "90"
-      }
-    ],
     "non_taxonomic_category::salpingella<tintinnidae": [
       {
         "dataset_id": "tara_pacific_deck",
@@ -12275,53 +11491,6 @@
         "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i13_oa079_001_g100015958/i13_oa079_001_g100015958_709.jpg",
         "width": "97",
         "height": "258"
-      }
-    ],
-    "non_taxonomic_category::spines<acantharea": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "spines<Acantharea",
-        "image_id": "oa034_001_g100019601_5453",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/01_50a13e74e6.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/oa034_001_g100019601/oa034_001_g100019601_5453.jpg",
-        "width": "97",
-        "height": "68"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "spines<Acantharea",
-        "image_id": "oa034_001_g100019601_26694",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/02_168f25add3.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/oa034_001_g100019601/oa034_001_g100019601_26694.jpg",
-        "width": "97",
-        "height": "71"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "spines<Acantharea",
-        "image_id": "oa096_001_g100016058_32383",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/03_dbe020c2a1.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/oa096_001_g100016058/oa096_001_g100016058_32383.jpg",
-        "width": "97",
-        "height": "70"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "spines<Acantharea",
-        "image_id": "i00_oa139_001_g100014672_14684",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/04_3fa03fb5e8.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_14684.jpg",
-        "width": "97",
-        "height": "112"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "spines<Acantharea",
-        "image_id": "i00_oa163_001_g100015598_21284",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/05_bc29bbec4f.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_21284.jpg",
-        "width": "154",
-        "height": "145"
       }
     ],
     "non_taxonomic_category::spines<acantharia": [
@@ -12559,6 +11728,141 @@
         "height": "62"
       },
       {
+        "dataset_id": "tara_pacific_deck",
+        "label": "t002",
+        "image_id": "oa208_001_y110001386_12867",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t002/01_87b65305c5.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/oa208_001_y110001386/oa208_001_y110001386_12867.jpg",
+        "width": "97",
+        "height": "102"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "t002",
+        "image_id": "oa226_001_g100013485_1743",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t002/02_8572aaa3b9.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/oa226_001_g100013485/oa226_001_g100013485_1743.jpg",
+        "width": "97",
+        "height": "105"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "t002",
+        "image_id": "oa227_001_g100013482_14281",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t002/03_fa6f245244.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/oa227_001_g100013482/oa227_001_g100013482_14281.jpg",
+        "width": "97",
+        "height": "111"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "t002",
+        "image_id": "i00_oa136_001_g100014429_3014",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t002/04_dd1dca995a.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_3014.jpg",
+        "width": "97",
+        "height": "182"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "t002",
+        "image_id": "i00_oa136_001_g100014429_9317",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t002/05_dcfbb139c3.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_9317.jpg",
+        "width": "106",
+        "height": "215"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "t004",
+        "image_id": "i32_oa232_001_g100013368_7198",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t004/01_fe8e69201d.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i32_oa232_001_g100013368/i32_oa232_001_g100013368_7198.jpg",
+        "width": "97",
+        "height": "143"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "t003",
+        "image_id": "i99_oa173_001_g100015277_7030",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t003/01_a4c0b8fccb.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i99_oa173_001_g100015277/i99_oa173_001_g100015277_7030.jpg",
+        "width": "97",
+        "height": "94"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "t004",
+        "image_id": "i99_oa195_001_g100012932_1463",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t004/02_fd2bd5c1b7.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i99_oa195_001_g100012932/i99_oa195_001_g100012932_1463.jpg",
+        "width": "182",
+        "height": "111"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "t004",
+        "image_id": "i99_oa195_001_g100012932_1507",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t004/03_a1d3eac9a5.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i99_oa195_001_g100012932/i99_oa195_001_g100012932_1507.jpg",
+        "width": "97",
+        "height": "247"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "t004",
+        "image_id": "i99_oa195_001_g100012932_15428",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t004/04_eb67ff97d3.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i99_oa195_001_g100012932/i99_oa195_001_g100012932_15428.jpg",
+        "width": "203",
+        "height": "74"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "t003",
+        "image_id": "oa100_001_g100016627_5938",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t003/02_51dc395544.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/oa100_001_g100016627/oa100_001_g100016627_5938.jpg",
+        "width": "97",
+        "height": "75"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "t003",
+        "image_id": "oa103_001_g100016244_3378",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t003/03_7271df9003.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/oa103_001_g100016244/oa103_001_g100016244_3378.jpg",
+        "width": "97",
+        "height": "94"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "t003",
+        "image_id": "oa108_002_g100016299_3720",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t003/04_a5ef3addbf.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/oa108_002_g100016299/oa108_002_g100016299_3720.jpg",
+        "width": "97",
+        "height": "81"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "t003",
+        "image_id": "oa109_002_g100016298_834",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t003/05_c513d25de1.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/oa109_002_g100016298/oa109_002_g100016298_834.jpg",
+        "width": "97",
+        "height": "86"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "t004",
+        "image_id": "oa207_001_g200002128_31061",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t004/05_74ebb2d3b0.jpg",
+        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/oa207_001_g200002128/oa207_001_g200002128_31061.jpg",
+        "width": "97",
+        "height": "105"
+      },
+      {
         "dataset_id": "tara_pacific_bongo",
         "label": "t001",
         "image_id": "aw_i04_s4_002_r110001920_7602",
@@ -12602,59 +11906,12 @@
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_17857.jpg",
         "width": "97",
         "height": "60"
-      }
-    ],
-    "non_taxonomic_category::t002": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "t002",
-        "image_id": "oa208_001_y110001386_12867",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t002/01_e2d9bd8ce0.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/oa208_001_y110001386/oa208_001_y110001386_12867.jpg",
-        "width": "97",
-        "height": "102"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "t002",
-        "image_id": "oa226_001_g100013485_1743",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t002/02_c2a48863e6.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/oa226_001_g100013485/oa226_001_g100013485_1743.jpg",
-        "width": "97",
-        "height": "105"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "t002",
-        "image_id": "oa227_001_g100013482_14281",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t002/03_79dac33787.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/oa227_001_g100013482/oa227_001_g100013482_14281.jpg",
-        "width": "97",
-        "height": "111"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "t002",
-        "image_id": "i00_oa136_001_g100014429_3014",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t002/04_cc0d8a5ceb.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_3014.jpg",
-        "width": "97",
-        "height": "182"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "t002",
-        "image_id": "i00_oa136_001_g100014429_9317",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t002/05_27381b165b.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_9317.jpg",
-        "width": "106",
-        "height": "215"
       },
       {
         "dataset_id": "tara_pacific_bongo",
         "label": "t002",
         "image_id": "aw_i04_s4_002_r110001920_952",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t002/01_1031fa9969.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t002/01_97044d9442.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_952.jpg",
         "width": "97",
         "height": "66"
@@ -12663,7 +11920,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t002",
         "image_id": "aw_i04_s4_002_r110001920_4942",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t002/02_bf4d2d45f4.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t002/02_69e88e4ded.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_4942.jpg",
         "width": "97",
         "height": "60"
@@ -12672,7 +11929,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t002",
         "image_id": "aw_i04_s4_002_r110001920_1583",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t002/03_41ffeece0a.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t002/03_2627d24434.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_1583.jpg",
         "width": "97",
         "height": "61"
@@ -12681,7 +11938,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t002",
         "image_id": "aw_i04_s4_002_r110001920_16626",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t002/04_5cfefab409.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t002/04_8d7f59d22b.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_16626.jpg",
         "width": "97",
         "height": "63"
@@ -12690,63 +11947,16 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t002",
         "image_id": "aw_i04_s4_002_r110001920_16102",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t002/05_c11f603961.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t002/05_5651b2ecb3.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_16102.jpg",
         "width": "97",
         "height": "60"
-      }
-    ],
-    "non_taxonomic_category::t003": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "t003",
-        "image_id": "i99_oa173_001_g100015277_7030",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t003/01_1079d26cb1.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i99_oa173_001_g100015277/i99_oa173_001_g100015277_7030.jpg",
-        "width": "97",
-        "height": "94"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "t003",
-        "image_id": "oa100_001_g100016627_5938",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t003/02_398cc0f0d6.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/oa100_001_g100016627/oa100_001_g100016627_5938.jpg",
-        "width": "97",
-        "height": "75"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "t003",
-        "image_id": "oa103_001_g100016244_3378",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t003/03_475cb83a2d.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/oa103_001_g100016244/oa103_001_g100016244_3378.jpg",
-        "width": "97",
-        "height": "94"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "t003",
-        "image_id": "oa108_002_g100016299_3720",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t003/04_fc169531af.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/oa108_002_g100016299/oa108_002_g100016299_3720.jpg",
-        "width": "97",
-        "height": "81"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "t003",
-        "image_id": "oa109_002_g100016298_834",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t003/05_cf0ef55318.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/oa109_002_g100016298/oa109_002_g100016298_834.jpg",
-        "width": "97",
-        "height": "86"
       },
       {
         "dataset_id": "tara_pacific_bongo",
         "label": "t003",
         "image_id": "aw_i04_s4_002_r110001920_981",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t003/01_6c3758ff60.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t003/01_cbc38bfd00.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_981.jpg",
         "width": "97",
         "height": "61"
@@ -12755,7 +11965,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t003",
         "image_id": "aw_i04_s4_002_r110001920_3480",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t003/02_06875b9d58.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t003/02_1be4d68910.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_3480.jpg",
         "width": "97",
         "height": "57"
@@ -12764,7 +11974,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t003",
         "image_id": "aw_i04_s4_002_r110001920_18236",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t003/03_611d6334ff.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t003/03_1c5db17cc8.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_18236.jpg",
         "width": "97",
         "height": "58"
@@ -12773,7 +11983,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t003",
         "image_id": "aw_i04_s4_002_r110001920_5400",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t003/04_bd8cb60924.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t003/04_18849014cd.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_5400.jpg",
         "width": "97",
         "height": "62"
@@ -12782,63 +11992,16 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t003",
         "image_id": "aw_i04_s4_002_r110001920_18073",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t003/05_cf8b319a97.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t003/05_787fd2f4f4.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_18073.jpg",
         "width": "97",
         "height": "61"
-      }
-    ],
-    "non_taxonomic_category::t004": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "t004",
-        "image_id": "i32_oa232_001_g100013368_7198",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t004/01_6158942149.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i32_oa232_001_g100013368/i32_oa232_001_g100013368_7198.jpg",
-        "width": "97",
-        "height": "143"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "t004",
-        "image_id": "i99_oa195_001_g100012932_1463",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t004/02_b76bcca8ab.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i99_oa195_001_g100012932/i99_oa195_001_g100012932_1463.jpg",
-        "width": "182",
-        "height": "111"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "t004",
-        "image_id": "i99_oa195_001_g100012932_1507",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t004/03_cbab64b9b1.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i99_oa195_001_g100012932/i99_oa195_001_g100012932_1507.jpg",
-        "width": "97",
-        "height": "247"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "t004",
-        "image_id": "i99_oa195_001_g100012932_15428",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t004/04_b0ab97bca2.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i99_oa195_001_g100012932/i99_oa195_001_g100012932_15428.jpg",
-        "width": "203",
-        "height": "74"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "t004",
-        "image_id": "oa207_001_g200002128_31061",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/t004/05_f04b123317.jpg",
-        "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/oa207_001_g200002128/oa207_001_g200002128_31061.jpg",
-        "width": "97",
-        "height": "105"
       },
       {
         "dataset_id": "tara_pacific_bongo",
         "label": "t004",
         "image_id": "aw_i04_s4_002_r110001920_8717",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t004/01_9b6eb3324e.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t004/01_721f01250e.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_8717.jpg",
         "width": "97",
         "height": "57"
@@ -12847,7 +12010,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t004",
         "image_id": "aw_i04_s4_002_r110001920_12963",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t004/02_7c5259474f.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t004/02_729f301e98.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_12963.jpg",
         "width": "97",
         "height": "63"
@@ -12856,36 +12019,16 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t004",
         "image_id": "aw_i04_s4_002_r110001920_15113",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t004/03_8a84481193.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t004/03_a66accc09f.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_15113.jpg",
         "width": "97",
         "height": "63"
       },
       {
         "dataset_id": "tara_pacific_bongo",
-        "label": "t004",
-        "image_id": "aw_i05_s1_001_r110001872_23253",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t004/04_27f5dab690.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_23253.jpg",
-        "width": "97",
-        "height": "71"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t004",
-        "image_id": "aw_i05_s1_001_r110001872_31247",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t004/05_6d324f2215.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_31247.jpg",
-        "width": "97",
-        "height": "66"
-      }
-    ],
-    "non_taxonomic_category::t005": [
-      {
-        "dataset_id": "tara_pacific_bongo",
         "label": "t005",
         "image_id": "aw_i04_s4_002_r110001920_44",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t005/01_07916daed5.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t005/01_6fcabd4b49.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_44.jpg",
         "width": "97",
         "height": "65"
@@ -12894,7 +12037,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t005",
         "image_id": "aw_i04_s4_002_r110001920_16800",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t005/02_a9cae20281.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t005/02_70061364c0.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_16800.jpg",
         "width": "97",
         "height": "64"
@@ -12903,7 +12046,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t005",
         "image_id": "aw_i04_s4_002_r110001920_12932",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t005/03_a8bdc3c6eb.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t005/03_927b1b91b9.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_12932.jpg",
         "width": "97",
         "height": "61"
@@ -12912,7 +12055,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t005",
         "image_id": "aw_i04_s4_002_r110001920_12232",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t005/04_cf359f251c.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t005/04_522e5d56e2.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_12232.jpg",
         "width": "97",
         "height": "59"
@@ -12921,18 +12064,16 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t005",
         "image_id": "aw_i04_s4_002_r110001920_7679",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t005/05_6a3527dae1.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t005/05_77c7c58108.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_7679.jpg",
         "width": "97",
         "height": "64"
-      }
-    ],
-    "non_taxonomic_category::t006": [
+      },
       {
         "dataset_id": "tara_pacific_bongo",
         "label": "t006",
         "image_id": "aw_i04_s4_002_r110001920_9686",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t006/01_d3b04f8ed4.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t006/01_8e644a75fe.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_9686.jpg",
         "width": "97",
         "height": "84"
@@ -12941,7 +12082,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t006",
         "image_id": "aw_i04_s4_002_r110001920_18486",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t006/02_65debfdd35.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t006/02_4cd8898bf9.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_18486.jpg",
         "width": "97",
         "height": "84"
@@ -12950,7 +12091,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t006",
         "image_id": "aw_i04_s4_002_r110001920_3968",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t006/03_89e0aa9686.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t006/03_671c103425.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_3968.jpg",
         "width": "97",
         "height": "83"
@@ -12959,7 +12100,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t006",
         "image_id": "aw_i04_s4_002_r110001920_10875",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t006/04_ffdf25445e.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t006/04_0705849cb1.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_10875.jpg",
         "width": "98",
         "height": "124"
@@ -12968,65 +12109,43 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t006",
         "image_id": "aw_i04_s4_002_r110001920_17440",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t006/05_62cbe343a7.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t006/05_26292db962.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_17440.jpg",
         "width": "97",
         "height": "72"
-      }
-    ],
-    "non_taxonomic_category::t007": [
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t007",
-        "image_id": "aw_i06_s1_001_r110002498_24767",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t007/01_9224dbc784.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i06_s1_001_r110002498/aw_i06_s1_001_r110002498_24767.jpg",
-        "width": "97",
-        "height": "204"
       },
       {
         "dataset_id": "tara_pacific_bongo",
-        "label": "t007",
-        "image_id": "aw_i06_s1_001_r110002498_15354",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t007/02_b10823c539.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i06_s1_001_r110002498/aw_i06_s1_001_r110002498_15354.jpg",
-        "width": "108",
-        "height": "92"
+        "label": "t004",
+        "image_id": "aw_i05_s1_001_r110001872_23253",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t004/04_96d438c765.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_23253.jpg",
+        "width": "97",
+        "height": "71"
       },
       {
         "dataset_id": "tara_pacific_bongo",
-        "label": "t007",
-        "image_id": "aw_i06_s3_003_r110001203_21737",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t007/03_a9b8d978c7.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i06_s3_003_r110001203/aw_i06_s3_003_r110001203_21737.jpg",
+        "label": "t004",
+        "image_id": "aw_i05_s1_001_r110001872_31247",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t004/05_9591fe8009.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_31247.jpg",
         "width": "97",
-        "height": "210"
+        "height": "66"
       },
       {
         "dataset_id": "tara_pacific_bongo",
-        "label": "t007",
-        "image_id": "i04_s2_003_r110001808_10830",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t007/04_38a61457e9.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/i04_s2_003_r110001808/i04_s2_003_r110001808_10830.jpg",
+        "label": "t012",
+        "image_id": "i04_s1_001_r110001775_7674",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t012/01_b44b12eb66.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/i04_s1_001_r110001775/i04_s1_001_r110001775_7674.jpg",
         "width": "97",
-        "height": "225"
+        "height": "63"
       },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t007",
-        "image_id": "srf_i13_s1_001_r110001355_1529",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t007/05_85c67b425e.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i13_s1_001_r110001355/srf_i13_s1_001_r110001355_1529.jpg",
-        "width": "97",
-        "height": "140"
-      }
-    ],
-    "non_taxonomic_category::t008": [
       {
         "dataset_id": "tara_pacific_bongo",
         "label": "t008",
         "image_id": "srf_i09_s1_001_r110001842_18562",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t008/01_e32da0822a.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t008/01_82b9058214.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_18562.jpg",
         "width": "97",
         "height": "122"
@@ -13035,7 +12154,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t008",
         "image_id": "srf_i09_s1_001_r110001842_18288",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t008/02_21090154e5.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t008/02_3a4ff72a14.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_18288.jpg",
         "width": "97",
         "height": "123"
@@ -13044,139 +12163,16 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t008",
         "image_id": "srf_i09_s2_002_r110001458_9359",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t008/03_698488d711.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t008/03_4b78ef6618.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/srf_i09_s2_002_r110001458/srf_i09_s2_002_r110001458_9359.jpg",
         "width": "97",
         "height": "132"
       },
       {
         "dataset_id": "tara_pacific_bongo",
-        "label": "t008",
-        "image_id": "srf_i10_s1_001_r110002379_14459",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t008/04_1c20d535d5.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/srf_i10_s1_001_r110002379/srf_i10_s1_001_r110002379_14459.jpg",
-        "width": "97",
-        "height": "98"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t008",
-        "image_id": "srf_i10_s1_001_r110002379_17598",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t008/05_02ff0fb742.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/srf_i10_s1_001_r110002379/srf_i10_s1_001_r110002379_17598.jpg",
-        "width": "97",
-        "height": "87"
-      }
-    ],
-    "non_taxonomic_category::t010": [
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t010",
-        "image_id": "aw_i04_s4_002_r110001920_6646",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t010/01_63ce3d1585.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_6646.jpg",
-        "width": "97",
-        "height": "68"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t010",
-        "image_id": "aw_i05_s1_001_r110001872_34545",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t010/02_a0d7e7767f.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_34545.jpg",
-        "width": "97",
-        "height": "172"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t010",
-        "image_id": "aw_i06_s1_001_r110002498_19087",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t010/03_7cf2c92af0.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i06_s1_001_r110002498/aw_i06_s1_001_r110002498_19087.jpg",
-        "width": "97",
-        "height": "235"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t010",
-        "image_id": "aw_i06_s1_001_r110002498_13167",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t010/04_6c41e4cb70.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i06_s1_001_r110002498/aw_i06_s1_001_r110002498_13167.jpg",
-        "width": "97",
-        "height": "211"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t010",
-        "image_id": "aw_i06_s1_001_r110002498_29039",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t010/05_71ef3aaee6.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i06_s1_001_r110002498/aw_i06_s1_001_r110002498_29039.jpg",
-        "width": "97",
-        "height": "225"
-      }
-    ],
-    "non_taxonomic_category::t011": [
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t011",
-        "image_id": "aw_i04_s4_002_r110001920_4483",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t011/01_49df0f36fa.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_4483.jpg",
-        "width": "97",
-        "height": "68"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t011",
-        "image_id": "aw_i04_s4_002_r110001920_3798",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t011/02_77e50c4a8e.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_3798.jpg",
-        "width": "97",
-        "height": "66"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t011",
-        "image_id": "aw_i04_s4_002_r110001920_10786",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t011/03_84cfc5fd2f.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_10786.jpg",
-        "width": "97",
-        "height": "70"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t011",
-        "image_id": "aw_i04_s4_002_r110001920_16792",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t011/04_974bde8392.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_16792.jpg",
-        "width": "97",
-        "height": "67"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t011",
-        "image_id": "aw_i04_s4_002_r110001920_14836",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t011/05_e9d1387a10.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_14836.jpg",
-        "width": "97",
-        "height": "68"
-      }
-    ],
-    "non_taxonomic_category::t012": [
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t012",
-        "image_id": "i04_s1_001_r110001775_7674",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t012/01_97ad9cdeac.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/i04_s1_001_r110001775/i04_s1_001_r110001775_7674.jpg",
-        "width": "97",
-        "height": "63"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
         "label": "t012",
         "image_id": "srf_i09_s2_002_r110001458_59",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t012/02_dec4efff8a.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t012/02_3f5d135c90.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/srf_i09_s2_002_r110001458/srf_i09_s2_002_r110001458_59.jpg",
         "width": "97",
         "height": "59"
@@ -13185,7 +12181,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t012",
         "image_id": "srf_i09_s2_002_r110001458_16975",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t012/03_ad7f083e61.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t012/03_74e73f8813.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/srf_i09_s2_002_r110001458/srf_i09_s2_002_r110001458_16975.jpg",
         "width": "97",
         "height": "65"
@@ -13194,7 +12190,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t012",
         "image_id": "srf_i09_s2_002_r110001458_18937",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t012/04_06daf66f8c.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t012/04_4a1c96ca00.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/srf_i09_s2_002_r110001458/srf_i09_s2_002_r110001458_18937.jpg",
         "width": "97",
         "height": "60"
@@ -13203,18 +12199,88 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t012",
         "image_id": "srf_i09_s2_002_r110001458_9024",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t012/05_781a51f4e8.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t012/05_1fc85c38c0.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/srf_i09_s2_002_r110001458/srf_i09_s2_002_r110001458_9024.jpg",
         "width": "97",
         "height": "68"
-      }
-    ],
-    "non_taxonomic_category::t013": [
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t008",
+        "image_id": "srf_i10_s1_001_r110002379_14459",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t008/04_c890e419c0.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/srf_i10_s1_001_r110002379/srf_i10_s1_001_r110002379_14459.jpg",
+        "width": "97",
+        "height": "98"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t008",
+        "image_id": "srf_i10_s1_001_r110002379_17598",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t008/05_01329087bf.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/lt_500px_30pct/srf_i10_s1_001_r110002379/srf_i10_s1_001_r110002379_17598.jpg",
+        "width": "97",
+        "height": "87"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t010",
+        "image_id": "aw_i04_s4_002_r110001920_6646",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t010/01_227c9bb33d.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_6646.jpg",
+        "width": "97",
+        "height": "68"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t011",
+        "image_id": "aw_i04_s4_002_r110001920_4483",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t011/01_3b421ace67.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_4483.jpg",
+        "width": "97",
+        "height": "68"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t011",
+        "image_id": "aw_i04_s4_002_r110001920_3798",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t011/02_7f63cdb860.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_3798.jpg",
+        "width": "97",
+        "height": "66"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t011",
+        "image_id": "aw_i04_s4_002_r110001920_10786",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t011/03_d37b98adef.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_10786.jpg",
+        "width": "97",
+        "height": "70"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t011",
+        "image_id": "aw_i04_s4_002_r110001920_16792",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t011/04_0e208fdb9f.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_16792.jpg",
+        "width": "97",
+        "height": "67"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t011",
+        "image_id": "aw_i04_s4_002_r110001920_14836",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t011/05_17b78b6844.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_14836.jpg",
+        "width": "97",
+        "height": "68"
+      },
       {
         "dataset_id": "tara_pacific_bongo",
         "label": "t013",
         "image_id": "aw_i04_s4_002_r110001920_11743",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t013/01_f68bc4b021.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t013/01_0ee11f56b9.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_11743.jpg",
         "width": "115",
         "height": "150"
@@ -13223,7 +12289,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t013",
         "image_id": "aw_i04_s4_002_r110001920_169",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t013/02_ad75ed8b12.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t013/02_1150353354.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_169.jpg",
         "width": "97",
         "height": "253"
@@ -13232,7 +12298,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t013",
         "image_id": "aw_i04_s4_002_r110001920_15847",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t013/03_80aa8c97f7.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t013/03_b659511e10.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_15847.jpg",
         "width": "97",
         "height": "135"
@@ -13241,7 +12307,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t013",
         "image_id": "aw_i04_s4_002_r110001920_4489",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t013/04_907bec7979.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t013/04_7d359075bb.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_4489.jpg",
         "width": "169",
         "height": "220"
@@ -13250,18 +12316,88 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t013",
         "image_id": "aw_i04_s4_002_r110001920_5772",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t013/05_2302ba2d7f.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t013/05_31060e32a8.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_5772.jpg",
         "width": "161",
         "height": "107"
-      }
-    ],
-    "non_taxonomic_category::t014": [
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t010",
+        "image_id": "aw_i05_s1_001_r110001872_34545",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t010/02_b9dc910cf4.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_34545.jpg",
+        "width": "97",
+        "height": "172"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t007",
+        "image_id": "aw_i06_s1_001_r110002498_24767",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t007/01_a7347beb6b.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i06_s1_001_r110002498/aw_i06_s1_001_r110002498_24767.jpg",
+        "width": "97",
+        "height": "204"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t007",
+        "image_id": "aw_i06_s1_001_r110002498_15354",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t007/02_efcebad9a0.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i06_s1_001_r110002498/aw_i06_s1_001_r110002498_15354.jpg",
+        "width": "108",
+        "height": "92"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t010",
+        "image_id": "aw_i06_s1_001_r110002498_19087",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t010/03_1ab1f32bad.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i06_s1_001_r110002498/aw_i06_s1_001_r110002498_19087.jpg",
+        "width": "97",
+        "height": "235"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t010",
+        "image_id": "aw_i06_s1_001_r110002498_13167",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t010/04_fed72c2eda.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i06_s1_001_r110002498/aw_i06_s1_001_r110002498_13167.jpg",
+        "width": "97",
+        "height": "211"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t010",
+        "image_id": "aw_i06_s1_001_r110002498_29039",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t010/05_88602f47c6.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i06_s1_001_r110002498/aw_i06_s1_001_r110002498_29039.jpg",
+        "width": "97",
+        "height": "225"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t007",
+        "image_id": "aw_i06_s3_003_r110001203_21737",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t007/03_23f29000b5.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/aw_i06_s3_003_r110001203/aw_i06_s3_003_r110001203_21737.jpg",
+        "width": "97",
+        "height": "210"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t007",
+        "image_id": "i04_s2_003_r110001808_10830",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t007/04_8d909d8c5b.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/i04_s2_003_r110001808/i04_s2_003_r110001808_10830.jpg",
+        "width": "97",
+        "height": "225"
+      },
       {
         "dataset_id": "tara_pacific_bongo",
         "label": "t014",
         "image_id": "i04_s2_003_r110001808_4500",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t014/01_73b6381948.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t014/01_0b6cf7ea9c.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/i04_s2_003_r110001808/i04_s2_003_r110001808_4500.jpg",
         "width": "97",
         "height": "128"
@@ -13270,7 +12406,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t014",
         "image_id": "i04_s2_003_r110001808_7148",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t014/02_633d0d00c9.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t014/02_43e5f896e0.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/i04_s2_003_r110001808/i04_s2_003_r110001808_7148.jpg",
         "width": "97",
         "height": "117"
@@ -13279,7 +12415,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t014",
         "image_id": "i04_s2_003_r110001808_8791",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t014/03_45913abd48.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t014/03_62d52ebbc7.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/i04_s2_003_r110001808/i04_s2_003_r110001808_8791.jpg",
         "width": "97",
         "height": "98"
@@ -13288,7 +12424,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t014",
         "image_id": "i04_s2_003_r110001808_1772",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t014/04_5b79535e9c.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t014/04_f4906525a2.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/i04_s2_003_r110001808/i04_s2_003_r110001808_1772.jpg",
         "width": "97",
         "height": "95"
@@ -13297,112 +12433,25 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t014",
         "image_id": "i04_s2_003_r110001808_2979",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t014/05_6ab276ea8f.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t014/05_2ce846c495.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/i04_s2_003_r110001808/i04_s2_003_r110001808_2979.jpg",
         "width": "97",
         "height": "110"
-      }
-    ],
-    "non_taxonomic_category::t015": [
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t015",
-        "image_id": "srf_i09_s1_001_r110001842_18444",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t015/01_2ca5bf04be.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_18444.jpg",
-        "width": "97",
-        "height": "122"
       },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t015",
-        "image_id": "srf_i09_s1_001_r110001842_18470",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t015/02_78491f4ac8.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_18470.jpg",
-        "width": "97",
-        "height": "123"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t015",
-        "image_id": "srf_i09_s1_001_r110001842_18410",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t015/03_de9974db75.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_18410.jpg",
-        "width": "97",
-        "height": "127"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t015",
-        "image_id": "srf_i09_s1_001_r110001842_18271",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t015/04_c351b4ded0.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_18271.jpg",
-        "width": "97",
-        "height": "128"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t015",
-        "image_id": "srf_i09_s1_001_r110001842_18518",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t015/05_af3d7a1abf.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_18518.jpg",
-        "width": "97",
-        "height": "124"
-      }
-    ],
-    "non_taxonomic_category::t016": [
       {
         "dataset_id": "tara_pacific_bongo",
         "label": "t016",
         "image_id": "srf_i07_s3_001_r110002331_21182",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t016/01_4508789bf8.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t016/01_105f425aa0.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i07_s3_001_r110002331/srf_i07_s3_001_r110002331_21182.jpg",
         "width": "97",
         "height": "71"
       },
       {
         "dataset_id": "tara_pacific_bongo",
-        "label": "t016",
-        "image_id": "srf_i09_s1_001_r110001842_15075",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t016/02_c2000568c3.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_15075.jpg",
-        "width": "97",
-        "height": "115"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t016",
-        "image_id": "srf_i09_s2_002_r110001458_864",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t016/03_9bc4be360a.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i09_s2_002_r110001458/srf_i09_s2_002_r110001458_864.jpg",
-        "width": "97",
-        "height": "134"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t016",
-        "image_id": "srf_i09_s2_002_r110001458_13366",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t016/04_ee618006c0.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i09_s2_002_r110001458/srf_i09_s2_002_r110001458_13366.jpg",
-        "width": "97",
-        "height": "133"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "t016",
-        "image_id": "srf_i09_s2_002_r110001458_8100",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t016/05_14615f5ade.jpg",
-        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i09_s2_002_r110001458/srf_i09_s2_002_r110001458_8100.jpg",
-        "width": "97",
-        "height": "126"
-      }
-    ],
-    "non_taxonomic_category::t017": [
-      {
-        "dataset_id": "tara_pacific_bongo",
         "label": "t017",
         "image_id": "srf_i08_s1_001_r110001508_5178",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t017/01_5d413d3db6.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t017/01_6f00a59885.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i08_s1_001_r110001508/srf_i08_s1_001_r110001508_5178.jpg",
         "width": "97",
         "height": "113"
@@ -13411,7 +12460,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t017",
         "image_id": "srf_i08_s1_001_r110001508_12170",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t017/02_93ae78e247.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t017/02_8012998e4c.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i08_s1_001_r110001508/srf_i08_s1_001_r110001508_12170.jpg",
         "width": "97",
         "height": "86"
@@ -13420,7 +12469,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t017",
         "image_id": "srf_i08_s2_001_r110001518_1778",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t017/03_89ecd5bc3e.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t017/03_e97c49ce76.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i08_s2_001_r110001518/srf_i08_s2_001_r110001518_1778.jpg",
         "width": "97",
         "height": "89"
@@ -13429,7 +12478,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t017",
         "image_id": "srf_i08_s2_001_r110001518_8516",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t017/04_46c8820194.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t017/04_d3e3964428.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i08_s2_001_r110001518/srf_i08_s2_001_r110001518_8516.jpg",
         "width": "97",
         "height": "68"
@@ -13438,10 +12487,100 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "t017",
         "image_id": "srf_i08_s2_001_r110001518_4203",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t017/05_4825f119ec.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t017/05_88089e0bc1.jpg",
         "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i08_s2_001_r110001518/srf_i08_s2_001_r110001518_4203.jpg",
         "width": "97",
         "height": "110"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t015",
+        "image_id": "srf_i09_s1_001_r110001842_18444",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t015/01_71c4bda2cb.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_18444.jpg",
+        "width": "97",
+        "height": "122"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t015",
+        "image_id": "srf_i09_s1_001_r110001842_18470",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t015/02_2ae7ed29b9.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_18470.jpg",
+        "width": "97",
+        "height": "123"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t015",
+        "image_id": "srf_i09_s1_001_r110001842_18410",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t015/03_2d30d49d34.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_18410.jpg",
+        "width": "97",
+        "height": "127"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t015",
+        "image_id": "srf_i09_s1_001_r110001842_18271",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t015/04_50961fa3f9.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_18271.jpg",
+        "width": "97",
+        "height": "128"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t015",
+        "image_id": "srf_i09_s1_001_r110001842_18518",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t015/05_7d675e7eb3.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_18518.jpg",
+        "width": "97",
+        "height": "124"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t016",
+        "image_id": "srf_i09_s1_001_r110001842_15075",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t016/02_919e682b84.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_15075.jpg",
+        "width": "97",
+        "height": "115"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t016",
+        "image_id": "srf_i09_s2_002_r110001458_864",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t016/03_9e8797b0fe.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i09_s2_002_r110001458/srf_i09_s2_002_r110001458_864.jpg",
+        "width": "97",
+        "height": "134"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t016",
+        "image_id": "srf_i09_s2_002_r110001458_13366",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t016/04_2c3ca41429.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i09_s2_002_r110001458/srf_i09_s2_002_r110001458_13366.jpg",
+        "width": "97",
+        "height": "133"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t016",
+        "image_id": "srf_i09_s2_002_r110001458_8100",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t016/05_56f1c53b0e.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i09_s2_002_r110001458/srf_i09_s2_002_r110001458_8100.jpg",
+        "width": "97",
+        "height": "126"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "t007",
+        "image_id": "srf_i13_s1_001_r110001355_1529",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/t007/05_4fb015c537.jpg",
+        "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/srf_i13_s1_001_r110001355/srf_i13_s1_001_r110001355_1529.jpg",
+        "width": "97",
+        "height": "140"
       }
     ],
     "non_taxonomic_category::tail<appendicularia": [
@@ -13807,53 +12946,6 @@
         "source_ref": "derived/staging/tara_pacific_bongo/images/gt_501px_100pct/i04_s1_001_r110001775/i04_s1_001_r110001775_1116.jpg",
         "width": "151",
         "height": "163"
-      }
-    ],
-    "non_taxonomic_category::ucyna like": [
-      {
-        "dataset_id": "flowcam_net",
-        "label": "UCYNA like",
-        "image_id": "164744313",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/ucyna_like/01_28a6bcb74b.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/UCYNA like/164744313.png",
-        "width": "38",
-        "height": "31"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "UCYNA like",
-        "image_id": "164751387",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/ucyna_like/02_c63fba5646.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/UCYNA like/164751387.png",
-        "width": "29",
-        "height": "32"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "UCYNA like",
-        "image_id": "164745663",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/ucyna_like/03_e2c8632975.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/UCYNA like/164745663.png",
-        "width": "34",
-        "height": "26"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "UCYNA like",
-        "image_id": "164747034",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/ucyna_like/04_6320fdaa11.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/UCYNA like/164747034.png",
-        "width": "162",
-        "height": "239"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "UCYNA like",
-        "image_id": "164747351",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/ucyna_like/05_3db010bfb2.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/UCYNA like/164747351.png",
-        "width": "41",
-        "height": "34"
       }
     ],
     "non_taxonomic_category::unknown": [
@@ -16130,13 +15222,13 @@
     "sample_limit_per_dataset": 5,
     "excluded_valid_tree_overlap_default": true,
     "table_counts": {
-      "non_taxonomic_category": 126,
+      "non_taxonomic_category": 104,
       "taxonomic_mismatch": 32
     },
     "table_image_counts": {
-      "non_taxonomic_category": 3067138,
+      "non_taxonomic_category": 3063385,
       "taxonomic_mismatch": 367401
     },
-    "total_image_count": 3434539
+    "total_image_count": 3430786
   }
 }

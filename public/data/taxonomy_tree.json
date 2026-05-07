@@ -1987,6 +1987,30 @@
                       "broad_class": "Cyanobacteria",
                       "broad_class_aphia_id": "146537",
                       "broad_class_original_label": "UCYNA like",
+                      "broad_class_source_file": "round2_broad_class_bonus_expansion",
+                      "children": [],
+                      "dataset_id": "flowcam_net",
+                      "dataset_label": "FlowCAMNet",
+                      "entry_id": "flowcam_net::UCYNA like",
+                      "image_count": 736,
+                      "lineage_notes": [
+                        "intermediate_rank"
+                      ],
+                      "name": "Cyanobacteria: UCYNA like",
+                      "original_label": "UCYNA like",
+                      "placement_id": "flowcam_net::UCYNA like::146537::1",
+                      "risk_flags": [
+                        "broad_class"
+                      ],
+                      "selected_aphia_id": "146537",
+                      "selected_aphia_source": "round2_broad_class_mapping",
+                      "synonym_note": "",
+                      "type": "dataset_class"
+                    },
+                    {
+                      "broad_class": "Cyanobacteria",
+                      "broad_class_aphia_id": "146537",
+                      "broad_class_original_label": "UCYNA like",
                       "broad_class_source_file": "studies/label_aphia_inventory/tara_pacific_bongo_broad_class.json",
                       "children": [],
                       "dataset_id": "tara_pacific_bongo",
@@ -2037,8 +2061,8 @@
                     "tara_pacific_deck",
                     "tara_pacific_bongo"
                   ],
-                  "entry_count": 14,
-                  "image_count": 96913,
+                  "entry_count": 15,
+                  "image_count": 97649,
                   "key": "Phylum::146537::Cyanobacteria",
                   "lineage_notes": [
                     "intermediate_rank"
@@ -2056,8 +2080,8 @@
                 "tara_pacific_deck",
                 "tara_pacific_bongo"
               ],
-              "entry_count": 14,
-              "image_count": 96913,
+              "entry_count": 15,
+              "image_count": 97649,
               "key": "Subkingdom::1741194::Negibacteria",
               "lineage_notes": [
                 "intermediate_rank"
@@ -2075,8 +2099,8 @@
             "tara_pacific_deck",
             "tara_pacific_bongo"
           ],
-          "entry_count": 14,
-          "image_count": 96913,
+          "entry_count": 15,
+          "image_count": 97649,
           "key": "Kingdom::6::Bacteria",
           "lineage_notes": [
             "intermediate_rank"
@@ -2230,6 +2254,28 @@
                   "broad_class": "Bacillariophyta",
                   "broad_class_aphia_id": "148898",
                   "broad_class_original_label": "chainlarge",
+                  "broad_class_source_file": "round2_broad_class_bonus_expansion",
+                  "children": [],
+                  "dataset_id": "flowcam_net",
+                  "dataset_label": "FlowCAMNet",
+                  "entry_id": "flowcam_net::chainlarge",
+                  "image_count": 422,
+                  "lineage_notes": [],
+                  "name": "Bacillariophyta: chainlarge",
+                  "original_label": "chainlarge",
+                  "placement_id": "flowcam_net::chainlarge::148898::1",
+                  "risk_flags": [
+                    "broad_class"
+                  ],
+                  "selected_aphia_id": "148898",
+                  "selected_aphia_source": "round2_broad_class_mapping",
+                  "synonym_note": "",
+                  "type": "dataset_class"
+                },
+                {
+                  "broad_class": "Bacillariophyta",
+                  "broad_class_aphia_id": "148898",
+                  "broad_class_original_label": "chainlarge",
                   "broad_class_source_file": "studies/label_aphia_inventory/tara_pacific_bongo_broad_class.json",
                   "children": [],
                   "dataset_id": "tara_pacific_bongo",
@@ -2262,6 +2308,28 @@
                   "name": "Bacillariophyta: chainlarge",
                   "original_label": "chainlarge",
                   "placement_id": "tara_pacific_deck::chainlarge::148898::1",
+                  "risk_flags": [
+                    "broad_class"
+                  ],
+                  "selected_aphia_id": "148898",
+                  "selected_aphia_source": "round2_broad_class_mapping",
+                  "synonym_note": "",
+                  "type": "dataset_class"
+                },
+                {
+                  "broad_class": "Bacillariophyta",
+                  "broad_class_aphia_id": "148898",
+                  "broad_class_original_label": "chainthin",
+                  "broad_class_source_file": "round2_broad_class_bonus_expansion",
+                  "children": [],
+                  "dataset_id": "flowcam_net",
+                  "dataset_label": "FlowCAMNet",
+                  "entry_id": "flowcam_net::chainthin",
+                  "image_count": 1747,
+                  "lineage_notes": [],
+                  "name": "Bacillariophyta: chainthin",
+                  "original_label": "chainthin",
+                  "placement_id": "flowcam_net::chainthin::148898::1",
                   "risk_flags": [
                     "broad_class"
                   ],
@@ -2538,6 +2606,28 @@
                   "broad_class": "Bacillariophyta",
                   "broad_class_aphia_id": "148898",
                   "broad_class_original_label": "Rhizosolenia inter. Richelia",
+                  "broad_class_source_file": "round2_broad_class_bonus_expansion",
+                  "children": [],
+                  "dataset_id": "flowcam_net",
+                  "dataset_label": "FlowCAMNet",
+                  "entry_id": "flowcam_net::Rhizosolenia inter. Richelia",
+                  "image_count": 806,
+                  "lineage_notes": [],
+                  "name": "Bacillariophyta: Rhizosolenia inter. Richelia",
+                  "original_label": "Rhizosolenia inter. Richelia",
+                  "placement_id": "flowcam_net::Rhizosolenia inter. Richelia::148898::1",
+                  "risk_flags": [
+                    "broad_class"
+                  ],
+                  "selected_aphia_id": "148898",
+                  "selected_aphia_source": "round2_broad_class_mapping",
+                  "synonym_note": "",
+                  "type": "dataset_class"
+                },
+                {
+                  "broad_class": "Bacillariophyta",
+                  "broad_class_aphia_id": "148898",
+                  "broad_class_original_label": "Rhizosolenia inter. Richelia",
                   "broad_class_source_file": "studies/label_aphia_inventory/tara_pacific_bongo_broad_class.json",
                   "children": [],
                   "dataset_id": "tara_pacific_bongo",
@@ -2650,8 +2740,8 @@
                 "tara_pacific_deck",
                 "tara_pacific_bongo"
               ],
-              "entry_count": 25,
-              "image_count": 105850,
+              "entry_count": 28,
+              "image_count": 108825,
               "key": "Phylum::148898::Bacillariophyta",
               "lineage_notes": [],
               "name": "Bacillariophyta",
@@ -15211,6 +15301,30 @@
                       "selected_aphia_source": "tara_pacific_broad_class_mapping",
                       "synonym_note": "",
                       "type": "dataset_class"
+                    },
+                    {
+                      "broad_class": "Rhizaria",
+                      "broad_class_aphia_id": "582420",
+                      "broad_class_original_label": "spines<Acantharea",
+                      "broad_class_source_file": "round2_broad_class_bonus_expansion",
+                      "children": [],
+                      "dataset_id": "tara_pacific_deck",
+                      "dataset_label": "Tara Pacific Deck",
+                      "entry_id": "tara_pacific_deck::spines<Acantharea",
+                      "image_count": 42,
+                      "lineage_notes": [
+                        "intermediate_rank"
+                      ],
+                      "name": "Rhizaria: spines<Acantharea",
+                      "original_label": "spines<Acantharea",
+                      "placement_id": "tara_pacific_deck::spines<Acantharea::582420::1",
+                      "risk_flags": [
+                        "broad_class"
+                      ],
+                      "selected_aphia_id": "582420",
+                      "selected_aphia_source": "round2_broad_class_mapping",
+                      "synonym_note": "",
+                      "type": "dataset_class"
                     }
                   ],
                   "datasets": [
@@ -15220,8 +15334,8 @@
                     "tara_pacific_deck",
                     "tara_pacific_bongo"
                   ],
-                  "entry_count": 20,
-                  "image_count": 11505,
+                  "entry_count": 21,
+                  "image_count": 11547,
                   "key": "Infrakingdom::582420::Rhizaria",
                   "lineage_notes": [
                     "intermediate_rank"
@@ -15242,8 +15356,8 @@
                 "tara_pacific_deck",
                 "tara_pacific_bongo"
               ],
-              "entry_count": 163,
-              "image_count": 109180,
+              "entry_count": 164,
+              "image_count": 109222,
               "key": "Subkingdom::582419::Harosa",
               "lineage_notes": [
                 "intermediate_rank"
@@ -15267,8 +15381,8 @@
             "tara_pacific_bongo",
             "ifremer_srn"
           ],
-          "entry_count": 352,
-          "image_count": 990647,
+          "entry_count": 356,
+          "image_count": 993664,
           "key": "Kingdom::7::Chromista",
           "lineage_notes": [
             "intermediate_rank"
@@ -15692,8 +15806,8 @@
         "tara_pacific_bongo",
         "ifremer_srn"
       ],
-      "entry_count": 410,
-      "image_count": 1108310,
+      "entry_count": 415,
+      "image_count": 1112063,
       "key": "Superdomain::1::Biota",
       "lineage_notes": [
         "intermediate_rank"
@@ -15709,7 +15823,7 @@
       "type": "taxon"
     }
   ],
-  "dataset_class_entry_count": 407,
+  "dataset_class_entry_count": 412,
   "dataset_colors": {
     "flowcam_net": "#16a34a",
     "ifremer_srn": "#0891b2",
@@ -15734,13 +15848,13 @@
     "tara_pacific_bongo",
     "ifremer_srn"
   ],
-  "entry_count": 410,
-  "image_count": 1108310,
+  "entry_count": 415,
+  "image_count": 1112063,
   "lineage_notes": [
     "intermediate_rank"
   ],
   "name": "WoRMS Taxonomy",
-  "placement_weighted_image_count": 1108310,
+  "placement_weighted_image_count": 1112063,
   "rank": "Root",
   "risk_flags": [
     "broad_class",
@@ -15749,6 +15863,6 @@
     "multiple_valid_aphia_ids"
   ],
   "type": "root",
-  "unique_candidate_image_count": 1104606,
+  "unique_candidate_image_count": 1108359,
   "unique_selected_aphia_id_count": 191
 }

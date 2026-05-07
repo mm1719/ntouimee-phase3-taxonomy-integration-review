@@ -4691,6 +4691,98 @@
       "height": "41"
     }
   ],
+  "flowcam_net::Rhizosolenia inter. Richelia": [
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: Rhizosolenia inter. Richelia",
+      "image_id": "165038898",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_Rhizosolenia_inter._Richelia/01_d7928add85.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Rhizosolenia inter. Richelia/165038898.png",
+      "width": "24",
+      "height": "119"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: Rhizosolenia inter. Richelia",
+      "image_id": "165674125",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_Rhizosolenia_inter._Richelia/02_6f52591bd7.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Rhizosolenia inter. Richelia/165674125.png",
+      "width": "18",
+      "height": "116"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: Rhizosolenia inter. Richelia",
+      "image_id": "165334547",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_Rhizosolenia_inter._Richelia/03_9a09e4fb2c.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Rhizosolenia inter. Richelia/165334547.png",
+      "width": "19",
+      "height": "78"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: Rhizosolenia inter. Richelia",
+      "image_id": "165673447",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_Rhizosolenia_inter._Richelia/04_cd84dcfe6c.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Rhizosolenia inter. Richelia/165673447.png",
+      "width": "72",
+      "height": "82"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: Rhizosolenia inter. Richelia",
+      "image_id": "165673157",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_Rhizosolenia_inter._Richelia/05_0fc85c420b.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Rhizosolenia inter. Richelia/165673157.png",
+      "width": "16",
+      "height": "90"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: Rhizosolenia inter. Richelia",
+      "image_id": "165673612",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_Rhizosolenia_inter._Richelia/06_6e5abe4ed5.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Rhizosolenia inter. Richelia/165673612.png",
+      "width": "12",
+      "height": "109"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: Rhizosolenia inter. Richelia",
+      "image_id": "165673469",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_Rhizosolenia_inter._Richelia/07_c10baedf75.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Rhizosolenia inter. Richelia/165673469.png",
+      "width": "61",
+      "height": "84"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: Rhizosolenia inter. Richelia",
+      "image_id": "165673895",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_Rhizosolenia_inter._Richelia/08_595bed4b62.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Rhizosolenia inter. Richelia/165673895.png",
+      "width": "91",
+      "height": "13"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: Rhizosolenia inter. Richelia",
+      "image_id": "165674056",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_Rhizosolenia_inter._Richelia/09_a488876ecc.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Rhizosolenia inter. Richelia/165674056.png",
+      "width": "21",
+      "height": "88"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: Rhizosolenia inter. Richelia",
+      "image_id": "165673154",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_Rhizosolenia_inter._Richelia/10_486867a6fe.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Rhizosolenia inter. Richelia/165673154.png",
+      "width": "19",
+      "height": "73"
+    }
+  ],
   "flowcam_net::Rhizosoleniaceae": [
     {
       "dataset_id": "flowcam_net",
@@ -5335,6 +5427,98 @@
       "height": "82"
     }
   ],
+  "flowcam_net::UCYNA like": [
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "164744313",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_UCYNA_like/01_cf2acb3b68.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/UCYNA like/164744313.png",
+      "width": "38",
+      "height": "31"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "164751387",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_UCYNA_like/02_6a73d35497.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/UCYNA like/164751387.png",
+      "width": "29",
+      "height": "32"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "164745663",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_UCYNA_like/03_a8473574c2.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/UCYNA like/164745663.png",
+      "width": "34",
+      "height": "26"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "164747034",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_UCYNA_like/04_2e2a982654.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/UCYNA like/164747034.png",
+      "width": "162",
+      "height": "239"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "164747351",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_UCYNA_like/05_c4123461b8.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/UCYNA like/164747351.png",
+      "width": "41",
+      "height": "34"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "164747919",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_UCYNA_like/06_2be64e01c2.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/UCYNA like/164747919.png",
+      "width": "58",
+      "height": "32"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "164746957",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_UCYNA_like/07_af8e89cdae.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/UCYNA like/164746957.png",
+      "width": "24",
+      "height": "34"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "164751039",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_UCYNA_like/08_760069194b.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/UCYNA like/164751039.png",
+      "width": "42",
+      "height": "30"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "164743687",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_UCYNA_like/09_78ccfa2273.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/UCYNA like/164743687.png",
+      "width": "43",
+      "height": "32"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Cyanobacteria: UCYNA like",
+      "image_id": "164742148",
+      "thumbnail_url": "/samples/flowcam_net/Cyanobacteria_UCYNA_like/10_3f18a9704c.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/UCYNA like/164742148.png",
+      "width": "41",
+      "height": "56"
+    }
+  ],
   "flowcam_net::Undellidae": [
     {
       "dataset_id": "flowcam_net",
@@ -5517,6 +5701,190 @@
       "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/Xystonellidae/164746942.png",
       "width": "50",
       "height": "137"
+    }
+  ],
+  "flowcam_net::chainlarge": [
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "164845772",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_chainlarge/01_9dd34e0d37.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainlarge/164845772.png",
+      "width": "60",
+      "height": "104"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "164845177",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_chainlarge/02_617524dd2d.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainlarge/164845177.png",
+      "width": "46",
+      "height": "112"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "164844819",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_chainlarge/03_815acfe958.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainlarge/164844819.png",
+      "width": "112",
+      "height": "74"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "164846273",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_chainlarge/04_ad157fddf3.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainlarge/164846273.png",
+      "width": "39",
+      "height": "59"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "164750617",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_chainlarge/05_8ed37c8b3f.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainlarge/164750617.png",
+      "width": "101",
+      "height": "52"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "164845628",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_chainlarge/06_d007c8dcd0.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainlarge/164845628.png",
+      "width": "68",
+      "height": "41"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "164846351",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_chainlarge/07_4d1b4625e3.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainlarge/164846351.png",
+      "width": "25",
+      "height": "53"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "164844003",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_chainlarge/08_f2a8386a01.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainlarge/164844003.png",
+      "width": "108",
+      "height": "192"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "165540987",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_chainlarge/09_61ea983419.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainlarge/165540987.png",
+      "width": "100",
+      "height": "150"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: chainlarge",
+      "image_id": "164750371",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_chainlarge/10_bae30fe138.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainlarge/164750371.png",
+      "width": "29",
+      "height": "55"
+    }
+  ],
+  "flowcam_net::chainthin": [
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "165428160",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_chainthin/01_99525a56c6.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainthin/165428160.png",
+      "width": "15",
+      "height": "30"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "164841301",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_chainthin/02_a2c9614019.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainthin/164841301.png",
+      "width": "17",
+      "height": "89"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "165669014",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_chainthin/03_7a94c21132.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainthin/165669014.png",
+      "width": "74",
+      "height": "39"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "165669791",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_chainthin/04_88c6c89019.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainthin/165669791.png",
+      "width": "28",
+      "height": "44"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "165669116",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_chainthin/05_f4108deb2b.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainthin/165669116.png",
+      "width": "44",
+      "height": "44"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "165669446",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_chainthin/06_8ebff847aa.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainthin/165669446.png",
+      "width": "28",
+      "height": "55"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "165426405",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_chainthin/07_ab28f4a815.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainthin/165426405.png",
+      "width": "17",
+      "height": "28"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "165670400",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_chainthin/08_deae44832d.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainthin/165670400.png",
+      "width": "25",
+      "height": "43"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "165424926",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_chainthin/09_d549c4d32f.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainthin/165424926.png",
+      "width": "19",
+      "height": "29"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: chainthin",
+      "image_id": "165669252",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_chainthin/10_f9beb4cc77.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/chainthin/165669252.png",
+      "width": "28",
+      "height": "54"
     }
   ],
   "flowcam_net::cyano a": [
@@ -34136,6 +34504,98 @@
       "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_1770.jpg",
       "width": "97",
       "height": "94"
+    }
+  ],
+  "tara_pacific_deck::spines<Acantharea": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Rhizaria: spines<Acantharea",
+      "image_id": "oa034_001_g100019601_5453",
+      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharea/01_4674cf8504.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/oa034_001_g100019601/oa034_001_g100019601_5453.jpg",
+      "width": "97",
+      "height": "68"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Rhizaria: spines<Acantharea",
+      "image_id": "oa034_001_g100019601_26694",
+      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharea/02_0cd65a160d.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/oa034_001_g100019601/oa034_001_g100019601_26694.jpg",
+      "width": "97",
+      "height": "71"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Rhizaria: spines<Acantharea",
+      "image_id": "oa096_001_g100016058_32383",
+      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharea/03_151c885519.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/lt_500px_30pct/oa096_001_g100016058/oa096_001_g100016058_32383.jpg",
+      "width": "97",
+      "height": "70"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Rhizaria: spines<Acantharea",
+      "image_id": "i00_oa139_001_g100014672_14684",
+      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharea/04_0ed828b8c2.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_14684.jpg",
+      "width": "97",
+      "height": "112"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Rhizaria: spines<Acantharea",
+      "image_id": "i00_oa163_001_g100015598_21284",
+      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharea/05_d6e53f1982.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_21284.jpg",
+      "width": "154",
+      "height": "145"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Rhizaria: spines<Acantharea",
+      "image_id": "i04_oa043_001_g100017842_2513",
+      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharea/06_cfd48c6da0.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i04_oa043_001_g100017842/i04_oa043_001_g100017842_2513.jpg",
+      "width": "97",
+      "height": "82"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Rhizaria: spines<Acantharea",
+      "image_id": "i06_oa055_001_g100018780_3593",
+      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharea/07_02bb2de1e2.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i06_oa055_001_g100018780/i06_oa055_001_g100018780_3593.jpg",
+      "width": "97",
+      "height": "98"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Rhizaria: spines<Acantharea",
+      "image_id": "i19_oa142_001_g100014497_5055",
+      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharea/08_ee3819b9c1.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i19_oa142_001_g100014497/i19_oa142_001_g100014497_5055.jpg",
+      "width": "126",
+      "height": "92"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Rhizaria: spines<Acantharea",
+      "image_id": "i19_oa142_001_g100014497_10788",
+      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharea/09_27aaf7a8b5.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i19_oa142_001_g100014497/i19_oa142_001_g100014497_10788.jpg",
+      "width": "97",
+      "height": "111"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Rhizaria: spines<Acantharea",
+      "image_id": "i19_oa142_001_g100014497_4827",
+      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharea/10_5b7fc65b9b.jpg",
+      "source_ref": "derived/staging/tara_pacific_deck/images/gt_501px_100pct/i19_oa142_001_g100014497/i19_oa142_001_g100014497_4827.jpg",
+      "width": "97",
+      "height": "114"
     }
   ],
   "tara_pacific_deck::veliger": [
