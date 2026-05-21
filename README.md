@@ -42,8 +42,8 @@ Current demo data is generated from the phase 3 study outputs, then copied into 
    - `public/data/valid_class_candidates.csv`
    - `public/data/class_image_samples.json`
    - `public/data/invalid_label_groups.json`
-4. `scripts/build_valid_class_demo_samples.py` builds `class_image_samples.json` and thumbnail files under `public/samples/` from the analysis-ready manifests.
-5. `scripts/build_invalid_label_demo_data.py` builds `invalid_label_groups.json` and invalid thumbnails under `public/invalid-samples/` from `worms_invalid_labels_for_review.csv` and analysis-ready manifests.
+4. `scripts/build_valid_class_demo_samples.py` builds `class_image_samples.json` and thumbnail files under `public/samples/`. Tara Pacific Deck/Bongo thumbnails are generated from the cleaned PNG manifests under `derived/cleaned/*_scale_bar_removed/manifest.csv`; other datasets still use analysis-ready manifests.
+5. `scripts/build_invalid_label_demo_data.py` builds `invalid_label_groups.json` and invalid thumbnails under `public/invalid-samples/` from `worms_invalid_labels_for_review.csv`. Tara Pacific Deck/Bongo thumbnails use cleaned PNG paths; other datasets use analysis-ready manifests.
 6. The React app fetches `/data/taxonomy_tree.json`, `/data/valid_class_candidates.csv`, `/data/class_image_samples.json`, and `/data/invalid_label_groups.json` at runtime.
 
 `studies/label_aphia_inventory/worms_invalid_labels_for_review.*` is a manual review report, not a frontend data source. A label can be listed for review while still appearing in the demo when it is a contaminated or otherwise risk-flagged valid-tree candidate.
@@ -52,3 +52,7 @@ Round 1 cleanup adds two display-only promotion paths to the demo:
 
 - Synonym corrections use the accepted WoRMS AphiaID and display labels as `accepted/original`, such as `Chaetoceros peruvianum/peruvianus`.
 - Tara Pacific broad-class promotions display labels as `broad class: original label`, use the broad-class AphiaID for tree placement, and add the `Broad class` risk flag.
+
+## Tara Pacific cleaned image policy
+
+The Tara Pacific Deck/Bongo thumbnails shown in the demo are generated from formal cleaned PNG outputs, not the original staging JPEGs. The JSON `source_ref` values for these two datasets point to `derived/cleaned/tara_pacific_*_scale_bar_removed/images_png/...`. JPEG preview folders from the cleaning workflow are review artifacts and are not used by this app.
