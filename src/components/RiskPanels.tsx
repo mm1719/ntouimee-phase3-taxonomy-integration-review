@@ -55,6 +55,11 @@ export function RiskPanels({ candidates, onSelect }: Props) {
           helper.accessor("contaminated_sources", { header: "Invalid evidence" })
         );
       }
+      if (activeRisk === "dwca_aphia_mismatch") {
+        baseColumns.push(
+          helper.accessor("worms_aphia_ids", { header: "Name-search AphiaID" })
+        );
+      }
       baseColumns.push(
         helper.accessor("dwca_aphia_ids", {
           header: activeRisk === "broad_class" ? "Broad AphiaID" : "DwC AphiaID",
