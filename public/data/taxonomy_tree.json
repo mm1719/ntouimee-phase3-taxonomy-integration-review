@@ -4018,11 +4018,9 @@
                                               "name": "Hemiaulus",
                                               "original_label": "Hemiaulus",
                                               "placement_id": "tara_pacific_bongo::Hemiaulus::163248::1",
-                                              "risk_flags": [
-                                                "dwca_aphia_mismatch"
-                                              ],
+                                              "risk_flags": [],
                                               "selected_aphia_id": "163248",
-                                              "selected_aphia_source": "worms_validation_due_dwca_mismatch",
+                                              "selected_aphia_source": "dwca_scientificNameID_exact_match",
                                               "synonym_note": "",
                                               "type": "dataset_class"
                                             },
@@ -4040,11 +4038,9 @@
                                               "name": "Hemiaulus",
                                               "original_label": "Hemiaulus",
                                               "placement_id": "tara_pacific_deck::Hemiaulus::163248::1",
-                                              "risk_flags": [
-                                                "dwca_aphia_mismatch"
-                                              ],
+                                              "risk_flags": [],
                                               "selected_aphia_id": "163248",
-                                              "selected_aphia_source": "worms_validation_due_dwca_mismatch",
+                                              "selected_aphia_source": "dwca_scientificNameID_exact_match",
                                               "synonym_note": "",
                                               "type": "dataset_class"
                                             }
@@ -4059,9 +4055,7 @@
                                           "lineage_notes": [],
                                           "name": "Hemiaulus",
                                           "rank": "Genus",
-                                          "risk_flags": [
-                                            "dwca_aphia_mismatch"
-                                          ],
+                                          "risk_flags": [],
                                           "type": "taxon"
                                         }
                                       ],
@@ -4078,9 +4072,7 @@
                                       "lineage_notes": [],
                                       "name": "Hemiaulaceae",
                                       "rank": "Family",
-                                      "risk_flags": [
-                                        "dwca_aphia_mismatch"
-                                      ],
+                                      "risk_flags": [],
                                       "type": "taxon"
                                     }
                                   ],
@@ -4098,8 +4090,7 @@
                                   "name": "Hemiaulales",
                                   "rank": "Order",
                                   "risk_flags": [
-                                    "contaminated",
-                                    "dwca_aphia_mismatch"
+                                    "contaminated"
                                   ],
                                   "type": "taxon"
                                 },
@@ -4727,8 +4718,7 @@
                               "name": "Biddulphianae",
                               "rank": "Superorder",
                               "risk_flags": [
-                                "contaminated",
-                                "dwca_aphia_mismatch"
+                                "contaminated"
                               ],
                               "type": "taxon"
                             },
@@ -8015,8 +8005,7 @@
                           "name": "Coscinodiscophycidae",
                           "rank": "Subclass",
                           "risk_flags": [
-                            "contaminated",
-                            "dwca_aphia_mismatch"
+                            "contaminated"
                           ],
                           "type": "taxon"
                         },
@@ -8731,8 +8720,7 @@
                       "name": "Bacillariophyceae",
                       "rank": "Class",
                       "risk_flags": [
-                        "contaminated",
-                        "dwca_aphia_mismatch"
+                        "contaminated"
                       ],
                       "type": "taxon"
                     }
@@ -8754,8 +8742,7 @@
                   "name": "Bacillariophytina",
                   "rank": "Subphylum",
                   "risk_flags": [
-                    "contaminated",
-                    "dwca_aphia_mismatch"
+                    "contaminated"
                   ],
                   "type": "taxon"
                 }
@@ -8777,8 +8764,7 @@
               "name": "Heterokontophyta",
               "rank": "Phylum",
               "risk_flags": [
-                "contaminated",
-                "dwca_aphia_mismatch"
+                "contaminated"
               ],
               "type": "taxon"
             },
@@ -14575,11 +14561,9 @@
                                                   "name": "Hemidiscus",
                                                   "original_label": "Hemidiscus",
                                                   "placement_id": "tara_pacific_bongo::Hemidiscus::737409::1",
-                                                  "risk_flags": [
-                                                    "dwca_aphia_mismatch"
-                                                  ],
+                                                  "risk_flags": [],
                                                   "selected_aphia_id": "737409",
-                                                  "selected_aphia_source": "worms_validation_due_dwca_mismatch",
+                                                  "selected_aphia_source": "dwca_scientificNameID_exact_match",
                                                   "synonym_note": "",
                                                   "type": "dataset_class"
                                                 }
@@ -14595,9 +14579,7 @@
                                               ],
                                               "name": "Hemidiscus",
                                               "rank": "Genus",
-                                              "risk_flags": [
-                                                "dwca_aphia_mismatch"
-                                              ],
+                                              "risk_flags": [],
                                               "type": "taxon"
                                             }
                                           ],
@@ -14612,9 +14594,7 @@
                                           ],
                                           "name": "Lasiodiscidae",
                                           "rank": "Family",
-                                          "risk_flags": [
-                                            "dwca_aphia_mismatch"
-                                          ],
+                                          "risk_flags": [],
                                           "type": "taxon"
                                         }
                                       ],
@@ -14629,9 +14609,7 @@
                                       ],
                                       "name": "Lasiodiscoidea",
                                       "rank": "Superfamily",
-                                      "risk_flags": [
-                                        "dwca_aphia_mismatch"
-                                      ],
+                                      "risk_flags": [],
                                       "type": "taxon"
                                     }
                                   ],
@@ -14646,9 +14624,7 @@
                                   ],
                                   "name": "Archaediscida",
                                   "rank": "Order",
-                                  "risk_flags": [
-                                    "dwca_aphia_mismatch"
-                                  ],
+                                  "risk_flags": [],
                                   "type": "taxon"
                                 }
                               ],
@@ -14663,9 +14639,7 @@
                               ],
                               "name": "Afusulinana",
                               "rank": "Subclass",
-                              "risk_flags": [
-                                "dwca_aphia_mismatch"
-                              ],
+                              "risk_flags": [],
                               "type": "taxon"
                             }
                           ],
@@ -14680,9 +14654,7 @@
                           ],
                           "name": "Fusulinata",
                           "rank": "Class",
-                          "risk_flags": [
-                            "dwca_aphia_mismatch"
-                          ],
+                          "risk_flags": [],
                           "type": "taxon"
                         },
                         {
@@ -14811,9 +14783,7 @@
                       ],
                       "name": "Foraminifera",
                       "rank": "Phylum",
-                      "risk_flags": [
-                        "dwca_aphia_mismatch"
-                      ],
+                      "risk_flags": [],
                       "type": "taxon"
                     },
                     {
@@ -15343,8 +15313,7 @@
                   "name": "Rhizaria",
                   "rank": "Infrakingdom",
                   "risk_flags": [
-                    "broad_class",
-                    "dwca_aphia_mismatch"
+                    "broad_class"
                   ],
                   "type": "taxon"
                 }
@@ -15367,7 +15336,6 @@
               "risk_flags": [
                 "broad_class",
                 "contaminated",
-                "dwca_aphia_mismatch",
                 "multiple_valid_aphia_ids"
               ],
               "type": "taxon"
@@ -15392,7 +15360,6 @@
           "risk_flags": [
             "broad_class",
             "contaminated",
-            "dwca_aphia_mismatch",
             "multiple_valid_aphia_ids"
           ],
           "type": "taxon"
@@ -15817,7 +15784,6 @@
       "risk_flags": [
         "broad_class",
         "contaminated",
-        "dwca_aphia_mismatch",
         "multiple_valid_aphia_ids"
       ],
       "type": "taxon"
@@ -15859,7 +15825,6 @@
   "risk_flags": [
     "broad_class",
     "contaminated",
-    "dwca_aphia_mismatch",
     "multiple_valid_aphia_ids"
   ],
   "type": "root",

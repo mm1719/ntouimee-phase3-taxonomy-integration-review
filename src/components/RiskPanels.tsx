@@ -57,10 +57,11 @@ export function RiskPanels({ candidates, onSelect }: Props) {
       }
       baseColumns.push(
         helper.accessor("dwca_aphia_ids", {
-          header: "DwC/Broad AphiaID",
+          header: activeRisk === "broad_class" ? "Broad AphiaID" : "DwC AphiaID",
           cell: (info) => {
             const row = info.row.original;
-            return row.broad_class_aphia_id || info.getValue();
+            if (activeRisk === "broad_class") return row.broad_class_aphia_id || "";
+            return info.getValue();
           }
         }),
         helper.accessor("broad_class", { header: "Broad class" }),
