@@ -851,8 +851,8 @@
         ]
       },
       {
-        "group_key": "dactyliosolen+cerataulina+guinardia",
-        "sample_key": "non_taxonomic_category::dactyliosolen+cerataulina+guinardia",
+        "group_key": "dactyliosolen/cerataulina/guinardia",
+        "sample_key": "non_taxonomic_category::dactyliosolen/cerataulina/guinardia",
         "aliases": [
           "Dactyliosolen+Cerataulina+Guinardia"
         ],
@@ -1730,8 +1730,8 @@
         ]
       },
       {
-        "group_key": "guinardia striata+dactyliosolen phuketensis",
-        "sample_key": "non_taxonomic_category::guinardia striata+dactyliosolen phuketensis",
+        "group_key": "guinardia striata/dactyliosolen phuketensis",
+        "sample_key": "non_taxonomic_category::guinardia striata/dactyliosolen phuketensis",
         "aliases": [
           "Guinardia_striata+Dactyliosolen_phuketensis"
         ],
@@ -1934,8 +1934,8 @@
         ]
       },
       {
-        "group_key": "lauderia+melosira+detonula",
-        "sample_key": "non_taxonomic_category::lauderia+melosira+detonula",
+        "group_key": "lauderia/melosira/detonula",
+        "sample_key": "non_taxonomic_category::lauderia/melosira/detonula",
         "aliases": [
           "Lauderia+Melosira+Detonula"
         ],
@@ -2567,8 +2567,8 @@
         ]
       },
       {
-        "group_key": "odontella aurita+ralfsiella minima",
-        "sample_key": "non_taxonomic_category::odontella aurita+ralfsiella minima",
+        "group_key": "odontella aurita/ralfsiella minima",
+        "sample_key": "non_taxonomic_category::odontella aurita/ralfsiella minima",
         "aliases": [
           "Odontella_aurita+Ralfsiella_minima"
         ],
@@ -3172,8 +3172,8 @@
         ]
       },
       {
-        "group_key": "plagiogrammopsis+bellerochea malleus",
-        "sample_key": "non_taxonomic_category::plagiogrammopsis+bellerochea malleus",
+        "group_key": "plagiogrammopsis/bellerochea malleus",
+        "sample_key": "non_taxonomic_category::plagiogrammopsis/bellerochea malleus",
         "aliases": [
           "Plagiogrammopsis+Bellerochea_malleus"
         ],
@@ -3661,8 +3661,8 @@
         ]
       },
       {
-        "group_key": "stellarima stellaris+podosira+hyalodiscus",
-        "sample_key": "non_taxonomic_category::stellarima stellaris+podosira+hyalodiscus",
+        "group_key": "stellarima stellaris/podosira/hyalodiscus",
+        "sample_key": "non_taxonomic_category::stellarima stellaris/podosira/hyalodiscus",
         "aliases": [
           "Stellarima_stellaris+Podosira+Hyalodiscus"
         ],
@@ -4467,16 +4467,18 @@
         ]
       },
       {
-        "group_key": "dactyliosolen+cerataulina+guinardia",
-        "sample_key": "taxonomic_mismatch::dactyliosolen+cerataulina+guinardia",
+        "group_key": "dactyliosolen/cerataulina/guinardia",
+        "sample_key": "taxonomic_mismatch::dactyliosolen/cerataulina/guinardia",
         "aliases": [
-          "Dactyliosolen+Cerataulina+Guinardia"
+          "Dactyliosolen+Cerataulina+Guinardia",
+          "Dactyliosolen/Cerataulina/Guinardia"
         ],
         "status": "Taxonomic Mismatch",
         "dataset_ids": [
-          "life_watch"
+          "life_watch",
+          "life_watch_2026_image_library"
         ],
-        "total_image_count": 1203,
+        "total_image_count": 1267,
         "include_valid_tree_overlap": false,
         "datasets": [
           {
@@ -4498,22 +4500,7 @@
               "https://www.marinespecies.org/rest/AphiaRecordsByName/Dactyliosolen/Cerataulina/Guinardia?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "dactyliosolen/cerataulina/guinardia",
-        "sample_key": "taxonomic_mismatch::dactyliosolen/cerataulina/guinardia",
-        "aliases": [
-          "Dactyliosolen/Cerataulina/Guinardia"
-        ],
-        "status": "Taxonomic Mismatch",
-        "dataset_ids": [
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 64,
-        "include_valid_tree_overlap": false,
-        "datasets": [
+          },
           {
             "dataset_id": "life_watch_2026_image_library",
             "aliases": [
@@ -4696,45 +4683,15 @@
         "group_key": "guinardia striata/dactyliosolen phuketensis",
         "sample_key": "taxonomic_mismatch::guinardia striata/dactyliosolen phuketensis",
         "aliases": [
-          "Guinardia striata/Dactyliosolen phuketensis"
-        ],
-        "status": "Taxonomic Mismatch",
-        "dataset_ids": [
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 1459,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "life_watch_2026_image_library",
-            "aliases": [
-              "Guinardia striata/Dactyliosolen phuketensis"
-            ],
-            "image_count": 1459,
-            "reasons": [
-              "AphiaID 149068 resolves to 'Rhizosoleniaceae', not label 'Guinardia striata/Dactyliosolen phuketensis'"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=149068"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "guinardia striata+dactyliosolen phuketensis",
-        "sample_key": "taxonomic_mismatch::guinardia striata+dactyliosolen phuketensis",
-        "aliases": [
+          "Guinardia striata/Dactyliosolen phuketensis",
           "Guinardia_striata+Dactyliosolen_phuketensis"
         ],
         "status": "Taxonomic Mismatch",
         "dataset_ids": [
-          "life_watch"
+          "life_watch",
+          "life_watch_2026_image_library"
         ],
-        "total_image_count": 7347,
+        "total_image_count": 8806,
         "include_valid_tree_overlap": false,
         "datasets": [
           {
@@ -4755,20 +4712,39 @@
               "https://www.marinespecies.org/rest/AphiaRecordsByName/Guinardia%20striata/Dactyliosolen%20phuketensis?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
+          },
+          {
+            "dataset_id": "life_watch_2026_image_library",
+            "aliases": [
+              "Guinardia striata/Dactyliosolen phuketensis"
+            ],
+            "image_count": 1459,
+            "reasons": [
+              "AphiaID 149068 resolves to 'Rhizosoleniaceae', not label 'Guinardia striata/Dactyliosolen phuketensis'"
+            ],
+            "source_examples": [
+              "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
+            ],
+            "worms_sources": [
+              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=149068"
+            ],
+            "valid_tree_entry": "no"
           }
         ]
       },
       {
-        "group_key": "lauderia+melosira+detonula",
-        "sample_key": "taxonomic_mismatch::lauderia+melosira+detonula",
+        "group_key": "lauderia/melosira/detonula",
+        "sample_key": "taxonomic_mismatch::lauderia/melosira/detonula",
         "aliases": [
-          "Lauderia+Melosira+Detonula"
+          "Lauderia+Melosira+Detonula",
+          "Lauderia/Melosira/Detonula"
         ],
         "status": "Taxonomic Mismatch",
         "dataset_ids": [
-          "life_watch"
+          "life_watch",
+          "life_watch_2026_image_library"
         ],
-        "total_image_count": 8800,
+        "total_image_count": 25165,
         "include_valid_tree_overlap": false,
         "datasets": [
           {
@@ -4788,22 +4764,7 @@
               "https://www.marinespecies.org/rest/AphiaRecordsByName/Lauderia/Melosira/Detonula?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "lauderia/melosira/detonula",
-        "sample_key": "taxonomic_mismatch::lauderia/melosira/detonula",
-        "aliases": [
-          "Lauderia/Melosira/Detonula"
-        ],
-        "status": "Taxonomic Mismatch",
-        "dataset_ids": [
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 16365,
-        "include_valid_tree_overlap": false,
-        "datasets": [
+          },
           {
             "dataset_id": "life_watch_2026_image_library",
             "aliases": [
@@ -4914,45 +4875,15 @@
         "group_key": "odontella aurita/ralfsiella minima",
         "sample_key": "taxonomic_mismatch::odontella aurita/ralfsiella minima",
         "aliases": [
-          "Odontella aurita/Ralfsiella minima"
-        ],
-        "status": "Taxonomic Mismatch",
-        "dataset_ids": [
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 13,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "life_watch_2026_image_library",
-            "aliases": [
-              "Odontella aurita/Ralfsiella minima"
-            ],
-            "image_count": 13,
-            "reasons": [
-              "AphiaID 149049 resolves to 'Triceratiaceae', not label 'Odontella aurita/Ralfsiella minima'"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=149049"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "odontella aurita+ralfsiella minima",
-        "sample_key": "taxonomic_mismatch::odontella aurita+ralfsiella minima",
-        "aliases": [
+          "Odontella aurita/Ralfsiella minima",
           "Odontella_aurita+Ralfsiella_minima"
         ],
         "status": "Taxonomic Mismatch",
         "dataset_ids": [
-          "life_watch"
+          "life_watch",
+          "life_watch_2026_image_library"
         ],
-        "total_image_count": 409,
+        "total_image_count": 422,
         "include_valid_tree_overlap": false,
         "datasets": [
           {
@@ -4970,6 +4901,23 @@
             "worms_sources": [
               "https://www.marinespecies.org/aphia.php?p=taxdetails&id=149049",
               "https://www.marinespecies.org/rest/AphiaRecordsByName/Odontella%20aurita/Ralfsiella%20minima?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no"
+          },
+          {
+            "dataset_id": "life_watch_2026_image_library",
+            "aliases": [
+              "Odontella aurita/Ralfsiella minima"
+            ],
+            "image_count": 13,
+            "reasons": [
+              "AphiaID 149049 resolves to 'Triceratiaceae', not label 'Odontella aurita/Ralfsiella minima'"
+            ],
+            "source_examples": [
+              "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
+            ],
+            "worms_sources": [
+              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=149049"
             ],
             "valid_tree_entry": "no"
           }
@@ -5114,16 +5062,18 @@
         ]
       },
       {
-        "group_key": "plagiogrammopsis+bellerochea malleus",
-        "sample_key": "taxonomic_mismatch::plagiogrammopsis+bellerochea malleus",
+        "group_key": "plagiogrammopsis/bellerochea malleus",
+        "sample_key": "taxonomic_mismatch::plagiogrammopsis/bellerochea malleus",
         "aliases": [
-          "Plagiogrammopsis+Bellerochea_malleus"
+          "Plagiogrammopsis+Bellerochea_malleus",
+          "Plagiogrammopsis/Bellerochea malleus"
         ],
         "status": "Taxonomic Mismatch",
         "dataset_ids": [
-          "life_watch"
+          "life_watch",
+          "life_watch_2026_image_library"
         ],
-        "total_image_count": 107,
+        "total_image_count": 115,
         "include_valid_tree_overlap": false,
         "datasets": [
           {
@@ -5143,22 +5093,7 @@
               "https://www.marinespecies.org/rest/AphiaRecordsByName/Plagiogrammopsis/Bellerochea%20malleus?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "plagiogrammopsis/bellerochea malleus",
-        "sample_key": "taxonomic_mismatch::plagiogrammopsis/bellerochea malleus",
-        "aliases": [
-          "Plagiogrammopsis/Bellerochea malleus"
-        ],
-        "status": "Taxonomic Mismatch",
-        "dataset_ids": [
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 8,
-        "include_valid_tree_overlap": false,
-        "datasets": [
+          },
           {
             "dataset_id": "life_watch_2026_image_library",
             "aliases": [
@@ -5214,45 +5149,15 @@
         "group_key": "stellarima stellaris/podosira/hyalodiscus",
         "sample_key": "taxonomic_mismatch::stellarima stellaris/podosira/hyalodiscus",
         "aliases": [
-          "Stellarima stellaris/Podosira/Hyalodiscus"
-        ],
-        "status": "Taxonomic Mismatch",
-        "dataset_ids": [
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 33,
-        "include_valid_tree_overlap": false,
-        "datasets": [
-          {
-            "dataset_id": "life_watch_2026_image_library",
-            "aliases": [
-              "Stellarima stellaris/Podosira/Hyalodiscus"
-            ],
-            "image_count": 33,
-            "reasons": [
-              "AphiaID 591190 resolves to 'Coscinodiscanae', not label 'Stellarima stellaris/Podosira/Hyalodiscus'"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=591190"
-            ],
-            "valid_tree_entry": "no"
-          }
-        ]
-      },
-      {
-        "group_key": "stellarima stellaris+podosira+hyalodiscus",
-        "sample_key": "taxonomic_mismatch::stellarima stellaris+podosira+hyalodiscus",
-        "aliases": [
+          "Stellarima stellaris/Podosira/Hyalodiscus",
           "Stellarima_stellaris+Podosira+Hyalodiscus"
         ],
         "status": "Taxonomic Mismatch",
         "dataset_ids": [
-          "life_watch"
+          "life_watch",
+          "life_watch_2026_image_library"
         ],
-        "total_image_count": 639,
+        "total_image_count": 672,
         "include_valid_tree_overlap": false,
         "datasets": [
           {
@@ -5270,6 +5175,23 @@
             "worms_sources": [
               "https://www.marinespecies.org/aphia.php?p=taxdetails&id=591190",
               "https://www.marinespecies.org/rest/AphiaRecordsByName/Stellarima%20stellaris/Podosira/Hyalodiscus?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no"
+          },
+          {
+            "dataset_id": "life_watch_2026_image_library",
+            "aliases": [
+              "Stellarima stellaris/Podosira/Hyalodiscus"
+            ],
+            "image_count": 33,
+            "reasons": [
+              "AphiaID 591190 resolves to 'Coscinodiscanae', not label 'Stellarima stellaris/Podosira/Hyalodiscus'"
+            ],
+            "source_examples": [
+              "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
+            ],
+            "worms_sources": [
+              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=591190"
             ],
             "valid_tree_entry": "no"
           }
@@ -6968,12 +6890,12 @@
         "height": "184"
       }
     ],
-    "non_taxonomic_category::dactyliosolen+cerataulina+guinardia": [
+    "non_taxonomic_category::dactyliosolen/cerataulina/guinardia": [
       {
         "dataset_id": "life_watch",
         "label": "Dactyliosolen+Cerataulina+Guinardia",
         "image_id": "C88F0CDA-9ADE-471C-A7A3-54E347BC10FE",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/dactyliosolen_cerataulina_guinardia/01_c4a27f910c.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/dactyliosolen_cerataulina_guinardia/01_e785d22ad7.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Dactyliosolen+Cerataulina+Guinardia/ecotaxa_Dactyliosolen+Cerataulina+Guinardia_C88F0CDA-9ADE-471C-A7A3-54E347BC10FE.jpg",
         "width": "70",
         "height": "40"
@@ -6982,7 +6904,7 @@
         "dataset_id": "life_watch",
         "label": "Dactyliosolen+Cerataulina+Guinardia",
         "image_id": "6C8D75B2-B281-4A86-8B62-600BF078755B",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/dactyliosolen_cerataulina_guinardia/02_0e1058939e.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/dactyliosolen_cerataulina_guinardia/02_48adaeccab.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Dactyliosolen+Cerataulina+Guinardia/ecotaxa_Dactyliosolen+Cerataulina+Guinardia_6C8D75B2-B281-4A86-8B62-600BF078755B.jpg",
         "width": "81",
         "height": "54"
@@ -6991,7 +6913,7 @@
         "dataset_id": "life_watch",
         "label": "Dactyliosolen+Cerataulina+Guinardia",
         "image_id": "D32287BB-715B-46EF-90BF-EC9CD750AB2D",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/dactyliosolen_cerataulina_guinardia/03_296c630f9f.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/dactyliosolen_cerataulina_guinardia/03_21b0daf6e0.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Dactyliosolen+Cerataulina+Guinardia/ecotaxa_Dactyliosolen+Cerataulina+Guinardia_D32287BB-715B-46EF-90BF-EC9CD750AB2D.jpg",
         "width": "51",
         "height": "81"
@@ -7000,7 +6922,7 @@
         "dataset_id": "life_watch",
         "label": "Dactyliosolen+Cerataulina+Guinardia",
         "image_id": "9AC0040B-A4D2-4712-83EF-936AEBF1A0C7",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/dactyliosolen_cerataulina_guinardia/04_af8f168668.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/dactyliosolen_cerataulina_guinardia/04_42b9ba9634.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Dactyliosolen+Cerataulina+Guinardia/ecotaxa_Dactyliosolen+Cerataulina+Guinardia_9AC0040B-A4D2-4712-83EF-936AEBF1A0C7.jpg",
         "width": "63",
         "height": "46"
@@ -7009,7 +6931,7 @@
         "dataset_id": "life_watch",
         "label": "Dactyliosolen+Cerataulina+Guinardia",
         "image_id": "5AC79385-C05C-4092-95DF-EAAC69CD009F",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/dactyliosolen_cerataulina_guinardia/05_1750b0ec8c.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/dactyliosolen_cerataulina_guinardia/05_a8dc298967.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Dactyliosolen+Cerataulina+Guinardia/ecotaxa_Dactyliosolen+Cerataulina+Guinardia_5AC79385-C05C-4092-95DF-EAAC69CD009F.jpg",
         "width": "62",
         "height": "59"
@@ -8500,12 +8422,12 @@
         "height": "101"
       }
     ],
-    "non_taxonomic_category::guinardia striata+dactyliosolen phuketensis": [
+    "non_taxonomic_category::guinardia striata/dactyliosolen phuketensis": [
       {
         "dataset_id": "life_watch",
         "label": "Guinardia_striata+Dactyliosolen_phuketensis",
         "image_id": "73F29C55-555D-41A4-A581-390C8AA2AF21",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/guinardia_striata_dactyliosolen_phuketensis/01_de55c116c3.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/guinardia_striata_dactyliosolen_phuketensis/01_a202ae2415.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Guinardia_striata+Dactyliosolen_phuketensis/ecotaxa_Guinardia_striata+Dactyliosolen_phuketensis_73F29C55-555D-41A4-A581-390C8AA2AF21.jpg",
         "width": "48",
         "height": "109"
@@ -8514,7 +8436,7 @@
         "dataset_id": "life_watch",
         "label": "Guinardia_striata+Dactyliosolen_phuketensis",
         "image_id": "A3DBFA3C-905D-49FA-9EDA-1D5CCEE7163F",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/guinardia_striata_dactyliosolen_phuketensis/02_f8b6b15fdf.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/guinardia_striata_dactyliosolen_phuketensis/02_8693a8afed.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Guinardia_striata+Dactyliosolen_phuketensis/ecotaxa_Guinardia_striata+Dactyliosolen_phuketensis_A3DBFA3C-905D-49FA-9EDA-1D5CCEE7163F.jpg",
         "width": "61",
         "height": "46"
@@ -8523,7 +8445,7 @@
         "dataset_id": "life_watch",
         "label": "Guinardia_striata+Dactyliosolen_phuketensis",
         "image_id": "2E4D2122-D473-46DD-B8FE-80F646595D17",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/guinardia_striata_dactyliosolen_phuketensis/03_9e0599f5fa.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/guinardia_striata_dactyliosolen_phuketensis/03_d17fc38450.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Guinardia_striata+Dactyliosolen_phuketensis/ecotaxa_Guinardia_striata+Dactyliosolen_phuketensis_2E4D2122-D473-46DD-B8FE-80F646595D17.jpg",
         "width": "113",
         "height": "83"
@@ -8532,7 +8454,7 @@
         "dataset_id": "life_watch",
         "label": "Guinardia_striata+Dactyliosolen_phuketensis",
         "image_id": "533BFE82-E9B7-4257-A803-9F19A88E99D8",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/guinardia_striata_dactyliosolen_phuketensis/04_caf105ae33.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/guinardia_striata_dactyliosolen_phuketensis/04_87be7e0eca.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Guinardia_striata+Dactyliosolen_phuketensis/ecotaxa_Guinardia_striata+Dactyliosolen_phuketensis_533BFE82-E9B7-4257-A803-9F19A88E99D8.jpg",
         "width": "43",
         "height": "73"
@@ -8541,7 +8463,7 @@
         "dataset_id": "life_watch",
         "label": "Guinardia_striata+Dactyliosolen_phuketensis",
         "image_id": "B1A06844-1E5F-4FA3-9BA6-E050C644D463",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/guinardia_striata_dactyliosolen_phuketensis/05_e2b77d02f2.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/guinardia_striata_dactyliosolen_phuketensis/05_67bad127c0.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Guinardia_striata+Dactyliosolen_phuketensis/ecotaxa_Guinardia_striata+Dactyliosolen_phuketensis_B1A06844-1E5F-4FA3-9BA6-E050C644D463.jpg",
         "width": "72",
         "height": "68"
@@ -8755,12 +8677,12 @@
         "height": "252"
       }
     ],
-    "non_taxonomic_category::lauderia+melosira+detonula": [
+    "non_taxonomic_category::lauderia/melosira/detonula": [
       {
         "dataset_id": "life_watch",
         "label": "Lauderia+Melosira+Detonula",
         "image_id": "834B0875-74AD-48CC-B112-0DBA6DA6EAD2",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/lauderia_melosira_detonula/01_e762d8be7e.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/lauderia_melosira_detonula/01_f9300e3401.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Lauderia+Melosira+Detonula/ecotaxa_Lauderia+Melosira+Detonula_834B0875-74AD-48CC-B112-0DBA6DA6EAD2.jpg",
         "width": "64",
         "height": "111"
@@ -8769,7 +8691,7 @@
         "dataset_id": "life_watch",
         "label": "Lauderia+Melosira+Detonula",
         "image_id": "F72AAC74-E114-4F1E-87B2-8619031D8C94",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/lauderia_melosira_detonula/02_14e98cdc49.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/lauderia_melosira_detonula/02_c875f1426e.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Lauderia+Melosira+Detonula/ecotaxa_Lauderia+Melosira+Detonula_F72AAC74-E114-4F1E-87B2-8619031D8C94.jpg",
         "width": "103",
         "height": "53"
@@ -8778,7 +8700,7 @@
         "dataset_id": "life_watch",
         "label": "Lauderia+Melosira+Detonula",
         "image_id": "67D7CC3D-4DB4-481F-A881-D02713EAF40C",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/lauderia_melosira_detonula/03_51081dbc2c.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/lauderia_melosira_detonula/03_bc4af5ed1d.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Lauderia+Melosira+Detonula/ecotaxa_Lauderia+Melosira+Detonula_67D7CC3D-4DB4-481F-A881-D02713EAF40C.jpg",
         "width": "73",
         "height": "116"
@@ -8787,7 +8709,7 @@
         "dataset_id": "life_watch",
         "label": "Lauderia+Melosira+Detonula",
         "image_id": "42FBF0A4-B695-4168-88EA-D94C6F087FD1",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/lauderia_melosira_detonula/04_8281ccd48d.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/lauderia_melosira_detonula/04_f43d9e2354.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Lauderia+Melosira+Detonula/ecotaxa_Lauderia+Melosira+Detonula_42FBF0A4-B695-4168-88EA-D94C6F087FD1.jpg",
         "width": "64",
         "height": "170"
@@ -8796,7 +8718,7 @@
         "dataset_id": "life_watch",
         "label": "Lauderia+Melosira+Detonula",
         "image_id": "130016EA-42F2-4539-B909-F407678C7799",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/lauderia_melosira_detonula/05_0d52b521d9.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/lauderia_melosira_detonula/05_2f2c337f31.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Lauderia+Melosira+Detonula/ecotaxa_Lauderia+Melosira+Detonula_130016EA-42F2-4539-B909-F407678C7799.jpg",
         "width": "143",
         "height": "56"
@@ -9822,12 +9744,12 @@
         "height": "126"
       }
     ],
-    "non_taxonomic_category::odontella aurita+ralfsiella minima": [
+    "non_taxonomic_category::odontella aurita/ralfsiella minima": [
       {
         "dataset_id": "life_watch",
         "label": "Odontella_aurita+Ralfsiella_minima",
         "image_id": "0BF7CDBA-7785-4823-885F-B8DE0527D4F4",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/odontella_aurita_ralfsiella_minima/01_c0b4f249e4.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/odontella_aurita_ralfsiella_minima/01_68d6fcfa9a.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Odontella_aurita+Ralfsiella_minima/ecotaxa_Odontella_aurita+Ralfsiella_minima_0BF7CDBA-7785-4823-885F-B8DE0527D4F4.jpg",
         "width": "56",
         "height": "87"
@@ -9836,7 +9758,7 @@
         "dataset_id": "life_watch",
         "label": "Odontella_aurita+Ralfsiella_minima",
         "image_id": "28A21983-30EE-412F-AC3D-2AAC9C279453",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/odontella_aurita_ralfsiella_minima/02_943f016c8a.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/odontella_aurita_ralfsiella_minima/02_9d24c207ee.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Odontella_aurita+Ralfsiella_minima/ecotaxa_Odontella_aurita+Ralfsiella_minima_28A21983-30EE-412F-AC3D-2AAC9C279453.jpg",
         "width": "83",
         "height": "86"
@@ -9845,7 +9767,7 @@
         "dataset_id": "life_watch",
         "label": "Odontella_aurita+Ralfsiella_minima",
         "image_id": "C478CADD-BA13-4B08-9A11-67275445DD8A",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/odontella_aurita_ralfsiella_minima/03_bf07a7594c.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/odontella_aurita_ralfsiella_minima/03_ea8afe0d0e.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Odontella_aurita+Ralfsiella_minima/ecotaxa_Odontella_aurita+Ralfsiella_minima_C478CADD-BA13-4B08-9A11-67275445DD8A.jpg",
         "width": "49",
         "height": "74"
@@ -9854,7 +9776,7 @@
         "dataset_id": "life_watch",
         "label": "Odontella_aurita+Ralfsiella_minima",
         "image_id": "92C7C6F2-3257-424D-913C-E833B6E2CEC6",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/odontella_aurita_ralfsiella_minima/04_6afa284ce7.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/odontella_aurita_ralfsiella_minima/04_af73953d7f.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Odontella_aurita+Ralfsiella_minima/ecotaxa_Odontella_aurita+Ralfsiella_minima_92C7C6F2-3257-424D-913C-E833B6E2CEC6.jpg",
         "width": "49",
         "height": "67"
@@ -9863,7 +9785,7 @@
         "dataset_id": "life_watch",
         "label": "Odontella_aurita+Ralfsiella_minima",
         "image_id": "61B6B65B-8498-440A-9C6C-1E81C712D37C",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/odontella_aurita_ralfsiella_minima/05_e033569c6d.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/odontella_aurita_ralfsiella_minima/05_be83e1eb58.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Odontella_aurita+Ralfsiella_minima/ecotaxa_Odontella_aurita+Ralfsiella_minima_61B6B65B-8498-440A-9C6C-1E81C712D37C.jpg",
         "width": "59",
         "height": "44"
@@ -10799,12 +10721,12 @@
         "height": ""
       }
     ],
-    "non_taxonomic_category::plagiogrammopsis+bellerochea malleus": [
+    "non_taxonomic_category::plagiogrammopsis/bellerochea malleus": [
       {
         "dataset_id": "life_watch",
         "label": "Plagiogrammopsis+Bellerochea_malleus",
         "image_id": "34BDDD8A-5062-40D2-81A8-EB4292F74110",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/plagiogrammopsis_bellerochea_malleus/01_43b68e010f.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/plagiogrammopsis_bellerochea_malleus/01_e32fd62952.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Plagiogrammopsis+Bellerochea_malleus/ecotaxa_Plagiogrammopsis+Bellerochea_malleus_34BDDD8A-5062-40D2-81A8-EB4292F74110.jpg",
         "width": "77",
         "height": "86"
@@ -10813,7 +10735,7 @@
         "dataset_id": "life_watch",
         "label": "Plagiogrammopsis+Bellerochea_malleus",
         "image_id": "06ADE52A-AAE8-48D3-A1C4-524203657E8C",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/plagiogrammopsis_bellerochea_malleus/02_d8faaebfaa.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/plagiogrammopsis_bellerochea_malleus/02_f8e311abd6.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Plagiogrammopsis+Bellerochea_malleus/ecotaxa_Plagiogrammopsis+Bellerochea_malleus_06ADE52A-AAE8-48D3-A1C4-524203657E8C.jpg",
         "width": "126",
         "height": "203"
@@ -10822,7 +10744,7 @@
         "dataset_id": "life_watch",
         "label": "Plagiogrammopsis+Bellerochea_malleus",
         "image_id": "7B2B9173-9B81-4A27-A1CD-BFBAD52248F1",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/plagiogrammopsis_bellerochea_malleus/03_90cd12bca2.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/plagiogrammopsis_bellerochea_malleus/03_57b6ff853b.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Plagiogrammopsis+Bellerochea_malleus/ecotaxa_Plagiogrammopsis+Bellerochea_malleus_7B2B9173-9B81-4A27-A1CD-BFBAD52248F1.jpg",
         "width": "105",
         "height": "105"
@@ -10831,7 +10753,7 @@
         "dataset_id": "life_watch",
         "label": "Plagiogrammopsis+Bellerochea_malleus",
         "image_id": "42BAB8CC-5ADC-4DE5-A37F-F1931B3694E1",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/plagiogrammopsis_bellerochea_malleus/04_e7c71e2403.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/plagiogrammopsis_bellerochea_malleus/04_ab2df0566e.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Plagiogrammopsis+Bellerochea_malleus/ecotaxa_Plagiogrammopsis+Bellerochea_malleus_42BAB8CC-5ADC-4DE5-A37F-F1931B3694E1.jpg",
         "width": "215",
         "height": "108"
@@ -10840,7 +10762,7 @@
         "dataset_id": "life_watch",
         "label": "Plagiogrammopsis+Bellerochea_malleus",
         "image_id": "1E2938D5-01EE-48FA-8F0C-DE0B8D6EB969",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/plagiogrammopsis_bellerochea_malleus/05_8b96adf84b.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/plagiogrammopsis_bellerochea_malleus/05_25e1901f98.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Plagiogrammopsis+Bellerochea_malleus/ecotaxa_Plagiogrammopsis+Bellerochea_malleus_1E2938D5-01EE-48FA-8F0C-DE0B8D6EB969.jpg",
         "width": "80",
         "height": "79"
@@ -11572,12 +11494,12 @@
         "height": "104"
       }
     ],
-    "non_taxonomic_category::stellarima stellaris+podosira+hyalodiscus": [
+    "non_taxonomic_category::stellarima stellaris/podosira/hyalodiscus": [
       {
         "dataset_id": "life_watch",
         "label": "Stellarima_stellaris+Podosira+Hyalodiscus",
         "image_id": "0D34849C-E6A4-4A0A-A32A-EBB5E72C8546",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/stellarima_stellaris_podosira_hyalodiscus/01_982a7896f9.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/stellarima_stellaris_podosira_hyalodiscus/01_c73f81b088.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Stellarima_stellaris+Podosira+Hyalodiscus/ecotaxa_Stellarima_stellaris+Podosira+Hyalodiscus_0D34849C-E6A4-4A0A-A32A-EBB5E72C8546.jpg",
         "width": "95",
         "height": "147"
@@ -11586,7 +11508,7 @@
         "dataset_id": "life_watch",
         "label": "Stellarima_stellaris+Podosira+Hyalodiscus",
         "image_id": "407B7D41-4A1C-4726-8CF1-6C0F02C38E59",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/stellarima_stellaris_podosira_hyalodiscus/02_07a903da22.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/stellarima_stellaris_podosira_hyalodiscus/02_2013d883b7.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Stellarima_stellaris+Podosira+Hyalodiscus/ecotaxa_Stellarima_stellaris+Podosira+Hyalodiscus_407B7D41-4A1C-4726-8CF1-6C0F02C38E59.jpg",
         "width": "66",
         "height": "64"
@@ -11595,7 +11517,7 @@
         "dataset_id": "life_watch",
         "label": "Stellarima_stellaris+Podosira+Hyalodiscus",
         "image_id": "BC5FAF2E-2E8A-4C7D-82EF-380ACA304D6E",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/stellarima_stellaris_podosira_hyalodiscus/03_515a42874a.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/stellarima_stellaris_podosira_hyalodiscus/03_9531fe5c31.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Stellarima_stellaris+Podosira+Hyalodiscus/ecotaxa_Stellarima_stellaris+Podosira+Hyalodiscus_BC5FAF2E-2E8A-4C7D-82EF-380ACA304D6E.jpg",
         "width": "63",
         "height": "63"
@@ -11604,7 +11526,7 @@
         "dataset_id": "life_watch",
         "label": "Stellarima_stellaris+Podosira+Hyalodiscus",
         "image_id": "4B6B9FDD-6C0D-4A18-A30F-033877B4D8F2",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/stellarima_stellaris_podosira_hyalodiscus/04_4fcd8ccd14.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/stellarima_stellaris_podosira_hyalodiscus/04_1cb72636bd.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Stellarima_stellaris+Podosira+Hyalodiscus/ecotaxa_Stellarima_stellaris+Podosira+Hyalodiscus_4B6B9FDD-6C0D-4A18-A30F-033877B4D8F2.jpg",
         "width": "63",
         "height": "63"
@@ -11613,7 +11535,7 @@
         "dataset_id": "life_watch",
         "label": "Stellarima_stellaris+Podosira+Hyalodiscus",
         "image_id": "B05A3F6B-CEBC-472E-9A5B-FE58B6440B26",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/stellarima_stellaris_podosira_hyalodiscus/05_597180a8f9.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/stellarima_stellaris_podosira_hyalodiscus/05_cce948a0c3.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Stellarima_stellaris+Podosira+Hyalodiscus/ecotaxa_Stellarima_stellaris+Podosira+Hyalodiscus_B05A3F6B-CEBC-472E-9A5B-FE58B6440B26.jpg",
         "width": "62",
         "height": "61"
@@ -13599,12 +13521,12 @@
         "height": ""
       }
     ],
-    "taxonomic_mismatch::dactyliosolen+cerataulina+guinardia": [
+    "taxonomic_mismatch::dactyliosolen/cerataulina/guinardia": [
       {
         "dataset_id": "life_watch",
         "label": "Dactyliosolen+Cerataulina+Guinardia",
         "image_id": "C88F0CDA-9ADE-471C-A7A3-54E347BC10FE",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/dactyliosolen_cerataulina_guinardia/01_6406f914c0.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/dactyliosolen_cerataulina_guinardia/01_0375a644df.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Dactyliosolen+Cerataulina+Guinardia/ecotaxa_Dactyliosolen+Cerataulina+Guinardia_C88F0CDA-9ADE-471C-A7A3-54E347BC10FE.jpg",
         "width": "70",
         "height": "40"
@@ -13613,7 +13535,7 @@
         "dataset_id": "life_watch",
         "label": "Dactyliosolen+Cerataulina+Guinardia",
         "image_id": "6C8D75B2-B281-4A86-8B62-600BF078755B",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/dactyliosolen_cerataulina_guinardia/02_a8a364c74a.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/dactyliosolen_cerataulina_guinardia/02_0ab5eb5afd.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Dactyliosolen+Cerataulina+Guinardia/ecotaxa_Dactyliosolen+Cerataulina+Guinardia_6C8D75B2-B281-4A86-8B62-600BF078755B.jpg",
         "width": "81",
         "height": "54"
@@ -13622,7 +13544,7 @@
         "dataset_id": "life_watch",
         "label": "Dactyliosolen+Cerataulina+Guinardia",
         "image_id": "D32287BB-715B-46EF-90BF-EC9CD750AB2D",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/dactyliosolen_cerataulina_guinardia/03_68fe943283.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/dactyliosolen_cerataulina_guinardia/03_f07041ec96.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Dactyliosolen+Cerataulina+Guinardia/ecotaxa_Dactyliosolen+Cerataulina+Guinardia_D32287BB-715B-46EF-90BF-EC9CD750AB2D.jpg",
         "width": "51",
         "height": "81"
@@ -13631,7 +13553,7 @@
         "dataset_id": "life_watch",
         "label": "Dactyliosolen+Cerataulina+Guinardia",
         "image_id": "9AC0040B-A4D2-4712-83EF-936AEBF1A0C7",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/dactyliosolen_cerataulina_guinardia/04_eb6c78e11d.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/dactyliosolen_cerataulina_guinardia/04_5a493455d5.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Dactyliosolen+Cerataulina+Guinardia/ecotaxa_Dactyliosolen+Cerataulina+Guinardia_9AC0040B-A4D2-4712-83EF-936AEBF1A0C7.jpg",
         "width": "63",
         "height": "46"
@@ -13640,13 +13562,11 @@
         "dataset_id": "life_watch",
         "label": "Dactyliosolen+Cerataulina+Guinardia",
         "image_id": "5AC79385-C05C-4092-95DF-EAAC69CD009F",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/dactyliosolen_cerataulina_guinardia/05_430f511bdb.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/dactyliosolen_cerataulina_guinardia/05_93f112ed35.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Dactyliosolen+Cerataulina+Guinardia/ecotaxa_Dactyliosolen+Cerataulina+Guinardia_5AC79385-C05C-4092-95DF-EAAC69CD009F.jpg",
         "width": "62",
         "height": "59"
-      }
-    ],
-    "taxonomic_mismatch::dactyliosolen/cerataulina/guinardia": [
+      },
       {
         "dataset_id": "life_watch_2026_image_library",
         "label": "Dactyliosolen/Cerataulina/Guinardia",
@@ -13926,12 +13846,12 @@
         "height": ""
       }
     ],
-    "taxonomic_mismatch::guinardia striata+dactyliosolen phuketensis": [
+    "taxonomic_mismatch::guinardia striata/dactyliosolen phuketensis": [
       {
         "dataset_id": "life_watch",
         "label": "Guinardia_striata+Dactyliosolen_phuketensis",
         "image_id": "73F29C55-555D-41A4-A581-390C8AA2AF21",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/guinardia_striata_dactyliosolen_phuketensis/01_79bd92d626.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/guinardia_striata_dactyliosolen_phuketensis/01_fad9f9b6a2.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Guinardia_striata+Dactyliosolen_phuketensis/ecotaxa_Guinardia_striata+Dactyliosolen_phuketensis_73F29C55-555D-41A4-A581-390C8AA2AF21.jpg",
         "width": "48",
         "height": "109"
@@ -13940,7 +13860,7 @@
         "dataset_id": "life_watch",
         "label": "Guinardia_striata+Dactyliosolen_phuketensis",
         "image_id": "A3DBFA3C-905D-49FA-9EDA-1D5CCEE7163F",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/guinardia_striata_dactyliosolen_phuketensis/02_01404a8de4.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/guinardia_striata_dactyliosolen_phuketensis/02_72be36da1a.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Guinardia_striata+Dactyliosolen_phuketensis/ecotaxa_Guinardia_striata+Dactyliosolen_phuketensis_A3DBFA3C-905D-49FA-9EDA-1D5CCEE7163F.jpg",
         "width": "61",
         "height": "46"
@@ -13949,7 +13869,7 @@
         "dataset_id": "life_watch",
         "label": "Guinardia_striata+Dactyliosolen_phuketensis",
         "image_id": "2E4D2122-D473-46DD-B8FE-80F646595D17",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/guinardia_striata_dactyliosolen_phuketensis/03_0e832bc5e6.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/guinardia_striata_dactyliosolen_phuketensis/03_7aad36f27a.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Guinardia_striata+Dactyliosolen_phuketensis/ecotaxa_Guinardia_striata+Dactyliosolen_phuketensis_2E4D2122-D473-46DD-B8FE-80F646595D17.jpg",
         "width": "113",
         "height": "83"
@@ -13958,7 +13878,7 @@
         "dataset_id": "life_watch",
         "label": "Guinardia_striata+Dactyliosolen_phuketensis",
         "image_id": "533BFE82-E9B7-4257-A803-9F19A88E99D8",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/guinardia_striata_dactyliosolen_phuketensis/04_ca7c5dda14.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/guinardia_striata_dactyliosolen_phuketensis/04_9eaadc68e3.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Guinardia_striata+Dactyliosolen_phuketensis/ecotaxa_Guinardia_striata+Dactyliosolen_phuketensis_533BFE82-E9B7-4257-A803-9F19A88E99D8.jpg",
         "width": "43",
         "height": "73"
@@ -13967,13 +13887,11 @@
         "dataset_id": "life_watch",
         "label": "Guinardia_striata+Dactyliosolen_phuketensis",
         "image_id": "B1A06844-1E5F-4FA3-9BA6-E050C644D463",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/guinardia_striata_dactyliosolen_phuketensis/05_83874cdff9.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/guinardia_striata_dactyliosolen_phuketensis/05_76e365c056.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Guinardia_striata+Dactyliosolen_phuketensis/ecotaxa_Guinardia_striata+Dactyliosolen_phuketensis_B1A06844-1E5F-4FA3-9BA6-E050C644D463.jpg",
         "width": "72",
         "height": "68"
-      }
-    ],
-    "taxonomic_mismatch::guinardia striata/dactyliosolen phuketensis": [
+      },
       {
         "dataset_id": "life_watch_2026_image_library",
         "label": "Guinardia striata/Dactyliosolen phuketensis",
@@ -14020,12 +13938,12 @@
         "height": ""
       }
     ],
-    "taxonomic_mismatch::lauderia+melosira+detonula": [
+    "taxonomic_mismatch::lauderia/melosira/detonula": [
       {
         "dataset_id": "life_watch",
         "label": "Lauderia+Melosira+Detonula",
         "image_id": "834B0875-74AD-48CC-B112-0DBA6DA6EAD2",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/lauderia_melosira_detonula/01_f630dbd3c5.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/lauderia_melosira_detonula/01_20aea49f99.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Lauderia+Melosira+Detonula/ecotaxa_Lauderia+Melosira+Detonula_834B0875-74AD-48CC-B112-0DBA6DA6EAD2.jpg",
         "width": "64",
         "height": "111"
@@ -14034,7 +13952,7 @@
         "dataset_id": "life_watch",
         "label": "Lauderia+Melosira+Detonula",
         "image_id": "F72AAC74-E114-4F1E-87B2-8619031D8C94",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/lauderia_melosira_detonula/02_131006308b.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/lauderia_melosira_detonula/02_85e9a10252.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Lauderia+Melosira+Detonula/ecotaxa_Lauderia+Melosira+Detonula_F72AAC74-E114-4F1E-87B2-8619031D8C94.jpg",
         "width": "103",
         "height": "53"
@@ -14043,7 +13961,7 @@
         "dataset_id": "life_watch",
         "label": "Lauderia+Melosira+Detonula",
         "image_id": "67D7CC3D-4DB4-481F-A881-D02713EAF40C",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/lauderia_melosira_detonula/03_b64cbb8d48.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/lauderia_melosira_detonula/03_0bc9c120f0.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Lauderia+Melosira+Detonula/ecotaxa_Lauderia+Melosira+Detonula_67D7CC3D-4DB4-481F-A881-D02713EAF40C.jpg",
         "width": "73",
         "height": "116"
@@ -14052,7 +13970,7 @@
         "dataset_id": "life_watch",
         "label": "Lauderia+Melosira+Detonula",
         "image_id": "42FBF0A4-B695-4168-88EA-D94C6F087FD1",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/lauderia_melosira_detonula/04_a9107d42ce.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/lauderia_melosira_detonula/04_1b4bfaed4f.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Lauderia+Melosira+Detonula/ecotaxa_Lauderia+Melosira+Detonula_42FBF0A4-B695-4168-88EA-D94C6F087FD1.jpg",
         "width": "64",
         "height": "170"
@@ -14061,13 +13979,11 @@
         "dataset_id": "life_watch",
         "label": "Lauderia+Melosira+Detonula",
         "image_id": "130016EA-42F2-4539-B909-F407678C7799",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/lauderia_melosira_detonula/05_340e33997a.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/lauderia_melosira_detonula/05_31c78cb300.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Lauderia+Melosira+Detonula/ecotaxa_Lauderia+Melosira+Detonula_130016EA-42F2-4539-B909-F407678C7799.jpg",
         "width": "143",
         "height": "56"
-      }
-    ],
-    "taxonomic_mismatch::lauderia/melosira/detonula": [
+      },
       {
         "dataset_id": "life_watch_2026_image_library",
         "label": "Lauderia/Melosira/Detonula",
@@ -14253,12 +14169,12 @@
         "height": ""
       }
     ],
-    "taxonomic_mismatch::odontella aurita+ralfsiella minima": [
+    "taxonomic_mismatch::odontella aurita/ralfsiella minima": [
       {
         "dataset_id": "life_watch",
         "label": "Odontella_aurita+Ralfsiella_minima",
         "image_id": "0BF7CDBA-7785-4823-885F-B8DE0527D4F4",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/odontella_aurita_ralfsiella_minima/01_4f55c46fce.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/odontella_aurita_ralfsiella_minima/01_f238b6df8c.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Odontella_aurita+Ralfsiella_minima/ecotaxa_Odontella_aurita+Ralfsiella_minima_0BF7CDBA-7785-4823-885F-B8DE0527D4F4.jpg",
         "width": "56",
         "height": "87"
@@ -14267,7 +14183,7 @@
         "dataset_id": "life_watch",
         "label": "Odontella_aurita+Ralfsiella_minima",
         "image_id": "28A21983-30EE-412F-AC3D-2AAC9C279453",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/odontella_aurita_ralfsiella_minima/02_a001d20a23.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/odontella_aurita_ralfsiella_minima/02_3b26fb33ea.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Odontella_aurita+Ralfsiella_minima/ecotaxa_Odontella_aurita+Ralfsiella_minima_28A21983-30EE-412F-AC3D-2AAC9C279453.jpg",
         "width": "83",
         "height": "86"
@@ -14276,7 +14192,7 @@
         "dataset_id": "life_watch",
         "label": "Odontella_aurita+Ralfsiella_minima",
         "image_id": "C478CADD-BA13-4B08-9A11-67275445DD8A",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/odontella_aurita_ralfsiella_minima/03_6cac6c3e65.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/odontella_aurita_ralfsiella_minima/03_8dd682f39c.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Odontella_aurita+Ralfsiella_minima/ecotaxa_Odontella_aurita+Ralfsiella_minima_C478CADD-BA13-4B08-9A11-67275445DD8A.jpg",
         "width": "49",
         "height": "74"
@@ -14285,7 +14201,7 @@
         "dataset_id": "life_watch",
         "label": "Odontella_aurita+Ralfsiella_minima",
         "image_id": "92C7C6F2-3257-424D-913C-E833B6E2CEC6",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/odontella_aurita_ralfsiella_minima/04_8299cdca69.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/odontella_aurita_ralfsiella_minima/04_0116a6bffd.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Odontella_aurita+Ralfsiella_minima/ecotaxa_Odontella_aurita+Ralfsiella_minima_92C7C6F2-3257-424D-913C-E833B6E2CEC6.jpg",
         "width": "49",
         "height": "67"
@@ -14294,13 +14210,11 @@
         "dataset_id": "life_watch",
         "label": "Odontella_aurita+Ralfsiella_minima",
         "image_id": "61B6B65B-8498-440A-9C6C-1E81C712D37C",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/odontella_aurita_ralfsiella_minima/05_7b0401a98f.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/odontella_aurita_ralfsiella_minima/05_22ce04a28f.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Odontella_aurita+Ralfsiella_minima/ecotaxa_Odontella_aurita+Ralfsiella_minima_61B6B65B-8498-440A-9C6C-1E81C712D37C.jpg",
         "width": "59",
         "height": "44"
-      }
-    ],
-    "taxonomic_mismatch::odontella aurita/ralfsiella minima": [
+      },
       {
         "dataset_id": "life_watch_2026_image_library",
         "label": "Odontella aurita/Ralfsiella minima",
@@ -14551,12 +14465,12 @@
         "height": ""
       }
     ],
-    "taxonomic_mismatch::plagiogrammopsis+bellerochea malleus": [
+    "taxonomic_mismatch::plagiogrammopsis/bellerochea malleus": [
       {
         "dataset_id": "life_watch",
         "label": "Plagiogrammopsis+Bellerochea_malleus",
         "image_id": "34BDDD8A-5062-40D2-81A8-EB4292F74110",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/plagiogrammopsis_bellerochea_malleus/01_3440d11643.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/plagiogrammopsis_bellerochea_malleus/01_c0d247687a.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Plagiogrammopsis+Bellerochea_malleus/ecotaxa_Plagiogrammopsis+Bellerochea_malleus_34BDDD8A-5062-40D2-81A8-EB4292F74110.jpg",
         "width": "77",
         "height": "86"
@@ -14565,7 +14479,7 @@
         "dataset_id": "life_watch",
         "label": "Plagiogrammopsis+Bellerochea_malleus",
         "image_id": "06ADE52A-AAE8-48D3-A1C4-524203657E8C",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/plagiogrammopsis_bellerochea_malleus/02_3e9fb81580.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/plagiogrammopsis_bellerochea_malleus/02_11cdfa06a2.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Plagiogrammopsis+Bellerochea_malleus/ecotaxa_Plagiogrammopsis+Bellerochea_malleus_06ADE52A-AAE8-48D3-A1C4-524203657E8C.jpg",
         "width": "126",
         "height": "203"
@@ -14574,7 +14488,7 @@
         "dataset_id": "life_watch",
         "label": "Plagiogrammopsis+Bellerochea_malleus",
         "image_id": "7B2B9173-9B81-4A27-A1CD-BFBAD52248F1",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/plagiogrammopsis_bellerochea_malleus/03_7e7b0078b0.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/plagiogrammopsis_bellerochea_malleus/03_a84a7df364.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Plagiogrammopsis+Bellerochea_malleus/ecotaxa_Plagiogrammopsis+Bellerochea_malleus_7B2B9173-9B81-4A27-A1CD-BFBAD52248F1.jpg",
         "width": "105",
         "height": "105"
@@ -14583,7 +14497,7 @@
         "dataset_id": "life_watch",
         "label": "Plagiogrammopsis+Bellerochea_malleus",
         "image_id": "42BAB8CC-5ADC-4DE5-A37F-F1931B3694E1",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/plagiogrammopsis_bellerochea_malleus/04_b2caaa2c7f.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/plagiogrammopsis_bellerochea_malleus/04_c55ffeb4da.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Plagiogrammopsis+Bellerochea_malleus/ecotaxa_Plagiogrammopsis+Bellerochea_malleus_42BAB8CC-5ADC-4DE5-A37F-F1931B3694E1.jpg",
         "width": "215",
         "height": "108"
@@ -14592,13 +14506,11 @@
         "dataset_id": "life_watch",
         "label": "Plagiogrammopsis+Bellerochea_malleus",
         "image_id": "1E2938D5-01EE-48FA-8F0C-DE0B8D6EB969",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/plagiogrammopsis_bellerochea_malleus/05_ca300b855f.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/plagiogrammopsis_bellerochea_malleus/05_92f83c7614.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Plagiogrammopsis+Bellerochea_malleus/ecotaxa_Plagiogrammopsis+Bellerochea_malleus_1E2938D5-01EE-48FA-8F0C-DE0B8D6EB969.jpg",
         "width": "80",
         "height": "79"
-      }
-    ],
-    "taxonomic_mismatch::plagiogrammopsis/bellerochea malleus": [
+      },
       {
         "dataset_id": "life_watch_2026_image_library",
         "label": "Plagiogrammopsis/Bellerochea malleus",
@@ -14692,12 +14604,12 @@
         "height": ""
       }
     ],
-    "taxonomic_mismatch::stellarima stellaris+podosira+hyalodiscus": [
+    "taxonomic_mismatch::stellarima stellaris/podosira/hyalodiscus": [
       {
         "dataset_id": "life_watch",
         "label": "Stellarima_stellaris+Podosira+Hyalodiscus",
         "image_id": "0D34849C-E6A4-4A0A-A32A-EBB5E72C8546",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/stellarima_stellaris_podosira_hyalodiscus/01_e510b2e25a.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/stellarima_stellaris_podosira_hyalodiscus/01_b2a09aa962.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Stellarima_stellaris+Podosira+Hyalodiscus/ecotaxa_Stellarima_stellaris+Podosira+Hyalodiscus_0D34849C-E6A4-4A0A-A32A-EBB5E72C8546.jpg",
         "width": "95",
         "height": "147"
@@ -14706,7 +14618,7 @@
         "dataset_id": "life_watch",
         "label": "Stellarima_stellaris+Podosira+Hyalodiscus",
         "image_id": "407B7D41-4A1C-4726-8CF1-6C0F02C38E59",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/stellarima_stellaris_podosira_hyalodiscus/02_196b964b7f.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/stellarima_stellaris_podosira_hyalodiscus/02_03def72a3d.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Stellarima_stellaris+Podosira+Hyalodiscus/ecotaxa_Stellarima_stellaris+Podosira+Hyalodiscus_407B7D41-4A1C-4726-8CF1-6C0F02C38E59.jpg",
         "width": "66",
         "height": "64"
@@ -14715,7 +14627,7 @@
         "dataset_id": "life_watch",
         "label": "Stellarima_stellaris+Podosira+Hyalodiscus",
         "image_id": "BC5FAF2E-2E8A-4C7D-82EF-380ACA304D6E",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/stellarima_stellaris_podosira_hyalodiscus/03_9da27abe57.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/stellarima_stellaris_podosira_hyalodiscus/03_515e2a86b1.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Stellarima_stellaris+Podosira+Hyalodiscus/ecotaxa_Stellarima_stellaris+Podosira+Hyalodiscus_BC5FAF2E-2E8A-4C7D-82EF-380ACA304D6E.jpg",
         "width": "63",
         "height": "63"
@@ -14724,7 +14636,7 @@
         "dataset_id": "life_watch",
         "label": "Stellarima_stellaris+Podosira+Hyalodiscus",
         "image_id": "4B6B9FDD-6C0D-4A18-A30F-033877B4D8F2",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/stellarima_stellaris_podosira_hyalodiscus/04_a8aa8cc20b.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/stellarima_stellaris_podosira_hyalodiscus/04_89c6f47703.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Stellarima_stellaris+Podosira+Hyalodiscus/ecotaxa_Stellarima_stellaris+Podosira+Hyalodiscus_4B6B9FDD-6C0D-4A18-A30F-033877B4D8F2.jpg",
         "width": "63",
         "height": "63"
@@ -14733,13 +14645,11 @@
         "dataset_id": "life_watch",
         "label": "Stellarima_stellaris+Podosira+Hyalodiscus",
         "image_id": "B05A3F6B-CEBC-472E-9A5B-FE58B6440B26",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/stellarima_stellaris_podosira_hyalodiscus/05_d503b38af8.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/stellarima_stellaris_podosira_hyalodiscus/05_468081a71d.jpg",
         "source_ref": "datasets/LifeWatch/data/images/Stellarima_stellaris+Podosira+Hyalodiscus/ecotaxa_Stellarima_stellaris+Podosira+Hyalodiscus_B05A3F6B-CEBC-472E-9A5B-FE58B6440B26.jpg",
         "width": "62",
         "height": "61"
-      }
-    ],
-    "taxonomic_mismatch::stellarima stellaris/podosira/hyalodiscus": [
+      },
       {
         "dataset_id": "life_watch_2026_image_library",
         "label": "Stellarima stellaris/Podosira/Hyalodiscus",
@@ -15208,7 +15118,7 @@
     "excluded_valid_tree_overlap_default": true,
     "table_counts": {
       "non_taxonomic_category": 103,
-      "taxonomic_mismatch": 32
+      "taxonomic_mismatch": 26
     },
     "table_image_counts": {
       "non_taxonomic_category": 3063385,
