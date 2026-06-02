@@ -1,8 +1,13 @@
 import { describe, expect, it } from "vitest";
 import { readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { resolve } from "node:path";
 import { parseCsv, splitCell } from "../utils/csv";
 import type { Candidate, InvalidLabelData, SampleMap, TreeNode } from "../types";
+
+type DemoDataMetadata = {
+  public_artifacts: Record<string, { path: string; sha256: string; bytes: number }>;
+};
 
 const dataPath = (...parts: string[]) => resolve(process.cwd(), "public", "data", ...parts);
 
@@ -12,6 +17,10 @@ function readJson<T>(name: string): T {
 
 function readText(name: string): string {
   return readFileSync(dataPath(name), "utf-8");
+}
+
+function sha256(name: string) {
+  return createHash("sha256").update(readFileSync(dataPath(name))).digest("hex");
 }
 
 function visitTree(node: TreeNode, callback: (node: TreeNode) => void) {
@@ -24,6 +33,7 @@ describe("valid route public data contract", () => {
   const candidates = parseCsv<Candidate>(readText("valid_class_candidates.csv"));
   const samples = readJson<SampleMap>("class_image_samples.json");
   const lineages = readJson<Record<string, unknown>>("worms_lineages.json");
+  const metadata = readJson<DemoDataMetadata>("demo_data_metadata.json");
 
   it("keeps summary counts aligned with candidate rows and tree placements", () => {
     const selectedIds = new Set<string>();
@@ -48,18 +58,22 @@ describe("valid route public data contract", () => {
     const candidateIds = new Set(candidates.map((candidate) => candidate.entry_id));
     expect(candidateIds.size).toBe(candidates.length);
 
+    const candidateByEntry = new Map(candidates.map((candidate) => [candidate.entry_id, candidate]));
     const leafEntryIds: string[] = [];
     visitTree(tree, (node) => {
       if (node.type !== "dataset_class") return;
       expect(node.entry_id).toBeTruthy();
       expect(candidateIds.has(node.entry_id!)).toBe(true);
+      const selectedIds = splitCell(candidateByEntry.get(node.entry_id!)?.selected_aphia_ids ?? "");
+      const treeAphiaId = node.aphia_id ?? node.selected_aphia_id;
+      if (treeAphiaId) expect(selectedIds).toContain(treeAphiaId);
       leafEntryIds.push(node.entry_id!);
     });
 
     expect(leafEntryIds).toHaveLength(tree.entry_count);
   });
 
-  it("keeps sample maps and lineage maps referentially valid", () => {
+  it("keeps sample maps, lineage maps, and metadata referentially valid", () => {
     const candidateIds = new Set(candidates.map((candidate) => candidate.entry_id));
     const selectedIds = new Set(
       candidates.flatMap((candidate) => splitCell(candidate.selected_aphia_ids))
@@ -77,6 +91,16 @@ describe("valid route public data contract", () => {
     selectedIds.forEach((aphiaId) => {
       expect(lineages[aphiaId], aphiaId).toBeTruthy();
     });
+
+    for (const name of [
+      "taxonomy_tree.json",
+      "valid_class_candidates.csv",
+      "class_image_samples.json",
+      "invalid_label_groups.json",
+      "worms_lineages.json"
+    ]) {
+      expect(metadata.public_artifacts[name]?.sha256, name).toBe(sha256(name));
+    }
   });
 });
 
@@ -86,6 +110,8 @@ describe("invalid route public data contract", () => {
   it("keeps table counts and total image count aligned with grouped rows", () => {
     const nonTaxonomic = invalid.tables.non_taxonomic_category;
     const mismatch = invalid.tables.taxonomic_mismatch;
+
+    expect(invalid.summary.excluded_valid_tree_overlap_default).toBe(false);
 
     expect(nonTaxonomic).toHaveLength(invalid.summary.table_counts.non_taxonomic_category);
     expect(mismatch).toHaveLength(invalid.summary.table_counts.taxonomic_mismatch);
@@ -105,6 +131,10 @@ describe("invalid route public data contract", () => {
         keys.add(group.sample_key);
         expect(group.aliases.length).toBeGreaterThan(0);
         expect(group.datasets.length).toBeGreaterThan(0);
+        expect(group.invalid_evidence_count ?? 0).toBeGreaterThan(0);
+        if (group.include_valid_tree_overlap) {
+          expect(group.valid_evidence_count ?? 0).toBeGreaterThan(0);
+        }
       });
     });
   });

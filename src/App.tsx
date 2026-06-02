@@ -32,7 +32,6 @@ function App() {
   const [datasets, setDatasets] = useState<Set<DatasetId>>(new Set(DATASETS));
   const [risks, setRisks] = useState<Set<string>>(new Set());
   const [rank, setRank] = useState("");
-  const [showIntermediate, setShowIntermediate] = useState(true);
   const [treeScale, setTreeScale] = useState(1.08);
   const [forceOpenAll, setForceOpenAll] = useState(false);
   const [treeResetKey, setTreeResetKey] = useState(0);
@@ -83,7 +82,7 @@ function App() {
   useEffect(() => {
     setForceOpenAll(false);
     setTreeResetKey((value) => value + 1);
-  }, [query, datasets, risks, rank, showIntermediate]);
+  }, [query, datasets, risks, rank]);
 
   const candidateByEntry = useMemo(() => {
     const map = new Map<string, Candidate>();
@@ -94,8 +93,8 @@ function App() {
   const ranks = useMemo(() => (data ? collectRanks(data.tree) : []), [data]);
 
   const filters: Filters = useMemo(
-    () => ({ query, datasets, risks, rank, showIntermediate }),
-    [query, datasets, risks, rank, showIntermediate]
+    () => ({ query, datasets, risks, rank }),
+    [query, datasets, risks, rank]
   );
 
   const visibleTree = useMemo(() => {
@@ -248,19 +247,6 @@ function App() {
               </select>
             </section>
 
-            <section>
-              <label className="switch-row">
-                <input
-                  type="checkbox"
-                  checked={showIntermediate}
-                  onChange={(event) => setShowIntermediate(event.target.checked)}
-                />
-                Show intermediate ranks
-              </label>
-              <p className="muted">
-                Hidden mode visually skips intermediate ranks and connects their children to the nearest visible parent.
-              </p>
-            </section>
             </aside>
 
             <main className="tree-panel">

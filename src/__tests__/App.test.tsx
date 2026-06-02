@@ -326,7 +326,7 @@ describe("App valid tree UI", () => {
     expect(screen.getByText("Placements")).toBeInTheDocument();
     expect(screen.getAllByText("Images").length).toBeGreaterThan(0);
     expect(screen.getByRole("button", { name: "Valid tree" })).toHaveClass("active");
-    expect(screen.getByLabelText("Show intermediate ranks")).toBeChecked();
+    expect(screen.queryByLabelText("Show intermediate ranks")).not.toBeInTheDocument();
   });
 
   it("opens and closes terminology help", async () => {
@@ -433,13 +433,13 @@ describe("App invalid labels UI", () => {
     expect(screen.queryByText("artefact")).not.toBeInTheDocument();
   });
 
-  it("shows valid-tree overlaps only when the toggle is enabled", async () => {
+  it("shows valid-tree overlaps by default and can hide them", async () => {
     const user = userEvent.setup();
     await renderApp("/invalid");
 
-    expect(screen.queryByRole("button", { name: /LifeWatch Tripos/ })).not.toBeInTheDocument();
-    await user.click(screen.getByLabelText("Show valid-tree overlaps"));
     expect(screen.getByText("Tripos")).toBeInTheDocument();
+    await user.click(screen.getByLabelText("Show valid-tree overlaps"));
+    expect(screen.queryByRole("button", { name: /LifeWatch Tripos/ })).not.toBeInTheDocument();
   });
 
   it("switches invalid tables, opens drawer, and opens invalid samples", async () => {

@@ -1,0 +1,47 @@
+{
+  "generated_at_utc": "2026-06-02T14:41:35+00:00",
+  "demo_app": "demo/taxonomy-integration-review",
+  "phase_3_root": "/home/mason/Projects/phase_3",
+  "source_studies": [
+    "studies/valid_class_taxonomy_visualization",
+    "studies/invalid_label_visualization",
+    "studies/label_aphia_inventory/worms_invalid_labels_for_review.csv",
+    "studies/label_aphia_inventory/invalid_label_cleanup_decisions.csv"
+  ],
+  "generators": [
+    "scripts/study_valid_class_taxonomy_visualization.py",
+    "demo/taxonomy-integration-review/scripts/build_valid_class_demo_samples.py",
+    "demo/taxonomy-integration-review/scripts/build_invalid_label_demo_data.py"
+  ],
+  "public_artifacts": {
+    "taxonomy_tree.json": {
+      "path": "public/data/taxonomy_tree.json",
+      "sha256": "b73a713c1119756424d939812a86c603c6c6765350e0630aacb373a7ed8d1844",
+      "bytes": 984726
+    },
+    "valid_class_candidates.csv": {
+      "path": "public/data/valid_class_candidates.csv",
+      "sha256": "e6c492abfe1019d7136095a0a4e3e43a5c50c36d195defba8d80f99859d997a8",
+      "bytes": 1343293
+    },
+    "class_image_samples.json": {
+      "path": "public/data/class_image_samples.json",
+      "sha256": "e8b136c1ef97f3ee3f5a1d8b02e93dc64c3a385b72e459a95254c6d8c1063666",
+      "bytes": 1579403
+    },
+    "invalid_label_groups.json": {
+      "path": "public/data/invalid_label_groups.json",
+      "sha256": "4ee06dae8f99df9f198719f9d6b785ea8d34188694ff3bfb8ea7654d2c433edc",
+      "bytes": 712938
+    },
+    "worms_lineages.json": {
+      "path": "public/data/worms_lineages.json",
+      "sha256": "da9f591a53cbb869d3e991564d1cb01e579e8d55f78c05c13dee50f7f83fd80e",
+      "bytes": 465741
+    }
+  },
+  "thumbnail_dirs": [
+    "public/samples",
+    "public/invalid-samples"
+  ]
+}

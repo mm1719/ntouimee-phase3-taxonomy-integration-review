@@ -1,4 +1,3 @@
-import { CORE_RANKS } from "../data/constants";
 import type { DatasetId, TreeNode } from "../types";
 
 export type Filters = {
@@ -6,7 +5,6 @@ export type Filters = {
   datasets: Set<DatasetId>;
   risks: Set<string>;
   rank: string;
-  showIntermediate: boolean;
 };
 
 export function normalizeTree(node: TreeNode): TreeNode {
@@ -92,15 +90,6 @@ export function filterTree(node: TreeNode, filters: Filters, forceDescendants = 
   if (filteredChildren.length === 0 && !selfVisible) return [];
 
   const merged = mergeNode(node, filteredChildren);
-  const shouldHideIntermediate =
-    !filters.showIntermediate &&
-    node.type === "taxon" &&
-    node.rank &&
-    !CORE_RANKS.has(node.rank);
-
-  if (shouldHideIntermediate) {
-    return filteredChildren;
-  }
   return [merged];
 }
 

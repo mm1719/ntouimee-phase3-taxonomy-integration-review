@@ -140,16 +140,6 @@ export function RiskPanels({ candidates, onSelect }: Props) {
   const [activeRisk, setActiveRisk] = useState<RiskKey>("dwca_aphia_mismatch");
   const [sorting, setSorting] = useState<SortingState>([]);
 
-  const riskCounts = useMemo(
-    () => Object.fromEntries(
-      RISKS.map((risk) => [
-        risk,
-        candidates.filter((row) => splitCell(row.risk_flags).includes(risk)).length
-      ])
-    ) as Record<RiskKey, number>,
-    [candidates]
-  );
-
   const rows = useMemo(
     () => candidates.filter((row) => splitCell(row.risk_flags).includes(activeRisk)),
     [activeRisk, candidates]
@@ -181,7 +171,6 @@ export function RiskPanels({ candidates, onSelect }: Props) {
               onClick={() => setActiveRisk(risk)}
             >
               <RiskBadge risk={risk} />
-              <span className="risk-count">{riskCounts[risk]}</span>
             </button>
           ))}
         </div>

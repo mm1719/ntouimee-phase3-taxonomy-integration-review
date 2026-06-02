@@ -37,7 +37,7 @@ export function InvalidLabelsReview({ data, selected, onSelect }: Props) {
   const [activeTable, setActiveTable] = useState<InvalidTableKey>("non_taxonomic_category");
   const [query, setQuery] = useState("");
   const [datasets, setDatasets] = useState<Set<DatasetId>>(new Set(DATASETS));
-  const [showValidTreeOverlap, setShowValidTreeOverlap] = useState(false);
+  const [showValidTreeOverlap, setShowValidTreeOverlap] = useState(true);
   const [sorting, setSorting] = useState<SortingState>([]);
   const [tableScale, setTableScale] = useState(1);
 
@@ -167,7 +167,7 @@ export function InvalidLabelsReview({ data, selected, onSelect }: Props) {
             Show valid-tree overlaps
           </label>
           <p className="muted">
-            Default view excludes labels already represented in the valid taxonomy tree.
+            Rows already represented in the valid taxonomy tree are included by default and highlighted for review.
           </p>
         </section>
       </aside>
@@ -208,7 +208,10 @@ export function InvalidLabelsReview({ data, selected, onSelect }: Props) {
               {table.getRowModel().rows.map((row) => (
                 <tr
                   key={row.original.sample_key}
-                  className={selected?.sample_key === row.original.sample_key ? "selected-row" : ""}
+                  className={[
+                    selected?.sample_key === row.original.sample_key ? "selected-row" : "",
+                    row.original.include_valid_tree_overlap ? "overlap-row" : ""
+                  ].filter(Boolean).join(" ")}
                   onClick={() => onSelect(row.original)}
                 >
                   {row.getVisibleCells().map((cell) => (

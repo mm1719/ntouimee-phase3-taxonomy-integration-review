@@ -36,6 +36,8 @@ export function InvalidDetailDrawer({ group, samples, onClose, onOpenSamples }: 
       <dl className="kv">
         <div><dt>Status</dt><dd>{group.status}</dd></div>
         <div><dt>Total images</dt><dd>{group.total_image_count.toLocaleString()}</dd></div>
+        <div><dt>Valid evidence rows</dt><dd>{(group.valid_evidence_count ?? 0).toLocaleString()}</dd></div>
+        <div><dt>Invalid evidence rows</dt><dd>{(group.invalid_evidence_count ?? 0).toLocaleString()}</dd></div>
         <div><dt>Aliases</dt><dd>{group.aliases.join(", ")}</dd></div>
       </dl>
 
@@ -44,6 +46,8 @@ export function InvalidDetailDrawer({ group, samples, onClose, onOpenSamples }: 
           <h3>{dataset.dataset_id}</h3>
           <dl className="kv compact-kv">
             <div><dt>Images</dt><dd>{dataset.image_count.toLocaleString()}</dd></div>
+            <div><dt>Valid evidence rows</dt><dd>{(dataset.valid_evidence_count ?? 0).toLocaleString()}</dd></div>
+            <div><dt>Invalid evidence rows</dt><dd>{(dataset.invalid_evidence_count ?? 0).toLocaleString()}</dd></div>
             <div><dt>Aliases</dt><dd>{dataset.aliases.join(", ")}</dd></div>
             <div><dt>Valid tree</dt><dd>{dataset.valid_tree_entry}</dd></div>
           </dl>

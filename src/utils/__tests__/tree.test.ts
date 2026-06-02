@@ -67,8 +67,7 @@ const allFilters = {
   query: "",
   datasets: new Set(["flowcam_net", "tara_pacific_deck"] as const),
   risks: new Set<string>(),
-  rank: "",
-  showIntermediate: true
+  rank: ""
 };
 
 describe("normalizeTree", () => {
@@ -111,16 +110,6 @@ describe("filterTree", () => {
     expect(result[0].entry_count).toBe(1);
     expect(JSON.stringify(result)).toContain("Crustacea broad");
     expect(JSON.stringify(result)).not.toContain("flowcam_net::Copepoda");
-  });
-
-  it("can hide intermediate ranks while preserving matching leaves", () => {
-    const result = filterTree(normalizeTree(tree), {
-      ...allFilters,
-      showIntermediate: false
-    });
-
-    expect(result[0].children?.[0].children?.some((child) => child.name === "Crustacea")).toBe(false);
-    expect(JSON.stringify(result)).toContain("Crustacea broad");
   });
 });
 
