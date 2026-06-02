@@ -8,7 +8,7 @@ type Props = {
   node: TreeNode;
   onSelect: (node: TreeNode) => void;
   depth?: number;
-  autoOpenForTerminal?: boolean;
+  autoFollowSingleChild?: boolean;
   forceOpenAll?: boolean;
 };
 
@@ -16,7 +16,7 @@ export function TaxonomyTree({
   node,
   onSelect,
   depth = 0,
-  autoOpenForTerminal = false,
+  autoFollowSingleChild = false,
   forceOpenAll = false
 }: Props) {
   const children = node.children ?? [];
@@ -24,36 +24,36 @@ export function TaxonomyTree({
   const terminalPlacements = children.filter((child) => child.type === "dataset_class");
   const taxonChildren = children.filter((child) => child.type !== "dataset_class");
   const hasFinerDescendants = taxonChildren.length > 0;
-  const hasDirectTerminal = terminalPlacements.length > 0;
+  const childCount = taxonChildren.length + terminalPlacements.length;
   const defaultOpen = shouldDefaultOpen(node, depth);
   const [isOpen, setIsOpen] = useState(defaultOpen);
   const [openedByUser, setOpenedByUser] = useState(false);
-  const [autoOpenedForTerminal, setAutoOpenedForTerminal] = useState(false);
+  const [autoOpenedByFollow, setAutoOpenedByFollow] = useState(false);
   const [userClosedAutoOpen, setUserClosedAutoOpen] = useState(false);
   const suppressNextToggle = useRef(false);
   const showTerminalPlacements =
-    terminalPlacements.length > 0 && (forceOpenAll || openedByUser || autoOpenedForTerminal);
+    terminalPlacements.length > 0 && (forceOpenAll || openedByUser || autoOpenedByFollow);
   const size = Math.max(8, Math.min(26, 8 + Math.sqrt(Math.max(0, node.image_count)) / 45));
 
   useEffect(() => {
     if (forceOpenAll) {
       setIsOpen(true);
       setOpenedByUser(true);
-      setAutoOpenedForTerminal(false);
+      setAutoOpenedByFollow(false);
       setUserClosedAutoOpen(false);
       return;
     }
-    if (!autoOpenForTerminal) {
+    if (!autoFollowSingleChild) {
       setUserClosedAutoOpen(false);
       return;
     }
-    if (hasDirectTerminal && !isOpen && !userClosedAutoOpen) {
+    if (!isOpen && !userClosedAutoOpen) {
       suppressNextToggle.current = true;
       setIsOpen(true);
-      setAutoOpenedForTerminal(true);
+      setAutoOpenedByFollow(true);
       setOpenedByUser(false);
     }
-  }, [autoOpenForTerminal, forceOpenAll, hasDirectTerminal, isOpen, userClosedAutoOpen]);
+  }, [autoFollowSingleChild, childCount, forceOpenAll, isOpen, userClosedAutoOpen]);
 
   const content = (
     <div className="node-row" onClick={() => onSelect(node)}>
@@ -97,11 +97,11 @@ export function TaxonomyTree({
         setIsOpen(nextOpen);
         if (nextOpen) {
           setOpenedByUser(true);
-          setAutoOpenedForTerminal(false);
+          setAutoOpenedByFollow(false);
           setUserClosedAutoOpen(false);
         } else {
           setOpenedByUser(false);
-          setAutoOpenedForTerminal(false);
+          setAutoOpenedByFollow(false);
           setUserClosedAutoOpen(true);
         }
       }}
@@ -138,7 +138,9 @@ export function TaxonomyTree({
             node={child}
             onSelect={onSelect}
             depth={depth + 1}
-            autoOpenForTerminal={isOpen && openedByUser}
+            autoFollowSingleChild={
+              isOpen && (openedByUser || autoOpenedByFollow) && childCount === 1
+            }
             forceOpenAll={forceOpenAll}
           />
         ))}
