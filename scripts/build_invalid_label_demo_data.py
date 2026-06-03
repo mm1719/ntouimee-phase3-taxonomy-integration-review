@@ -328,6 +328,8 @@ def build_groups(rows: list[dict[str, str]]) -> dict[str, Any]:
                     "total_image_count": 0,
                     "include_valid_tree_overlap": row.get("valid_tree_entry") == "yes",
                     "invalid_reason_count": 0,
+                    "valid_image_count": 0,
+                    "invalid_image_count": 0,
                     "datasets": {},
                 },
             )
@@ -348,6 +350,8 @@ def build_groups(rows: list[dict[str, str]]) -> dict[str, Any]:
                     "worms_sources": [],
                     "valid_tree_entry": row.get("valid_tree_entry", "no"),
                     "invalid_reason_count": 0,
+                    "valid_image_count": 0,
+                    "invalid_image_count": 0,
                 },
             )
             dataset["aliases"].append(label)
@@ -378,6 +382,8 @@ def build_groups(rows: list[dict[str, str]]) -> dict[str, Any]:
                 dataset = group["datasets"][dataset_id]
                 count = manifest_counts.get((dataset_id, group["group_key"]), 0)
                 dataset["image_count"] = count
+                dataset["invalid_image_count"] = count
+                dataset["valid_image_count"] = count if dataset["valid_tree_entry"] == "yes" else 0
                 total += count
                 dataset["aliases"] = unique_sorted(dataset["aliases"])
                 dataset["reasons"] = unique_sorted(dataset["reasons"])
@@ -386,6 +392,8 @@ def build_groups(rows: list[dict[str, str]]) -> dict[str, Any]:
                 dataset["invalid_reason_count"] = len(dataset["reasons"])
                 datasets.append(dataset)
             group["total_image_count"] = total
+            group["invalid_image_count"] = sum(dataset["invalid_image_count"] for dataset in datasets)
+            group["valid_image_count"] = sum(dataset["valid_image_count"] for dataset in datasets)
             group["invalid_reason_count"] = len(
                 unique_sorted(
                     [

@@ -44,6 +44,13 @@ describe("valid route public data contract", () => {
       const ids = splitCell(candidate.selected_aphia_ids);
       expect(ids.length, candidate.entry_id).toBeGreaterThan(0);
       ids.forEach((id) => selectedIds.add(id));
+      const aphiaImageCounts = splitCell(candidate.selected_aphia_image_counts).map(Number);
+      expect(aphiaImageCounts, candidate.entry_id).toHaveLength(ids.length);
+      expect(aphiaImageCounts.reduce((sum, count) => sum + count, 0), candidate.entry_id)
+        .toBe(Number(candidate.image_count));
+      if (ids.length > 1) {
+        aphiaImageCounts.forEach((count) => expect(count, candidate.entry_id).toBeGreaterThan(0));
+      }
       placementCount += ids.length;
       candidateImageCount += Number(candidate.image_count);
     });
@@ -52,6 +59,8 @@ describe("valid route public data contract", () => {
     expect(selectedIds.size).toBe(tree.unique_selected_aphia_id_count);
     expect(placementCount).toBe(tree.entry_count);
     expect(candidateImageCount).toBe(tree.unique_candidate_image_count);
+    expect(tree.image_count).toBe(tree.unique_candidate_image_count);
+    expect(tree.placement_weighted_image_count).toBe(tree.unique_candidate_image_count);
   });
 
   it("has unique candidate ids and every tree dataset-class leaf points to one", () => {
@@ -64,9 +73,15 @@ describe("valid route public data contract", () => {
       if (node.type !== "dataset_class") return;
       expect(node.entry_id).toBeTruthy();
       expect(candidateIds.has(node.entry_id!)).toBe(true);
-      const selectedIds = splitCell(candidateByEntry.get(node.entry_id!)?.selected_aphia_ids ?? "");
+      const candidate = candidateByEntry.get(node.entry_id!)!;
+      const selectedIds = splitCell(candidate.selected_aphia_ids);
+      const aphiaCounts = splitCell(candidate.selected_aphia_image_counts).map(Number);
       const treeAphiaId = node.aphia_id ?? node.selected_aphia_id;
-      if (treeAphiaId) expect(selectedIds).toContain(treeAphiaId);
+      if (treeAphiaId) {
+        const index = selectedIds.indexOf(treeAphiaId);
+        expect(index, node.entry_id).toBeGreaterThanOrEqual(0);
+        expect(node.image_count, node.entry_id).toBe(aphiaCounts[index]);
+      }
       leafEntryIds.push(node.entry_id!);
     });
 
@@ -135,6 +150,10 @@ describe("invalid route public data contract", () => {
         group.datasets.forEach((dataset) => {
           expect(dataset.reasons.length).toBeGreaterThan(0);
           expect(dataset.invalid_reason_count ?? 0).toBe(dataset.reasons.length);
+          if (dataset.valid_tree_entry === "yes") {
+            expect(dataset.valid_image_count ?? 0).toBe(dataset.image_count);
+            expect(dataset.invalid_image_count ?? 0).toBe(dataset.image_count);
+          }
         });
       });
     });

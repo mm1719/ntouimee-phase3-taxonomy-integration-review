@@ -43,6 +43,9 @@ export function DetailDrawer({ node, candidate, samples, onClose, onOpenSamples 
         <div><dt>Rank</dt><dd>{node.rank || "Dataset class"}</dd></div>
         <div><dt>AphiaID</dt><dd>{node.selected_aphia_id || node.aphia_id || "n/a"}</dd></div>
         <div><dt>Image count</dt><dd>{node.image_count.toLocaleString()}</dd></div>
+        {node.candidate_image_count && node.candidate_image_count !== node.image_count && (
+          <div><dt>Class images</dt><dd>{node.candidate_image_count.toLocaleString()}</dd></div>
+        )}
         <div><dt>Placements</dt><dd>{node.entry_count.toLocaleString()}</dd></div>
         {candidate && <div><dt>Source priority</dt><dd>{candidate.selected_aphia_source}</dd></div>}
         {candidate && <div><dt>Terminal rank</dt><dd>{candidate.terminal_ranks.split("|").join(", ")}</dd></div>}
@@ -77,6 +80,10 @@ export function DetailDrawer({ node, candidate, samples, onClose, onOpenSamples 
       {candidate?.contaminated_sources && (
         <div className="drawer-section">
           <h3>Contaminated invalid evidence</h3>
+          <dl className="kv compact-kv">
+            <div><dt>Valid images</dt><dd>{Number(candidate.valid_image_count || candidate.image_count).toLocaleString()}</dd></div>
+            <div><dt>Invalid images</dt><dd>{Number(candidate.invalid_image_count || candidate.image_count).toLocaleString()}</dd></div>
+          </dl>
           <p className="path-text">{candidate.contaminated_sources}</p>
         </div>
       )}

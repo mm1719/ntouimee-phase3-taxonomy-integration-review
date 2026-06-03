@@ -36,6 +36,10 @@ export type TreeNode = {
   unique_selected_aphia_id_count?: number;
   unique_candidate_image_count?: number;
   placement_weighted_image_count?: number;
+  candidate_image_count?: number;
+  selected_aphia_image_count?: number;
+  valid_image_count?: number;
+  invalid_image_count?: number;
 };
 
 export type Candidate = {
@@ -45,7 +49,10 @@ export type Candidate = {
   original_label: string;
   image_count: string;
   selected_aphia_ids: string;
+  selected_aphia_image_counts: string;
   selected_aphia_source: string;
+  valid_image_count: string;
+  invalid_image_count: string;
   terminal_worms_names: string;
   terminal_ranks: string;
   lineage_notes: string;
@@ -87,6 +94,8 @@ export type InvalidDatasetEvidence = {
   worms_sources: string[];
   valid_tree_entry: "yes" | "no";
   invalid_reason_count?: number;
+  valid_image_count?: number;
+  invalid_image_count?: number;
 };
 
 export type InvalidLabelGroup = {
@@ -98,6 +107,8 @@ export type InvalidLabelGroup = {
   total_image_count: number;
   include_valid_tree_overlap: boolean;
   invalid_reason_count?: number;
+  valid_image_count?: number;
+  invalid_image_count?: number;
   datasets: InvalidDatasetEvidence[];
 };
 
