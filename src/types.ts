@@ -86,8 +86,7 @@ export type InvalidDatasetEvidence = {
   source_examples: string[];
   worms_sources: string[];
   valid_tree_entry: "yes" | "no";
-  valid_evidence_count?: number;
-  invalid_evidence_count?: number;
+  invalid_reason_count?: number;
 };
 
 export type InvalidLabelGroup = {
@@ -98,8 +97,7 @@ export type InvalidLabelGroup = {
   dataset_ids: DatasetId[];
   total_image_count: number;
   include_valid_tree_overlap: boolean;
-  valid_evidence_count?: number;
-  invalid_evidence_count?: number;
+  invalid_reason_count?: number;
   datasets: InvalidDatasetEvidence[];
 };
 

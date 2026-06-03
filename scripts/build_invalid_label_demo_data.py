@@ -327,15 +327,11 @@ def build_groups(rows: list[dict[str, str]]) -> dict[str, Any]:
                     "dataset_ids": [],
                     "total_image_count": 0,
                     "include_valid_tree_overlap": row.get("valid_tree_entry") == "yes",
-                    "valid_evidence_count": 0,
-                    "invalid_evidence_count": 0,
+                    "invalid_reason_count": 0,
                     "datasets": {},
                 },
             )
             group["aliases"].append(label)
-            group["invalid_evidence_count"] += int(row.get("validation_row_count") or 1)
-            if row.get("valid_tree_entry") == "yes":
-                group["valid_evidence_count"] += 1
             group["include_valid_tree_overlap"] = (
                 group["include_valid_tree_overlap"]
                 or row.get("valid_tree_entry") == "yes"
@@ -351,14 +347,10 @@ def build_groups(rows: list[dict[str, str]]) -> dict[str, Any]:
                     "source_examples": [],
                     "worms_sources": [],
                     "valid_tree_entry": row.get("valid_tree_entry", "no"),
-                    "valid_evidence_count": 0,
-                    "invalid_evidence_count": 0,
+                    "invalid_reason_count": 0,
                 },
             )
             dataset["aliases"].append(label)
-            dataset["invalid_evidence_count"] += int(row.get("validation_row_count") or 1)
-            if row.get("valid_tree_entry") == "yes":
-                dataset["valid_evidence_count"] += 1
             dataset["reasons"].extend(status_reasons(row, status))
             dataset["source_examples"].extend(split_cell(row.get("source_example", "")))
             dataset["worms_sources"].extend(split_cell(row.get("worms_sources", "")))
@@ -391,8 +383,18 @@ def build_groups(rows: list[dict[str, str]]) -> dict[str, Any]:
                 dataset["reasons"] = unique_sorted(dataset["reasons"])
                 dataset["source_examples"] = unique_sorted(dataset["source_examples"])
                 dataset["worms_sources"] = unique_sorted(dataset["worms_sources"])
+                dataset["invalid_reason_count"] = len(dataset["reasons"])
                 datasets.append(dataset)
             group["total_image_count"] = total
+            group["invalid_reason_count"] = len(
+                unique_sorted(
+                    [
+                        reason
+                        for dataset in datasets
+                        for reason in dataset["reasons"]
+                    ]
+                )
+            )
             group["datasets"] = datasets
 
     tables = {

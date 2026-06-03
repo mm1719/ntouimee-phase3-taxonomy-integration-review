@@ -131,10 +131,11 @@ describe("invalid route public data contract", () => {
         keys.add(group.sample_key);
         expect(group.aliases.length).toBeGreaterThan(0);
         expect(group.datasets.length).toBeGreaterThan(0);
-        expect(group.invalid_evidence_count ?? 0).toBeGreaterThan(0);
-        if (group.include_valid_tree_overlap) {
-          expect(group.valid_evidence_count ?? 0).toBeGreaterThan(0);
-        }
+        expect(group.invalid_reason_count ?? 0).toBeGreaterThan(0);
+        group.datasets.forEach((dataset) => {
+          expect(dataset.reasons.length).toBeGreaterThan(0);
+          expect(dataset.invalid_reason_count ?? 0).toBe(dataset.reasons.length);
+        });
       });
     });
   });
