@@ -586,11 +586,12 @@
                               "original_label": "part<Copepoda",
                               "placement_id": "tara_pacific_bongo::part<Copepoda::1080::1",
                               "risk_flags": [
+                                "contaminated",
                                 "broad_class"
                               ],
                               "selected_aphia_id": "1080",
                               "selected_aphia_image_count": 1,
-                              "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                              "selected_aphia_source": "round1_broad_class_mapping",
                               "synonym_note": "",
                               "type": "dataset_class",
                               "valid_image_count": 1
@@ -636,7 +637,8 @@
                           "name": "Copepoda",
                           "rank": "Class",
                           "risk_flags": [
-                            "broad_class"
+                            "broad_class",
+                            "contaminated"
                           ],
                           "type": "taxon"
                         },
@@ -745,7 +747,8 @@
                       "name": "Multicrustacea",
                       "rank": "Superclass",
                       "risk_flags": [
-                        "broad_class"
+                        "broad_class",
+                        "contaminated"
                       ],
                       "type": "taxon"
                     },
@@ -814,11 +817,12 @@
                       "original_label": "nauplii<Crustacea",
                       "placement_id": "tara_pacific_bongo::nauplii<Crustacea::1066::1",
                       "risk_flags": [
+                        "contaminated",
                         "broad_class"
                       ],
                       "selected_aphia_id": "1066",
                       "selected_aphia_image_count": 2451,
-                      "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                      "selected_aphia_source": "round1_broad_class_mapping",
                       "synonym_note": "",
                       "type": "dataset_class",
                       "valid_image_count": 2451
@@ -840,11 +844,12 @@
                       "original_label": "nauplii<Crustacea",
                       "placement_id": "tara_pacific_deck::nauplii<Crustacea::1066::1",
                       "risk_flags": [
+                        "contaminated",
                         "broad_class"
                       ],
                       "selected_aphia_id": "1066",
                       "selected_aphia_image_count": 5872,
-                      "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                      "selected_aphia_source": "round1_broad_class_mapping",
                       "synonym_note": "",
                       "type": "dataset_class",
                       "valid_image_count": 5872
@@ -866,11 +871,12 @@
                       "original_label": "part<Crustacea",
                       "placement_id": "tara_pacific_bongo::part<Crustacea::1066::1",
                       "risk_flags": [
+                        "contaminated",
                         "broad_class"
                       ],
                       "selected_aphia_id": "1066",
                       "selected_aphia_image_count": 5174,
-                      "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                      "selected_aphia_source": "round1_broad_class_mapping",
                       "synonym_note": "",
                       "type": "dataset_class",
                       "valid_image_count": 5174
@@ -892,7 +898,8 @@
                   "name": "Crustacea",
                   "rank": "Subphylum",
                   "risk_flags": [
-                    "broad_class"
+                    "broad_class",
+                    "contaminated"
                   ],
                   "type": "taxon"
                 }
@@ -913,7 +920,8 @@
               "name": "Arthropoda",
               "rank": "Phylum",
               "risk_flags": [
-                "broad_class"
+                "broad_class",
+                "contaminated"
               ],
               "type": "taxon"
             },
@@ -1347,11 +1355,12 @@
                   "original_label": "veliger",
                   "placement_id": "tara_pacific_bongo::veliger::51::1",
                   "risk_flags": [
+                    "contaminated",
                     "broad_class"
                   ],
                   "selected_aphia_id": "51",
                   "selected_aphia_image_count": 147,
-                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                  "selected_aphia_source": "round1_broad_class_mapping",
                   "synonym_note": "",
                   "type": "dataset_class",
                   "valid_image_count": 147
@@ -1373,11 +1382,12 @@
                   "original_label": "veliger",
                   "placement_id": "tara_pacific_deck::veliger::51::1",
                   "risk_flags": [
+                    "contaminated",
                     "broad_class"
                   ],
                   "selected_aphia_id": "51",
                   "selected_aphia_image_count": 96,
-                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                  "selected_aphia_source": "round1_broad_class_mapping",
                   "synonym_note": "",
                   "type": "dataset_class",
                   "valid_image_count": 96
@@ -1396,7 +1406,8 @@
               "name": "Mollusca",
               "rank": "Phylum",
               "risk_flags": [
-                "broad_class"
+                "broad_class",
+                "contaminated"
               ],
               "type": "taxon"
             },
@@ -1612,7 +1623,8 @@
           "name": "Animalia",
           "rank": "Kingdom",
           "risk_flags": [
-            "broad_class"
+            "broad_class",
+            "contaminated"
           ],
           "type": "taxon"
         },
@@ -2018,11 +2030,12 @@
                       "original_label": "attached",
                       "placement_id": "tara_pacific_deck::attached::146537::1",
                       "risk_flags": [
+                        "contaminated",
                         "broad_class"
                       ],
                       "selected_aphia_id": "146537",
                       "selected_aphia_image_count": 1,
-                      "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                      "selected_aphia_source": "round1_broad_class_mapping",
                       "synonym_note": "",
                       "type": "dataset_class",
                       "valid_image_count": 1
@@ -2294,7 +2307,8 @@
                   "name": "Cyanobacteria",
                   "rank": "Phylum",
                   "risk_flags": [
-                    "broad_class"
+                    "broad_class",
+                    "contaminated"
                   ],
                   "type": "taxon"
                 }
@@ -2313,7 +2327,8 @@
               "name": "Negibacteria",
               "rank": "Subkingdom",
               "risk_flags": [
-                "broad_class"
+                "broad_class",
+                "contaminated"
               ],
               "type": "taxon"
             }
@@ -2332,7 +2347,8 @@
           "name": "Bacteria",
           "rank": "Kingdom",
           "risk_flags": [
-            "broad_class"
+            "broad_class",
+            "contaminated"
           ],
           "type": "taxon"
         },
@@ -2411,11 +2427,12 @@
                   "original_label": "centric",
                   "placement_id": "tara_pacific_bongo::centric::148898::1",
                   "risk_flags": [
+                    "contaminated",
                     "broad_class"
                   ],
                   "selected_aphia_id": "148898",
                   "selected_aphia_image_count": 160,
-                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                  "selected_aphia_source": "round1_broad_class_mapping",
                   "synonym_note": "",
                   "type": "dataset_class",
                   "valid_image_count": 160
@@ -2437,11 +2454,12 @@
                   "original_label": "Chaetoceros inter. Calothrix",
                   "placement_id": "tara_pacific_bongo::Chaetoceros inter. Calothrix::148898::1",
                   "risk_flags": [
+                    "contaminated",
                     "broad_class"
                   ],
                   "selected_aphia_id": "148898",
                   "selected_aphia_image_count": 1,
-                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                  "selected_aphia_source": "round1_broad_class_mapping",
                   "synonym_note": "",
                   "type": "dataset_class",
                   "valid_image_count": 1
@@ -2723,11 +2741,12 @@
                   "original_label": "Coscinodiscids",
                   "placement_id": "tara_pacific_deck::Coscinodiscids::148898::1",
                   "risk_flags": [
+                    "contaminated",
                     "broad_class"
                   ],
                   "selected_aphia_id": "148898",
                   "selected_aphia_image_count": 6157,
-                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                  "selected_aphia_source": "round1_broad_class_mapping",
                   "synonym_note": "",
                   "type": "dataset_class",
                   "valid_image_count": 6157
@@ -2749,11 +2768,12 @@
                   "original_label": "multiple<Diatoma",
                   "placement_id": "tara_pacific_bongo::multiple<Diatoma::148898::1",
                   "risk_flags": [
+                    "contaminated",
                     "broad_class"
                   ],
                   "selected_aphia_id": "148898",
                   "selected_aphia_image_count": 111,
-                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                  "selected_aphia_source": "round1_broad_class_mapping",
                   "synonym_note": "",
                   "type": "dataset_class",
                   "valid_image_count": 111
@@ -2775,11 +2795,12 @@
                   "original_label": "multiple<Diatoma",
                   "placement_id": "tara_pacific_deck::multiple<Diatoma::148898::1",
                   "risk_flags": [
+                    "contaminated",
                     "broad_class"
                   ],
                   "selected_aphia_id": "148898",
                   "selected_aphia_image_count": 1713,
-                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                  "selected_aphia_source": "round1_broad_class_mapping",
                   "synonym_note": "",
                   "type": "dataset_class",
                   "valid_image_count": 1713
@@ -2801,11 +2822,12 @@
                   "original_label": "Odontella sp.",
                   "placement_id": "tara_pacific_bongo::Odontella sp.::148898::1",
                   "risk_flags": [
+                    "contaminated",
                     "broad_class"
                   ],
                   "selected_aphia_id": "148898",
                   "selected_aphia_image_count": 17,
-                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                  "selected_aphia_source": "round1_broad_class_mapping",
                   "synonym_note": "",
                   "type": "dataset_class",
                   "valid_image_count": 17
@@ -2827,11 +2849,12 @@
                   "original_label": "part diatom",
                   "placement_id": "tara_pacific_bongo::part diatom::148898::1",
                   "risk_flags": [
+                    "contaminated",
                     "broad_class"
                   ],
                   "selected_aphia_id": "148898",
                   "selected_aphia_image_count": 7,
-                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                  "selected_aphia_source": "round1_broad_class_mapping",
                   "synonym_note": "",
                   "type": "dataset_class",
                   "valid_image_count": 7
@@ -2853,11 +2876,12 @@
                   "original_label": "pennate<Bacillariophyta",
                   "placement_id": "tara_pacific_bongo::pennate<Bacillariophyta::148898::1",
                   "risk_flags": [
+                    "contaminated",
                     "broad_class"
                   ],
                   "selected_aphia_id": "148898",
                   "selected_aphia_image_count": 3679,
-                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                  "selected_aphia_source": "round1_broad_class_mapping",
                   "synonym_note": "",
                   "type": "dataset_class",
                   "valid_image_count": 3679
@@ -2879,11 +2903,12 @@
                   "original_label": "pennate<Bacillariophyta",
                   "placement_id": "tara_pacific_deck::pennate<Bacillariophyta::148898::1",
                   "risk_flags": [
+                    "contaminated",
                     "broad_class"
                   ],
                   "selected_aphia_id": "148898",
                   "selected_aphia_image_count": 2403,
-                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                  "selected_aphia_source": "round1_broad_class_mapping",
                   "synonym_note": "",
                   "type": "dataset_class",
                   "valid_image_count": 2403
@@ -2905,11 +2930,12 @@
                   "original_label": "Pseudo-Nitzschia chain",
                   "placement_id": "tara_pacific_deck::Pseudo-Nitzschia chain::148898::1",
                   "risk_flags": [
+                    "contaminated",
                     "broad_class"
                   ],
                   "selected_aphia_id": "148898",
                   "selected_aphia_image_count": 2237,
-                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                  "selected_aphia_source": "round1_broad_class_mapping",
                   "synonym_note": "",
                   "type": "dataset_class",
                   "valid_image_count": 2237
@@ -2957,11 +2983,12 @@
                   "original_label": "Rhizosolenia inter. Richelia",
                   "placement_id": "tara_pacific_bongo::Rhizosolenia inter. Richelia::148898::1",
                   "risk_flags": [
+                    "contaminated",
                     "broad_class"
                   ],
                   "selected_aphia_id": "148898",
                   "selected_aphia_image_count": 1446,
-                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                  "selected_aphia_source": "round1_broad_class_mapping",
                   "synonym_note": "",
                   "type": "dataset_class",
                   "valid_image_count": 1446
@@ -2983,11 +3010,12 @@
                   "original_label": "Rhizosolenia inter. Richelia",
                   "placement_id": "tara_pacific_deck::Rhizosolenia inter. Richelia::148898::1",
                   "risk_flags": [
+                    "contaminated",
                     "broad_class"
                   ],
                   "selected_aphia_id": "148898",
                   "selected_aphia_image_count": 1466,
-                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                  "selected_aphia_source": "round1_broad_class_mapping",
                   "synonym_note": "",
                   "type": "dataset_class",
                   "valid_image_count": 1466
@@ -3009,11 +3037,12 @@
                   "original_label": "rhizosolenia tmp i",
                   "placement_id": "tara_pacific_bongo::rhizosolenia tmp i::148898::1",
                   "risk_flags": [
+                    "contaminated",
                     "broad_class"
                   ],
                   "selected_aphia_id": "148898",
                   "selected_aphia_image_count": 1241,
-                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                  "selected_aphia_source": "round1_broad_class_mapping",
                   "synonym_note": "",
                   "type": "dataset_class",
                   "valid_image_count": 1241
@@ -3035,11 +3064,12 @@
                   "original_label": "Rhizosolenids",
                   "placement_id": "tara_pacific_bongo::Rhizosolenids::148898::1",
                   "risk_flags": [
+                    "contaminated",
                     "broad_class"
                   ],
                   "selected_aphia_id": "148898",
                   "selected_aphia_image_count": 12173,
-                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                  "selected_aphia_source": "round1_broad_class_mapping",
                   "synonym_note": "",
                   "type": "dataset_class",
                   "valid_image_count": 12173
@@ -3061,11 +3091,12 @@
                   "original_label": "Rhizosolenids",
                   "placement_id": "tara_pacific_deck::Rhizosolenids::148898::1",
                   "risk_flags": [
+                    "contaminated",
                     "broad_class"
                   ],
                   "selected_aphia_id": "148898",
                   "selected_aphia_image_count": 21875,
-                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                  "selected_aphia_source": "round1_broad_class_mapping",
                   "synonym_note": "",
                   "type": "dataset_class",
                   "valid_image_count": 21875
@@ -3083,7 +3114,8 @@
               "name": "Bacillariophyta",
               "rank": "Phylum",
               "risk_flags": [
-                "broad_class"
+                "broad_class",
+                "contaminated"
               ],
               "type": "taxon"
             },
@@ -12712,14 +12744,44 @@
                           "original_label": "Amphorides<Tintinnidiidae",
                           "placement_id": "tara_pacific_bongo::Amphorides<Tintinnidiidae::11::1",
                           "risk_flags": [
+                            "contaminated",
                             "broad_class"
                           ],
                           "selected_aphia_id": "11",
                           "selected_aphia_image_count": 67,
-                          "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                          "selected_aphia_source": "round1_broad_class_mapping",
                           "synonym_note": "",
                           "type": "dataset_class",
                           "valid_image_count": 67
+                        },
+                        {
+                          "broad_class": "Ciliophora",
+                          "broad_class_aphia_id": "11",
+                          "broad_class_original_label": "Amphorides<Tintinnidiidae",
+                          "broad_class_source_file": "studies/label_aphia_inventory/round4_invalid_label_cleanup.csv",
+                          "candidate_image_count": 360,
+                          "children": [],
+                          "dataset_id": "tara_pacific_deck",
+                          "dataset_label": "Tara Pacific Deck",
+                          "entry_id": "tara_pacific_deck::Amphorides<Tintinnidiidae",
+                          "image_count": 360,
+                          "invalid_image_count": 360,
+                          "lineage_notes": [
+                            "intermediate_rank"
+                          ],
+                          "name": "Ciliophora: Amphorides<Tintinnidiidae",
+                          "original_label": "Amphorides<Tintinnidiidae",
+                          "placement_id": "tara_pacific_deck::Amphorides<Tintinnidiidae::11::1",
+                          "risk_flags": [
+                            "contaminated",
+                            "broad_class"
+                          ],
+                          "selected_aphia_id": "11",
+                          "selected_aphia_image_count": 360,
+                          "selected_aphia_source": "round4_broad_class_mapping",
+                          "synonym_note": "",
+                          "type": "dataset_class",
+                          "valid_image_count": 360
                         },
                         {
                           "broad_class": "Ciliophora",
@@ -12740,14 +12802,44 @@
                           "original_label": "Lacrymaria<Lacrymariidae",
                           "placement_id": "tara_pacific_bongo::Lacrymaria<Lacrymariidae::11::1",
                           "risk_flags": [
+                            "contaminated",
                             "broad_class"
                           ],
                           "selected_aphia_id": "11",
                           "selected_aphia_image_count": 1,
-                          "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                          "selected_aphia_source": "round1_broad_class_mapping",
                           "synonym_note": "",
                           "type": "dataset_class",
                           "valid_image_count": 1
+                        },
+                        {
+                          "broad_class": "Ciliophora",
+                          "broad_class_aphia_id": "11",
+                          "broad_class_original_label": "Lacrymaria<Lacrymariidae",
+                          "broad_class_source_file": "studies/label_aphia_inventory/round4_invalid_label_cleanup.csv",
+                          "candidate_image_count": 35,
+                          "children": [],
+                          "dataset_id": "tara_pacific_deck",
+                          "dataset_label": "Tara Pacific Deck",
+                          "entry_id": "tara_pacific_deck::Lacrymaria<Lacrymariidae",
+                          "image_count": 35,
+                          "invalid_image_count": 35,
+                          "lineage_notes": [
+                            "intermediate_rank"
+                          ],
+                          "name": "Ciliophora: Lacrymaria<Lacrymariidae",
+                          "original_label": "Lacrymaria<Lacrymariidae",
+                          "placement_id": "tara_pacific_deck::Lacrymaria<Lacrymariidae::11::1",
+                          "risk_flags": [
+                            "contaminated",
+                            "broad_class"
+                          ],
+                          "selected_aphia_id": "11",
+                          "selected_aphia_image_count": 35,
+                          "selected_aphia_source": "round4_broad_class_mapping",
+                          "synonym_note": "",
+                          "type": "dataset_class",
+                          "valid_image_count": 35
                         },
                         {
                           "broad_class": "Ciliophora",
@@ -12768,11 +12860,12 @@
                           "original_label": "part<Ciliophora",
                           "placement_id": "tara_pacific_bongo::part<Ciliophora::11::1",
                           "risk_flags": [
+                            "contaminated",
                             "broad_class"
                           ],
                           "selected_aphia_id": "11",
                           "selected_aphia_image_count": 7,
-                          "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                          "selected_aphia_source": "round1_broad_class_mapping",
                           "synonym_note": "",
                           "type": "dataset_class",
                           "valid_image_count": 7
@@ -12785,8 +12878,8 @@
                         "tara_pacific_deck",
                         "tara_pacific_bongo"
                       ],
-                      "entry_count": 65,
-                      "image_count": 27147,
+                      "entry_count": 67,
+                      "image_count": 27542,
                       "key": "Phylum::11::Ciliophora",
                       "lineage_notes": [
                         "intermediate_rank"
@@ -15768,11 +15861,12 @@
                                   "original_label": "Dinophyceae X",
                                   "placement_id": "tara_pacific_bongo::Dinophyceae X::146203::1",
                                   "risk_flags": [
+                                    "contaminated",
                                     "broad_class"
                                   ],
                                   "selected_aphia_id": "146203",
                                   "selected_aphia_image_count": 3479,
-                                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                                  "selected_aphia_source": "round1_broad_class_mapping",
                                   "synonym_note": "",
                                   "type": "dataset_class",
                                   "valid_image_count": 3479
@@ -15796,11 +15890,12 @@
                                   "original_label": "Neoceratium furca<Neoceratium",
                                   "placement_id": "tara_pacific_bongo::Neoceratium furca<Neoceratium::146203::1",
                                   "risk_flags": [
+                                    "contaminated",
                                     "broad_class"
                                   ],
                                   "selected_aphia_id": "146203",
                                   "selected_aphia_image_count": 136,
-                                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                                  "selected_aphia_source": "round1_broad_class_mapping",
                                   "synonym_note": "",
                                   "type": "dataset_class",
                                   "valid_image_count": 136
@@ -15824,11 +15919,12 @@
                                   "original_label": "Neoceratium fusus<Neoceratium",
                                   "placement_id": "tara_pacific_bongo::Neoceratium fusus<Neoceratium::146203::1",
                                   "risk_flags": [
+                                    "contaminated",
                                     "broad_class"
                                   ],
                                   "selected_aphia_id": "146203",
                                   "selected_aphia_image_count": 146,
-                                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                                  "selected_aphia_source": "round1_broad_class_mapping",
                                   "synonym_note": "",
                                   "type": "dataset_class",
                                   "valid_image_count": 146
@@ -15852,14 +15948,44 @@
                                   "original_label": "Ornithocercus magnificus<Ornithocercus",
                                   "placement_id": "tara_pacific_bongo::Ornithocercus magnificus<Ornithocercus::146203::1",
                                   "risk_flags": [
+                                    "contaminated",
                                     "broad_class"
                                   ],
                                   "selected_aphia_id": "146203",
                                   "selected_aphia_image_count": 6,
-                                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                                  "selected_aphia_source": "round1_broad_class_mapping",
                                   "synonym_note": "",
                                   "type": "dataset_class",
                                   "valid_image_count": 6
+                                },
+                                {
+                                  "broad_class": "Dinoflagellata",
+                                  "broad_class_aphia_id": "146203",
+                                  "broad_class_original_label": "Ornithocercus magnificus<Ornithocercus",
+                                  "broad_class_source_file": "studies/label_aphia_inventory/round4_invalid_label_cleanup.csv",
+                                  "candidate_image_count": 112,
+                                  "children": [],
+                                  "dataset_id": "tara_pacific_deck",
+                                  "dataset_label": "Tara Pacific Deck",
+                                  "entry_id": "tara_pacific_deck::Ornithocercus magnificus<Ornithocercus",
+                                  "image_count": 112,
+                                  "invalid_image_count": 112,
+                                  "lineage_notes": [
+                                    "intermediate_rank"
+                                  ],
+                                  "name": "Dinoflagellata: Ornithocercus magnificus<Ornithocercus",
+                                  "original_label": "Ornithocercus magnificus<Ornithocercus",
+                                  "placement_id": "tara_pacific_deck::Ornithocercus magnificus<Ornithocercus::146203::1",
+                                  "risk_flags": [
+                                    "contaminated",
+                                    "broad_class"
+                                  ],
+                                  "selected_aphia_id": "146203",
+                                  "selected_aphia_image_count": 112,
+                                  "selected_aphia_source": "round4_broad_class_mapping",
+                                  "synonym_note": "",
+                                  "type": "dataset_class",
+                                  "valid_image_count": 112
                                 },
                                 {
                                   "broad_class": "Dinoflagellata",
@@ -15880,11 +16006,12 @@
                                   "original_label": "polar view",
                                   "placement_id": "tara_pacific_deck::polar view::146203::1",
                                   "risk_flags": [
+                                    "contaminated",
                                     "broad_class"
                                   ],
                                   "selected_aphia_id": "146203",
                                   "selected_aphia_image_count": 407,
-                                  "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                                  "selected_aphia_source": "round1_broad_class_mapping",
                                   "synonym_note": "",
                                   "type": "dataset_class",
                                   "valid_image_count": 407
@@ -15897,8 +16024,8 @@
                                 "tara_pacific_deck",
                                 "tara_pacific_bongo"
                               ],
-                              "entry_count": 76,
-                              "image_count": 65587,
+                              "entry_count": 77,
+                              "image_count": 65699,
                               "key": "Infraphylum::146203::Dinoflagellata",
                               "lineage_notes": [
                                 "intermediate_rank"
@@ -15920,8 +16047,8 @@
                             "tara_pacific_deck",
                             "tara_pacific_bongo"
                           ],
-                          "entry_count": 76,
-                          "image_count": 65587,
+                          "entry_count": 77,
+                          "image_count": 65699,
                           "key": "Subphylum::562620::Dinozoa",
                           "lineage_notes": [
                             "intermediate_rank"
@@ -15943,8 +16070,8 @@
                         "tara_pacific_deck",
                         "tara_pacific_bongo"
                       ],
-                      "entry_count": 76,
-                      "image_count": 65587,
+                      "entry_count": 77,
+                      "image_count": 65699,
                       "key": "Phylum::450030::Myzozoa",
                       "lineage_notes": [
                         "intermediate_rank"
@@ -15966,8 +16093,8 @@
                     "tara_pacific_deck",
                     "tara_pacific_bongo"
                   ],
-                  "entry_count": 141,
-                  "image_count": 92734,
+                  "entry_count": 144,
+                  "image_count": 93241,
                   "key": "Infrakingdom::536209::Alveolata",
                   "lineage_notes": [
                     "intermediate_rank"
@@ -16776,11 +16903,12 @@
                       "original_label": "Retaria",
                       "placement_id": "tara_pacific_bongo::Retaria::582420::1",
                       "risk_flags": [
+                        "contaminated",
                         "broad_class"
                       ],
                       "selected_aphia_id": "582420",
                       "selected_aphia_image_count": 1095,
-                      "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                      "selected_aphia_source": "round1_broad_class_mapping",
                       "synonym_note": "",
                       "type": "dataset_class",
                       "valid_image_count": 1095
@@ -16804,11 +16932,12 @@
                       "original_label": "Retaria",
                       "placement_id": "tara_pacific_deck::Retaria::582420::1",
                       "risk_flags": [
+                        "contaminated",
                         "broad_class"
                       ],
                       "selected_aphia_id": "582420",
                       "selected_aphia_image_count": 6,
-                      "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                      "selected_aphia_source": "round1_broad_class_mapping",
                       "synonym_note": "",
                       "type": "dataset_class",
                       "valid_image_count": 6
@@ -16832,11 +16961,12 @@
                       "original_label": "spines<Acantharea",
                       "placement_id": "tara_pacific_bongo::spines<Acantharea::582420::1",
                       "risk_flags": [
+                        "contaminated",
                         "broad_class"
                       ],
                       "selected_aphia_id": "582420",
                       "selected_aphia_image_count": 14,
-                      "selected_aphia_source": "tara_pacific_broad_class_mapping",
+                      "selected_aphia_source": "round1_broad_class_mapping",
                       "synonym_note": "",
                       "type": "dataset_class",
                       "valid_image_count": 14
@@ -16886,7 +17016,8 @@
                   "name": "Rhizaria",
                   "rank": "Infrakingdom",
                   "risk_flags": [
-                    "broad_class"
+                    "broad_class",
+                    "contaminated"
                   ],
                   "type": "taxon"
                 }
@@ -16898,8 +17029,8 @@
                 "tara_pacific_deck",
                 "tara_pacific_bongo"
               ],
-              "entry_count": 163,
-              "image_count": 105503,
+              "entry_count": 166,
+              "image_count": 106010,
               "key": "Subkingdom::582419::Harosa",
               "lineage_notes": [
                 "intermediate_rank"
@@ -16922,8 +17053,8 @@
             "tara_pacific_bongo",
             "ifremer_srn"
           ],
-          "entry_count": 356,
-          "image_count": 989960,
+          "entry_count": 359,
+          "image_count": 990467,
           "key": "Kingdom::7::Chromista",
           "lineage_notes": [
             "intermediate_rank"
@@ -17359,8 +17490,8 @@
         "tara_pacific_bongo",
         "ifremer_srn"
       ],
-      "entry_count": 415,
-      "image_count": 1108359,
+      "entry_count": 418,
+      "image_count": 1108866,
       "key": "Superdomain::1::Biota",
       "lineage_notes": [
         "intermediate_rank"
@@ -17376,7 +17507,7 @@
       "type": "taxon"
     }
   ],
-  "dataset_class_entry_count": 412,
+  "dataset_class_entry_count": 415,
   "dataset_colors": {
     "flowcam_net": "#16a34a",
     "ifremer_srn": "#0891b2",
@@ -17401,14 +17532,14 @@
     "tara_pacific_bongo",
     "ifremer_srn"
   ],
-  "entry_count": 415,
-  "image_count": 1108359,
+  "entry_count": 418,
+  "image_count": 1108866,
   "lineage_notes": [
     "intermediate_rank"
   ],
   "name": "WoRMS Taxonomy",
   "placement_weighted_count_policy": "selected_aphia_image_counts_when_available",
-  "placement_weighted_image_count": 1108359,
+  "placement_weighted_image_count": 1108866,
   "rank": "Root",
   "risk_flags": [
     "broad_class",
@@ -17417,6 +17548,6 @@
     "multiple_valid_aphia_ids"
   ],
   "type": "root",
-  "unique_candidate_image_count": 1108359,
+  "unique_candidate_image_count": 1108866,
   "unique_selected_aphia_id_count": 190
 }

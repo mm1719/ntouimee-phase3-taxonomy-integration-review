@@ -61,44 +61,6 @@
         ]
       },
       {
-        "group_key": "amphorides<tintinnidiidae",
-        "sample_key": "non_taxonomic_category::amphorides<tintinnidiidae",
-        "aliases": [
-          "Amphorides<Tintinnidiidae"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck"
-        ],
-        "total_image_count": 360,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 360,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "Amphorides<Tintinnidiidae"
-            ],
-            "image_count": 360,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Amphorides%3CTintinnidiidae?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 360
-          }
-        ]
-      },
-      {
         "group_key": "artefact",
         "sample_key": "non_taxonomic_category::artefact",
         "aliases": [
@@ -2082,44 +2044,6 @@
         ]
       },
       {
-        "group_key": "lacrymaria<lacrymariidae",
-        "sample_key": "non_taxonomic_category::lacrymaria<lacrymariidae",
-        "aliases": [
-          "Lacrymaria<Lacrymariidae"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck"
-        ],
-        "total_image_count": 35,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 35,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "Lacrymaria<Lacrymariidae"
-            ],
-            "image_count": 35,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Lacrymaria%3CLacrymariidae?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 35
-          }
-        ]
-      },
-      {
         "group_key": "larvae<annelida",
         "sample_key": "non_taxonomic_category::larvae<annelida",
         "aliases": [
@@ -2781,47 +2705,10 @@
         ]
       },
       {
-        "group_key": "nassellaria<polycystina",
-        "sample_key": "non_taxonomic_category::nassellaria<polycystina",
+        "group_key": "nassellaria<polycystina / nassellaria<polycystinea",
+        "sample_key": "non_taxonomic_category::nassellaria<polycystina / nassellaria<polycystinea",
         "aliases": [
-          "Nassellaria<Polycystina"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck"
-        ],
-        "total_image_count": 17,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 17,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "Nassellaria<Polycystina"
-            ],
-            "image_count": 17,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Nassellaria%3CPolycystina?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 17
-          }
-        ]
-      },
-      {
-        "group_key": "nassellaria<polycystinea",
-        "sample_key": "non_taxonomic_category::nassellaria<polycystinea",
-        "aliases": [
+          "Nassellaria<Polycystina",
           "Nassellaria<Polycystinea"
         ],
         "status": "Non-Taxonomic Category",
@@ -2829,18 +2716,19 @@
           "tara_pacific_deck",
           "tara_pacific_bongo"
         ],
-        "total_image_count": 1641,
+        "total_image_count": 1658,
         "include_valid_tree_overlap": false,
         "invalid_reason_count": 1,
         "valid_image_count": 0,
-        "invalid_image_count": 1641,
+        "invalid_image_count": 1658,
         "datasets": [
           {
             "dataset_id": "tara_pacific_deck",
             "aliases": [
+              "Nassellaria<Polycystina",
               "Nassellaria<Polycystinea"
             ],
-            "image_count": 1325,
+            "image_count": 1342,
             "reasons": [
               "No local AphiaID and no exact WoRMS name match under strict validation"
             ],
@@ -2848,12 +2736,13 @@
               "derived/analysis_ready/tara_pacific_deck/manifest.csv"
             ],
             "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/Nassellaria%3CPolycystina?like=false&marine_only=false",
               "https://www.marinespecies.org/rest/AphiaRecordsByName/Nassellaria%3CPolycystinea?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no",
             "invalid_reason_count": 1,
             "valid_image_count": 0,
-            "invalid_image_count": 1325
+            "invalid_image_count": 1342
           },
           {
             "dataset_id": "tara_pacific_bongo",
@@ -3070,44 +2959,6 @@
             "invalid_reason_count": 1,
             "valid_image_count": 0,
             "invalid_image_count": 409
-          }
-        ]
-      },
-      {
-        "group_key": "ornithocercus magnificus<ornithocercus",
-        "sample_key": "non_taxonomic_category::ornithocercus magnificus<ornithocercus",
-        "aliases": [
-          "Ornithocercus magnificus<Ornithocercus"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck"
-        ],
-        "total_image_count": 112,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 112,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "Ornithocercus magnificus<Ornithocercus"
-            ],
-            "image_count": 112,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Ornithocercus%20magnificus%3COrnithocercus?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 112
           }
         ]
       },
@@ -6518,53 +6369,6 @@
         "height": "268"
       }
     ],
-    "non_taxonomic_category::amphorides<tintinnidiidae": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Amphorides<Tintinnidiidae",
-        "image_id": "i30_oa216_001_g100013709_601",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/amphorides_tintinnidiidae/01_fbd1f9224c.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i30_oa216_001_g100013709/i30_oa216_001_g100013709_601.png",
-        "width": "103",
-        "height": "75"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Amphorides<Tintinnidiidae",
-        "image_id": "i30_oa217_001_y110000794_5938",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/amphorides_tintinnidiidae/02_316cb32606.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i30_oa217_001_y110000794/i30_oa217_001_y110000794_5938.png",
-        "width": "97",
-        "height": "118"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Amphorides<Tintinnidiidae",
-        "image_id": "oa039_001_g100017567_2701",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/amphorides_tintinnidiidae/03_072e8a26e2.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa039_001_g100017567/oa039_001_g100017567_2701.png",
-        "width": "97",
-        "height": "121"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Amphorides<Tintinnidiidae",
-        "image_id": "oa109_002_g100016298_958",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/amphorides_tintinnidiidae/04_6bc3afdb5f.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa109_002_g100016298/oa109_002_g100016298_958.png",
-        "width": "97",
-        "height": "105"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Amphorides<Tintinnidiidae",
-        "image_id": "oa214_001_g100013681_8717",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/amphorides_tintinnidiidae/05_e542f2278d.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa214_001_g100013681/oa214_001_g100013681_8717.png",
-        "width": "101",
-        "height": "62"
-      }
-    ],
     "non_taxonomic_category::artefact": [
       {
         "dataset_id": "life_watch",
@@ -9438,53 +9242,6 @@
         "height": "68"
       }
     ],
-    "non_taxonomic_category::lacrymaria<lacrymariidae": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Lacrymaria<Lacrymariidae",
-        "image_id": "i00_oa140_001_g100014681_16567",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lacrymaria_lacrymariidae/01_faf419e2f5.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa140_001_g100014681/i00_oa140_001_g100014681_16567.png",
-        "width": "116",
-        "height": "134"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Lacrymaria<Lacrymariidae",
-        "image_id": "i00_oa144_001_g100014511_1959",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lacrymaria_lacrymariidae/02_2292c36581.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa144_001_g100014511/i00_oa144_001_g100014511_1959.png",
-        "width": "161",
-        "height": "150"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Lacrymaria<Lacrymariidae",
-        "image_id": "i00_oa164_001_g100015584_7434",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lacrymaria_lacrymariidae/03_2a0e26c39e.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa164_001_g100015584/i00_oa164_001_g100015584_7434.png",
-        "width": "97",
-        "height": "97"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Lacrymaria<Lacrymariidae",
-        "image_id": "i10_oa069_001_g100017520_23366",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lacrymaria_lacrymariidae/04_ad1e195c4c.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i10_oa069_001_g100017520/i10_oa069_001_g100017520_23366.png",
-        "width": "119",
-        "height": "132"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Lacrymaria<Lacrymariidae",
-        "image_id": "i10_oa069_001_g100017520_25002",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lacrymaria_lacrymariidae/05_eb626decbf.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i10_oa069_001_g100017520/i10_oa069_001_g100017520_25002.png",
-        "width": "97",
-        "height": "186"
-      }
-    ],
     "non_taxonomic_category::larvae<annelida": [
       {
         "dataset_id": "tara_pacific_deck",
@@ -10343,59 +10100,12 @@
         "height": "89"
       }
     ],
-    "non_taxonomic_category::nassellaria<polycystina": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Nassellaria<Polycystina",
-        "image_id": "i09_oa067_001_g100017677_2669",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/nassellaria_polycystina/01_b451131cdc.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_2669.png",
-        "width": "100",
-        "height": "126"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Nassellaria<Polycystina",
-        "image_id": "i09_oa067_001_g100017677_5176",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/nassellaria_polycystina/02_7e18d8e40e.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_5176.png",
-        "width": "97",
-        "height": "101"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Nassellaria<Polycystina",
-        "image_id": "i09_oa067_001_g100017677_26054",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/nassellaria_polycystina/03_209b463400.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_26054.png",
-        "width": "97",
-        "height": "93"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Nassellaria<Polycystina",
-        "image_id": "oa096_001_g100016058_8123",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/nassellaria_polycystina/04_215c88ba5f.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_8123.png",
-        "width": "97",
-        "height": "108"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Nassellaria<Polycystina",
-        "image_id": "oa096_001_g100016058_5672",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/nassellaria_polycystina/05_3e3b265022.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_5672.png",
-        "width": "97",
-        "height": "99"
-      }
-    ],
-    "non_taxonomic_category::nassellaria<polycystinea": [
+    "non_taxonomic_category::nassellaria<polycystina / nassellaria<polycystinea": [
       {
         "dataset_id": "tara_pacific_deck",
         "label": "Nassellaria<Polycystinea",
         "image_id": "i00_oa140_001_g100014681_7253",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/nassellaria_polycystinea/01_9832b94847.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/nassellaria_polycystinea/01_7a41191140.jpg",
         "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa140_001_g100014681/i00_oa140_001_g100014681_7253.png",
         "width": "97",
         "height": "75"
@@ -10404,7 +10114,7 @@
         "dataset_id": "tara_pacific_deck",
         "label": "Nassellaria<Polycystinea",
         "image_id": "i00_oa164_001_g100015584_11625",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/nassellaria_polycystinea/02_6cc4e4a1b8.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/nassellaria_polycystinea/02_033d29a106.jpg",
         "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa164_001_g100015584/i00_oa164_001_g100015584_11625.png",
         "width": "97",
         "height": "83"
@@ -10413,7 +10123,7 @@
         "dataset_id": "tara_pacific_deck",
         "label": "Nassellaria<Polycystinea",
         "image_id": "i00_oa164_001_g100015584_12291",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/nassellaria_polycystinea/03_220944e352.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/nassellaria_polycystinea/03_2efc0428df.jpg",
         "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa164_001_g100015584/i00_oa164_001_g100015584_12291.png",
         "width": "97",
         "height": "75"
@@ -10422,7 +10132,7 @@
         "dataset_id": "tara_pacific_deck",
         "label": "Nassellaria<Polycystinea",
         "image_id": "i00_oa165_001_g100015577_21021",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/nassellaria_polycystinea/04_b0903760e0.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/nassellaria_polycystinea/04_721191be86.jpg",
         "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa165_001_g100015577/i00_oa165_001_g100015577_21021.png",
         "width": "97",
         "height": "77"
@@ -10431,16 +10141,61 @@
         "dataset_id": "tara_pacific_deck",
         "label": "Nassellaria<Polycystinea",
         "image_id": "i10_oa068_001_g100017513_5928",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/nassellaria_polycystinea/05_ac0525106e.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/nassellaria_polycystinea/05_b4bf131ce5.jpg",
         "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i10_oa068_001_g100017513/i10_oa068_001_g100017513_5928.png",
         "width": "97",
         "height": "77"
       },
       {
+        "dataset_id": "tara_pacific_deck",
+        "label": "Nassellaria<Polycystina",
+        "image_id": "i09_oa067_001_g100017677_2669",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/nassellaria_polycystina/01_26a6eb925f.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_2669.png",
+        "width": "100",
+        "height": "126"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "Nassellaria<Polycystina",
+        "image_id": "i09_oa067_001_g100017677_5176",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/nassellaria_polycystina/02_15c57eaf6a.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_5176.png",
+        "width": "97",
+        "height": "101"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "Nassellaria<Polycystina",
+        "image_id": "i09_oa067_001_g100017677_26054",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/nassellaria_polycystina/03_a34c7ddc7b.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_26054.png",
+        "width": "97",
+        "height": "93"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "Nassellaria<Polycystina",
+        "image_id": "oa096_001_g100016058_8123",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/nassellaria_polycystina/04_86fbcc2b25.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_8123.png",
+        "width": "97",
+        "height": "108"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "Nassellaria<Polycystina",
+        "image_id": "oa096_001_g100016058_5672",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/nassellaria_polycystina/05_4cde9e1c1e.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_5672.png",
+        "width": "97",
+        "height": "99"
+      },
+      {
         "dataset_id": "tara_pacific_bongo",
         "label": "Nassellaria<Polycystinea",
         "image_id": "aw_i05_s1_001_r110001872_7987",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/nassellaria_polycystinea/01_3a7abe6125.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/nassellaria_polycystinea/01_98c8f4db68.jpg",
         "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_7987.png",
         "width": "97",
         "height": "87"
@@ -10449,7 +10204,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "Nassellaria<Polycystinea",
         "image_id": "aw_i05_s1_001_r110001872_6065",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/nassellaria_polycystinea/02_7646fb3559.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/nassellaria_polycystinea/02_c4822da01c.jpg",
         "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_6065.png",
         "width": "97",
         "height": "106"
@@ -10458,7 +10213,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "Nassellaria<Polycystinea",
         "image_id": "aw_i05_s1_001_r110001872_17449",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/nassellaria_polycystinea/03_e51280ffea.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/nassellaria_polycystinea/03_a4e5db4fc8.jpg",
         "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_17449.png",
         "width": "97",
         "height": "82"
@@ -10467,7 +10222,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "Nassellaria<Polycystinea",
         "image_id": "aw_i05_s1_001_r110001872_1290",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/nassellaria_polycystinea/04_3fc8e7764e.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/nassellaria_polycystinea/04_bd2f038c35.jpg",
         "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_1290.png",
         "width": "97",
         "height": "101"
@@ -10476,7 +10231,7 @@
         "dataset_id": "tara_pacific_bongo",
         "label": "Nassellaria<Polycystinea",
         "image_id": "aw_i05_s1_001_r110001872_3083",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/nassellaria_polycystinea/05_3fa5a7a992.jpg",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/nassellaria_polycystinea/05_4e831fd3d9.jpg",
         "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_3083.png",
         "width": "97",
         "height": "85"
@@ -10758,53 +10513,6 @@
         "source_ref": "datasets/LifeWatch/data/images/Odontella_aurita+Ralfsiella_minima/ecotaxa_Odontella_aurita+Ralfsiella_minima_61B6B65B-8498-440A-9C6C-1E81C712D37C.jpg",
         "width": "59",
         "height": "44"
-      }
-    ],
-    "non_taxonomic_category::ornithocercus magnificus<ornithocercus": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Ornithocercus magnificus<Ornithocercus",
-        "image_id": "i00_oa139_001_g100014672_6794",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/ornithocercus_magnificus_ornithocercus/01_d1fd652033.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_6794.png",
-        "width": "100",
-        "height": "120"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Ornithocercus magnificus<Ornithocercus",
-        "image_id": "i00_oa139_001_g100014672_36067",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/ornithocercus_magnificus_ornithocercus/02_bd6a714af1.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_36067.png",
-        "width": "97",
-        "height": "122"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Ornithocercus magnificus<Ornithocercus",
-        "image_id": "i00_oa140_001_g100014681_3098",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/ornithocercus_magnificus_ornithocercus/03_de85d53b5d.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa140_001_g100014681/i00_oa140_001_g100014681_3098.png",
-        "width": "97",
-        "height": "121"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Ornithocercus magnificus<Ornithocercus",
-        "image_id": "i00_oa144_001_g100014511_2192",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/ornithocercus_magnificus_ornithocercus/04_75d6da7de9.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa144_001_g100014511/i00_oa144_001_g100014511_2192.png",
-        "width": "97",
-        "height": "101"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "Ornithocercus magnificus<Ornithocercus",
-        "image_id": "i00_oa163_001_g100015598_27537",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/ornithocercus_magnificus_ornithocercus/05_ddf12900fc.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_27537.png",
-        "width": "97",
-        "height": "111"
       }
     ],
     "non_taxonomic_category::ornithocercus quadratus<ornithocercus": [
@@ -16086,13 +15794,13 @@
     "sample_limit_per_dataset": 5,
     "excluded_valid_tree_overlap_default": false,
     "table_counts": {
-      "non_taxonomic_category": 103,
+      "non_taxonomic_category": 99,
       "taxonomic_mismatch": 26
     },
     "table_image_counts": {
-      "non_taxonomic_category": 3063385,
+      "non_taxonomic_category": 3062878,
       "taxonomic_mismatch": 367401
     },
-    "total_image_count": 3430786
+    "total_image_count": 3430279
   }
 }

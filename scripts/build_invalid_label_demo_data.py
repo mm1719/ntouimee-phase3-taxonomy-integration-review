@@ -129,6 +129,22 @@ def load_invalid_alias_keys() -> dict[str, str]:
 
 INVALID_ALIAS_KEYS = load_invalid_alias_keys()
 
+def load_promoted_invalid_review_keys() -> set[tuple[str, str]]:
+    if not CLEANUP_DECISIONS_CSV.exists():
+        return set()
+    promoted: set[tuple[str, str]] = set()
+    with CLEANUP_DECISIONS_CSV.open("r", encoding="utf-8", newline="") as handle:
+        for row in csv.DictReader(handle):
+            if row.get("review_status") != "accepted":
+                continue
+            if row.get("applies_to_invalid_review") != "remove_promoted_row":
+                continue
+            for dataset_id in split_cell(row.get("dataset_id", "")):
+                promoted.add((dataset_id, label_key(row.get("source_label", ""))))
+    return promoted
+
+
+PROMOTED_INVALID_REVIEW_KEYS = load_promoted_invalid_review_keys()
 
 def invalid_group_key(value: str) -> str:
     key = label_key(value)
@@ -167,7 +183,13 @@ def relative_ref(value: str) -> str:
 
 def read_invalid_rows() -> list[dict[str, str]]:
     with INVALID_CSV.open("r", encoding="utf-8", newline="") as handle:
-        return list(csv.DictReader(handle))
+        rows = list(csv.DictReader(handle))
+    return [
+        row
+        for row in rows
+        if (row["dataset_id"], label_key(row["label"]))
+        not in PROMOTED_INVALID_REVIEW_KEYS
+    ]
 
 
 def reason_matches_status(reason: str, status: str) -> bool:
