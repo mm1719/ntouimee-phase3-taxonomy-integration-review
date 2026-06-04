@@ -85,6 +85,55 @@ describe("TaxonomyTree branch expansion", () => {
     expect(screen.getByRole("button", { name: /Only terminal/ })).toBeInTheDocument();
   });
 
+
+  it("lets users close a branch after expand all without forcing it open again", async () => {
+    const user = userEvent.setup();
+    const tree = taxon("Expandable root", [
+      taxon("Expandable child", [terminal("Expandable terminal")]),
+      taxon("Sibling child", [terminal("Sibling terminal")])
+    ]);
+
+    const { container, rerender } = render(
+      <TaxonomyTree node={tree} depth={3} onSelect={vi.fn()} />
+    );
+
+    rerender(
+      <TaxonomyTree node={tree} depth={3} onSelect={vi.fn()} expandAllVersion={1} />
+    );
+
+    await waitFor(() => {
+      expect(openNodeNames(container)).toEqual([
+        "Expandable root",
+        "Expandable child",
+        "Sibling child"
+      ]);
+    });
+
+    await user.click(screen.getByText("Expandable child"));
+
+    await waitFor(() => {
+      expect(openNodeNames(container)).toEqual(["Expandable root", "Sibling child"]);
+    });
+
+    rerender(
+      <TaxonomyTree node={tree} depth={3} onSelect={vi.fn()} expandAllVersion={1} />
+    );
+
+    expect(openNodeNames(container)).toEqual(["Expandable root", "Sibling child"]);
+
+    rerender(
+      <TaxonomyTree node={tree} depth={3} onSelect={vi.fn()} expandAllVersion={2} />
+    );
+
+    await waitFor(() => {
+      expect(openNodeNames(container)).toEqual([
+        "Expandable root",
+        "Expandable child",
+        "Sibling child"
+      ]);
+    });
+  });
+
   it("lets users close an auto-followed branch instead of forcing it open again", async () => {
     const user = userEvent.setup();
     const tree = taxon("Closable root", [

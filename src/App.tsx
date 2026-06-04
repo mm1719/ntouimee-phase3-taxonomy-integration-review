@@ -33,7 +33,7 @@ function App() {
   const [risks, setRisks] = useState<Set<string>>(new Set());
   const [rank, setRank] = useState("");
   const [treeScale, setTreeScale] = useState(1.08);
-  const [forceOpenAll, setForceOpenAll] = useState(false);
+  const [expandAllVersion, setExpandAllVersion] = useState(0);
   const [treeResetKey, setTreeResetKey] = useState(0);
   const [helpOpen, setHelpOpen] = useState(false);
   const [selected, setSelected] = useState<TreeNode | null>(null);
@@ -80,7 +80,6 @@ function App() {
   }, []);
 
   useEffect(() => {
-    setForceOpenAll(false);
     setTreeResetKey((value) => value + 1);
   }, [query, datasets, risks, rank]);
 
@@ -264,10 +263,9 @@ function App() {
             <button onClick={() => setTreeScale((value) => Math.max(0.95, value - 0.08))}>A-</button>
             <button onClick={() => setTreeScale(1.08)}>Reset</button>
             <button onClick={() => setTreeScale((value) => Math.min(1.4, value + 0.08))}>A+</button>
-            <button onClick={() => setForceOpenAll(true)}>Expand all</button>
+            <button onClick={() => setExpandAllVersion((value) => value + 1)}>Expand all</button>
             <button
               onClick={() => {
-                setForceOpenAll(false);
                 setTreeResetKey((value) => value + 1);
               }}
             >
@@ -277,10 +275,10 @@ function App() {
           <div className="tree-scale" style={{ fontSize: `${treeScale}rem` }}>
             {visibleTree ? (
               <TaxonomyTree
-                key={`${treeResetKey}-${forceOpenAll ? "all" : "default"}`}
+                key={treeResetKey}
                 node={visibleTree}
                 onSelect={setSelected}
-                forceOpenAll={forceOpenAll}
+                expandAllVersion={expandAllVersion}
               />
             ) : (
               <div className="empty-state">

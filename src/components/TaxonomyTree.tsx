@@ -9,7 +9,7 @@ type Props = {
   onSelect: (node: TreeNode) => void;
   depth?: number;
   autoFollowSingleChild?: boolean;
-  forceOpenAll?: boolean;
+  expandAllVersion?: number;
 };
 
 export function TaxonomyTree({
@@ -17,7 +17,7 @@ export function TaxonomyTree({
   onSelect,
   depth = 0,
   autoFollowSingleChild = false,
-  forceOpenAll = false
+  expandAllVersion = 0
 }: Props) {
   const children = node.children ?? [];
   const isLeaf = node.type === "dataset_class";
@@ -31,18 +31,25 @@ export function TaxonomyTree({
   const [autoOpenedByFollow, setAutoOpenedByFollow] = useState(false);
   const [userClosedAutoOpen, setUserClosedAutoOpen] = useState(false);
   const suppressNextToggle = useRef(false);
+  const lastExpandAllVersion = useRef(expandAllVersion);
   const showTerminalPlacements =
-    terminalPlacements.length > 0 && (forceOpenAll || openedByUser || autoOpenedByFollow);
+    terminalPlacements.length > 0 && (openedByUser || autoOpenedByFollow);
   const size = Math.max(8, Math.min(26, 8 + Math.sqrt(Math.max(0, node.image_count)) / 45));
 
   useEffect(() => {
-    if (forceOpenAll) {
+    if (expandAllVersion === lastExpandAllVersion.current) {
+      return;
+    }
+    lastExpandAllVersion.current = expandAllVersion;
+    if (expandAllVersion > 0) {
       setIsOpen(true);
       setOpenedByUser(true);
       setAutoOpenedByFollow(false);
       setUserClosedAutoOpen(false);
-      return;
     }
+  }, [expandAllVersion]);
+
+  useEffect(() => {
     if (!autoFollowSingleChild) {
       setUserClosedAutoOpen(false);
       return;
@@ -53,7 +60,7 @@ export function TaxonomyTree({
       setAutoOpenedByFollow(true);
       setOpenedByUser(false);
     }
-  }, [autoFollowSingleChild, childCount, forceOpenAll, isOpen, userClosedAutoOpen]);
+  }, [autoFollowSingleChild, childCount, isOpen, userClosedAutoOpen]);
 
   const content = (
     <div className="node-row" onClick={() => onSelect(node)}>
@@ -141,7 +148,7 @@ export function TaxonomyTree({
             autoFollowSingleChild={
               isOpen && (openedByUser || autoOpenedByFollow) && childCount === 1
             }
-            forceOpenAll={forceOpenAll}
+            expandAllVersion={expandAllVersion}
           />
         ))}
       </div>
