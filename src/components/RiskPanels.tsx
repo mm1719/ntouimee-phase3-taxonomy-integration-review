@@ -97,7 +97,7 @@ function riskColumns(activeRisk: RiskKey) {
         cell: (info) => <ListCell value={info.getValue()} />
       }),
       helper.accessor("contaminated_sources", {
-        header: "Invalid evidence",
+        header: "Baseline invalid validation",
         cell: (info) => <TextCell value={info.getValue()} />
       })
     ];

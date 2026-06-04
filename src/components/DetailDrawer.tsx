@@ -79,7 +79,7 @@ export function DetailDrawer({ node, candidate, samples, onClose, onOpenSamples 
 
       {candidate?.contaminated_sources && (
         <div className="drawer-section">
-          <h3>Contaminated invalid evidence</h3>
+          <h3>Baseline invalid validation</h3>
           <dl className="kv compact-kv">
             <div><dt>Valid images</dt><dd>{Number(candidate.valid_image_count || candidate.image_count).toLocaleString()}</dd></div>
             <div><dt>Invalid images</dt><dd>{Number(candidate.invalid_image_count || candidate.image_count).toLocaleString()}</dd></div>

@@ -104,7 +104,7 @@ describe("RiskPanels", () => {
     expect(screen.getByText("999999")).toBeInTheDocument();
   });
 
-  it("switches to contaminated evidence columns and keeps invalid evidence visible", async () => {
+  it("switches to contaminated evidence columns and keeps baseline invalid validation visible", async () => {
     const user = userEvent.setup();
     render(<RiskPanels candidates={candidates} onSelect={vi.fn()} />);
 
@@ -117,7 +117,7 @@ describe("RiskPanels", () => {
       "Images",
       "Selected AphiaID",
       "Invalid status",
-      "Invalid evidence"
+      "Baseline invalid validation"
     ]);
     expect(screen.getByText("Tripos")).toBeInTheDocument();
     expect(screen.getByText(/AphiaID resolves to another taxon/)).toBeInTheDocument();

@@ -74,8 +74,9 @@ export function HelpModal({ open, onClose }: Props) {
             <div>
               <dt>Contaminated</dt>
               <dd>
-                The same dataset label has valid evidence and invalid evidence.
-                It remains in the tree, but needs manual review before integration.
+                The baseline WoRMS validation layer has both accepted validation rows
+                and invalid validation rows for the same dataset label. Cleanup-based
+                broad-class placements do not create this flag by themselves.
               </dd>
             </div>
             <div>
