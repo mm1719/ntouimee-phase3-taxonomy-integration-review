@@ -22,6 +22,8 @@ INVALID_CSV = ROOT / "studies/label_aphia_inventory/worms_invalid_labels_for_rev
 OUT_DIR = ROOT / "studies/invalid_label_visualization"
 OUT_JSON = OUT_DIR / "invalid_label_groups.json"
 DEMO_JSON = DEMO_ROOT / "public/data/invalid_label_groups.json"
+OUT_DUPLICATE_CSV = OUT_DIR / "invalid_duplicate_evidence_image_groups.csv"
+OUT_DUPLICATE_MD = OUT_DIR / "invalid_duplicate_evidence_image_groups.md"
 SAMPLES_DIR = DEMO_ROOT / "public/invalid-samples"
 SAMPLE_LIMIT_PER_DATASET = 5
 THUMBNAIL_MAX_EDGE = 256
@@ -438,8 +440,17 @@ def build_groups(rows: list[dict[str, str]]) -> dict[str, Any]:
         key: sum(group["total_image_count"] for group in value)
         for key, value in tables.items()
     }
+    unique_invalid_image_count = sum(
+        manifest_counts.get(group_key, 0)
+        for group_key in set(manifest_counts)
+    )
+    unique_group_keys = {
+        group["group_key"]
+        for table in tables.values()
+        for group in table
+    }
     samples = build_samples(rows, sample_keys)
-    return {
+    data = {
         "tables": tables,
         "samples": samples,
         "summary": {
@@ -451,9 +462,83 @@ def build_groups(rows: list[dict[str, str]]) -> dict[str, Any]:
                 for key, value in tables.items()
             },
             "table_image_counts": table_image_counts,
-            "total_image_count": sum(table_image_counts.values()),
+            "evidence_table_total_group_count": sum(len(value) for value in tables.values()),
+            "evidence_table_total_image_count": sum(table_image_counts.values()),
+            "unique_group_count": len(unique_group_keys),
+            "total_image_count": unique_invalid_image_count,
+            "total_image_count_semantics": "unique_dataset_invalid_group_image_union",
         },
     }
+    write_duplicate_evidence_report(data)
+    return data
+
+
+def write_duplicate_evidence_report(data: dict[str, Any]) -> None:
+    by_dataset_group: dict[tuple[str, str], dict[str, Any]] = {}
+    for table_key, groups in data["tables"].items():
+        for group in groups:
+            for dataset in group["datasets"]:
+                key = (dataset["dataset_id"], group["group_key"])
+                item = by_dataset_group.setdefault(
+                    key,
+                    {
+                        "dataset_id": dataset["dataset_id"],
+                        "group_key": group["group_key"],
+                        "image_count": dataset["image_count"],
+                        "tables": set(),
+                        "aliases": set(),
+                    },
+                )
+                item["tables"].add(table_key)
+                item["aliases"].update(group["aliases"])
+
+    duplicates = [
+        item for item in by_dataset_group.values()
+        if len(item["tables"]) > 1
+    ]
+    duplicates.sort(key=lambda item: (-int(item["image_count"]), item["dataset_id"], item["group_key"]))
+
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    with OUT_DUPLICATE_CSV.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=["dataset_id", "group_key", "image_count", "tables", "aliases"],
+        )
+        writer.writeheader()
+        for item in duplicates:
+            writer.writerow(
+                {
+                    "dataset_id": item["dataset_id"],
+                    "group_key": item["group_key"],
+                    "image_count": item["image_count"],
+                    "tables": "|".join(sorted(item["tables"])),
+                    "aliases": "|".join(unique_sorted(list(item["aliases"]))),
+                }
+            )
+
+    duplicate_images = sum(int(item["image_count"]) for item in duplicates)
+    lines = [
+        "# Invalid Duplicate Evidence Image Groups",
+        "",
+        "These rows explain the gap between invalid evidence-table image totals and unique invalid image totals in the demo. Each listed dataset/group appears in both invalid tables, so its images are counted once in each evidence table but once in the unique demo total.",
+        "",
+        f"- Duplicate dataset/group entries: {len(duplicates):,}",
+        f"- Duplicate image count: {duplicate_images:,}",
+        "",
+        "| Dataset | Group | Images | Tables | Aliases |",
+        "| --- | --- | ---: | --- | --- |",
+    ]
+    for item in duplicates:
+        lines.append(
+            "| `{dataset}` | {group} | {count:,} | `{tables}` | {aliases} |".format(
+                dataset=item["dataset_id"],
+                group=str(item["group_key"]).replace("|", "\\|"),
+                count=int(item["image_count"]),
+                tables="|".join(sorted(item["tables"])).replace("|", "\\|"),
+                aliases=", ".join(unique_sorted(list(item["aliases"]))).replace("|", "\\|"),
+            )
+        )
+    OUT_DUPLICATE_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def main() -> int:

@@ -30,9 +30,9 @@
       "bytes": 1594076
     },
     "invalid_label_groups.json": {
-      "path": "public/data/invalid_label_groups.json",
-      "sha256": "cb2eb89628c9d6ea5015efaaaa6555b7d1ce7f41ebffcec52edfbf69ab7c1963",
-      "bytes": 711109
+      "path": "demo/taxonomy-integration-review/public/data/invalid_label_groups.json",
+      "sha256": "f0d67fc72b848b9f8f38ccc5619c3aa7ff79b99ae3c0421ae96e5dddf36e2c6a",
+      "bytes": 711313
     },
     "worms_lineages.json": {
       "path": "public/data/worms_lineages.json",

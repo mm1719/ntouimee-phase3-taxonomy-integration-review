@@ -286,7 +286,9 @@ const invalid = {
       non_taxonomic_category: 612,
       taxonomic_mismatch: 7
     },
-    total_image_count: 619
+    evidence_table_total_image_count: 619,
+    total_image_count_semantics: "unique_dataset_invalid_group_image_union",
+    total_image_count: 607
   }
 };
 
@@ -409,6 +411,8 @@ describe("App invalid labels UI", () => {
     expect(screen.getByText("Mismatch")).toBeInTheDocument();
     expect(screen.getByText("Total invalid")).toBeInTheDocument();
     expect(screen.getByText("Invalid images")).toBeInTheDocument();
+    expect(screen.getByText("607")).toBeInTheDocument();
+    expect(screen.queryByText("619")).not.toBeInTheDocument();
   });
 
   it("navigates between valid and invalid routes", async () => {

@@ -124,6 +124,10 @@ export type InvalidLabelData = {
     excluded_valid_tree_overlap_default: boolean;
     table_counts: Record<string, number>;
     table_image_counts: Record<string, number>;
+    evidence_table_total_group_count: number;
+    evidence_table_total_image_count: number;
+    unique_group_count: number;
     total_image_count: number;
+    total_image_count_semantics: string;
   };
 };

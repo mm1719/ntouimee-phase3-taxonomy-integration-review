@@ -15801,6 +15801,10 @@
       "non_taxonomic_category": 3062878,
       "taxonomic_mismatch": 367401
     },
-    "total_image_count": 3430279
+    "evidence_table_total_group_count": 125,
+    "evidence_table_total_image_count": 3430279,
+    "unique_group_count": 107,
+    "total_image_count": 3144282,
+    "total_image_count_semantics": "unique_dataset_invalid_group_image_union"
   }
 }

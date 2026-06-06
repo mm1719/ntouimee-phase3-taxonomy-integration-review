@@ -122,7 +122,7 @@ describe("valid route public data contract", () => {
 describe("invalid route public data contract", () => {
   const invalid = readJson<InvalidLabelData>("invalid_label_groups.json");
 
-  it("keeps table counts and total image count aligned with grouped rows", () => {
+  it("keeps table counts and image-count semantics aligned with grouped rows", () => {
     const nonTaxonomic = invalid.tables.non_taxonomic_category;
     const mismatch = invalid.tables.taxonomic_mismatch;
 
@@ -135,7 +135,28 @@ describe("invalid route public data contract", () => {
       (sum, group) => sum + group.total_image_count,
       0
     );
-    expect(tableImageCount).toBe(invalid.summary.total_image_count);
+    expect(tableImageCount).toBe(invalid.summary.evidence_table_total_image_count);
+
+    const uniqueDatasetGroupCounts = new Map<string, number>();
+    [...nonTaxonomic, ...mismatch].forEach((group) => {
+      group.datasets.forEach((dataset) => {
+        const key = `${dataset.dataset_id}::${group.group_key}`;
+        const previous = uniqueDatasetGroupCounts.get(key);
+        if (previous === undefined) {
+          uniqueDatasetGroupCounts.set(key, dataset.image_count);
+        } else {
+          expect(previous, key).toBe(dataset.image_count);
+        }
+      });
+    });
+    const uniqueInvalidImageCount = Array.from(uniqueDatasetGroupCounts.values()).reduce(
+      (sum, count) => sum + count,
+      0
+    );
+    expect(invalid.summary.total_image_count_semantics).toBe(
+      "unique_dataset_invalid_group_image_union"
+    );
+    expect(uniqueInvalidImageCount).toBe(invalid.summary.total_image_count);
   });
 
   it("keeps invalid aliases grouped uniquely within each table", () => {
