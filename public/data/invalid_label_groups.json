@@ -1044,277 +1044,14 @@
         ]
       },
       {
-        "group_key": "dark<detritus",
-        "sample_key": "non_taxonomic_category::dark<detritus",
-        "aliases": [
-          "dark<detritus"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck",
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 465288,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 465288,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "dark<detritus"
-            ],
-            "image_count": 415650,
-            "reasons": [
-              "Strict rule: label contains non-taxonomic, grouped, or temporary-category markers"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/dark%3Cdetritus?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 415650
-          },
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "dark<detritus"
-            ],
-            "image_count": 49638,
-            "reasons": [
-              "Strict rule: label contains non-taxonomic, grouped, or temporary-category markers"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/dark%3Cdetritus?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 49638
-          }
-        ]
-      },
-      {
-        "group_key": "dark<sphere",
-        "sample_key": "non_taxonomic_category::dark<sphere",
-        "aliases": [
-          "dark<sphere"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck"
-        ],
-        "total_image_count": 5,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 5,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "dark<sphere"
-            ],
-            "image_count": 5,
-            "reasons": [
-              "Strict rule: label contains non-taxonomic, grouped, or temporary-category markers"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/dark%3Csphere?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 5
-          }
-        ]
-      },
-      {
-        "group_key": "darkrods",
-        "sample_key": "non_taxonomic_category::darkrods",
-        "aliases": [
-          "darkrods"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "flowcam_net"
-        ],
-        "total_image_count": 841,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 841,
-        "datasets": [
-          {
-            "dataset_id": "flowcam_net",
-            "aliases": [
-              "darkrods"
-            ],
-            "image_count": 841,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/darkrods?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 841
-          }
-        ]
-      },
-      {
-        "group_key": "darkrods<othertocheck",
-        "sample_key": "non_taxonomic_category::darkrods<othertocheck",
-        "aliases": [
-          "darkrods<othertocheck"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck"
-        ],
-        "total_image_count": 7831,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 7831,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "darkrods<othertocheck"
-            ],
-            "image_count": 7831,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/darkrods%3Cothertocheck?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 7831
-          }
-        ]
-      },
-      {
-        "group_key": "darkrods<rods",
-        "sample_key": "non_taxonomic_category::darkrods<rods",
-        "aliases": [
-          "darkrods<rods"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 1342,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 1342,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "darkrods<rods"
-            ],
-            "image_count": 1342,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/darkrods%3Crods?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 1342
-          }
-        ]
-      },
-      {
-        "group_key": "darksphere",
-        "sample_key": "non_taxonomic_category::darksphere",
-        "aliases": [
-          "darksphere"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "flowcam_net",
-          "tara_pacific_deck"
-        ],
-        "total_image_count": 3126,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 3126,
-        "datasets": [
-          {
-            "dataset_id": "flowcam_net",
-            "aliases": [
-              "darksphere"
-            ],
-            "image_count": 1704,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/darksphere?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 1704
-          },
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "darksphere"
-            ],
-            "image_count": 1422,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/darksphere?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 1422
-          }
-        ]
-      },
-      {
         "group_key": "detritus",
         "sample_key": "non_taxonomic_category::detritus",
         "aliases": [
+          "dark<detritus",
           "detritus",
-          "Detritus"
+          "Detritus",
+          "detritus<not-living",
+          "light<detritus"
         ],
         "status": "Non-Taxonomic Category",
         "dataset_ids": [
@@ -1324,11 +1061,11 @@
           "tara_pacific_deck",
           "tara_pacific_bongo"
         ],
-        "total_image_count": 1228536,
+        "total_image_count": 1912256,
         "include_valid_tree_overlap": false,
         "invalid_reason_count": 2,
         "valid_image_count": 0,
-        "invalid_image_count": 1228536,
+        "invalid_image_count": 1912256,
         "datasets": [
           {
             "dataset_id": "life_watch",
@@ -1395,9 +1132,12 @@
           {
             "dataset_id": "tara_pacific_deck",
             "aliases": [
-              "detritus"
+              "dark<detritus",
+              "detritus",
+              "detritus<not-living",
+              "light<detritus"
             ],
-            "image_count": 491986,
+            "image_count": 1068407,
             "reasons": [
               "Strict rule: label contains non-taxonomic, grouped, or temporary-category markers"
             ],
@@ -1405,68 +1145,202 @@
               "derived/analysis_ready/tara_pacific_deck/manifest.csv"
             ],
             "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/detritus?like=false&marine_only=false"
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/dark%3Cdetritus?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/detritus%3Cnot%20living?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/detritus?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/light%3Cdetritus?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no",
             "invalid_reason_count": 1,
             "valid_image_count": 0,
-            "invalid_image_count": 491986
+            "invalid_image_count": 1068407
           },
           {
             "dataset_id": "tara_pacific_bongo",
             "aliases": [
-              "detritus"
+              "dark<detritus",
+              "detritus",
+              "light<detritus"
             ],
-            "image_count": 114801,
+            "image_count": 222100,
             "reasons": [
               "Strict rule: label contains non-taxonomic, grouped, or temporary-category markers"
             ],
             "source_examples": [],
             "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/detritus?like=false&marine_only=false"
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/dark%3Cdetritus?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/detritus?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/light%3Cdetritus?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no",
             "invalid_reason_count": 1,
             "valid_image_count": 0,
-            "invalid_image_count": 114801
+            "invalid_image_count": 222100
           }
         ]
       },
       {
-        "group_key": "detritus<not-living",
-        "sample_key": "non_taxonomic_category::detritus<not-living",
+        "group_key": "sphere",
+        "sample_key": "non_taxonomic_category::sphere",
         "aliases": [
-          "detritus<not-living"
+          "dark<sphere",
+          "darksphere",
+          "light<sphere",
+          "lightsphere",
+          "othersphere"
         ],
         "status": "Non-Taxonomic Category",
         "dataset_ids": [
+          "flowcam_net",
           "tara_pacific_deck"
         ],
-        "total_image_count": 6817,
+        "total_image_count": 126963,
         "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
+        "invalid_reason_count": 2,
         "valid_image_count": 0,
-        "invalid_image_count": 6817,
+        "invalid_image_count": 126963,
         "datasets": [
+          {
+            "dataset_id": "flowcam_net",
+            "aliases": [
+              "darksphere",
+              "lightsphere"
+            ],
+            "image_count": 14838,
+            "reasons": [
+              "No local AphiaID and no exact WoRMS name match under strict validation"
+            ],
+            "source_examples": [
+              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
+            ],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/darksphere?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/lightsphere?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 1,
+            "valid_image_count": 0,
+            "invalid_image_count": 14838
+          },
           {
             "dataset_id": "tara_pacific_deck",
             "aliases": [
-              "detritus<not-living"
+              "dark<sphere",
+              "darksphere",
+              "light<sphere",
+              "lightsphere",
+              "othersphere"
             ],
-            "image_count": 6817,
+            "image_count": 112125,
             "reasons": [
+              "No local AphiaID and no exact WoRMS name match under strict validation",
               "Strict rule: label contains non-taxonomic, grouped, or temporary-category markers"
             ],
             "source_examples": [
               "derived/analysis_ready/tara_pacific_deck/manifest.csv"
             ],
             "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/detritus%3Cnot%20living?like=false&marine_only=false"
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/dark%3Csphere?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/darksphere?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/light%3Csphere?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/lightsphere?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/othersphere?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 2,
+            "valid_image_count": 0,
+            "invalid_image_count": 112125
+          }
+        ]
+      },
+      {
+        "group_key": "rods",
+        "sample_key": "non_taxonomic_category::rods",
+        "aliases": [
+          "darkrods",
+          "darkrods<othertocheck",
+          "darkrods<rods",
+          "lightrods",
+          "lightrods<othertocheck",
+          "lightrods<rods"
+        ],
+        "status": "Non-Taxonomic Category",
+        "dataset_ids": [
+          "flowcam_net",
+          "tara_pacific_deck",
+          "tara_pacific_bongo"
+        ],
+        "total_image_count": 41574,
+        "include_valid_tree_overlap": false,
+        "invalid_reason_count": 1,
+        "valid_image_count": 0,
+        "invalid_image_count": 41574,
+        "datasets": [
+          {
+            "dataset_id": "flowcam_net",
+            "aliases": [
+              "darkrods",
+              "lightrods"
+            ],
+            "image_count": 4489,
+            "reasons": [
+              "No local AphiaID and no exact WoRMS name match under strict validation"
+            ],
+            "source_examples": [
+              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
+            ],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/darkrods?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/lightrods?like=false&marine_only=false"
             ],
             "valid_tree_entry": "no",
             "invalid_reason_count": 1,
             "valid_image_count": 0,
-            "invalid_image_count": 6817
+            "invalid_image_count": 4489
+          },
+          {
+            "dataset_id": "tara_pacific_deck",
+            "aliases": [
+              "darkrods<othertocheck",
+              "lightrods<othertocheck"
+            ],
+            "image_count": 27880,
+            "reasons": [
+              "No local AphiaID and no exact WoRMS name match under strict validation"
+            ],
+            "source_examples": [
+              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
+            ],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/darkrods%3Cothertocheck?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/lightrods%3Cothertocheck?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 1,
+            "valid_image_count": 0,
+            "invalid_image_count": 27880
+          },
+          {
+            "dataset_id": "tara_pacific_bongo",
+            "aliases": [
+              "darkrods<rods",
+              "lightrods<othertocheck",
+              "lightrods<rods"
+            ],
+            "image_count": 9205,
+            "reasons": [
+              "No local AphiaID and no exact WoRMS name match under strict validation"
+            ],
+            "source_examples": [],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/darkrods%3Crods?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/lightrods%3Cothertocheck?like=false&marine_only=false",
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/lightrods%3Crods?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 1,
+            "valid_image_count": 0,
+            "invalid_image_count": 9205
           }
         ]
       },
@@ -2286,291 +2160,6 @@
         ]
       },
       {
-        "group_key": "light<detritus",
-        "sample_key": "non_taxonomic_category::light<detritus",
-        "aliases": [
-          "light<detritus"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck",
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 211615,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 211615,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "light<detritus"
-            ],
-            "image_count": 153954,
-            "reasons": [
-              "Strict rule: label contains non-taxonomic, grouped, or temporary-category markers"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/light%3Cdetritus?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 153954
-          },
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "light<detritus"
-            ],
-            "image_count": 57661,
-            "reasons": [
-              "Strict rule: label contains non-taxonomic, grouped, or temporary-category markers"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/light%3Cdetritus?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 57661
-          }
-        ]
-      },
-      {
-        "group_key": "light<sphere",
-        "sample_key": "non_taxonomic_category::light<sphere",
-        "aliases": [
-          "light<sphere"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck"
-        ],
-        "total_image_count": 459,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 459,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "light<sphere"
-            ],
-            "image_count": 459,
-            "reasons": [
-              "Strict rule: label contains non-taxonomic, grouped, or temporary-category markers"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/light%3Csphere?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 459
-          }
-        ]
-      },
-      {
-        "group_key": "lightrods",
-        "sample_key": "non_taxonomic_category::lightrods",
-        "aliases": [
-          "lightrods"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "flowcam_net"
-        ],
-        "total_image_count": 3648,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 3648,
-        "datasets": [
-          {
-            "dataset_id": "flowcam_net",
-            "aliases": [
-              "lightrods"
-            ],
-            "image_count": 3648,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/lightrods?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 3648
-          }
-        ]
-      },
-      {
-        "group_key": "lightrods<othertocheck",
-        "sample_key": "non_taxonomic_category::lightrods<othertocheck",
-        "aliases": [
-          "lightrods<othertocheck"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck",
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 20079,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 20079,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "lightrods<othertocheck"
-            ],
-            "image_count": 20049,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/lightrods%3Cothertocheck?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 20049
-          },
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "lightrods<othertocheck"
-            ],
-            "image_count": 30,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/lightrods%3Cothertocheck?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 30
-          }
-        ]
-      },
-      {
-        "group_key": "lightrods<rods",
-        "sample_key": "non_taxonomic_category::lightrods<rods",
-        "aliases": [
-          "lightrods<rods"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_bongo"
-        ],
-        "total_image_count": 7833,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 7833,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_bongo",
-            "aliases": [
-              "lightrods<rods"
-            ],
-            "image_count": 7833,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/lightrods%3Crods?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 7833
-          }
-        ]
-      },
-      {
-        "group_key": "lightsphere",
-        "sample_key": "non_taxonomic_category::lightsphere",
-        "aliases": [
-          "lightsphere"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "flowcam_net",
-          "tara_pacific_deck"
-        ],
-        "total_image_count": 66337,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 66337,
-        "datasets": [
-          {
-            "dataset_id": "flowcam_net",
-            "aliases": [
-              "lightsphere"
-            ],
-            "image_count": 13134,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/lightsphere?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 13134
-          },
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "lightsphere"
-            ],
-            "image_count": 53203,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/lightsphere?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 53203
-          }
-        ]
-      },
-      {
         "group_key": "long (chained) diatom",
         "sample_key": "non_taxonomic_category::long (chained) diatom",
         "aliases": [
@@ -3093,44 +2682,6 @@
             "invalid_reason_count": 1,
             "valid_image_count": 0,
             "invalid_image_count": 163
-          }
-        ]
-      },
-      {
-        "group_key": "othersphere",
-        "sample_key": "non_taxonomic_category::othersphere",
-        "aliases": [
-          "othersphere"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "tara_pacific_deck"
-        ],
-        "total_image_count": 57036,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 57036,
-        "datasets": [
-          {
-            "dataset_id": "tara_pacific_deck",
-            "aliases": [
-              "othersphere"
-            ],
-            "image_count": 57036,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/othersphere?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 57036
           }
         ]
       },
@@ -7757,378 +7308,6 @@
         "height": "65"
       }
     ],
-    "non_taxonomic_category::dark<detritus": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "dark<detritus",
-        "image_id": "i00_oa136_001_g100014429_6818",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/dark_detritus/01_58b3e6cbba.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_6818.png",
-        "width": "97",
-        "height": "73"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "dark<detritus",
-        "image_id": "i00_oa136_001_g100014429_7364",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/dark_detritus/02_eb2784c393.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_7364.png",
-        "width": "97",
-        "height": "61"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "dark<detritus",
-        "image_id": "i00_oa136_001_g100014429_10336",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/dark_detritus/03_cfdb28db1f.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_10336.png",
-        "width": "97",
-        "height": "61"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "dark<detritus",
-        "image_id": "i00_oa136_001_g100014429_8470",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/dark_detritus/04_cc1058a0fa.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_8470.png",
-        "width": "97",
-        "height": "70"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "dark<detritus",
-        "image_id": "i00_oa136_001_g100014429_3091",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/dark_detritus/05_45e8c2b094.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_3091.png",
-        "width": "97",
-        "height": "64"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "dark<detritus",
-        "image_id": "aw_i04_s4_002_r110001920_15325",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/dark_detritus/01_d6e1740329.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_15325.png",
-        "width": "97",
-        "height": "63"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "dark<detritus",
-        "image_id": "aw_i04_s4_002_r110001920_15634",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/dark_detritus/02_5e182736e7.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_15634.png",
-        "width": "97",
-        "height": "61"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "dark<detritus",
-        "image_id": "aw_i04_s4_002_r110001920_3218",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/dark_detritus/03_45f3dca3ab.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_3218.png",
-        "width": "97",
-        "height": "64"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "dark<detritus",
-        "image_id": "aw_i04_s4_002_r110001920_1761",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/dark_detritus/04_021d1f3944.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_1761.png",
-        "width": "97",
-        "height": "75"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "dark<detritus",
-        "image_id": "aw_i04_s4_002_r110001920_1950",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/dark_detritus/05_50d337e2ab.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_1950.png",
-        "width": "97",
-        "height": "69"
-      }
-    ],
-    "non_taxonomic_category::dark<sphere": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "dark<sphere",
-        "image_id": "i09_oa067_001_g100017677_601",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/dark_sphere/01_ed71eebf69.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_601.png",
-        "width": "97",
-        "height": "69"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "dark<sphere",
-        "image_id": "i09_oa067_001_g100017677_18614",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/dark_sphere/02_745d669e90.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_18614.png",
-        "width": "97",
-        "height": "70"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "dark<sphere",
-        "image_id": "i09_oa067_001_g100017677_27717",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/dark_sphere/03_868fb83b8a.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_27717.png",
-        "width": "97",
-        "height": "75"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "dark<sphere",
-        "image_id": "oa096_001_g100016058_32581",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/dark_sphere/04_665772f7be.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_32581.png",
-        "width": "97",
-        "height": "68"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "dark<sphere",
-        "image_id": "oa096_001_g100016058_13888",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/dark_sphere/05_85ac603321.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_13888.png",
-        "width": "97",
-        "height": "83"
-      }
-    ],
-    "non_taxonomic_category::darkrods": [
-      {
-        "dataset_id": "flowcam_net",
-        "label": "darkrods",
-        "image_id": "164861426",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/darkrods/01_6a3ac7a0dd.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/darkrods/164861426.png",
-        "width": "31",
-        "height": "13"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "darkrods",
-        "image_id": "165456191",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/darkrods/02_17acdbf9ed.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/darkrods/165456191.png",
-        "width": "56",
-        "height": "9"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "darkrods",
-        "image_id": "165456474",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/darkrods/03_4d102cd7f3.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/darkrods/165456474.png",
-        "width": "17",
-        "height": "72"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "darkrods",
-        "image_id": "165455135",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/darkrods/04_648b8b7d4d.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/darkrods/165455135.png",
-        "width": "34",
-        "height": "60"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "darkrods",
-        "image_id": "165026492",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/darkrods/05_dc2c94da5d.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/darkrods/165026492.png",
-        "width": "20",
-        "height": "104"
-      }
-    ],
-    "non_taxonomic_category::darkrods<othertocheck": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "darkrods<othertocheck",
-        "image_id": "i00_oa136_001_g100014429_10733",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/darkrods_othertocheck/01_68f7058706.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_10733.png",
-        "width": "97",
-        "height": "106"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "darkrods<othertocheck",
-        "image_id": "i00_oa136_001_g100014429_10223",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/darkrods_othertocheck/02_5d01809e0f.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_10223.png",
-        "width": "99",
-        "height": "62"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "darkrods<othertocheck",
-        "image_id": "i00_oa136_001_g100014429_2155",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/darkrods_othertocheck/03_76dc16a038.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_2155.png",
-        "width": "97",
-        "height": "88"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "darkrods<othertocheck",
-        "image_id": "i00_oa136_001_g100014429_11166",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/darkrods_othertocheck/04_09241140e9.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_11166.png",
-        "width": "97",
-        "height": "59"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "darkrods<othertocheck",
-        "image_id": "i00_oa136_001_g100014429_6776",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/darkrods_othertocheck/05_693db7e26d.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_6776.png",
-        "width": "97",
-        "height": "61"
-      }
-    ],
-    "non_taxonomic_category::darkrods<rods": [
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "darkrods<rods",
-        "image_id": "aw_i05_s1_001_r110001872_17779",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/darkrods_rods/01_5c17ca9eb3.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_17779.png",
-        "width": "97",
-        "height": "59"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "darkrods<rods",
-        "image_id": "aw_i05_s1_001_r110001872_29860",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/darkrods_rods/02_a2d6702cde.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_29860.png",
-        "width": "97",
-        "height": "179"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "darkrods<rods",
-        "image_id": "aw_i05_s1_001_r110001872_1531",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/darkrods_rods/03_5c431220ef.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_1531.png",
-        "width": "97",
-        "height": "116"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "darkrods<rods",
-        "image_id": "aw_i05_s1_001_r110001872_256",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/darkrods_rods/04_6e610cd660.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_256.png",
-        "width": "97",
-        "height": "181"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "darkrods<rods",
-        "image_id": "aw_i05_s1_001_r110001872_27633",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/darkrods_rods/05_fd6b90556d.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_27633.png",
-        "width": "97",
-        "height": "205"
-      }
-    ],
-    "non_taxonomic_category::darksphere": [
-      {
-        "dataset_id": "flowcam_net",
-        "label": "darksphere",
-        "image_id": "165238276",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/darksphere/01_e77ff1a094.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/darksphere/165238276.png",
-        "width": "34",
-        "height": "39"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "darksphere",
-        "image_id": "165157029",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/darksphere/02_aae6ab14b4.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/darksphere/165157029.png",
-        "width": "17",
-        "height": "18"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "darksphere",
-        "image_id": "165240096",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/darksphere/03_cd5a31530f.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/darksphere/165240096.png",
-        "width": "32",
-        "height": "31"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "darksphere",
-        "image_id": "165242003",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/darksphere/04_a76d357839.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/darksphere/165242003.png",
-        "width": "55",
-        "height": "58"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "darksphere",
-        "image_id": "165539409",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/darksphere/05_7f79f2425f.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/darksphere/165539409.png",
-        "width": "45",
-        "height": "49"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "darksphere",
-        "image_id": "i00_oa136_001_g100014429_9651",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/darksphere/01_05fb9cd435.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_9651.png",
-        "width": "97",
-        "height": "59"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "darksphere",
-        "image_id": "i00_oa137_001_g100014437_4634",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/darksphere/02_38fb267efe.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa137_001_g100014437/i00_oa137_001_g100014437_4634.png",
-        "width": "97",
-        "height": "57"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "darksphere",
-        "image_id": "i00_oa139_001_g100014672_24788",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/darksphere/03_bd22d61be0.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_24788.png",
-        "width": "97",
-        "height": "63"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "darksphere",
-        "image_id": "i00_oa139_001_g100014672_19483",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/darksphere/04_ac1e705f6f.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_19483.png",
-        "width": "97",
-        "height": "58"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "darksphere",
-        "image_id": "i00_oa139_001_g100014672_22105",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/darksphere/05_96cf1e9c3b.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_22105.png",
-        "width": "97",
-        "height": "59"
-      }
-    ],
     "non_taxonomic_category::detritus": [
       {
         "dataset_id": "life_watch",
@@ -8311,6 +7490,141 @@
         "height": "107"
       },
       {
+        "dataset_id": "tara_pacific_deck",
+        "label": "dark<detritus",
+        "image_id": "i00_oa136_001_g100014429_6818",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/dark_detritus/01_97408189fb.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_6818.png",
+        "width": "97",
+        "height": "73"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "dark<detritus",
+        "image_id": "i00_oa136_001_g100014429_7364",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/dark_detritus/02_4aab4bc91e.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_7364.png",
+        "width": "97",
+        "height": "61"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "dark<detritus",
+        "image_id": "i00_oa136_001_g100014429_10336",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/dark_detritus/03_e925ec8f14.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_10336.png",
+        "width": "97",
+        "height": "61"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "dark<detritus",
+        "image_id": "i00_oa136_001_g100014429_8470",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/dark_detritus/04_cc3f3d2eff.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_8470.png",
+        "width": "97",
+        "height": "70"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "dark<detritus",
+        "image_id": "i00_oa136_001_g100014429_3091",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/dark_detritus/05_d367fa4fbd.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_3091.png",
+        "width": "97",
+        "height": "64"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "light<detritus",
+        "image_id": "i00_oa136_001_g100014429_9297",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/light_detritus/01_a4c913d8d8.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_9297.png",
+        "width": "97",
+        "height": "61"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "light<detritus",
+        "image_id": "i00_oa137_001_g100014437_2223",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/light_detritus/02_40f154fc81.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa137_001_g100014437/i00_oa137_001_g100014437_2223.png",
+        "width": "97",
+        "height": "70"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "light<detritus",
+        "image_id": "i00_oa137_001_g100014437_55",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/light_detritus/03_31b327b01d.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa137_001_g100014437/i00_oa137_001_g100014437_55.png",
+        "width": "97",
+        "height": "73"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "light<detritus",
+        "image_id": "i00_oa137_001_g100014437_2444",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/light_detritus/04_68e6af28da.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa137_001_g100014437/i00_oa137_001_g100014437_2444.png",
+        "width": "97",
+        "height": "71"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "light<detritus",
+        "image_id": "i00_oa137_001_g100014437_1330",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/light_detritus/05_54207b23fc.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa137_001_g100014437/i00_oa137_001_g100014437_1330.png",
+        "width": "97",
+        "height": "58"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "detritus<not-living",
+        "image_id": "i09_oa067_001_g100017677_10081",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/detritus_not-living/01_83458fb9a6.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_10081.png",
+        "width": "97",
+        "height": "90"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "detritus<not-living",
+        "image_id": "i09_oa067_001_g100017677_8239",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/detritus_not-living/02_11d5257b14.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_8239.png",
+        "width": "97",
+        "height": "112"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "detritus<not-living",
+        "image_id": "i09_oa067_001_g100017677_212",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/detritus_not-living/03_83cf75d95d.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_212.png",
+        "width": "153",
+        "height": "84"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "detritus<not-living",
+        "image_id": "i09_oa067_001_g100017677_7329",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/detritus_not-living/04_60a42a8251.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_7329.png",
+        "width": "97",
+        "height": "153"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "detritus<not-living",
+        "image_id": "i09_oa067_001_g100017677_4497",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/detritus_not-living/05_af0ed45fa6.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_4497.png",
+        "width": "97",
+        "height": "74"
+      },
+      {
         "dataset_id": "tara_pacific_bongo",
         "label": "detritus",
         "image_id": "aw_i04_s4_002_r110001920_9630",
@@ -8354,53 +7668,96 @@
         "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_11311.png",
         "width": "97",
         "height": "66"
-      }
-    ],
-    "non_taxonomic_category::detritus<not-living": [
+      },
       {
-        "dataset_id": "tara_pacific_deck",
-        "label": "detritus<not-living",
-        "image_id": "i09_oa067_001_g100017677_10081",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/detritus_not-living/01_421cf65daa.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_10081.png",
+        "dataset_id": "tara_pacific_bongo",
+        "label": "dark<detritus",
+        "image_id": "aw_i04_s4_002_r110001920_15325",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/dark_detritus/01_d2cb65c227.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_15325.png",
         "width": "97",
-        "height": "90"
+        "height": "63"
       },
       {
-        "dataset_id": "tara_pacific_deck",
-        "label": "detritus<not-living",
-        "image_id": "i09_oa067_001_g100017677_8239",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/detritus_not-living/02_2b2e73221c.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_8239.png",
+        "dataset_id": "tara_pacific_bongo",
+        "label": "dark<detritus",
+        "image_id": "aw_i04_s4_002_r110001920_15634",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/dark_detritus/02_97da2a6353.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_15634.png",
         "width": "97",
-        "height": "112"
+        "height": "61"
       },
       {
-        "dataset_id": "tara_pacific_deck",
-        "label": "detritus<not-living",
-        "image_id": "i09_oa067_001_g100017677_212",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/detritus_not-living/03_2c66035ef2.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_212.png",
-        "width": "153",
-        "height": "84"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "detritus<not-living",
-        "image_id": "i09_oa067_001_g100017677_7329",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/detritus_not-living/04_618a564b10.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_7329.png",
+        "dataset_id": "tara_pacific_bongo",
+        "label": "dark<detritus",
+        "image_id": "aw_i04_s4_002_r110001920_3218",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/dark_detritus/03_3185508452.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_3218.png",
         "width": "97",
-        "height": "153"
+        "height": "64"
       },
       {
-        "dataset_id": "tara_pacific_deck",
-        "label": "detritus<not-living",
-        "image_id": "i09_oa067_001_g100017677_4497",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/detritus_not-living/05_fd880f3b83.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_4497.png",
+        "dataset_id": "tara_pacific_bongo",
+        "label": "dark<detritus",
+        "image_id": "aw_i04_s4_002_r110001920_1761",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/dark_detritus/04_7c405f4a37.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_1761.png",
+        "width": "97",
+        "height": "75"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "dark<detritus",
+        "image_id": "aw_i04_s4_002_r110001920_1950",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/dark_detritus/05_9c5a96ae00.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_1950.png",
+        "width": "97",
+        "height": "69"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "light<detritus",
+        "image_id": "aw_i04_s4_002_r110001920_13958",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/light_detritus/01_d25b8ea600.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_13958.png",
+        "width": "97",
+        "height": "61"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "light<detritus",
+        "image_id": "aw_i04_s4_002_r110001920_10026",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/light_detritus/02_8020d850f3.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_10026.png",
+        "width": "97",
+        "height": "64"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "light<detritus",
+        "image_id": "aw_i04_s4_002_r110001920_16068",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/light_detritus/03_b06d4ac43c.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_16068.png",
+        "width": "97",
+        "height": "61"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "light<detritus",
+        "image_id": "aw_i04_s4_002_r110001920_9620",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/light_detritus/04_75bc64ce39.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_9620.png",
         "width": "97",
         "height": "74"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "light<detritus",
+        "image_id": "aw_i04_s4_002_r110001920_4971",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/light_detritus/05_636b0e9238.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_4971.png",
+        "width": "97",
+        "height": "60"
       }
     ],
     "non_taxonomic_category::dinoflagellate cyst": [
@@ -9497,423 +8854,6 @@
         "height": "32"
       }
     ],
-    "non_taxonomic_category::light<detritus": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "light<detritus",
-        "image_id": "i00_oa136_001_g100014429_9297",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/light_detritus/01_b3c6f84de6.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_9297.png",
-        "width": "97",
-        "height": "61"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "light<detritus",
-        "image_id": "i00_oa137_001_g100014437_2223",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/light_detritus/02_76d81cdbb0.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa137_001_g100014437/i00_oa137_001_g100014437_2223.png",
-        "width": "97",
-        "height": "70"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "light<detritus",
-        "image_id": "i00_oa137_001_g100014437_55",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/light_detritus/03_3cfcedbe63.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa137_001_g100014437/i00_oa137_001_g100014437_55.png",
-        "width": "97",
-        "height": "73"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "light<detritus",
-        "image_id": "i00_oa137_001_g100014437_2444",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/light_detritus/04_1586698146.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa137_001_g100014437/i00_oa137_001_g100014437_2444.png",
-        "width": "97",
-        "height": "71"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "light<detritus",
-        "image_id": "i00_oa137_001_g100014437_1330",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/light_detritus/05_74e2dd4ea4.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa137_001_g100014437/i00_oa137_001_g100014437_1330.png",
-        "width": "97",
-        "height": "58"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "light<detritus",
-        "image_id": "aw_i04_s4_002_r110001920_13958",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/light_detritus/01_e99658dab0.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_13958.png",
-        "width": "97",
-        "height": "61"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "light<detritus",
-        "image_id": "aw_i04_s4_002_r110001920_10026",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/light_detritus/02_69aef54624.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_10026.png",
-        "width": "97",
-        "height": "64"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "light<detritus",
-        "image_id": "aw_i04_s4_002_r110001920_16068",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/light_detritus/03_40d78c529b.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_16068.png",
-        "width": "97",
-        "height": "61"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "light<detritus",
-        "image_id": "aw_i04_s4_002_r110001920_9620",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/light_detritus/04_0e803e508f.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_9620.png",
-        "width": "97",
-        "height": "74"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "light<detritus",
-        "image_id": "aw_i04_s4_002_r110001920_4971",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/light_detritus/05_c624dad8a9.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_4971.png",
-        "width": "97",
-        "height": "60"
-      }
-    ],
-    "non_taxonomic_category::light<sphere": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "light<sphere",
-        "image_id": "i09_oa067_001_g100017677_22876",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/light_sphere/01_986c1d930c.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_22876.png",
-        "width": "97",
-        "height": "79"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "light<sphere",
-        "image_id": "i09_oa067_001_g100017677_7414",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/light_sphere/02_ecdcef44fd.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_7414.png",
-        "width": "97",
-        "height": "76"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "light<sphere",
-        "image_id": "i09_oa067_001_g100017677_1049",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/light_sphere/03_7cac178e6b.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_1049.png",
-        "width": "97",
-        "height": "84"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "light<sphere",
-        "image_id": "i09_oa067_001_g100017677_19595",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/light_sphere/04_042d7420b9.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_19595.png",
-        "width": "97",
-        "height": "67"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "light<sphere",
-        "image_id": "i09_oa067_001_g100017677_10909",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/light_sphere/05_92e4b570ad.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_10909.png",
-        "width": "97",
-        "height": "68"
-      }
-    ],
-    "non_taxonomic_category::lightrods": [
-      {
-        "dataset_id": "flowcam_net",
-        "label": "lightrods",
-        "image_id": "164822930",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/lightrods/01_e08ad55818.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/lightrods/164822930.png",
-        "width": "39",
-        "height": "75"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "lightrods",
-        "image_id": "165442278",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/lightrods/02_8edd0e7e72.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/lightrods/165442278.png",
-        "width": "12",
-        "height": "103"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "lightrods",
-        "image_id": "165450835",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/lightrods/03_7f11b7650f.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/lightrods/165450835.png",
-        "width": "93",
-        "height": "49"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "lightrods",
-        "image_id": "165449546",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/lightrods/04_e9f3c7d012.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/lightrods/165449546.png",
-        "width": "63",
-        "height": "37"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "lightrods",
-        "image_id": "165448530",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/lightrods/05_6337def9df.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/lightrods/165448530.png",
-        "width": "84",
-        "height": "15"
-      }
-    ],
-    "non_taxonomic_category::lightrods<othertocheck": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "lightrods<othertocheck",
-        "image_id": "i00_oa136_001_g100014429_8146",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lightrods_othertocheck/01_4a2fca8469.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_8146.png",
-        "width": "97",
-        "height": "105"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "lightrods<othertocheck",
-        "image_id": "i00_oa136_001_g100014429_11918",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lightrods_othertocheck/02_df8443b3bf.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_11918.png",
-        "width": "97",
-        "height": "93"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "lightrods<othertocheck",
-        "image_id": "i00_oa136_001_g100014429_4095",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lightrods_othertocheck/03_b9e6751801.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_4095.png",
-        "width": "97",
-        "height": "118"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "lightrods<othertocheck",
-        "image_id": "i00_oa136_001_g100014429_3333",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lightrods_othertocheck/04_4df611ee28.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_3333.png",
-        "width": "97",
-        "height": "99"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "lightrods<othertocheck",
-        "image_id": "i00_oa136_001_g100014429_2920",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lightrods_othertocheck/05_4d1c884467.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_2920.png",
-        "width": "97",
-        "height": "51"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "lightrods<othertocheck",
-        "image_id": "srf_i12_s1_001_r110001234_19673",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/lightrods_othertocheck/01_fd8fae7a1c.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i12_s1_001_r110001234/srf_i12_s1_001_r110001234_19673.png",
-        "width": "97",
-        "height": "73"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "lightrods<othertocheck",
-        "image_id": "srf_i12_s1_001_r110001234_12396",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/lightrods_othertocheck/02_be6c60f87a.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i12_s1_001_r110001234/srf_i12_s1_001_r110001234_12396.png",
-        "width": "97",
-        "height": "79"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "lightrods<othertocheck",
-        "image_id": "srf_i12_s1_001_r110001234_13049",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/lightrods_othertocheck/03_135b011849.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i12_s1_001_r110001234/srf_i12_s1_001_r110001234_13049.png",
-        "width": "97",
-        "height": "85"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "lightrods<othertocheck",
-        "image_id": "srf_i12_s1_001_r110001234_1882",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/lightrods_othertocheck/04_1c66ba6dd5.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i12_s1_001_r110001234/srf_i12_s1_001_r110001234_1882.png",
-        "width": "97",
-        "height": "108"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "lightrods<othertocheck",
-        "image_id": "srf_i12_s1_001_r110001234_7818",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/lightrods_othertocheck/05_ad6d420c3a.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i12_s1_001_r110001234/srf_i12_s1_001_r110001234_7818.png",
-        "width": "97",
-        "height": "76"
-      }
-    ],
-    "non_taxonomic_category::lightrods<rods": [
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "lightrods<rods",
-        "image_id": "aw_i04_s4_002_r110001920_2056",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/lightrods_rods/01_2b1c8fb349.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_2056.png",
-        "width": "97",
-        "height": "119"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "lightrods<rods",
-        "image_id": "aw_i04_s4_002_r110001920_5175",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/lightrods_rods/02_e9c957915e.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_5175.png",
-        "width": "97",
-        "height": "102"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "lightrods<rods",
-        "image_id": "aw_i04_s4_002_r110001920_13580",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/lightrods_rods/03_bcf088ca79.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_13580.png",
-        "width": "97",
-        "height": "114"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "lightrods<rods",
-        "image_id": "aw_i04_s4_002_r110001920_11966",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/lightrods_rods/04_8f753f1f1b.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_11966.png",
-        "width": "97",
-        "height": "57"
-      },
-      {
-        "dataset_id": "tara_pacific_bongo",
-        "label": "lightrods<rods",
-        "image_id": "aw_i04_s4_002_r110001920_4523",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/lightrods_rods/05_ceefbaa73f.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_4523.png",
-        "width": "97",
-        "height": "108"
-      }
-    ],
-    "non_taxonomic_category::lightsphere": [
-      {
-        "dataset_id": "flowcam_net",
-        "label": "lightsphere",
-        "image_id": "165375756",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/lightsphere/01_dd60d38e06.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/lightsphere/165375756.png",
-        "width": "28",
-        "height": "31"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "lightsphere",
-        "image_id": "164853085",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/lightsphere/02_181919255b.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/lightsphere/164853085.png",
-        "width": "38",
-        "height": "38"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "lightsphere",
-        "image_id": "164821201",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/lightsphere/03_afa15a71e3.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/lightsphere/164821201.png",
-        "width": "16",
-        "height": "18"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "lightsphere",
-        "image_id": "164842978",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/lightsphere/04_fe76c26826.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/lightsphere/164842978.png",
-        "width": "19",
-        "height": "13"
-      },
-      {
-        "dataset_id": "flowcam_net",
-        "label": "lightsphere",
-        "image_id": "164819238",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/lightsphere/05_e1d7706f7e.jpg",
-        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/lightsphere/164819238.png",
-        "width": "25",
-        "height": "27"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "lightsphere",
-        "image_id": "i00_oa136_001_g100014429_9149",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lightsphere/01_89d1953e1e.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_9149.png",
-        "width": "97",
-        "height": "64"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "lightsphere",
-        "image_id": "i00_oa136_001_g100014429_4867",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lightsphere/02_1284e5a35b.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_4867.png",
-        "width": "97",
-        "height": "60"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "lightsphere",
-        "image_id": "i00_oa136_001_g100014429_10499",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lightsphere/03_730df4021a.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_10499.png",
-        "width": "97",
-        "height": "62"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "lightsphere",
-        "image_id": "i00_oa136_001_g100014429_1164",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lightsphere/04_71926232ea.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_1164.png",
-        "width": "97",
-        "height": "60"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "lightsphere",
-        "image_id": "i00_oa136_001_g100014429_3674",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lightsphere/05_3022d42c79.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_3674.png",
-        "width": "97",
-        "height": "57"
-      }
-    ],
     "non_taxonomic_category::long (chained) diatom": [
       {
         "dataset_id": "life_watch_2026_image_library",
@@ -10699,53 +9639,6 @@
         "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_15918.png",
         "width": "97",
         "height": "59"
-      }
-    ],
-    "non_taxonomic_category::othersphere": [
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "othersphere",
-        "image_id": "i00_oa136_001_g100014429_2764",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/othersphere/01_620b6d382b.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_2764.png",
-        "width": "97",
-        "height": "57"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "othersphere",
-        "image_id": "i00_oa136_001_g100014429_128",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/othersphere/02_cab2f21fe5.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_128.png",
-        "width": "97",
-        "height": "58"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "othersphere",
-        "image_id": "i00_oa136_001_g100014429_5094",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/othersphere/03_952b3dd2e5.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_5094.png",
-        "width": "97",
-        "height": "59"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "othersphere",
-        "image_id": "i00_oa136_001_g100014429_11954",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/othersphere/04_2679502226.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_11954.png",
-        "width": "97",
-        "height": "57"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "othersphere",
-        "image_id": "i00_oa136_001_g100014429_7346",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/othersphere/05_72e4e6f491.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_7346.png",
-        "width": "97",
-        "height": "62"
       }
     ],
     "non_taxonomic_category::othertocheck": [
@@ -12001,6 +10894,323 @@
         "height": "94"
       }
     ],
+    "non_taxonomic_category::rods": [
+      {
+        "dataset_id": "flowcam_net",
+        "label": "darkrods",
+        "image_id": "164861426",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/darkrods/01_cfd12d1299.jpg",
+        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/darkrods/164861426.png",
+        "width": "31",
+        "height": "13"
+      },
+      {
+        "dataset_id": "flowcam_net",
+        "label": "darkrods",
+        "image_id": "165456191",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/darkrods/02_ca811f6657.jpg",
+        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/darkrods/165456191.png",
+        "width": "56",
+        "height": "9"
+      },
+      {
+        "dataset_id": "flowcam_net",
+        "label": "darkrods",
+        "image_id": "165456474",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/darkrods/03_cdec40efb5.jpg",
+        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/darkrods/165456474.png",
+        "width": "17",
+        "height": "72"
+      },
+      {
+        "dataset_id": "flowcam_net",
+        "label": "darkrods",
+        "image_id": "165455135",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/darkrods/04_6d70add943.jpg",
+        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/darkrods/165455135.png",
+        "width": "34",
+        "height": "60"
+      },
+      {
+        "dataset_id": "flowcam_net",
+        "label": "darkrods",
+        "image_id": "165026492",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/darkrods/05_58309b8b99.jpg",
+        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/darkrods/165026492.png",
+        "width": "20",
+        "height": "104"
+      },
+      {
+        "dataset_id": "flowcam_net",
+        "label": "lightrods",
+        "image_id": "164822930",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/lightrods/01_33cc2834d3.jpg",
+        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/lightrods/164822930.png",
+        "width": "39",
+        "height": "75"
+      },
+      {
+        "dataset_id": "flowcam_net",
+        "label": "lightrods",
+        "image_id": "165442278",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/lightrods/02_76089c8bc9.jpg",
+        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/lightrods/165442278.png",
+        "width": "12",
+        "height": "103"
+      },
+      {
+        "dataset_id": "flowcam_net",
+        "label": "lightrods",
+        "image_id": "165450835",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/lightrods/03_329f533801.jpg",
+        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/lightrods/165450835.png",
+        "width": "93",
+        "height": "49"
+      },
+      {
+        "dataset_id": "flowcam_net",
+        "label": "lightrods",
+        "image_id": "165449546",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/lightrods/04_2828a3850b.jpg",
+        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/lightrods/165449546.png",
+        "width": "63",
+        "height": "37"
+      },
+      {
+        "dataset_id": "flowcam_net",
+        "label": "lightrods",
+        "image_id": "165448530",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/lightrods/05_0e5b9e700c.jpg",
+        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/lightrods/165448530.png",
+        "width": "84",
+        "height": "15"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "lightrods<othertocheck",
+        "image_id": "i00_oa136_001_g100014429_8146",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lightrods_othertocheck/01_41043e343a.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_8146.png",
+        "width": "97",
+        "height": "105"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "lightrods<othertocheck",
+        "image_id": "i00_oa136_001_g100014429_11918",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lightrods_othertocheck/02_eedd42ecbb.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_11918.png",
+        "width": "97",
+        "height": "93"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "lightrods<othertocheck",
+        "image_id": "i00_oa136_001_g100014429_4095",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lightrods_othertocheck/03_49d817fe43.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_4095.png",
+        "width": "97",
+        "height": "118"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "lightrods<othertocheck",
+        "image_id": "i00_oa136_001_g100014429_3333",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lightrods_othertocheck/04_fcad3a9ee5.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_3333.png",
+        "width": "97",
+        "height": "99"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "lightrods<othertocheck",
+        "image_id": "i00_oa136_001_g100014429_2920",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lightrods_othertocheck/05_2edb6d5b3b.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_2920.png",
+        "width": "97",
+        "height": "51"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "darkrods<othertocheck",
+        "image_id": "i00_oa136_001_g100014429_10733",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/darkrods_othertocheck/01_cf07788bc3.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_10733.png",
+        "width": "97",
+        "height": "106"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "darkrods<othertocheck",
+        "image_id": "i00_oa136_001_g100014429_10223",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/darkrods_othertocheck/02_af80afba4a.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_10223.png",
+        "width": "99",
+        "height": "62"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "darkrods<othertocheck",
+        "image_id": "i00_oa136_001_g100014429_2155",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/darkrods_othertocheck/03_071d9a842d.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_2155.png",
+        "width": "97",
+        "height": "88"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "darkrods<othertocheck",
+        "image_id": "i00_oa136_001_g100014429_11166",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/darkrods_othertocheck/04_c457caa422.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_11166.png",
+        "width": "97",
+        "height": "59"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "darkrods<othertocheck",
+        "image_id": "i00_oa136_001_g100014429_6776",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/darkrods_othertocheck/05_15c5c76d43.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_6776.png",
+        "width": "97",
+        "height": "61"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "lightrods<rods",
+        "image_id": "aw_i04_s4_002_r110001920_2056",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/lightrods_rods/01_ec85ab7768.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_2056.png",
+        "width": "97",
+        "height": "119"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "lightrods<rods",
+        "image_id": "aw_i04_s4_002_r110001920_5175",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/lightrods_rods/02_57fbe9874a.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_5175.png",
+        "width": "97",
+        "height": "102"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "lightrods<rods",
+        "image_id": "aw_i04_s4_002_r110001920_13580",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/lightrods_rods/03_7b2bb560b5.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_13580.png",
+        "width": "97",
+        "height": "114"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "lightrods<rods",
+        "image_id": "aw_i04_s4_002_r110001920_11966",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/lightrods_rods/04_1cedcdfc85.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_11966.png",
+        "width": "97",
+        "height": "57"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "lightrods<rods",
+        "image_id": "aw_i04_s4_002_r110001920_4523",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/lightrods_rods/05_c10b362a2b.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_4523.png",
+        "width": "97",
+        "height": "108"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "lightrods<othertocheck",
+        "image_id": "srf_i12_s1_001_r110001234_19673",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/lightrods_othertocheck/01_ad7f589611.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i12_s1_001_r110001234/srf_i12_s1_001_r110001234_19673.png",
+        "width": "97",
+        "height": "73"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "lightrods<othertocheck",
+        "image_id": "srf_i12_s1_001_r110001234_12396",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/lightrods_othertocheck/02_14cfe9d11b.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i12_s1_001_r110001234/srf_i12_s1_001_r110001234_12396.png",
+        "width": "97",
+        "height": "79"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "lightrods<othertocheck",
+        "image_id": "srf_i12_s1_001_r110001234_13049",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/lightrods_othertocheck/03_76dafec189.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i12_s1_001_r110001234/srf_i12_s1_001_r110001234_13049.png",
+        "width": "97",
+        "height": "85"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "lightrods<othertocheck",
+        "image_id": "srf_i12_s1_001_r110001234_1882",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/lightrods_othertocheck/04_ef6dd6fbc0.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i12_s1_001_r110001234/srf_i12_s1_001_r110001234_1882.png",
+        "width": "97",
+        "height": "108"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "lightrods<othertocheck",
+        "image_id": "srf_i12_s1_001_r110001234_7818",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/lightrods_othertocheck/05_598e1b1267.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i12_s1_001_r110001234/srf_i12_s1_001_r110001234_7818.png",
+        "width": "97",
+        "height": "76"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "darkrods<rods",
+        "image_id": "aw_i05_s1_001_r110001872_17779",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/darkrods_rods/01_9a83e2729c.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_17779.png",
+        "width": "97",
+        "height": "59"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "darkrods<rods",
+        "image_id": "aw_i05_s1_001_r110001872_29860",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/darkrods_rods/02_31cae832df.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_29860.png",
+        "width": "97",
+        "height": "179"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "darkrods<rods",
+        "image_id": "aw_i05_s1_001_r110001872_1531",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/darkrods_rods/03_2ee3da3032.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_1531.png",
+        "width": "97",
+        "height": "116"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "darkrods<rods",
+        "image_id": "aw_i05_s1_001_r110001872_256",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/darkrods_rods/04_8d8ac4df8a.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_256.png",
+        "width": "97",
+        "height": "181"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "darkrods<rods",
+        "image_id": "aw_i05_s1_001_r110001872_27633",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/darkrods_rods/05_82b9a3155e.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_27633.png",
+        "width": "97",
+        "height": "205"
+      }
+    ],
     "non_taxonomic_category::salpingella<tintinnidae": [
       {
         "dataset_id": "tara_pacific_deck",
@@ -12075,6 +11285,323 @@
         "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i13_oa079_001_g100015958/i13_oa079_001_g100015958_709.png",
         "width": "97",
         "height": "258"
+      }
+    ],
+    "non_taxonomic_category::sphere": [
+      {
+        "dataset_id": "flowcam_net",
+        "label": "darksphere",
+        "image_id": "165238276",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/darksphere/01_f889d85993.jpg",
+        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/darksphere/165238276.png",
+        "width": "34",
+        "height": "39"
+      },
+      {
+        "dataset_id": "flowcam_net",
+        "label": "darksphere",
+        "image_id": "165157029",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/darksphere/02_8096a7ab75.jpg",
+        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/darksphere/165157029.png",
+        "width": "17",
+        "height": "18"
+      },
+      {
+        "dataset_id": "flowcam_net",
+        "label": "darksphere",
+        "image_id": "165240096",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/darksphere/03_aad497654c.jpg",
+        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/darksphere/165240096.png",
+        "width": "32",
+        "height": "31"
+      },
+      {
+        "dataset_id": "flowcam_net",
+        "label": "darksphere",
+        "image_id": "165242003",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/darksphere/04_2883a97887.jpg",
+        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/darksphere/165242003.png",
+        "width": "55",
+        "height": "58"
+      },
+      {
+        "dataset_id": "flowcam_net",
+        "label": "darksphere",
+        "image_id": "165539409",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/darksphere/05_ee624daf5f.jpg",
+        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/darksphere/165539409.png",
+        "width": "45",
+        "height": "49"
+      },
+      {
+        "dataset_id": "flowcam_net",
+        "label": "lightsphere",
+        "image_id": "165375756",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/lightsphere/01_5ac32ef94f.jpg",
+        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/lightsphere/165375756.png",
+        "width": "28",
+        "height": "31"
+      },
+      {
+        "dataset_id": "flowcam_net",
+        "label": "lightsphere",
+        "image_id": "164853085",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/lightsphere/02_0fb7831d8d.jpg",
+        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/lightsphere/164853085.png",
+        "width": "38",
+        "height": "38"
+      },
+      {
+        "dataset_id": "flowcam_net",
+        "label": "lightsphere",
+        "image_id": "164821201",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/lightsphere/03_7e4ffdc244.jpg",
+        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/lightsphere/164821201.png",
+        "width": "16",
+        "height": "18"
+      },
+      {
+        "dataset_id": "flowcam_net",
+        "label": "lightsphere",
+        "image_id": "164842978",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/lightsphere/04_1e2f08161f.jpg",
+        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/lightsphere/164842978.png",
+        "width": "19",
+        "height": "13"
+      },
+      {
+        "dataset_id": "flowcam_net",
+        "label": "lightsphere",
+        "image_id": "164819238",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/flowcam_net/lightsphere/05_e87c17bb58.jpg",
+        "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/lightsphere/164819238.png",
+        "width": "25",
+        "height": "27"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "darksphere",
+        "image_id": "i00_oa136_001_g100014429_9651",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/darksphere/01_35089b578e.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_9651.png",
+        "width": "97",
+        "height": "59"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "lightsphere",
+        "image_id": "i00_oa136_001_g100014429_9149",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lightsphere/01_012e2c5548.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_9149.png",
+        "width": "97",
+        "height": "64"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "lightsphere",
+        "image_id": "i00_oa136_001_g100014429_4867",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lightsphere/02_0a806a8029.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_4867.png",
+        "width": "97",
+        "height": "60"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "lightsphere",
+        "image_id": "i00_oa136_001_g100014429_10499",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lightsphere/03_0bc4736892.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_10499.png",
+        "width": "97",
+        "height": "62"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "lightsphere",
+        "image_id": "i00_oa136_001_g100014429_1164",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lightsphere/04_910d419aad.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_1164.png",
+        "width": "97",
+        "height": "60"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "lightsphere",
+        "image_id": "i00_oa136_001_g100014429_3674",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/lightsphere/05_7b34de91c3.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_3674.png",
+        "width": "97",
+        "height": "57"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "othersphere",
+        "image_id": "i00_oa136_001_g100014429_2764",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/othersphere/01_8001756b4e.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_2764.png",
+        "width": "97",
+        "height": "57"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "othersphere",
+        "image_id": "i00_oa136_001_g100014429_128",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/othersphere/02_4b1580934d.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_128.png",
+        "width": "97",
+        "height": "58"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "othersphere",
+        "image_id": "i00_oa136_001_g100014429_5094",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/othersphere/03_56248f06d3.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_5094.png",
+        "width": "97",
+        "height": "59"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "othersphere",
+        "image_id": "i00_oa136_001_g100014429_11954",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/othersphere/04_c2a851633b.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_11954.png",
+        "width": "97",
+        "height": "57"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "othersphere",
+        "image_id": "i00_oa136_001_g100014429_7346",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/othersphere/05_82619720c7.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_7346.png",
+        "width": "97",
+        "height": "62"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "darksphere",
+        "image_id": "i00_oa137_001_g100014437_4634",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/darksphere/02_cf7bb9b635.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa137_001_g100014437/i00_oa137_001_g100014437_4634.png",
+        "width": "97",
+        "height": "57"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "darksphere",
+        "image_id": "i00_oa139_001_g100014672_24788",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/darksphere/03_21498095ee.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_24788.png",
+        "width": "97",
+        "height": "63"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "darksphere",
+        "image_id": "i00_oa139_001_g100014672_19483",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/darksphere/04_ff31ea5f0a.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_19483.png",
+        "width": "97",
+        "height": "58"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "darksphere",
+        "image_id": "i00_oa139_001_g100014672_22105",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/darksphere/05_3cb17d90ee.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_22105.png",
+        "width": "97",
+        "height": "59"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "dark<sphere",
+        "image_id": "i09_oa067_001_g100017677_601",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/dark_sphere/01_71b021195c.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_601.png",
+        "width": "97",
+        "height": "69"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "dark<sphere",
+        "image_id": "i09_oa067_001_g100017677_18614",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/dark_sphere/02_bddc46c5d2.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_18614.png",
+        "width": "97",
+        "height": "70"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "dark<sphere",
+        "image_id": "i09_oa067_001_g100017677_27717",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/dark_sphere/03_dd57cfe18a.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_27717.png",
+        "width": "97",
+        "height": "75"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "light<sphere",
+        "image_id": "i09_oa067_001_g100017677_22876",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/light_sphere/01_3de058166f.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_22876.png",
+        "width": "97",
+        "height": "79"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "light<sphere",
+        "image_id": "i09_oa067_001_g100017677_7414",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/light_sphere/02_15eb990922.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_7414.png",
+        "width": "97",
+        "height": "76"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "light<sphere",
+        "image_id": "i09_oa067_001_g100017677_1049",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/light_sphere/03_5c2b8b4cc8.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_1049.png",
+        "width": "97",
+        "height": "84"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "light<sphere",
+        "image_id": "i09_oa067_001_g100017677_19595",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/light_sphere/04_0494a77d87.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_19595.png",
+        "width": "97",
+        "height": "67"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "light<sphere",
+        "image_id": "i09_oa067_001_g100017677_10909",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/light_sphere/05_767d0b84cb.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_10909.png",
+        "width": "97",
+        "height": "68"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "dark<sphere",
+        "image_id": "oa096_001_g100016058_32581",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/dark_sphere/04_c3b2deeff1.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_32581.png",
+        "width": "97",
+        "height": "68"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "dark<sphere",
+        "image_id": "oa096_001_g100016058_13888",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/dark_sphere/05_70f729cb40.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_13888.png",
+        "width": "97",
+        "height": "83"
       }
     ],
     "non_taxonomic_category::spines<acantharia": [
@@ -15794,16 +15321,16 @@
     "sample_limit_per_dataset": 5,
     "excluded_valid_tree_overlap_default": false,
     "table_counts": {
-      "non_taxonomic_category": 99,
+      "non_taxonomic_category": 87,
       "taxonomic_mismatch": 26
     },
     "table_image_counts": {
       "non_taxonomic_category": 3062878,
       "taxonomic_mismatch": 367401
     },
-    "evidence_table_total_group_count": 125,
+    "evidence_table_total_group_count": 113,
     "evidence_table_total_image_count": 3430279,
-    "unique_group_count": 107,
+    "unique_group_count": 95,
     "total_image_count": 3144282,
     "total_image_count_semantics": "unique_dataset_invalid_group_image_union"
   }
