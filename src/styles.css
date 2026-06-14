@@ -131,11 +131,20 @@ tbody tr:hover { background: #f8faf7; }
 .mapping-metrics { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; color: #526071; font-size: 12px; }
 .mapping-metrics span { border: 1px solid #d7dbd2; border-radius: 6px; background: #fff; padding: 5px 7px; }
 .mapping-metrics strong { color: #162033; }
+.mapping-table table { min-width: 1080px; table-layout: fixed; }
 .mapping-table th, .mapping-table td { vertical-align: top; }
+.mapping-table th:nth-child(1), .mapping-table td:nth-child(1) { width: 92px; }
+.mapping-table th:nth-child(2), .mapping-table td:nth-child(2) { width: 120px; }
+.mapping-table th:nth-child(3), .mapping-table td:nth-child(3) { width: 120px; }
+.mapping-table th:nth-child(4), .mapping-table td:nth-child(4) { width: 240px; }
+.mapping-table th:nth-child(5), .mapping-table td:nth-child(5) { width: 210px; }
+.mapping-table th:nth-child(6), .mapping-table td:nth-child(6) { width: 298px; }
 .mapping-table select, .mapping-table .table-input, .mapping-table .table-textarea { min-width: 120px; border: 1px solid #cfd5ca; border-radius: 6px; background: #fff; padding: 5px 7px; font-size: .95em; }
 .mapping-table .table-input { width: 130px; }
-.mapping-table .table-textarea { width: 220px; min-height: 38px; resize: vertical; }
-.wrap-cell { display: block; max-width: 260px; white-space: normal; overflow-wrap: anywhere; line-height: 1.35; }
+.mapping-table .table-textarea { width: 100%; min-height: 38px; resize: vertical; }
+.wrap-cell { max-width: 260px; white-space: normal; overflow-wrap: anywhere; line-height: 1.35; }
+.mapping-table td.wrap-cell { display: table-cell; }
+.mapping-table span.wrap-cell { display: block; max-width: none; }
 
 .sample-page { padding: 18px; }
 .sample-header { margin: 18px 0; }
