@@ -34,6 +34,7 @@ export function InvalidDetailDrawer({ group, samples, onClose, onOpenSamples }: 
       </div>
 
       <dl className="kv">
+        <div><dt>Pseudo AphiaID</dt><dd><code>{group.pseudo_aphia_id}</code></dd></div>
         <div><dt>Status</dt><dd>{group.status}</dd></div>
         <div><dt>Total images</dt><dd>{group.total_image_count.toLocaleString()}</dd></div>
         {group.include_valid_tree_overlap && (

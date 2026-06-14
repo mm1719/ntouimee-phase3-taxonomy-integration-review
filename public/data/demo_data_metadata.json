@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-07T08:15:42+00:00",
+  "generated_at_utc": "2026-06-14T13:41:48+00:00",
   "demo_app": "demo/taxonomy-integration-review",
   "phase_3_root": "/home/mason/Projects/phase_3",
   "source_studies": [
@@ -12,6 +12,7 @@
     "scripts/study_valid_class_taxonomy_visualization.py",
     "demo/taxonomy-integration-review/scripts/build_valid_class_demo_samples.py",
     "demo/taxonomy-integration-review/scripts/build_invalid_label_demo_data.py",
+    "demo/taxonomy-integration-review/scripts/build_mapping_status_demo_data.py",
     "demo/taxonomy-integration-review/scripts/refresh_demo_data_metadata.py"
   ],
   "public_artifacts": {
@@ -32,8 +33,13 @@
     },
     "invalid_label_groups.json": {
       "path": "public/data/invalid_label_groups.json",
-      "sha256": "a5dbbaa7f81d5dbf98e7fabf8d1aae580c5e7fd0c4650ba2095f2f191f8e403c",
-      "bytes": 696774
+      "sha256": "23172483d50460e11ba95cc24358fdd5795bd0f5711416f2c538da245d184063",
+      "bytes": 700024
+    },
+    "mapping_status.json": {
+      "path": "public/data/mapping_status.json",
+      "sha256": "9d79923fd9ac02bbc40b8f6c83bed2db73eae2382c1689711eb380b185d6efb3",
+      "bytes": 169760
     },
     "worms_lineages.json": {
       "path": "public/data/worms_lineages.json",

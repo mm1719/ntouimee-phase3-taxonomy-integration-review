@@ -4,11 +4,12 @@ import { DetailDrawer } from "./components/DetailDrawer";
 import { HelpModal } from "./components/HelpModal";
 import { InvalidDetailDrawer } from "./components/InvalidDetailDrawer";
 import { InvalidLabelsReview } from "./components/InvalidLabelsReview";
+import { MappingStatusReview } from "./components/MappingStatusReview";
 import { RiskPanels } from "./components/RiskPanels";
 import { SamplePage } from "./components/SamplePage";
 import { TaxonomyTree } from "./components/TaxonomyTree";
 import { DATASET_LABELS, DATASETS, RISK_LABELS } from "./data/constants";
-import type { Candidate, DatasetId, InvalidLabelData, InvalidLabelGroup, SampleMap, TreeNode } from "./types";
+import type { Candidate, DatasetId, InvalidLabelData, InvalidLabelGroup, MappingStatusData, SampleMap, TreeNode } from "./types";
 import { parseCsv } from "./utils/csv";
 import { collectRanks, filterTree, normalizeTree, type Filters } from "./utils/tree";
 
@@ -17,11 +18,13 @@ type DataState = {
   candidates: Candidate[];
   samples: SampleMap;
   invalid: InvalidLabelData;
+  mapping: MappingStatusData;
 };
 
-type Route = "valid" | "invalid";
+type Route = "valid" | "invalid" | "mapping";
 
 function currentRoute(): Route {
+  if (window.location.pathname.startsWith("/mapping")) return "mapping";
   return window.location.pathname.startsWith("/invalid") ? "invalid" : "valid";
 }
 
@@ -43,18 +46,20 @@ function App() {
 
   useEffect(() => {
     async function load() {
-      const [treeRes, candidatesRes, samplesRes, invalidRes] = await Promise.all([
+      const [treeRes, candidatesRes, samplesRes, invalidRes, mappingRes] = await Promise.all([
         fetch("/data/taxonomy_tree.json"),
         fetch("/data/valid_class_candidates.csv"),
         fetch("/data/class_image_samples.json"),
-        fetch("/data/invalid_label_groups.json")
+        fetch("/data/invalid_label_groups.json"),
+        fetch("/data/mapping_status.json")
       ]);
       const tree = (await treeRes.json()) as TreeNode;
       setData({
         tree: normalizeTree(tree),
         candidates: parseCsv<Candidate>(await candidatesRes.text()),
         samples: await samplesRes.json(),
-        invalid: await invalidRes.json()
+        invalid: await invalidRes.json(),
+        mapping: await mappingRes.json()
       });
     }
     void load();
@@ -116,7 +121,7 @@ function App() {
     : undefined;
 
   function navigate(nextRoute: Route) {
-    const path = nextRoute === "valid" ? "/valid" : "/invalid";
+    const path = nextRoute === "valid" ? "/valid" : nextRoute === "invalid" ? "/invalid" : "/mapping";
     window.history.pushState(null, "", path);
     setRoute(nextRoute);
     setSelected(null);
@@ -165,6 +170,9 @@ function App() {
             <button className={route === "invalid" ? "active" : ""} onClick={() => navigate("invalid")}>
               Invalid labels
             </button>
+            <button className={route === "mapping" ? "active" : ""} onClick={() => navigate("mapping")}>
+              Mapping status
+            </button>
           </nav>
           <button className="help-button" onClick={() => setHelpOpen(true)} aria-label="Open terminology help">
             <HelpCircle size={18} />
@@ -178,7 +186,7 @@ function App() {
                 <Stat label="Placements" value={formatNumber(data.tree.entry_count)} />
                 <Stat label="Images" value={formatNumber(data.tree.unique_candidate_image_count)} />
               </>
-            ) : (
+            ) : route === "invalid" ? (
               <>
                 <Stat label="Non-taxonomic" value={formatNumber(data.invalid.summary.table_counts.non_taxonomic_category)} />
                 <Stat label="Mismatch" value={formatNumber(data.invalid.summary.table_counts.taxonomic_mismatch)} />
@@ -190,6 +198,23 @@ function App() {
                   )}
                 />
                 <Stat label="Invalid images" value={formatNumber(data.invalid.summary.total_image_count)} />
+              </>
+            ) : (
+              <>
+                <Stat label="Classes" value={formatNumber(data.mapping.target_count)} />
+                <Stat label="Histories" value={formatNumber(data.mapping.histories.length)} />
+                <Stat
+                  label="Latest merge"
+                  value={formatNumber(
+                    data.mapping.histories.find((history) => history.history_id === data.mapping.latest_history_id)?.merge_count ?? 0
+                  )}
+                />
+                <Stat
+                  label="Latest drop"
+                  value={formatNumber(
+                    data.mapping.histories.find((history) => history.history_id === data.mapping.latest_history_id)?.drop_count ?? 0
+                  )}
+                />
               </>
             )}
           </div>
@@ -332,7 +357,7 @@ function App() {
               onOpenSamples={setSampleEntry}
             />
             </>
-          ) : (
+          ) : route === "invalid" ? (
             <>
               <InvalidLabelsReview
                 data={data.invalid}
@@ -346,6 +371,8 @@ function App() {
                 onOpenSamples={setInvalidSampleKey}
               />
             </>
+          ) : (
+            <MappingStatusReview data={data.mapping} />
           )}
       </div>
       </div>

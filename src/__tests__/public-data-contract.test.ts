@@ -3,7 +3,7 @@ import { readFileSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { resolve } from "node:path";
 import { parseCsv, splitCell } from "../utils/csv";
-import type { Candidate, InvalidLabelData, SampleMap, TreeNode } from "../types";
+import type { Candidate, InvalidLabelData, MappingStatusData, SampleMap, TreeNode } from "../types";
 
 type DemoDataMetadata = {
   public_artifacts: Record<string, { path: string; sha256: string; bytes: number }>;
@@ -112,6 +112,7 @@ describe("valid route public data contract", () => {
       "valid_class_candidates.csv",
       "class_image_samples.json",
       "invalid_label_groups.json",
+      "mapping_status.json",
       "worms_lineages.json"
     ]) {
       expect(metadata.public_artifacts[name]?.sha256, name).toBe(sha256(name));
@@ -166,6 +167,7 @@ describe("invalid route public data contract", () => {
         expect(keys.has(group.sample_key), group.sample_key).toBe(false);
         keys.add(group.sample_key);
         expect(group.aliases.length).toBeGreaterThan(0);
+        expect(group.pseudo_aphia_id, group.sample_key).toMatch(/^(ntc|tm|inv)_\d{3}$/);
         expect(group.datasets.length).toBeGreaterThan(0);
         expect(group.invalid_reason_count ?? 0).toBeGreaterThan(0);
         group.datasets.forEach((dataset) => {
@@ -193,6 +195,36 @@ describe("invalid route public data contract", () => {
       sampleRows.forEach((sample) => {
         expect(sample.thumbnail_url).toMatch(/^\/invalid-samples\//);
         expect(sample.source_ref).not.toMatch(/^\/home\//);
+      });
+    });
+  });
+});
+
+describe("mapping status public data contract", () => {
+  const mapping = readJson<MappingStatusData>("mapping_status.json");
+
+  it("keeps mapping histories aligned with current target IDs", () => {
+    const targetIds = new Set(mapping.targets.map((target) => target.source_id));
+    expect(mapping.target_count).toBe(mapping.targets.length);
+    expect(mapping.histories.length).toBeGreaterThan(0);
+    expect(mapping.latest_history_id).toBe(mapping.histories.at(-1)?.history_id);
+
+    mapping.histories.forEach((history) => {
+      expect(history.rows).toHaveLength(mapping.targets.length);
+      const sourceIds = new Set<string>();
+      history.rows.forEach((row) => {
+        expect(targetIds.has(row.source_id), row.source_id).toBe(true);
+        expect(sourceIds.has(row.source_id), row.source_id).toBe(false);
+        sourceIds.add(row.source_id);
+        expect(["keep", "merge", "drop"]).toContain(row.action);
+        if (row.action === "merge") {
+          expect(row.target_id, row.source_id).toBeTruthy();
+          expect(row.target_id, row.source_id).not.toBe(row.source_id);
+          expect(targetIds.has(row.target_id), row.source_id).toBe(row.validation_status === "ok");
+        } else {
+          expect(row.target_id, row.source_id).toBe("");
+          expect(row.target_alias, row.source_id).toBe("");
+        }
       });
     });
   });

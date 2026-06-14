@@ -19,6 +19,7 @@ ARTIFACTS = [
     "valid_class_candidates.csv",
     "class_image_samples.json",
     "invalid_label_groups.json",
+    "mapping_status.json",
     "worms_lineages.json",
 ]
 
@@ -46,6 +47,7 @@ def main() -> int:
             "scripts/study_valid_class_taxonomy_visualization.py",
             "demo/taxonomy-integration-review/scripts/build_valid_class_demo_samples.py",
             "demo/taxonomy-integration-review/scripts/build_invalid_label_demo_data.py",
+            "demo/taxonomy-integration-review/scripts/build_mapping_status_demo_data.py",
             "demo/taxonomy-integration-review/scripts/refresh_demo_data_metadata.py",
         ],
         "public_artifacts": {},

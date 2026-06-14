@@ -35,6 +35,7 @@ STATUS_KEYS = {
 CLEANUP_DECISIONS_CSV = (
     ROOT / "studies/label_aphia_inventory/invalid_label_cleanup_decisions.csv"
 )
+INVALID_PSEUDO_REGISTRY = ROOT / "derived/ml_ready/invalid_pseudo_aphia_id_map.csv"
 
 DATASET_ORDER = [
     "life_watch",
@@ -101,6 +102,11 @@ def label_key(value: str) -> str:
     return re.sub(r"[\s_]+", " ", value.strip().casefold())
 
 
+def registry_label_key(value: str) -> str:
+    text = value.strip().lower().replace("_", " ")
+    return re.sub(r"\s+", " ", text)
+
+
 def split_cell(value: str) -> list[str]:
     return [item for item in value.split("|") if item]
 
@@ -148,6 +154,27 @@ def load_promoted_invalid_review_keys() -> set[tuple[str, str]]:
 
 PROMOTED_INVALID_REVIEW_KEYS = load_promoted_invalid_review_keys()
 
+
+def load_pseudo_aphia_ids() -> dict[str, str]:
+    if not INVALID_PSEUDO_REGISTRY.exists():
+        return {}
+    pseudo_by_alias_key: dict[str, str] = {}
+    with INVALID_PSEUDO_REGISTRY.open("r", encoding="utf-8", newline="") as handle:
+        for row in csv.DictReader(handle):
+            if row.get("registry_status") != "active":
+                continue
+            key = row.get("normalized_alias_key", "")
+            pseudo_id = row.get("pseudo_aphia_id", "")
+            if key and pseudo_id:
+                pseudo_by_alias_key[key] = pseudo_id
+            group_key = row.get("invalid_group_key", "")
+            if group_key and pseudo_id:
+                for item in split_cell(group_key):
+                    pseudo_by_alias_key[registry_label_key(item)] = pseudo_id
+            for alias in split_cell(row.get("source_aliases", "")):
+                pseudo_by_alias_key[registry_label_key(alias)] = pseudo_id
+    return pseudo_by_alias_key
+
 def invalid_group_key(value: str) -> str:
     key = label_key(value)
     return INVALID_ALIAS_KEYS.get(key, key)
@@ -169,6 +196,10 @@ def safe_segment(value: str) -> str:
 
 def unique_sorted(values: list[str]) -> list[str]:
     return sorted(set(filter(None, values)), key=alias_sort_key)
+
+
+def normalized_alias_key(aliases: list[str]) -> str:
+    return "|".join(sorted({registry_label_key(alias) for alias in aliases if alias}))
 
 
 def relative_ref(value: str) -> str:
@@ -327,6 +358,7 @@ def build_samples(
 
 def build_groups(rows: list[dict[str, str]]) -> dict[str, Any]:
     manifest_counts = build_manifest_counts(rows)
+    pseudo_aphia_ids = load_pseudo_aphia_ids()
     grouped: dict[str, dict[str, dict[str, Any]]] = {
         key: {} for key in STATUS_KEYS.values()
     }
@@ -416,6 +448,10 @@ def build_groups(rows: list[dict[str, str]]) -> dict[str, Any]:
                 dataset["invalid_reason_count"] = len(dataset["reasons"])
                 datasets.append(dataset)
             group["total_image_count"] = total
+            group["pseudo_aphia_id"] = pseudo_aphia_ids.get(
+                normalized_alias_key(group["aliases"]),
+                pseudo_aphia_ids.get(registry_label_key(group["group_key"]), ""),
+            )
             group["invalid_image_count"] = sum(dataset["invalid_image_count"] for dataset in datasets)
             group["valid_image_count"] = sum(dataset["valid_image_count"] for dataset in datasets)
             group["invalid_reason_count"] = len(

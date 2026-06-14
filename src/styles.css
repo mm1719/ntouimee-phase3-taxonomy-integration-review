@@ -87,6 +87,7 @@ select { width: 100%; border: 1px solid #cfd5ca; border-radius: 8px; padding: 8p
 .icon-button { border: 1px solid #d7dbd2; background: #fff; padding: 7px; }
 .ghost-button { border: 1px solid #d7dbd2; background: #fff; padding: 8px 10px; }
 .primary-button { border: 1px solid #1d4ed8; background: #1d4ed8; color: #fff; padding: 8px 10px; }
+.primary-button:disabled { cursor: not-allowed; opacity: .5; }
 .drawer-section { border-top: 1px solid #eceee8; margin-top: 14px; padding-top: 14px; }
 .kv div { display: grid; grid-template-columns: 110px 1fr; gap: 8px; padding: 7px 0; border-bottom: 1px solid #f0f2ed; }
 .compact-kv div { grid-template-columns: 130px 1fr; padding: 5px 0; }
@@ -119,6 +120,22 @@ tbody tr:hover { background: #f8faf7; }
 .overlap-row:hover { background: #fef3c7; }
 .detail-list { margin: 8px 0 0; padding-left: 18px; color: #465568; font-size: 12px; line-height: 1.45; }
 .detail-list li + li { margin-top: 5px; }
+.section-first { border-top: 0 !important; padding-top: 0 !important; margin-top: 0 !important; }
+.hidden-input { display: none; }
+.full-button { width: 100%; justify-content: center; margin-top: 8px; }
+.error-text { color: #b42318; font-size: 12px; line-height: 1.45; }
+.error-row { background: #fff1f2; }
+.error-row:hover { background: #ffe4e6; }
+.mapping-sidebar .vertical-segmented button { text-align: center; }
+.mapping-panel { min-width: 0; }
+.mapping-metrics { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; color: #526071; font-size: 12px; }
+.mapping-metrics span { border: 1px solid #d7dbd2; border-radius: 6px; background: #fff; padding: 5px 7px; }
+.mapping-metrics strong { color: #162033; }
+.mapping-table th, .mapping-table td { vertical-align: top; }
+.mapping-table select, .mapping-table .table-input, .mapping-table .table-textarea { min-width: 120px; border: 1px solid #cfd5ca; border-radius: 6px; background: #fff; padding: 5px 7px; font-size: .95em; }
+.mapping-table .table-input { width: 130px; }
+.mapping-table .table-textarea { width: 220px; min-height: 38px; resize: vertical; }
+.wrap-cell { display: block; max-width: 260px; white-space: normal; overflow-wrap: anywhere; line-height: 1.35; }
 
 .sample-page { padding: 18px; }
 .sample-header { margin: 18px 0; }

@@ -184,6 +184,7 @@ const invalid = {
     non_taxonomic_category: [
       {
         group_key: "artefact",
+        pseudo_aphia_id: "ntc_002",
         sample_key: "non_taxonomic_category::artefact",
         aliases: ["artefact"],
         status: "Non-Taxonomic Category",
@@ -204,6 +205,7 @@ const invalid = {
       },
       {
         group_key: "tripos",
+        pseudo_aphia_id: "inv_999",
         sample_key: "non_taxonomic_category::tripos",
         aliases: ["Tripos"],
         status: "Non-Taxonomic Category",
@@ -230,6 +232,7 @@ const invalid = {
     taxonomic_mismatch: [
       {
         group_key: "bad_aphia",
+        pseudo_aphia_id: "tm_001",
         sample_key: "taxonomic_mismatch::bad_aphia",
         aliases: ["bad_aphia"],
         status: "Taxonomic Mismatch",
@@ -292,6 +295,92 @@ const invalid = {
   }
 };
 
+const mappingStatus = {
+  generated_at_utc: "2026-06-14T00:00:00+00:00",
+  source_targets: "derived/ml_ready/target_profiles.csv",
+  history_dir: "derived/ml_ready/mapping_history",
+  export_fields: ["action", "source_id", "target_id", "source_alias", "target_alias", "notes"],
+  target_count: 3,
+  targets: [
+    {
+      source_id: "ntc_002",
+      source_alias: "artefact",
+      image_count: 12,
+      valid_statuses: "invalid",
+      invalid_reasons: "non_taxonomic_category",
+      risk_flags: "n/a",
+      dataset_ids: "flowcam_net",
+      source_labels: "artefact"
+    },
+    {
+      source_id: "ntc_053",
+      source_alias: "othertocheck",
+      image_count: 30,
+      valid_statuses: "invalid",
+      invalid_reasons: "non_taxonomic_category",
+      risk_flags: "n/a",
+      dataset_ids: "tara_pacific_deck",
+      source_labels: "othertocheck"
+    },
+    {
+      source_id: "1080",
+      source_alias: "Copepoda",
+      image_count: 5,
+      valid_statuses: "valid",
+      invalid_reasons: "n/a",
+      risk_flags: "n/a",
+      dataset_ids: "flowcam_net",
+      source_labels: "Copepoda"
+    }
+  ],
+  latest_history_id: "round6_manual",
+  histories: [
+    {
+      history_id: "round6_manual",
+      file_name: "2026-06-14_manual_mapping_rules.csv",
+      path: "derived/ml_ready/mapping_history/2026-06-14_manual_mapping_rules.csv",
+      row_count: 3,
+      explicit_row_count: 1,
+      merge_count: 1,
+      drop_count: 0,
+      warning_count: 0,
+      warnings: [],
+      rows: [
+        {
+          action: "merge",
+          source_id: "ntc_002",
+          target_id: "ntc_053",
+          source_alias: "artefact",
+          target_alias: "othertocheck",
+          notes: "fixture merge",
+          validation_status: "ok",
+          validation_message: ""
+        },
+        {
+          action: "keep",
+          source_id: "ntc_053",
+          target_id: "",
+          source_alias: "othertocheck",
+          target_alias: "",
+          notes: "",
+          validation_status: "ok",
+          validation_message: ""
+        },
+        {
+          action: "keep",
+          source_id: "1080",
+          target_id: "",
+          source_alias: "Copepoda",
+          target_alias: "",
+          notes: "",
+          validation_status: "ok",
+          validation_message: ""
+        }
+      ]
+    }
+  ]
+};
+
 function mockFetch() {
   vi.spyOn(globalThis, "fetch").mockImplementation(async (input) => {
     const url = String(input);
@@ -306,6 +395,9 @@ function mockFetch() {
     }
     if (url.endsWith("/data/invalid_label_groups.json")) {
       return new Response(JSON.stringify(invalid), { status: 200 });
+    }
+    if (url.endsWith("/data/mapping_status.json")) {
+      return new Response(JSON.stringify(mappingStatus), { status: 200 });
     }
     return new Response("not found", { status: 404 });
   });
@@ -433,10 +525,14 @@ describe("App invalid labels UI", () => {
     await renderApp("/invalid");
 
     expect(screen.getByText("artefact")).toBeInTheDocument();
-    await user.type(screen.getByPlaceholderText("Search aliases, reasons, sources"), "no-match");
+    await user.type(screen.getByPlaceholderText("Search pseudo AphiaID, aliases, reasons, sources"), "no-match");
     expect(screen.queryByText("artefact")).not.toBeInTheDocument();
 
-    await user.clear(screen.getByPlaceholderText("Search aliases, reasons, sources"));
+    await user.clear(screen.getByPlaceholderText("Search pseudo AphiaID, aliases, reasons, sources"));
+    await user.type(screen.getByPlaceholderText("Search pseudo AphiaID, aliases, reasons, sources"), "ntc_002");
+    expect(screen.getByText("artefact")).toBeInTheDocument();
+
+    await user.clear(screen.getByPlaceholderText("Search pseudo AphiaID, aliases, reasons, sources"));
     await user.click(screen.getByLabelText("FlowCAMNet"));
     expect(screen.queryByText("artefact")).not.toBeInTheDocument();
   });
@@ -459,6 +555,7 @@ describe("App invalid labels UI", () => {
 
     await user.click(screen.getByText("bad_aphia"));
     expect(screen.getByText("Invalid label group")).toBeInTheDocument();
+    expect(screen.getAllByText("tm_001").length).toBeGreaterThan(0);
     expect(screen.getByText("AphiaID 1 resolves to wrong taxon")).toBeInTheDocument();
 
     await user.click(screen.getByRole("button", { name: /Open 1 sample thumbnails/i }));
@@ -483,5 +580,33 @@ describe("App invalid labels UI", () => {
     await user.click(within(panel).getByRole("button", { name: "A-" }));
     await user.click(within(panel).getByRole("button", { name: "Reset" }));
     expect(screen.getByText("artefact")).toBeInTheDocument();
+  });
+});
+
+describe("App mapping status UI", () => {
+  it("loads mapping status in view mode", async () => {
+    await renderApp("/mapping");
+
+    expect(screen.getByRole("button", { name: "Mapping status" })).toHaveClass("active");
+    const mappingPanel = screen.getByRole("heading", { name: "2026-06-14_manual_mapping_rules.csv" }).closest("main")!;
+    expect(within(mappingPanel).getByText("ntc_002")).toBeInTheDocument();
+    const mergeRow = within(mappingPanel).getByText("ntc_002").closest("tr")!;
+    expect(within(mergeRow).getByText("othertocheck")).toBeInTheDocument();
+    expect(within(mergeRow).getByText("fixture merge")).toBeInTheDocument();
+  });
+
+  it("edits mapping rows and blocks unresolved merge targets", async () => {
+    const user = userEvent.setup();
+    await renderApp("/mapping");
+
+    await user.click(screen.getByRole("button", { name: "Edit draft" }));
+    const mappingPanel = screen.getByRole("heading", { name: "Editable draft" }).closest("main")!;
+    const artefactRow = within(mappingPanel).getByText("ntc_002").closest("tr")!;
+    const targetInput = within(artefactRow).getByDisplayValue("ntc_053");
+    await user.clear(targetInput);
+    await user.type(targetInput, "missing_target");
+
+    expect(screen.getByText("target_id is not present in current ML-ready targets")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Export merge/drop CSV" })).toBeDisabled();
   });
 });

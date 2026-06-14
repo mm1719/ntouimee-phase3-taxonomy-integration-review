@@ -100,6 +100,7 @@ export type InvalidDatasetEvidence = {
 
 export type InvalidLabelGroup = {
   group_key: string;
+  pseudo_aphia_id: string;
   sample_key: string;
   aliases: string[];
   status: "Non-Taxonomic Category" | "Taxonomic Mismatch";
@@ -130,4 +131,50 @@ export type InvalidLabelData = {
     total_image_count: number;
     total_image_count_semantics: string;
   };
+};
+
+export type MappingTarget = {
+  source_id: string;
+  source_alias: string;
+  image_count: number;
+  valid_statuses: string;
+  invalid_reasons: string;
+  risk_flags: string;
+  dataset_ids: string;
+  source_labels: string;
+};
+
+export type MappingRuleRow = {
+  action: "keep" | "merge" | "drop";
+  source_id: string;
+  target_id: string;
+  source_alias: string;
+  target_alias: string;
+  notes: string;
+  validation_status: "ok" | "invalid_source_id" | "invalid_target_id";
+  validation_message: string;
+};
+
+export type MappingHistory = {
+  history_id: string;
+  file_name: string;
+  path: string;
+  row_count: number;
+  explicit_row_count: number;
+  merge_count: number;
+  drop_count: number;
+  warning_count: number;
+  warnings: Array<{ source_id: string; message: string }>;
+  rows: MappingRuleRow[];
+};
+
+export type MappingStatusData = {
+  generated_at_utc: string;
+  source_targets: string;
+  history_dir: string;
+  export_fields: string[];
+  target_count: number;
+  targets: MappingTarget[];
+  latest_history_id: string;
+  histories: MappingHistory[];
 };

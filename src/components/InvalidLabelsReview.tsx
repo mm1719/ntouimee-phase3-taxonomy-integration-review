@@ -49,6 +49,9 @@ export function InvalidLabelsReview({ data, selected, onSelect }: Props) {
       .filter((group) => {
         if (!normalizedQuery) return true;
         const haystack = [
+          group.pseudo_aphia_id,
+          group.group_key,
+          group.sample_key,
           ...group.aliases,
           ...group.dataset_ids,
           ...group.datasets.flatMap((dataset) => [
@@ -68,6 +71,10 @@ export function InvalidLabelsReview({ data, selected, onSelect }: Props) {
         id: "row_id",
         header: "ID",
         cell: (info) => info.row.index + 1
+      }),
+      helper.accessor("pseudo_aphia_id", {
+        header: "Pseudo AphiaID",
+        cell: (info) => <code>{info.getValue()}</code>
       }),
       helper.accessor((row) => row.aliases.join(" / "), {
         id: "aliases",
@@ -124,7 +131,7 @@ export function InvalidLabelsReview({ data, selected, onSelect }: Props) {
           <input
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="Search aliases, reasons, sources"
+            placeholder="Search pseudo AphiaID, aliases, reasons, sources"
           />
         </div>
 

@@ -58,7 +58,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 2979
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_001"
       },
       {
         "group_key": "artefact",
@@ -181,7 +182,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 655
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_002"
       },
       {
         "group_key": "bacteriastrum<chaetocerotaceae",
@@ -219,7 +221,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 3
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_003"
       },
       {
         "group_key": "badfocus",
@@ -298,7 +301,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 3179
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_004"
       },
       {
         "group_key": "ball bearing like",
@@ -336,7 +340,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 738
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_005"
       },
       {
         "group_key": "bellerochea horologicalis",
@@ -376,7 +381,8 @@
             "valid_image_count": 726,
             "invalid_image_count": 726
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_001"
       },
       {
         "group_key": "biofouling rv",
@@ -415,26 +421,72 @@
             "valid_image_count": 0,
             "invalid_image_count": 825
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_006"
       },
       {
         "group_key": "bubble",
         "sample_key": "non_taxonomic_category::bubble",
         "aliases": [
-          "bubble"
+          "bubble",
+          "Bubbles"
         ],
         "status": "Non-Taxonomic Category",
         "dataset_ids": [
+          "life_watch",
+          "life_watch_2026_image_library",
           "flowcam_net",
           "tara_pacific_deck",
           "tara_pacific_bongo"
         ],
-        "total_image_count": 590,
+        "total_image_count": 8796,
         "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
+        "invalid_reason_count": 3,
         "valid_image_count": 0,
-        "invalid_image_count": 590,
+        "invalid_image_count": 8796,
         "datasets": [
+          {
+            "dataset_id": "life_watch",
+            "aliases": [
+              "Bubbles"
+            ],
+            "image_count": 5360,
+            "reasons": [
+              "Local AphiaID source contains non-numeric/non-AphiaID values: Bubbles",
+              "No local AphiaID and no exact WoRMS name match under strict validation"
+            ],
+            "source_examples": [
+              "datasets/LifeWatch/metadata/metadata_trainingset_dedup_by_image_path.csv"
+            ],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/Bubbles?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 2,
+            "valid_image_count": 0,
+            "invalid_image_count": 5360
+          },
+          {
+            "dataset_id": "life_watch_2026_image_library",
+            "aliases": [
+              "Bubbles"
+            ],
+            "image_count": 2846,
+            "reasons": [
+              "Local AphiaID source contains non-numeric/non-AphiaID values: Bubbles",
+              "No local AphiaID and no exact WoRMS name match under strict validation"
+            ],
+            "source_examples": [
+              "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
+            ],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/Bubbles?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 2,
+            "valid_image_count": 0,
+            "invalid_image_count": 2846
+          },
           {
             "dataset_id": "flowcam_net",
             "aliases": [
@@ -493,68 +545,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 6
           }
-        ]
-      },
-      {
-        "group_key": "bubbles",
-        "sample_key": "non_taxonomic_category::bubbles",
-        "aliases": [
-          "Bubbles"
         ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "life_watch",
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 8206,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 2,
-        "valid_image_count": 0,
-        "invalid_image_count": 8206,
-        "datasets": [
-          {
-            "dataset_id": "life_watch",
-            "aliases": [
-              "Bubbles"
-            ],
-            "image_count": 5360,
-            "reasons": [
-              "Local AphiaID source contains non-numeric/non-AphiaID values: Bubbles",
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch/metadata/metadata_trainingset_dedup_by_image_path.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Bubbles?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 2,
-            "valid_image_count": 0,
-            "invalid_image_count": 5360
-          },
-          {
-            "dataset_id": "life_watch_2026_image_library",
-            "aliases": [
-              "Bubbles"
-            ],
-            "image_count": 2846,
-            "reasons": [
-              "Local AphiaID source contains non-numeric/non-AphiaID values: Bubbles",
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Bubbles?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 2,
-            "valid_image_count": 0,
-            "invalid_image_count": 2846
-          }
-        ]
+        "pseudo_aphia_id": "ntc_007"
       },
       {
         "group_key": "centric diatom",
@@ -597,7 +589,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 8799
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_002"
       },
       {
         "group_key": "chaetoceros inter ciliate",
@@ -633,7 +626,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 57
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_009"
       },
       {
         "group_key": "chaetoceros<chaetocerotaceae",
@@ -671,7 +665,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 213
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_010"
       },
       {
         "group_key": "codonellopsis<tintinnidiidae",
@@ -709,7 +704,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 66
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_011"
       },
       {
         "group_key": "contrasted blob",
@@ -747,7 +743,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 2908
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_012"
       },
       {
         "group_key": "copepoda<multicrustacea",
@@ -785,7 +782,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 2
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_013"
       },
       {
         "group_key": "crumple sphere",
@@ -863,7 +861,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 61
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_014"
       },
       {
         "group_key": "crustaceae-part",
@@ -925,7 +924,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 8687
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_003"
       },
       {
         "group_key": "cyst<unicellular",
@@ -963,7 +963,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 12
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_015"
       },
       {
         "group_key": "dactyliosolen/cerataulina/guinardia",
@@ -1003,7 +1004,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 1203
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_004"
       },
       {
         "group_key": "dark",
@@ -1041,7 +1043,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 69085
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_016"
       },
       {
         "group_key": "detritus",
@@ -1177,7 +1180,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 222100
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_082"
       },
       {
         "group_key": "sphere",
@@ -1251,7 +1255,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 112125
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_083"
       },
       {
         "group_key": "rods",
@@ -1342,7 +1347,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 9205
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_084"
       },
       {
         "group_key": "dinoflagellate cyst",
@@ -1382,7 +1388,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 587
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_005"
       },
       {
         "group_key": "dinophyceae shape",
@@ -1420,25 +1427,49 @@
             "valid_image_count": 0,
             "invalid_image_count": 262
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_025"
       },
       {
         "group_key": "duplicate",
         "sample_key": "non_taxonomic_category::duplicate",
         "aliases": [
-          "duplicate"
+          "duplicate",
+          "Replicate"
         ],
         "status": "Non-Taxonomic Category",
         "dataset_ids": [
+          "life_watch_2026_image_library",
           "tara_pacific_deck",
           "tara_pacific_bongo"
         ],
-        "total_image_count": 6166,
+        "total_image_count": 51942,
         "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
+        "invalid_reason_count": 2,
         "valid_image_count": 0,
-        "invalid_image_count": 6166,
+        "invalid_image_count": 51942,
         "datasets": [
+          {
+            "dataset_id": "life_watch_2026_image_library",
+            "aliases": [
+              "Replicate"
+            ],
+            "image_count": 45776,
+            "reasons": [
+              "Local AphiaID source contains non-numeric/non-AphiaID values: Replicate",
+              "No local AphiaID and no exact WoRMS name match under strict validation"
+            ],
+            "source_examples": [
+              "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
+            ],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/Replicate?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 2,
+            "valid_image_count": 0,
+            "invalid_image_count": 45776
+          },
           {
             "dataset_id": "tara_pacific_deck",
             "aliases": [
@@ -1477,7 +1508,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 416
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_026"
       },
       {
         "group_key": "egg sac<egg",
@@ -1534,7 +1566,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 1
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_027"
       },
       {
         "group_key": "egg/cyst",
@@ -1596,7 +1629,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 22157
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_028"
       },
       {
         "group_key": "egg<other",
@@ -1653,7 +1687,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 13
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_029"
       },
       {
         "group_key": "faecal pellet",
@@ -1715,7 +1750,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 166
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_030"
       },
       {
         "group_key": "feces",
@@ -1751,7 +1787,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 824
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_031"
       },
       {
         "group_key": "fiber",
@@ -1875,7 +1912,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 20501
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_032"
       },
       {
         "group_key": "guinardia striata/dactyliosolen phuketensis",
@@ -1915,7 +1953,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 7347
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_006"
       },
       {
         "group_key": "larvae<annelida",
@@ -1972,7 +2011,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 43
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_033"
       },
       {
         "group_key": "larvae<echinodermata",
@@ -2008,7 +2048,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 1
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_034"
       },
       {
         "group_key": "larvae<living",
@@ -2044,7 +2085,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 35
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_035"
       },
       {
         "group_key": "larvae<polychaeta",
@@ -2080,7 +2122,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 1
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_036"
       },
       {
         "group_key": "lauderia/melosira/detonula",
@@ -2119,7 +2162,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 8800
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_007"
       },
       {
         "group_key": "light",
@@ -2157,7 +2201,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 18260
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_037"
       },
       {
         "group_key": "long (chained) diatom",
@@ -2195,7 +2240,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 170240
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_008"
       },
       {
         "group_key": "mineral particle",
@@ -2234,7 +2280,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 108
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_044"
       },
       {
         "group_key": "multiple<other",
@@ -2291,7 +2338,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 3003
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_045"
       },
       {
         "group_key": "nassellaria<polycystina / nassellaria<polycystinea",
@@ -2351,7 +2399,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 316
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_046"
       },
       {
         "group_key": "nauplii",
@@ -2434,7 +2483,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 5347
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_009"
       },
       {
         "group_key": "neoceratium furca<neoceratium",
@@ -2472,7 +2522,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 4788
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_047"
       },
       {
         "group_key": "neoceratium fusus<neoceratium",
@@ -2510,7 +2561,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 1548
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_048"
       },
       {
         "group_key": "odontella aurita/ralfsiella minima",
@@ -2549,7 +2601,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 409
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_010"
       },
       {
         "group_key": "ornithocercus quadratus<ornithocercus",
@@ -2587,7 +2640,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 19
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_049"
       },
       {
         "group_key": "other living",
@@ -2645,7 +2699,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 6540
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_051"
       },
       {
         "group_key": "other egg",
@@ -2683,7 +2738,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 163
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_050"
       },
       {
         "group_key": "othertocheck",
@@ -2740,7 +2796,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 296
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_053"
       },
       {
         "group_key": "part ciliophora",
@@ -2800,7 +2857,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 1533
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_054"
       },
       {
         "group_key": "part crustacea",
@@ -2860,7 +2918,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 3985
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_055"
       },
       {
         "group_key": "part<other",
@@ -2896,7 +2955,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 11
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_058"
       },
       {
         "group_key": "part ditylum",
@@ -2934,7 +2994,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 1219
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_056"
       },
       {
         "group_key": "part odontella",
@@ -2972,7 +3033,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 1362
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_057"
       },
       {
         "group_key": "pennate",
@@ -3010,7 +3072,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 943
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_059"
       },
       {
         "group_key": "pennate diatom",
@@ -3049,7 +3112,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 8798
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_011"
       },
       {
         "group_key": "pennate diatom colony",
@@ -3088,7 +3152,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 200
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_012"
       },
       {
         "group_key": "phytoplankton colony",
@@ -3150,7 +3215,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 10796
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_060"
       },
       {
         "group_key": "plagiogrammopsis/bellerochea malleus",
@@ -3189,7 +3255,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 107
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_013"
       },
       {
         "group_key": "podolampas<podolampadaceae<peridiniales<dinophyceae",
@@ -3246,7 +3313,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 553
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_061"
       },
       {
         "group_key": "polar view",
@@ -3284,7 +3352,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 194
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_062"
       },
       {
         "group_key": "pollen",
@@ -3367,7 +3436,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 19
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_063"
       },
       {
         "group_key": "pseudo-nitzschia chain",
@@ -3405,7 +3475,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 329
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_064"
       },
       {
         "group_key": "remnant",
@@ -3466,46 +3537,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 86212
           }
-        ]
-      },
-      {
-        "group_key": "replicate",
-        "sample_key": "non_taxonomic_category::replicate",
-        "aliases": [
-          "Replicate"
         ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 45776,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 2,
-        "valid_image_count": 0,
-        "invalid_image_count": 45776,
-        "datasets": [
-          {
-            "dataset_id": "life_watch_2026_image_library",
-            "aliases": [
-              "Replicate"
-            ],
-            "image_count": 45776,
-            "reasons": [
-              "Local AphiaID source contains non-numeric/non-AphiaID values: Replicate",
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Replicate?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 2,
-            "valid_image_count": 0,
-            "invalid_image_count": 45776
-          }
-        ]
+        "pseudo_aphia_id": "ntc_065"
       },
       {
         "group_key": "retaria",
@@ -3543,7 +3576,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 1360
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_067"
       },
       {
         "group_key": "rhizosolenia inter richelia tmp i",
@@ -3579,7 +3613,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 502
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_068"
       },
       {
         "group_key": "salpingella<tintinnidae",
@@ -3617,7 +3652,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 3
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_069"
       },
       {
         "group_key": "salpingella<tintinnidiidae",
@@ -3655,7 +3691,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 27
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_070"
       },
       {
         "group_key": "spines<acantharia",
@@ -3693,7 +3730,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 5
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_071"
       },
       {
         "group_key": "spines<rhizaria",
@@ -3729,7 +3767,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 33
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_072"
       },
       {
         "group_key": "stellarima stellaris/podosira/hyalodiscus",
@@ -3768,7 +3807,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 639
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_014"
       },
       {
         "group_key": "synedra/thalassionema",
@@ -3807,7 +3847,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 8791
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_015"
       },
       {
         "group_key": "t001",
@@ -3915,7 +3956,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 25196
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_073"
       },
       {
         "group_key": "tail<appendicularia",
@@ -3953,7 +3995,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 66
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_074"
       },
       {
         "group_key": "thalassiosira/porosira",
@@ -3992,7 +4035,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 2470
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_016"
       },
       {
         "group_key": "tintinnina<choreotrichida",
@@ -4030,7 +4074,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 37
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_075"
       },
       {
         "group_key": "transparent u",
@@ -4068,7 +4113,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 162
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_076"
       },
       {
         "group_key": "trieres sinensis",
@@ -4130,7 +4176,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 26821
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_017"
       },
       {
         "group_key": "trochophore",
@@ -4166,7 +4213,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 3
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_077"
       },
       {
         "group_key": "trochozoa",
@@ -4223,7 +4271,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 25
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_078"
       },
       {
         "group_key": "unknown",
@@ -4274,7 +4323,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 66272
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_079"
       },
       {
         "group_key": "veliger<mollusca",
@@ -4312,7 +4362,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 2
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_080"
       },
       {
         "group_key": "veliger larvae d-shaped",
@@ -4351,7 +4402,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 485
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_018"
       },
       {
         "group_key": "zooplankton",
@@ -4412,7 +4464,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 131
           }
-        ]
+        ],
+        "pseudo_aphia_id": "ntc_081"
       }
     ],
     "taxonomic_mismatch": [
@@ -4452,7 +4505,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 13
           }
-        ]
+        ],
+        "pseudo_aphia_id": "tm_001"
       },
       {
         "group_key": "asterolampraceae",
@@ -4491,7 +4545,8 @@
             "valid_image_count": 8,
             "invalid_image_count": 8
           }
-        ]
+        ],
+        "pseudo_aphia_id": "tm_002"
       },
       {
         "group_key": "bellerochea horologicalis",
@@ -4533,7 +4588,8 @@
             "valid_image_count": 726,
             "invalid_image_count": 726
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_001"
       },
       {
         "group_key": "centric diatom",
@@ -4603,7 +4659,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 34804
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_002"
       },
       {
         "group_key": "crustaceae-part",
@@ -4667,7 +4724,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 8687
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_003"
       },
       {
         "group_key": "dactyliosolen/cerataulina/guinardia",
@@ -4730,7 +4788,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 64
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_004"
       },
       {
         "group_key": "dictyocha/octactis",
@@ -4768,7 +4827,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 23
           }
-        ]
+        ],
+        "pseudo_aphia_id": "tm_003"
       },
       {
         "group_key": "dinoflagellata",
@@ -4815,7 +4875,8 @@
             "valid_image_count": 2643,
             "invalid_image_count": 2643
           }
-        ]
+        ],
+        "pseudo_aphia_id": "tm_004"
       },
       {
         "group_key": "dinoflagellate cyst",
@@ -4878,7 +4939,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 22
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_005"
       },
       {
         "group_key": "epiphytic diatom",
@@ -4916,7 +4978,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 20
           }
-        ]
+        ],
+        "pseudo_aphia_id": "tm_005"
       },
       {
         "group_key": "guinardia striata/dactyliosolen phuketensis",
@@ -4978,7 +5041,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 1459
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_006"
       },
       {
         "group_key": "lauderia/melosira/detonula",
@@ -5039,7 +5103,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 16365
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_007"
       },
       {
         "group_key": "long (chained) diatom",
@@ -5078,7 +5143,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 170240
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_008"
       },
       {
         "group_key": "nauplii",
@@ -5141,7 +5207,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 4524
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_009"
       },
       {
         "group_key": "odontella aurita/ralfsiella minima",
@@ -5202,7 +5269,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 13
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_010"
       },
       {
         "group_key": "ophiuroidea/echinoidea larvae",
@@ -5240,7 +5308,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 5
           }
-        ]
+        ],
+        "pseudo_aphia_id": "tm_006"
       },
       {
         "group_key": "pennate diatom",
@@ -5302,7 +5371,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 16090
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_011"
       },
       {
         "group_key": "pennate diatom colony",
@@ -5364,7 +5434,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 2
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_012"
       },
       {
         "group_key": "plagiogrammopsis/bellerochea malleus",
@@ -5425,7 +5496,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 8
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_013"
       },
       {
         "group_key": "stalked epiphytic diatom",
@@ -5463,7 +5535,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 623
           }
-        ]
+        ],
+        "pseudo_aphia_id": "tm_007"
       },
       {
         "group_key": "stellarima stellaris/podosira/hyalodiscus",
@@ -5524,7 +5597,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 33
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_014"
       },
       {
         "group_key": "synedra/thalassionema",
@@ -5585,7 +5659,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 8570
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_015"
       },
       {
         "group_key": "thalassiosira/porosira",
@@ -5646,7 +5721,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 94
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_016"
       },
       {
         "group_key": "tintinnina",
@@ -5697,7 +5773,8 @@
             "valid_image_count": 472,
             "invalid_image_count": 472
           }
-        ]
+        ],
+        "pseudo_aphia_id": "tm_008"
       },
       {
         "group_key": "trieres sinensis",
@@ -5761,7 +5838,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 26821
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_017"
       },
       {
         "group_key": "veliger larvae d-shaped",
@@ -5823,7 +5901,8 @@
             "valid_image_count": 0,
             "invalid_image_count": 73
           }
-        ]
+        ],
+        "pseudo_aphia_id": "inv_018"
       }
     ]
   },
@@ -6456,6 +6535,96 @@
     ],
     "non_taxonomic_category::bubble": [
       {
+        "dataset_id": "life_watch",
+        "label": "Bubbles",
+        "image_id": "3EDB98E3-1BFC-4D91-A3C2-C11120BD32B1",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/bubbles/01_8faa728a40.jpg",
+        "source_ref": "datasets/LifeWatch/data/images/Bubbles/ecotaxa_Bubbles_3EDB98E3-1BFC-4D91-A3C2-C11120BD32B1.jpg",
+        "width": "68",
+        "height": "68"
+      },
+      {
+        "dataset_id": "life_watch",
+        "label": "Bubbles",
+        "image_id": "798B236F-FCED-4813-A356-99EF0C01CAFF",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/bubbles/02_5cc8616597.jpg",
+        "source_ref": "datasets/LifeWatch/data/images/Bubbles/ecotaxa_Bubbles_798B236F-FCED-4813-A356-99EF0C01CAFF.jpg",
+        "width": "54",
+        "height": "56"
+      },
+      {
+        "dataset_id": "life_watch",
+        "label": "Bubbles",
+        "image_id": "BB4B41EE-3584-4B2F-9299-25CB61DF6077",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/bubbles/03_0a35b60303.jpg",
+        "source_ref": "datasets/LifeWatch/data/images/Bubbles/ecotaxa_Bubbles_BB4B41EE-3584-4B2F-9299-25CB61DF6077.jpg",
+        "width": "51",
+        "height": "51"
+      },
+      {
+        "dataset_id": "life_watch",
+        "label": "Bubbles",
+        "image_id": "B29C3A75-6DEC-4E00-A0D0-0E6061AF44EF",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/bubbles/04_63f66a2f7b.jpg",
+        "source_ref": "datasets/LifeWatch/data/images/Bubbles/ecotaxa_Bubbles_B29C3A75-6DEC-4E00-A0D0-0E6061AF44EF.jpg",
+        "width": "42",
+        "height": "62"
+      },
+      {
+        "dataset_id": "life_watch",
+        "label": "Bubbles",
+        "image_id": "2202E14D-3C46-4612-8B7B-2804961061EB",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/bubbles/05_17907569db.jpg",
+        "source_ref": "datasets/LifeWatch/data/images/Bubbles/ecotaxa_Bubbles_2202E14D-3C46-4612-8B7B-2804961061EB.jpg",
+        "width": "68",
+        "height": "67"
+      },
+      {
+        "dataset_id": "life_watch_2026_image_library",
+        "label": "Bubbles",
+        "image_id": "99F7B5CB-CF6B-44AC-BE75-37D84FA98A0C",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/bubbles/01_3ed225cce1.jpg",
+        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Bubbles/99F7B5CB-CF6B-44AC-BE75-37D84FA98A0C.png",
+        "width": "63",
+        "height": "63"
+      },
+      {
+        "dataset_id": "life_watch_2026_image_library",
+        "label": "Bubbles",
+        "image_id": "1C7EDF78-4D2D-4EDE-83EB-EC722E0DFC2D",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/bubbles/02_b2d2443e5f.jpg",
+        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Bubbles/1C7EDF78-4D2D-4EDE-83EB-EC722E0DFC2D.png",
+        "width": "51",
+        "height": "50"
+      },
+      {
+        "dataset_id": "life_watch_2026_image_library",
+        "label": "Bubbles",
+        "image_id": "982C6405-AE60-4EDB-A4E1-D92B34BDEDEF",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/bubbles/03_187300a531.jpg",
+        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Bubbles/982C6405-AE60-4EDB-A4E1-D92B34BDEDEF.png",
+        "width": "48",
+        "height": "54"
+      },
+      {
+        "dataset_id": "life_watch_2026_image_library",
+        "label": "Bubbles",
+        "image_id": "26555D33-A274-4530-AC28-2CD784D5CD72",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/bubbles/04_2aab9b38d4.jpg",
+        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Bubbles/26555D33-A274-4530-AC28-2CD784D5CD72.png",
+        "width": "52",
+        "height": "57"
+      },
+      {
+        "dataset_id": "life_watch_2026_image_library",
+        "label": "Bubbles",
+        "image_id": "4B065EE0-754E-492A-A37E-CB9FDFF2AB91",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/bubbles/05_d5b016ef66.jpg",
+        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Bubbles/4B065EE0-754E-492A-A37E-CB9FDFF2AB91.png",
+        "width": "54",
+        "height": "53"
+      },
+      {
         "dataset_id": "flowcam_net",
         "label": "bubble",
         "image_id": "165306102",
@@ -6589,98 +6758,6 @@
         "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i16_s3_001_r110001121/srf_i16_s3_001_r110001121_14264.png",
         "width": "124",
         "height": "151"
-      }
-    ],
-    "non_taxonomic_category::bubbles": [
-      {
-        "dataset_id": "life_watch",
-        "label": "Bubbles",
-        "image_id": "3EDB98E3-1BFC-4D91-A3C2-C11120BD32B1",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/bubbles/01_e1ceac11b2.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Bubbles/ecotaxa_Bubbles_3EDB98E3-1BFC-4D91-A3C2-C11120BD32B1.jpg",
-        "width": "68",
-        "height": "68"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Bubbles",
-        "image_id": "798B236F-FCED-4813-A356-99EF0C01CAFF",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/bubbles/02_efc62b9d56.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Bubbles/ecotaxa_Bubbles_798B236F-FCED-4813-A356-99EF0C01CAFF.jpg",
-        "width": "54",
-        "height": "56"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Bubbles",
-        "image_id": "BB4B41EE-3584-4B2F-9299-25CB61DF6077",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/bubbles/03_9adc8a4542.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Bubbles/ecotaxa_Bubbles_BB4B41EE-3584-4B2F-9299-25CB61DF6077.jpg",
-        "width": "51",
-        "height": "51"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Bubbles",
-        "image_id": "B29C3A75-6DEC-4E00-A0D0-0E6061AF44EF",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/bubbles/04_ed9a094d44.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Bubbles/ecotaxa_Bubbles_B29C3A75-6DEC-4E00-A0D0-0E6061AF44EF.jpg",
-        "width": "42",
-        "height": "62"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Bubbles",
-        "image_id": "2202E14D-3C46-4612-8B7B-2804961061EB",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/bubbles/05_8e7bda77f0.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Bubbles/ecotaxa_Bubbles_2202E14D-3C46-4612-8B7B-2804961061EB.jpg",
-        "width": "68",
-        "height": "67"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Bubbles",
-        "image_id": "99F7B5CB-CF6B-44AC-BE75-37D84FA98A0C",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/bubbles/01_e6639dcc55.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Bubbles/99F7B5CB-CF6B-44AC-BE75-37D84FA98A0C.png",
-        "width": "63",
-        "height": "63"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Bubbles",
-        "image_id": "1C7EDF78-4D2D-4EDE-83EB-EC722E0DFC2D",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/bubbles/02_40c3777ab2.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Bubbles/1C7EDF78-4D2D-4EDE-83EB-EC722E0DFC2D.png",
-        "width": "51",
-        "height": "50"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Bubbles",
-        "image_id": "982C6405-AE60-4EDB-A4E1-D92B34BDEDEF",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/bubbles/03_eca64aede3.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Bubbles/982C6405-AE60-4EDB-A4E1-D92B34BDEDEF.png",
-        "width": "48",
-        "height": "54"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Bubbles",
-        "image_id": "26555D33-A274-4530-AC28-2CD784D5CD72",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/bubbles/04_2c84a334ce.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Bubbles/26555D33-A274-4530-AC28-2CD784D5CD72.png",
-        "width": "52",
-        "height": "57"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Bubbles",
-        "image_id": "4B065EE0-754E-492A-A37E-CB9FDFF2AB91",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/bubbles/05_bcd9961fd6.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Bubbles/4B065EE0-754E-492A-A37E-CB9FDFF2AB91.png",
-        "width": "54",
-        "height": "53"
       }
     ],
     "non_taxonomic_category::centric diatom": [
@@ -7855,6 +7932,51 @@
       }
     ],
     "non_taxonomic_category::duplicate": [
+      {
+        "dataset_id": "life_watch_2026_image_library",
+        "label": "Replicate",
+        "image_id": "BB1F94D8-EE8D-446D-BF92-43148AF5CB7D",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/replicate/01_3e62af381d.jpg",
+        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Replicate/BB1F94D8-EE8D-446D-BF92-43148AF5CB7D.png",
+        "width": "52",
+        "height": "69"
+      },
+      {
+        "dataset_id": "life_watch_2026_image_library",
+        "label": "Replicate",
+        "image_id": "4A66C011-A2F7-465C-AB34-32DB3A3BBB16",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/replicate/02_9b3874bcc3.jpg",
+        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Replicate/4A66C011-A2F7-465C-AB34-32DB3A3BBB16.png",
+        "width": "52",
+        "height": "63"
+      },
+      {
+        "dataset_id": "life_watch_2026_image_library",
+        "label": "Replicate",
+        "image_id": "3A68CE85-83B5-4405-891B-5185E05A2DA8",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/replicate/03_dd9de8e292.jpg",
+        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Replicate/3A68CE85-83B5-4405-891B-5185E05A2DA8.png",
+        "width": "66",
+        "height": "54"
+      },
+      {
+        "dataset_id": "life_watch_2026_image_library",
+        "label": "Replicate",
+        "image_id": "13C88A27-F27C-4394-A08F-ED11FE633098",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/replicate/04_9399b449b3.jpg",
+        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Replicate/13C88A27-F27C-4394-A08F-ED11FE633098.png",
+        "width": "52",
+        "height": "62"
+      },
+      {
+        "dataset_id": "life_watch_2026_image_library",
+        "label": "Replicate",
+        "image_id": "0557F731-4D27-4D00-AC5B-6AECF30A008C",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/replicate/05_5a316f70ba.jpg",
+        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Replicate/0557F731-4D27-4D00-AC5B-6AECF30A008C.png",
+        "width": "65",
+        "height": "58"
+      },
       {
         "dataset_id": "tara_pacific_deck",
         "label": "duplicate",
@@ -10751,53 +10873,6 @@
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Remnant/9CBB31D2-55A2-4582-84DE-4B1374FBC19C.png",
         "width": "50",
         "height": "74"
-      }
-    ],
-    "non_taxonomic_category::replicate": [
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Replicate",
-        "image_id": "BB1F94D8-EE8D-446D-BF92-43148AF5CB7D",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/replicate/01_15bdd4c13b.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Replicate/BB1F94D8-EE8D-446D-BF92-43148AF5CB7D.png",
-        "width": "52",
-        "height": "69"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Replicate",
-        "image_id": "4A66C011-A2F7-465C-AB34-32DB3A3BBB16",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/replicate/02_683730d88b.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Replicate/4A66C011-A2F7-465C-AB34-32DB3A3BBB16.png",
-        "width": "52",
-        "height": "63"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Replicate",
-        "image_id": "3A68CE85-83B5-4405-891B-5185E05A2DA8",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/replicate/03_677a989527.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Replicate/3A68CE85-83B5-4405-891B-5185E05A2DA8.png",
-        "width": "66",
-        "height": "54"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Replicate",
-        "image_id": "13C88A27-F27C-4394-A08F-ED11FE633098",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/replicate/04_8f73dc89bf.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Replicate/13C88A27-F27C-4394-A08F-ED11FE633098.png",
-        "width": "52",
-        "height": "62"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Replicate",
-        "image_id": "0557F731-4D27-4D00-AC5B-6AECF30A008C",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/replicate/05_3371131c1a.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Replicate/0557F731-4D27-4D00-AC5B-6AECF30A008C.png",
-        "width": "65",
-        "height": "58"
       }
     ],
     "non_taxonomic_category::retaria": [
@@ -15321,16 +15396,16 @@
     "sample_limit_per_dataset": 5,
     "excluded_valid_tree_overlap_default": false,
     "table_counts": {
-      "non_taxonomic_category": 87,
+      "non_taxonomic_category": 85,
       "taxonomic_mismatch": 26
     },
     "table_image_counts": {
       "non_taxonomic_category": 3062878,
       "taxonomic_mismatch": 367401
     },
-    "evidence_table_total_group_count": 113,
+    "evidence_table_total_group_count": 111,
     "evidence_table_total_image_count": 3430279,
-    "unique_group_count": 95,
+    "unique_group_count": 93,
     "total_image_count": 3144282,
     "total_image_count_semantics": "unique_dataset_invalid_group_image_union"
   }
