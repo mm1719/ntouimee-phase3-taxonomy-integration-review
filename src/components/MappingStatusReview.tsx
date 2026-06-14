@@ -247,7 +247,7 @@ export function MappingStatusReview({ data }: Props) {
             onClick={exportCsv}
           >
             <Download size={16} />
-            Export merge/drop CSV
+            Export CSV
           </button>
           {importError && <p className="error-text">{importError}</p>}
           {mergeErrors.length > 0 && (
@@ -304,6 +304,7 @@ export function MappingStatusReview({ data }: Props) {
                   <td>
                     {mode === "edit" ? (
                       <select
+                        className="action-select"
                         value={row.action}
                         onChange={(event) => updateDraft(row.source_id, { action: event.target.value as MappingRuleRow["action"] })}
                       >
@@ -311,7 +312,9 @@ export function MappingStatusReview({ data }: Props) {
                         <option value="merge">merge</option>
                         <option value="drop">drop</option>
                       </select>
-                    ) : row.action}
+                    ) : (
+                      <span className={`action-badge action-${row.action}`}>{row.action}</span>
+                    )}
                   </td>
                   <td><code>{row.source_id}</code></td>
                   <td>

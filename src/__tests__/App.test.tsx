@@ -607,6 +607,6 @@ describe("App mapping status UI", () => {
     await user.type(targetInput, "missing_target");
 
     expect(screen.getByText("target_id is not present in current ML-ready targets")).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: "Export merge/drop CSV" })).toBeDisabled();
+    expect(screen.getByRole("button", { name: "Export CSV" })).toBeDisabled();
   });
 });
