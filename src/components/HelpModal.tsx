@@ -63,12 +63,12 @@ export function HelpModal({ open, onClose }: Props) {
           <h3>Risk flags</h3>
           <dl className="help-list">
             <div>
-              <dt>DwC/Aphia mismatch</dt>
+              <dt>DwC record review</dt>
               <dd>
                 Tara Pacific DwC-A <code>scientificNameID</code> exact-matches the
-                label, but its AphiaID differs from the WoRMS validation AphiaID.
-                The tree uses the WoRMS AphiaID and preserves the DwC value as
-                provenance evidence.
+                label, but the referenced WoRMS record is not accepted or does
+                not have <code>isExtinct=0</code>. The entry remains visible for
+                review, and the record status is shown before integration decisions.
               </dd>
             </div>
             <div>

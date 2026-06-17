@@ -62,6 +62,9 @@ export type Candidate = {
   invalid_statuses: string;
   worms_aphia_ids: string;
   dwca_aphia_ids: string;
+  dwca_usable_aphia_ids: string;
+  dwca_review_aphia_ids: string;
+  dwca_review_reasons: string;
   worms_record_urls: string;
   synonym_note: string;
   accepted_name: string;

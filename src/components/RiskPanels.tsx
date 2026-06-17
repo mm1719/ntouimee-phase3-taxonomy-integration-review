@@ -18,13 +18,13 @@ type Props = {
 };
 
 type RiskKey =
-  | "dwca_aphia_mismatch"
+  | "dwca_record_review"
   | "contaminated"
   | "multiple_valid_aphia_ids"
   | "broad_class";
 
 const RISKS: RiskKey[] = [
-  "dwca_aphia_mismatch",
+  "dwca_record_review",
   "contaminated",
   "multiple_valid_aphia_ids",
   "broad_class"
@@ -66,21 +66,24 @@ function riskColumns(activeRisk: RiskKey) {
     })
   ];
 
-  if (activeRisk === "dwca_aphia_mismatch") {
+  if (activeRisk === "dwca_record_review") {
     return [
       ...common,
       helper.accessor("selected_aphia_ids", {
         header: "Selected AphiaID",
         cell: (info) => <ListCell value={info.getValue()} />
       }),
-      helper.accessor("dwca_aphia_ids", {
-        header: "DwC scientificNameID",
+      helper.accessor("dwca_review_aphia_ids", {
+        header: "Review DwC ID",
         cell: (info) => <ListCell value={info.getValue()} />
       }),
-      helper.accessor("selected_aphia_source", { header: "Source priority" }),
-      helper.accessor("terminal_ranks", {
-        header: "Terminal rank",
+      helper.accessor("dwca_aphia_ids", {
+        header: "All DwC IDs",
         cell: (info) => <ListCell value={info.getValue()} />
+      }),
+      helper.accessor("dwca_review_reasons", {
+        header: "Review reason",
+        cell: (info) => <TextCell value={info.getValue()} />
       })
     ];
   }
@@ -137,7 +140,7 @@ function riskColumns(activeRisk: RiskKey) {
 }
 
 export function RiskPanels({ candidates, onSelect }: Props) {
-  const [activeRisk, setActiveRisk] = useState<RiskKey>("dwca_aphia_mismatch");
+  const [activeRisk, setActiveRisk] = useState<RiskKey>("dwca_record_review");
   const [sorting, setSorting] = useState<SortingState>([]);
 
   const rows = useMemo(

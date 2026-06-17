@@ -21,6 +21,9 @@ const baseCandidate: Candidate = {
   invalid_statuses: "",
   worms_aphia_ids: "",
   dwca_aphia_ids: "",
+  dwca_usable_aphia_ids: "",
+  dwca_review_aphia_ids: "",
+  dwca_review_reasons: "",
   worms_record_urls: "",
   synonym_note: "",
   accepted_name: "",
@@ -42,8 +45,10 @@ const candidates: Candidate[] = [
     selected_aphia_ids: "1066",
     selected_aphia_source: "worms_name_assignment",
     terminal_ranks: "Subphylum",
-    risk_flags: "dwca_aphia_mismatch",
-    dwca_aphia_ids: "999999"
+    risk_flags: "dwca_record_review",
+    dwca_aphia_ids: "999999",
+    dwca_review_aphia_ids: "999999",
+    dwca_review_reasons: "999999: isExtinct=1"
   },
   {
     ...baseCandidate,
@@ -87,7 +92,7 @@ function tableHeaders() {
 }
 
 describe("RiskPanels", () => {
-  it("shows DwC mismatch specific columns by default", () => {
+  it("shows DwC record review specific columns by default", () => {
     render(<RiskPanels candidates={candidates} onSelect={vi.fn()} />);
 
     expect(tableHeaders()).toEqual([
@@ -96,12 +101,13 @@ describe("RiskPanels", () => {
       "Label",
       "Images",
       "Selected AphiaID",
-      "DwC scientificNameID",
-      "Source priority",
-      "Terminal rank"
+      "Review DwC ID",
+      "All DwC IDs",
+      "Review reason"
     ]);
     expect(screen.getByText("DwC conflict")).toBeInTheDocument();
-    expect(screen.getByText("999999")).toBeInTheDocument();
+    expect(screen.getAllByText("999999")).toHaveLength(2);
+    expect(screen.getByText("999999: isExtinct=1")).toBeInTheDocument();
   });
 
   it("switches to contaminated evidence columns and keeps baseline invalid validation visible", async () => {
@@ -166,7 +172,7 @@ describe("RiskPanels", () => {
 
   it("shows an empty state for a risk with no candidates", async () => {
     const user = userEvent.setup();
-    render(<RiskPanels candidates={candidates.filter((row) => row.risk_flags !== "dwca_aphia_mismatch")} onSelect={vi.fn()} />);
+    render(<RiskPanels candidates={candidates.filter((row) => row.risk_flags !== "dwca_record_review")} onSelect={vi.fn()} />);
 
     expect(screen.getByText("No candidates currently carry this risk flag")).toBeInTheDocument();
     await user.click(screen.getByRole("button", { name: /Contaminated/ }));
