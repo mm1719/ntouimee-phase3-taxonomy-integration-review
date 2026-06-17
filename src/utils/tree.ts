@@ -1,7 +1,7 @@
 import type { DatasetId, TreeNode } from "../types";
 
 export type Filters = {
-  query: string;
+  queries: string[];
   datasets: Set<DatasetId>;
   risks: Set<string>;
   rank: string;
@@ -44,6 +44,17 @@ function nodeText(node: TreeNode): string {
     .toLowerCase();
 }
 
+function normalizedQueries(filters: Filters): string[] {
+  return filters.queries
+    .map((query) => query.trim().toLowerCase())
+    .filter(Boolean);
+}
+
+function queryMatches(text: string, filters: Filters): boolean {
+  const queries = normalizedQueries(filters);
+  return queries.length === 0 || queries.some((query) => text.includes(query));
+}
+
 function leafMatches(node: TreeNode, filters: Filters, ignoreQuery = false): boolean {
   if (node.type !== "dataset_class") return false;
   if (node.dataset_id && !filters.datasets.has(node.dataset_id)) return false;
@@ -52,7 +63,7 @@ function leafMatches(node: TreeNode, filters: Filters, ignoreQuery = false): boo
     if (![...filters.risks].some((risk) => risks.has(risk))) return false;
   }
   if (filters.rank && node.rank !== filters.rank) return false;
-  if (!ignoreQuery && filters.query && !nodeText(node).includes(filters.query.toLowerCase())) {
+  if (!ignoreQuery && !queryMatches(nodeText(node), filters)) {
     return false;
   }
   return true;
@@ -60,7 +71,7 @@ function leafMatches(node: TreeNode, filters: Filters, ignoreQuery = false): boo
 
 function taxonMatches(node: TreeNode, filters: Filters, ignoreQuery = false): boolean {
   if (filters.rank && node.rank !== filters.rank) return false;
-  if (!ignoreQuery && filters.query && !nodeText(node).includes(filters.query.toLowerCase())) {
+  if (!ignoreQuery && !queryMatches(nodeText(node), filters)) {
     return false;
   }
   return true;
@@ -77,7 +88,7 @@ function mergeNode(node: TreeNode, children: TreeNode[]): TreeNode {
 
 export function filterTree(node: TreeNode, filters: Filters, forceDescendants = false): TreeNode[] {
   const isLeaf = node.type === "dataset_class";
-  const selfQueryMatch = !isLeaf && !!filters.query && nodeText(node).includes(filters.query.toLowerCase());
+  const selfQueryMatch = !isLeaf && normalizedQueries(filters).length > 0 && queryMatches(nodeText(node), filters);
   const includeDescendants = forceDescendants || selfQueryMatch;
   const filteredChildren = (node.children ?? []).flatMap((child) =>
     filterTree(child, filters, includeDescendants)

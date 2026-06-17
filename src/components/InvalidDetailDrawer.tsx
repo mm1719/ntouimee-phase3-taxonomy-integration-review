@@ -1,4 +1,5 @@
 import { Images, X } from "lucide-react";
+import { useState } from "react";
 import { DatasetBadge } from "./Badges";
 import type { InvalidLabelGroup, ImageSample } from "../types";
 
@@ -10,6 +11,7 @@ type Props = {
 };
 
 export function InvalidDetailDrawer({ group, samples, onClose, onOpenSamples }: Props) {
+  const [showSources, setShowSources] = useState(false);
   if (!group) return null;
   const sourceLimit = 5;
 
@@ -68,24 +70,28 @@ export function InvalidDetailDrawer({ group, samples, onClose, onOpenSamples }: 
             {dataset.reasons.map((reason) => <li key={reason}>{reason}</li>)}
           </ul>
 
-          <h3>Local sources</h3>
-          <ul className="detail-list">
-            {dataset.source_examples.slice(0, sourceLimit).map((source) => (
-              <li className="path-text" key={source}>{source}</li>
-            ))}
-            {dataset.source_examples.length > sourceLimit && (
-              <li className="muted">
-                {dataset.source_examples.length - sourceLimit} more sources recorded in the JSON data.
-              </li>
-            )}
-          </ul>
+          <button className="ghost-button source-toggle" onClick={() => setShowSources((value) => !value)}>
+            {showSources ? "Hide source references" : "Show source references"}
+          </button>
+          {showSources && (
+            <ul className="detail-list">
+              {dataset.source_examples.slice(0, sourceLimit).map((source) => (
+                <li className="path-text" key={source}>{source}</li>
+              ))}
+              {dataset.source_examples.length > sourceLimit && (
+                <li className="muted">
+                  {dataset.source_examples.length - sourceLimit} more sources recorded in the JSON data.
+                </li>
+              )}
+            </ul>
+          )}
         </div>
       ))}
 
       <div className="drawer-section">
         <button className="primary-button" onClick={() => onOpenSamples(group.sample_key)}>
           <Images size={16} />
-          Open {samples.length || 5} sample thumbnails
+          Open {samples.length || 8} sample thumbnails
         </button>
         <p className="muted">
           Samples are drawn from analysis-ready manifests and keep relative source references.

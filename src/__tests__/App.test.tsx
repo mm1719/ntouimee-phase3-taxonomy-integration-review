@@ -265,6 +265,17 @@ const invalid = {
         height: "50"
       }
     ],
+    "non_taxonomic_category::tripos": [
+      {
+        dataset_id: "life_watch",
+        label: "Tripos",
+        image_id: "bad-tripos",
+        thumbnail_url: "/invalid-samples/non_taxonomic_category/tripos.jpg",
+        source_ref: "datasets/LifeWatch/tripos_invalid.jpg",
+        width: "60",
+        height: "60"
+      }
+    ],
     "taxonomic_mismatch::bad_aphia": [
       {
         dataset_id: "tara_pacific_bongo",
@@ -279,7 +290,7 @@ const invalid = {
   },
   summary: {
     source: "fixture",
-    sample_limit_per_dataset: 5,
+    sample_limit_per_dataset: 8,
     excluded_valid_tree_overlap_default: true,
     table_counts: {
       non_taxonomic_category: 2,
@@ -443,10 +454,21 @@ describe("App valid tree UI", () => {
     const user = userEvent.setup();
     await renderApp("/valid");
 
-    await user.type(screen.getByPlaceholderText("Search label, taxon, AphiaID"), "missing-value");
+    await user.type(screen.getByLabelText("Search term 1"), "missing-value");
 
     expect(screen.getByText("Tree cleared by current filters")).toBeInTheDocument();
     expect(screen.queryByText("Loading taxonomy data...")).not.toBeInTheDocument();
+  });
+
+  it("uses OR semantics across the three valid search fields", async () => {
+    const user = userEvent.setup();
+    await renderApp("/valid");
+
+    await user.type(screen.getByLabelText("Search term 1"), "missing-value");
+    await user.type(screen.getByLabelText("Search term 2"), "copepoda");
+
+    expect(screen.getByRole("button", { name: /Copepoda/i })).toBeInTheDocument();
+    expect(screen.queryByRole("button", { name: /Crustacea broad/i })).not.toBeInTheDocument();
   });
 
   it("filters the valid tree by risk and dataset", async () => {
@@ -477,6 +499,19 @@ describe("App valid tree UI", () => {
 
     await user.click(screen.getByRole("button", { name: /Back to taxonomy/i }));
     expect(screen.getByText("WoRMS lineage structure")).toBeInTheDocument();
+  });
+
+  it("opens contaminated invalid evidence thumbnails from the valid drawer", async () => {
+    const user = userEvent.setup();
+    await renderApp("/valid");
+
+    await user.click(screen.getByText("Expand all"));
+    await user.click(screen.getByRole("button", { name: /Tripos/i }));
+
+    expect(screen.getByText("Baseline invalid validation")).toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: /Invalid evidence thumbnails: Non-Taxonomic Category \(1\)/i }));
+    expect(screen.getAllByRole("heading", { name: "Tripos" }).length).toBeGreaterThan(0);
+    expect(screen.getByText("bad-tripos")).toBeInTheDocument();
   });
 
   it("uses tree text controls and expand/default controls without losing the tree", async () => {
@@ -525,14 +560,14 @@ describe("App invalid labels UI", () => {
     await renderApp("/invalid");
 
     expect(screen.getByText("artefact")).toBeInTheDocument();
-    await user.type(screen.getByPlaceholderText("Search pseudo AphiaID, aliases, reasons, sources"), "no-match");
+    await user.type(screen.getByLabelText("Invalid search term 1"), "no-match");
     expect(screen.queryByText("artefact")).not.toBeInTheDocument();
 
-    await user.clear(screen.getByPlaceholderText("Search pseudo AphiaID, aliases, reasons, sources"));
-    await user.type(screen.getByPlaceholderText("Search pseudo AphiaID, aliases, reasons, sources"), "ntc_002");
+    await user.clear(screen.getByLabelText("Invalid search term 1"));
+    await user.type(screen.getByLabelText("Invalid search term 2"), "ntc_002");
     expect(screen.getByText("artefact")).toBeInTheDocument();
 
-    await user.clear(screen.getByPlaceholderText("Search pseudo AphiaID, aliases, reasons, sources"));
+    await user.clear(screen.getByLabelText("Invalid search term 2"));
     await user.click(screen.getByLabelText("FlowCAMNet"));
     expect(screen.queryByText("artefact")).not.toBeInTheDocument();
   });
@@ -572,6 +607,9 @@ describe("App invalid labels UI", () => {
 
     await user.click(screen.getByText("artefact"));
     expect(screen.getByText("Invalid label group")).toBeInTheDocument();
+    expect(screen.queryByText("flowcam_invalid.csv")).not.toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: "Show source references" }));
+    expect(screen.getByText("flowcam_invalid.csv")).toBeInTheDocument();
     await user.click(screen.getByRole("button", { name: "Close detail drawer" }));
     expect(screen.queryByText("Invalid label group")).not.toBeInTheDocument();
 
@@ -593,6 +631,18 @@ describe("App mapping status UI", () => {
     const mergeRow = within(mappingPanel).getByText("ntc_002").closest("tr")!;
     expect(within(mergeRow).getByText("othertocheck")).toBeInTheDocument();
     expect(within(mergeRow).getByText("fixture merge")).toBeInTheDocument();
+  });
+
+  it("filters mapping status with OR semantics across search fields", async () => {
+    const user = userEvent.setup();
+    await renderApp("/mapping");
+
+    await user.type(screen.getByLabelText("Mapping search term 1"), "missing-value");
+    await user.type(screen.getByLabelText("Mapping search term 3"), "copepoda");
+
+    const mappingPanel = screen.getByRole("heading", { name: "2026-06-14_manual_mapping_rules.csv" }).closest("main")!;
+    expect(within(mappingPanel).getByText("1080")).toBeInTheDocument();
+    expect(within(mappingPanel).queryByText("ntc_002")).not.toBeInTheDocument();
   });
 
   it("edits mapping rows and blocks unresolved merge targets", async () => {

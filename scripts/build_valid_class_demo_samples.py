@@ -20,7 +20,7 @@ ROOT = SCRIPT_DIR.parents[2]
 CANDIDATES = ROOT / "studies/valid_class_taxonomy_visualization/valid_class_candidates.csv"
 OUT = DEMO_ROOT / "public/data/class_image_samples.json"
 SAMPLES_DIR = DEMO_ROOT / "public/samples"
-SAMPLE_LIMIT = 10
+SAMPLE_LIMIT = 8
 THUMBNAIL_MAX_EDGE = 256
 
 MANIFESTS = {
@@ -29,6 +29,7 @@ MANIFESTS = {
         "label": "label_original",
         "image_path": "source_path",
         "image_id": "image_id",
+        "aphia_id": "aphia_id",
         "width": "width",
         "height": "height",
     },
@@ -37,6 +38,7 @@ MANIFESTS = {
         "label": "label_original",
         "image_path": "source_path",
         "image_id": "image_id",
+        "aphia_id": "aphia_id",
         "width": "width",
         "height": "height",
     },
@@ -100,6 +102,7 @@ def read_candidates() -> dict[str, dict[str, dict[str, str]]]:
             labels[row["dataset_id"]][source_label] = {
                 "display_label": row["label"],
                 "entry_id": row["entry_id"],
+                "selected_aphia_ids": row.get("selected_aphia_ids", ""),
             }
     return labels
 
@@ -141,7 +144,24 @@ def build_samples() -> dict[str, list[dict[str, str]]]:
                 entry_id = candidate.get("entry_id", "")
                 if not entry_id or entry_id not in remaining:
                     continue
+                selected_aphia_ids = [
+                    item for item in candidate.get("selected_aphia_ids", "").split("|") if item
+                ]
                 if len(samples[entry_id]) >= SAMPLE_LIMIT:
+                    primary_full = True
+                else:
+                    primary_full = False
+                aphia_id = row.get(cfg.get("aphia_id", ""), "")
+                aphia_sample_key = (
+                    f"{entry_id}::aphia::{aphia_id}"
+                    if len(selected_aphia_ids) > 1
+                    and aphia_id
+                    and aphia_id in selected_aphia_ids
+                    else ""
+                )
+                if primary_full and (
+                    not aphia_sample_key or len(samples[aphia_sample_key]) >= SAMPLE_LIMIT
+                ):
                     continue
                 source_value = row.get(cfg["image_path"], "")
                 source_path = Path(source_value)
@@ -159,18 +179,26 @@ def build_samples() -> dict[str, list[dict[str, str]]]:
                     write_thumbnail(source_path, output_path)
                 except Exception:
                     continue
-                samples[entry_id].append(
-                    {
-                        "dataset_id": dataset_id,
-                        "label": label,
-                        "image_id": row.get(cfg["image_id"], ""),
-                        "thumbnail_url": "/" + str(output_rel),
-                        "source_ref": relative_ref(source_value),
-                        "width": row.get(cfg["width"], ""),
-                        "height": row.get(cfg["height"], ""),
-                    }
+                sample_row = {
+                    "dataset_id": dataset_id,
+                    "label": label,
+                    "image_id": row.get(cfg["image_id"], ""),
+                    "thumbnail_url": "/" + str(output_rel),
+                    "source_ref": relative_ref(source_value),
+                    "width": row.get(cfg["width"], ""),
+                    "height": row.get(cfg["height"], ""),
+                }
+                if not primary_full:
+                    samples[entry_id].append(sample_row)
+                if aphia_sample_key and len(samples[aphia_sample_key]) < SAMPLE_LIMIT:
+                    samples[aphia_sample_key].append(sample_row)
+                aphia_full = all(
+                    len(samples.get(f"{entry_id}::aphia::{selected_id}", [])) >= SAMPLE_LIMIT
+                    for selected_id in selected_aphia_ids
                 )
-                if len(samples[entry_id]) >= SAMPLE_LIMIT:
+                if len(samples[entry_id]) >= SAMPLE_LIMIT and (
+                    len(selected_aphia_ids) <= 1 or aphia_full
+                ):
                     remaining.discard(entry_id)
                     if not remaining:
                         break

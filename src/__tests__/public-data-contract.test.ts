@@ -90,13 +90,18 @@ describe("valid route public data contract", () => {
 
   it("keeps sample maps, lineage maps, and metadata referentially valid", () => {
     const candidateIds = new Set(candidates.map((candidate) => candidate.entry_id));
+    const candidateById = new Map(candidates.map((candidate) => [candidate.entry_id, candidate]));
     const selectedIds = new Set(
       candidates.flatMap((candidate) => splitCell(candidate.selected_aphia_ids))
     );
 
     Object.entries(samples).forEach(([entryId, sampleRows]) => {
-      expect(candidateIds.has(entryId), entryId).toBe(true);
-      expect(sampleRows.length, entryId).toBeLessThanOrEqual(15);
+      const [baseEntryId, aphiaId] = entryId.split("::aphia::");
+      expect(candidateIds.has(baseEntryId), entryId).toBe(true);
+      if (aphiaId) {
+        expect(splitCell(candidateById.get(baseEntryId)?.selected_aphia_ids ?? ""), entryId).toContain(aphiaId);
+      }
+      expect(sampleRows.length, entryId).toBeLessThanOrEqual(8);
       sampleRows.forEach((sample) => {
         expect(sample.thumbnail_url).toMatch(/^\/samples\//);
         expect(sample.source_ref).not.toMatch(/^\/home\//);
@@ -192,9 +197,15 @@ describe("invalid route public data contract", () => {
     Object.entries(invalid.samples).forEach(([sampleKey, sampleRows]) => {
       expect(groupKeys.has(sampleKey), sampleKey).toBe(true);
       expect(sampleRows.length, sampleKey).toBeGreaterThan(0);
+      const byDatasetLabel = new Map<string, number>();
       sampleRows.forEach((sample) => {
+        const countKey = `${sample.dataset_id}::${sample.label}`;
+        byDatasetLabel.set(countKey, (byDatasetLabel.get(countKey) ?? 0) + 1);
         expect(sample.thumbnail_url).toMatch(/^\/invalid-samples\//);
         expect(sample.source_ref).not.toMatch(/^\/home\//);
+      });
+      byDatasetLabel.forEach((count, countKey) => {
+        expect(count, `${sampleKey} ${countKey}`).toBeLessThanOrEqual(invalid.summary.sample_limit_per_dataset);
       });
     });
   });

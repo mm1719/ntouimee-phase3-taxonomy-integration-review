@@ -15,7 +15,7 @@ export function SamplePage({ candidate, title, subtitle, backLabel = "Back to ta
   const description =
     subtitle ??
     (candidate
-      ? `${candidate.dataset_id} · ${Number(candidate.image_count).toLocaleString()} images · showing up to 10 thumbnails`
+      ? `${candidate.dataset_id} · ${Number(candidate.image_count).toLocaleString()} images · ${samples.length.toLocaleString()} thumbnails`
       : `${samples.length.toLocaleString()} thumbnails`);
   return (
     <main className="sample-page">

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-14T13:36:45+00:00",
+  "generated_at_utc": "2026-06-17T05:14:33+00:00",
   "source_targets": "derived/ml_ready/target_profiles.csv",
   "history_dir": "derived/ml_ready/mapping_history",
   "export_fields": [
@@ -10,7 +10,7 @@
     "target_alias",
     "notes"
   ],
-  "target_count": 278,
+  "target_count": 274,
   "targets": [
     {
       "source_id": "ntc_082",
@@ -65,12 +65,12 @@
     {
       "source_id": "148898",
       "source_alias": "Bacillariophyta",
-      "image_count": 108825,
+      "image_count": 109154,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "broad_class",
       "dataset_ids": "tara_pacific_deck|tara_pacific_bongo|flowcam_net",
-      "source_labels": "chainthin|Rhizosolenids|Chaetoceros<Mediophyceae|Coscinodiscids|pennate<Bacillariophyta|Rhizosolenia inter. Richelia|chainlarge|Pseudo-Nitzschia chain|multiple<Diatoma|Bacteriastrum<Mediophyceae|rhizosolenia tmp i|Climacodium inter. Crocosphaera|centric|Odontella sp.|part diatom|Chaetoceros inter. Calothrix"
+      "source_labels": "chainthin|Rhizosolenids|Chaetoceros<Mediophyceae|Coscinodiscids|pennate<Bacillariophyta|Rhizosolenia inter. Richelia|Pseudo-Nitzschia chain|chainlarge|multiple<Diatoma|Bacteriastrum<Mediophyceae|rhizosolenia tmp i|Climacodium inter. Crocosphaera|centric|Odontella sp.|part diatom|Chaetoceros inter. Calothrix"
     },
     {
       "source_id": "148899",
@@ -443,6 +443,16 @@
       "source_labels": "Helicotheca_tamesis|Helicotheca tamesis"
     },
     {
+      "source_id": "146203",
+      "source_alias": "Dinoflagellata",
+      "image_count": 7648,
+      "valid_statuses": "valid",
+      "invalid_reasons": "n/a",
+      "risk_flags": "broad_class|contaminated",
+      "dataset_ids": "tara_pacific_bongo|life_watch|life_watch_2026_image_library|tara_pacific_deck|flowcam_net",
+      "source_labels": "Dinophyceae X|Dinoflagellata|polar view|polar_view|Neoceratium fusus<Neoceratium|Neoceratium furca<Neoceratium|Ornithocercus magnificus<Ornithocercus"
+    },
+    {
       "source_id": "840626",
       "source_alias": "Tripos fusus",
       "image_count": 7518,
@@ -451,16 +461,6 @@
       "risk_flags": "n/a",
       "dataset_ids": "life_watch|life_watch_2026_image_library",
       "source_labels": "Tripos_fusus|Tripos fusus"
-    },
-    {
-      "source_id": "146203",
-      "source_alias": "Dinoflagellata",
-      "image_count": 7454,
-      "valid_statuses": "valid",
-      "invalid_reasons": "n/a",
-      "risk_flags": "broad_class|contaminated",
-      "dataset_ids": "tara_pacific_bongo|life_watch|life_watch_2026_image_library|tara_pacific_deck",
-      "source_labels": "Dinophyceae X|Dinoflagellata|polar view|Neoceratium fusus<Neoceratium|Neoceratium furca<Neoceratium|Ornithocercus magnificus<Ornithocercus"
     },
     {
       "source_id": "ntc_051",
@@ -521,6 +521,16 @@
       "risk_flags": "dwca_aphia_mismatch",
       "dataset_ids": "tara_pacific_deck|tara_pacific_bongo|flowcam_net",
       "source_labels": "Hemiaulus"
+    },
+    {
+      "source_id": "582420",
+      "source_alias": "Rhizaria",
+      "image_count": 5989,
+      "valid_statuses": "valid",
+      "invalid_reasons": "n/a",
+      "risk_flags": "broad_class",
+      "dataset_ids": "tara_pacific_deck|flowcam_net|tara_pacific_bongo",
+      "source_labels": "Rhizaria|Retaria|spines<Acantharea|spines<Acantharia"
     },
     {
       "source_id": "345513",
@@ -631,16 +641,6 @@
       "risk_flags": "n/a",
       "dataset_ids": "tara_pacific_deck|tara_pacific_bongo",
       "source_labels": "Tintinnida"
-    },
-    {
-      "source_id": "582420",
-      "source_alias": "Rhizaria",
-      "image_count": 4624,
-      "valid_statuses": "valid",
-      "invalid_reasons": "n/a",
-      "risk_flags": "broad_class",
-      "dataset_ids": "tara_pacific_deck|tara_pacific_bongo",
-      "source_labels": "Rhizaria|Retaria|spines<Acantharea"
     },
     {
       "source_id": "149149",
@@ -961,16 +961,6 @@
       "risk_flags": "n/a",
       "dataset_ids": "flowcam_net",
       "source_labels": "part_Odontella"
-    },
-    {
-      "source_id": "ntc_067",
-      "source_alias": "retaria",
-      "image_count": 1360,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "dataset_ids": "flowcam_net",
-      "source_labels": "Retaria"
     },
     {
       "source_id": "inv_004",
@@ -1573,16 +1563,6 @@
       "source_labels": "Pollen|pollen"
     },
     {
-      "source_id": "ntc_064",
-      "source_alias": "pseudo-nitzschia chain",
-      "image_count": 329,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "dataset_ids": "flowcam_net",
-      "source_labels": "Pseudo-Nitzschia chain"
-    },
-    {
       "source_id": "109555",
       "source_alias": "Pyrophacus",
       "image_count": 328,
@@ -1781,16 +1761,6 @@
       "risk_flags": "n/a",
       "dataset_ids": "life_watch|life_watch_2026_image_library",
       "source_labels": "Tintinnopsis"
-    },
-    {
-      "source_id": "ntc_062",
-      "source_alias": "polar view",
-      "image_count": 194,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "dataset_ids": "flowcam_net",
-      "source_labels": "polar_view"
     },
     {
       "source_id": "163292",
@@ -2503,16 +2473,6 @@
       "source_labels": "Synedra"
     },
     {
-      "source_id": "ntc_071",
-      "source_alias": "spines<acantharia",
-      "image_count": 5,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "dataset_ids": "tara_pacific_deck",
-      "source_labels": "spines<Acantharia"
-    },
-    {
       "source_id": "tm_006",
       "source_alias": "ophiuroidea/echinoidea larvae",
       "image_count": 5,
@@ -2799,12 +2759,21 @@
       "history_id": "2026_06_14_manual_mapping_rules",
       "file_name": "2026-06-14_manual_mapping_rules.csv",
       "path": "derived/ml_ready/mapping_history/2026-06-14_manual_mapping_rules.csv",
-      "row_count": 278,
-      "explicit_row_count": 56,
-      "merge_count": 54,
+      "row_count": 274,
+      "explicit_row_count": 54,
+      "merge_count": 52,
       "drop_count": 2,
-      "warning_count": 0,
-      "warnings": [],
+      "warning_count": 2,
+      "warnings": [
+        {
+          "source_id": "ntc_062",
+          "message": "source_id is not present in current ML-ready targets"
+        },
+        {
+          "source_id": "ntc_067",
+          "message": "source_id is not present in current ML-ready targets"
+        }
+      ],
       "rows": [
         {
           "action": "keep",
@@ -3238,9 +3207,9 @@
         },
         {
           "action": "keep",
-          "source_id": "840626",
+          "source_id": "146203",
           "target_id": "",
-          "source_alias": "Tripos fusus",
+          "source_alias": "Dinoflagellata",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -3248,9 +3217,9 @@
         },
         {
           "action": "keep",
-          "source_id": "146203",
+          "source_id": "840626",
           "target_id": "",
-          "source_alias": "Dinoflagellata",
+          "source_alias": "Tripos fusus",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -3311,6 +3280,16 @@
           "source_id": "605114",
           "target_id": "",
           "source_alias": "Hemiaulus",
+          "target_alias": "",
+          "notes": "",
+          "validation_status": "ok",
+          "validation_message": ""
+        },
+        {
+          "action": "keep",
+          "source_id": "582420",
+          "target_id": "",
+          "source_alias": "Rhizaria",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -3421,16 +3400,6 @@
           "source_id": "425497",
           "target_id": "",
           "source_alias": "Tintinnida",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
-          "source_id": "582420",
-          "target_id": "",
-          "source_alias": "Rhizaria",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -3753,16 +3722,6 @@
           "source_alias": "part odontella",
           "target_alias": "Odontella",
           "notes": "round00 stage04 merge part label into parent class",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "merge",
-          "source_id": "ntc_067",
-          "target_id": "582420",
-          "source_alias": "retaria",
-          "target_alias": "Rhizaria",
-          "notes": "inherited stage02 merge",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -4368,16 +4327,6 @@
         },
         {
           "action": "keep",
-          "source_id": "ntc_064",
-          "target_id": "",
-          "source_alias": "pseudo-nitzschia chain",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "109555",
           "target_id": "",
           "source_alias": "Pyrophacus",
@@ -4573,16 +4522,6 @@
           "source_alias": "Tintinnopsis",
           "target_alias": "",
           "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "merge",
-          "source_id": "ntc_062",
-          "target_id": "ntc_053",
-          "source_alias": "polar view",
-          "target_alias": "othertocheck",
-          "notes": "inherited stage02 merge",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5291,16 +5230,6 @@
           "source_id": "149186",
           "target_id": "",
           "source_alias": "Synedra",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
-          "source_id": "ntc_071",
-          "target_id": "",
-          "source_alias": "spines<acantharia",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",

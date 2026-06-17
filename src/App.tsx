@@ -31,11 +31,11 @@ function currentRoute(): Route {
 function App() {
   const [data, setData] = useState<DataState | null>(null);
   const [route, setRoute] = useState<Route>(currentRoute());
-  const [query, setQuery] = useState("");
+  const [queries, setQueries] = useState(["", "", ""]);
   const [datasets, setDatasets] = useState<Set<DatasetId>>(new Set(DATASETS));
   const [risks, setRisks] = useState<Set<string>>(new Set());
   const [rank, setRank] = useState("");
-  const [treeScale, setTreeScale] = useState(1.08);
+  const [treeScale, setTreeScale] = useState(1.19);
   const [expandAllVersion, setExpandAllVersion] = useState(0);
   const [treeResetKey, setTreeResetKey] = useState(0);
   const [helpOpen, setHelpOpen] = useState(false);
@@ -86,7 +86,7 @@ function App() {
 
   useEffect(() => {
     setTreeResetKey((value) => value + 1);
-  }, [query, datasets, risks, rank]);
+  }, [queries, datasets, risks, rank]);
 
   const candidateByEntry = useMemo(() => {
     const map = new Map<string, Candidate>();
@@ -97,8 +97,8 @@ function App() {
   const ranks = useMemo(() => (data ? collectRanks(data.tree) : []), [data]);
 
   const filters: Filters = useMemo(
-    () => ({ query, datasets, risks, rank }),
-    [query, datasets, risks, rank]
+    () => ({ queries, datasets, risks, rank }),
+    [queries, datasets, risks, rank]
   );
 
   const visibleTree = useMemo(() => {
@@ -109,12 +109,25 @@ function App() {
   const selectedCandidate =
     selected?.entry_id ? candidateByEntry.get(selected.entry_id) : undefined;
   const selectedSamples = selected?.entry_id && data ? data.samples[selected.entry_id] ?? [] : [];
+  const selectedInvalidGroups = useMemo(() => {
+    if (!selectedCandidate || !data) return [];
+    const labelKeys = new Set([
+      selectedCandidate.label.toLocaleLowerCase(),
+      selectedCandidate.original_label.toLocaleLowerCase()
+    ]);
+    return [...data.invalid.tables.non_taxonomic_category, ...data.invalid.tables.taxonomic_mismatch]
+      .filter((group) => group.include_valid_tree_overlap)
+      .filter((group) => group.dataset_ids.includes(selectedCandidate.dataset_id))
+      .filter((group) => group.aliases.some((alias) => labelKeys.has(alias.toLocaleLowerCase())));
+  }, [data, selectedCandidate]);
 
   if (!data) {
     return <div className="loading">Loading taxonomy data...</div>;
   }
 
-  const sampleCandidate = sampleEntry ? candidateByEntry.get(sampleEntry) : undefined;
+  const sampleCandidateKey = sampleEntry?.split("::aphia::")[0] ?? "";
+  const sampleAphiaId = sampleEntry?.includes("::aphia::") ? sampleEntry.split("::aphia::")[1] : "";
+  const sampleCandidate = sampleCandidateKey ? candidateByEntry.get(sampleCandidateKey) : undefined;
   const invalidSampleGroup = invalidSampleKey
     ? [...data.invalid.tables.non_taxonomic_category, ...data.invalid.tables.taxonomic_mismatch]
         .find((group) => group.sample_key === invalidSampleKey)
@@ -146,6 +159,10 @@ function App() {
       else next.add(risk);
       return next;
     });
+  }
+
+  function updateQuery(index: number, value: string) {
+    setQueries((current) => current.map((item, itemIndex) => itemIndex === index ? value : item));
   }
 
   const riskCounts = data.candidates.reduce<Record<string, number>>((acc, candidate) => {
@@ -224,13 +241,17 @@ function App() {
           {route === "valid" ? (
             <>
             <aside className="filters">
-            <div className="searchbox">
-              <Search size={16} />
-              <input
-                value={query}
-                onChange={(event) => setQuery(event.target.value)}
-                placeholder="Search label, taxon, AphiaID"
-              />
+            <div className="multi-search" aria-label="Search filters">
+              {queries.map((value, index) => (
+                <div className="searchbox" key={index}>
+                  <Search size={16} />
+                  <input
+                    value={value}
+                    onChange={(event) => updateQuery(index, event.target.value)}
+                    aria-label={`Search term ${index + 1}`}
+                  />
+                </div>
+              ))}
             </div>
 
             <section>
@@ -285,9 +306,9 @@ function App() {
           </div>
           <div className="tree-toolbar">
             <span className="muted">Tree text</span>
-            <button onClick={() => setTreeScale((value) => Math.max(0.95, value - 0.08))}>A-</button>
-            <button onClick={() => setTreeScale(1.08)}>Reset</button>
-            <button onClick={() => setTreeScale((value) => Math.min(1.4, value + 0.08))}>A+</button>
+            <button onClick={() => setTreeScale((value) => Math.max(1.04, value - 0.08))}>A-</button>
+            <button onClick={() => setTreeScale(1.19)}>Reset</button>
+            <button onClick={() => setTreeScale((value) => Math.min(1.62, value + 0.08))}>A+</button>
             <button onClick={() => setExpandAllVersion((value) => value + 1)}>Expand all</button>
             <button
               onClick={() => {
@@ -353,8 +374,12 @@ function App() {
               node={selected}
               candidate={selectedCandidate}
               samples={selectedSamples}
+              sampleMap={data.samples}
+              invalidSampleMap={data.invalid.samples}
+              invalidGroups={selectedInvalidGroups}
               onClose={() => setSelected(null)}
               onOpenSamples={setSampleEntry}
+              onOpenInvalidSamples={setInvalidSampleKey}
             />
             </>
           ) : route === "invalid" ? (
@@ -379,6 +404,7 @@ function App() {
       {sampleEntry && sampleCandidate && (
         <SamplePage
           candidate={sampleCandidate}
+          title={sampleAphiaId ? `${sampleCandidate.label} · AphiaID ${sampleAphiaId}` : undefined}
           samples={data.samples[sampleEntry] ?? []}
           onBack={() => setSampleEntry(null)}
         />
@@ -386,7 +412,7 @@ function App() {
       {invalidSampleKey && invalidSampleGroup && (
         <SamplePage
           title={invalidSampleGroup.aliases.join(" / ")}
-          subtitle={`${invalidSampleGroup.status} · ${invalidSampleGroup.total_image_count.toLocaleString()} images · showing up to 5 thumbnails per dataset`}
+          subtitle={`${invalidSampleGroup.status} · ${invalidSampleGroup.total_image_count.toLocaleString()} images · showing up to ${data.invalid.summary.sample_limit_per_dataset} thumbnails per dataset`}
           backLabel="Back to invalid labels"
           samples={data.invalid.samples[invalidSampleKey] ?? []}
           onBack={() => setInvalidSampleKey(null)}

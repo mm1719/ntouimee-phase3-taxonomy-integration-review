@@ -25,7 +25,7 @@ DEMO_JSON = DEMO_ROOT / "public/data/invalid_label_groups.json"
 OUT_DUPLICATE_CSV = OUT_DIR / "invalid_duplicate_evidence_image_groups.csv"
 OUT_DUPLICATE_MD = OUT_DIR / "invalid_duplicate_evidence_image_groups.md"
 SAMPLES_DIR = DEMO_ROOT / "public/invalid-samples"
-SAMPLE_LIMIT_PER_DATASET = 5
+SAMPLE_LIMIT_PER_DATASET = 8
 THUMBNAIL_MAX_EDGE = 256
 
 STATUS_KEYS = {

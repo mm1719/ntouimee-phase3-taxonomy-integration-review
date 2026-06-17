@@ -1,19 +1,34 @@
 import { X, Images } from "lucide-react";
 import { DatasetBadge, NoteBadge, RiskBadge } from "./Badges";
-import type { Candidate, ImageSample, TreeNode } from "../types";
+import type { Candidate, ImageSample, InvalidLabelGroup, SampleMap, TreeNode } from "../types";
 import { splitCell } from "../utils/csv";
 
 type Props = {
   node: TreeNode | null;
   candidate?: Candidate;
   samples: ImageSample[];
+  sampleMap: SampleMap;
+  invalidSampleMap: SampleMap;
+  invalidGroups: InvalidLabelGroup[];
   onClose: () => void;
   onOpenSamples: (entryId: string) => void;
+  onOpenInvalidSamples: (sampleKey: string) => void;
 };
 
-export function DetailDrawer({ node, candidate, samples, onClose, onOpenSamples }: Props) {
+export function DetailDrawer({
+  node,
+  candidate,
+  samples,
+  sampleMap,
+  invalidSampleMap,
+  invalidGroups,
+  onClose,
+  onOpenSamples,
+  onOpenInvalidSamples
+}: Props) {
   if (!node) return null;
   const selectedIds = candidate ? splitCell(candidate.selected_aphia_ids) : [];
+  const selectedCounts = candidate ? splitCell(candidate.selected_aphia_image_counts) : [];
   const datasetBadges = [...new Set([
     ...(node.dataset_id ? [node.dataset_id] : []),
     ...(node.datasets ?? [])
@@ -85,12 +100,56 @@ export function DetailDrawer({ node, candidate, samples, onClose, onOpenSamples 
             <div><dt>Invalid images</dt><dd>{Number(candidate.invalid_image_count || candidate.image_count).toLocaleString()}</dd></div>
           </dl>
           <p className="path-text">{candidate.contaminated_sources}</p>
+          <div className="evidence-actions">
+            <button className="ghost-button" onClick={() => onOpenSamples(candidate.entry_id)}>
+              <Images size={16} />
+              Valid evidence thumbnails ({samples.length})
+            </button>
+            {invalidGroups.map((group) => (
+              <button
+                className="ghost-button"
+                key={group.sample_key}
+                onClick={() => onOpenInvalidSamples(group.sample_key)}
+              >
+                <Images size={16} />
+                Invalid evidence thumbnails: {group.status} ({invalidSampleMap[group.sample_key]?.length ?? 0})
+              </button>
+            ))}
+          </div>
         </div>
       )}
 
-      {candidate && (
+      {candidate && selectedIds.length > 1 && (
         <div className="drawer-section">
-          <h3>Selected AphiaIDs</h3>
+          <h3>Selected AphiaID evidence</h3>
+          <div className="evidence-list">
+            {selectedIds.map((id, index) => {
+              const key = `${candidate.entry_id}::aphia::${id}`;
+              const aphiaSamples = sampleMap[key] ?? [];
+              return (
+                <div className="evidence-item" key={id}>
+                  <dl className="kv compact-kv">
+                    <div><dt>AphiaID</dt><dd><code>{id}</code></dd></div>
+                    <div><dt>Images</dt><dd>{Number(selectedCounts[index] || 0).toLocaleString()}</dd></div>
+                  </dl>
+                  <button
+                    className="ghost-button"
+                    disabled={aphiaSamples.length === 0}
+                    onClick={() => onOpenSamples(key)}
+                  >
+                    <Images size={16} />
+                    Open {aphiaSamples.length} AphiaID thumbnails
+                  </button>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {candidate && selectedIds.length <= 1 && (
+        <div className="drawer-section">
+          <h3>Selected AphiaID</h3>
           <div className="pill-row">
             {selectedIds.map((id) => (
               <span className="pill" key={id}>{id}</span>

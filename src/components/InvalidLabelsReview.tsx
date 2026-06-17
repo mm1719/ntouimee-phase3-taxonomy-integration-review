@@ -35,19 +35,21 @@ function aliasSort(value: string) {
 
 export function InvalidLabelsReview({ data, selected, onSelect }: Props) {
   const [activeTable, setActiveTable] = useState<InvalidTableKey>("non_taxonomic_category");
-  const [query, setQuery] = useState("");
+  const [queries, setQueries] = useState(["", "", ""]);
   const [datasets, setDatasets] = useState<Set<DatasetId>>(new Set(DATASETS));
   const [showValidTreeOverlap, setShowValidTreeOverlap] = useState(true);
   const [sorting, setSorting] = useState<SortingState>([]);
-  const [tableScale, setTableScale] = useState(1);
+  const [tableScale, setTableScale] = useState(1.1);
 
   const rows = useMemo(() => {
-    const normalizedQuery = query.trim().toLocaleLowerCase();
+    const normalizedQueries = queries
+      .map((query) => query.trim().toLocaleLowerCase())
+      .filter(Boolean);
     return data.tables[activeTable]
       .filter((group) => showValidTreeOverlap || !group.include_valid_tree_overlap)
       .filter((group) => group.dataset_ids.some((dataset) => datasets.has(dataset)))
       .filter((group) => {
-        if (!normalizedQuery) return true;
+        if (normalizedQueries.length === 0) return true;
         const haystack = [
           group.pseudo_aphia_id,
           group.group_key,
@@ -60,10 +62,10 @@ export function InvalidLabelsReview({ data, selected, onSelect }: Props) {
             ...dataset.source_examples
           ])
         ].join(" ").toLocaleLowerCase();
-        return haystack.includes(normalizedQuery);
+        return normalizedQueries.some((query) => haystack.includes(query));
       })
       .sort((a, b) => aliasSort(a.aliases[0] ?? a.group_key).localeCompare(aliasSort(b.aliases[0] ?? b.group_key)));
-  }, [activeTable, data.tables, datasets, query, showValidTreeOverlap]);
+  }, [activeTable, data.tables, datasets, queries, showValidTreeOverlap]);
 
   const columns = useMemo(
     () => [
@@ -123,16 +125,24 @@ export function InvalidLabelsReview({ data, selected, onSelect }: Props) {
     });
   }
 
+  function updateQuery(index: number, value: string) {
+    setQueries((current) => current.map((item, itemIndex) => itemIndex === index ? value : item));
+  }
+
   return (
     <>
       <aside className="filters">
-        <div className="searchbox">
-          <Search size={16} />
-          <input
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-            placeholder="Search pseudo AphiaID, aliases, reasons, sources"
-          />
+        <div className="multi-search" aria-label="Invalid search filters">
+          {queries.map((value, index) => (
+            <div className="searchbox" key={index}>
+              <Search size={16} />
+              <input
+                value={value}
+                onChange={(event) => updateQuery(index, event.target.value)}
+                aria-label={`Invalid search term ${index + 1}`}
+              />
+            </div>
+          ))}
         </div>
 
         <section>
@@ -191,9 +201,9 @@ export function InvalidLabelsReview({ data, selected, onSelect }: Props) {
             </p>
             <div className="tree-toolbar compact-toolbar">
               <span className="muted">Table text</span>
-              <button onClick={() => setTableScale((value) => Math.max(0.92, value - 0.08))}>A-</button>
-              <button onClick={() => setTableScale(1)}>Reset</button>
-              <button onClick={() => setTableScale((value) => Math.min(1.32, value + 0.08))}>A+</button>
+              <button onClick={() => setTableScale((value) => Math.max(1, value - 0.08))}>A-</button>
+              <button onClick={() => setTableScale(1.1)}>Reset</button>
+              <button onClick={() => setTableScale((value) => Math.min(1.54, value + 0.08))}>A+</button>
             </div>
           </div>
         </div>

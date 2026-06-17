@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-14T13:41:48+00:00",
+  "generated_at_utc": "2026-06-17T05:23:37+00:00",
   "demo_app": "demo/taxonomy-integration-review",
   "phase_3_root": "/home/mason/Projects/phase_3",
   "source_studies": [
@@ -18,28 +18,28 @@
   "public_artifacts": {
     "taxonomy_tree.json": {
       "path": "public/data/taxonomy_tree.json",
-      "sha256": "d38ee53b3794f3c72a617fd76c772cc0256aea7efd630b497cac7d3cc914176e",
-      "bytes": 1107712
+      "sha256": "95f31a68f271aac05c57d31facb186e55d0fbbb6f81d33856d2f660e051ad9c1",
+      "bytes": 1113587
     },
     "valid_class_candidates.csv": {
       "path": "public/data/valid_class_candidates.csv",
-      "sha256": "f36079fd29886153a9133d0598c4f599f7eb3f210b857058ae7cedcdec4e2c95",
-      "bytes": 1366419
+      "sha256": "95af6ede6b495efa10a2032dc7f8f0d5c3a861b16a61d72bf4ce176d758d844c",
+      "bytes": 1369256
     },
     "class_image_samples.json": {
       "path": "public/data/class_image_samples.json",
-      "sha256": "a11b15bc42745e2bd41713446efe6d6be8ec8ab08aec90bb29dbd32cbd873858",
-      "bytes": 1594076
+      "sha256": "9e3927cdfe155ee9ef8c187e927d6df34b877d5d1e2b06e5bb65fb3de2ecbbf9",
+      "bytes": 1325054
     },
     "invalid_label_groups.json": {
       "path": "public/data/invalid_label_groups.json",
-      "sha256": "23172483d50460e11ba95cc24358fdd5795bd0f5711416f2c538da245d184063",
-      "bytes": 700024
+      "sha256": "46b43eda3eef7fa8601db65238b4b92033441c43e6656af42971955611476cb7",
+      "bytes": 959735
     },
     "mapping_status.json": {
       "path": "public/data/mapping_status.json",
-      "sha256": "9d79923fd9ac02bbc40b8f6c83bed2db73eae2382c1689711eb380b185d6efb3",
-      "bytes": 169760
+      "sha256": "58ceb27bafb173d184b7f367d4f807d85cf40689995411a0925fcf59b9299d7a",
+      "bytes": 167687
     },
     "worms_lineages.json": {
       "path": "public/data/worms_lineages.json",

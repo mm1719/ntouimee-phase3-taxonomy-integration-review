@@ -64,7 +64,7 @@ const tree: TreeNode = {
 };
 
 const allFilters = {
-  query: "",
+  queries: ["", "", ""],
   datasets: new Set(["flowcam_net", "tara_pacific_deck"] as const),
   risks: new Set<string>(),
   rank: ""
@@ -85,19 +85,26 @@ describe("normalizeTree", () => {
 
 describe("filterTree", () => {
   it("returns no tree for an unknown search query instead of preserving stale data", () => {
-    const result = filterTree(normalizeTree(tree), { ...allFilters, query: "not-in-tree" });
+    const result = filterTree(normalizeTree(tree), { ...allFilters, queries: ["not-in-tree", "", ""] });
 
     expect(result).toEqual([]);
   });
 
   it("keeps descendants when the query matches an ancestor taxon", () => {
-    const result = filterTree(normalizeTree(tree), { ...allFilters, query: "animalia" });
+    const result = filterTree(normalizeTree(tree), { ...allFilters, queries: ["animalia", "", ""] });
 
     expect(result[0].entry_count).toBe(2);
     expect(result[0].children?.[0].children?.map((child) => child.name)).toEqual([
       "Crustacea",
       "Copepoda"
     ]);
+  });
+
+  it("uses OR semantics across multiple search terms", () => {
+    const result = filterTree(normalizeTree(tree), { ...allFilters, queries: ["missing", "copepoda", ""] });
+
+    expect(JSON.stringify(result)).toContain("flowcam_net::Copepoda");
+    expect(JSON.stringify(result)).not.toContain("Crustacea broad");
   });
 
   it("filters by dataset and risk flags at dataset-class level", () => {

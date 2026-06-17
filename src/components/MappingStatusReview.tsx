@@ -1,4 +1,4 @@
-import { Download, FileUp, History } from "lucide-react";
+import { Download, FileUp, History, Search } from "lucide-react";
 import { useMemo, useRef, useState } from "react";
 import type { MappingHistory, MappingRuleRow, MappingStatusData, MappingTarget } from "../types";
 import { parseCsv } from "../utils/csv";
@@ -65,6 +65,7 @@ export function MappingStatusReview({ data }: Props) {
     data.targets.map((target) => blankRule(target))
   );
   const [importError, setImportError] = useState("");
+  const [queries, setQueries] = useState(["", "", ""]);
   const [selectedSourceId, setSelectedSourceId] = useState(data.targets[0]?.source_id ?? "");
   const fileInputRef = useRef<HTMLInputElement | null>(null);
 
@@ -72,10 +73,31 @@ export function MappingStatusReview({ data }: Props) {
     ?? latestHistory;
   const viewRows: MappingRuleRow[] = activeHistory?.rows ?? data.targets.map((target) => blankRule(target));
   const rows: MappingRuleRow[] = mode === "view" ? viewRows : draftRows;
-  const sortedRows = useMemo(
-    () => [...rows].sort((left, right) => aliasSort(left.source_alias).localeCompare(aliasSort(right.source_alias))),
-    [rows]
-  );
+  const sortedRows = useMemo(() => {
+    const normalizedQueries = queries
+      .map((query) => query.trim().toLocaleLowerCase())
+      .filter(Boolean);
+    return [...rows]
+      .filter((row) => {
+        if (normalizedQueries.length === 0) return true;
+        const target = targetsById.get(row.source_id);
+        const haystack = [
+          row.action,
+          row.source_id,
+          row.target_id,
+          row.source_alias,
+          row.target_alias,
+          row.notes,
+          target?.valid_statuses,
+          target?.invalid_reasons,
+          target?.risk_flags,
+          target?.dataset_ids,
+          target?.source_labels
+        ].join(" ").toLocaleLowerCase();
+        return normalizedQueries.some((query) => haystack.includes(query));
+      })
+      .sort((left, right) => aliasSort(left.source_alias).localeCompare(aliasSort(right.source_alias)));
+  }, [queries, rows, targetsById]);
   const selectedRow = rows.find((row) => row.source_id === selectedSourceId) ?? rows[0];
   const selectedTarget = selectedRow ? targetsById.get(selectedRow.source_id) : undefined;
   const mergeErrors = rows.filter(
@@ -135,6 +157,10 @@ export function MappingStatusReview({ data }: Props) {
         row.source_id === sourceId ? validateRow({ ...row, ...patch }) : row
       ))
     );
+  }
+
+  function updateQuery(index: number, value: string) {
+    setQueries((current) => current.map((item, itemIndex) => itemIndex === index ? value : item));
   }
 
   async function importCsv(file: File) {
@@ -201,6 +227,22 @@ export function MappingStatusReview({ data }: Props) {
             <button className={mode === "edit" ? "active" : ""} onClick={startEditFromCurrent}>
               Edit draft
             </button>
+          </div>
+        </section>
+
+        <section>
+          <h2>Search</h2>
+          <div className="multi-search" aria-label="Mapping search filters">
+            {queries.map((value, index) => (
+              <div className="searchbox" key={index}>
+                <Search size={16} />
+                <input
+                  value={value}
+                  onChange={(event) => updateQuery(index, event.target.value)}
+                  aria-label={`Mapping search term ${index + 1}`}
+                />
+              </div>
+            ))}
           </div>
         </section>
 
