@@ -75,6 +75,30 @@ const candidates: Candidate[] = [
   },
   {
     ...baseCandidate,
+    entry_id: "life::colony",
+    dataset_id: "life_watch",
+    label: "Pennate Diatom colony",
+    original_label: "Pennate Diatom colony",
+    image_count: "200",
+    selected_aphia_ids: "148899",
+    terminal_worms_names: "Bacillariophyceae",
+    terminal_ranks: "Class",
+    special_tags: "multiple"
+  },
+  {
+    ...baseCandidate,
+    entry_id: "deck::larvae",
+    dataset_id: "tara_pacific_deck",
+    label: "Crustacea larvae",
+    original_label: "Crustacea larvae",
+    image_count: "17",
+    selected_aphia_ids: "1066",
+    terminal_worms_names: "Crustacea",
+    terminal_ranks: "Subphylum",
+    special_tags: "juvenile"
+  },
+  {
+    ...baseCandidate,
     entry_id: "flow::broad",
     dataset_id: "flowcam_net",
     label: "Crustacea broad",
@@ -147,6 +171,31 @@ describe("RiskPanels", () => {
     ]);
     expect(screen.getByText("Taxon one")).toBeInTheDocument();
     expect(screen.getByText("Taxon two")).toBeInTheDocument();
+  });
+
+  it("switches to multiple and juvenile special-tag columns", async () => {
+    const user = userEvent.setup();
+    render(<RiskPanels candidates={candidates} onSelect={vi.fn()} />);
+
+    await user.click(screen.getByRole("button", { name: /^Multiple$/ }));
+
+    expect(tableHeaders()).toEqual([
+      "ID",
+      "Dataset",
+      "Label",
+      "Images",
+      "Selected AphiaID",
+      "Terminal taxa",
+      "Terminal ranks",
+      "Original label"
+    ]);
+    expect(screen.getAllByText("Pennate Diatom colony").length).toBeGreaterThan(0);
+    expect(screen.queryByText("Multiple valid")).not.toBeInTheDocument();
+
+    await user.click(screen.getByRole("button", { name: /Juvenile/ }));
+
+    expect(screen.getAllByText("Crustacea larvae").length).toBeGreaterThan(0);
+    expect(screen.queryByText("Pennate Diatom colony")).not.toBeInTheDocument();
   });
 
   it("switches to broad class mapping columns and calls onSelect for rows", async () => {

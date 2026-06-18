@@ -19,16 +19,26 @@ type Props = {
 
 type ReviewKey =
   | "dwc_record_review"
+  | "multiple"
+  | "juvenile"
   | "contaminated"
   | "multiple_valid_aphia_ids"
   | "broad_class";
 
 const REVIEW_KEYS: ReviewKey[] = [
   "dwc_record_review",
+  "multiple",
+  "juvenile",
   "contaminated",
   "multiple_valid_aphia_ids",
   "broad_class"
 ];
+
+const SPECIAL_REVIEW_KEYS = new Set<ReviewKey>([
+  "dwc_record_review",
+  "multiple",
+  "juvenile"
+]);
 
 const helper = createColumnHelper<Candidate>();
 
@@ -106,6 +116,25 @@ function reviewColumns(activeKey: ReviewKey) {
     ];
   }
 
+  if (activeKey === "multiple" || activeKey === "juvenile") {
+    return [
+      ...common,
+      helper.accessor("selected_aphia_ids", {
+        header: "Selected AphiaID",
+        cell: (info) => <ListCell value={info.getValue()} />
+      }),
+      helper.accessor("terminal_worms_names", {
+        header: "Terminal taxa",
+        cell: (info) => <ListCell value={info.getValue()} />
+      }),
+      helper.accessor("terminal_ranks", {
+        header: "Terminal ranks",
+        cell: (info) => <ListCell value={info.getValue()} />
+      }),
+      helper.accessor("original_label", { header: "Original label" })
+    ];
+  }
+
   if (activeKey === "multiple_valid_aphia_ids") {
     return [
       ...common,
@@ -176,7 +205,7 @@ export function RiskPanels({ candidates, onSelect }: Props) {
               className={risk === activeKey ? "active" : ""}
               onClick={() => setActiveKey(risk)}
             >
-              {risk === "dwc_record_review" ? (
+              {SPECIAL_REVIEW_KEYS.has(risk) ? (
                 <SpecialTagBadge tag={risk} />
               ) : (
                 <RiskBadge risk={risk} />
