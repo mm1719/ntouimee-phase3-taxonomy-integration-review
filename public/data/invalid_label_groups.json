@@ -549,50 +549,6 @@
         "pseudo_aphia_id": "ntc_007"
       },
       {
-        "group_key": "centric diatom",
-        "sample_key": "non_taxonomic_category::centric diatom",
-        "aliases": [
-          "Centric_Diatom"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "life_watch"
-        ],
-        "total_image_count": 8799,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 8799,
-        "datasets": [
-          {
-            "dataset_id": "life_watch",
-            "aliases": [
-              "Centric_Diatom"
-            ],
-            "image_count": 8799,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch/metadata/metadata_trainingset_dedup_by_image_path.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1322472",
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899",
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148936",
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=149281",
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=156632",
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Centric%20Diatom?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 8799
-          }
-        ],
-        "pseudo_aphia_id": "inv_002"
-      },
-      {
         "group_key": "chaetoceros inter ciliate",
         "sample_key": "non_taxonomic_category::chaetoceros inter ciliate",
         "aliases": [
@@ -2205,45 +2161,6 @@
         "pseudo_aphia_id": "ntc_037"
       },
       {
-        "group_key": "long (chained) diatom",
-        "sample_key": "non_taxonomic_category::long (chained) diatom",
-        "aliases": [
-          "Long (chained) diatom"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 170240,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 170240,
-        "datasets": [
-          {
-            "dataset_id": "life_watch_2026_image_library",
-            "aliases": [
-              "Long (chained) diatom"
-            ],
-            "image_count": 170240,
-            "reasons": [
-              "Local AphiaID source contains non-numeric/non-AphiaID values: Long (chained) diatom"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 170240
-          }
-        ],
-        "pseudo_aphia_id": "inv_008"
-      },
-      {
         "group_key": "mineral particle",
         "sample_key": "non_taxonomic_category::mineral particle",
         "aliases": [
@@ -2800,43 +2717,65 @@
         "pseudo_aphia_id": "ntc_053"
       },
       {
-        "group_key": "part ciliophora",
-        "sample_key": "non_taxonomic_category::part ciliophora",
+        "group_key": "part diatom",
+        "sample_key": "non_taxonomic_category::part diatom",
         "aliases": [
-          "part<Ciliophora",
-          "part_Ciliophora"
+          "part diatom"
         ],
         "status": "Non-Taxonomic Category",
         "dataset_ids": [
-          "flowcam_net",
-          "tara_pacific_deck"
+          "tara_pacific_bongo"
         ],
-        "total_image_count": 1681,
+        "total_image_count": 7,
         "include_valid_tree_overlap": false,
         "invalid_reason_count": 1,
         "valid_image_count": 0,
-        "invalid_image_count": 1681,
+        "invalid_image_count": 7,
         "datasets": [
           {
-            "dataset_id": "flowcam_net",
+            "dataset_id": "tara_pacific_bongo",
             "aliases": [
-              "part_Ciliophora"
+              "part diatom"
             ],
-            "image_count": 148,
+            "image_count": 7,
             "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
+              "Round 8 expert-reviewed demotion: labels containing part, spine, or tail are organism fragments rather than complete organisms, so they no longer enter the valid tree as broad-class promotions."
             ],
             "source_examples": [
-              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
+              "datasets/Tara Pacific Bongo/114298.zip",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_aw_i05_s1_001_r110001872.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_aw_i05_s3_001_r110001183.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i08_s2_001_r110001518.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i13_s1_001_r110001355.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i14_s3_001_r110001294.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i16_s2_001_r110001079.tsv"
             ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/part%20Ciliophora?like=false&marine_only=false"
-            ],
+            "worms_sources": [],
             "valid_tree_entry": "no",
             "invalid_reason_count": 1,
             "valid_image_count": 0,
-            "invalid_image_count": 148
-          },
+            "invalid_image_count": 7
+          }
+        ],
+        "pseudo_aphia_id": "ntc_087"
+      },
+      {
+        "group_key": "part<ciliophora",
+        "sample_key": "non_taxonomic_category::part<ciliophora",
+        "aliases": [
+          "part<Ciliophora"
+        ],
+        "status": "Non-Taxonomic Category",
+        "dataset_ids": [
+          "tara_pacific_deck",
+          "tara_pacific_bongo"
+        ],
+        "total_image_count": 1540,
+        "include_valid_tree_overlap": false,
+        "invalid_reason_count": 2,
+        "valid_image_count": 0,
+        "invalid_image_count": 1540,
+        "datasets": [
           {
             "dataset_id": "tara_pacific_deck",
             "aliases": [
@@ -2856,48 +2795,89 @@
             "invalid_reason_count": 1,
             "valid_image_count": 0,
             "invalid_image_count": 1533
-          }
-        ],
-        "pseudo_aphia_id": "ntc_054"
-      },
-      {
-        "group_key": "part crustacea",
-        "sample_key": "non_taxonomic_category::part crustacea",
-        "aliases": [
-          "part<Crustacea",
-          "part_Crustacea"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "flowcam_net",
-          "tara_pacific_deck"
-        ],
-        "total_image_count": 6865,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 6865,
-        "datasets": [
+          },
           {
-            "dataset_id": "flowcam_net",
+            "dataset_id": "tara_pacific_bongo",
             "aliases": [
-              "part_Crustacea"
+              "part<Ciliophora"
             ],
-            "image_count": 2880,
+            "image_count": 7,
             "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
+              "Round 8 expert-reviewed demotion: labels containing part, spine, or tail are organism fragments rather than complete organisms, so they no longer enter the valid tree as broad-class promotions."
             ],
             "source_examples": [
-              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
+              "datasets/Tara Pacific Bongo/114297.zip",
+              "datasets/Tara Pacific Bongo/114298.zip",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_aw_i05_s1_001_r110001872.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i07_s3_001_r110002331.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i12_s3_001_r110001399.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i15_s3_001_r110001321.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 30% > 500 pixels/ecotaxa_srf_i09_s1_001_r110001842.tsv"
             ],
-            "worms_sources": [
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/part%20Crustacea?like=false&marine_only=false"
-            ],
+            "worms_sources": [],
             "valid_tree_entry": "no",
             "invalid_reason_count": 1,
             "valid_image_count": 0,
-            "invalid_image_count": 2880
-          },
+            "invalid_image_count": 7
+          }
+        ],
+        "pseudo_aphia_id": "ntc_088"
+      },
+      {
+        "group_key": "part<copepoda",
+        "sample_key": "non_taxonomic_category::part<copepoda",
+        "aliases": [
+          "part<Copepoda"
+        ],
+        "status": "Non-Taxonomic Category",
+        "dataset_ids": [
+          "tara_pacific_bongo"
+        ],
+        "total_image_count": 1,
+        "include_valid_tree_overlap": false,
+        "invalid_reason_count": 1,
+        "valid_image_count": 0,
+        "invalid_image_count": 1,
+        "datasets": [
+          {
+            "dataset_id": "tara_pacific_bongo",
+            "aliases": [
+              "part<Copepoda"
+            ],
+            "image_count": 1,
+            "reasons": [
+              "Round 8 expert-reviewed demotion: labels containing part, spine, or tail are organism fragments rather than complete organisms, so they no longer enter the valid tree as broad-class promotions."
+            ],
+            "source_examples": [
+              "datasets/Tara Pacific Bongo/114298.zip",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i12_s1_001_r110001234.tsv"
+            ],
+            "worms_sources": [],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 1,
+            "valid_image_count": 0,
+            "invalid_image_count": 1
+          }
+        ],
+        "pseudo_aphia_id": "ntc_089"
+      },
+      {
+        "group_key": "part<crustacea",
+        "sample_key": "non_taxonomic_category::part<crustacea",
+        "aliases": [
+          "part<Crustacea"
+        ],
+        "status": "Non-Taxonomic Category",
+        "dataset_ids": [
+          "tara_pacific_deck",
+          "tara_pacific_bongo"
+        ],
+        "total_image_count": 9159,
+        "include_valid_tree_overlap": false,
+        "invalid_reason_count": 2,
+        "valid_image_count": 0,
+        "invalid_image_count": 9159,
+        "datasets": [
           {
             "dataset_id": "tara_pacific_deck",
             "aliases": [
@@ -2917,9 +2897,61 @@
             "invalid_reason_count": 1,
             "valid_image_count": 0,
             "invalid_image_count": 3985
+          },
+          {
+            "dataset_id": "tara_pacific_bongo",
+            "aliases": [
+              "part<Crustacea"
+            ],
+            "image_count": 5174,
+            "reasons": [
+              "Round 8 expert-reviewed demotion: labels containing part, spine, or tail are organism fragments rather than complete organisms, so they no longer enter the valid tree as broad-class promotions."
+            ],
+            "source_examples": [
+              "datasets/Tara Pacific Bongo/114298.zip",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_aw_i04_s4_002_r110001920.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_aw_i05_s1_001_r110001872.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_aw_i05_s2_001_r110001244.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_aw_i05_s3_001_r110001183.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_aw_i06_s1_001_r110002498.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_aw_i06_s2_001_r110001990.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_aw_i06_s3_003_r110001203.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_i04_s1_001_r110001775.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_i04_s2_003_r110001808.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i07_s2_001_r110002377.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i07_s3_001_r110002331.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i08_s1_001_r110001508.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i08_s2_001_r110001518.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i08_s3_001_r110001976.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i09_s1_001_r110001842.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i09_s2_002_r110001458.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i09_s3_001_r110001865.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i10_s1_001_r110002379.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i10_s2_001_r110001884.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i10_s3_001_r110001882.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i12_s1_001_r110001234.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i12_s2_001_r110001436.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i12_s3_001_r110001399.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i13_s1_001_r110001355.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i13_s2_001_r110002420.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i13_s3_001_r110002439.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i14_s2_001_r110001275.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i14_s3_001_r110001294.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i15_s1_001_r110001043.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i15_s2_001_r110001063.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i15_s3_001_r110001321.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i16_s1_001_r110001100.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i16_s2_001_r110001079.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i16_s3_001_r110001121.tsv"
+            ],
+            "worms_sources": [],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 1,
+            "valid_image_count": 0,
+            "invalid_image_count": 5174
           }
         ],
-        "pseudo_aphia_id": "ntc_055"
+        "pseudo_aphia_id": "ntc_090"
       },
       {
         "group_key": "part<other",
@@ -2957,6 +2989,84 @@
           }
         ],
         "pseudo_aphia_id": "ntc_058"
+      },
+      {
+        "group_key": "part ciliophora",
+        "sample_key": "non_taxonomic_category::part ciliophora",
+        "aliases": [
+          "part_Ciliophora"
+        ],
+        "status": "Non-Taxonomic Category",
+        "dataset_ids": [
+          "flowcam_net"
+        ],
+        "total_image_count": 148,
+        "include_valid_tree_overlap": false,
+        "invalid_reason_count": 1,
+        "valid_image_count": 0,
+        "invalid_image_count": 148,
+        "datasets": [
+          {
+            "dataset_id": "flowcam_net",
+            "aliases": [
+              "part_Ciliophora"
+            ],
+            "image_count": 148,
+            "reasons": [
+              "No local AphiaID and no exact WoRMS name match under strict validation"
+            ],
+            "source_examples": [
+              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
+            ],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/part%20Ciliophora?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 1,
+            "valid_image_count": 0,
+            "invalid_image_count": 148
+          }
+        ],
+        "pseudo_aphia_id": "ntc_085"
+      },
+      {
+        "group_key": "part crustacea",
+        "sample_key": "non_taxonomic_category::part crustacea",
+        "aliases": [
+          "part_Crustacea"
+        ],
+        "status": "Non-Taxonomic Category",
+        "dataset_ids": [
+          "flowcam_net"
+        ],
+        "total_image_count": 2880,
+        "include_valid_tree_overlap": false,
+        "invalid_reason_count": 1,
+        "valid_image_count": 0,
+        "invalid_image_count": 2880,
+        "datasets": [
+          {
+            "dataset_id": "flowcam_net",
+            "aliases": [
+              "part_Crustacea"
+            ],
+            "image_count": 2880,
+            "reasons": [
+              "No local AphiaID and no exact WoRMS name match under strict validation"
+            ],
+            "source_examples": [
+              "derived/staging/flowcam_net/FlowCamNet/taxa.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_native.csv.gz;derived/staging/flowcam_net/FlowCamNet/features_skimage.csv.gz"
+            ],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/part%20Crustacea?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 1,
+            "valid_image_count": 0,
+            "invalid_image_count": 2880
+          }
+        ],
+        "pseudo_aphia_id": "ntc_086"
       },
       {
         "group_key": "part ditylum",
@@ -3074,86 +3184,6 @@
           }
         ],
         "pseudo_aphia_id": "ntc_059"
-      },
-      {
-        "group_key": "pennate diatom",
-        "sample_key": "non_taxonomic_category::pennate diatom",
-        "aliases": [
-          "Pennate_Diatom"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "life_watch"
-        ],
-        "total_image_count": 8798,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 8798,
-        "datasets": [
-          {
-            "dataset_id": "life_watch",
-            "aliases": [
-              "Pennate_Diatom"
-            ],
-            "image_count": 8798,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch/metadata/metadata_trainingset_dedup_by_image_path.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899",
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Pennate%20Diatom?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 8798
-          }
-        ],
-        "pseudo_aphia_id": "inv_011"
-      },
-      {
-        "group_key": "pennate diatom colony",
-        "sample_key": "non_taxonomic_category::pennate diatom colony",
-        "aliases": [
-          "Pennate_Diatom_colony"
-        ],
-        "status": "Non-Taxonomic Category",
-        "dataset_ids": [
-          "life_watch"
-        ],
-        "total_image_count": 200,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 200,
-        "datasets": [
-          {
-            "dataset_id": "life_watch",
-            "aliases": [
-              "Pennate_Diatom_colony"
-            ],
-            "image_count": 200,
-            "reasons": [
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch/metadata/metadata_trainingset_dedup_by_image_path.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899",
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Pennate%20Diatom%20colony?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 200
-          }
-        ],
-        "pseudo_aphia_id": "inv_012"
       },
       {
         "group_key": "phytoplankton colony",
@@ -3576,6 +3606,152 @@
           }
         ],
         "pseudo_aphia_id": "ntc_070"
+      },
+      {
+        "group_key": "spines<acantharea",
+        "sample_key": "non_taxonomic_category::spines<acantharea",
+        "aliases": [
+          "spines<Acantharea"
+        ],
+        "status": "Non-Taxonomic Category",
+        "dataset_ids": [
+          "tara_pacific_deck",
+          "tara_pacific_bongo"
+        ],
+        "total_image_count": 56,
+        "include_valid_tree_overlap": false,
+        "invalid_reason_count": 1,
+        "valid_image_count": 0,
+        "invalid_image_count": 56,
+        "datasets": [
+          {
+            "dataset_id": "tara_pacific_deck",
+            "aliases": [
+              "spines<Acantharea"
+            ],
+            "image_count": 42,
+            "reasons": [
+              "Round 8 expert-reviewed demotion: labels containing part, spine, or tail are organism fragments rather than complete organisms, so they no longer enter the valid tree as broad-class promotions."
+            ],
+            "source_examples": [
+              "datasets/Tara Pacific/114286.zip",
+              "derived/analysis_ready/tara_pacific_deck/manifest.csv",
+              "derived/repaired_sources/tara_pacific/114288_207_source_tsvs_local_repair_plus_ecotaxa_official_exports.zip",
+              "Export FlowCam Tara Pacific DN 20 microns subset 100% > 501 pixels/ecotaxa_i00_oa139_001_g100014672.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 100% > 501 pixels/ecotaxa_i00_oa163_001_g100015598.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 100% > 501 pixels/ecotaxa_i04_oa043_001_g100017842.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 100% > 501 pixels/ecotaxa_i06_oa055_001_g100018780.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 100% > 501 pixels/ecotaxa_i19_oa142_001_g100014497.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 100% > 501 pixels/ecotaxa_i19_oa143_001_g100014504.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 100% > 501 pixels/ecotaxa_i21_oa152_001_g100015058.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 100% > 501 pixels/ecotaxa_i22_oa155_001_g100015338.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 100% > 501 pixels/ecotaxa_i99_oa173_001_g100015277.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 100% > 501 pixels/ecotaxa_i99_oa184_001_g100014201.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 100% > 501 pixels/ecotaxa_i99_oa187_001_g100013792.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 100% > 501 pixels/ecotaxa_oa034_001_g100019601.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 100% > 501 pixels/ecotaxa_oa036_003_g100018547.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 100% > 501 pixels/ecotaxa_oa037_002_g100017471.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 100% > 501 pixels/ecotaxa_oa051_001_g100017692.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 100% > 501 pixels/ecotaxa_oa062_001_g100018752.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 100% > 501 pixels/ecotaxa_oa094_001_g100016151.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 100% > 501 pixels/ecotaxa_oa109_002_g100016298.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 100% > 501 pixels/ecotaxa_oa123_001_g100016385.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 100% > 501 pixels/ecotaxa_oa126_001_g100016492.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 30% < 500 pixels/ecotaxa_oa034_001_g100019601.tsv",
+              "Export FlowCam Tara Pacific DN 20 microns subset 30% < 500 pixels/ecotaxa_oa096_001_g100016058.tsv"
+            ],
+            "worms_sources": [],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 1,
+            "valid_image_count": 0,
+            "invalid_image_count": 42
+          },
+          {
+            "dataset_id": "tara_pacific_bongo",
+            "aliases": [
+              "spines<Acantharea"
+            ],
+            "image_count": 14,
+            "reasons": [
+              "Round 8 expert-reviewed demotion: labels containing part, spine, or tail are organism fragments rather than complete organisms, so they no longer enter the valid tree as broad-class promotions."
+            ],
+            "source_examples": [
+              "datasets/Tara Pacific Bongo/114298.zip",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_aw_i05_s1_001_r110001872.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_aw_i05_s3_001_r110001183.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i08_s1_001_r110001508.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i08_s2_001_r110001518.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i12_s1_001_r110001234.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i13_s2_001_r110002420.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i13_s3_001_r110002439.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i14_s2_001_r110001275.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i14_s3_001_r110001294.tsv",
+              "FlowCam Tara Pacific Bongo 20 microns - Subset 100% > 501 pixels/ecotaxa_srf_i16_s3_001_r110001121.tsv"
+            ],
+            "worms_sources": [],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 1,
+            "valid_image_count": 0,
+            "invalid_image_count": 14
+          }
+        ],
+        "pseudo_aphia_id": "ntc_091"
+      },
+      {
+        "group_key": "spines<acantharia",
+        "sample_key": "non_taxonomic_category::spines<acantharia",
+        "aliases": [
+          "spines<Acantharia"
+        ],
+        "status": "Non-Taxonomic Category",
+        "dataset_ids": [
+          "flowcam_net",
+          "tara_pacific_deck"
+        ],
+        "total_image_count": 5,
+        "include_valid_tree_overlap": false,
+        "invalid_reason_count": 2,
+        "valid_image_count": 0,
+        "invalid_image_count": 5,
+        "datasets": [
+          {
+            "dataset_id": "flowcam_net",
+            "aliases": [
+              "spines<Acantharia"
+            ],
+            "image_count": 0,
+            "reasons": [
+              "Round 8 expert-reviewed demotion: labels containing part, spine, or tail are organism fragments rather than complete organisms, so they no longer enter the valid tree as broad-class promotions."
+            ],
+            "source_examples": [],
+            "worms_sources": [],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 1,
+            "valid_image_count": 0,
+            "invalid_image_count": 0
+          },
+          {
+            "dataset_id": "tara_pacific_deck",
+            "aliases": [
+              "spines<Acantharia"
+            ],
+            "image_count": 5,
+            "reasons": [
+              "No local AphiaID and no exact WoRMS name match under strict validation"
+            ],
+            "source_examples": [
+              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
+            ],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/spines%3CAcantharia?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 1,
+            "valid_image_count": 0,
+            "invalid_image_count": 5
+          }
+        ],
+        "pseudo_aphia_id": "ntc_071"
       },
       {
         "group_key": "spines<rhizaria",
@@ -4436,77 +4612,6 @@
         "pseudo_aphia_id": "inv_001"
       },
       {
-        "group_key": "centric diatom",
-        "sample_key": "taxonomic_mismatch::centric diatom",
-        "aliases": [
-          "Centric Diatom",
-          "Centric_Diatom"
-        ],
-        "status": "Taxonomic Mismatch",
-        "dataset_ids": [
-          "life_watch",
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 43603,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 7,
-        "valid_image_count": 0,
-        "invalid_image_count": 43603,
-        "datasets": [
-          {
-            "dataset_id": "life_watch",
-            "aliases": [
-              "Centric_Diatom"
-            ],
-            "image_count": 8799,
-            "reasons": [
-              "AphiaID 1322472 resolves to 'Ralfsiella smithii', not label 'Centric_Diatom'",
-              "AphiaID 148899 resolves to 'Bacillariophyceae', not label 'Centric_Diatom'",
-              "AphiaID 148936 resolves to 'Thalassiosira punctigera', not label 'Centric_Diatom'",
-              "AphiaID 149281 resolves to 'Auliscus', not label 'Centric_Diatom'",
-              "AphiaID 156632 resolves to 'Coscinodiscus wailesii', not label 'Centric_Diatom'",
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch/metadata/metadata_trainingset_dedup_by_image_path.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1322472",
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899",
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148936",
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=149281",
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=156632",
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Centric%20Diatom?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 6,
-            "valid_image_count": 0,
-            "invalid_image_count": 8799
-          },
-          {
-            "dataset_id": "life_watch_2026_image_library",
-            "aliases": [
-              "Centric Diatom"
-            ],
-            "image_count": 34804,
-            "reasons": [
-              "AphiaID 148899 resolves to 'Bacillariophyceae', not label 'Centric Diatom'"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 34804
-          }
-        ],
-        "pseudo_aphia_id": "inv_002"
-      },
-      {
         "group_key": "crustaceae-part",
         "sample_key": "taxonomic_mismatch::crustaceae-part",
         "aliases": [
@@ -4787,45 +4892,6 @@
         "pseudo_aphia_id": "inv_005"
       },
       {
-        "group_key": "epiphytic diatom",
-        "sample_key": "taxonomic_mismatch::epiphytic diatom",
-        "aliases": [
-          "Epiphytic diatom"
-        ],
-        "status": "Taxonomic Mismatch",
-        "dataset_ids": [
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 20,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 20,
-        "datasets": [
-          {
-            "dataset_id": "life_watch_2026_image_library",
-            "aliases": [
-              "Epiphytic diatom"
-            ],
-            "image_count": 20,
-            "reasons": [
-              "AphiaID 148899 resolves to 'Bacillariophyceae', not label 'Epiphytic diatom'"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 20
-          }
-        ],
-        "pseudo_aphia_id": "tm_005"
-      },
-      {
         "group_key": "guinardia striata/dactyliosolen phuketensis",
         "sample_key": "taxonomic_mismatch::guinardia striata/dactyliosolen phuketensis",
         "aliases": [
@@ -4949,46 +5015,6 @@
           }
         ],
         "pseudo_aphia_id": "inv_007"
-      },
-      {
-        "group_key": "long (chained) diatom",
-        "sample_key": "taxonomic_mismatch::long (chained) diatom",
-        "aliases": [
-          "Long (chained) diatom"
-        ],
-        "status": "Taxonomic Mismatch",
-        "dataset_ids": [
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 170240,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 2,
-        "valid_image_count": 0,
-        "invalid_image_count": 170240,
-        "datasets": [
-          {
-            "dataset_id": "life_watch_2026_image_library",
-            "aliases": [
-              "Long (chained) diatom"
-            ],
-            "image_count": 170240,
-            "reasons": [
-              "AphiaID 148899 resolves to 'Bacillariophyceae', not label 'Long (chained) diatom'",
-              "Local AphiaID source contains non-numeric/non-AphiaID values: Long (chained) diatom"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 2,
-            "valid_image_count": 0,
-            "invalid_image_count": 170240
-          }
-        ],
-        "pseudo_aphia_id": "inv_008"
       },
       {
         "group_key": "nauplii",
@@ -5156,132 +5182,6 @@
         "pseudo_aphia_id": "tm_006"
       },
       {
-        "group_key": "pennate diatom",
-        "sample_key": "taxonomic_mismatch::pennate diatom",
-        "aliases": [
-          "Pennate Diatom",
-          "Pennate_Diatom"
-        ],
-        "status": "Taxonomic Mismatch",
-        "dataset_ids": [
-          "life_watch",
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 24888,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 3,
-        "valid_image_count": 0,
-        "invalid_image_count": 24888,
-        "datasets": [
-          {
-            "dataset_id": "life_watch",
-            "aliases": [
-              "Pennate_Diatom"
-            ],
-            "image_count": 8798,
-            "reasons": [
-              "AphiaID 148899 resolves to 'Bacillariophyceae', not label 'Pennate_Diatom'",
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch/metadata/metadata_trainingset_dedup_by_image_path.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899",
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Pennate%20Diatom?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 2,
-            "valid_image_count": 0,
-            "invalid_image_count": 8798
-          },
-          {
-            "dataset_id": "life_watch_2026_image_library",
-            "aliases": [
-              "Pennate Diatom"
-            ],
-            "image_count": 16090,
-            "reasons": [
-              "AphiaID 148899 resolves to 'Bacillariophyceae', not label 'Pennate Diatom'"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 16090
-          }
-        ],
-        "pseudo_aphia_id": "inv_011"
-      },
-      {
-        "group_key": "pennate diatom colony",
-        "sample_key": "taxonomic_mismatch::pennate diatom colony",
-        "aliases": [
-          "Pennate Diatom colony",
-          "Pennate_Diatom_colony"
-        ],
-        "status": "Taxonomic Mismatch",
-        "dataset_ids": [
-          "life_watch",
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 202,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 3,
-        "valid_image_count": 0,
-        "invalid_image_count": 202,
-        "datasets": [
-          {
-            "dataset_id": "life_watch",
-            "aliases": [
-              "Pennate_Diatom_colony"
-            ],
-            "image_count": 200,
-            "reasons": [
-              "AphiaID 148899 resolves to 'Bacillariophyceae', not label 'Pennate_Diatom_colony'",
-              "No local AphiaID and no exact WoRMS name match under strict validation"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch/metadata/metadata_trainingset_dedup_by_image_path.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899",
-              "https://www.marinespecies.org/rest/AphiaRecordsByName/Pennate%20Diatom%20colony?like=false&marine_only=false"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 2,
-            "valid_image_count": 0,
-            "invalid_image_count": 200
-          },
-          {
-            "dataset_id": "life_watch_2026_image_library",
-            "aliases": [
-              "Pennate Diatom colony"
-            ],
-            "image_count": 2,
-            "reasons": [
-              "AphiaID 148899 resolves to 'Bacillariophyceae', not label 'Pennate Diatom colony'"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 2
-          }
-        ],
-        "pseudo_aphia_id": "inv_012"
-      },
-      {
         "group_key": "plagiogrammopsis/bellerochea malleus",
         "sample_key": "taxonomic_mismatch::plagiogrammopsis/bellerochea malleus",
         "aliases": [
@@ -5342,45 +5242,6 @@
           }
         ],
         "pseudo_aphia_id": "inv_013"
-      },
-      {
-        "group_key": "stalked epiphytic diatom",
-        "sample_key": "taxonomic_mismatch::stalked epiphytic diatom",
-        "aliases": [
-          "Stalked epiphytic diatom"
-        ],
-        "status": "Taxonomic Mismatch",
-        "dataset_ids": [
-          "life_watch_2026_image_library"
-        ],
-        "total_image_count": 623,
-        "include_valid_tree_overlap": false,
-        "invalid_reason_count": 1,
-        "valid_image_count": 0,
-        "invalid_image_count": 623,
-        "datasets": [
-          {
-            "dataset_id": "life_watch_2026_image_library",
-            "aliases": [
-              "Stalked epiphytic diatom"
-            ],
-            "image_count": 623,
-            "reasons": [
-              "AphiaID 148899 resolves to 'Bacillariophyceae', not label 'Stalked epiphytic diatom'"
-            ],
-            "source_examples": [
-              "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/metadata.csv"
-            ],
-            "worms_sources": [
-              "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899"
-            ],
-            "valid_tree_entry": "no",
-            "invalid_reason_count": 1,
-            "valid_image_count": 0,
-            "invalid_image_count": 623
-          }
-        ],
-        "pseudo_aphia_id": "tm_007"
       },
       {
         "group_key": "stellarima stellaris/podosira/hyalodiscus",
@@ -7070,80 +6931,6 @@
         "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i16_s3_001_r110001121/srf_i16_s3_001_r110001121_14270.png",
         "width": "123",
         "height": "148"
-      }
-    ],
-    "non_taxonomic_category::centric diatom": [
-      {
-        "dataset_id": "life_watch",
-        "label": "Centric_Diatom",
-        "image_id": "ECA19055-DFF9-42CC-AF94-5765FD84DE0F",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/centric_diatom/01_585b396f72.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_ECA19055-DFF9-42CC-AF94-5765FD84DE0F.jpg",
-        "width": "74",
-        "height": "72"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Centric_Diatom",
-        "image_id": "446C9990-B8F3-4F51-89E3-82CD6F5B3CEC",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/centric_diatom/02_ce1565c6de.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_446C9990-B8F3-4F51-89E3-82CD6F5B3CEC.jpg",
-        "width": "72",
-        "height": "73"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Centric_Diatom",
-        "image_id": "C2BAD8F7-3026-480D-8BA1-A37FBCF5B0D6",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/centric_diatom/03_8ae9ae32d3.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_C2BAD8F7-3026-480D-8BA1-A37FBCF5B0D6.jpg",
-        "width": "152",
-        "height": "162"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Centric_Diatom",
-        "image_id": "30B12CA9-8EA3-45A8-9BB9-74C3D1BDF888",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/centric_diatom/04_271601cb0d.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_30B12CA9-8EA3-45A8-9BB9-74C3D1BDF888.jpg",
-        "width": "69",
-        "height": "68"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Centric_Diatom",
-        "image_id": "7A024606-1207-4042-AB04-EDE6791F15A9",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/centric_diatom/05_0fde0706fc.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_7A024606-1207-4042-AB04-EDE6791F15A9.jpg",
-        "width": "55",
-        "height": "43"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Centric_Diatom",
-        "image_id": "DABA40A6-A7B6-442C-89FA-47D70F57311F",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/centric_diatom/06_f6a9babd1d.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_DABA40A6-A7B6-442C-89FA-47D70F57311F.jpg",
-        "width": "41",
-        "height": "58"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Centric_Diatom",
-        "image_id": "6D6451B0-39B3-4C26-90DE-20BAEC5D54B1",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/centric_diatom/07_0f84639307.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_6D6451B0-39B3-4C26-90DE-20BAEC5D54B1.jpg",
-        "width": "60",
-        "height": "57"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Centric_Diatom",
-        "image_id": "6E84CC4E-8B0D-4662-85D7-B3A2FF5B415E",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/centric_diatom/08_ed3817c0ce.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_6E84CC4E-8B0D-4662-85D7-B3A2FF5B415E.jpg",
-        "width": "71",
-        "height": "70"
       }
     ],
     "non_taxonomic_category::chaetoceros inter ciliate": [
@@ -10557,80 +10344,6 @@
         "height": "36"
       }
     ],
-    "non_taxonomic_category::long (chained) diatom": [
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Long (chained) diatom",
-        "image_id": "C7D1843B-9298-4BA4-AE86-EAFFF8223E41",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/long_chained_diatom/01_80ffbec234.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/C7D1843B-9298-4BA4-AE86-EAFFF8223E41.png",
-        "width": "35",
-        "height": "132"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Long (chained) diatom",
-        "image_id": "C79BC90A-3AB2-4EE5-AA26-04E2CB63D0D8",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/long_chained_diatom/02_4ab5c2541d.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/C79BC90A-3AB2-4EE5-AA26-04E2CB63D0D8.png",
-        "width": "64",
-        "height": "172"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Long (chained) diatom",
-        "image_id": "812A1A99-2ABB-4596-AE26-9207FC2DE531",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/long_chained_diatom/03_d8cc3d71bf.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/812A1A99-2ABB-4596-AE26-9207FC2DE531.png",
-        "width": "47",
-        "height": "147"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Long (chained) diatom",
-        "image_id": "F8BCB593-9990-4D48-991A-B1934714ACB6",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/long_chained_diatom/04_8b0f0e1cc5.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/F8BCB593-9990-4D48-991A-B1934714ACB6.png",
-        "width": "29",
-        "height": "144"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Long (chained) diatom",
-        "image_id": "C0F0E672-6440-49DA-8994-DF44948E19EC",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/long_chained_diatom/05_11c34af8e7.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/C0F0E672-6440-49DA-8994-DF44948E19EC.png",
-        "width": "37",
-        "height": "64"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Long (chained) diatom",
-        "image_id": "940EABCF-084A-45B9-8EBD-53BCA20A772C",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/long_chained_diatom/06_1bbab92cf8.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/940EABCF-084A-45B9-8EBD-53BCA20A772C.png",
-        "width": "26",
-        "height": "162"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Long (chained) diatom",
-        "image_id": "E8E7E483-6EAA-4A2F-92F0-578B41E5DCD2",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/long_chained_diatom/07_f3a04e4014.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/E8E7E483-6EAA-4A2F-92F0-578B41E5DCD2.png",
-        "width": "37",
-        "height": "137"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Long (chained) diatom",
-        "image_id": "8F215FE1-EE05-413A-BF30-B8CB2B2DB788",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch_2026_image_library/long_chained_diatom/08_0450dff536.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/8F215FE1-EE05-413A-BF30-B8CB2B2DB788.png",
-        "width": "23",
-        "height": "149"
-      }
-    ],
     "non_taxonomic_category::mineral particle": [
       {
         "dataset_id": "life_watch_2026_image_library",
@@ -12021,78 +11734,6 @@
         "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/part_Ciliophora/164988224.png",
         "width": "40",
         "height": "118"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Ciliophora",
-        "image_id": "i00_oa139_001_g100014672_5575",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/01_c718c1d151.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_5575.png",
-        "width": "97",
-        "height": "68"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Ciliophora",
-        "image_id": "i00_oa139_001_g100014672_12779",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/02_8768a5c424.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_12779.png",
-        "width": "97",
-        "height": "82"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Ciliophora",
-        "image_id": "i00_oa139_001_g100014672_46899",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/03_da8ef968c7.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_46899.png",
-        "width": "97",
-        "height": "70"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Ciliophora",
-        "image_id": "i00_oa139_001_g100014672_20035",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/04_b63abd0a53.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_20035.png",
-        "width": "97",
-        "height": "118"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Ciliophora",
-        "image_id": "i00_oa139_001_g100014672_42396",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/05_3801045428.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_42396.png",
-        "width": "97",
-        "height": "158"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Ciliophora",
-        "image_id": "i00_oa139_001_g100014672_6315",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/06_5414a397ae.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_6315.png",
-        "width": "97",
-        "height": "131"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Ciliophora",
-        "image_id": "i00_oa140_001_g100014681_4585",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/07_7665afd1ab.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa140_001_g100014681/i00_oa140_001_g100014681_4585.png",
-        "width": "97",
-        "height": "129"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Ciliophora",
-        "image_id": "i00_oa140_001_g100014681_6347",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/08_57c67447f3.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa140_001_g100014681/i00_oa140_001_g100014681_6347.png",
-        "width": "97",
-        "height": "91"
       }
     ],
     "non_taxonomic_category::part crustacea": [
@@ -12167,78 +11808,71 @@
         "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/part_Crustacea/164920731.png",
         "width": "116",
         "height": "88"
+      }
+    ],
+    "non_taxonomic_category::part diatom": [
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part diatom",
+        "image_id": "aw_i05_s1_001_r110001872_837",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_diatom/01_261fe8c70c.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_837.png",
+        "width": "103",
+        "height": "150"
       },
       {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Crustacea",
-        "image_id": "i00_oa136_001_g100014429_8730",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/01_2bc6e7afda.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_8730.png",
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part diatom",
+        "image_id": "aw_i05_s3_001_r110001183_12148",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_diatom/02_6a1063d6b3.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s3_001_r110001183/aw_i05_s3_001_r110001183_12148.png",
         "width": "97",
-        "height": "124"
+        "height": "90"
       },
       {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Crustacea",
-        "image_id": "i00_oa140_001_g100014681_2653",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/02_7a49812268.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa140_001_g100014681/i00_oa140_001_g100014681_2653.png",
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part diatom",
+        "image_id": "srf_i08_s2_001_r110001518_11633",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_diatom/03_b7227b68dc.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i08_s2_001_r110001518/srf_i08_s2_001_r110001518_11633.png",
         "width": "97",
-        "height": "180"
+        "height": "87"
       },
       {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Crustacea",
-        "image_id": "i00_oa164_001_g100015584_25267",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/03_8da3ca3bce.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa164_001_g100015584/i00_oa164_001_g100015584_25267.png",
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part diatom",
+        "image_id": "srf_i13_s1_001_r110001355_1297",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_diatom/04_153801afcb.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i13_s1_001_r110001355/srf_i13_s1_001_r110001355_1297.png",
         "width": "97",
-        "height": "94"
+        "height": "90"
       },
       {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Crustacea",
-        "image_id": "i00_oa164_001_g100015584_3170",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/04_de0252a9f5.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa164_001_g100015584/i00_oa164_001_g100015584_3170.png",
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part diatom",
+        "image_id": "srf_i13_s1_001_r110001355_2559",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_diatom/05_e960ffd70c.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i13_s1_001_r110001355/srf_i13_s1_001_r110001355_2559.png",
         "width": "97",
-        "height": "60"
+        "height": "100"
       },
       {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Crustacea",
-        "image_id": "oa031_001_g100017583_3055",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/05_1ba904fb91.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa031_001_g100017583/oa031_001_g100017583_3055.png",
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part diatom",
+        "image_id": "srf_i14_s3_001_r110001294_29661",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_diatom/06_9aeb826bc9.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i14_s3_001_r110001294/srf_i14_s3_001_r110001294_29661.png",
         "width": "97",
-        "height": "74"
+        "height": "92"
       },
       {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Crustacea",
-        "image_id": "oa034_001_g100019601_15820",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/06_735f1f516c.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa034_001_g100019601/oa034_001_g100019601_15820.png",
-        "width": "97",
-        "height": "102"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Crustacea",
-        "image_id": "oa034_001_g100019601_24623",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/07_95bc76e6b3.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa034_001_g100019601/oa034_001_g100019601_24623.png",
-        "width": "97",
-        "height": "84"
-      },
-      {
-        "dataset_id": "tara_pacific_deck",
-        "label": "part<Crustacea",
-        "image_id": "oa065_001_g100017444_1537",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/08_80c8aeb077.jpg",
-        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa065_001_g100017444/oa065_001_g100017444_1537.png",
-        "width": "97",
-        "height": "93"
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part diatom",
+        "image_id": "srf_i16_s2_001_r110001079_12283",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_diatom/07_80cf334df5.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i16_s2_001_r110001079/srf_i16_s2_001_r110001079_12283.png",
+        "width": "184",
+        "height": "106"
       }
     ],
     "non_taxonomic_category::part ditylum": [
@@ -12389,6 +12023,300 @@
         "height": "78"
       }
     ],
+    "non_taxonomic_category::part<ciliophora": [
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Ciliophora",
+        "image_id": "i00_oa139_001_g100014672_5575",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/01_212789d0f7.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_5575.png",
+        "width": "97",
+        "height": "68"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Ciliophora",
+        "image_id": "i00_oa139_001_g100014672_12779",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/02_e204a7ea84.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_12779.png",
+        "width": "97",
+        "height": "82"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Ciliophora",
+        "image_id": "i00_oa139_001_g100014672_46899",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/03_95a395998b.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_46899.png",
+        "width": "97",
+        "height": "70"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Ciliophora",
+        "image_id": "i00_oa139_001_g100014672_20035",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/04_6209196db1.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_20035.png",
+        "width": "97",
+        "height": "118"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Ciliophora",
+        "image_id": "i00_oa139_001_g100014672_42396",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/05_56b7961641.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_42396.png",
+        "width": "97",
+        "height": "158"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Ciliophora",
+        "image_id": "i00_oa139_001_g100014672_6315",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/06_0a2b763103.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_6315.png",
+        "width": "97",
+        "height": "131"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Ciliophora",
+        "image_id": "i00_oa140_001_g100014681_4585",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/07_b6427db69b.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa140_001_g100014681/i00_oa140_001_g100014681_4585.png",
+        "width": "97",
+        "height": "129"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Ciliophora",
+        "image_id": "i00_oa140_001_g100014681_6347",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_ciliophora/08_aed65b6265.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa140_001_g100014681/i00_oa140_001_g100014681_6347.png",
+        "width": "97",
+        "height": "91"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Ciliophora",
+        "image_id": "srf_i09_s1_001_r110001842_5745",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_ciliophora/01_ec5ec1df31.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_5745.png",
+        "width": "97",
+        "height": "70"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Ciliophora",
+        "image_id": "aw_i05_s1_001_r110001872_1636",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_ciliophora/02_4e56d2b0eb.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_1636.png",
+        "width": "97",
+        "height": "157"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Ciliophora",
+        "image_id": "srf_i07_s3_001_r110002331_25749",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_ciliophora/03_4f558735ce.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i07_s3_001_r110002331/srf_i07_s3_001_r110002331_25749.png",
+        "width": "97",
+        "height": "89"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Ciliophora",
+        "image_id": "srf_i12_s3_001_r110001399_14824",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_ciliophora/04_967213d375.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i12_s3_001_r110001399/srf_i12_s3_001_r110001399_14824.png",
+        "width": "179",
+        "height": "99"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Ciliophora",
+        "image_id": "srf_i12_s3_001_r110001399_1242",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_ciliophora/05_c11a011c6b.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i12_s3_001_r110001399/srf_i12_s3_001_r110001399_1242.png",
+        "width": "110",
+        "height": "80"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Ciliophora",
+        "image_id": "srf_i15_s3_001_r110001321_690",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_ciliophora/06_968a401659.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i15_s3_001_r110001321/srf_i15_s3_001_r110001321_690.png",
+        "width": "97",
+        "height": "116"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Ciliophora",
+        "image_id": "srf_i15_s3_001_r110001321_450",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_ciliophora/07_9783737c9b.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i15_s3_001_r110001321/srf_i15_s3_001_r110001321_450.png",
+        "width": "121",
+        "height": "96"
+      }
+    ],
+    "non_taxonomic_category::part<copepoda": [
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Copepoda",
+        "image_id": "srf_i12_s1_001_r110001234_10176",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_copepoda/01_7ea72d2412.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i12_s1_001_r110001234/srf_i12_s1_001_r110001234_10176.png",
+        "width": "214",
+        "height": "252"
+      }
+    ],
+    "non_taxonomic_category::part<crustacea": [
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Crustacea",
+        "image_id": "i00_oa136_001_g100014429_8730",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/01_5478f1174f.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_8730.png",
+        "width": "97",
+        "height": "124"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Crustacea",
+        "image_id": "i00_oa140_001_g100014681_2653",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/02_1e43aa6d57.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa140_001_g100014681/i00_oa140_001_g100014681_2653.png",
+        "width": "97",
+        "height": "180"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Crustacea",
+        "image_id": "i00_oa164_001_g100015584_25267",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/03_56d61a4b0d.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa164_001_g100015584/i00_oa164_001_g100015584_25267.png",
+        "width": "97",
+        "height": "94"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Crustacea",
+        "image_id": "i00_oa164_001_g100015584_3170",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/04_f3564cbb3f.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa164_001_g100015584/i00_oa164_001_g100015584_3170.png",
+        "width": "97",
+        "height": "60"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Crustacea",
+        "image_id": "oa031_001_g100017583_3055",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/05_3126d35243.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa031_001_g100017583/oa031_001_g100017583_3055.png",
+        "width": "97",
+        "height": "74"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Crustacea",
+        "image_id": "oa034_001_g100019601_15820",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/06_2d8c4bb895.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa034_001_g100019601/oa034_001_g100019601_15820.png",
+        "width": "97",
+        "height": "102"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Crustacea",
+        "image_id": "oa034_001_g100019601_24623",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/07_48da4ab410.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa034_001_g100019601/oa034_001_g100019601_24623.png",
+        "width": "97",
+        "height": "84"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "part<Crustacea",
+        "image_id": "oa065_001_g100017444_1537",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/part_crustacea/08_b3aec0837a.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa065_001_g100017444/oa065_001_g100017444_1537.png",
+        "width": "97",
+        "height": "93"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Crustacea",
+        "image_id": "aw_i04_s4_002_r110001920_10022",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_crustacea/01_c2b9b70616.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_10022.png",
+        "width": "150",
+        "height": "101"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Crustacea",
+        "image_id": "aw_i04_s4_002_r110001920_649",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_crustacea/02_9e86d18f8d.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_649.png",
+        "width": "166",
+        "height": "261"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Crustacea",
+        "image_id": "aw_i04_s4_002_r110001920_591",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_crustacea/03_b3509d1e76.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_591.png",
+        "width": "97",
+        "height": "112"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Crustacea",
+        "image_id": "aw_i04_s4_002_r110001920_832",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_crustacea/04_b6c70e3541.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_832.png",
+        "width": "97",
+        "height": "85"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Crustacea",
+        "image_id": "aw_i04_s4_002_r110001920_9183",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_crustacea/05_06164f01a6.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_9183.png",
+        "width": "128",
+        "height": "182"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Crustacea",
+        "image_id": "aw_i04_s4_002_r110001920_16129",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_crustacea/06_c13bed90e7.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_16129.png",
+        "width": "127",
+        "height": "361"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Crustacea",
+        "image_id": "aw_i04_s4_002_r110001920_10499",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_crustacea/07_b98a1bad98.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_10499.png",
+        "width": "97",
+        "height": "168"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Crustacea",
+        "image_id": "aw_i04_s4_002_r110001920_9177",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_crustacea/08_28864c355c.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_9177.png",
+        "width": "97",
+        "height": "100"
+      }
+    ],
     "non_taxonomic_category::part<other": [
       {
         "dataset_id": "tara_pacific_bongo",
@@ -12535,154 +12463,6 @@
         "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/pennate/165370931.png",
         "width": "29",
         "height": "132"
-      }
-    ],
-    "non_taxonomic_category::pennate diatom": [
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom",
-        "image_id": "DB9C54ED-7EFB-44AD-A1FA-F88B893BB149",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/pennate_diatom/01_1b570d7fed.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_DB9C54ED-7EFB-44AD-A1FA-F88B893BB149.jpg",
-        "width": "24",
-        "height": "77"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom",
-        "image_id": "2CA5FEA6-08CE-455E-A6B1-1D4D41278A9B",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/pennate_diatom/02_d3ba834cce.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_2CA5FEA6-08CE-455E-A6B1-1D4D41278A9B.jpg",
-        "width": "35",
-        "height": "92"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom",
-        "image_id": "5002661B-34AA-4D25-9FA7-E852459DB6BA",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/pennate_diatom/03_ee31198101.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_5002661B-34AA-4D25-9FA7-E852459DB6BA.jpg",
-        "width": "26",
-        "height": "113"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom",
-        "image_id": "3FC0CC6C-8342-4AB8-A909-3A788956F107",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/pennate_diatom/04_eaff82dbac.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_3FC0CC6C-8342-4AB8-A909-3A788956F107.jpg",
-        "width": "107",
-        "height": "31"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom",
-        "image_id": "74D0797B-C48E-4819-A49D-D8E86D341D7D",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/pennate_diatom/05_768d4059a8.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_74D0797B-C48E-4819-A49D-D8E86D341D7D.jpg",
-        "width": "93",
-        "height": "139"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom",
-        "image_id": "4873B0EC-2132-44F0-85F1-150E28D8EBC5",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/pennate_diatom/06_6746065cba.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_4873B0EC-2132-44F0-85F1-150E28D8EBC5.jpg",
-        "width": "54",
-        "height": "157"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom",
-        "image_id": "A3C91DE3-F9B1-4A50-8908-5591B48FC2B9",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/pennate_diatom/07_699b3330b5.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_A3C91DE3-F9B1-4A50-8908-5591B48FC2B9.jpg",
-        "width": "20",
-        "height": "107"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom",
-        "image_id": "7C8DBE0E-7A03-49E8-912F-A1A2A3B73012",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/pennate_diatom/08_72c4fd34a8.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_7C8DBE0E-7A03-49E8-912F-A1A2A3B73012.jpg",
-        "width": "116",
-        "height": "154"
-      }
-    ],
-    "non_taxonomic_category::pennate diatom colony": [
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom_colony",
-        "image_id": "14C797A6-15F3-4C58-846E-FA317D765150",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/pennate_diatom_colony/01_46e4cc6dfe.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_14C797A6-15F3-4C58-846E-FA317D765150.jpg",
-        "width": "74",
-        "height": "73"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom_colony",
-        "image_id": "26FE9C21-474B-448F-AA59-292DE910765F",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/pennate_diatom_colony/02_aebf891d50.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_26FE9C21-474B-448F-AA59-292DE910765F.jpg",
-        "width": "60",
-        "height": "65"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom_colony",
-        "image_id": "960B575C-7B6D-4418-8819-7D3E19A5F8B7",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/pennate_diatom_colony/03_d7104e1075.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_960B575C-7B6D-4418-8819-7D3E19A5F8B7.jpg",
-        "width": "78",
-        "height": "74"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom_colony",
-        "image_id": "52A468CE-F110-4FB3-A489-B8C723F88A3A",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/pennate_diatom_colony/04_98c1b6ba60.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_52A468CE-F110-4FB3-A489-B8C723F88A3A.jpg",
-        "width": "67",
-        "height": "65"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom_colony",
-        "image_id": "53F32C8A-7DDE-4464-B70C-C2E27F2C61D1",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/pennate_diatom_colony/05_d1b5c8dbb9.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_53F32C8A-7DDE-4464-B70C-C2E27F2C61D1.jpg",
-        "width": "59",
-        "height": "71"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom_colony",
-        "image_id": "D2CA3754-024D-4972-B2A8-EFF72062DFF6",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/pennate_diatom_colony/06_3e8d897bd8.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_D2CA3754-024D-4972-B2A8-EFF72062DFF6.jpg",
-        "width": "65",
-        "height": "65"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom_colony",
-        "image_id": "6F61DF1F-FC3D-4784-AA50-B90513126486",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/pennate_diatom_colony/07_a1785b9fa3.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_6F61DF1F-FC3D-4784-AA50-B90513126486.jpg",
-        "width": "57",
-        "height": "50"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom_colony",
-        "image_id": "A6E69ED7-0D76-4EAE-9CE1-06B1E01EF8E0",
-        "thumbnail_url": "/invalid-samples/non_taxonomic_category/life_watch/pennate_diatom_colony/08_2bf545547b.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_A6E69ED7-0D76-4EAE-9CE1-06B1E01EF8E0.jpg",
-        "width": "55",
-        "height": "66"
       }
     ],
     "non_taxonomic_category::phytoplankton colony": [
@@ -14575,6 +14355,199 @@
         "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_13888.png",
         "width": "97",
         "height": "83"
+      }
+    ],
+    "non_taxonomic_category::spines<acantharea": [
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharea",
+        "image_id": "oa034_001_g100019601_5453",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/01_0631976830.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa034_001_g100019601/oa034_001_g100019601_5453.png",
+        "width": "97",
+        "height": "68"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharea",
+        "image_id": "oa034_001_g100019601_26694",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/02_9e3927579d.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa034_001_g100019601/oa034_001_g100019601_26694.png",
+        "width": "97",
+        "height": "71"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharea",
+        "image_id": "oa096_001_g100016058_32383",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/03_aee5911d57.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa096_001_g100016058/oa096_001_g100016058_32383.png",
+        "width": "97",
+        "height": "70"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharea",
+        "image_id": "i00_oa139_001_g100014672_14684",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/04_923cfa91a1.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_14684.png",
+        "width": "97",
+        "height": "112"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharea",
+        "image_id": "i00_oa163_001_g100015598_21284",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/05_80d9d418f0.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_21284.png",
+        "width": "154",
+        "height": "145"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharea",
+        "image_id": "i04_oa043_001_g100017842_2513",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/06_deab456b42.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i04_oa043_001_g100017842/i04_oa043_001_g100017842_2513.png",
+        "width": "97",
+        "height": "82"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharea",
+        "image_id": "i06_oa055_001_g100018780_3593",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/07_da5362c690.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i06_oa055_001_g100018780/i06_oa055_001_g100018780_3593.png",
+        "width": "97",
+        "height": "98"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharea",
+        "image_id": "i19_oa142_001_g100014497_5055",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/08_cebb8c1a50.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i19_oa142_001_g100014497/i19_oa142_001_g100014497_5055.png",
+        "width": "126",
+        "height": "92"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "spines<Acantharea",
+        "image_id": "aw_i05_s1_001_r110001872_16293",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/spines_acantharea/01_9f9d237345.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_16293.png",
+        "width": "97",
+        "height": "115"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "spines<Acantharea",
+        "image_id": "aw_i05_s1_001_r110001872_5117",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/spines_acantharea/02_d90f58336a.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_5117.png",
+        "width": "97",
+        "height": "108"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "spines<Acantharea",
+        "image_id": "aw_i05_s3_001_r110001183_246",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/spines_acantharea/03_a5ff32c4a1.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s3_001_r110001183/aw_i05_s3_001_r110001183_246.png",
+        "width": "97",
+        "height": "92"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "spines<Acantharea",
+        "image_id": "srf_i08_s1_001_r110001508_3697",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/spines_acantharea/04_fef4bf92b9.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i08_s1_001_r110001508/srf_i08_s1_001_r110001508_3697.png",
+        "width": "97",
+        "height": "103"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "spines<Acantharea",
+        "image_id": "srf_i08_s2_001_r110001518_265",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/spines_acantharea/05_196e1b5ed1.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i08_s2_001_r110001518/srf_i08_s2_001_r110001518_265.png",
+        "width": "97",
+        "height": "90"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "spines<Acantharea",
+        "image_id": "srf_i12_s1_001_r110001234_3926",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/spines_acantharea/06_d1893c04e9.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i12_s1_001_r110001234/srf_i12_s1_001_r110001234_3926.png",
+        "width": "97",
+        "height": "94"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "spines<Acantharea",
+        "image_id": "srf_i13_s2_001_r110002420_33617",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/spines_acantharea/07_e1c4ca044f.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i13_s2_001_r110002420/srf_i13_s2_001_r110002420_33617.png",
+        "width": "100",
+        "height": "96"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "spines<Acantharea",
+        "image_id": "srf_i13_s2_001_r110002420_13287",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/spines_acantharea/08_f37c7a0f7e.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i13_s2_001_r110002420/srf_i13_s2_001_r110002420_13287.png",
+        "width": "104",
+        "height": "125"
+      }
+    ],
+    "non_taxonomic_category::spines<acantharia": [
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharia",
+        "image_id": "oa096_001_g100016058_18636",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharia/01_fda0253101.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_18636.png",
+        "width": "97",
+        "height": "86"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharia",
+        "image_id": "oa096_001_g100016058_22309",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharia/02_41427c1995.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_22309.png",
+        "width": "97",
+        "height": "106"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharia",
+        "image_id": "oa096_001_g100016058_30448",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharia/03_545bc18b48.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_30448.png",
+        "width": "97",
+        "height": "89"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharia",
+        "image_id": "oa096_001_g100016058_8841",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharia/04_4b312cbad0.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_8841.png",
+        "width": "99",
+        "height": "125"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharia",
+        "image_id": "oa096_001_g100016058_27614",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharia/05_2435cc5bda.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_27614.png",
+        "width": "97",
+        "height": "95"
       }
     ],
     "non_taxonomic_category::spines<rhizaria": [
@@ -17547,152 +17520,6 @@
         "height": "275"
       }
     ],
-    "taxonomic_mismatch::centric diatom": [
-      {
-        "dataset_id": "life_watch",
-        "label": "Centric_Diatom",
-        "image_id": "ECA19055-DFF9-42CC-AF94-5765FD84DE0F",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/centric_diatom/01_ac8d6d9b18.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_ECA19055-DFF9-42CC-AF94-5765FD84DE0F.jpg",
-        "width": "74",
-        "height": "72"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Centric_Diatom",
-        "image_id": "446C9990-B8F3-4F51-89E3-82CD6F5B3CEC",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/centric_diatom/02_479c2e001f.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_446C9990-B8F3-4F51-89E3-82CD6F5B3CEC.jpg",
-        "width": "72",
-        "height": "73"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Centric_Diatom",
-        "image_id": "C2BAD8F7-3026-480D-8BA1-A37FBCF5B0D6",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/centric_diatom/03_214d7d1e24.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_C2BAD8F7-3026-480D-8BA1-A37FBCF5B0D6.jpg",
-        "width": "152",
-        "height": "162"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Centric_Diatom",
-        "image_id": "30B12CA9-8EA3-45A8-9BB9-74C3D1BDF888",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/centric_diatom/04_e652ca6a01.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_30B12CA9-8EA3-45A8-9BB9-74C3D1BDF888.jpg",
-        "width": "69",
-        "height": "68"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Centric_Diatom",
-        "image_id": "7A024606-1207-4042-AB04-EDE6791F15A9",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/centric_diatom/05_b74b7726d8.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_7A024606-1207-4042-AB04-EDE6791F15A9.jpg",
-        "width": "55",
-        "height": "43"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Centric_Diatom",
-        "image_id": "DABA40A6-A7B6-442C-89FA-47D70F57311F",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/centric_diatom/06_3439df19d0.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_DABA40A6-A7B6-442C-89FA-47D70F57311F.jpg",
-        "width": "41",
-        "height": "58"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Centric_Diatom",
-        "image_id": "6D6451B0-39B3-4C26-90DE-20BAEC5D54B1",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/centric_diatom/07_697e7b946a.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_6D6451B0-39B3-4C26-90DE-20BAEC5D54B1.jpg",
-        "width": "60",
-        "height": "57"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Centric_Diatom",
-        "image_id": "6E84CC4E-8B0D-4662-85D7-B3A2FF5B415E",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/centric_diatom/08_b8109e320f.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_6E84CC4E-8B0D-4662-85D7-B3A2FF5B415E.jpg",
-        "width": "71",
-        "height": "70"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Centric Diatom",
-        "image_id": "357A5741-805E-4F28-9075-8D67ED2DBB03",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/centric_diatom/01_77c7357220.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Centric Diatom/357A5741-805E-4F28-9075-8D67ED2DBB03.png",
-        "width": "70",
-        "height": "75"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Centric Diatom",
-        "image_id": "08D0A960-299B-4708-951A-99F29FA2BA55",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/centric_diatom/02_cb8b131224.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Centric Diatom/08D0A960-299B-4708-951A-99F29FA2BA55.png",
-        "width": "89",
-        "height": "93"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Centric Diatom",
-        "image_id": "325DED3B-D537-482C-99B8-9A906A898D83",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/centric_diatom/03_84363490f9.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Centric Diatom/325DED3B-D537-482C-99B8-9A906A898D83.png",
-        "width": "68",
-        "height": "60"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Centric Diatom",
-        "image_id": "DDA12ED2-AA2C-4F90-A956-5B84DBFA0F2C",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/centric_diatom/04_0d43cf32f1.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Centric Diatom/DDA12ED2-AA2C-4F90-A956-5B84DBFA0F2C.png",
-        "width": "67",
-        "height": "100"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Centric Diatom",
-        "image_id": "F7BDFDEB-5918-4422-9A29-0A518D5590F2",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/centric_diatom/05_662614b581.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Centric Diatom/F7BDFDEB-5918-4422-9A29-0A518D5590F2.png",
-        "width": "70",
-        "height": "70"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Centric Diatom",
-        "image_id": "A24860CF-C710-4FF0-A887-05E4126FF771",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/centric_diatom/06_53299fdfd9.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Centric Diatom/A24860CF-C710-4FF0-A887-05E4126FF771.png",
-        "width": "66",
-        "height": "73"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Centric Diatom",
-        "image_id": "8F2F6F08-18EE-4708-A159-EBB48BB6D128",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/centric_diatom/07_610d8eec6f.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Centric Diatom/8F2F6F08-18EE-4708-A159-EBB48BB6D128.png",
-        "width": "67",
-        "height": "71"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Centric Diatom",
-        "image_id": "4878CDF6-9CA3-4792-90A6-17C1FE38072F",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/centric_diatom/08_a1d72e32f7.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Centric Diatom/4878CDF6-9CA3-4792-90A6-17C1FE38072F.png",
-        "width": "52",
-        "height": "53"
-      }
-    ],
     "taxonomic_mismatch::crustaceae-part": [
       {
         "dataset_id": "life_watch",
@@ -18279,80 +18106,6 @@
         "height": "80"
       }
     ],
-    "taxonomic_mismatch::epiphytic diatom": [
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Epiphytic diatom",
-        "image_id": "38EE95BD-79B2-4D66-BE95-D83A138110B6",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/epiphytic_diatom/01_abd0b5e182.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Epiphytic diatom/38EE95BD-79B2-4D66-BE95-D83A138110B6.png",
-        "width": "110",
-        "height": "84"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Epiphytic diatom",
-        "image_id": "8B40C01F-9884-4DDC-AE31-944E178AA4BD",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/epiphytic_diatom/02_3f05073cc5.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Epiphytic diatom/8B40C01F-9884-4DDC-AE31-944E178AA4BD.png",
-        "width": "91",
-        "height": "87"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Epiphytic diatom",
-        "image_id": "858ECDDE-DD0B-4D99-848F-C9DACAB36302",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/epiphytic_diatom/03_1507d3c4ba.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Epiphytic diatom/858ECDDE-DD0B-4D99-848F-C9DACAB36302.png",
-        "width": "107",
-        "height": "93"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Epiphytic diatom",
-        "image_id": "EA76C9BF-801C-4532-A1A8-B3C8B9B758F6",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/epiphytic_diatom/04_bc5333cdb2.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Epiphytic diatom/EA76C9BF-801C-4532-A1A8-B3C8B9B758F6.png",
-        "width": "110",
-        "height": "96"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Epiphytic diatom",
-        "image_id": "DC110242-A1C1-4F9C-A197-C164F6A53C26",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/epiphytic_diatom/05_030a0b5731.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Epiphytic diatom/DC110242-A1C1-4F9C-A197-C164F6A53C26.png",
-        "width": "80",
-        "height": "84"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Epiphytic diatom",
-        "image_id": "7022F507-D92D-479F-8407-92228834EC86",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/epiphytic_diatom/06_56c7716729.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Epiphytic diatom/7022F507-D92D-479F-8407-92228834EC86.png",
-        "width": "78",
-        "height": "96"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Epiphytic diatom",
-        "image_id": "2E028689-239C-4155-A20F-71D5F7CB90A2",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/epiphytic_diatom/07_12d7e6e71c.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Epiphytic diatom/2E028689-239C-4155-A20F-71D5F7CB90A2.png",
-        "width": "112",
-        "height": "91"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Epiphytic diatom",
-        "image_id": "94A2C399-6AF6-4E16-91D0-B53F8D308E35",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/epiphytic_diatom/08_b5c1ef9816.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Epiphytic diatom/94A2C399-6AF6-4E16-91D0-B53F8D308E35.png",
-        "width": "65",
-        "height": "74"
-      }
-    ],
     "taxonomic_mismatch::guinardia striata/dactyliosolen phuketensis": [
       {
         "dataset_id": "life_watch",
@@ -18643,80 +18396,6 @@
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Lauderia/Melosira/Detonula/B762ED48-C48E-4A4F-A1CE-964087DF34E1.png",
         "width": "49",
         "height": "60"
-      }
-    ],
-    "taxonomic_mismatch::long (chained) diatom": [
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Long (chained) diatom",
-        "image_id": "C7D1843B-9298-4BA4-AE86-EAFFF8223E41",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/long_chained_diatom/01_8aa49a4a96.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/C7D1843B-9298-4BA4-AE86-EAFFF8223E41.png",
-        "width": "35",
-        "height": "132"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Long (chained) diatom",
-        "image_id": "C79BC90A-3AB2-4EE5-AA26-04E2CB63D0D8",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/long_chained_diatom/02_93c70de196.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/C79BC90A-3AB2-4EE5-AA26-04E2CB63D0D8.png",
-        "width": "64",
-        "height": "172"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Long (chained) diatom",
-        "image_id": "812A1A99-2ABB-4596-AE26-9207FC2DE531",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/long_chained_diatom/03_a218e8d66b.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/812A1A99-2ABB-4596-AE26-9207FC2DE531.png",
-        "width": "47",
-        "height": "147"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Long (chained) diatom",
-        "image_id": "F8BCB593-9990-4D48-991A-B1934714ACB6",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/long_chained_diatom/04_9e75fbcdf9.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/F8BCB593-9990-4D48-991A-B1934714ACB6.png",
-        "width": "29",
-        "height": "144"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Long (chained) diatom",
-        "image_id": "C0F0E672-6440-49DA-8994-DF44948E19EC",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/long_chained_diatom/05_4b323af459.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/C0F0E672-6440-49DA-8994-DF44948E19EC.png",
-        "width": "37",
-        "height": "64"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Long (chained) diatom",
-        "image_id": "940EABCF-084A-45B9-8EBD-53BCA20A772C",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/long_chained_diatom/06_b3de84bc47.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/940EABCF-084A-45B9-8EBD-53BCA20A772C.png",
-        "width": "26",
-        "height": "162"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Long (chained) diatom",
-        "image_id": "E8E7E483-6EAA-4A2F-92F0-578B41E5DCD2",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/long_chained_diatom/07_1fc86be947.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/E8E7E483-6EAA-4A2F-92F0-578B41E5DCD2.png",
-        "width": "37",
-        "height": "137"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Long (chained) diatom",
-        "image_id": "8F215FE1-EE05-413A-BF30-B8CB2B2DB788",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/long_chained_diatom/08_a2e171ab9c.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/8F215FE1-EE05-413A-BF30-B8CB2B2DB788.png",
-        "width": "23",
-        "height": "149"
       }
     ],
     "taxonomic_mismatch::nauplii": [
@@ -19058,244 +18737,6 @@
         "height": "223"
       }
     ],
-    "taxonomic_mismatch::pennate diatom": [
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom",
-        "image_id": "DB9C54ED-7EFB-44AD-A1FA-F88B893BB149",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/pennate_diatom/01_843b708d3f.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_DB9C54ED-7EFB-44AD-A1FA-F88B893BB149.jpg",
-        "width": "24",
-        "height": "77"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom",
-        "image_id": "2CA5FEA6-08CE-455E-A6B1-1D4D41278A9B",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/pennate_diatom/02_f9649c165f.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_2CA5FEA6-08CE-455E-A6B1-1D4D41278A9B.jpg",
-        "width": "35",
-        "height": "92"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom",
-        "image_id": "5002661B-34AA-4D25-9FA7-E852459DB6BA",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/pennate_diatom/03_9526c57ffe.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_5002661B-34AA-4D25-9FA7-E852459DB6BA.jpg",
-        "width": "26",
-        "height": "113"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom",
-        "image_id": "3FC0CC6C-8342-4AB8-A909-3A788956F107",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/pennate_diatom/04_cd7b59a686.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_3FC0CC6C-8342-4AB8-A909-3A788956F107.jpg",
-        "width": "107",
-        "height": "31"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom",
-        "image_id": "74D0797B-C48E-4819-A49D-D8E86D341D7D",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/pennate_diatom/05_1ae0f4d383.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_74D0797B-C48E-4819-A49D-D8E86D341D7D.jpg",
-        "width": "93",
-        "height": "139"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom",
-        "image_id": "4873B0EC-2132-44F0-85F1-150E28D8EBC5",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/pennate_diatom/06_9f604d7d7f.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_4873B0EC-2132-44F0-85F1-150E28D8EBC5.jpg",
-        "width": "54",
-        "height": "157"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom",
-        "image_id": "A3C91DE3-F9B1-4A50-8908-5591B48FC2B9",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/pennate_diatom/07_7d602be514.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_A3C91DE3-F9B1-4A50-8908-5591B48FC2B9.jpg",
-        "width": "20",
-        "height": "107"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom",
-        "image_id": "7C8DBE0E-7A03-49E8-912F-A1A2A3B73012",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/pennate_diatom/08_571b0975b7.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_7C8DBE0E-7A03-49E8-912F-A1A2A3B73012.jpg",
-        "width": "116",
-        "height": "154"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Pennate Diatom",
-        "image_id": "4DDDFE2B-27CF-49F1-A9CC-AAC7C8DE5FAB",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/pennate_diatom/01_9eabb7c471.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Pennate Diatom/4DDDFE2B-27CF-49F1-A9CC-AAC7C8DE5FAB.png",
-        "width": "123",
-        "height": "96"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Pennate Diatom",
-        "image_id": "88AC0598-5C96-442B-ACFF-58AF49F16073",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/pennate_diatom/02_17b5ac47a0.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Pennate Diatom/88AC0598-5C96-442B-ACFF-58AF49F16073.png",
-        "width": "49",
-        "height": "71"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Pennate Diatom",
-        "image_id": "7841F28A-57A0-47A8-8299-5E1712CD458F",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/pennate_diatom/03_bacbcd6a6e.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Pennate Diatom/7841F28A-57A0-47A8-8299-5E1712CD458F.png",
-        "width": "134",
-        "height": "102"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Pennate Diatom",
-        "image_id": "B56F02A1-06CC-4078-A2A4-0A1E4E9A6934",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/pennate_diatom/04_f0063927a3.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Pennate Diatom/B56F02A1-06CC-4078-A2A4-0A1E4E9A6934.png",
-        "width": "69",
-        "height": "190"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Pennate Diatom",
-        "image_id": "230A6C1F-3190-4594-A828-C40CF1845107",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/pennate_diatom/05_9642e01b4e.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Pennate Diatom/230A6C1F-3190-4594-A828-C40CF1845107.png",
-        "width": "62",
-        "height": "42"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Pennate Diatom",
-        "image_id": "A2870758-F089-49C9-AF7F-E895738A690D",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/pennate_diatom/06_9ba643cdd2.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Pennate Diatom/A2870758-F089-49C9-AF7F-E895738A690D.png",
-        "width": "72",
-        "height": "63"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Pennate Diatom",
-        "image_id": "40C3964F-A006-44F4-9408-D23714A0C651",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/pennate_diatom/07_3a9dff6f43.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Pennate Diatom/40C3964F-A006-44F4-9408-D23714A0C651.png",
-        "width": "138",
-        "height": "50"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Pennate Diatom",
-        "image_id": "E5B43160-1D61-4F55-9633-8248AFA90AAA",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/pennate_diatom/08_122c358acb.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Pennate Diatom/E5B43160-1D61-4F55-9633-8248AFA90AAA.png",
-        "width": "41",
-        "height": "106"
-      }
-    ],
-    "taxonomic_mismatch::pennate diatom colony": [
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom_colony",
-        "image_id": "14C797A6-15F3-4C58-846E-FA317D765150",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/pennate_diatom_colony/01_06b40e5a4b.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_14C797A6-15F3-4C58-846E-FA317D765150.jpg",
-        "width": "74",
-        "height": "73"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom_colony",
-        "image_id": "26FE9C21-474B-448F-AA59-292DE910765F",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/pennate_diatom_colony/02_ba82bdaa6e.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_26FE9C21-474B-448F-AA59-292DE910765F.jpg",
-        "width": "60",
-        "height": "65"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom_colony",
-        "image_id": "960B575C-7B6D-4418-8819-7D3E19A5F8B7",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/pennate_diatom_colony/03_69353573cf.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_960B575C-7B6D-4418-8819-7D3E19A5F8B7.jpg",
-        "width": "78",
-        "height": "74"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom_colony",
-        "image_id": "52A468CE-F110-4FB3-A489-B8C723F88A3A",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/pennate_diatom_colony/04_5ba008fd4b.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_52A468CE-F110-4FB3-A489-B8C723F88A3A.jpg",
-        "width": "67",
-        "height": "65"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom_colony",
-        "image_id": "53F32C8A-7DDE-4464-B70C-C2E27F2C61D1",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/pennate_diatom_colony/05_fc3b4f5f7e.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_53F32C8A-7DDE-4464-B70C-C2E27F2C61D1.jpg",
-        "width": "59",
-        "height": "71"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom_colony",
-        "image_id": "D2CA3754-024D-4972-B2A8-EFF72062DFF6",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/pennate_diatom_colony/06_e651ef4aa1.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_D2CA3754-024D-4972-B2A8-EFF72062DFF6.jpg",
-        "width": "65",
-        "height": "65"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom_colony",
-        "image_id": "6F61DF1F-FC3D-4784-AA50-B90513126486",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/pennate_diatom_colony/07_e6dc28ebe1.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_6F61DF1F-FC3D-4784-AA50-B90513126486.jpg",
-        "width": "57",
-        "height": "50"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Pennate_Diatom_colony",
-        "image_id": "A6E69ED7-0D76-4EAE-9CE1-06B1E01EF8E0",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/pennate_diatom_colony/08_1a4f8d1607.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_A6E69ED7-0D76-4EAE-9CE1-06B1E01EF8E0.jpg",
-        "width": "55",
-        "height": "66"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Pennate Diatom colony",
-        "image_id": "DCF3BB59-B2C2-4C08-8E8C-FEF74028AEC1",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/pennate_diatom_colony/01_058ba1b5f5.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Pennate Diatom colony/DCF3BB59-B2C2-4C08-8E8C-FEF74028AEC1.png",
-        "width": "75",
-        "height": "100"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Pennate Diatom colony",
-        "image_id": "7D135AB6-3815-406F-9454-D008DF3E4ACF",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/pennate_diatom_colony/02_f966110eee.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Pennate Diatom colony/7D135AB6-3815-406F-9454-D008DF3E4ACF.png",
-        "width": "65",
-        "height": "99"
-      }
-    ],
     "taxonomic_mismatch::plagiogrammopsis/bellerochea malleus": [
       {
         "dataset_id": "life_watch",
@@ -19440,80 +18881,6 @@
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Plagiogrammopsis/Bellerochea malleus/E8122757-71EE-47EA-AC30-5CDC8187C20F.png",
         "width": "71",
         "height": "91"
-      }
-    ],
-    "taxonomic_mismatch::stalked epiphytic diatom": [
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Stalked epiphytic diatom",
-        "image_id": "70F5E5AC-B826-44E7-B78F-55C208F7566E",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/stalked_epiphytic_diatom/01_c392c191ca.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stalked epiphytic diatom/70F5E5AC-B826-44E7-B78F-55C208F7566E.png",
-        "width": "138",
-        "height": "277"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Stalked epiphytic diatom",
-        "image_id": "18FBF79B-7B11-4249-9D50-462CCD60628E",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/stalked_epiphytic_diatom/02_7af982fb8e.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stalked epiphytic diatom/18FBF79B-7B11-4249-9D50-462CCD60628E.png",
-        "width": "256",
-        "height": "178"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Stalked epiphytic diatom",
-        "image_id": "091AB636-4FE5-45F8-8874-F3ED4BD5B2C9",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/stalked_epiphytic_diatom/03_cb240f2130.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stalked epiphytic diatom/091AB636-4FE5-45F8-8874-F3ED4BD5B2C9.png",
-        "width": "71",
-        "height": "78"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Stalked epiphytic diatom",
-        "image_id": "64FCBB71-C065-46A0-B5EC-9F948CC4378B",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/stalked_epiphytic_diatom/04_851cc9332b.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stalked epiphytic diatom/64FCBB71-C065-46A0-B5EC-9F948CC4378B.png",
-        "width": "55",
-        "height": "61"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Stalked epiphytic diatom",
-        "image_id": "FF9BCB6F-476F-4ED5-A0EE-B74E82D39A23",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/stalked_epiphytic_diatom/05_755918ec61.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stalked epiphytic diatom/FF9BCB6F-476F-4ED5-A0EE-B74E82D39A23.png",
-        "width": "138",
-        "height": "233"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Stalked epiphytic diatom",
-        "image_id": "027BB9C3-C392-4C8B-8ED2-0A951309FB5D",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/stalked_epiphytic_diatom/06_0a66a2f276.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stalked epiphytic diatom/027BB9C3-C392-4C8B-8ED2-0A951309FB5D.png",
-        "width": "117",
-        "height": "282"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Stalked epiphytic diatom",
-        "image_id": "B54A5D47-3ECE-4BF2-B688-625F73670948",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/stalked_epiphytic_diatom/07_77bb6e6bfe.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stalked epiphytic diatom/B54A5D47-3ECE-4BF2-B688-625F73670948.png",
-        "width": "306",
-        "height": "102"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Stalked epiphytic diatom",
-        "image_id": "AF00C6C2-0618-4EFE-BE2D-993A70919D0A",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/stalked_epiphytic_diatom/08_db01725e76.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stalked epiphytic diatom/AF00C6C2-0618-4EFE-BE2D-993A70919D0A.png",
-        "width": "159",
-        "height": "274"
       }
     ],
     "taxonomic_mismatch::stellarima stellaris/podosira/hyalodiscus": [
@@ -20326,17 +19693,17 @@
     "sample_limit_per_dataset": 8,
     "excluded_valid_tree_overlap_default": false,
     "table_counts": {
-      "non_taxonomic_category": 81,
-      "taxonomic_mismatch": 26
+      "non_taxonomic_category": 83,
+      "taxonomic_mismatch": 20
     },
     "table_image_counts": {
-      "non_taxonomic_category": 3060990,
-      "taxonomic_mismatch": 367401
+      "non_taxonomic_category": 2878203,
+      "taxonomic_mismatch": 127825
     },
-    "evidence_table_total_group_count": 107,
-    "evidence_table_total_image_count": 3428391,
+    "evidence_table_total_group_count": 103,
+    "evidence_table_total_image_count": 3006028,
     "unique_group_count": 89,
-    "total_image_count": 3142394,
+    "total_image_count": 2908068,
     "total_image_count_semantics": "unique_dataset_invalid_group_image_union"
   }
 }

@@ -34,6 +34,7 @@ describe("valid route public data contract", () => {
   const samples = readJson<SampleMap>("class_image_samples.json");
   const lineages = readJson<Record<string, unknown>>("worms_lineages.json");
   const metadata = readJson<DemoDataMetadata>("demo_data_metadata.json");
+  const allowedSpecialTags = new Set(["dwc_record_review", "multiple", "juvenile"]);
 
   it("keeps summary counts aligned with candidate rows and tree placements", () => {
     const selectedIds = new Set<string>();
@@ -122,6 +123,23 @@ describe("valid route public data contract", () => {
     ]) {
       expect(metadata.public_artifacts[name]?.sha256, name).toBe(sha256(name));
     }
+  });
+
+  it("keeps special tags separate from risk flags", () => {
+    let specialTagCount = 0;
+
+    candidates.forEach((candidate) => {
+      const riskFlags = splitCell(candidate.risk_flags);
+      const specialTags = splitCell(candidate.special_tags);
+
+      expect(riskFlags, candidate.entry_id).not.toContain("dwc_record_review");
+      specialTags.forEach((tag) => {
+        expect(allowedSpecialTags.has(tag), `${candidate.entry_id}: ${tag}`).toBe(true);
+        specialTagCount += 1;
+      });
+    });
+
+    expect(specialTagCount).toBeGreaterThan(0);
   });
 });
 

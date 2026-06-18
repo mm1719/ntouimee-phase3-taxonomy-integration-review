@@ -59,6 +59,7 @@ def load_targets() -> list[dict[str, Any]]:
                 "valid_statuses": row["valid_statuses"],
                 "invalid_reasons": row["invalid_reasons"],
                 "risk_flags": row["risk_flags"],
+                "special_tags": row.get("special_tags", "n/a"),
                 "dataset_ids": row["dataset_ids"],
                 "source_labels": row["source_labels"],
             }

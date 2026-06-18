@@ -6363,6 +6363,80 @@
       "height": "140"
     }
   ],
+  "life_watch::Centric_Diatom": [
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Centric_Diatom",
+      "image_id": "ECA19055-DFF9-42CC-AF94-5765FD84DE0F",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Centric_Diatom/01_35ea80d843.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_ECA19055-DFF9-42CC-AF94-5765FD84DE0F.jpg",
+      "width": "74",
+      "height": "72"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Centric_Diatom",
+      "image_id": "446C9990-B8F3-4F51-89E3-82CD6F5B3CEC",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Centric_Diatom/02_6beba1d68c.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_446C9990-B8F3-4F51-89E3-82CD6F5B3CEC.jpg",
+      "width": "72",
+      "height": "73"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Centric_Diatom",
+      "image_id": "C2BAD8F7-3026-480D-8BA1-A37FBCF5B0D6",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Centric_Diatom/03_7c20d3b039.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_C2BAD8F7-3026-480D-8BA1-A37FBCF5B0D6.jpg",
+      "width": "152",
+      "height": "162"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Centric_Diatom",
+      "image_id": "30B12CA9-8EA3-45A8-9BB9-74C3D1BDF888",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Centric_Diatom/04_0f5673bab6.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_30B12CA9-8EA3-45A8-9BB9-74C3D1BDF888.jpg",
+      "width": "69",
+      "height": "68"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Centric_Diatom",
+      "image_id": "7A024606-1207-4042-AB04-EDE6791F15A9",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Centric_Diatom/05_4f3412fc95.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_7A024606-1207-4042-AB04-EDE6791F15A9.jpg",
+      "width": "55",
+      "height": "43"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Centric_Diatom",
+      "image_id": "DABA40A6-A7B6-442C-89FA-47D70F57311F",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Centric_Diatom/06_39242c7ac0.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_DABA40A6-A7B6-442C-89FA-47D70F57311F.jpg",
+      "width": "41",
+      "height": "58"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Centric_Diatom",
+      "image_id": "6D6451B0-39B3-4C26-90DE-20BAEC5D54B1",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Centric_Diatom/07_a039bbb096.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_6D6451B0-39B3-4C26-90DE-20BAEC5D54B1.jpg",
+      "width": "60",
+      "height": "57"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Centric_Diatom",
+      "image_id": "6E84CC4E-8B0D-4662-85D7-B3A2FF5B415E",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Centric_Diatom/08_499013e635.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Centric_Diatom/ecotaxa_Centric_Diatom_6E84CC4E-8B0D-4662-85D7-B3A2FF5B415E.jpg",
+      "width": "71",
+      "height": "70"
+    }
+  ],
   "life_watch::Cerataulus_granulata": [
     {
       "dataset_id": "life_watch",
@@ -8803,6 +8877,154 @@
       "source_ref": "datasets/LifeWatch/data/images/Paralia/ecotaxa_Paralia_95F8A037-3C18-4A9A-BEBA-15A70BD0D6F0.jpg",
       "width": "102",
       "height": "92"
+    }
+  ],
+  "life_watch::Pennate_Diatom": [
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Pennate_Diatom",
+      "image_id": "DB9C54ED-7EFB-44AD-A1FA-F88B893BB149",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Pennate_Diatom/01_ccedb10375.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_DB9C54ED-7EFB-44AD-A1FA-F88B893BB149.jpg",
+      "width": "24",
+      "height": "77"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Pennate_Diatom",
+      "image_id": "2CA5FEA6-08CE-455E-A6B1-1D4D41278A9B",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Pennate_Diatom/02_5b73bfc33a.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_2CA5FEA6-08CE-455E-A6B1-1D4D41278A9B.jpg",
+      "width": "35",
+      "height": "92"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Pennate_Diatom",
+      "image_id": "5002661B-34AA-4D25-9FA7-E852459DB6BA",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Pennate_Diatom/03_e8a0f25a18.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_5002661B-34AA-4D25-9FA7-E852459DB6BA.jpg",
+      "width": "26",
+      "height": "113"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Pennate_Diatom",
+      "image_id": "3FC0CC6C-8342-4AB8-A909-3A788956F107",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Pennate_Diatom/04_7050aeb914.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_3FC0CC6C-8342-4AB8-A909-3A788956F107.jpg",
+      "width": "107",
+      "height": "31"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Pennate_Diatom",
+      "image_id": "74D0797B-C48E-4819-A49D-D8E86D341D7D",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Pennate_Diatom/05_863d781c00.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_74D0797B-C48E-4819-A49D-D8E86D341D7D.jpg",
+      "width": "93",
+      "height": "139"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Pennate_Diatom",
+      "image_id": "4873B0EC-2132-44F0-85F1-150E28D8EBC5",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Pennate_Diatom/06_24d01ab24f.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_4873B0EC-2132-44F0-85F1-150E28D8EBC5.jpg",
+      "width": "54",
+      "height": "157"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Pennate_Diatom",
+      "image_id": "A3C91DE3-F9B1-4A50-8908-5591B48FC2B9",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Pennate_Diatom/07_69c415eec1.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_A3C91DE3-F9B1-4A50-8908-5591B48FC2B9.jpg",
+      "width": "20",
+      "height": "107"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Pennate_Diatom",
+      "image_id": "7C8DBE0E-7A03-49E8-912F-A1A2A3B73012",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Pennate_Diatom/08_204f80b2af.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom/ecotaxa_Pennate_Diatom_7C8DBE0E-7A03-49E8-912F-A1A2A3B73012.jpg",
+      "width": "116",
+      "height": "154"
+    }
+  ],
+  "life_watch::Pennate_Diatom_colony": [
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Pennate_Diatom_colony",
+      "image_id": "14C797A6-15F3-4C58-846E-FA317D765150",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Pennate_Diatom_colony/01_aca9d63d86.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_14C797A6-15F3-4C58-846E-FA317D765150.jpg",
+      "width": "74",
+      "height": "73"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Pennate_Diatom_colony",
+      "image_id": "26FE9C21-474B-448F-AA59-292DE910765F",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Pennate_Diatom_colony/02_dca6fb0076.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_26FE9C21-474B-448F-AA59-292DE910765F.jpg",
+      "width": "60",
+      "height": "65"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Pennate_Diatom_colony",
+      "image_id": "960B575C-7B6D-4418-8819-7D3E19A5F8B7",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Pennate_Diatom_colony/03_f372cbf026.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_960B575C-7B6D-4418-8819-7D3E19A5F8B7.jpg",
+      "width": "78",
+      "height": "74"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Pennate_Diatom_colony",
+      "image_id": "52A468CE-F110-4FB3-A489-B8C723F88A3A",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Pennate_Diatom_colony/04_62409bbc4d.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_52A468CE-F110-4FB3-A489-B8C723F88A3A.jpg",
+      "width": "67",
+      "height": "65"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Pennate_Diatom_colony",
+      "image_id": "53F32C8A-7DDE-4464-B70C-C2E27F2C61D1",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Pennate_Diatom_colony/05_f8d0c0d191.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_53F32C8A-7DDE-4464-B70C-C2E27F2C61D1.jpg",
+      "width": "59",
+      "height": "71"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Pennate_Diatom_colony",
+      "image_id": "D2CA3754-024D-4972-B2A8-EFF72062DFF6",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Pennate_Diatom_colony/06_92bab85820.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_D2CA3754-024D-4972-B2A8-EFF72062DFF6.jpg",
+      "width": "65",
+      "height": "65"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Pennate_Diatom_colony",
+      "image_id": "6F61DF1F-FC3D-4784-AA50-B90513126486",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Pennate_Diatom_colony/07_26e80e0c16.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_6F61DF1F-FC3D-4784-AA50-B90513126486.jpg",
+      "width": "57",
+      "height": "50"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Pennate_Diatom_colony",
+      "image_id": "A6E69ED7-0D76-4EAE-9CE1-06B1E01EF8E0",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Pennate_Diatom_colony/08_9811c4972d.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Pennate_Diatom_colony/ecotaxa_Pennate_Diatom_colony_A6E69ED7-0D76-4EAE-9CE1-06B1E01EF8E0.jpg",
+      "width": "55",
+      "height": "66"
     }
   ],
   "life_watch::Peritrichia": [
@@ -11955,6 +12177,80 @@
       "height": "71"
     }
   ],
+  "life_watch_2026_image_library::Centric Diatom": [
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Centric Diatom",
+      "image_id": "357A5741-805E-4F28-9075-8D67ED2DBB03",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Centric_Diatom/01_ca44fb5f5c.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Centric Diatom/357A5741-805E-4F28-9075-8D67ED2DBB03.png",
+      "width": "70",
+      "height": "75"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Centric Diatom",
+      "image_id": "08D0A960-299B-4708-951A-99F29FA2BA55",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Centric_Diatom/02_e4e8afc213.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Centric Diatom/08D0A960-299B-4708-951A-99F29FA2BA55.png",
+      "width": "89",
+      "height": "93"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Centric Diatom",
+      "image_id": "325DED3B-D537-482C-99B8-9A906A898D83",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Centric_Diatom/03_dfad01d7d3.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Centric Diatom/325DED3B-D537-482C-99B8-9A906A898D83.png",
+      "width": "68",
+      "height": "60"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Centric Diatom",
+      "image_id": "DDA12ED2-AA2C-4F90-A956-5B84DBFA0F2C",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Centric_Diatom/04_5e7a599c81.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Centric Diatom/DDA12ED2-AA2C-4F90-A956-5B84DBFA0F2C.png",
+      "width": "67",
+      "height": "100"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Centric Diatom",
+      "image_id": "F7BDFDEB-5918-4422-9A29-0A518D5590F2",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Centric_Diatom/05_88a6a95577.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Centric Diatom/F7BDFDEB-5918-4422-9A29-0A518D5590F2.png",
+      "width": "70",
+      "height": "70"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Centric Diatom",
+      "image_id": "A24860CF-C710-4FF0-A887-05E4126FF771",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Centric_Diatom/06_e12ce5f3c4.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Centric Diatom/A24860CF-C710-4FF0-A887-05E4126FF771.png",
+      "width": "66",
+      "height": "73"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Centric Diatom",
+      "image_id": "8F2F6F08-18EE-4708-A159-EBB48BB6D128",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Centric_Diatom/07_f260050480.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Centric Diatom/8F2F6F08-18EE-4708-A159-EBB48BB6D128.png",
+      "width": "67",
+      "height": "71"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Centric Diatom",
+      "image_id": "4878CDF6-9CA3-4792-90A6-17C1FE38072F",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Centric_Diatom/08_5338f504f9.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Centric Diatom/4878CDF6-9CA3-4792-90A6-17C1FE38072F.png",
+      "width": "52",
+      "height": "53"
+    }
+  ],
   "life_watch_2026_image_library::Cerataulus granulata": [
     {
       "dataset_id": "life_watch_2026_image_library",
@@ -13034,6 +13330,80 @@
       "height": "41"
     }
   ],
+  "life_watch_2026_image_library::Epiphytic diatom": [
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Epiphytic diatom",
+      "image_id": "38EE95BD-79B2-4D66-BE95-D83A138110B6",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Epiphytic_diatom/01_adcc973bc9.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Epiphytic diatom/38EE95BD-79B2-4D66-BE95-D83A138110B6.png",
+      "width": "110",
+      "height": "84"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Epiphytic diatom",
+      "image_id": "8B40C01F-9884-4DDC-AE31-944E178AA4BD",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Epiphytic_diatom/02_4ad0eaa1d9.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Epiphytic diatom/8B40C01F-9884-4DDC-AE31-944E178AA4BD.png",
+      "width": "91",
+      "height": "87"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Epiphytic diatom",
+      "image_id": "858ECDDE-DD0B-4D99-848F-C9DACAB36302",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Epiphytic_diatom/03_abde49fa82.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Epiphytic diatom/858ECDDE-DD0B-4D99-848F-C9DACAB36302.png",
+      "width": "107",
+      "height": "93"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Epiphytic diatom",
+      "image_id": "EA76C9BF-801C-4532-A1A8-B3C8B9B758F6",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Epiphytic_diatom/04_8c60fb047c.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Epiphytic diatom/EA76C9BF-801C-4532-A1A8-B3C8B9B758F6.png",
+      "width": "110",
+      "height": "96"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Epiphytic diatom",
+      "image_id": "DC110242-A1C1-4F9C-A197-C164F6A53C26",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Epiphytic_diatom/05_6685b9ab85.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Epiphytic diatom/DC110242-A1C1-4F9C-A197-C164F6A53C26.png",
+      "width": "80",
+      "height": "84"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Epiphytic diatom",
+      "image_id": "7022F507-D92D-479F-8407-92228834EC86",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Epiphytic_diatom/06_7aa7ff80f4.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Epiphytic diatom/7022F507-D92D-479F-8407-92228834EC86.png",
+      "width": "78",
+      "height": "96"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Epiphytic diatom",
+      "image_id": "2E028689-239C-4155-A20F-71D5F7CB90A2",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Epiphytic_diatom/07_42f517b1e5.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Epiphytic diatom/2E028689-239C-4155-A20F-71D5F7CB90A2.png",
+      "width": "112",
+      "height": "91"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Epiphytic diatom",
+      "image_id": "94A2C399-6AF6-4E16-91D0-B53F8D308E35",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Epiphytic_diatom/08_af9b06e43a.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Epiphytic diatom/94A2C399-6AF6-4E16-91D0-B53F8D308E35.png",
+      "width": "65",
+      "height": "74"
+    }
+  ],
   "life_watch_2026_image_library::Eucampia": [
     {
       "dataset_id": "life_watch_2026_image_library",
@@ -13731,6 +14101,80 @@
       "height": "66"
     }
   ],
+  "life_watch_2026_image_library::Long (chained) diatom": [
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Long (chained) diatom",
+      "image_id": "C7D1843B-9298-4BA4-AE86-EAFFF8223E41",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Long_chained_diatom/01_87bea2db5e.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/C7D1843B-9298-4BA4-AE86-EAFFF8223E41.png",
+      "width": "35",
+      "height": "132"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Long (chained) diatom",
+      "image_id": "C79BC90A-3AB2-4EE5-AA26-04E2CB63D0D8",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Long_chained_diatom/02_37401ba2ca.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/C79BC90A-3AB2-4EE5-AA26-04E2CB63D0D8.png",
+      "width": "64",
+      "height": "172"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Long (chained) diatom",
+      "image_id": "812A1A99-2ABB-4596-AE26-9207FC2DE531",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Long_chained_diatom/03_7af699bbe8.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/812A1A99-2ABB-4596-AE26-9207FC2DE531.png",
+      "width": "47",
+      "height": "147"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Long (chained) diatom",
+      "image_id": "F8BCB593-9990-4D48-991A-B1934714ACB6",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Long_chained_diatom/04_6cf78f0eb4.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/F8BCB593-9990-4D48-991A-B1934714ACB6.png",
+      "width": "29",
+      "height": "144"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Long (chained) diatom",
+      "image_id": "C0F0E672-6440-49DA-8994-DF44948E19EC",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Long_chained_diatom/05_3d684f7abc.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/C0F0E672-6440-49DA-8994-DF44948E19EC.png",
+      "width": "37",
+      "height": "64"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Long (chained) diatom",
+      "image_id": "940EABCF-084A-45B9-8EBD-53BCA20A772C",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Long_chained_diatom/06_d6edb8ccbe.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/940EABCF-084A-45B9-8EBD-53BCA20A772C.png",
+      "width": "26",
+      "height": "162"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Long (chained) diatom",
+      "image_id": "E8E7E483-6EAA-4A2F-92F0-578B41E5DCD2",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Long_chained_diatom/07_88aa440cd7.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/E8E7E483-6EAA-4A2F-92F0-578B41E5DCD2.png",
+      "width": "37",
+      "height": "137"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Long (chained) diatom",
+      "image_id": "8F215FE1-EE05-413A-BF30-B8CB2B2DB788",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Long_chained_diatom/08_89ae5b4d29.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Long (chained) diatom/8F215FE1-EE05-413A-BF30-B8CB2B2DB788.png",
+      "width": "23",
+      "height": "149"
+    }
+  ],
   "life_watch_2026_image_library::Meuniera membranacea": [
     {
       "dataset_id": "life_watch_2026_image_library",
@@ -14395,6 +14839,100 @@
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Paralia/32E8E033-1F12-49BC-B1D5-EF9FA58ECD82.png",
       "width": "66",
       "height": "126"
+    }
+  ],
+  "life_watch_2026_image_library::Pennate Diatom": [
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Pennate Diatom",
+      "image_id": "4DDDFE2B-27CF-49F1-A9CC-AAC7C8DE5FAB",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Pennate_Diatom/01_e19524f218.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Pennate Diatom/4DDDFE2B-27CF-49F1-A9CC-AAC7C8DE5FAB.png",
+      "width": "123",
+      "height": "96"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Pennate Diatom",
+      "image_id": "88AC0598-5C96-442B-ACFF-58AF49F16073",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Pennate_Diatom/02_5601efa67c.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Pennate Diatom/88AC0598-5C96-442B-ACFF-58AF49F16073.png",
+      "width": "49",
+      "height": "71"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Pennate Diatom",
+      "image_id": "7841F28A-57A0-47A8-8299-5E1712CD458F",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Pennate_Diatom/03_bb57b8d0fc.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Pennate Diatom/7841F28A-57A0-47A8-8299-5E1712CD458F.png",
+      "width": "134",
+      "height": "102"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Pennate Diatom",
+      "image_id": "B56F02A1-06CC-4078-A2A4-0A1E4E9A6934",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Pennate_Diatom/04_432cbec060.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Pennate Diatom/B56F02A1-06CC-4078-A2A4-0A1E4E9A6934.png",
+      "width": "69",
+      "height": "190"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Pennate Diatom",
+      "image_id": "230A6C1F-3190-4594-A828-C40CF1845107",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Pennate_Diatom/05_b8772ea7eb.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Pennate Diatom/230A6C1F-3190-4594-A828-C40CF1845107.png",
+      "width": "62",
+      "height": "42"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Pennate Diatom",
+      "image_id": "A2870758-F089-49C9-AF7F-E895738A690D",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Pennate_Diatom/06_583188269d.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Pennate Diatom/A2870758-F089-49C9-AF7F-E895738A690D.png",
+      "width": "72",
+      "height": "63"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Pennate Diatom",
+      "image_id": "40C3964F-A006-44F4-9408-D23714A0C651",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Pennate_Diatom/07_8177b41682.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Pennate Diatom/40C3964F-A006-44F4-9408-D23714A0C651.png",
+      "width": "138",
+      "height": "50"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Pennate Diatom",
+      "image_id": "E5B43160-1D61-4F55-9633-8248AFA90AAA",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Pennate_Diatom/08_7161bee973.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Pennate Diatom/E5B43160-1D61-4F55-9633-8248AFA90AAA.png",
+      "width": "41",
+      "height": "106"
+    }
+  ],
+  "life_watch_2026_image_library::Pennate Diatom colony": [
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Pennate Diatom colony",
+      "image_id": "DCF3BB59-B2C2-4C08-8E8C-FEF74028AEC1",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Pennate_Diatom_colony/01_493737923b.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Pennate Diatom colony/DCF3BB59-B2C2-4C08-8E8C-FEF74028AEC1.png",
+      "width": "75",
+      "height": "100"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Pennate Diatom colony",
+      "image_id": "7D135AB6-3815-406F-9454-D008DF3E4ACF",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Pennate_Diatom_colony/02_9b2a692e0b.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Pennate Diatom colony/7D135AB6-3815-406F-9454-D008DF3E4ACF.png",
+      "width": "65",
+      "height": "99"
     }
   ],
   "life_watch_2026_image_library::Peritrichia": [
@@ -15406,6 +15944,80 @@
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Skeletonema/67EB0423-F232-4733-B040-3E7A52BBC8E7.png",
       "width": "28",
       "height": "103"
+    }
+  ],
+  "life_watch_2026_image_library::Stalked epiphytic diatom": [
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Stalked epiphytic diatom",
+      "image_id": "70F5E5AC-B826-44E7-B78F-55C208F7566E",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Stalked_epiphytic_diatom/01_a89d385f08.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stalked epiphytic diatom/70F5E5AC-B826-44E7-B78F-55C208F7566E.png",
+      "width": "138",
+      "height": "277"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Stalked epiphytic diatom",
+      "image_id": "18FBF79B-7B11-4249-9D50-462CCD60628E",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Stalked_epiphytic_diatom/02_06021d4c4a.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stalked epiphytic diatom/18FBF79B-7B11-4249-9D50-462CCD60628E.png",
+      "width": "256",
+      "height": "178"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Stalked epiphytic diatom",
+      "image_id": "091AB636-4FE5-45F8-8874-F3ED4BD5B2C9",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Stalked_epiphytic_diatom/03_da2a2ca495.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stalked epiphytic diatom/091AB636-4FE5-45F8-8874-F3ED4BD5B2C9.png",
+      "width": "71",
+      "height": "78"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Stalked epiphytic diatom",
+      "image_id": "64FCBB71-C065-46A0-B5EC-9F948CC4378B",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Stalked_epiphytic_diatom/04_5d0b317087.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stalked epiphytic diatom/64FCBB71-C065-46A0-B5EC-9F948CC4378B.png",
+      "width": "55",
+      "height": "61"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Stalked epiphytic diatom",
+      "image_id": "FF9BCB6F-476F-4ED5-A0EE-B74E82D39A23",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Stalked_epiphytic_diatom/05_20f0634dab.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stalked epiphytic diatom/FF9BCB6F-476F-4ED5-A0EE-B74E82D39A23.png",
+      "width": "138",
+      "height": "233"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Stalked epiphytic diatom",
+      "image_id": "027BB9C3-C392-4C8B-8ED2-0A951309FB5D",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Stalked_epiphytic_diatom/06_ba4a8486d3.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stalked epiphytic diatom/027BB9C3-C392-4C8B-8ED2-0A951309FB5D.png",
+      "width": "117",
+      "height": "282"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Stalked epiphytic diatom",
+      "image_id": "B54A5D47-3ECE-4BF2-B688-625F73670948",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Stalked_epiphytic_diatom/07_acb703d3ca.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stalked epiphytic diatom/B54A5D47-3ECE-4BF2-B688-625F73670948.png",
+      "width": "306",
+      "height": "102"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Stalked epiphytic diatom",
+      "image_id": "AF00C6C2-0618-4EFE-BE2D-993A70919D0A",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Stalked_epiphytic_diatom/08_d8ce7bae8c.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stalked epiphytic diatom/AF00C6C2-0618-4EFE-BE2D-993A70919D0A.png",
+      "width": "159",
+      "height": "274"
     }
   ],
   "life_watch_2026_image_library::Stentor": [
@@ -21736,221 +22348,6 @@
       "height": "126"
     }
   ],
-  "tara_pacific_bongo::part diatom": [
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Bacillariophyta: part diatom",
-      "image_id": "aw_i05_s1_001_r110001872_837",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_part_diatom/01_0d0f5eb2ff.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_837.png",
-      "width": "103",
-      "height": "150"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Bacillariophyta: part diatom",
-      "image_id": "aw_i05_s3_001_r110001183_12148",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_part_diatom/02_8d52d05d90.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s3_001_r110001183/aw_i05_s3_001_r110001183_12148.png",
-      "width": "97",
-      "height": "90"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Bacillariophyta: part diatom",
-      "image_id": "srf_i08_s2_001_r110001518_11633",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_part_diatom/03_18b7f2c907.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i08_s2_001_r110001518/srf_i08_s2_001_r110001518_11633.png",
-      "width": "97",
-      "height": "87"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Bacillariophyta: part diatom",
-      "image_id": "srf_i13_s1_001_r110001355_1297",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_part_diatom/04_200a96de5e.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i13_s1_001_r110001355/srf_i13_s1_001_r110001355_1297.png",
-      "width": "97",
-      "height": "90"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Bacillariophyta: part diatom",
-      "image_id": "srf_i13_s1_001_r110001355_2559",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_part_diatom/05_e2d6c2f881.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i13_s1_001_r110001355/srf_i13_s1_001_r110001355_2559.png",
-      "width": "97",
-      "height": "100"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Bacillariophyta: part diatom",
-      "image_id": "srf_i14_s3_001_r110001294_29661",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_part_diatom/06_dc44ddb5e1.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i14_s3_001_r110001294/srf_i14_s3_001_r110001294_29661.png",
-      "width": "97",
-      "height": "92"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Bacillariophyta: part diatom",
-      "image_id": "srf_i16_s2_001_r110001079_12283",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_part_diatom/07_2d9b1761e1.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i16_s2_001_r110001079/srf_i16_s2_001_r110001079_12283.png",
-      "width": "184",
-      "height": "106"
-    }
-  ],
-  "tara_pacific_bongo::part<Ciliophora": [
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Ciliophora: part<Ciliophora",
-      "image_id": "srf_i09_s1_001_r110001842_5745",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Ciliophora_part_Ciliophora/01_e555a632dc.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_5745.png",
-      "width": "97",
-      "height": "70"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Ciliophora: part<Ciliophora",
-      "image_id": "aw_i05_s1_001_r110001872_1636",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Ciliophora_part_Ciliophora/02_1918d7c26f.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_1636.png",
-      "width": "97",
-      "height": "157"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Ciliophora: part<Ciliophora",
-      "image_id": "srf_i07_s3_001_r110002331_25749",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Ciliophora_part_Ciliophora/03_e7ffba6110.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i07_s3_001_r110002331/srf_i07_s3_001_r110002331_25749.png",
-      "width": "97",
-      "height": "89"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Ciliophora: part<Ciliophora",
-      "image_id": "srf_i12_s3_001_r110001399_14824",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Ciliophora_part_Ciliophora/04_0402effb8a.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i12_s3_001_r110001399/srf_i12_s3_001_r110001399_14824.png",
-      "width": "179",
-      "height": "99"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Ciliophora: part<Ciliophora",
-      "image_id": "srf_i12_s3_001_r110001399_1242",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Ciliophora_part_Ciliophora/05_556eef7dd7.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i12_s3_001_r110001399/srf_i12_s3_001_r110001399_1242.png",
-      "width": "110",
-      "height": "80"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Ciliophora: part<Ciliophora",
-      "image_id": "srf_i15_s3_001_r110001321_690",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Ciliophora_part_Ciliophora/06_0fa7549e1b.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i15_s3_001_r110001321/srf_i15_s3_001_r110001321_690.png",
-      "width": "97",
-      "height": "116"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Ciliophora: part<Ciliophora",
-      "image_id": "srf_i15_s3_001_r110001321_450",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Ciliophora_part_Ciliophora/07_4967471c9b.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i15_s3_001_r110001321/srf_i15_s3_001_r110001321_450.png",
-      "width": "121",
-      "height": "96"
-    }
-  ],
-  "tara_pacific_bongo::part<Copepoda": [
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Copepoda: part<Copepoda",
-      "image_id": "srf_i12_s1_001_r110001234_10176",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Copepoda_part_Copepoda/01_208d02a880.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i12_s1_001_r110001234/srf_i12_s1_001_r110001234_10176.png",
-      "width": "214",
-      "height": "252"
-    }
-  ],
-  "tara_pacific_bongo::part<Crustacea": [
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Crustacea: part<Crustacea",
-      "image_id": "aw_i04_s4_002_r110001920_10022",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Crustacea_part_Crustacea/01_0e5047e815.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_10022.png",
-      "width": "150",
-      "height": "101"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Crustacea: part<Crustacea",
-      "image_id": "aw_i04_s4_002_r110001920_649",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Crustacea_part_Crustacea/02_26e4aa3824.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_649.png",
-      "width": "166",
-      "height": "261"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Crustacea: part<Crustacea",
-      "image_id": "aw_i04_s4_002_r110001920_591",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Crustacea_part_Crustacea/03_040bfa0e44.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_591.png",
-      "width": "97",
-      "height": "112"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Crustacea: part<Crustacea",
-      "image_id": "aw_i04_s4_002_r110001920_832",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Crustacea_part_Crustacea/04_2c32b82e5a.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_832.png",
-      "width": "97",
-      "height": "85"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Crustacea: part<Crustacea",
-      "image_id": "aw_i04_s4_002_r110001920_9183",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Crustacea_part_Crustacea/05_f541bd4c73.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_9183.png",
-      "width": "128",
-      "height": "182"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Crustacea: part<Crustacea",
-      "image_id": "aw_i04_s4_002_r110001920_16129",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Crustacea_part_Crustacea/06_2713bc5e5d.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_16129.png",
-      "width": "127",
-      "height": "361"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Crustacea: part<Crustacea",
-      "image_id": "aw_i04_s4_002_r110001920_10499",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Crustacea_part_Crustacea/07_cedb91bc6f.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_10499.png",
-      "width": "97",
-      "height": "168"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Crustacea: part<Crustacea",
-      "image_id": "aw_i04_s4_002_r110001920_9177",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Crustacea_part_Crustacea/08_e17bd7d105.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_9177.png",
-      "width": "97",
-      "height": "100"
-    }
-  ],
   "tara_pacific_bongo::pennate<Bacillariophyta": [
     {
       "dataset_id": "tara_pacific_bongo",
@@ -22097,80 +22494,6 @@
       "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_21094.png",
       "width": "97",
       "height": "153"
-    }
-  ],
-  "tara_pacific_bongo::spines<Acantharea": [
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Rhizaria: spines<Acantharea",
-      "image_id": "aw_i05_s1_001_r110001872_16293",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Rhizaria_spines_Acantharea/01_8d922c271a.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_16293.png",
-      "width": "97",
-      "height": "115"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Rhizaria: spines<Acantharea",
-      "image_id": "aw_i05_s1_001_r110001872_5117",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Rhizaria_spines_Acantharea/02_4a6c84c634.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_5117.png",
-      "width": "97",
-      "height": "108"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Rhizaria: spines<Acantharea",
-      "image_id": "aw_i05_s3_001_r110001183_246",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Rhizaria_spines_Acantharea/03_b31e7c3cd3.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s3_001_r110001183/aw_i05_s3_001_r110001183_246.png",
-      "width": "97",
-      "height": "92"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Rhizaria: spines<Acantharea",
-      "image_id": "srf_i08_s1_001_r110001508_3697",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Rhizaria_spines_Acantharea/04_0960fc93c9.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i08_s1_001_r110001508/srf_i08_s1_001_r110001508_3697.png",
-      "width": "97",
-      "height": "103"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Rhizaria: spines<Acantharea",
-      "image_id": "srf_i08_s2_001_r110001518_265",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Rhizaria_spines_Acantharea/05_10c3365aa5.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i08_s2_001_r110001518/srf_i08_s2_001_r110001518_265.png",
-      "width": "97",
-      "height": "90"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Rhizaria: spines<Acantharea",
-      "image_id": "srf_i12_s1_001_r110001234_3926",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Rhizaria_spines_Acantharea/06_e986f4f413.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i12_s1_001_r110001234/srf_i12_s1_001_r110001234_3926.png",
-      "width": "97",
-      "height": "94"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Rhizaria: spines<Acantharea",
-      "image_id": "srf_i13_s2_001_r110002420_33617",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Rhizaria_spines_Acantharea/07_471ba96685.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i13_s2_001_r110002420/srf_i13_s2_001_r110002420_33617.png",
-      "width": "100",
-      "height": "96"
-    },
-    {
-      "dataset_id": "tara_pacific_bongo",
-      "label": "Rhizaria: spines<Acantharea",
-      "image_id": "srf_i13_s2_001_r110002420_13287",
-      "thumbnail_url": "/samples/tara_pacific_bongo/Rhizaria_spines_Acantharea/08_f0f3f0d648.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i13_s2_001_r110002420/srf_i13_s2_001_r110002420_13287.png",
-      "width": "104",
-      "height": "125"
     }
   ],
   "tara_pacific_bongo::veliger": [
@@ -28982,127 +29305,6 @@
       "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_3310.png",
       "width": "97",
       "height": "116"
-    }
-  ],
-  "tara_pacific_deck::spines<Acantharea": [
-    {
-      "dataset_id": "tara_pacific_deck",
-      "label": "Rhizaria: spines<Acantharea",
-      "image_id": "oa034_001_g100019601_5453",
-      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharea/01_f8b1ba19bd.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa034_001_g100019601/oa034_001_g100019601_5453.png",
-      "width": "97",
-      "height": "68"
-    },
-    {
-      "dataset_id": "tara_pacific_deck",
-      "label": "Rhizaria: spines<Acantharea",
-      "image_id": "oa034_001_g100019601_26694",
-      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharea/02_289a3d33f0.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa034_001_g100019601/oa034_001_g100019601_26694.png",
-      "width": "97",
-      "height": "71"
-    },
-    {
-      "dataset_id": "tara_pacific_deck",
-      "label": "Rhizaria: spines<Acantharea",
-      "image_id": "oa096_001_g100016058_32383",
-      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharea/03_49d49384ef.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa096_001_g100016058/oa096_001_g100016058_32383.png",
-      "width": "97",
-      "height": "70"
-    },
-    {
-      "dataset_id": "tara_pacific_deck",
-      "label": "Rhizaria: spines<Acantharea",
-      "image_id": "i00_oa139_001_g100014672_14684",
-      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharea/04_ed6a65df2f.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_14684.png",
-      "width": "97",
-      "height": "112"
-    },
-    {
-      "dataset_id": "tara_pacific_deck",
-      "label": "Rhizaria: spines<Acantharea",
-      "image_id": "i00_oa163_001_g100015598_21284",
-      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharea/05_bfaef14e30.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_21284.png",
-      "width": "154",
-      "height": "145"
-    },
-    {
-      "dataset_id": "tara_pacific_deck",
-      "label": "Rhizaria: spines<Acantharea",
-      "image_id": "i04_oa043_001_g100017842_2513",
-      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharea/06_c6170236ca.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i04_oa043_001_g100017842/i04_oa043_001_g100017842_2513.png",
-      "width": "97",
-      "height": "82"
-    },
-    {
-      "dataset_id": "tara_pacific_deck",
-      "label": "Rhizaria: spines<Acantharea",
-      "image_id": "i06_oa055_001_g100018780_3593",
-      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharea/07_6424971593.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i06_oa055_001_g100018780/i06_oa055_001_g100018780_3593.png",
-      "width": "97",
-      "height": "98"
-    },
-    {
-      "dataset_id": "tara_pacific_deck",
-      "label": "Rhizaria: spines<Acantharea",
-      "image_id": "i19_oa142_001_g100014497_5055",
-      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharea/08_2385e92f76.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i19_oa142_001_g100014497/i19_oa142_001_g100014497_5055.png",
-      "width": "126",
-      "height": "92"
-    }
-  ],
-  "tara_pacific_deck::spines<Acantharia": [
-    {
-      "dataset_id": "tara_pacific_deck",
-      "label": "Rhizaria: spines<Acantharia",
-      "image_id": "oa096_001_g100016058_18636",
-      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharia/01_372749c856.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_18636.png",
-      "width": "97",
-      "height": "86"
-    },
-    {
-      "dataset_id": "tara_pacific_deck",
-      "label": "Rhizaria: spines<Acantharia",
-      "image_id": "oa096_001_g100016058_22309",
-      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharia/02_10325e466c.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_22309.png",
-      "width": "97",
-      "height": "106"
-    },
-    {
-      "dataset_id": "tara_pacific_deck",
-      "label": "Rhizaria: spines<Acantharia",
-      "image_id": "oa096_001_g100016058_30448",
-      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharia/03_91d3a9a3d1.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_30448.png",
-      "width": "97",
-      "height": "89"
-    },
-    {
-      "dataset_id": "tara_pacific_deck",
-      "label": "Rhizaria: spines<Acantharia",
-      "image_id": "oa096_001_g100016058_8841",
-      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharia/04_22c2226349.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_8841.png",
-      "width": "99",
-      "height": "125"
-    },
-    {
-      "dataset_id": "tara_pacific_deck",
-      "label": "Rhizaria: spines<Acantharia",
-      "image_id": "oa096_001_g100016058_27614",
-      "thumbnail_url": "/samples/tara_pacific_deck/Rhizaria_spines_Acantharia/05_35da81773d.jpg",
-      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_27614.png",
-      "width": "97",
-      "height": "95"
     }
   ],
   "tara_pacific_deck::veliger": [

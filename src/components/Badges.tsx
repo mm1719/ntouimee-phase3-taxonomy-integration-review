@@ -1,4 +1,4 @@
-import { DATASET_COLORS, DATASET_LABELS, NOTE_LABELS, RISK_LABELS } from "../data/constants";
+import { DATASET_COLORS, DATASET_LABELS, NOTE_LABELS, RISK_LABELS, SPECIAL_TAG_LABELS } from "../data/constants";
 import type { DatasetId } from "../types";
 
 export function DatasetBadge({ id }: { id: DatasetId }) {
@@ -11,6 +11,10 @@ export function DatasetBadge({ id }: { id: DatasetId }) {
 
 export function RiskBadge({ risk }: { risk: string }) {
   return <span className={`risk-badge risk-${risk}`}>{RISK_LABELS[risk] ?? risk}</span>;
+}
+
+export function SpecialTagBadge({ tag }: { tag: string }) {
+  return <span className={`special-tag tag-${tag}`}>{SPECIAL_TAG_LABELS[tag] ?? tag}</span>;
 }
 
 export function NoteBadge({ note }: { note: string }) {

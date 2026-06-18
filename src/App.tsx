@@ -8,7 +8,7 @@ import { MappingStatusReview } from "./components/MappingStatusReview";
 import { RiskPanels } from "./components/RiskPanels";
 import { SamplePage } from "./components/SamplePage";
 import { TaxonomyTree } from "./components/TaxonomyTree";
-import { DATASET_LABELS, DATASETS, RISK_LABELS } from "./data/constants";
+import { DATASET_LABELS, DATASETS, RISK_LABELS, SPECIAL_TAG_LABELS } from "./data/constants";
 import type { Candidate, DatasetId, InvalidLabelData, InvalidLabelGroup, MappingStatusData, SampleMap, TreeNode } from "./types";
 import { parseCsv } from "./utils/csv";
 import { collectRanks, filterTree, normalizeTree, type Filters } from "./utils/tree";
@@ -166,11 +166,15 @@ function App() {
   }
 
   const riskCounts = data.candidates.reduce<Record<string, number>>((acc, candidate) => {
-    candidate.risk_flags.split("|").filter(Boolean).forEach((risk) => {
+    (candidate.risk_flags ?? "").split("|").filter(Boolean).forEach((risk) => {
       acc[risk] = (acc[risk] ?? 0) + 1;
+    });
+    (candidate.special_tags ?? "").split("|").filter(Boolean).forEach((tag) => {
+      acc[tag] = (acc[tag] ?? 0) + 1;
     });
     return acc;
   }, {});
+  const tagAndRiskLabels = { ...SPECIAL_TAG_LABELS, ...RISK_LABELS };
 
   return (
     <div className="app-shell">
@@ -269,15 +273,15 @@ function App() {
             </section>
 
             <section>
-              <h2>Risk filters</h2>
-              {Object.keys(RISK_LABELS).map((risk) => (
+              <h2>Tag / risk filters</h2>
+              {Object.keys(tagAndRiskLabels).map((risk) => (
                 <label className="check-row" key={risk}>
                   <input
                     type="checkbox"
                     checked={risks.has(risk)}
                     onChange={() => toggleRisk(risk)}
                   />
-                  {RISK_LABELS[risk]} ({riskCounts[risk] ?? 0})
+                  {tagAndRiskLabels[risk]} ({riskCounts[risk] ?? 0})
                 </label>
               ))}
             </section>
@@ -363,6 +367,7 @@ function App() {
                   contaminated_sources: candidate.contaminated_sources,
                   lineage_notes: candidate.lineage_notes.split("|").filter(Boolean),
                   risk_flags: candidate.risk_flags.split("|").filter(Boolean),
+                  special_tags: candidate.special_tags.split("|").filter(Boolean),
                   children: []
                 });
               }

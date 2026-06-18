@@ -7,7 +7,7 @@ import {
   type SortingState
 } from "@tanstack/react-table";
 import { useMemo, useState } from "react";
-import { RiskBadge } from "./Badges";
+import { RiskBadge, SpecialTagBadge } from "./Badges";
 import { DATASET_LABELS } from "../data/constants";
 import type { Candidate } from "../types";
 import { splitCell } from "../utils/csv";
@@ -17,14 +17,14 @@ type Props = {
   onSelect: (entryId: string) => void;
 };
 
-type RiskKey =
-  | "dwca_record_review"
+type ReviewKey =
+  | "dwc_record_review"
   | "contaminated"
   | "multiple_valid_aphia_ids"
   | "broad_class";
 
-const RISKS: RiskKey[] = [
-  "dwca_record_review",
+const REVIEW_KEYS: ReviewKey[] = [
+  "dwc_record_review",
   "contaminated",
   "multiple_valid_aphia_ids",
   "broad_class"
@@ -48,7 +48,7 @@ function TextCell({ value }: { value: string }) {
   return value ? <span className="path-text">{value}</span> : <span className="muted">n/a</span>;
 }
 
-function riskColumns(activeRisk: RiskKey) {
+function reviewColumns(activeKey: ReviewKey) {
   const common = [
     helper.display({
       id: "row_id",
@@ -66,7 +66,7 @@ function riskColumns(activeRisk: RiskKey) {
     })
   ];
 
-  if (activeRisk === "dwca_record_review") {
+  if (activeKey === "dwc_record_review") {
     return [
       ...common,
       helper.accessor("selected_aphia_ids", {
@@ -88,7 +88,7 @@ function riskColumns(activeRisk: RiskKey) {
     ];
   }
 
-  if (activeRisk === "contaminated") {
+  if (activeKey === "contaminated") {
     return [
       ...common,
       helper.accessor("selected_aphia_ids", {
@@ -106,7 +106,7 @@ function riskColumns(activeRisk: RiskKey) {
     ];
   }
 
-  if (activeRisk === "multiple_valid_aphia_ids") {
+  if (activeKey === "multiple_valid_aphia_ids") {
     return [
       ...common,
       helper.accessor("selected_aphia_ids", {
@@ -140,15 +140,18 @@ function riskColumns(activeRisk: RiskKey) {
 }
 
 export function RiskPanels({ candidates, onSelect }: Props) {
-  const [activeRisk, setActiveRisk] = useState<RiskKey>("dwca_record_review");
+  const [activeKey, setActiveKey] = useState<ReviewKey>("dwc_record_review");
   const [sorting, setSorting] = useState<SortingState>([]);
 
   const rows = useMemo(
-    () => candidates.filter((row) => splitCell(row.risk_flags).includes(activeRisk)),
-    [activeRisk, candidates]
+    () =>
+      candidates.filter((row) =>
+        [...splitCell(row.risk_flags), ...splitCell(row.special_tags)].includes(activeKey)
+      ),
+    [activeKey, candidates]
   );
 
-  const columns = useMemo(() => riskColumns(activeRisk), [activeRisk]);
+  const columns = useMemo(() => reviewColumns(activeKey), [activeKey]);
 
   const table = useReactTable({
     data: rows,
@@ -164,16 +167,20 @@ export function RiskPanels({ candidates, onSelect }: Props) {
       <div className="panel-header">
         <div>
           <p className="eyebrow">Review</p>
-          <h2>Risk review panels</h2>
+          <h2>Tag & flag review panels</h2>
         </div>
         <div className="segmented">
-          {RISKS.map((risk) => (
+          {REVIEW_KEYS.map((risk) => (
             <button
               key={risk}
-              className={risk === activeRisk ? "active" : ""}
-              onClick={() => setActiveRisk(risk)}
+              className={risk === activeKey ? "active" : ""}
+              onClick={() => setActiveKey(risk)}
             >
-              <RiskBadge risk={risk} />
+              {risk === "dwc_record_review" ? (
+                <SpecialTagBadge tag={risk} />
+              ) : (
+                <RiskBadge risk={risk} />
+              )}
             </button>
           ))}
         </div>
@@ -181,12 +188,13 @@ export function RiskPanels({ candidates, onSelect }: Props) {
 
       <div className="table-wrap dense-table">
         <p className="muted panel-note">
-          {rows.length.toLocaleString()} dataset-class entries require review for this risk.
+          {rows.length.toLocaleString()} dataset-class entries require review for this tag or flag.
         </p>
         {rows.length === 0 ? (
           <div className="empty-state compact-empty">
             <p className="eyebrow">No rows</p>
-            <h3>No candidates currently carry this risk flag</h3>
+            <h3>No candidates currently carry this tag or flag</h3>
+            <p>No candidates currently carry this review tag or flag.</p>
           </div>
         ) : (
           <table>

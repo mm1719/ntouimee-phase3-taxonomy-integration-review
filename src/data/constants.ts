@@ -33,10 +33,15 @@ export const CORE_RANKS = new Set([
 ]);
 
 export const RISK_LABELS: Record<string, string> = {
-  dwca_record_review: "DwC record review",
   contaminated: "Contaminated",
   multiple_valid_aphia_ids: "Multiple AphiaID",
   broad_class: "Broad class"
+};
+
+export const SPECIAL_TAG_LABELS: Record<string, string> = {
+  dwc_record_review: "DwC Record",
+  multiple: "Multiple",
+  juvenile: "Juvenile"
 };
 
 export const NOTE_LABELS: Record<string, string> = {

@@ -29,6 +29,7 @@ export type TreeNode = {
   datasets?: DatasetId[];
   lineage_notes?: string[];
   risk_flags?: string[];
+  special_tags?: string[];
   children?: TreeNode[];
   dataset_colors?: Record<DatasetId, string>;
   dataset_labels?: Record<DatasetId, string>;
@@ -57,6 +58,7 @@ export type Candidate = {
   terminal_ranks: string;
   lineage_notes: string;
   risk_flags: string;
+  special_tags: string;
   contaminated_sources: string;
   validation_statuses: string;
   invalid_statuses: string;
@@ -143,6 +145,7 @@ export type MappingTarget = {
   valid_statuses: string;
   invalid_reasons: string;
   risk_flags: string;
+  special_tags: string;
   dataset_ids: string;
   source_labels: string;
 };

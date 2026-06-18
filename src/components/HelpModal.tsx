@@ -60,17 +60,38 @@ export function HelpModal({ open, onClose }: Props) {
         </div>
 
         <div className="help-section">
-          <h3>Risk flags</h3>
+          <h3>Special tags</h3>
           <dl className="help-list">
             <div>
-              <dt>DwC record review</dt>
+              <dt>DwC Record</dt>
               <dd>
                 Tara Pacific DwC-A <code>scientificNameID</code> exact-matches the
                 label, but the referenced WoRMS record is not accepted or does
-                not have <code>isExtinct=0</code>. The entry remains visible for
-                review, and the record status is shown before integration decisions.
+                not have <code>isExtinct=0</code>. This is a review tag, not a
+                risk flag.
               </dd>
             </div>
+            <div>
+              <dt>Multiple</dt>
+              <dd>
+                The original label contains <code>multiple</code> or
+                <code>colony</code>, suggesting a multi-object or colonial class.
+              </dd>
+            </div>
+            <div>
+              <dt>Juvenile</dt>
+              <dd>
+                The original label contains <code>veliger</code>,
+                <code>larvae</code>, or <code>nauplii</code>, suggesting
+                juvenile or life-stage material.
+              </dd>
+            </div>
+          </dl>
+        </div>
+
+        <div className="help-section">
+          <h3>Risk flags</h3>
+          <dl className="help-list">
             <div>
               <dt>Contaminated</dt>
               <dd>

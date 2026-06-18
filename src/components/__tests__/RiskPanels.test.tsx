@@ -25,6 +25,7 @@ const baseCandidate: Candidate = {
   dwca_review_aphia_ids: "",
   dwca_review_reasons: "",
   worms_record_urls: "",
+  special_tags: "",
   synonym_note: "",
   accepted_name: "",
   accepted_aphia_id: "",
@@ -45,7 +46,7 @@ const candidates: Candidate[] = [
     selected_aphia_ids: "1066",
     selected_aphia_source: "worms_name_assignment",
     terminal_ranks: "Subphylum",
-    risk_flags: "dwca_record_review",
+    special_tags: "dwc_record_review",
     dwca_aphia_ids: "999999",
     dwca_review_aphia_ids: "999999",
     dwca_review_reasons: "999999: isExtinct=1"
@@ -172,10 +173,10 @@ describe("RiskPanels", () => {
 
   it("shows an empty state for a risk with no candidates", async () => {
     const user = userEvent.setup();
-    render(<RiskPanels candidates={candidates.filter((row) => row.risk_flags !== "dwca_record_review")} onSelect={vi.fn()} />);
+    render(<RiskPanels candidates={candidates.filter((row) => row.special_tags !== "dwc_record_review")} onSelect={vi.fn()} />);
 
-    expect(screen.getByText("No candidates currently carry this risk flag")).toBeInTheDocument();
+    expect(screen.getByText("No candidates currently carry this tag or flag")).toBeInTheDocument();
     await user.click(screen.getByRole("button", { name: /Contaminated/ }));
-    expect(screen.queryByText("No candidates currently carry this risk flag")).not.toBeInTheDocument();
+    expect(screen.queryByText("No candidates currently carry this tag or flag")).not.toBeInTheDocument();
   });
 });

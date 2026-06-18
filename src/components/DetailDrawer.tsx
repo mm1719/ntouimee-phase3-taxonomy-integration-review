@@ -1,5 +1,5 @@
 import { X, Images } from "lucide-react";
-import { DatasetBadge, NoteBadge, RiskBadge } from "./Badges";
+import { DatasetBadge, NoteBadge, RiskBadge, SpecialTagBadge } from "./Badges";
 import type { Candidate, ImageSample, InvalidLabelGroup, SampleMap, TreeNode } from "../types";
 import { splitCell } from "../utils/csv";
 
@@ -51,6 +51,10 @@ export function DetailDrawer({
           {datasetBadges.map((dataset) => <DatasetBadge key={dataset} id={dataset} />)}
           {(node.lineage_notes ?? []).map((note) => <NoteBadge key={note} note={note} />)}
           {(node.risk_flags ?? []).map((risk) => <RiskBadge key={risk} risk={risk} />)}
+          {[...new Set([
+            ...(node.special_tags ?? []),
+            ...(candidate ? splitCell(candidate.special_tags) : [])
+          ])].map((tag) => <SpecialTagBadge key={tag} tag={tag} />)}
         </div>
       </div>
 

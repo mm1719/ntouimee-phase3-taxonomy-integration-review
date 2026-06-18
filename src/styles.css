@@ -74,10 +74,14 @@ select { width: 100%; border: 1px solid #cfd5ca; border-radius: 8px; padding: 8p
 .node-dot { flex: 0 0 auto; border-radius: 999px; background: #1f2937; opacity: .72; }
 .node-name { font-weight: 650; }
 .node-meta { color: #687386; font-size: 12px; white-space: nowrap; }
-.badge, .risk-badge, .note-badge, .pill { border-radius: 5px; padding: 2px 6px; font-size: 12px; white-space: nowrap; background: #fff; }
+.badge, .risk-badge, .note-badge, .special-tag, .pill { border-radius: 5px; padding: 2px 6px; font-size: 12px; white-space: nowrap; background: #fff; }
 .badge { border-left: 4px solid; border-top: 1px solid #e5e7eb; border-right: 1px solid #e5e7eb; border-bottom: 1px solid #e5e7eb; }
 .risk-badge { border: 1px solid #d97706; color: #92400e; background: #fff7ed; }
 .risk-broad_class { border-color: #ea580c; color: #9a3412; background: #ffedd5; }
+.special-tag { border: 1px solid #0f766e; color: #115e59; background: #ecfdf5; }
+.tag-multiple { border-color: #0e7490; color: #155e75; background: #ecfeff; }
+.tag-juvenile { border-color: #7c3aed; color: #5b21b6; background: #f5f3ff; }
+.tag-dwc_record_review { border-color: #0f766e; color: #115e59; background: #ccfbf1; }
 .note-badge { border: 1px solid #a3aab6; color: #344054; background: #f8fafc; }
 .pill { border: 1px solid #ccd3ca; background: #f8faf7; }
 .pill-row, .stack { display: flex; flex-wrap: wrap; gap: 6px; }

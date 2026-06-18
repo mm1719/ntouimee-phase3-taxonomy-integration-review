@@ -17,6 +17,7 @@ export function normalizeTree(node: TreeNode): TreeNode {
       entry_count: node.entry_count ?? 1,
       datasets: node.datasets ?? dataset,
       risk_flags: node.risk_flags ?? [],
+      special_tags: node.special_tags ?? [],
       lineage_notes: node.lineage_notes ?? []
     };
   }
@@ -26,6 +27,7 @@ export function normalizeTree(node: TreeNode): TreeNode {
     entry_count: node.entry_count ?? children.reduce((sum, child) => sum + (child.entry_count ?? 0), 0),
     datasets: node.datasets ?? ([...new Set(children.flatMap((child) => child.datasets ?? []))] as DatasetId[]),
     risk_flags: node.risk_flags ?? [...new Set(children.flatMap((child) => child.risk_flags ?? []))],
+    special_tags: node.special_tags ?? [...new Set(children.flatMap((child) => child.special_tags ?? []))],
     lineage_notes: node.lineage_notes ?? [...new Set(children.flatMap((child) => child.lineage_notes ?? []))]
   };
 }
@@ -59,8 +61,8 @@ function leafMatches(node: TreeNode, filters: Filters, ignoreQuery = false): boo
   if (node.type !== "dataset_class") return false;
   if (node.dataset_id && !filters.datasets.has(node.dataset_id)) return false;
   if (filters.risks.size > 0) {
-    const risks = new Set(node.risk_flags ?? []);
-    if (![...filters.risks].some((risk) => risks.has(risk))) return false;
+    const tagsAndRisks = new Set([...(node.risk_flags ?? []), ...(node.special_tags ?? [])]);
+    if (![...filters.risks].some((risk) => tagsAndRisks.has(risk))) return false;
   }
   if (filters.rank && node.rank !== filters.rank) return false;
   if (!ignoreQuery && !queryMatches(nodeText(node), filters)) {
@@ -82,8 +84,9 @@ function mergeNode(node: TreeNode, children: TreeNode[]): TreeNode {
   const entry_count = children.reduce((sum, child) => sum + (child.entry_count ?? 0), 0);
   const datasets = [...new Set(children.flatMap((child) => child.datasets ?? []))] as DatasetId[];
   const risk_flags = [...new Set(children.flatMap((child) => child.risk_flags ?? []))];
+  const special_tags = [...new Set(children.flatMap((child) => child.special_tags ?? []))];
   const lineage_notes = [...new Set(children.flatMap((child) => child.lineage_notes ?? []))];
-  return { ...node, children, image_count, entry_count, datasets, risk_flags, lineage_notes };
+  return { ...node, children, image_count, entry_count, datasets, risk_flags, special_tags, lineage_notes };
 }
 
 export function filterTree(node: TreeNode, filters: Filters, forceDescendants = false): TreeNode[] {

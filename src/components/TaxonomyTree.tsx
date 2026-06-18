@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { ChevronRight } from "lucide-react";
-import { DatasetBadge, NoteBadge, RiskBadge } from "./Badges";
+import { DatasetBadge, NoteBadge, RiskBadge, SpecialTagBadge } from "./Badges";
 import { shouldDefaultOpen } from "../utils/tree";
 import type { TreeNode } from "../types";
 
@@ -74,6 +74,7 @@ export function TaxonomyTree({
       {(node.datasets ?? []).map((dataset) => <DatasetBadge key={dataset} id={dataset} />)}
       {(node.lineage_notes ?? []).map((note) => <NoteBadge key={note} note={note} />)}
       {(node.risk_flags ?? []).map((risk) => <RiskBadge key={risk} risk={risk} />)}
+      {(node.special_tags ?? []).map((tag) => <SpecialTagBadge key={tag} tag={tag} />)}
     </div>
   );
 
@@ -133,6 +134,7 @@ export function TaxonomyTree({
                 <strong>{placement.name}</strong>
                 <em>{placement.image_count.toLocaleString()} images</em>
                 {(placement.risk_flags ?? []).map((risk) => <RiskBadge key={risk} risk={risk} />)}
+                {(placement.special_tags ?? []).map((tag) => <SpecialTagBadge key={tag} tag={tag} />)}
               </button>
             ))}
           </div>

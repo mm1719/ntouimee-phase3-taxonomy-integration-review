@@ -217,12 +217,55 @@ def relative_ref(value: str) -> str:
 def read_invalid_rows() -> list[dict[str, str]]:
     with INVALID_CSV.open("r", encoding="utf-8", newline="") as handle:
         rows = list(csv.DictReader(handle))
-    return [
+    filtered = [
         row
         for row in rows
         if (row["dataset_id"], label_key(row["label"]))
         not in PROMOTED_INVALID_REVIEW_KEYS
     ]
+    existing = {(row["dataset_id"], label_key(row["label"])) for row in filtered}
+    supplemental = load_supplemental_invalid_alias_rows(existing)
+    return filtered + supplemental
+
+
+def load_supplemental_invalid_alias_rows(
+    existing: set[tuple[str, str]]
+) -> list[dict[str, str]]:
+    if not CLEANUP_DECISIONS_CSV.exists():
+        return []
+    rows: list[dict[str, str]] = []
+    with CLEANUP_DECISIONS_CSV.open("r", encoding="utf-8", newline="") as handle:
+        for decision in csv.DictReader(handle):
+            if decision.get("decision_type") != "invalid_alias_group":
+                continue
+            if decision.get("review_status") != "accepted":
+                continue
+            if decision.get("applies_to_demo") != "yes":
+                continue
+            dataset_ids = split_cell(decision.get("dataset_id", ""))
+            source_labels = split_cell(decision.get("source_label", ""))
+            if len(dataset_ids) != 1 or len(source_labels) != 1:
+                continue
+            dataset_id = dataset_ids[0]
+            label = source_labels[0]
+            key = (dataset_id, label_key(label))
+            if key in existing:
+                continue
+            status = decision.get("target_status") or "Non-Taxonomic Category"
+            rows.append(
+                {
+                    "dataset_id": dataset_id,
+                    "label": label,
+                    "row_count": "",
+                    "invalid_statuses": status,
+                    "reasons": decision.get("reason", ""),
+                    "source_example": decision.get("source_example", ""),
+                    "worms_sources": "",
+                    "valid_tree_entry": "no",
+                }
+            )
+            existing.add(key)
+    return rows
 
 
 def reason_matches_status(reason: str, status: str) -> bool:

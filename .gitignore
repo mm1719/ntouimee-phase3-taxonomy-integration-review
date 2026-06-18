@@ -6,3 +6,5 @@ dist/
 npm-debug.log*
 *.tsbuildinfo
 coverage/
+__pycache__/
+*.pyc
