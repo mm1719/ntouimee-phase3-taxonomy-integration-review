@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-19T14:08:04+00:00",
+  "generated_at_utc": "2026-06-19T15:59:06+00:00",
   "demo_app": "demo/taxonomy-integration-review",
   "phase_3_root": "/home/mason/Projects/phase_3",
   "source_studies": [
@@ -18,33 +18,33 @@
   "public_artifacts": {
     "taxonomy_tree.json": {
       "path": "public/data/taxonomy_tree.json",
-      "sha256": "c63196be3b7dbe4ad5c1dcea2faaac4fe2ad1981e9e0b47b13c516512a14cbdc",
-      "bytes": 1215939
+      "sha256": "08c395dd52cb8290e5c7ffcf70c4cbb455faa321418acb4e57fca93b30ede786",
+      "bytes": 1241160
     },
     "valid_class_candidates.csv": {
       "path": "public/data/valid_class_candidates.csv",
-      "sha256": "b630e9693395dccf55833b0848c33d60964e38ce1e91a461a95798ca8217fd1f",
-      "bytes": 1478428
+      "sha256": "8db583c73b03bd6472bd4e52acdf97d3b29593984bc5ffe44175dad344f8d225",
+      "bytes": 1491648
     },
     "class_image_samples.json": {
       "path": "public/data/class_image_samples.json",
-      "sha256": "e38ee35975111fb07ac35c5120e0a5ed62c6195437b16b0ecdf178023c4e9427",
-      "bytes": 1463443
+      "sha256": "e27adad8c21afee530b09f3d0b6004341475dfff2224a56d12428efa4462b67f",
+      "bytes": 1503637
     },
     "invalid_label_groups.json": {
       "path": "public/data/invalid_label_groups.json",
-      "sha256": "ffc302cfcf4d968c1a1baedf66f07b183bc97dcb63f3ebe136369cfb08408b34",
-      "bytes": 675015
+      "sha256": "dc4ec79a603d86acd221458b7897d16dd9309274bc42595528f928c26773b7b7",
+      "bytes": 607003
     },
     "mapping_status.json": {
       "path": "public/data/mapping_status.json",
-      "sha256": "e529e9241dc44dfe217b8080b8e1ba9ead684654cb82a20b9f76a6b89e337ec4",
-      "bytes": 163102
+      "sha256": "9c22d589e2e2ea21c530dbecfb4c59415eda9de4c2c0c760bc3abc50751413f7",
+      "bytes": 230264
     },
     "worms_lineages.json": {
       "path": "public/data/worms_lineages.json",
-      "sha256": "427b25b4354d377b99312340d2e074f66b48d4cac8e5638fcf4f6a680ef494f1",
-      "bytes": 468909
+      "sha256": "ae21b2a531a04c70f942bd448054641fd9eb4b8d437f8484d25897bad01f5746",
+      "bytes": 474322
     }
   },
   "thumbnail_dirs": [

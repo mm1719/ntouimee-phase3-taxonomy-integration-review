@@ -61,35 +61,133 @@
                       "synonym_note": "",
                       "type": "dataset_class",
                       "valid_image_count": 12
+                    },
+                    {
+                      "broad_class": "Polychaeta",
+                      "broad_class_aphia_id": "883",
+                      "broad_class_original_label": "larvae<Polychaeta",
+                      "broad_class_source_file": "studies/label_aphia_inventory/round10_invalid_label_cleanup.csv",
+                      "candidate_image_count": 1,
+                      "children": [],
+                      "dataset_id": "tara_pacific_bongo",
+                      "dataset_label": "Tara Pacific Bongo",
+                      "entry_id": "tara_pacific_bongo::larvae<Polychaeta",
+                      "image_count": 1,
+                      "invalid_image_count": 1,
+                      "lineage_notes": [],
+                      "name": "Polychaeta: larvae<Polychaeta",
+                      "original_label": "larvae<Polychaeta",
+                      "placement_id": "tara_pacific_bongo::larvae<Polychaeta::883::1",
+                      "risk_flags": [
+                        "broad_class"
+                      ],
+                      "selected_aphia_id": "883",
+                      "selected_aphia_image_count": 1,
+                      "selected_aphia_source": "round10_broad_class_mapping",
+                      "special_tags": [
+                        "juvenile"
+                      ],
+                      "synonym_note": "",
+                      "type": "dataset_class",
+                      "valid_image_count": 1
                     }
                   ],
                   "datasets": [
                     "life_watch",
-                    "life_watch_2026_image_library"
+                    "life_watch_2026_image_library",
+                    "tara_pacific_bongo"
                   ],
-                  "entry_count": 2,
-                  "image_count": 273,
+                  "entry_count": 3,
+                  "image_count": 274,
                   "key": "Class::883::Polychaeta",
                   "lineage_notes": [],
                   "name": "Polychaeta",
                   "rank": "Class",
-                  "risk_flags": [],
-                  "special_tags": [],
+                  "risk_flags": [
+                    "broad_class"
+                  ],
+                  "special_tags": [
+                    "juvenile"
+                  ],
                   "type": "taxon"
+                },
+                {
+                  "broad_class": "Annelida",
+                  "broad_class_aphia_id": "882",
+                  "broad_class_original_label": "larvae<Annelida",
+                  "broad_class_source_file": "studies/label_aphia_inventory/round10_invalid_label_cleanup.csv",
+                  "candidate_image_count": 43,
+                  "children": [],
+                  "dataset_id": "tara_pacific_bongo",
+                  "dataset_label": "Tara Pacific Bongo",
+                  "entry_id": "tara_pacific_bongo::larvae<Annelida",
+                  "image_count": 43,
+                  "invalid_image_count": 43,
+                  "lineage_notes": [],
+                  "name": "Annelida: larvae<Annelida",
+                  "original_label": "larvae<Annelida",
+                  "placement_id": "tara_pacific_bongo::larvae<Annelida::882::1",
+                  "risk_flags": [
+                    "broad_class"
+                  ],
+                  "selected_aphia_id": "882",
+                  "selected_aphia_image_count": 43,
+                  "selected_aphia_source": "round10_broad_class_mapping",
+                  "special_tags": [
+                    "juvenile"
+                  ],
+                  "synonym_note": "",
+                  "type": "dataset_class",
+                  "valid_image_count": 43
+                },
+                {
+                  "broad_class": "Annelida",
+                  "broad_class_aphia_id": "882",
+                  "broad_class_original_label": "larvae<Annelida",
+                  "broad_class_source_file": "studies/label_aphia_inventory/round10_invalid_label_cleanup.csv",
+                  "candidate_image_count": 25,
+                  "children": [],
+                  "dataset_id": "tara_pacific_deck",
+                  "dataset_label": "Tara Pacific Deck",
+                  "entry_id": "tara_pacific_deck::larvae<Annelida",
+                  "image_count": 25,
+                  "invalid_image_count": 25,
+                  "lineage_notes": [],
+                  "name": "Annelida: larvae<Annelida",
+                  "original_label": "larvae<Annelida",
+                  "placement_id": "tara_pacific_deck::larvae<Annelida::882::1",
+                  "risk_flags": [
+                    "broad_class"
+                  ],
+                  "selected_aphia_id": "882",
+                  "selected_aphia_image_count": 25,
+                  "selected_aphia_source": "round10_broad_class_mapping",
+                  "special_tags": [
+                    "juvenile"
+                  ],
+                  "synonym_note": "",
+                  "type": "dataset_class",
+                  "valid_image_count": 25
                 }
               ],
               "datasets": [
                 "life_watch",
-                "life_watch_2026_image_library"
+                "life_watch_2026_image_library",
+                "tara_pacific_deck",
+                "tara_pacific_bongo"
               ],
-              "entry_count": 2,
-              "image_count": 273,
+              "entry_count": 5,
+              "image_count": 342,
               "key": "Phylum::882::Annelida",
               "lineage_notes": [],
               "name": "Annelida",
               "rank": "Phylum",
-              "risk_flags": [],
-              "special_tags": [],
+              "risk_flags": [
+                "broad_class"
+              ],
+              "special_tags": [
+                "juvenile"
+              ],
               "type": "taxon"
             },
             {
@@ -822,6 +920,93 @@
                     {
                       "broad_class": "Crustacea",
                       "broad_class_aphia_id": "1066",
+                      "broad_class_original_label": "nauplii",
+                      "broad_class_source_file": "studies/label_aphia_inventory/round10_invalid_label_cleanup.csv",
+                      "candidate_image_count": 5347,
+                      "children": [],
+                      "dataset_id": "flowcam_net",
+                      "dataset_label": "FlowCAMNet",
+                      "entry_id": "flowcam_net::nauplii",
+                      "image_count": 5347,
+                      "invalid_image_count": 5347,
+                      "lineage_notes": [],
+                      "name": "Crustacea: nauplii",
+                      "original_label": "nauplii",
+                      "placement_id": "flowcam_net::nauplii::1066::1",
+                      "risk_flags": [
+                        "broad_class"
+                      ],
+                      "selected_aphia_id": "1066",
+                      "selected_aphia_image_count": 5347,
+                      "selected_aphia_source": "round10_broad_class_mapping",
+                      "special_tags": [
+                        "juvenile"
+                      ],
+                      "synonym_note": "",
+                      "type": "dataset_class",
+                      "valid_image_count": 5347
+                    },
+                    {
+                      "broad_class": "Crustacea",
+                      "broad_class_aphia_id": "1066",
+                      "broad_class_original_label": "Nauplii",
+                      "broad_class_source_file": "studies/label_aphia_inventory/round10_invalid_label_cleanup.csv",
+                      "candidate_image_count": 8768,
+                      "children": [],
+                      "dataset_id": "life_watch",
+                      "dataset_label": "LifeWatch",
+                      "entry_id": "life_watch::Nauplii",
+                      "image_count": 8768,
+                      "invalid_image_count": 8768,
+                      "lineage_notes": [],
+                      "name": "Crustacea: Nauplii",
+                      "original_label": "Nauplii",
+                      "placement_id": "life_watch::Nauplii::1066::1",
+                      "risk_flags": [
+                        "broad_class"
+                      ],
+                      "selected_aphia_id": "1066",
+                      "selected_aphia_image_count": 8768,
+                      "selected_aphia_source": "round10_broad_class_mapping",
+                      "special_tags": [
+                        "juvenile"
+                      ],
+                      "synonym_note": "",
+                      "type": "dataset_class",
+                      "valid_image_count": 8768
+                    },
+                    {
+                      "broad_class": "Crustacea",
+                      "broad_class_aphia_id": "1066",
+                      "broad_class_original_label": "Nauplii",
+                      "broad_class_source_file": "studies/label_aphia_inventory/round10_invalid_label_cleanup.csv",
+                      "candidate_image_count": 4524,
+                      "children": [],
+                      "dataset_id": "life_watch_2026_image_library",
+                      "dataset_label": "LifeWatch 2026",
+                      "entry_id": "life_watch_2026_image_library::Nauplii",
+                      "image_count": 4524,
+                      "invalid_image_count": 4524,
+                      "lineage_notes": [],
+                      "name": "Crustacea: Nauplii",
+                      "original_label": "Nauplii",
+                      "placement_id": "life_watch_2026_image_library::Nauplii::1066::1",
+                      "risk_flags": [
+                        "broad_class"
+                      ],
+                      "selected_aphia_id": "1066",
+                      "selected_aphia_image_count": 4524,
+                      "selected_aphia_source": "round10_broad_class_mapping",
+                      "special_tags": [
+                        "juvenile"
+                      ],
+                      "synonym_note": "",
+                      "type": "dataset_class",
+                      "valid_image_count": 4524
+                    },
+                    {
+                      "broad_class": "Crustacea",
+                      "broad_class_aphia_id": "1066",
                       "broad_class_original_label": "nauplii<Crustacea",
                       "broad_class_source_file": "studies/label_aphia_inventory/round1_invalid_label_cleanup.csv",
                       "candidate_image_count": 2451,
@@ -885,8 +1070,8 @@
                     "tara_pacific_deck",
                     "tara_pacific_bongo"
                   ],
-                  "entry_count": 18,
-                  "image_count": 11449,
+                  "entry_count": 21,
+                  "image_count": 30088,
                   "key": "Subphylum::1066::Crustacea",
                   "lineage_notes": [],
                   "name": "Crustacea",
@@ -908,8 +1093,8 @@
                 "tara_pacific_deck",
                 "tara_pacific_bongo"
               ],
-              "entry_count": 18,
-              "image_count": 11449,
+              "entry_count": 21,
+              "image_count": 30088,
               "key": "Phylum::1065::Arthropoda",
               "lineage_notes": [],
               "name": "Arthropoda",
@@ -1247,19 +1432,82 @@
                   "risk_flags": [],
                   "special_tags": [],
                   "type": "taxon"
+                },
+                {
+                  "broad_class": "Echinodermata",
+                  "broad_class_aphia_id": "1806",
+                  "broad_class_original_label": "larvae<Echinodermata",
+                  "broad_class_source_file": "studies/label_aphia_inventory/round10_invalid_label_cleanup.csv",
+                  "candidate_image_count": 1,
+                  "children": [],
+                  "dataset_id": "tara_pacific_bongo",
+                  "dataset_label": "Tara Pacific Bongo",
+                  "entry_id": "tara_pacific_bongo::larvae<Echinodermata",
+                  "image_count": 1,
+                  "invalid_image_count": 1,
+                  "lineage_notes": [],
+                  "name": "Echinodermata: larvae<Echinodermata",
+                  "original_label": "larvae<Echinodermata",
+                  "placement_id": "tara_pacific_bongo::larvae<Echinodermata::1806::1",
+                  "risk_flags": [
+                    "broad_class"
+                  ],
+                  "selected_aphia_id": "1806",
+                  "selected_aphia_image_count": 1,
+                  "selected_aphia_source": "round10_broad_class_mapping",
+                  "special_tags": [
+                    "juvenile"
+                  ],
+                  "synonym_note": "",
+                  "type": "dataset_class",
+                  "valid_image_count": 1
+                },
+                {
+                  "broad_class": "Echinodermata",
+                  "broad_class_aphia_id": "1806",
+                  "broad_class_original_label": "Ophiuroidea/Echinoidea larvae",
+                  "broad_class_source_file": "studies/label_aphia_inventory/round10_invalid_label_cleanup.csv",
+                  "candidate_image_count": 5,
+                  "children": [],
+                  "dataset_id": "life_watch_2026_image_library",
+                  "dataset_label": "LifeWatch 2026",
+                  "entry_id": "life_watch_2026_image_library::Ophiuroidea/Echinoidea larvae",
+                  "image_count": 5,
+                  "invalid_image_count": 5,
+                  "lineage_notes": [],
+                  "name": "Echinodermata: Ophiuroidea/Echinoidea larvae",
+                  "original_label": "Ophiuroidea/Echinoidea larvae",
+                  "placement_id": "life_watch_2026_image_library::Ophiuroidea/Echinoidea larvae::1806::1",
+                  "risk_flags": [
+                    "broad_class"
+                  ],
+                  "selected_aphia_id": "1806",
+                  "selected_aphia_image_count": 5,
+                  "selected_aphia_source": "round10_broad_class_mapping",
+                  "special_tags": [
+                    "juvenile"
+                  ],
+                  "synonym_note": "",
+                  "type": "dataset_class",
+                  "valid_image_count": 5
                 }
               ],
               "datasets": [
-                "life_watch_2026_image_library"
+                "life_watch_2026_image_library",
+                "tara_pacific_bongo"
               ],
-              "entry_count": 1,
-              "image_count": 6,
+              "entry_count": 3,
+              "image_count": 12,
               "key": "Phylum::1806::Echinodermata",
               "lineage_notes": [],
               "name": "Echinodermata",
               "rank": "Phylum",
-              "risk_flags": [],
-              "special_tags": [],
+              "risk_flags": [
+                "broad_class"
+              ],
+              "special_tags": [
+                "juvenile"
+              ],
               "type": "taxon"
             },
             {
@@ -1422,6 +1670,35 @@
                   "synonym_note": "",
                   "type": "dataset_class",
                   "valid_image_count": 96
+                },
+                {
+                  "broad_class": "Mollusca",
+                  "broad_class_aphia_id": "51",
+                  "broad_class_original_label": "veliger<Mollusca",
+                  "broad_class_source_file": "studies/label_aphia_inventory/round10_invalid_label_cleanup.csv",
+                  "candidate_image_count": 2,
+                  "children": [],
+                  "dataset_id": "tara_pacific_deck",
+                  "dataset_label": "Tara Pacific Deck",
+                  "entry_id": "tara_pacific_deck::veliger<Mollusca",
+                  "image_count": 2,
+                  "invalid_image_count": 2,
+                  "lineage_notes": [],
+                  "name": "Mollusca: veliger<Mollusca",
+                  "original_label": "veliger<Mollusca",
+                  "placement_id": "tara_pacific_deck::veliger<Mollusca::51::1",
+                  "risk_flags": [
+                    "broad_class"
+                  ],
+                  "selected_aphia_id": "51",
+                  "selected_aphia_image_count": 2,
+                  "selected_aphia_source": "round10_broad_class_mapping",
+                  "special_tags": [
+                    "juvenile"
+                  ],
+                  "synonym_note": "",
+                  "type": "dataset_class",
+                  "valid_image_count": 2
                 }
               ],
               "datasets": [
@@ -1430,8 +1707,8 @@
                 "tara_pacific_deck",
                 "tara_pacific_bongo"
               ],
-              "entry_count": 6,
-              "image_count": 1469,
+              "entry_count": 7,
+              "image_count": 1471,
               "key": "Phylum::51::Mollusca",
               "lineage_notes": [],
               "name": "Mollusca",
@@ -1656,8 +1933,8 @@
             "tara_pacific_deck",
             "tara_pacific_bongo"
           ],
-          "entry_count": 40,
-          "image_count": 14534,
+          "entry_count": 49,
+          "image_count": 33250,
           "key": "Kingdom::2::Animalia",
           "lineage_notes": [],
           "name": "Animalia",
@@ -2480,6 +2757,33 @@
                 {
                   "broad_class": "Bacillariophyta",
                   "broad_class_aphia_id": "148898",
+                  "broad_class_original_label": "Chaetoceros inter ciliate",
+                  "broad_class_source_file": "studies/label_aphia_inventory/round10_invalid_label_cleanup.csv",
+                  "candidate_image_count": 57,
+                  "children": [],
+                  "dataset_id": "tara_pacific_bongo",
+                  "dataset_label": "Tara Pacific Bongo",
+                  "entry_id": "tara_pacific_bongo::Chaetoceros inter ciliate",
+                  "image_count": 57,
+                  "invalid_image_count": 57,
+                  "lineage_notes": [],
+                  "name": "Bacillariophyta: Chaetoceros inter ciliate",
+                  "original_label": "Chaetoceros inter ciliate",
+                  "placement_id": "tara_pacific_bongo::Chaetoceros inter ciliate::148898::1",
+                  "risk_flags": [
+                    "broad_class"
+                  ],
+                  "selected_aphia_id": "148898",
+                  "selected_aphia_image_count": 57,
+                  "selected_aphia_source": "round10_broad_class_mapping",
+                  "special_tags": [],
+                  "synonym_note": "",
+                  "type": "dataset_class",
+                  "valid_image_count": 57
+                },
+                {
+                  "broad_class": "Bacillariophyta",
+                  "broad_class_aphia_id": "148898",
                   "broad_class_original_label": "Chaetoceros inter. Calothrix",
                   "broad_class_source_file": "studies/label_aphia_inventory/round1_invalid_label_cleanup.csv",
                   "candidate_image_count": 1,
@@ -2889,6 +3193,33 @@
                 {
                   "broad_class": "Bacillariophyta",
                   "broad_class_aphia_id": "148898",
+                  "broad_class_original_label": "pennate",
+                  "broad_class_source_file": "studies/label_aphia_inventory/round10_invalid_label_cleanup.csv",
+                  "candidate_image_count": 943,
+                  "children": [],
+                  "dataset_id": "flowcam_net",
+                  "dataset_label": "FlowCAMNet",
+                  "entry_id": "flowcam_net::pennate",
+                  "image_count": 943,
+                  "invalid_image_count": 943,
+                  "lineage_notes": [],
+                  "name": "Bacillariophyta: pennate",
+                  "original_label": "pennate",
+                  "placement_id": "flowcam_net::pennate::148898::1",
+                  "risk_flags": [
+                    "broad_class"
+                  ],
+                  "selected_aphia_id": "148898",
+                  "selected_aphia_image_count": 943,
+                  "selected_aphia_source": "round10_broad_class_mapping",
+                  "special_tags": [],
+                  "synonym_note": "",
+                  "type": "dataset_class",
+                  "valid_image_count": 943
+                },
+                {
+                  "broad_class": "Bacillariophyta",
+                  "broad_class_aphia_id": "148898",
                   "broad_class_original_label": "pennate<Bacillariophyta",
                   "broad_class_source_file": "studies/label_aphia_inventory/round1_invalid_label_cleanup.csv",
                   "candidate_image_count": 3679,
@@ -2993,6 +3324,33 @@
                   "synonym_note": "",
                   "type": "dataset_class",
                   "valid_image_count": 2237
+                },
+                {
+                  "broad_class": "Bacillariophyta",
+                  "broad_class_aphia_id": "148898",
+                  "broad_class_original_label": "rhizosolenia inter richelia tmp i",
+                  "broad_class_source_file": "studies/label_aphia_inventory/round10_invalid_label_cleanup.csv",
+                  "candidate_image_count": 502,
+                  "children": [],
+                  "dataset_id": "tara_pacific_bongo",
+                  "dataset_label": "Tara Pacific Bongo",
+                  "entry_id": "tara_pacific_bongo::rhizosolenia inter richelia tmp i",
+                  "image_count": 502,
+                  "invalid_image_count": 502,
+                  "lineage_notes": [],
+                  "name": "Bacillariophyta: rhizosolenia inter richelia tmp i",
+                  "original_label": "rhizosolenia inter richelia tmp i",
+                  "placement_id": "tara_pacific_bongo::rhizosolenia inter richelia tmp i::148898::1",
+                  "risk_flags": [
+                    "broad_class"
+                  ],
+                  "selected_aphia_id": "148898",
+                  "selected_aphia_image_count": 502,
+                  "selected_aphia_source": "round10_broad_class_mapping",
+                  "special_tags": [],
+                  "synonym_note": "",
+                  "type": "dataset_class",
+                  "valid_image_count": 502
                 },
                 {
                   "broad_class": "Bacillariophyta",
@@ -3162,8 +3520,8 @@
                 "tara_pacific_deck",
                 "tara_pacific_bongo"
               ],
-              "entry_count": 28,
-              "image_count": 109147,
+              "entry_count": 31,
+              "image_count": 110649,
               "key": "Phylum::148898::Bacillariophyta",
               "lineage_notes": [],
               "name": "Bacillariophyta",
@@ -17627,18 +17985,48 @@
                                         "dwc_record_review"
                                       ],
                                       "type": "taxon"
+                                    },
+                                    {
+                                      "broad_class": "Dictyochaceae",
+                                      "broad_class_aphia_id": "157257",
+                                      "broad_class_original_label": "Dictyocha/Octactis",
+                                      "broad_class_source_file": "studies/label_aphia_inventory/round10_invalid_label_cleanup.csv",
+                                      "candidate_image_count": 23,
+                                      "children": [],
+                                      "dataset_id": "life_watch_2026_image_library",
+                                      "dataset_label": "LifeWatch 2026",
+                                      "entry_id": "life_watch_2026_image_library::Dictyocha/Octactis",
+                                      "image_count": 23,
+                                      "invalid_image_count": 23,
+                                      "lineage_notes": [],
+                                      "name": "Dictyochaceae: Dictyocha/Octactis",
+                                      "original_label": "Dictyocha/Octactis",
+                                      "placement_id": "life_watch_2026_image_library::Dictyocha/Octactis::157257::1",
+                                      "risk_flags": [
+                                        "broad_class"
+                                      ],
+                                      "selected_aphia_id": "157257",
+                                      "selected_aphia_image_count": 23,
+                                      "selected_aphia_source": "round10_broad_class_mapping",
+                                      "special_tags": [],
+                                      "synonym_note": "",
+                                      "type": "dataset_class",
+                                      "valid_image_count": 23
                                     }
                                   ],
                                   "datasets": [
+                                    "life_watch_2026_image_library",
                                     "tara_pacific_bongo"
                                   ],
-                                  "entry_count": 1,
-                                  "image_count": 14,
+                                  "entry_count": 2,
+                                  "image_count": 37,
                                   "key": "Family::157257::Dictyochaceae",
                                   "lineage_notes": [],
                                   "name": "Dictyochaceae",
                                   "rank": "Family",
-                                  "risk_flags": [],
+                                  "risk_flags": [
+                                    "broad_class"
+                                  ],
                                   "special_tags": [
                                     "dwc_record_review"
                                   ],
@@ -17646,15 +18034,18 @@
                                 }
                               ],
                               "datasets": [
+                                "life_watch_2026_image_library",
                                 "tara_pacific_bongo"
                               ],
-                              "entry_count": 1,
-                              "image_count": 14,
+                              "entry_count": 2,
+                              "image_count": 37,
                               "key": "Order::157256::Dictyochales",
                               "lineage_notes": [],
                               "name": "Dictyochales",
                               "rank": "Order",
-                              "risk_flags": [],
+                              "risk_flags": [
+                                "broad_class"
+                              ],
                               "special_tags": [
                                 "dwc_record_review"
                               ],
@@ -17689,16 +18080,19 @@
                             }
                           ],
                           "datasets": [
+                            "life_watch_2026_image_library",
                             "tara_pacific_deck",
                             "tara_pacific_bongo"
                           ],
-                          "entry_count": 2,
-                          "image_count": 1237,
+                          "entry_count": 3,
+                          "image_count": 1260,
                           "key": "Class::146232::Dictyochophyceae",
                           "lineage_notes": [],
                           "name": "Dictyochophyceae",
                           "rank": "Class",
-                          "risk_flags": [],
+                          "risk_flags": [
+                            "broad_class"
+                          ],
                           "special_tags": [
                             "dwc_record_review"
                           ],
@@ -17706,16 +18100,19 @@
                         }
                       ],
                       "datasets": [
+                        "life_watch_2026_image_library",
                         "tara_pacific_deck",
                         "tara_pacific_bongo"
                       ],
-                      "entry_count": 2,
-                      "image_count": 1237,
+                      "entry_count": 3,
+                      "image_count": 1260,
                       "key": "Phylum::345465::Ochrophyta",
                       "lineage_notes": [],
                       "name": "Ochrophyta",
                       "rank": "Phylum",
-                      "risk_flags": [],
+                      "risk_flags": [
+                        "broad_class"
+                      ],
                       "special_tags": [
                         "dwc_record_review"
                       ],
@@ -17723,16 +18120,19 @@
                     }
                   ],
                   "datasets": [
+                    "life_watch_2026_image_library",
                     "tara_pacific_deck",
                     "tara_pacific_bongo"
                   ],
-                  "entry_count": 2,
-                  "image_count": 1237,
+                  "entry_count": 3,
+                  "image_count": 1260,
                   "key": "Infrakingdom::368898::Heterokonta",
                   "lineage_notes": [],
                   "name": "Heterokonta",
                   "rank": "Infrakingdom",
-                  "risk_flags": [],
+                  "risk_flags": [
+                    "broad_class"
+                  ],
                   "special_tags": [
                     "dwc_record_review"
                   ],
@@ -18682,8 +19082,8 @@
                 "tara_pacific_deck",
                 "tara_pacific_bongo"
               ],
-              "entry_count": 178,
-              "image_count": 117347,
+              "entry_count": 179,
+              "image_count": 117370,
               "key": "Subkingdom::582419::Harosa",
               "lineage_notes": [],
               "name": "Harosa",
@@ -18707,8 +19107,8 @@
             "tara_pacific_bongo",
             "ifremer_srn"
           ],
-          "entry_count": 399,
-          "image_count": 1333895,
+          "entry_count": 403,
+          "image_count": 1335420,
           "key": "Kingdom::7::Chromista",
           "lineage_notes": [],
           "name": "Chromista",
@@ -18878,6 +19278,109 @@
                   "aphia_id": "801",
                   "children": [
                     {
+                      "aphia_id": "1304953",
+                      "children": [
+                        {
+                          "aphia_id": "802",
+                          "children": [
+                            {
+                              "aphia_id": "558965",
+                              "children": [
+                                {
+                                  "aphia_id": "160560",
+                                  "children": [
+                                    {
+                                      "broad_class": "Hydrodictyaceae",
+                                      "broad_class_aphia_id": "160560",
+                                      "broad_class_original_label": "(Pseudo-)pediastrum",
+                                      "broad_class_source_file": "studies/label_aphia_inventory/round10_invalid_label_cleanup.csv",
+                                      "candidate_image_count": 13,
+                                      "children": [],
+                                      "dataset_id": "life_watch_2026_image_library",
+                                      "dataset_label": "LifeWatch 2026",
+                                      "entry_id": "life_watch_2026_image_library::(Pseudo-)pediastrum",
+                                      "image_count": 13,
+                                      "invalid_image_count": 13,
+                                      "lineage_notes": [],
+                                      "name": "Hydrodictyaceae: (Pseudo-)pediastrum",
+                                      "original_label": "(Pseudo-)pediastrum",
+                                      "placement_id": "life_watch_2026_image_library::(Pseudo-)pediastrum::160560::1",
+                                      "risk_flags": [
+                                        "broad_class"
+                                      ],
+                                      "selected_aphia_id": "160560",
+                                      "selected_aphia_image_count": 13,
+                                      "selected_aphia_source": "round10_broad_class_mapping",
+                                      "special_tags": [],
+                                      "synonym_note": "",
+                                      "type": "dataset_class",
+                                      "valid_image_count": 13
+                                    }
+                                  ],
+                                  "datasets": [
+                                    "life_watch_2026_image_library"
+                                  ],
+                                  "entry_count": 1,
+                                  "image_count": 13,
+                                  "key": "Family::160560::Hydrodictyaceae",
+                                  "lineage_notes": [],
+                                  "name": "Hydrodictyaceae",
+                                  "rank": "Family",
+                                  "risk_flags": [
+                                    "broad_class"
+                                  ],
+                                  "special_tags": [],
+                                  "type": "taxon"
+                                }
+                              ],
+                              "datasets": [
+                                "life_watch_2026_image_library"
+                              ],
+                              "entry_count": 1,
+                              "image_count": 13,
+                              "key": "Order::558965::Sphaeropleales",
+                              "lineage_notes": [],
+                              "name": "Sphaeropleales",
+                              "rank": "Order",
+                              "risk_flags": [
+                                "broad_class"
+                              ],
+                              "special_tags": [],
+                              "type": "taxon"
+                            }
+                          ],
+                          "datasets": [
+                            "life_watch_2026_image_library"
+                          ],
+                          "entry_count": 1,
+                          "image_count": 13,
+                          "key": "Class::802::Chlorophyceae",
+                          "lineage_notes": [],
+                          "name": "Chlorophyceae",
+                          "rank": "Class",
+                          "risk_flags": [
+                            "broad_class"
+                          ],
+                          "special_tags": [],
+                          "type": "taxon"
+                        }
+                      ],
+                      "datasets": [
+                        "life_watch_2026_image_library"
+                      ],
+                      "entry_count": 1,
+                      "image_count": 13,
+                      "key": "Subphylum (Subdivision)::1304953::Chlorophytina",
+                      "lineage_notes": [],
+                      "name": "Chlorophytina",
+                      "rank": "Subphylum (Subdivision)",
+                      "risk_flags": [
+                        "broad_class"
+                      ],
+                      "special_tags": [],
+                      "type": "taxon"
+                    },
+                    {
                       "aphia_id": "1648767",
                       "children": [
                         {
@@ -19001,15 +19504,18 @@
                     }
                   ],
                   "datasets": [
+                    "life_watch_2026_image_library",
                     "tara_pacific_deck"
                   ],
-                  "entry_count": 1,
-                  "image_count": 6,
+                  "entry_count": 2,
+                  "image_count": 19,
                   "key": "Phylum (Division)::801::Chlorophyta",
                   "lineage_notes": [],
                   "name": "Chlorophyta",
                   "rank": "Phylum (Division)",
-                  "risk_flags": [],
+                  "risk_flags": [
+                    "broad_class"
+                  ],
                   "special_tags": [
                     "dwc_record_review"
                   ],
@@ -19020,13 +19526,15 @@
                 "life_watch_2026_image_library",
                 "tara_pacific_deck"
               ],
-              "entry_count": 2,
-              "image_count": 7,
+              "entry_count": 3,
+              "image_count": 20,
               "key": "Subkingdom::368663::Viridiplantae",
               "lineage_notes": [],
               "name": "Viridiplantae",
               "rank": "Subkingdom",
-              "risk_flags": [],
+              "risk_flags": [
+                "broad_class"
+              ],
               "special_tags": [
                 "dwc_record_review"
               ],
@@ -19037,13 +19545,15 @@
             "life_watch_2026_image_library",
             "tara_pacific_deck"
           ],
-          "entry_count": 2,
-          "image_count": 7,
+          "entry_count": 3,
+          "image_count": 20,
           "key": "Kingdom::3::Plantae",
           "lineage_notes": [],
           "name": "Plantae",
           "rank": "Kingdom",
-          "risk_flags": [],
+          "risk_flags": [
+            "broad_class"
+          ],
           "special_tags": [
             "dwc_record_review"
           ],
@@ -19151,8 +19661,8 @@
         "tara_pacific_bongo",
         "ifremer_srn"
       ],
-      "entry_count": 457,
-      "image_count": 1447121,
+      "entry_count": 471,
+      "image_count": 1467375,
       "key": "Superdomain::1::Biota",
       "lineage_notes": [],
       "name": "Biota",
@@ -19170,7 +19680,7 @@
       "type": "taxon"
     }
   ],
-  "dataset_class_entry_count": 454,
+  "dataset_class_entry_count": 468,
   "dataset_colors": {
     "flowcam_net": "#16a34a",
     "ifremer_srn": "#0891b2",
@@ -19195,12 +19705,12 @@
     "tara_pacific_bongo",
     "ifremer_srn"
   ],
-  "entry_count": 457,
-  "image_count": 1447121,
+  "entry_count": 471,
+  "image_count": 1467375,
   "lineage_notes": [],
   "name": "WoRMS Taxonomy",
   "placement_weighted_count_policy": "selected_aphia_image_counts_when_available",
-  "placement_weighted_image_count": 1447121,
+  "placement_weighted_image_count": 1467375,
   "rank": "Root",
   "risk_flags": [
     "broad_class",
@@ -19213,6 +19723,6 @@
     "multiple"
   ],
   "type": "root",
-  "unique_candidate_image_count": 1447121,
-  "unique_selected_aphia_id_count": 193
+  "unique_candidate_image_count": 1467375,
+  "unique_selected_aphia_id_count": 197
 }

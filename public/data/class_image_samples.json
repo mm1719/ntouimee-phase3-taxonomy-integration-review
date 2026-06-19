@@ -5031,6 +5031,154 @@
       "height": "632"
     }
   ],
+  "flowcam_net::nauplii": [
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Crustacea: nauplii",
+      "image_id": "165332453",
+      "thumbnail_url": "/samples/flowcam_net/Crustacea_nauplii/01_b1bff273a2.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/nauplii/165332453.png",
+      "width": "217",
+      "height": "306"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Crustacea: nauplii",
+      "image_id": "165330594",
+      "thumbnail_url": "/samples/flowcam_net/Crustacea_nauplii/02_cc1536b5d8.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/nauplii/165330594.png",
+      "width": "70",
+      "height": "107"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Crustacea: nauplii",
+      "image_id": "165328939",
+      "thumbnail_url": "/samples/flowcam_net/Crustacea_nauplii/03_cfcfe07bca.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/nauplii/165328939.png",
+      "width": "125",
+      "height": "116"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Crustacea: nauplii",
+      "image_id": "165325772",
+      "thumbnail_url": "/samples/flowcam_net/Crustacea_nauplii/04_3555f4f1b5.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/nauplii/165325772.png",
+      "width": "91",
+      "height": "97"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Crustacea: nauplii",
+      "image_id": "165048553",
+      "thumbnail_url": "/samples/flowcam_net/Crustacea_nauplii/05_7ef31c697f.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/nauplii/165048553.png",
+      "width": "96",
+      "height": "157"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Crustacea: nauplii",
+      "image_id": "165666793",
+      "thumbnail_url": "/samples/flowcam_net/Crustacea_nauplii/06_269aa5bacc.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/nauplii/165666793.png",
+      "width": "117",
+      "height": "122"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Crustacea: nauplii",
+      "image_id": "165328244",
+      "thumbnail_url": "/samples/flowcam_net/Crustacea_nauplii/07_eb46a050c1.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/nauplii/165328244.png",
+      "width": "86",
+      "height": "101"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Crustacea: nauplii",
+      "image_id": "164930426",
+      "thumbnail_url": "/samples/flowcam_net/Crustacea_nauplii/08_a2065b5cbd.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/nauplii/164930426.png",
+      "width": "207",
+      "height": "229"
+    }
+  ],
+  "flowcam_net::pennate": [
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: pennate",
+      "image_id": "165109809",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_pennate/01_0d1b1fe869.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/pennate/165109809.png",
+      "width": "32",
+      "height": "10"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: pennate",
+      "image_id": "164851316",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_pennate/02_6da19fe25e.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/pennate/164851316.png",
+      "width": "16",
+      "height": "63"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: pennate",
+      "image_id": "165227228",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_pennate/03_b6021c38f6.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/pennate/165227228.png",
+      "width": "14",
+      "height": "51"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: pennate",
+      "image_id": "165109004",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_pennate/04_85cb89f3e0.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/pennate/165109004.png",
+      "width": "22",
+      "height": "27"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: pennate",
+      "image_id": "165227190",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_pennate/05_63a5ee0100.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/pennate/165227190.png",
+      "width": "47",
+      "height": "33"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: pennate",
+      "image_id": "165226777",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_pennate/06_bc7188fb60.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/pennate/165226777.png",
+      "width": "32",
+      "height": "43"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: pennate",
+      "image_id": "165371502",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_pennate/07_69085b9bf7.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/pennate/165371502.png",
+      "width": "30",
+      "height": "54"
+    },
+    {
+      "dataset_id": "flowcam_net",
+      "label": "Bacillariophyta: pennate",
+      "image_id": "165370931",
+      "thumbnail_url": "/samples/flowcam_net/Bacillariophyta_pennate/08_3ce438907a.jpg",
+      "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/pennate/165370931.png",
+      "width": "29",
+      "height": "132"
+    }
+  ],
   "flowcam_net::polar_view": [
     {
       "dataset_id": "flowcam_net",
@@ -8731,6 +8879,80 @@
       "height": "102"
     }
   ],
+  "life_watch::Nauplii": [
+    {
+      "dataset_id": "life_watch",
+      "label": "Crustacea: Nauplii",
+      "image_id": "E09BBB25-1E4A-4AA2-B3BA-60EC26231962",
+      "thumbnail_url": "/samples/life_watch/Crustacea_Nauplii/01_3585343423.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Nauplii/ecotaxa_Nauplii_E09BBB25-1E4A-4AA2-B3BA-60EC26231962.jpg",
+      "width": "202",
+      "height": "99"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Crustacea: Nauplii",
+      "image_id": "4848D206-D270-4074-847C-B03D8F74C15A",
+      "thumbnail_url": "/samples/life_watch/Crustacea_Nauplii/02_990ea7d3bc.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Nauplii/ecotaxa_Nauplii_4848D206-D270-4074-847C-B03D8F74C15A.jpg",
+      "width": "121",
+      "height": "116"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Crustacea: Nauplii",
+      "image_id": "0BA34232-754B-4A3A-84D5-6D8B0F5811EF",
+      "thumbnail_url": "/samples/life_watch/Crustacea_Nauplii/03_d15bde9db1.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Nauplii/ecotaxa_Nauplii_0BA34232-754B-4A3A-84D5-6D8B0F5811EF.jpg",
+      "width": "124",
+      "height": "112"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Crustacea: Nauplii",
+      "image_id": "22B43106-4A2C-4050-A1C0-4DCE6BC1B3EF",
+      "thumbnail_url": "/samples/life_watch/Crustacea_Nauplii/04_d5e7f7d907.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Nauplii/ecotaxa_Nauplii_22B43106-4A2C-4050-A1C0-4DCE6BC1B3EF.jpg",
+      "width": "123",
+      "height": "149"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Crustacea: Nauplii",
+      "image_id": "C4E6F7A8-4C68-43C1-905E-C1FC73A4734A",
+      "thumbnail_url": "/samples/life_watch/Crustacea_Nauplii/05_3f5d4a932f.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Nauplii/ecotaxa_Nauplii_C4E6F7A8-4C68-43C1-905E-C1FC73A4734A.jpg",
+      "width": "123",
+      "height": "124"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Crustacea: Nauplii",
+      "image_id": "C217FEA0-E0EB-4DEE-87DD-CE204446EB04",
+      "thumbnail_url": "/samples/life_watch/Crustacea_Nauplii/06_2a8bec0d3e.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Nauplii/ecotaxa_Nauplii_C217FEA0-E0EB-4DEE-87DD-CE204446EB04.jpg",
+      "width": "150",
+      "height": "248"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Crustacea: Nauplii",
+      "image_id": "54F241FA-EC95-40E1-9E22-C495E1E6B910",
+      "thumbnail_url": "/samples/life_watch/Crustacea_Nauplii/07_72c17e602a.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Nauplii/ecotaxa_Nauplii_54F241FA-EC95-40E1-9E22-C495E1E6B910.jpg",
+      "width": "73",
+      "height": "83"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Crustacea: Nauplii",
+      "image_id": "11F8116C-9485-42C8-852F-BA1B3BA26056",
+      "thumbnail_url": "/samples/life_watch/Crustacea_Nauplii/08_7a6015b466.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Nauplii/ecotaxa_Nauplii_11F8116C-9485-42C8-852F-BA1B3BA26056.jpg",
+      "width": "94",
+      "height": "128"
+    }
+  ],
   "life_watch::Neocalyptrella_robusta": [
     {
       "dataset_id": "life_watch",
@@ -11617,6 +11839,80 @@
       "height": "101"
     }
   ],
+  "life_watch_2026_image_library::(Pseudo-)pediastrum": [
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Hydrodictyaceae: (Pseudo-)pediastrum",
+      "image_id": "230B9E31-A45B-419B-AE67-2D21957298DA",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Hydrodictyaceae_Pseudo-_pediastrum/01_38d37bdf4b.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/(Pseudo-)pediastrum/230B9E31-A45B-419B-AE67-2D21957298DA.png",
+      "width": "68",
+      "height": "74"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Hydrodictyaceae: (Pseudo-)pediastrum",
+      "image_id": "E54684F4-2985-4496-811E-99D564005E34",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Hydrodictyaceae_Pseudo-_pediastrum/02_f862edc3e6.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/(Pseudo-)pediastrum/E54684F4-2985-4496-811E-99D564005E34.png",
+      "width": "72",
+      "height": "49"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Hydrodictyaceae: (Pseudo-)pediastrum",
+      "image_id": "2883C5A5-78C4-4858-9A93-9F9C5FA1B57C",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Hydrodictyaceae_Pseudo-_pediastrum/03_54bea0254a.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/(Pseudo-)pediastrum/2883C5A5-78C4-4858-9A93-9F9C5FA1B57C.png",
+      "width": "72",
+      "height": "66"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Hydrodictyaceae: (Pseudo-)pediastrum",
+      "image_id": "496A116E-DD76-462A-8E53-844602A38715",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Hydrodictyaceae_Pseudo-_pediastrum/04_4f7965184f.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/(Pseudo-)pediastrum/496A116E-DD76-462A-8E53-844602A38715.png",
+      "width": "80",
+      "height": "82"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Hydrodictyaceae: (Pseudo-)pediastrum",
+      "image_id": "986D1FDF-BD9F-46AF-9C0A-7DF423FDDBA2",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Hydrodictyaceae_Pseudo-_pediastrum/05_f2f2b24597.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/(Pseudo-)pediastrum/986D1FDF-BD9F-46AF-9C0A-7DF423FDDBA2.png",
+      "width": "69",
+      "height": "69"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Hydrodictyaceae: (Pseudo-)pediastrum",
+      "image_id": "65F5E930-51DC-4A97-8850-993BDD569344",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Hydrodictyaceae_Pseudo-_pediastrum/06_79edac2acc.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/(Pseudo-)pediastrum/65F5E930-51DC-4A97-8850-993BDD569344.png",
+      "width": "78",
+      "height": "80"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Hydrodictyaceae: (Pseudo-)pediastrum",
+      "image_id": "06F52C0C-D231-4CEF-9400-FD8C9C1E97E9",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Hydrodictyaceae_Pseudo-_pediastrum/07_e80725ff4f.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/(Pseudo-)pediastrum/06F52C0C-D231-4CEF-9400-FD8C9C1E97E9.png",
+      "width": "147",
+      "height": "126"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Hydrodictyaceae: (Pseudo-)pediastrum",
+      "image_id": "55B6F7B9-DAF5-43CC-BD2B-2D97B0B8EFCD",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Hydrodictyaceae_Pseudo-_pediastrum/08_86c69b7e56.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/(Pseudo-)pediastrum/55B6F7B9-DAF5-43CC-BD2B-2D97B0B8EFCD.png",
+      "width": "83",
+      "height": "80"
+    }
+  ],
   "life_watch_2026_image_library::Achnanthes": [
     {
       "dataset_id": "life_watch_2026_image_library",
@@ -13810,6 +14106,80 @@
       "height": "60"
     }
   ],
+  "life_watch_2026_image_library::Dictyocha/Octactis": [
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Dictyochaceae: Dictyocha/Octactis",
+      "image_id": "F645B4CA-A20E-4727-BD88-28F826FC74D8",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Dictyochaceae_Dictyocha_Octactis/01_60b8696ef7.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Dictyocha/Octactis/F645B4CA-A20E-4727-BD88-28F826FC74D8.png",
+      "width": "58",
+      "height": "64"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Dictyochaceae: Dictyocha/Octactis",
+      "image_id": "E62B71A0-1433-4DA9-8DB4-F4235624402D",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Dictyochaceae_Dictyocha_Octactis/02_c5f7bb9413.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Dictyocha/Octactis/E62B71A0-1433-4DA9-8DB4-F4235624402D.png",
+      "width": "65",
+      "height": "53"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Dictyochaceae: Dictyocha/Octactis",
+      "image_id": "00559DF9-4B9C-463E-B77B-75342A5A07E8",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Dictyochaceae_Dictyocha_Octactis/03_d44fc5d7b8.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Dictyocha/Octactis/00559DF9-4B9C-463E-B77B-75342A5A07E8.png",
+      "width": "52",
+      "height": "59"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Dictyochaceae: Dictyocha/Octactis",
+      "image_id": "C32C9DCE-D340-44DA-A12C-4482214D1AC7",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Dictyochaceae_Dictyocha_Octactis/04_0fe10ff838.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Dictyocha/Octactis/C32C9DCE-D340-44DA-A12C-4482214D1AC7.png",
+      "width": "152",
+      "height": "98"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Dictyochaceae: Dictyocha/Octactis",
+      "image_id": "8F61F38D-39BD-47DF-9CED-296EE0188831",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Dictyochaceae_Dictyocha_Octactis/05_7dbff84d05.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Dictyocha/Octactis/8F61F38D-39BD-47DF-9CED-296EE0188831.png",
+      "width": "52",
+      "height": "55"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Dictyochaceae: Dictyocha/Octactis",
+      "image_id": "A4AE90CE-29E9-4A90-8C9A-D624587D0949",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Dictyochaceae_Dictyocha_Octactis/06_8c31705232.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Dictyocha/Octactis/A4AE90CE-29E9-4A90-8C9A-D624587D0949.png",
+      "width": "52",
+      "height": "60"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Dictyochaceae: Dictyocha/Octactis",
+      "image_id": "940F42B6-D3DA-44FC-B2DD-E11274687C2D",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Dictyochaceae_Dictyocha_Octactis/07_a3f71e2b73.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Dictyocha/Octactis/940F42B6-D3DA-44FC-B2DD-E11274687C2D.png",
+      "width": "44",
+      "height": "54"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Dictyochaceae: Dictyocha/Octactis",
+      "image_id": "AD35099D-0200-43E0-A1D7-64B5A95007A3",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Dictyochaceae_Dictyocha_Octactis/08_20638c6c11.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Dictyocha/Octactis/AD35099D-0200-43E0-A1D7-64B5A95007A3.png",
+      "width": "58",
+      "height": "45"
+    }
+  ],
   "life_watch_2026_image_library::Dinoflagellata": [
     {
       "dataset_id": "life_watch_2026_image_library",
@@ -15359,6 +15729,80 @@
       "height": "69"
     }
   ],
+  "life_watch_2026_image_library::Nauplii": [
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Crustacea: Nauplii",
+      "image_id": "4ECF26BD-CF75-4733-81FF-F5D8D106AD59",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Crustacea_Nauplii/01_32a8edacba.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Nauplii/4ECF26BD-CF75-4733-81FF-F5D8D106AD59.png",
+      "width": "110",
+      "height": "141"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Crustacea: Nauplii",
+      "image_id": "35B3A503-93C6-488D-BC92-00C55BB3E1B0",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Crustacea_Nauplii/02_4d7a9fbe23.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Nauplii/35B3A503-93C6-488D-BC92-00C55BB3E1B0.png",
+      "width": "97",
+      "height": "112"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Crustacea: Nauplii",
+      "image_id": "DCBB3F36-1536-47BA-A30D-83D8C214835A",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Crustacea_Nauplii/03_f9689c5204.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Nauplii/DCBB3F36-1536-47BA-A30D-83D8C214835A.png",
+      "width": "175",
+      "height": "181"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Crustacea: Nauplii",
+      "image_id": "3DA3FA15-DC3C-465B-9CA7-BF0263E67DAB",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Crustacea_Nauplii/04_19aa724166.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Nauplii/3DA3FA15-DC3C-465B-9CA7-BF0263E67DAB.png",
+      "width": "144",
+      "height": "196"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Crustacea: Nauplii",
+      "image_id": "B2E4B9BD-06B8-4284-9491-42669C46BAE4",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Crustacea_Nauplii/05_c72c44e1a7.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Nauplii/B2E4B9BD-06B8-4284-9491-42669C46BAE4.png",
+      "width": "132",
+      "height": "157"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Crustacea: Nauplii",
+      "image_id": "51E96286-65EA-429D-B879-E872F880089B",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Crustacea_Nauplii/06_b30d0da2ea.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Nauplii/51E96286-65EA-429D-B879-E872F880089B.png",
+      "width": "109",
+      "height": "120"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Crustacea: Nauplii",
+      "image_id": "014CCEFB-64A0-470B-A9CD-5C5677B450F2",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Crustacea_Nauplii/07_1eaaa21034.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Nauplii/014CCEFB-64A0-470B-A9CD-5C5677B450F2.png",
+      "width": "169",
+      "height": "177"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Crustacea: Nauplii",
+      "image_id": "5B09CBF9-1862-4A5C-9569-F07905307158",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Crustacea_Nauplii/08_81b6c3aed0.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Nauplii/5B09CBF9-1862-4A5C-9569-F07905307158.png",
+      "width": "100",
+      "height": "180"
+    }
+  ],
   "life_watch_2026_image_library::Nematoda": [
     {
       "dataset_id": "life_watch_2026_image_library",
@@ -15727,6 +16171,53 @@
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Odontella rhombus f. trigona/F3EA0DFB-48F7-45AA-862A-1500DA5C33FE.png",
       "width": "66",
       "height": "71"
+    }
+  ],
+  "life_watch_2026_image_library::Ophiuroidea/Echinoidea larvae": [
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Echinodermata: Ophiuroidea/Echinoidea larvae",
+      "image_id": "85B11BDE-43B2-4169-8698-C733CB5E1DB8",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Echinodermata_Ophiuroidea_Echinoidea_larvae/01_a8227d3eeb.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Ophiuroidea/Echinoidea larvae/85B11BDE-43B2-4169-8698-C733CB5E1DB8.png",
+      "width": "187",
+      "height": "312"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Echinodermata: Ophiuroidea/Echinoidea larvae",
+      "image_id": "35553BB5-2A9C-4D4C-915F-AF6B5280EC31",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Echinodermata_Ophiuroidea_Echinoidea_larvae/02_e64b0342ab.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Ophiuroidea/Echinoidea larvae/35553BB5-2A9C-4D4C-915F-AF6B5280EC31.png",
+      "width": "193",
+      "height": "200"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Echinodermata: Ophiuroidea/Echinoidea larvae",
+      "image_id": "6BE8B642-0B7B-4ADE-B7FC-B714081FB518",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Echinodermata_Ophiuroidea_Echinoidea_larvae/03_4ecd73e1ab.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Ophiuroidea/Echinoidea larvae/6BE8B642-0B7B-4ADE-B7FC-B714081FB518.png",
+      "width": "111",
+      "height": "56"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Echinodermata: Ophiuroidea/Echinoidea larvae",
+      "image_id": "6573AD26-6EED-48AB-AC73-C4A8A0242DCA",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Echinodermata_Ophiuroidea_Echinoidea_larvae/04_4182d27293.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Ophiuroidea/Echinoidea larvae/6573AD26-6EED-48AB-AC73-C4A8A0242DCA.png",
+      "width": "102",
+      "height": "143"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Echinodermata: Ophiuroidea/Echinoidea larvae",
+      "image_id": "143605C9-3776-425D-9408-345B5A810C96",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Echinodermata_Ophiuroidea_Echinoidea_larvae/05_d31f29cb08.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Ophiuroidea/Echinoidea larvae/143605C9-3776-425D-9408-345B5A810C96.png",
+      "width": "121",
+      "height": "223"
     }
   ],
   "life_watch_2026_image_library::Paralia": [
@@ -18825,6 +19316,80 @@
       "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i06_s2_001_r110001990/aw_i06_s2_001_r110001990_13308.png",
       "width": "367",
       "height": "349"
+    }
+  ],
+  "tara_pacific_bongo::Chaetoceros inter ciliate": [
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: Chaetoceros inter ciliate",
+      "image_id": "aw_i04_s4_002_r110001920_15003",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_Chaetoceros_inter_ciliate/01_15e1e06fac.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_15003.png",
+      "width": "121",
+      "height": "135"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: Chaetoceros inter ciliate",
+      "image_id": "aw_i06_s1_001_r110002498_23548",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_Chaetoceros_inter_ciliate/02_5b6a283806.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i06_s1_001_r110002498/aw_i06_s1_001_r110002498_23548.png",
+      "width": "140",
+      "height": "99"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: Chaetoceros inter ciliate",
+      "image_id": "srf_i10_s3_001_r110001882_8734",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_Chaetoceros_inter_ciliate/03_4093155bf3.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i10_s3_001_r110001882/srf_i10_s3_001_r110001882_8734.png",
+      "width": "160",
+      "height": "149"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: Chaetoceros inter ciliate",
+      "image_id": "srf_i12_s1_001_r110001234_10229",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_Chaetoceros_inter_ciliate/04_de37a0fa1a.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i12_s1_001_r110001234/srf_i12_s1_001_r110001234_10229.png",
+      "width": "148",
+      "height": "71"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: Chaetoceros inter ciliate",
+      "image_id": "srf_i12_s2_001_r110001436_9226",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_Chaetoceros_inter_ciliate/05_5b8b87270c.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i12_s2_001_r110001436/srf_i12_s2_001_r110001436_9226.png",
+      "width": "184",
+      "height": "147"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: Chaetoceros inter ciliate",
+      "image_id": "srf_i12_s2_001_r110001436_9737",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_Chaetoceros_inter_ciliate/06_ca2fa85ad5.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i12_s2_001_r110001436/srf_i12_s2_001_r110001436_9737.png",
+      "width": "175",
+      "height": "167"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: Chaetoceros inter ciliate",
+      "image_id": "srf_i12_s3_001_r110001399_16127",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_Chaetoceros_inter_ciliate/07_b2297e9812.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i12_s3_001_r110001399/srf_i12_s3_001_r110001399_16127.png",
+      "width": "110",
+      "height": "157"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: Chaetoceros inter ciliate",
+      "image_id": "srf_i12_s3_001_r110001399_9324",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_Chaetoceros_inter_ciliate/08_0dd4b5a42f.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i12_s3_001_r110001399/srf_i12_s3_001_r110001399_9324.png",
+      "width": "97",
+      "height": "130"
     }
   ],
   "tara_pacific_bongo::Chaetoceros inter. Calothrix": [
@@ -23680,6 +24245,102 @@
       "height": "61"
     }
   ],
+  "tara_pacific_bongo::larvae<Annelida": [
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Annelida: larvae<Annelida",
+      "image_id": "aw_i05_s1_001_r110001872_7370",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Annelida_larvae_Annelida/01_9a0d49a8bb.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_7370.png",
+      "width": "330",
+      "height": "279"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Annelida: larvae<Annelida",
+      "image_id": "aw_i05_s2_001_r110001244_3617",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Annelida_larvae_Annelida/02_0596912cd6.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s2_001_r110001244/aw_i05_s2_001_r110001244_3617.png",
+      "width": "373",
+      "height": "317"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Annelida: larvae<Annelida",
+      "image_id": "aw_i06_s1_001_r110002498_20131",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Annelida_larvae_Annelida/03_b5ff0c96ea.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i06_s1_001_r110002498/aw_i06_s1_001_r110002498_20131.png",
+      "width": "155",
+      "height": "207"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Annelida: larvae<Annelida",
+      "image_id": "aw_i06_s1_001_r110002498_7415",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Annelida_larvae_Annelida/04_5e33ba74dc.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i06_s1_001_r110002498/aw_i06_s1_001_r110002498_7415.png",
+      "width": "205",
+      "height": "207"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Annelida: larvae<Annelida",
+      "image_id": "aw_i06_s1_001_r110002498_27033",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Annelida_larvae_Annelida/05_2b92c3bb7d.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i06_s1_001_r110002498/aw_i06_s1_001_r110002498_27033.png",
+      "width": "188",
+      "height": "171"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Annelida: larvae<Annelida",
+      "image_id": "aw_i06_s2_001_r110001990_15784",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Annelida_larvae_Annelida/06_ea7c418c03.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i06_s2_001_r110001990/aw_i06_s2_001_r110001990_15784.png",
+      "width": "181",
+      "height": "209"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Annelida: larvae<Annelida",
+      "image_id": "i04_s1_001_r110001775_2303",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Annelida_larvae_Annelida/07_052605a428.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/i04_s1_001_r110001775/i04_s1_001_r110001775_2303.png",
+      "width": "185",
+      "height": "209"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Annelida: larvae<Annelida",
+      "image_id": "i04_s1_001_r110001775_9738",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Annelida_larvae_Annelida/08_6fbda75f03.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/i04_s1_001_r110001775/i04_s1_001_r110001775_9738.png",
+      "width": "118",
+      "height": "349"
+    }
+  ],
+  "tara_pacific_bongo::larvae<Echinodermata": [
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Echinodermata: larvae<Echinodermata",
+      "image_id": "i04_s1_001_r110001775_951",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Echinodermata_larvae_Echinodermata/01_0b8f11b50a.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/i04_s1_001_r110001775/i04_s1_001_r110001775_951.png",
+      "width": "127",
+      "height": "220"
+    }
+  ],
+  "tara_pacific_bongo::larvae<Polychaeta": [
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Polychaeta: larvae<Polychaeta",
+      "image_id": "srf_i09_s1_001_r110001842_6472",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Polychaeta_larvae_Polychaeta/01_d9af83fba5.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_6472.png",
+      "width": "175",
+      "height": "252"
+    }
+  ],
   "tara_pacific_bongo::multiple<Diatoma": [
     {
       "dataset_id": "tara_pacific_bongo",
@@ -23900,6 +24561,80 @@
       "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_10415.png",
       "width": "97",
       "height": "67"
+    }
+  ],
+  "tara_pacific_bongo::rhizosolenia inter richelia tmp i": [
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: rhizosolenia inter richelia tmp i",
+      "image_id": "srf_i09_s1_001_r110001842_9373",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_rhizosolenia_inter_richelia_tmp_i/01_e459f0a0a9.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_9373.png",
+      "width": "97",
+      "height": "104"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: rhizosolenia inter richelia tmp i",
+      "image_id": "srf_i09_s1_001_r110001842_1319",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_rhizosolenia_inter_richelia_tmp_i/02_74c79f03e6.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_1319.png",
+      "width": "97",
+      "height": "81"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: rhizosolenia inter richelia tmp i",
+      "image_id": "srf_i09_s1_001_r110001842_20488",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_rhizosolenia_inter_richelia_tmp_i/03_d2ab8738b3.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_20488.png",
+      "width": "97",
+      "height": "98"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: rhizosolenia inter richelia tmp i",
+      "image_id": "srf_i09_s1_001_r110001842_15331",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_rhizosolenia_inter_richelia_tmp_i/04_90790ad129.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_15331.png",
+      "width": "97",
+      "height": "82"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: rhizosolenia inter richelia tmp i",
+      "image_id": "srf_i09_s1_001_r110001842_21813",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_rhizosolenia_inter_richelia_tmp_i/05_b6527f3c37.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_21813.png",
+      "width": "97",
+      "height": "94"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: rhizosolenia inter richelia tmp i",
+      "image_id": "srf_i09_s1_001_r110001842_14051",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_rhizosolenia_inter_richelia_tmp_i/06_0ceed96790.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_14051.png",
+      "width": "97",
+      "height": "75"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: rhizosolenia inter richelia tmp i",
+      "image_id": "srf_i09_s1_001_r110001842_20253",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_rhizosolenia_inter_richelia_tmp_i/07_0a88dcddb6.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_20253.png",
+      "width": "97",
+      "height": "122"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Bacillariophyta: rhizosolenia inter richelia tmp i",
+      "image_id": "srf_i09_s1_001_r110001842_22090",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Bacillariophyta_rhizosolenia_inter_richelia_tmp_i/08_06354c7166.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_22090.png",
+      "width": "97",
+      "height": "140"
     }
   ],
   "tara_pacific_bongo::rhizosolenia tmp i": [
@@ -31309,6 +32044,80 @@
       "height": "56"
     }
   ],
+  "tara_pacific_deck::larvae<Annelida": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Annelida: larvae<Annelida",
+      "image_id": "i06_oa055_001_g100018780_4663",
+      "thumbnail_url": "/samples/tara_pacific_deck/Annelida_larvae_Annelida/01_5a38f81eee.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i06_oa055_001_g100018780/i06_oa055_001_g100018780_4663.png",
+      "width": "102",
+      "height": "163"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Annelida: larvae<Annelida",
+      "image_id": "i12_oa076_002_g100015894_433",
+      "thumbnail_url": "/samples/tara_pacific_deck/Annelida_larvae_Annelida/02_7ccc4fad66.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i12_oa076_002_g100015894/i12_oa076_002_g100015894_433.png",
+      "width": "141",
+      "height": "185"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Annelida: larvae<Annelida",
+      "image_id": "i13_oa082_001_g100015985_1328",
+      "thumbnail_url": "/samples/tara_pacific_deck/Annelida_larvae_Annelida/03_9746397fb8.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i13_oa082_001_g100015985/i13_oa082_001_g100015985_1328.png",
+      "width": "293",
+      "height": "207"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Annelida: larvae<Annelida",
+      "image_id": "i19_oa142_001_g100014497_6251",
+      "thumbnail_url": "/samples/tara_pacific_deck/Annelida_larvae_Annelida/04_571f6f076f.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i19_oa142_001_g100014497/i19_oa142_001_g100014497_6251.png",
+      "width": "162",
+      "height": "310"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Annelida: larvae<Annelida",
+      "image_id": "i19_oa142_001_g100014497_4033",
+      "thumbnail_url": "/samples/tara_pacific_deck/Annelida_larvae_Annelida/05_2a675b6f15.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i19_oa142_001_g100014497/i19_oa142_001_g100014497_4033.png",
+      "width": "195",
+      "height": "219"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Annelida: larvae<Annelida",
+      "image_id": "i21_oa149_001_g100014891_4230",
+      "thumbnail_url": "/samples/tara_pacific_deck/Annelida_larvae_Annelida/06_3eb8344a9e.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i21_oa149_001_g100014891/i21_oa149_001_g100014891_4230.png",
+      "width": "181",
+      "height": "197"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Annelida: larvae<Annelida",
+      "image_id": "i21_oa149_001_g100014891_528",
+      "thumbnail_url": "/samples/tara_pacific_deck/Annelida_larvae_Annelida/07_95b89eff42.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i21_oa149_001_g100014891/i21_oa149_001_g100014891_528.png",
+      "width": "141",
+      "height": "153"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Annelida: larvae<Annelida",
+      "image_id": "i21_oa149_001_g100014891_13540",
+      "thumbnail_url": "/samples/tara_pacific_deck/Annelida_larvae_Annelida/08_49b2b13ca2.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i21_oa149_001_g100014891/i21_oa149_001_g100014891_13540.png",
+      "width": "124",
+      "height": "158"
+    }
+  ],
   "tara_pacific_deck::multiple<Diatoma": [
     {
       "dataset_id": "tara_pacific_deck",
@@ -31677,6 +32486,26 @@
       "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i13_oa080_001_g100015963/i13_oa080_001_g100015963_7270.png",
       "width": "97",
       "height": "129"
+    }
+  ],
+  "tara_pacific_deck::veliger<Mollusca": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Mollusca: veliger<Mollusca",
+      "image_id": "oa096_001_g100016058_2853",
+      "thumbnail_url": "/samples/tara_pacific_deck/Mollusca_veliger_Mollusca/01_4bf1a65571.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_2853.png",
+      "width": "110",
+      "height": "112"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Mollusca: veliger<Mollusca",
+      "image_id": "oa096_001_g100016058_25473",
+      "thumbnail_url": "/samples/tara_pacific_deck/Mollusca_veliger_Mollusca/02_0f02c6ddd4.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_25473.png",
+      "width": "119",
+      "height": "131"
     }
   ]
 }

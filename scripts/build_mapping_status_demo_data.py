@@ -18,6 +18,7 @@ ML_READY_DIR = ROOT / "derived/ml_ready"
 TARGET_PROFILES = ML_READY_DIR / "target_profiles.csv"
 HISTORY_DIR = ML_READY_DIR / "mapping_history"
 OUT_JSON = DEMO_ROOT / "public/data/mapping_status.json"
+PREFERRED_LATEST_HISTORY_TOKEN = "formal_mapping_status"
 
 EXPORT_FIELDS = [
     "action",
@@ -175,6 +176,17 @@ def load_history(path: Path, targets: list[dict[str, Any]]) -> dict[str, Any]:
     }
 
 
+def select_latest_history(histories: list[dict[str, Any]]) -> str:
+    if not histories:
+        return ""
+    formal_histories = [
+        history
+        for history in histories
+        if PREFERRED_LATEST_HISTORY_TOKEN in str(history["file_name"])
+    ]
+    return (formal_histories or histories)[-1]["history_id"]
+
+
 def main() -> int:
     HISTORY_DIR.mkdir(parents=True, exist_ok=True)
     targets = load_targets()
@@ -187,7 +199,7 @@ def main() -> int:
         "export_fields": EXPORT_FIELDS,
         "target_count": len(targets),
         "targets": targets,
-        "latest_history_id": histories[-1]["history_id"] if histories else "",
+        "latest_history_id": select_latest_history(histories),
         "histories": histories,
     }
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
