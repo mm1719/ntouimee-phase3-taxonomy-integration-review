@@ -32,7 +32,7 @@ const tree = {
           entry_count: 1,
           datasets: ["tara_pacific_deck"],
           risk_flags: ["broad_class"],
-          lineage_notes: ["intermediate_rank"],
+          lineage_notes: [],
           children: [
             {
               type: "dataset_class",
@@ -52,7 +52,7 @@ const tree = {
               image_count: 10,
               entry_count: 1,
               risk_flags: ["broad_class"],
-              lineage_notes: ["intermediate_rank"],
+              lineage_notes: [],
               children: []
             }
           ]
@@ -138,7 +138,7 @@ const tree = {
 
 const candidatesCsv = [
   "entry_id,dataset_id,label,original_label,image_count,selected_aphia_ids,selected_aphia_image_counts,selected_aphia_source,valid_image_count,invalid_image_count,terminal_worms_names,terminal_ranks,lineage_notes,risk_flags,special_tags,contaminated_sources,validation_statuses,invalid_statuses,worms_aphia_ids,dwca_aphia_ids,worms_record_urls,synonym_note,accepted_name,accepted_aphia_id,broad_class,broad_class_original_label,broad_class_aphia_id,broad_class_source_file,source_example",
-  "tara_pacific_deck::Crustacea broad,tara_pacific_deck,Crustacea broad,Crustacea broad,10,1066,10,round2_broad_class_mapping,10,0,Crustacea,Subphylum,intermediate_rank,broad_class,,,Invalid,Non-Taxonomic Category,1066,,https://www.marinespecies.org/aphia.php?p=taxdetails&id=1066,,,,Crustacea,Crustacea broad,1066,studies/label_aphia_inventory/round2_invalid_label_cleanup.csv,deck.tsv",
+  "tara_pacific_deck::Crustacea broad,tara_pacific_deck,Crustacea broad,Crustacea broad,10,1066,10,round2_broad_class_mapping,10,0,Crustacea,Subphylum,,broad_class,,,Invalid,Non-Taxonomic Category,1066,,https://www.marinespecies.org/aphia.php?p=taxdetails&id=1066,,,,Crustacea,Crustacea broad,1066,studies/label_aphia_inventory/round2_invalid_label_cleanup.csv,deck.tsv",
   "flowcam_net::Copepoda,flowcam_net,Copepoda,Copepoda,5,1080,5,worms_name_assignment,5,0,Copepoda,Class,,,,,Valid,,1080,,https://www.marinespecies.org/aphia.php?p=taxdetails&id=1080,,,,,,,,flowcam.csv",
   "life_watch::Tripos,life_watch,Tripos,Tripos,600,109485,600,local_aphia_id_validation,600,600,Tripos,Genus,,contaminated,,Taxonomic Mismatch: 1 -> wrong taxon,Valid,Taxonomic Mismatch,109485,,https://www.marinespecies.org/aphia.php?p=taxdetails&id=109485,,,,,,,,lifewatch.csv"
 ].join("\n");

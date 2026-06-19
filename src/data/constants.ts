@@ -44,6 +44,4 @@ export const SPECIAL_TAG_LABELS: Record<string, string> = {
   juvenile: "Juvenile"
 };
 
-export const NOTE_LABELS: Record<string, string> = {
-  intermediate_rank: "Intermediate rank"
-};
+export const NOTE_LABELS: Record<string, string> = {};

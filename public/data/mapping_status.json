@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-18T13:59:37+00:00",
+  "generated_at_utc": "2026-06-19T14:03:03+00:00",
   "source_targets": "derived/ml_ready/target_profiles.csv",
   "history_dir": "derived/ml_ready/mapping_history",
   "export_fields": [
@@ -10,7 +10,7 @@
     "target_alias",
     "notes"
   ],
-  "target_count": 275,
+  "target_count": 251,
   "targets": [
     {
       "source_id": "ntc_082",
@@ -26,13 +26,13 @@
     {
       "source_id": "148899",
       "source_alias": "Bacillariophyceae",
-      "image_count": 339523,
+      "image_count": 356884,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "broad_class",
       "special_tags": "dwc_record_review|multiple",
       "dataset_ids": "life_watch_2026_image_library|tara_pacific_deck|life_watch|tara_pacific_bongo|flowcam_net",
-      "source_labels": "Long (chained) diatom|Bacillariophyceae|Centric Diatom|Pennate Diatom|Centric_Diatom|Pennate_Diatom|Bacillariophyceae_type1_colony|Stalked epiphytic diatom|Pennate_Diatom_colony|Epiphytic diatom|Pennate Diatom colony"
+      "source_labels": "Long (chained) diatom|Bacillariophyceae|Centric Diatom|Pennate Diatom|Centric_Diatom|Pennate_Diatom|Synedra+Thalassionema|Synedra/Thalassionema|Bacillariophyceae_type1_colony|Stalked epiphytic diatom|Pennate_Diatom_colony|Epiphytic diatom|Pennate Diatom colony"
     },
     {
       "source_id": "149069",
@@ -189,15 +189,15 @@
       "source_labels": "lightrods<othertocheck|lightrods<rods|darkrods<othertocheck|lightrods|darkrods<rods|darkrods"
     },
     {
-      "source_id": "inv_017",
-      "source_alias": "trieres sinensis",
-      "image_count": 35620,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category|taxonomic_mismatch",
-      "risk_flags": "n/a",
+      "source_id": "836581",
+      "source_alias": "Trieres",
+      "image_count": 39543,
+      "valid_statuses": "valid",
+      "invalid_reasons": "n/a",
+      "risk_flags": "broad_class",
       "special_tags": "n/a",
       "dataset_ids": "life_watch_2026_image_library|life_watch",
-      "source_labels": "Trieres sinensis|Trieres_sinensis"
+      "source_labels": "Trieres sinensis|Trieres_sinensis|Trieres_mobiliensis+T._regia|Trieres mobiliensis/T. regia"
     },
     {
       "source_id": "447730",
@@ -222,6 +222,17 @@
       "source_labels": "Egg/Cyst|Egg+Cyst"
     },
     {
+      "source_id": "148971",
+      "source_alias": "Coscinodiscophycidae",
+      "image_count": 30602,
+      "valid_statuses": "valid",
+      "invalid_reasons": "n/a",
+      "risk_flags": "broad_class",
+      "special_tags": "dwc_record_review",
+      "dataset_ids": "life_watch_2026_image_library|life_watch|tara_pacific_bongo",
+      "source_labels": "Lauderia/Melosira/Detonula|Lauderia+Melosira+Detonula|Thalassiosira+Porosira|Dactyliosolen+Cerataulina+Guinardia|Coscinodiscophycidae|Stellarima_stellaris+Podosira+Hyalodiscus|Plagiogrammopsis+Bellerochea_malleus|Thalassiosira/Porosira|Dactyliosolen/Cerataulina/Guinardia|Stellarima stellaris/Podosira/Hyalodiscus|Plagiogrammopsis/Bellerochea malleus"
+    },
+    {
       "source_id": "ntc_002",
       "source_alias": "artefact",
       "image_count": 27163,
@@ -244,26 +255,15 @@
       "source_labels": "t001|t003|t005|t004|t002|t008|t010|t017|t006|t013|t011|t012|t007|t015|t014|t016"
     },
     {
-      "source_id": "inv_007",
-      "source_alias": "lauderia/melosira/detonula",
-      "image_count": 25165,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category|taxonomic_mismatch",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "life_watch_2026_image_library|life_watch",
-      "source_labels": "Lauderia/Melosira/Detonula|Lauderia+Melosira+Detonula"
-    },
-    {
       "source_id": "591192",
       "source_alias": "Biddulphianae",
-      "image_count": 22852,
+      "image_count": 23274,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
+      "risk_flags": "broad_class",
       "special_tags": "n/a",
       "dataset_ids": "life_watch_2026_image_library|life_watch",
-      "source_labels": "Biddulphianae"
+      "source_labels": "Biddulphianae|Odontella_aurita+Ralfsiella_minima|Odontella aurita/Ralfsiella minima"
     },
     {
       "source_id": "ntc_004",
@@ -321,17 +321,6 @@
       "source_labels": "Crustaceae-part|Crustaceae:part"
     },
     {
-      "source_id": "inv_015",
-      "source_alias": "synedra/thalassionema",
-      "image_count": 17361,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category|taxonomic_mismatch",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "life_watch|life_watch_2026_image_library",
-      "source_labels": "Synedra+Thalassionema|Synedra/Thalassionema"
-    },
-    {
       "source_id": "149130",
       "source_alias": "Eucampia",
       "image_count": 17129,
@@ -341,6 +330,17 @@
       "special_tags": "n/a",
       "dataset_ids": "life_watch|life_watch_2026_image_library|tara_pacific_deck|tara_pacific_bongo",
       "source_labels": "Eucampia"
+    },
+    {
+      "source_id": "19542",
+      "source_alias": "Dinophyceae",
+      "image_count": 16274,
+      "valid_statuses": "valid",
+      "invalid_reasons": "n/a",
+      "risk_flags": "broad_class",
+      "special_tags": "dwc_record_review",
+      "dataset_ids": "tara_pacific_deck|flowcam_net|tara_pacific_bongo",
+      "source_labels": "Dinophyceae|Podolampas<Podolampadaceae<Peridiniales<Dinophyceae"
     },
     {
       "source_id": "148953",
@@ -354,15 +354,26 @@
       "source_labels": "Asterionella"
     },
     {
-      "source_id": "19542",
-      "source_alias": "Dinophyceae",
-      "image_count": 14589,
+      "source_id": "149068",
+      "source_alias": "Rhizosoleniaceae",
+      "image_count": 14330,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
-      "special_tags": "dwc_record_review",
-      "dataset_ids": "tara_pacific_deck|flowcam_net",
-      "source_labels": "Dinophyceae"
+      "risk_flags": "broad_class",
+      "special_tags": "n/a",
+      "dataset_ids": "life_watch|flowcam_net|life_watch_2026_image_library",
+      "source_labels": "Guinardia_striata+Dactyliosolen_phuketensis|Rhizosoleniaceae|Guinardia striata/Dactyliosolen phuketensis"
+    },
+    {
+      "source_id": "146203",
+      "source_alias": "Dinoflagellata",
+      "image_count": 13984,
+      "valid_statuses": "valid",
+      "invalid_reasons": "n/a",
+      "risk_flags": "broad_class|contaminated",
+      "special_tags": "n/a",
+      "dataset_ids": "tara_pacific_deck|tara_pacific_bongo|life_watch|life_watch_2026_image_library|flowcam_net",
+      "source_labels": "Neoceratium furca<Neoceratium|Dinophyceae X|Dinoflagellata|Neoceratium fusus<Neoceratium|polar view|polar_view|Ornithocercus magnificus<Ornithocercus"
     },
     {
       "source_id": "ntc_045",
@@ -398,17 +409,6 @@
       "source_labels": "Neoceratium pentagonum"
     },
     {
-      "source_id": "ntc_090",
-      "source_alias": "part<crustacea",
-      "image_count": 9159,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_bongo|tara_pacific_deck",
-      "source_labels": "part<Crustacea"
-    },
-    {
       "source_id": "149112",
       "source_alias": "Guinardia delicatula",
       "image_count": 9066,
@@ -418,17 +418,6 @@
       "special_tags": "n/a",
       "dataset_ids": "life_watch|life_watch_2026_image_library",
       "source_labels": "Guinardia_delicatula|Guinardia delicatula"
-    },
-    {
-      "source_id": "inv_006",
-      "source_alias": "guinardia striata/dactyliosolen phuketensis",
-      "image_count": 8806,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category|taxonomic_mismatch",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "life_watch|life_watch_2026_image_library",
-      "source_labels": "Guinardia_striata+Dactyliosolen_phuketensis|Guinardia striata/Dactyliosolen phuketensis"
     },
     {
       "source_id": "ntc_007",
@@ -455,24 +444,13 @@
     {
       "source_id": "1066",
       "source_alias": "Crustacea",
-      "image_count": 8637,
+      "image_count": 8639,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "broad_class",
       "special_tags": "juvenile",
       "dataset_ids": "tara_pacific_deck|tara_pacific_bongo|life_watch|life_watch_2026_image_library",
-      "source_labels": "nauplii<Crustacea|Crustacea"
-    },
-    {
-      "source_id": "146203",
-      "source_alias": "Dinoflagellata",
-      "image_count": 7648,
-      "valid_statuses": "valid",
-      "invalid_reasons": "n/a",
-      "risk_flags": "broad_class|contaminated",
-      "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_bongo|life_watch|life_watch_2026_image_library|tara_pacific_deck|flowcam_net",
-      "source_labels": "Dinophyceae X|Dinoflagellata|polar view|polar_view|Neoceratium fusus<Neoceratium|Neoceratium furca<Neoceratium|Ornithocercus magnificus<Ornithocercus"
+      "source_labels": "nauplii<Crustacea|Crustacea|Copepoda<Multicrustacea"
     },
     {
       "source_id": "840626",
@@ -506,6 +484,17 @@
       "special_tags": "n/a",
       "dataset_ids": "life_watch|life_watch_2026_image_library",
       "source_labels": "Hobaniella_longicruris|Hobaniella longicruris"
+    },
+    {
+      "source_id": "ntc_055",
+      "source_alias": "part crustacea",
+      "image_count": 6865,
+      "valid_statuses": "invalid",
+      "invalid_reasons": "non_taxonomic_category",
+      "risk_flags": "n/a",
+      "special_tags": "n/a",
+      "dataset_ids": "tara_pacific_deck|flowcam_net",
+      "source_labels": "part<Crustacea|part_Crustacea"
     },
     {
       "source_id": "109393",
@@ -585,17 +574,6 @@
       "source_labels": "aggregates|Aggregate"
     },
     {
-      "source_id": "149068",
-      "source_alias": "Rhizosoleniaceae",
-      "image_count": 5524,
-      "valid_statuses": "valid",
-      "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "flowcam_net",
-      "source_labels": "Rhizosoleniaceae"
-    },
-    {
       "source_id": "494056",
       "source_alias": "Neoceratium",
       "image_count": 5515,
@@ -651,17 +629,6 @@
       "source_labels": "Bacteriastrum"
     },
     {
-      "source_id": "ntc_047",
-      "source_alias": "neoceratium furca<neoceratium",
-      "image_count": 4788,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_deck",
-      "source_labels": "Neoceratium furca<Neoceratium"
-    },
-    {
       "source_id": "425497",
       "source_alias": "Tintinnida",
       "image_count": 4787,
@@ -706,17 +673,6 @@
       "source_labels": "Coscinodiscaceae"
     },
     {
-      "source_id": "836581",
-      "source_alias": "Trieres",
-      "image_count": 3923,
-      "valid_statuses": "valid",
-      "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "life_watch|life_watch_2026_image_library",
-      "source_labels": "Trieres_mobiliensis+T._regia|Trieres mobiliensis/T. regia"
-    },
-    {
       "source_id": "183545",
       "source_alias": "Steenstrupiella",
       "image_count": 3732,
@@ -750,17 +706,6 @@
       "source_labels": "contrasted_blob"
     },
     {
-      "source_id": "ntc_086",
-      "source_alias": "part crustacea",
-      "image_count": 2880,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "flowcam_net",
-      "source_labels": "part_Crustacea"
-    },
-    {
       "source_id": "345491",
       "source_alias": "Neocalyptrella robusta",
       "image_count": 2608,
@@ -770,17 +715,6 @@
       "special_tags": "n/a",
       "dataset_ids": "life_watch|life_watch_2026_image_library",
       "source_labels": "Neocalyptrella_robusta|Neocalyptrella robusta"
-    },
-    {
-      "source_id": "inv_016",
-      "source_alias": "thalassiosira/porosira",
-      "image_count": 2564,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category|taxonomic_mismatch",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "life_watch|life_watch_2026_image_library",
-      "source_labels": "Thalassiosira+Porosira|Thalassiosira/Porosira"
     },
     {
       "source_id": "160538",
@@ -794,6 +728,17 @@
       "source_labels": "Phaeocystis_globosa"
     },
     {
+      "source_id": "11",
+      "source_alias": "Ciliophora",
+      "image_count": 2469,
+      "valid_statuses": "valid",
+      "invalid_reasons": "n/a",
+      "risk_flags": "broad_class",
+      "special_tags": "dwc_record_review",
+      "dataset_ids": "tara_pacific_deck|life_watch|tara_pacific_bongo|flowcam_net|life_watch_2026_image_library",
+      "source_labels": "Ciliophora|Amphorides<Tintinnidiidae|Codonellopsis<Tintinnidiidae|Tintinnina<Choreotrichida|Lacrymaria<Lacrymariidae|Salpingella<Tintinnidiidae|Salpingella<Tintinnidae"
+    },
+    {
       "source_id": "ntc_053",
       "source_alias": "othertocheck",
       "image_count": 2396,
@@ -803,17 +748,6 @@
       "special_tags": "n/a",
       "dataset_ids": "tara_pacific_deck|tara_pacific_bongo",
       "source_labels": "othertocheck"
-    },
-    {
-      "source_id": "11",
-      "source_alias": "Ciliophora",
-      "image_count": 2336,
-      "valid_statuses": "valid",
-      "invalid_reasons": "n/a",
-      "risk_flags": "broad_class",
-      "special_tags": "dwc_record_review",
-      "dataset_ids": "life_watch|tara_pacific_bongo|tara_pacific_deck|flowcam_net|life_watch_2026_image_library",
-      "source_labels": "Ciliophora|Amphorides<Tintinnidiidae|Lacrymaria<Lacrymariidae"
     },
     {
       "source_id": "ntc_030",
@@ -893,15 +827,15 @@
       "source_labels": "Guinardia"
     },
     {
-      "source_id": "ntc_061",
-      "source_alias": "podolampas<podolampadaceae<peridiniales<dinophyceae",
-      "image_count": 1685,
+      "source_id": "ntc_054",
+      "source_alias": "part ciliophora",
+      "image_count": 1681,
       "valid_statuses": "invalid",
       "invalid_reasons": "non_taxonomic_category",
       "risk_flags": "n/a",
       "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_deck|tara_pacific_bongo",
-      "source_labels": "Podolampas<Podolampadaceae<Peridiniales<Dinophyceae"
+      "dataset_ids": "tara_pacific_deck|flowcam_net",
+      "source_labels": "part<Ciliophora|part_Ciliophora"
     },
     {
       "source_id": "1080",
@@ -915,12 +849,12 @@
       "source_labels": "Copepoda_adult|Copepoda<Maxillopoda|Copepoda|Copepoda adult"
     },
     {
-      "source_id": "ntc_046",
-      "source_alias": "nassellaria<polycystina / nassellaria<polycystinea",
+      "source_id": "235740",
+      "source_alias": "Polycystina",
       "image_count": 1658,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
+      "valid_statuses": "valid",
+      "invalid_reasons": "n/a",
+      "risk_flags": "broad_class",
       "special_tags": "n/a",
       "dataset_ids": "tara_pacific_deck|tara_pacific_bongo",
       "source_labels": "Nassellaria<Polycystinea|Nassellaria<Polycystina"
@@ -970,28 +904,6 @@
       "source_labels": "Eutintinnus"
     },
     {
-      "source_id": "ntc_048",
-      "source_alias": "neoceratium fusus<neoceratium",
-      "image_count": 1548,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_deck",
-      "source_labels": "Neoceratium fusus<Neoceratium"
-    },
-    {
-      "source_id": "ntc_088",
-      "source_alias": "part<ciliophora",
-      "image_count": 1540,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_deck|tara_pacific_bongo",
-      "source_labels": "part<Ciliophora"
-    },
-    {
       "source_id": "ntc_014",
       "source_alias": "crumple sphere",
       "image_count": 1500,
@@ -1034,17 +946,6 @@
       "special_tags": "n/a",
       "dataset_ids": "flowcam_net",
       "source_labels": "part_Odontella"
-    },
-    {
-      "source_id": "inv_004",
-      "source_alias": "dactyliosolen/cerataulina/guinardia",
-      "image_count": 1267,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category|taxonomic_mismatch",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "life_watch|life_watch_2026_image_library",
-      "source_labels": "Dactyliosolen+Cerataulina+Guinardia|Dactyliosolen/Cerataulina/Guinardia"
     },
     {
       "source_id": "146232",
@@ -1267,17 +1168,6 @@
       "source_labels": "feces"
     },
     {
-      "source_id": "148971",
-      "source_alias": "Coscinodiscophycidae",
-      "image_count": 819,
-      "valid_statuses": "valid",
-      "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
-      "special_tags": "dwc_record_review",
-      "dataset_ids": "tara_pacific_bongo",
-      "source_labels": "Coscinodiscophycidae"
-    },
-    {
       "source_id": "196834",
       "source_alias": "Dictyocysta",
       "image_count": 815,
@@ -1331,17 +1221,6 @@
       "special_tags": "n/a",
       "dataset_ids": "tara_pacific_deck|flowcam_net|tara_pacific_bongo",
       "source_labels": "Dactyliosolen"
-    },
-    {
-      "source_id": "inv_014",
-      "source_alias": "stellarima stellaris/podosira/hyalodiscus",
-      "image_count": 672,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category|taxonomic_mismatch",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "life_watch|life_watch_2026_image_library",
-      "source_labels": "Stellarima_stellaris+Podosira+Hyalodiscus|Stellarima stellaris/Podosira/Hyalodiscus"
     },
     {
       "source_id": "149168",
@@ -1509,26 +1388,15 @@
       "source_labels": "Coscinodiscus_granii|Coscinodiscus granii"
     },
     {
-      "source_id": "inv_010",
-      "source_alias": "odontella aurita/ralfsiella minima",
-      "image_count": 422,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category|taxonomic_mismatch",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "life_watch|life_watch_2026_image_library",
-      "source_labels": "Odontella_aurita+Ralfsiella_minima|Odontella aurita/Ralfsiella minima"
-    },
-    {
       "source_id": "109464",
       "source_alias": "Ornithocercus",
-      "image_count": 409,
+      "image_count": 428,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
+      "risk_flags": "broad_class",
       "special_tags": "dwc_record_review",
       "dataset_ids": "flowcam_net|tara_pacific_deck|tara_pacific_bongo",
-      "source_labels": "Ornithocercus"
+      "source_labels": "Ornithocercus|Ornithocercus quadratus<Ornithocercus"
     },
     {
       "source_id": "109462",
@@ -1861,15 +1729,15 @@
       "source_labels": "Cladopyxis"
     },
     {
-      "source_id": "ntc_010",
-      "source_alias": "chaetoceros<chaetocerotaceae",
-      "image_count": 213,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
+      "source_id": "148984",
+      "source_alias": "Chaetocerotaceae",
+      "image_count": 216,
+      "valid_statuses": "valid",
+      "invalid_reasons": "n/a",
+      "risk_flags": "broad_class",
       "special_tags": "n/a",
       "dataset_ids": "tara_pacific_deck",
-      "source_labels": "Chaetoceros<Chaetocerotaceae"
+      "source_labels": "Chaetoceros<Chaetocerotaceae|Bacteriastrum<Chaetocerotaceae"
     },
     {
       "source_id": "150201",
@@ -1993,17 +1861,6 @@
       "source_labels": "Cerataulus_granulata|Cerataulus granulata"
     },
     {
-      "source_id": "ntc_085",
-      "source_alias": "part ciliophora",
-      "image_count": 148,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "flowcam_net",
-      "source_labels": "part_Ciliophora"
-    },
-    {
       "source_id": "1267",
       "source_alias": "Cnidaria",
       "image_count": 146,
@@ -2068,17 +1925,6 @@
       "special_tags": "n/a",
       "dataset_ids": "life_watch|life_watch_2026_image_library",
       "source_labels": "Coscinodiscus_concinnus|Coscinodiscus concinnus"
-    },
-    {
-      "source_id": "inv_013",
-      "source_alias": "plagiogrammopsis/bellerochea malleus",
-      "image_count": 115,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category|taxonomic_mismatch",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "life_watch|life_watch_2026_image_library",
-      "source_labels": "Plagiogrammopsis+Bellerochea_malleus|Plagiogrammopsis/Bellerochea malleus"
     },
     {
       "source_id": "110247",
@@ -2224,17 +2070,6 @@
       "source_labels": "Corethron"
     },
     {
-      "source_id": "ntc_011",
-      "source_alias": "codonellopsis<tintinnidiidae",
-      "image_count": 66,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_deck",
-      "source_labels": "Codonellopsis<Tintinnidiidae"
-    },
-    {
       "source_id": "ntc_074",
       "source_alias": "tail<appendicularia",
       "image_count": 66,
@@ -2255,17 +2090,6 @@
       "special_tags": "n/a",
       "dataset_ids": "tara_pacific_bongo",
       "source_labels": "Chaetoceros inter ciliate"
-    },
-    {
-      "source_id": "ntc_091",
-      "source_alias": "spines<acantharea",
-      "image_count": 56,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_deck|tara_pacific_bongo",
-      "source_labels": "spines<Acantharea"
     },
     {
       "source_id": "149003",
@@ -2332,17 +2156,6 @@
       "special_tags": "n/a",
       "dataset_ids": "tara_pacific_deck|tara_pacific_bongo",
       "source_labels": "egg<other"
-    },
-    {
-      "source_id": "ntc_075",
-      "source_alias": "tintinnina<choreotrichida",
-      "image_count": 37,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_deck",
-      "source_labels": "Tintinnina<Choreotrichida"
     },
     {
       "source_id": "148967",
@@ -2422,17 +2235,6 @@
       "source_labels": "Ralfsiella smithii"
     },
     {
-      "source_id": "ntc_070",
-      "source_alias": "salpingella<tintinnidiidae",
-      "image_count": 27,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_deck",
-      "source_labels": "Salpingella<Tintinnidiidae"
-    },
-    {
       "source_id": "109394",
       "source_alias": "Peridiniales",
       "image_count": 26,
@@ -2475,17 +2277,6 @@
       "special_tags": "n/a",
       "dataset_ids": "life_watch_2026_image_library",
       "source_labels": "Tripos lineatus"
-    },
-    {
-      "source_id": "ntc_049",
-      "source_alias": "ornithocercus quadratus<ornithocercus",
-      "image_count": 19,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_deck",
-      "source_labels": "Ornithocercus quadratus<Ornithocercus"
     },
     {
       "source_id": "128569",
@@ -2653,17 +2444,6 @@
       "source_labels": "Codonellopsis orthoceras"
     },
     {
-      "source_id": "ntc_087",
-      "source_alias": "part diatom",
-      "image_count": 7,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_bongo",
-      "source_labels": "part diatom"
-    },
-    {
       "source_id": "123083",
       "source_alias": "Holothuroidea",
       "image_count": 6,
@@ -2739,28 +2519,6 @@
       "special_tags": "dwc_record_review",
       "dataset_ids": "tara_pacific_deck",
       "source_labels": "Tunicata"
-    },
-    {
-      "source_id": "ntc_003",
-      "source_alias": "bacteriastrum<chaetocerotaceae",
-      "image_count": 3,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_deck",
-      "source_labels": "Bacteriastrum<Chaetocerotaceae"
-    },
-    {
-      "source_id": "ntc_069",
-      "source_alias": "salpingella<tintinnidae",
-      "image_count": 3,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_deck",
-      "source_labels": "Salpingella<Tintinnidae"
     },
     {
       "source_id": "ntc_077",
@@ -2849,17 +2607,6 @@
       "special_tags": "n/a",
       "dataset_ids": "tara_pacific_bongo",
       "source_labels": "Amphitetras"
-    },
-    {
-      "source_id": "ntc_013",
-      "source_alias": "copepoda<multicrustacea",
-      "image_count": 2,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_deck",
-      "source_labels": "Copepoda<Multicrustacea"
     },
     {
       "source_id": "ntc_080",
@@ -3025,17 +2772,6 @@
       "special_tags": "n/a",
       "dataset_ids": "tara_pacific_bongo",
       "source_labels": "larvae<Polychaeta"
-    },
-    {
-      "source_id": "ntc_089",
-      "source_alias": "part<copepoda",
-      "image_count": 1,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_bongo",
-      "source_labels": "part<Copepoda"
     }
   ],
   "latest_history_id": "2026_06_14_manual_mapping_rules",
@@ -3044,14 +2780,50 @@
       "history_id": "2026_06_14_manual_mapping_rules",
       "file_name": "2026-06-14_manual_mapping_rules.csv",
       "path": "derived/ml_ready/mapping_history/2026-06-14_manual_mapping_rules.csv",
-      "row_count": 275,
-      "explicit_row_count": 52,
-      "merge_count": 50,
+      "row_count": 251,
+      "explicit_row_count": 35,
+      "merge_count": 33,
       "drop_count": 2,
-      "warning_count": 5,
+      "warning_count": 22,
       "warnings": [
         {
           "source_id": "ntc_062",
+          "message": "source_id is not present in current ML-ready targets"
+        },
+        {
+          "source_id": "ntc_011",
+          "message": "source_id is not present in current ML-ready targets"
+        },
+        {
+          "source_id": "ntc_069",
+          "message": "source_id is not present in current ML-ready targets"
+        },
+        {
+          "source_id": "ntc_070",
+          "message": "source_id is not present in current ML-ready targets"
+        },
+        {
+          "source_id": "ntc_075",
+          "message": "source_id is not present in current ML-ready targets"
+        },
+        {
+          "source_id": "ntc_013",
+          "message": "source_id is not present in current ML-ready targets"
+        },
+        {
+          "source_id": "ntc_047",
+          "message": "source_id is not present in current ML-ready targets"
+        },
+        {
+          "source_id": "ntc_048",
+          "message": "source_id is not present in current ML-ready targets"
+        },
+        {
+          "source_id": "ntc_049",
+          "message": "source_id is not present in current ML-ready targets"
+        },
+        {
+          "source_id": "ntc_061",
           "message": "source_id is not present in current ML-ready targets"
         },
         {
@@ -3059,11 +2831,43 @@
           "message": "source_id is not present in current ML-ready targets"
         },
         {
+          "source_id": "inv_016",
+          "message": "source_id is not present in current ML-ready targets"
+        },
+        {
+          "source_id": "inv_014",
+          "message": "source_id is not present in current ML-ready targets"
+        },
+        {
+          "source_id": "inv_013",
+          "message": "source_id is not present in current ML-ready targets"
+        },
+        {
+          "source_id": "inv_007",
+          "message": "source_id is not present in current ML-ready targets"
+        },
+        {
+          "source_id": "inv_004",
+          "message": "source_id is not present in current ML-ready targets"
+        },
+        {
+          "source_id": "inv_006",
+          "message": "source_id is not present in current ML-ready targets"
+        },
+        {
+          "source_id": "inv_015",
+          "message": "source_id is not present in current ML-ready targets"
+        },
+        {
+          "source_id": "inv_010",
+          "message": "source_id is not present in current ML-ready targets"
+        },
+        {
           "source_id": "ntc_067",
           "message": "source_id is not present in current ML-ready targets"
         },
         {
-          "source_id": "ntc_055",
+          "source_id": "inv_017",
           "message": "source_id is not present in current ML-ready targets"
         }
       ],
@@ -3229,12 +3033,12 @@
           "validation_message": ""
         },
         {
-          "action": "merge",
-          "source_id": "inv_017",
-          "target_id": "836581",
-          "source_alias": "trieres sinensis",
-          "target_alias": "Trieres",
-          "notes": "inherited stage02 merge",
+          "action": "keep",
+          "source_id": "836581",
+          "target_id": "",
+          "source_alias": "Trieres",
+          "target_alias": "",
+          "notes": "",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -3260,6 +3064,16 @@
         },
         {
           "action": "keep",
+          "source_id": "148971",
+          "target_id": "",
+          "source_alias": "Coscinodiscophycidae",
+          "target_alias": "",
+          "notes": "",
+          "validation_status": "ok",
+          "validation_message": ""
+        },
+        {
+          "action": "keep",
           "source_id": "ntc_002",
           "target_id": "",
           "source_alias": "artefact",
@@ -3274,16 +3088,6 @@
           "target_id": "ntc_053",
           "source_alias": "t001",
           "target_alias": "othertocheck",
-          "notes": "inherited stage02 merge",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "merge",
-          "source_id": "inv_007",
-          "target_id": "148971",
-          "source_alias": "lauderia/melosira/detonula",
-          "target_alias": "Coscinodiscophycidae",
           "notes": "inherited stage02 merge",
           "validation_status": "ok",
           "validation_message": ""
@@ -3349,20 +3153,20 @@
           "validation_message": ""
         },
         {
-          "action": "merge",
-          "source_id": "inv_015",
-          "target_id": "148899",
-          "source_alias": "synedra/thalassionema",
-          "target_alias": "Bacillariophyceae",
-          "notes": "inherited stage02 merge",
+          "action": "keep",
+          "source_id": "149130",
+          "target_id": "",
+          "source_alias": "Eucampia",
+          "target_alias": "",
+          "notes": "",
           "validation_status": "ok",
           "validation_message": ""
         },
         {
           "action": "keep",
-          "source_id": "149130",
+          "source_id": "19542",
           "target_id": "",
-          "source_alias": "Eucampia",
+          "source_alias": "Dinophyceae",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -3380,9 +3184,19 @@
         },
         {
           "action": "keep",
-          "source_id": "19542",
+          "source_id": "149068",
           "target_id": "",
-          "source_alias": "Dinophyceae",
+          "source_alias": "Rhizosoleniaceae",
+          "target_alias": "",
+          "notes": "",
+          "validation_status": "ok",
+          "validation_message": ""
+        },
+        {
+          "action": "keep",
+          "source_id": "146203",
+          "target_id": "",
+          "source_alias": "Dinoflagellata",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -3420,31 +3234,11 @@
         },
         {
           "action": "keep",
-          "source_id": "ntc_090",
-          "target_id": "",
-          "source_alias": "part<crustacea",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "149112",
           "target_id": "",
           "source_alias": "Guinardia delicatula",
           "target_alias": "",
           "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "merge",
-          "source_id": "inv_006",
-          "target_id": "149068",
-          "source_alias": "guinardia striata/dactyliosolen phuketensis",
-          "target_alias": "Rhizosoleniaceae",
-          "notes": "inherited stage02 merge",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -3480,16 +3274,6 @@
         },
         {
           "action": "keep",
-          "source_id": "146203",
-          "target_id": "",
-          "source_alias": "Dinoflagellata",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "840626",
           "target_id": "",
           "source_alias": "Tripos fusus",
@@ -3515,6 +3299,16 @@
           "source_alias": "Hobaniella longicruris",
           "target_alias": "",
           "notes": "",
+          "validation_status": "ok",
+          "validation_message": ""
+        },
+        {
+          "action": "merge",
+          "source_id": "ntc_055",
+          "target_id": "1066",
+          "source_alias": "part crustacea",
+          "target_alias": "Crustacea",
+          "notes": "round00 stage04 merge invalid part crustacea target into Crustacea; source labels include part<Crustacea and part_Crustacea",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -3590,16 +3384,6 @@
         },
         {
           "action": "keep",
-          "source_id": "149068",
-          "target_id": "",
-          "source_alias": "Rhizosoleniaceae",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "494056",
           "target_id": "",
           "source_alias": "Neoceratium",
@@ -3649,16 +3433,6 @@
           "validation_message": ""
         },
         {
-          "action": "merge",
-          "source_id": "ntc_047",
-          "target_id": "494056",
-          "source_alias": "neoceratium furca<neoceratium",
-          "target_alias": "Neoceratium",
-          "notes": "inherited stage02 merge",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
           "action": "keep",
           "source_id": "425497",
           "target_id": "",
@@ -3700,16 +3474,6 @@
         },
         {
           "action": "keep",
-          "source_id": "836581",
-          "target_id": "",
-          "source_alias": "Trieres",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "183545",
           "target_id": "",
           "source_alias": "Steenstrupiella",
@@ -3740,31 +3504,11 @@
         },
         {
           "action": "keep",
-          "source_id": "ntc_086",
-          "target_id": "",
-          "source_alias": "part crustacea",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "345491",
           "target_id": "",
           "source_alias": "Neocalyptrella robusta",
           "target_alias": "",
           "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "merge",
-          "source_id": "inv_016",
-          "target_id": "148971",
-          "source_alias": "thalassiosira/porosira",
-          "target_alias": "Coscinodiscophycidae",
-          "notes": "inherited stage02 merge",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -3780,9 +3524,9 @@
         },
         {
           "action": "keep",
-          "source_id": "ntc_053",
+          "source_id": "11",
           "target_id": "",
-          "source_alias": "othertocheck",
+          "source_alias": "Ciliophora",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -3790,9 +3534,9 @@
         },
         {
           "action": "keep",
-          "source_id": "11",
+          "source_id": "ntc_053",
           "target_id": "",
-          "source_alias": "Ciliophora",
+          "source_alias": "othertocheck",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -3869,12 +3613,12 @@
           "validation_message": ""
         },
         {
-          "action": "merge",
-          "source_id": "ntc_061",
-          "target_id": "19542",
-          "source_alias": "podolampas<podolampadaceae<peridiniales<dinophyceae",
-          "target_alias": "Dinophyceae",
-          "notes": "inherited stage02 merge",
+          "action": "keep",
+          "source_id": "ntc_054",
+          "target_id": "",
+          "source_alias": "part ciliophora",
+          "target_alias": "",
+          "notes": "",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -3890,9 +3634,9 @@
         },
         {
           "action": "keep",
-          "source_id": "ntc_046",
+          "source_id": "235740",
           "target_id": "",
-          "source_alias": "nassellaria<polycystina / nassellaria<polycystinea",
+          "source_alias": "Polycystina",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -3939,26 +3683,6 @@
           "validation_message": ""
         },
         {
-          "action": "merge",
-          "source_id": "ntc_048",
-          "target_id": "494056",
-          "source_alias": "neoceratium fusus<neoceratium",
-          "target_alias": "Neoceratium",
-          "notes": "inherited stage02 merge",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
-          "source_id": "ntc_088",
-          "target_id": "",
-          "source_alias": "part<ciliophora",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
           "action": "keep",
           "source_id": "ntc_014",
           "target_id": "",
@@ -3995,16 +3719,6 @@
           "source_alias": "part odontella",
           "target_alias": "Odontella",
           "notes": "round00 stage04 merge part label into parent class",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "merge",
-          "source_id": "inv_004",
-          "target_id": "148971",
-          "source_alias": "dactyliosolen/cerataulina/guinardia",
-          "target_alias": "Coscinodiscophycidae",
-          "notes": "inherited stage02 merge",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -4210,16 +3924,6 @@
         },
         {
           "action": "keep",
-          "source_id": "148971",
-          "target_id": "",
-          "source_alias": "Coscinodiscophycidae",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "196834",
           "target_id": "",
           "source_alias": "Dictyocysta",
@@ -4265,16 +3969,6 @@
           "source_alias": "Dactyliosolen",
           "target_alias": "",
           "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "merge",
-          "source_id": "inv_014",
-          "target_id": "148971",
-          "source_alias": "stellarima stellaris/podosira/hyalodiscus",
-          "target_alias": "Coscinodiscophycidae",
-          "notes": "inherited stage02 merge",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -4425,16 +4119,6 @@
           "source_alias": "Coscinodiscus granii",
           "target_alias": "",
           "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "merge",
-          "source_id": "inv_010",
-          "target_id": "591192",
-          "source_alias": "odontella aurita/ralfsiella minima",
-          "target_alias": "Biddulphianae",
-          "notes": "inherited stage02 merge",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -4750,9 +4434,9 @@
         },
         {
           "action": "keep",
-          "source_id": "ntc_010",
+          "source_id": "148984",
           "target_id": "",
-          "source_alias": "chaetoceros<chaetocerotaceae",
+          "source_alias": "Chaetocerotaceae",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -4870,16 +4554,6 @@
         },
         {
           "action": "keep",
-          "source_id": "ntc_085",
-          "target_id": "",
-          "source_alias": "part ciliophora",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "1267",
           "target_id": "",
           "source_alias": "Cnidaria",
@@ -4935,16 +4609,6 @@
           "source_alias": "Coscinodiscus concinnus",
           "target_alias": "",
           "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "merge",
-          "source_id": "inv_013",
-          "target_id": "148971",
-          "source_alias": "plagiogrammopsis/bellerochea malleus",
-          "target_alias": "Coscinodiscophycidae",
-          "notes": "inherited stage02 merge",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5079,16 +4743,6 @@
           "validation_message": ""
         },
         {
-          "action": "merge",
-          "source_id": "ntc_011",
-          "target_id": "11",
-          "source_alias": "codonellopsis<tintinnidiidae",
-          "target_alias": "Ciliophora",
-          "notes": "inherited stage02 merge",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
           "action": "keep",
           "source_id": "ntc_074",
           "target_id": "",
@@ -5103,16 +4757,6 @@
           "source_id": "ntc_009",
           "target_id": "",
           "source_alias": "chaetoceros inter ciliate",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
-          "source_id": "ntc_091",
-          "target_id": "",
-          "source_alias": "spines<acantharea",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -5174,16 +4818,6 @@
           "target_id": "ntc_028",
           "source_alias": "egg<other",
           "target_alias": "egg/cyst",
-          "notes": "inherited stage02 merge",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "merge",
-          "source_id": "ntc_075",
-          "target_id": "11",
-          "source_alias": "tintinnina<choreotrichida",
-          "target_alias": "Ciliophora",
           "notes": "inherited stage02 merge",
           "validation_status": "ok",
           "validation_message": ""
@@ -5260,16 +4894,6 @@
         },
         {
           "action": "merge",
-          "source_id": "ntc_070",
-          "target_id": "11",
-          "source_alias": "salpingella<tintinnidiidae",
-          "target_alias": "Ciliophora",
-          "notes": "inherited stage02 override",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "merge",
           "source_id": "109394",
           "target_id": "19542",
           "source_alias": "Peridiniales",
@@ -5305,16 +4929,6 @@
           "source_alias": "Tripos lineatus",
           "target_alias": "",
           "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "merge",
-          "source_id": "ntc_049",
-          "target_id": "109464",
-          "source_alias": "ornithocercus quadratus<ornithocercus",
-          "target_alias": "Ornithocercus",
-          "notes": "inherited stage02 merge",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5470,16 +5084,6 @@
         },
         {
           "action": "keep",
-          "source_id": "ntc_087",
-          "target_id": "",
-          "source_alias": "part diatom",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "123083",
           "target_id": "",
           "source_alias": "Holothuroidea",
@@ -5545,26 +5149,6 @@
           "source_alias": "Tunicata",
           "target_alias": "",
           "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
-          "source_id": "ntc_003",
-          "target_id": "",
-          "source_alias": "bacteriastrum<chaetocerotaceae",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "merge",
-          "source_id": "ntc_069",
-          "target_id": "11",
-          "source_alias": "salpingella<tintinnidae",
-          "target_alias": "Ciliophora",
-          "notes": "inherited stage02 override",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5645,16 +5229,6 @@
           "source_alias": "Amphitetras",
           "target_alias": "",
           "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "merge",
-          "source_id": "ntc_013",
-          "target_id": "1066",
-          "source_alias": "copepoda<multicrustacea",
-          "target_alias": "Crustacea",
-          "notes": "inherited stage02 override",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5805,16 +5379,6 @@
           "source_alias": "larvae<polychaeta",
           "target_alias": "larvae<living",
           "notes": "inherited stage02 merge",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
-          "source_id": "ntc_089",
-          "target_id": "",
-          "source_alias": "part<copepoda",
-          "target_alias": "",
-          "notes": "",
           "validation_status": "ok",
           "validation_message": ""
         }

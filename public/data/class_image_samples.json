@@ -7399,6 +7399,80 @@
       "height": "169"
     }
   ],
+  "life_watch::Dactyliosolen+Cerataulina+Guinardia": [
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Dactyliosolen+Cerataulina+Guinardia",
+      "image_id": "C88F0CDA-9ADE-471C-A7A3-54E347BC10FE",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Dactyliosolen_Cerataulina_Guinardia/01_2f2490fb7f.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Dactyliosolen+Cerataulina+Guinardia/ecotaxa_Dactyliosolen+Cerataulina+Guinardia_C88F0CDA-9ADE-471C-A7A3-54E347BC10FE.jpg",
+      "width": "70",
+      "height": "40"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Dactyliosolen+Cerataulina+Guinardia",
+      "image_id": "6C8D75B2-B281-4A86-8B62-600BF078755B",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Dactyliosolen_Cerataulina_Guinardia/02_8cfb002a78.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Dactyliosolen+Cerataulina+Guinardia/ecotaxa_Dactyliosolen+Cerataulina+Guinardia_6C8D75B2-B281-4A86-8B62-600BF078755B.jpg",
+      "width": "81",
+      "height": "54"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Dactyliosolen+Cerataulina+Guinardia",
+      "image_id": "D32287BB-715B-46EF-90BF-EC9CD750AB2D",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Dactyliosolen_Cerataulina_Guinardia/03_8d8209d612.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Dactyliosolen+Cerataulina+Guinardia/ecotaxa_Dactyliosolen+Cerataulina+Guinardia_D32287BB-715B-46EF-90BF-EC9CD750AB2D.jpg",
+      "width": "51",
+      "height": "81"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Dactyliosolen+Cerataulina+Guinardia",
+      "image_id": "9AC0040B-A4D2-4712-83EF-936AEBF1A0C7",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Dactyliosolen_Cerataulina_Guinardia/04_6b5ffc0398.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Dactyliosolen+Cerataulina+Guinardia/ecotaxa_Dactyliosolen+Cerataulina+Guinardia_9AC0040B-A4D2-4712-83EF-936AEBF1A0C7.jpg",
+      "width": "63",
+      "height": "46"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Dactyliosolen+Cerataulina+Guinardia",
+      "image_id": "5AC79385-C05C-4092-95DF-EAAC69CD009F",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Dactyliosolen_Cerataulina_Guinardia/05_c928c1fc34.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Dactyliosolen+Cerataulina+Guinardia/ecotaxa_Dactyliosolen+Cerataulina+Guinardia_5AC79385-C05C-4092-95DF-EAAC69CD009F.jpg",
+      "width": "62",
+      "height": "59"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Dactyliosolen+Cerataulina+Guinardia",
+      "image_id": "1FADBAC0-C4EA-4D6B-8A5B-76193892FA8D",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Dactyliosolen_Cerataulina_Guinardia/06_a89302c8aa.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Dactyliosolen+Cerataulina+Guinardia/ecotaxa_Dactyliosolen+Cerataulina+Guinardia_1FADBAC0-C4EA-4D6B-8A5B-76193892FA8D.jpg",
+      "width": "80",
+      "height": "42"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Dactyliosolen+Cerataulina+Guinardia",
+      "image_id": "7BEB43AC-3694-4E96-823E-71EBC2E80A63",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Dactyliosolen_Cerataulina_Guinardia/07_4639da96f9.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Dactyliosolen+Cerataulina+Guinardia/ecotaxa_Dactyliosolen+Cerataulina+Guinardia_7BEB43AC-3694-4E96-823E-71EBC2E80A63.jpg",
+      "width": "67",
+      "height": "38"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Dactyliosolen+Cerataulina+Guinardia",
+      "image_id": "C81733F7-A785-441D-95B2-FFC4BA90EC16",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Dactyliosolen_Cerataulina_Guinardia/08_60ff092355.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Dactyliosolen+Cerataulina+Guinardia/ecotaxa_Dactyliosolen+Cerataulina+Guinardia_C81733F7-A785-441D-95B2-FFC4BA90EC16.jpg",
+      "width": "45",
+      "height": "94"
+    }
+  ],
   "life_watch::Dinoflagellata": [
     {
       "dataset_id": "life_watch",
@@ -7991,6 +8065,80 @@
       "height": "104"
     }
   ],
+  "life_watch::Guinardia_striata+Dactyliosolen_phuketensis": [
+    {
+      "dataset_id": "life_watch",
+      "label": "Rhizosoleniaceae: Guinardia_striata+Dactyliosolen_phuketensis",
+      "image_id": "73F29C55-555D-41A4-A581-390C8AA2AF21",
+      "thumbnail_url": "/samples/life_watch/Rhizosoleniaceae_Guinardia_striata_Dactyliosolen_phuketensis/01_bc700187cd.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Guinardia_striata+Dactyliosolen_phuketensis/ecotaxa_Guinardia_striata+Dactyliosolen_phuketensis_73F29C55-555D-41A4-A581-390C8AA2AF21.jpg",
+      "width": "48",
+      "height": "109"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Rhizosoleniaceae: Guinardia_striata+Dactyliosolen_phuketensis",
+      "image_id": "A3DBFA3C-905D-49FA-9EDA-1D5CCEE7163F",
+      "thumbnail_url": "/samples/life_watch/Rhizosoleniaceae_Guinardia_striata_Dactyliosolen_phuketensis/02_ed0381a9e4.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Guinardia_striata+Dactyliosolen_phuketensis/ecotaxa_Guinardia_striata+Dactyliosolen_phuketensis_A3DBFA3C-905D-49FA-9EDA-1D5CCEE7163F.jpg",
+      "width": "61",
+      "height": "46"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Rhizosoleniaceae: Guinardia_striata+Dactyliosolen_phuketensis",
+      "image_id": "2E4D2122-D473-46DD-B8FE-80F646595D17",
+      "thumbnail_url": "/samples/life_watch/Rhizosoleniaceae_Guinardia_striata_Dactyliosolen_phuketensis/03_ae38f7022b.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Guinardia_striata+Dactyliosolen_phuketensis/ecotaxa_Guinardia_striata+Dactyliosolen_phuketensis_2E4D2122-D473-46DD-B8FE-80F646595D17.jpg",
+      "width": "113",
+      "height": "83"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Rhizosoleniaceae: Guinardia_striata+Dactyliosolen_phuketensis",
+      "image_id": "533BFE82-E9B7-4257-A803-9F19A88E99D8",
+      "thumbnail_url": "/samples/life_watch/Rhizosoleniaceae_Guinardia_striata_Dactyliosolen_phuketensis/04_22eb1dc613.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Guinardia_striata+Dactyliosolen_phuketensis/ecotaxa_Guinardia_striata+Dactyliosolen_phuketensis_533BFE82-E9B7-4257-A803-9F19A88E99D8.jpg",
+      "width": "43",
+      "height": "73"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Rhizosoleniaceae: Guinardia_striata+Dactyliosolen_phuketensis",
+      "image_id": "B1A06844-1E5F-4FA3-9BA6-E050C644D463",
+      "thumbnail_url": "/samples/life_watch/Rhizosoleniaceae_Guinardia_striata_Dactyliosolen_phuketensis/05_2b75c37058.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Guinardia_striata+Dactyliosolen_phuketensis/ecotaxa_Guinardia_striata+Dactyliosolen_phuketensis_B1A06844-1E5F-4FA3-9BA6-E050C644D463.jpg",
+      "width": "72",
+      "height": "68"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Rhizosoleniaceae: Guinardia_striata+Dactyliosolen_phuketensis",
+      "image_id": "773B02B6-B907-48AF-8365-FE0746AC9059",
+      "thumbnail_url": "/samples/life_watch/Rhizosoleniaceae_Guinardia_striata_Dactyliosolen_phuketensis/06_9f5f95b508.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Guinardia_striata+Dactyliosolen_phuketensis/ecotaxa_Guinardia_striata+Dactyliosolen_phuketensis_773B02B6-B907-48AF-8365-FE0746AC9059.jpg",
+      "width": "44",
+      "height": "68"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Rhizosoleniaceae: Guinardia_striata+Dactyliosolen_phuketensis",
+      "image_id": "6B38BA6D-B15D-4B75-B557-3A2A982D95B6",
+      "thumbnail_url": "/samples/life_watch/Rhizosoleniaceae_Guinardia_striata_Dactyliosolen_phuketensis/07_dd92838b7d.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Guinardia_striata+Dactyliosolen_phuketensis/ecotaxa_Guinardia_striata+Dactyliosolen_phuketensis_6B38BA6D-B15D-4B75-B557-3A2A982D95B6.jpg",
+      "width": "43",
+      "height": "76"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Rhizosoleniaceae: Guinardia_striata+Dactyliosolen_phuketensis",
+      "image_id": "B831FB35-982C-4060-A9AE-4FF20FB9FBB7",
+      "thumbnail_url": "/samples/life_watch/Rhizosoleniaceae_Guinardia_striata_Dactyliosolen_phuketensis/08_69cd151ea9.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Guinardia_striata+Dactyliosolen_phuketensis/ecotaxa_Guinardia_striata+Dactyliosolen_phuketensis_B831FB35-982C-4060-A9AE-4FF20FB9FBB7.jpg",
+      "width": "76",
+      "height": "61"
+    }
+  ],
   "life_watch::Helicotheca_tamesis": [
     {
       "dataset_id": "life_watch",
@@ -8137,6 +8285,80 @@
       "source_ref": "datasets/LifeWatch/data/images/Hobaniella_longicruris/ecotaxa_Hobaniella_longicruris_B2F833F4-97BD-4A36-86AF-A5664AB00437.jpg",
       "width": "79",
       "height": "70"
+    }
+  ],
+  "life_watch::Lauderia+Melosira+Detonula": [
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Lauderia+Melosira+Detonula",
+      "image_id": "834B0875-74AD-48CC-B112-0DBA6DA6EAD2",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Lauderia_Melosira_Detonula/01_cbdf3d2bf8.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Lauderia+Melosira+Detonula/ecotaxa_Lauderia+Melosira+Detonula_834B0875-74AD-48CC-B112-0DBA6DA6EAD2.jpg",
+      "width": "64",
+      "height": "111"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Lauderia+Melosira+Detonula",
+      "image_id": "F72AAC74-E114-4F1E-87B2-8619031D8C94",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Lauderia_Melosira_Detonula/02_06b9471835.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Lauderia+Melosira+Detonula/ecotaxa_Lauderia+Melosira+Detonula_F72AAC74-E114-4F1E-87B2-8619031D8C94.jpg",
+      "width": "103",
+      "height": "53"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Lauderia+Melosira+Detonula",
+      "image_id": "67D7CC3D-4DB4-481F-A881-D02713EAF40C",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Lauderia_Melosira_Detonula/03_43c40dd93e.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Lauderia+Melosira+Detonula/ecotaxa_Lauderia+Melosira+Detonula_67D7CC3D-4DB4-481F-A881-D02713EAF40C.jpg",
+      "width": "73",
+      "height": "116"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Lauderia+Melosira+Detonula",
+      "image_id": "42FBF0A4-B695-4168-88EA-D94C6F087FD1",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Lauderia_Melosira_Detonula/04_1a46b5fc8b.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Lauderia+Melosira+Detonula/ecotaxa_Lauderia+Melosira+Detonula_42FBF0A4-B695-4168-88EA-D94C6F087FD1.jpg",
+      "width": "64",
+      "height": "170"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Lauderia+Melosira+Detonula",
+      "image_id": "130016EA-42F2-4539-B909-F407678C7799",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Lauderia_Melosira_Detonula/05_49194c3615.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Lauderia+Melosira+Detonula/ecotaxa_Lauderia+Melosira+Detonula_130016EA-42F2-4539-B909-F407678C7799.jpg",
+      "width": "143",
+      "height": "56"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Lauderia+Melosira+Detonula",
+      "image_id": "3C3603FE-8BFD-44AA-95B2-E3110B5C4BFF",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Lauderia_Melosira_Detonula/06_385991c506.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Lauderia+Melosira+Detonula/ecotaxa_Lauderia+Melosira+Detonula_3C3603FE-8BFD-44AA-95B2-E3110B5C4BFF.jpg",
+      "width": "53",
+      "height": "65"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Lauderia+Melosira+Detonula",
+      "image_id": "66D46DD1-95F0-4287-84FA-F17C8AA22111",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Lauderia_Melosira_Detonula/07_76a717be2a.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Lauderia+Melosira+Detonula/ecotaxa_Lauderia+Melosira+Detonula_66D46DD1-95F0-4287-84FA-F17C8AA22111.jpg",
+      "width": "83",
+      "height": "119"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Lauderia+Melosira+Detonula",
+      "image_id": "4C9D4FD1-9642-440F-8BBA-67C95831174F",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Lauderia_Melosira_Detonula/08_9d6db2b067.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Lauderia+Melosira+Detonula/ecotaxa_Lauderia+Melosira+Detonula_4C9D4FD1-9642-440F-8BBA-67C95831174F.jpg",
+      "width": "49",
+      "height": "112"
     }
   ],
   "life_watch::Leptocylindraceae": [
@@ -8731,6 +8953,80 @@
       "height": "145"
     }
   ],
+  "life_watch::Odontella_aurita+Ralfsiella_minima": [
+    {
+      "dataset_id": "life_watch",
+      "label": "Biddulphianae: Odontella_aurita+Ralfsiella_minima",
+      "image_id": "0BF7CDBA-7785-4823-885F-B8DE0527D4F4",
+      "thumbnail_url": "/samples/life_watch/Biddulphianae_Odontella_aurita_Ralfsiella_minima/01_ac1ac6f7f5.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Odontella_aurita+Ralfsiella_minima/ecotaxa_Odontella_aurita+Ralfsiella_minima_0BF7CDBA-7785-4823-885F-B8DE0527D4F4.jpg",
+      "width": "56",
+      "height": "87"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Biddulphianae: Odontella_aurita+Ralfsiella_minima",
+      "image_id": "28A21983-30EE-412F-AC3D-2AAC9C279453",
+      "thumbnail_url": "/samples/life_watch/Biddulphianae_Odontella_aurita_Ralfsiella_minima/02_4bae960dfa.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Odontella_aurita+Ralfsiella_minima/ecotaxa_Odontella_aurita+Ralfsiella_minima_28A21983-30EE-412F-AC3D-2AAC9C279453.jpg",
+      "width": "83",
+      "height": "86"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Biddulphianae: Odontella_aurita+Ralfsiella_minima",
+      "image_id": "C478CADD-BA13-4B08-9A11-67275445DD8A",
+      "thumbnail_url": "/samples/life_watch/Biddulphianae_Odontella_aurita_Ralfsiella_minima/03_402d1d6d68.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Odontella_aurita+Ralfsiella_minima/ecotaxa_Odontella_aurita+Ralfsiella_minima_C478CADD-BA13-4B08-9A11-67275445DD8A.jpg",
+      "width": "49",
+      "height": "74"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Biddulphianae: Odontella_aurita+Ralfsiella_minima",
+      "image_id": "92C7C6F2-3257-424D-913C-E833B6E2CEC6",
+      "thumbnail_url": "/samples/life_watch/Biddulphianae_Odontella_aurita_Ralfsiella_minima/04_950a89319f.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Odontella_aurita+Ralfsiella_minima/ecotaxa_Odontella_aurita+Ralfsiella_minima_92C7C6F2-3257-424D-913C-E833B6E2CEC6.jpg",
+      "width": "49",
+      "height": "67"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Biddulphianae: Odontella_aurita+Ralfsiella_minima",
+      "image_id": "61B6B65B-8498-440A-9C6C-1E81C712D37C",
+      "thumbnail_url": "/samples/life_watch/Biddulphianae_Odontella_aurita_Ralfsiella_minima/05_e1bddb6d76.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Odontella_aurita+Ralfsiella_minima/ecotaxa_Odontella_aurita+Ralfsiella_minima_61B6B65B-8498-440A-9C6C-1E81C712D37C.jpg",
+      "width": "59",
+      "height": "44"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Biddulphianae: Odontella_aurita+Ralfsiella_minima",
+      "image_id": "A8F3E16B-C15F-4E01-B098-0EC54A745E10",
+      "thumbnail_url": "/samples/life_watch/Biddulphianae_Odontella_aurita_Ralfsiella_minima/06_b10a5b317d.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Odontella_aurita+Ralfsiella_minima/ecotaxa_Odontella_aurita+Ralfsiella_minima_A8F3E16B-C15F-4E01-B098-0EC54A745E10.jpg",
+      "width": "51",
+      "height": "121"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Biddulphianae: Odontella_aurita+Ralfsiella_minima",
+      "image_id": "9950F6B1-0F2C-4BDE-A4B3-7E515E5386A2",
+      "thumbnail_url": "/samples/life_watch/Biddulphianae_Odontella_aurita_Ralfsiella_minima/07_1702377277.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Odontella_aurita+Ralfsiella_minima/ecotaxa_Odontella_aurita+Ralfsiella_minima_9950F6B1-0F2C-4BDE-A4B3-7E515E5386A2.jpg",
+      "width": "61",
+      "height": "81"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Biddulphianae: Odontella_aurita+Ralfsiella_minima",
+      "image_id": "B344DCDE-E9C7-474E-9111-D9B23CAE40FD",
+      "thumbnail_url": "/samples/life_watch/Biddulphianae_Odontella_aurita_Ralfsiella_minima/08_90801eab7d.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Odontella_aurita+Ralfsiella_minima/ecotaxa_Odontella_aurita+Ralfsiella_minima_B344DCDE-E9C7-474E-9111-D9B23CAE40FD.jpg",
+      "width": "99",
+      "height": "108"
+    }
+  ],
   "life_watch::Odontella_rhombus_f._trigona": [
     {
       "dataset_id": "life_watch",
@@ -9099,6 +9395,80 @@
       "source_ref": "datasets/LifeWatch/data/images/Peritrichia/ecotaxa_Peritrichia_351368C9-1E71-4D4B-9393-C468D2D97D55.jpg",
       "width": "57",
       "height": "67"
+    }
+  ],
+  "life_watch::Plagiogrammopsis+Bellerochea_malleus": [
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Plagiogrammopsis+Bellerochea_malleus",
+      "image_id": "34BDDD8A-5062-40D2-81A8-EB4292F74110",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Plagiogrammopsis_Bellerochea_malleus/01_777b5e9ea4.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Plagiogrammopsis+Bellerochea_malleus/ecotaxa_Plagiogrammopsis+Bellerochea_malleus_34BDDD8A-5062-40D2-81A8-EB4292F74110.jpg",
+      "width": "77",
+      "height": "86"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Plagiogrammopsis+Bellerochea_malleus",
+      "image_id": "06ADE52A-AAE8-48D3-A1C4-524203657E8C",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Plagiogrammopsis_Bellerochea_malleus/02_aa667de76b.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Plagiogrammopsis+Bellerochea_malleus/ecotaxa_Plagiogrammopsis+Bellerochea_malleus_06ADE52A-AAE8-48D3-A1C4-524203657E8C.jpg",
+      "width": "126",
+      "height": "203"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Plagiogrammopsis+Bellerochea_malleus",
+      "image_id": "7B2B9173-9B81-4A27-A1CD-BFBAD52248F1",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Plagiogrammopsis_Bellerochea_malleus/03_8554bd9074.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Plagiogrammopsis+Bellerochea_malleus/ecotaxa_Plagiogrammopsis+Bellerochea_malleus_7B2B9173-9B81-4A27-A1CD-BFBAD52248F1.jpg",
+      "width": "105",
+      "height": "105"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Plagiogrammopsis+Bellerochea_malleus",
+      "image_id": "42BAB8CC-5ADC-4DE5-A37F-F1931B3694E1",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Plagiogrammopsis_Bellerochea_malleus/04_f6b902f777.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Plagiogrammopsis+Bellerochea_malleus/ecotaxa_Plagiogrammopsis+Bellerochea_malleus_42BAB8CC-5ADC-4DE5-A37F-F1931B3694E1.jpg",
+      "width": "215",
+      "height": "108"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Plagiogrammopsis+Bellerochea_malleus",
+      "image_id": "1E2938D5-01EE-48FA-8F0C-DE0B8D6EB969",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Plagiogrammopsis_Bellerochea_malleus/05_a7e38e768f.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Plagiogrammopsis+Bellerochea_malleus/ecotaxa_Plagiogrammopsis+Bellerochea_malleus_1E2938D5-01EE-48FA-8F0C-DE0B8D6EB969.jpg",
+      "width": "80",
+      "height": "79"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Plagiogrammopsis+Bellerochea_malleus",
+      "image_id": "D8D92CF1-5C49-4037-827D-190A8C7C2286",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Plagiogrammopsis_Bellerochea_malleus/06_63742b6a4d.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Plagiogrammopsis+Bellerochea_malleus/ecotaxa_Plagiogrammopsis+Bellerochea_malleus_D8D92CF1-5C49-4037-827D-190A8C7C2286.jpg",
+      "width": "102",
+      "height": "90"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Plagiogrammopsis+Bellerochea_malleus",
+      "image_id": "3EFE464A-7AA2-48CB-8DFF-83DA20A9DEF7",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Plagiogrammopsis_Bellerochea_malleus/07_57cbceb70e.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Plagiogrammopsis+Bellerochea_malleus/ecotaxa_Plagiogrammopsis+Bellerochea_malleus_3EFE464A-7AA2-48CB-8DFF-83DA20A9DEF7.jpg",
+      "width": "200",
+      "height": "164"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Plagiogrammopsis+Bellerochea_malleus",
+      "image_id": "82127CAE-8180-4602-B609-4E0592051087",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Plagiogrammopsis_Bellerochea_malleus/08_7d782a7116.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Plagiogrammopsis+Bellerochea_malleus/ecotaxa_Plagiogrammopsis+Bellerochea_malleus_82127CAE-8180-4602-B609-4E0592051087.jpg",
+      "width": "163",
+      "height": "64"
     }
   ],
   "life_watch::Polychaeta": [
@@ -10063,6 +10433,80 @@
       "height": "75"
     }
   ],
+  "life_watch::Stellarima_stellaris+Podosira+Hyalodiscus": [
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Stellarima_stellaris+Podosira+Hyalodiscus",
+      "image_id": "0D34849C-E6A4-4A0A-A32A-EBB5E72C8546",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Stellarima_stellaris_Podosira_Hyalodiscus/01_77c408b76c.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Stellarima_stellaris+Podosira+Hyalodiscus/ecotaxa_Stellarima_stellaris+Podosira+Hyalodiscus_0D34849C-E6A4-4A0A-A32A-EBB5E72C8546.jpg",
+      "width": "95",
+      "height": "147"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Stellarima_stellaris+Podosira+Hyalodiscus",
+      "image_id": "407B7D41-4A1C-4726-8CF1-6C0F02C38E59",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Stellarima_stellaris_Podosira_Hyalodiscus/02_034072b9d5.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Stellarima_stellaris+Podosira+Hyalodiscus/ecotaxa_Stellarima_stellaris+Podosira+Hyalodiscus_407B7D41-4A1C-4726-8CF1-6C0F02C38E59.jpg",
+      "width": "66",
+      "height": "64"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Stellarima_stellaris+Podosira+Hyalodiscus",
+      "image_id": "BC5FAF2E-2E8A-4C7D-82EF-380ACA304D6E",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Stellarima_stellaris_Podosira_Hyalodiscus/03_1f104415ef.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Stellarima_stellaris+Podosira+Hyalodiscus/ecotaxa_Stellarima_stellaris+Podosira+Hyalodiscus_BC5FAF2E-2E8A-4C7D-82EF-380ACA304D6E.jpg",
+      "width": "63",
+      "height": "63"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Stellarima_stellaris+Podosira+Hyalodiscus",
+      "image_id": "4B6B9FDD-6C0D-4A18-A30F-033877B4D8F2",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Stellarima_stellaris_Podosira_Hyalodiscus/04_1ec4734e41.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Stellarima_stellaris+Podosira+Hyalodiscus/ecotaxa_Stellarima_stellaris+Podosira+Hyalodiscus_4B6B9FDD-6C0D-4A18-A30F-033877B4D8F2.jpg",
+      "width": "63",
+      "height": "63"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Stellarima_stellaris+Podosira+Hyalodiscus",
+      "image_id": "B05A3F6B-CEBC-472E-9A5B-FE58B6440B26",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Stellarima_stellaris_Podosira_Hyalodiscus/05_c463da3f98.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Stellarima_stellaris+Podosira+Hyalodiscus/ecotaxa_Stellarima_stellaris+Podosira+Hyalodiscus_B05A3F6B-CEBC-472E-9A5B-FE58B6440B26.jpg",
+      "width": "62",
+      "height": "61"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Stellarima_stellaris+Podosira+Hyalodiscus",
+      "image_id": "7E3B4330-F288-4A9B-A67C-2978FDAC0463",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Stellarima_stellaris_Podosira_Hyalodiscus/06_771297744e.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Stellarima_stellaris+Podosira+Hyalodiscus/ecotaxa_Stellarima_stellaris+Podosira+Hyalodiscus_7E3B4330-F288-4A9B-A67C-2978FDAC0463.jpg",
+      "width": "61",
+      "height": "60"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Stellarima_stellaris+Podosira+Hyalodiscus",
+      "image_id": "9DA39C31-9D31-4AB5-8C2D-649C551DFCDB",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Stellarima_stellaris_Podosira_Hyalodiscus/07_3447c22a95.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Stellarima_stellaris+Podosira+Hyalodiscus/ecotaxa_Stellarima_stellaris+Podosira+Hyalodiscus_9DA39C31-9D31-4AB5-8C2D-649C551DFCDB.jpg",
+      "width": "62",
+      "height": "62"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Stellarima_stellaris+Podosira+Hyalodiscus",
+      "image_id": "7AE153E0-4668-4B6B-940E-8C0F8D60E8B1",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Stellarima_stellaris_Podosira_Hyalodiscus/08_42c0fb0532.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Stellarima_stellaris+Podosira+Hyalodiscus/ecotaxa_Stellarima_stellaris+Podosira+Hyalodiscus_7AE153E0-4668-4B6B-940E-8C0F8D60E8B1.jpg",
+      "width": "54",
+      "height": "54"
+    }
+  ],
   "life_watch::Stephanopyxis": [
     {
       "dataset_id": "life_watch",
@@ -10209,6 +10653,154 @@
       "source_ref": "datasets/LifeWatch/data/images/Suctoria/ecotaxa_Suctoria_C8513EFB-F4BA-433C-9DDC-3EC157CBF0A6.jpg",
       "width": "95",
       "height": "100"
+    }
+  ],
+  "life_watch::Synedra+Thalassionema": [
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Synedra+Thalassionema",
+      "image_id": "A1ECB0D5-8496-43A6-84B7-4C876A146894",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Synedra_Thalassionema/01_c44812297c.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Synedra+Thalassionema/ecotaxa_Synedra+Thalassionema_A1ECB0D5-8496-43A6-84B7-4C876A146894.jpg",
+      "width": "68",
+      "height": "108"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Synedra+Thalassionema",
+      "image_id": "D8ECC197-991F-4533-ADA0-DA0828BA1E9D",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Synedra_Thalassionema/02_3b62f87d95.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Synedra+Thalassionema/ecotaxa_Synedra+Thalassionema_D8ECC197-991F-4533-ADA0-DA0828BA1E9D.jpg",
+      "width": "82",
+      "height": "95"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Synedra+Thalassionema",
+      "image_id": "2F745CFA-FAD3-4FD1-B657-6E36CE35654D",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Synedra_Thalassionema/03_b815e8ec77.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Synedra+Thalassionema/ecotaxa_Synedra+Thalassionema_2F745CFA-FAD3-4FD1-B657-6E36CE35654D.jpg",
+      "width": "60",
+      "height": "57"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Synedra+Thalassionema",
+      "image_id": "8435A889-7542-4E5F-956B-FDD5FBB1A345",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Synedra_Thalassionema/04_5398a85912.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Synedra+Thalassionema/ecotaxa_Synedra+Thalassionema_8435A889-7542-4E5F-956B-FDD5FBB1A345.jpg",
+      "width": "61",
+      "height": "64"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Synedra+Thalassionema",
+      "image_id": "9BCE080D-1450-469A-A7C1-EF55567000C8",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Synedra_Thalassionema/05_330f129afb.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Synedra+Thalassionema/ecotaxa_Synedra+Thalassionema_9BCE080D-1450-469A-A7C1-EF55567000C8.jpg",
+      "width": "76",
+      "height": "149"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Synedra+Thalassionema",
+      "image_id": "48805EAA-5824-4261-975D-9BCE3C8FEBAC",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Synedra_Thalassionema/06_6b46cf7873.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Synedra+Thalassionema/ecotaxa_Synedra+Thalassionema_48805EAA-5824-4261-975D-9BCE3C8FEBAC.jpg",
+      "width": "180",
+      "height": "182"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Synedra+Thalassionema",
+      "image_id": "8DBB3309-5690-445A-BEEA-FC7DF76D54E4",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Synedra_Thalassionema/07_aee349a068.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Synedra+Thalassionema/ecotaxa_Synedra+Thalassionema_8DBB3309-5690-445A-BEEA-FC7DF76D54E4.jpg",
+      "width": "71",
+      "height": "63"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Bacillariophyceae: Synedra+Thalassionema",
+      "image_id": "AD2CD052-8457-45D5-A3AA-E928F9FE44C4",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Synedra_Thalassionema/08_247f54de67.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Synedra+Thalassionema/ecotaxa_Synedra+Thalassionema_AD2CD052-8457-45D5-A3AA-E928F9FE44C4.jpg",
+      "width": "70",
+      "height": "78"
+    }
+  ],
+  "life_watch::Thalassiosira+Porosira": [
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Thalassiosira+Porosira",
+      "image_id": "D7841EB6-7E77-45B0-A33D-46D7F79E2B83",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Thalassiosira_Porosira/01_7355cb283f.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Thalassiosira+Porosira/ecotaxa_Thalassiosira+Porosira_D7841EB6-7E77-45B0-A33D-46D7F79E2B83.jpg",
+      "width": "60",
+      "height": "59"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Thalassiosira+Porosira",
+      "image_id": "2FC215D4-0D2D-4E47-9375-D0C1FDA69927",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Thalassiosira_Porosira/02_9284c95f36.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Thalassiosira+Porosira/ecotaxa_Thalassiosira+Porosira_2FC215D4-0D2D-4E47-9375-D0C1FDA69927.jpg",
+      "width": "49",
+      "height": "62"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Thalassiosira+Porosira",
+      "image_id": "557E99F0-312C-410A-A267-475C41B3E9B3",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Thalassiosira_Porosira/03_ff23651035.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Thalassiosira+Porosira/ecotaxa_Thalassiosira+Porosira_557E99F0-312C-410A-A267-475C41B3E9B3.jpg",
+      "width": "71",
+      "height": "119"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Thalassiosira+Porosira",
+      "image_id": "4984616C-3316-4242-AF96-292B2A278AAA",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Thalassiosira_Porosira/04_fda335def2.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Thalassiosira+Porosira/ecotaxa_Thalassiosira+Porosira_4984616C-3316-4242-AF96-292B2A278AAA.jpg",
+      "width": "55",
+      "height": "131"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Thalassiosira+Porosira",
+      "image_id": "140C3220-9181-44C6-923E-02554FD91C6B",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Thalassiosira_Porosira/05_608bc55ffd.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Thalassiosira+Porosira/ecotaxa_Thalassiosira+Porosira_140C3220-9181-44C6-923E-02554FD91C6B.jpg",
+      "width": "55",
+      "height": "57"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Thalassiosira+Porosira",
+      "image_id": "9209698D-6E60-465E-A190-C3EEFDDD6A91",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Thalassiosira_Porosira/06_fd3838ab9f.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Thalassiosira+Porosira/ecotaxa_Thalassiosira+Porosira_9209698D-6E60-465E-A190-C3EEFDDD6A91.jpg",
+      "width": "58",
+      "height": "58"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Thalassiosira+Porosira",
+      "image_id": "0BF24FB6-3EE8-4DA8-A48F-748C8C4B3060",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Thalassiosira_Porosira/07_bb58362ce1.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Thalassiosira+Porosira/ecotaxa_Thalassiosira+Porosira_0BF24FB6-3EE8-4DA8-A48F-748C8C4B3060.jpg",
+      "width": "54",
+      "height": "76"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Coscinodiscophycidae: Thalassiosira+Porosira",
+      "image_id": "3AADA64A-26EA-4251-A573-9EEF5280CCA3",
+      "thumbnail_url": "/samples/life_watch/Coscinodiscophycidae_Thalassiosira_Porosira/08_be1e437d8e.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Thalassiosira+Porosira/ecotaxa_Thalassiosira+Porosira_3AADA64A-26EA-4251-A573-9EEF5280CCA3.jpg",
+      "width": "58",
+      "height": "58"
     }
   ],
   "life_watch::Tintinnina": [
@@ -10505,6 +11097,80 @@
       "source_ref": "datasets/LifeWatch/data/images/Trieres_mobiliensis+T._regia/ecotaxa_Trieres_mobiliensis+T._regia_33918240-0FDA-4751-9EDC-4A43B269C82D.jpg",
       "width": "130",
       "height": "91"
+    }
+  ],
+  "life_watch::Trieres_sinensis": [
+    {
+      "dataset_id": "life_watch",
+      "label": "Trieres: Trieres_sinensis",
+      "image_id": "864656E0-1833-4D2F-9F99-6724AB4C2142",
+      "thumbnail_url": "/samples/life_watch/Trieres_Trieres_sinensis/01_ab8cd3f07b.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Trieres_sinensis/ecotaxa_Trieres_sinensis_864656E0-1833-4D2F-9F99-6724AB4C2142.jpg",
+      "width": "265",
+      "height": "164"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Trieres: Trieres_sinensis",
+      "image_id": "097660B5-5EC4-4CA5-8F9A-CB8D614640DB",
+      "thumbnail_url": "/samples/life_watch/Trieres_Trieres_sinensis/02_3f5cbdb5ac.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Trieres_sinensis/ecotaxa_Trieres_sinensis_097660B5-5EC4-4CA5-8F9A-CB8D614640DB.jpg",
+      "width": "265",
+      "height": "175"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Trieres: Trieres_sinensis",
+      "image_id": "87730D07-7BDB-4DC5-A7DA-533F3BFF7FD8",
+      "thumbnail_url": "/samples/life_watch/Trieres_Trieres_sinensis/03_c3ad5c456e.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Trieres_sinensis/ecotaxa_Trieres_sinensis_87730D07-7BDB-4DC5-A7DA-533F3BFF7FD8.jpg",
+      "width": "284",
+      "height": "94"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Trieres: Trieres_sinensis",
+      "image_id": "5E6C5F57-D241-4C27-919E-C795FC398344",
+      "thumbnail_url": "/samples/life_watch/Trieres_Trieres_sinensis/04_e1a007249f.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Trieres_sinensis/ecotaxa_Trieres_sinensis_5E6C5F57-D241-4C27-919E-C795FC398344.jpg",
+      "width": "57",
+      "height": "85"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Trieres: Trieres_sinensis",
+      "image_id": "357CDAC7-EC09-4DD8-BD39-0890B5851828",
+      "thumbnail_url": "/samples/life_watch/Trieres_Trieres_sinensis/05_1b39a1e9d2.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Trieres_sinensis/ecotaxa_Trieres_sinensis_357CDAC7-EC09-4DD8-BD39-0890B5851828.jpg",
+      "width": "86",
+      "height": "89"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Trieres: Trieres_sinensis",
+      "image_id": "26A40A3E-014A-4BB3-9DE3-D53BB969ED19",
+      "thumbnail_url": "/samples/life_watch/Trieres_Trieres_sinensis/06_26d3b77cb5.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Trieres_sinensis/ecotaxa_Trieres_sinensis_26A40A3E-014A-4BB3-9DE3-D53BB969ED19.jpg",
+      "width": "225",
+      "height": "118"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Trieres: Trieres_sinensis",
+      "image_id": "0052F528-93A4-4ED3-B7C2-4232813215D5",
+      "thumbnail_url": "/samples/life_watch/Trieres_Trieres_sinensis/07_785571419e.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Trieres_sinensis/ecotaxa_Trieres_sinensis_0052F528-93A4-4ED3-B7C2-4232813215D5.jpg",
+      "width": "94",
+      "height": "128"
+    },
+    {
+      "dataset_id": "life_watch",
+      "label": "Trieres: Trieres_sinensis",
+      "image_id": "E9602CD1-6D6D-4374-9D4C-3C2DD23CBCEE",
+      "thumbnail_url": "/samples/life_watch/Trieres_Trieres_sinensis/08_e0a48a9409.jpg",
+      "source_ref": "datasets/LifeWatch/data/images/Trieres_sinensis/ecotaxa_Trieres_sinensis_E9602CD1-6D6D-4374-9D4C-3C2DD23CBCEE.jpg",
+      "width": "107",
+      "height": "117"
     }
   ],
   "life_watch::Tripos": [
@@ -13030,6 +13696,80 @@
       "height": "236"
     }
   ],
+  "life_watch_2026_image_library::Dactyliosolen/Cerataulina/Guinardia": [
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Dactyliosolen/Cerataulina/Guinardia",
+      "image_id": "00DDAF2E-105B-4A79-8478-F7C236941432",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Dactyliosolen_Cerataulina_Guinardia/01_eb7201e051.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Dactyliosolen/Cerataulina/Guinardia/00DDAF2E-105B-4A79-8478-F7C236941432.png",
+      "width": "87",
+      "height": "42"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Dactyliosolen/Cerataulina/Guinardia",
+      "image_id": "375DACE4-B205-4B3A-918C-C198C80FE795",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Dactyliosolen_Cerataulina_Guinardia/02_f980b41388.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Dactyliosolen/Cerataulina/Guinardia/375DACE4-B205-4B3A-918C-C198C80FE795.png",
+      "width": "61",
+      "height": "47"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Dactyliosolen/Cerataulina/Guinardia",
+      "image_id": "6C873268-DE00-4691-9A51-0FDBE7D6381B",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Dactyliosolen_Cerataulina_Guinardia/03_83b8c74271.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Dactyliosolen/Cerataulina/Guinardia/6C873268-DE00-4691-9A51-0FDBE7D6381B.png",
+      "width": "57",
+      "height": "51"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Dactyliosolen/Cerataulina/Guinardia",
+      "image_id": "283EA247-5FB2-4405-984D-0B33819F39C7",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Dactyliosolen_Cerataulina_Guinardia/04_7390cccd28.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Dactyliosolen/Cerataulina/Guinardia/283EA247-5FB2-4405-984D-0B33819F39C7.png",
+      "width": "53",
+      "height": "56"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Dactyliosolen/Cerataulina/Guinardia",
+      "image_id": "D2E9C0FA-7824-4603-875B-A7412B309387",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Dactyliosolen_Cerataulina_Guinardia/05_20961abad5.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Dactyliosolen/Cerataulina/Guinardia/D2E9C0FA-7824-4603-875B-A7412B309387.png",
+      "width": "46",
+      "height": "58"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Dactyliosolen/Cerataulina/Guinardia",
+      "image_id": "7EF0749C-8AB8-433D-AA3D-6274C4BCF7C0",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Dactyliosolen_Cerataulina_Guinardia/06_0be5fa5a6d.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Dactyliosolen/Cerataulina/Guinardia/7EF0749C-8AB8-433D-AA3D-6274C4BCF7C0.png",
+      "width": "59",
+      "height": "52"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Dactyliosolen/Cerataulina/Guinardia",
+      "image_id": "75278338-9898-4D69-965F-980700D26FF8",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Dactyliosolen_Cerataulina_Guinardia/07_54a9dbf021.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Dactyliosolen/Cerataulina/Guinardia/75278338-9898-4D69-965F-980700D26FF8.png",
+      "width": "45",
+      "height": "62"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Dactyliosolen/Cerataulina/Guinardia",
+      "image_id": "5E24C8AF-5C9D-4CF9-8AAA-1D16C6B27488",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Dactyliosolen_Cerataulina_Guinardia/08_b54d4e858d.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Dactyliosolen/Cerataulina/Guinardia/5E24C8AF-5C9D-4CF9-8AAA-1D16C6B27488.png",
+      "width": "69",
+      "height": "51"
+    }
+  ],
   "life_watch_2026_image_library::Decapoda": [
     {
       "dataset_id": "life_watch_2026_image_library",
@@ -13765,6 +14505,80 @@
       "height": "76"
     }
   ],
+  "life_watch_2026_image_library::Guinardia striata/Dactyliosolen phuketensis": [
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Rhizosoleniaceae: Guinardia striata/Dactyliosolen phuketensis",
+      "image_id": "D58F6323-6791-4E8B-A7C6-803C3C744351",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosoleniaceae_Guinardia_striata_Dactyliosolen_phuketensis/01_9885325624.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Guinardia striata/Dactyliosolen phuketensis/D58F6323-6791-4E8B-A7C6-803C3C744351.png",
+      "width": "73",
+      "height": "31"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Rhizosoleniaceae: Guinardia striata/Dactyliosolen phuketensis",
+      "image_id": "FE6936D3-C69B-4D68-A229-EA133C0E9311",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosoleniaceae_Guinardia_striata_Dactyliosolen_phuketensis/02_72ee5bff21.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Guinardia striata/Dactyliosolen phuketensis/FE6936D3-C69B-4D68-A229-EA133C0E9311.png",
+      "width": "110",
+      "height": "130"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Rhizosoleniaceae: Guinardia striata/Dactyliosolen phuketensis",
+      "image_id": "9504D57E-3CB2-41DD-9C8B-D9005C0EE7AD",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosoleniaceae_Guinardia_striata_Dactyliosolen_phuketensis/03_374161907c.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Guinardia striata/Dactyliosolen phuketensis/9504D57E-3CB2-41DD-9C8B-D9005C0EE7AD.png",
+      "width": "51",
+      "height": "65"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Rhizosoleniaceae: Guinardia striata/Dactyliosolen phuketensis",
+      "image_id": "B1ED4965-C795-45FD-8647-F31B3C0A2CB6",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosoleniaceae_Guinardia_striata_Dactyliosolen_phuketensis/04_5f9dd8e6ed.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Guinardia striata/Dactyliosolen phuketensis/B1ED4965-C795-45FD-8647-F31B3C0A2CB6.png",
+      "width": "45",
+      "height": "74"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Rhizosoleniaceae: Guinardia striata/Dactyliosolen phuketensis",
+      "image_id": "3230C5A5-9872-4142-AC49-191B7D5A5A18",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosoleniaceae_Guinardia_striata_Dactyliosolen_phuketensis/05_5cad75f6d8.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Guinardia striata/Dactyliosolen phuketensis/3230C5A5-9872-4142-AC49-191B7D5A5A18.png",
+      "width": "95",
+      "height": "45"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Rhizosoleniaceae: Guinardia striata/Dactyliosolen phuketensis",
+      "image_id": "41D570D7-796A-4D0E-A79A-5012ECC870E9",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosoleniaceae_Guinardia_striata_Dactyliosolen_phuketensis/06_dd83e586c3.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Guinardia striata/Dactyliosolen phuketensis/41D570D7-796A-4D0E-A79A-5012ECC870E9.png",
+      "width": "50",
+      "height": "86"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Rhizosoleniaceae: Guinardia striata/Dactyliosolen phuketensis",
+      "image_id": "87BAD38D-4E1A-4D26-B067-01354905284C",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosoleniaceae_Guinardia_striata_Dactyliosolen_phuketensis/07_fff8412ff5.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Guinardia striata/Dactyliosolen phuketensis/87BAD38D-4E1A-4D26-B067-01354905284C.png",
+      "width": "108",
+      "height": "204"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Rhizosoleniaceae: Guinardia striata/Dactyliosolen phuketensis",
+      "image_id": "755E8C43-E0CF-411F-95C6-817E380A2237",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosoleniaceae_Guinardia_striata_Dactyliosolen_phuketensis/08_a53d19e44b.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Guinardia striata/Dactyliosolen phuketensis/755E8C43-E0CF-411F-95C6-817E380A2237.png",
+      "width": "52",
+      "height": "92"
+    }
+  ],
   "life_watch_2026_image_library::Helicotheca tamesis": [
     {
       "dataset_id": "life_watch_2026_image_library",
@@ -13978,6 +14792,80 @@
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Holothuroidea ossicles/917A5D75-2B94-49A0-839E-217BCA5326D0.png",
       "width": "124",
       "height": "110"
+    }
+  ],
+  "life_watch_2026_image_library::Lauderia/Melosira/Detonula": [
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Lauderia/Melosira/Detonula",
+      "image_id": "4D7F4554-C319-4761-ACD5-35D08A3F75C7",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Lauderia_Melosira_Detonula/01_b06f3daebc.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Lauderia/Melosira/Detonula/4D7F4554-C319-4761-ACD5-35D08A3F75C7.png",
+      "width": "41",
+      "height": "88"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Lauderia/Melosira/Detonula",
+      "image_id": "1D5F7A62-1253-426F-BAD7-C085E83020F0",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Lauderia_Melosira_Detonula/02_99296a98a7.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Lauderia/Melosira/Detonula/1D5F7A62-1253-426F-BAD7-C085E83020F0.png",
+      "width": "108",
+      "height": "57"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Lauderia/Melosira/Detonula",
+      "image_id": "1D7E050A-5C27-4D95-9F06-A67365E839B6",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Lauderia_Melosira_Detonula/03_b2c55e0e44.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Lauderia/Melosira/Detonula/1D7E050A-5C27-4D95-9F06-A67365E839B6.png",
+      "width": "42",
+      "height": "82"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Lauderia/Melosira/Detonula",
+      "image_id": "52751048-0EFD-4F3C-869A-FC4EE0333251",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Lauderia_Melosira_Detonula/04_e8ab1f994c.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Lauderia/Melosira/Detonula/52751048-0EFD-4F3C-869A-FC4EE0333251.png",
+      "width": "51",
+      "height": "178"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Lauderia/Melosira/Detonula",
+      "image_id": "5B138BF8-7842-4EBD-BE48-C0487EDE1B1B",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Lauderia_Melosira_Detonula/05_8c36d0fb65.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Lauderia/Melosira/Detonula/5B138BF8-7842-4EBD-BE48-C0487EDE1B1B.png",
+      "width": "51",
+      "height": "124"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Lauderia/Melosira/Detonula",
+      "image_id": "A53E7A94-C4D0-495E-96EC-4CC8C17474FF",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Lauderia_Melosira_Detonula/06_0ee2b457fe.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Lauderia/Melosira/Detonula/A53E7A94-C4D0-495E-96EC-4CC8C17474FF.png",
+      "width": "101",
+      "height": "90"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Lauderia/Melosira/Detonula",
+      "image_id": "34E295C6-80DF-4FAE-B32B-836D256E1966",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Lauderia_Melosira_Detonula/07_65332e4a7f.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Lauderia/Melosira/Detonula/34E295C6-80DF-4FAE-B32B-836D256E1966.png",
+      "width": "55",
+      "height": "51"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Lauderia/Melosira/Detonula",
+      "image_id": "B762ED48-C48E-4A4F-A1CE-964087DF34E1",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Lauderia_Melosira_Detonula/08_7dba50022d.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Lauderia/Melosira/Detonula/B762ED48-C48E-4A4F-A1CE-964087DF34E1.png",
+      "width": "49",
+      "height": "60"
     }
   ],
   "life_watch_2026_image_library::Licmophora": [
@@ -14693,6 +15581,80 @@
       "height": "110"
     }
   ],
+  "life_watch_2026_image_library::Odontella aurita/Ralfsiella minima": [
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Biddulphianae: Odontella aurita/Ralfsiella minima",
+      "image_id": "C4F585E4-3EAB-49BF-9565-04D2709002ED",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Biddulphianae_Odontella_aurita_Ralfsiella_minima/01_acad02398c.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Odontella aurita/Ralfsiella minima/C4F585E4-3EAB-49BF-9565-04D2709002ED.png",
+      "width": "22",
+      "height": "106"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Biddulphianae: Odontella aurita/Ralfsiella minima",
+      "image_id": "80AD0C7B-4011-4ABF-88E7-4DEDA798CF2D",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Biddulphianae_Odontella_aurita_Ralfsiella_minima/02_3ecbb5afd3.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Odontella aurita/Ralfsiella minima/80AD0C7B-4011-4ABF-88E7-4DEDA798CF2D.png",
+      "width": "86",
+      "height": "104"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Biddulphianae: Odontella aurita/Ralfsiella minima",
+      "image_id": "897704EC-DD07-44A5-A764-45F251E8C84D",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Biddulphianae_Odontella_aurita_Ralfsiella_minima/03_cea8bb9c0d.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Odontella aurita/Ralfsiella minima/897704EC-DD07-44A5-A764-45F251E8C84D.png",
+      "width": "101",
+      "height": "85"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Biddulphianae: Odontella aurita/Ralfsiella minima",
+      "image_id": "4E92E671-AA59-4D28-828A-475B08798034",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Biddulphianae_Odontella_aurita_Ralfsiella_minima/04_a2e2cbd1ce.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Odontella aurita/Ralfsiella minima/4E92E671-AA59-4D28-828A-475B08798034.png",
+      "width": "48",
+      "height": "80"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Biddulphianae: Odontella aurita/Ralfsiella minima",
+      "image_id": "09BBFA4F-B71A-4186-80F8-D3AF32D25E06",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Biddulphianae_Odontella_aurita_Ralfsiella_minima/05_a3094e3999.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Odontella aurita/Ralfsiella minima/09BBFA4F-B71A-4186-80F8-D3AF32D25E06.png",
+      "width": "63",
+      "height": "129"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Biddulphianae: Odontella aurita/Ralfsiella minima",
+      "image_id": "EBC595F5-F377-4C11-941B-FF0BFC69CD66",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Biddulphianae_Odontella_aurita_Ralfsiella_minima/06_c441ce8118.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Odontella aurita/Ralfsiella minima/EBC595F5-F377-4C11-941B-FF0BFC69CD66.png",
+      "width": "105",
+      "height": "71"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Biddulphianae: Odontella aurita/Ralfsiella minima",
+      "image_id": "D3144712-486A-4A3E-AB16-558C65122A6C",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Biddulphianae_Odontella_aurita_Ralfsiella_minima/07_c9a437146c.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Odontella aurita/Ralfsiella minima/D3144712-486A-4A3E-AB16-558C65122A6C.png",
+      "width": "33",
+      "height": "84"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Biddulphianae: Odontella aurita/Ralfsiella minima",
+      "image_id": "AC8B0624-BFD0-41C6-AE3F-CBC8F220DEBA",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Biddulphianae_Odontella_aurita_Ralfsiella_minima/08_864bd30ac2.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Odontella aurita/Ralfsiella minima/AC8B0624-BFD0-41C6-AE3F-CBC8F220DEBA.png",
+      "width": "46",
+      "height": "67"
+    }
+  ],
   "life_watch_2026_image_library::Odontella rhombus f. trigona": [
     {
       "dataset_id": "life_watch_2026_image_library",
@@ -15027,6 +15989,80 @@
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Plagiogrammopsis vanheurckii/594B196A-6AFF-4BDB-876F-4A83C9E62D59.png",
       "width": "73",
       "height": "70"
+    }
+  ],
+  "life_watch_2026_image_library::Plagiogrammopsis/Bellerochea malleus": [
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Plagiogrammopsis/Bellerochea malleus",
+      "image_id": "E6278CD9-5B25-4936-9D3B-F0E468AC8985",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Plagiogrammopsis_Bellerochea_malleus/01_bf8c5fe9a2.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Plagiogrammopsis/Bellerochea malleus/E6278CD9-5B25-4936-9D3B-F0E468AC8985.png",
+      "width": "96",
+      "height": "168"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Plagiogrammopsis/Bellerochea malleus",
+      "image_id": "41EAD1F0-ECEA-426C-8180-9931D9C7ADD3",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Plagiogrammopsis_Bellerochea_malleus/02_96f00f6833.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Plagiogrammopsis/Bellerochea malleus/41EAD1F0-ECEA-426C-8180-9931D9C7ADD3.png",
+      "width": "46",
+      "height": "157"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Plagiogrammopsis/Bellerochea malleus",
+      "image_id": "19E34EC5-868F-4C2E-8F9F-A13950B27F56",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Plagiogrammopsis_Bellerochea_malleus/03_ed932efcc5.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Plagiogrammopsis/Bellerochea malleus/19E34EC5-868F-4C2E-8F9F-A13950B27F56.png",
+      "width": "212",
+      "height": "78"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Plagiogrammopsis/Bellerochea malleus",
+      "image_id": "1BD28E5D-95F8-4B63-97CA-5FD9734BBBA1",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Plagiogrammopsis_Bellerochea_malleus/04_41be3128d1.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Plagiogrammopsis/Bellerochea malleus/1BD28E5D-95F8-4B63-97CA-5FD9734BBBA1.png",
+      "width": "78",
+      "height": "65"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Plagiogrammopsis/Bellerochea malleus",
+      "image_id": "F4E0125A-8049-479A-9809-AF59A2D5303E",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Plagiogrammopsis_Bellerochea_malleus/05_c438c73a1f.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Plagiogrammopsis/Bellerochea malleus/F4E0125A-8049-479A-9809-AF59A2D5303E.png",
+      "width": "62",
+      "height": "84"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Plagiogrammopsis/Bellerochea malleus",
+      "image_id": "ACF0C96C-87A6-4CD4-A9EA-772A27DD127A",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Plagiogrammopsis_Bellerochea_malleus/06_c8819a4eba.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Plagiogrammopsis/Bellerochea malleus/ACF0C96C-87A6-4CD4-A9EA-772A27DD127A.png",
+      "width": "113",
+      "height": "88"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Plagiogrammopsis/Bellerochea malleus",
+      "image_id": "5CF6CF55-3CDA-442F-AD45-80A4BB0E7029",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Plagiogrammopsis_Bellerochea_malleus/07_0af42b7b75.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Plagiogrammopsis/Bellerochea malleus/5CF6CF55-3CDA-442F-AD45-80A4BB0E7029.png",
+      "width": "99",
+      "height": "107"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Plagiogrammopsis/Bellerochea malleus",
+      "image_id": "E8122757-71EE-47EA-AC30-5CDC8187C20F",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Plagiogrammopsis_Bellerochea_malleus/08_7ea7c450dc.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Plagiogrammopsis/Bellerochea malleus/E8122757-71EE-47EA-AC30-5CDC8187C20F.png",
+      "width": "71",
+      "height": "91"
     }
   ],
   "life_watch_2026_image_library::Polychaeta": [
@@ -16020,6 +17056,80 @@
       "height": "274"
     }
   ],
+  "life_watch_2026_image_library::Stellarima stellaris/Podosira/Hyalodiscus": [
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Stellarima stellaris/Podosira/Hyalodiscus",
+      "image_id": "8A63DA16-4A56-482D-A80F-14CF2B6AE46F",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Stellarima_stellaris_Podosira_Hyalodiscus/01_7701eae1d5.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stellarima stellaris/Podosira/Hyalodiscus/8A63DA16-4A56-482D-A80F-14CF2B6AE46F.png",
+      "width": "78",
+      "height": "72"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Stellarima stellaris/Podosira/Hyalodiscus",
+      "image_id": "F5775C36-4A24-4461-B3A2-52CDBD4B6DC4",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Stellarima_stellaris_Podosira_Hyalodiscus/02_2f14a6bbfe.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stellarima stellaris/Podosira/Hyalodiscus/F5775C36-4A24-4461-B3A2-52CDBD4B6DC4.png",
+      "width": "79",
+      "height": "78"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Stellarima stellaris/Podosira/Hyalodiscus",
+      "image_id": "9C0E2394-E123-49F3-BF8A-129218641233",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Stellarima_stellaris_Podosira_Hyalodiscus/03_ec491a3cf2.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stellarima stellaris/Podosira/Hyalodiscus/9C0E2394-E123-49F3-BF8A-129218641233.png",
+      "width": "95",
+      "height": "116"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Stellarima stellaris/Podosira/Hyalodiscus",
+      "image_id": "20857D22-4BA5-41F2-A9DE-723840EFD86A",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Stellarima_stellaris_Podosira_Hyalodiscus/04_f9e67fde1d.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stellarima stellaris/Podosira/Hyalodiscus/20857D22-4BA5-41F2-A9DE-723840EFD86A.png",
+      "width": "124",
+      "height": "119"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Stellarima stellaris/Podosira/Hyalodiscus",
+      "image_id": "310F7CB9-F6C0-4562-8EED-79FCE7D97B7D",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Stellarima_stellaris_Podosira_Hyalodiscus/05_8eec3bf507.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stellarima stellaris/Podosira/Hyalodiscus/310F7CB9-F6C0-4562-8EED-79FCE7D97B7D.png",
+      "width": "133",
+      "height": "135"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Stellarima stellaris/Podosira/Hyalodiscus",
+      "image_id": "B2F49D00-971F-411E-99DB-0C9735D9BF1F",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Stellarima_stellaris_Podosira_Hyalodiscus/06_6a83382ae3.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stellarima stellaris/Podosira/Hyalodiscus/B2F49D00-971F-411E-99DB-0C9735D9BF1F.png",
+      "width": "120",
+      "height": "120"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Stellarima stellaris/Podosira/Hyalodiscus",
+      "image_id": "509934B9-A185-4826-9090-537F6391FF9B",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Stellarima_stellaris_Podosira_Hyalodiscus/07_aba4dd8681.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stellarima stellaris/Podosira/Hyalodiscus/509934B9-A185-4826-9090-537F6391FF9B.png",
+      "width": "97",
+      "height": "95"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Stellarima stellaris/Podosira/Hyalodiscus",
+      "image_id": "248A59AB-145D-4C20-A990-3BA53444C7BD",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Stellarima_stellaris_Podosira_Hyalodiscus/08_c6f8e3969f.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Stellarima stellaris/Podosira/Hyalodiscus/248A59AB-145D-4C20-A990-3BA53444C7BD.png",
+      "width": "60",
+      "height": "60"
+    }
+  ],
   "life_watch_2026_image_library::Stentor": [
     {
       "dataset_id": "life_watch_2026_image_library",
@@ -16179,6 +17289,80 @@
       "height": "99"
     }
   ],
+  "life_watch_2026_image_library::Synedra/Thalassionema": [
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Synedra/Thalassionema",
+      "image_id": "80C9E1B3-A418-4B60-BAB5-4E040BBD532C",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Synedra_Thalassionema/01_e1021c28e3.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Synedra/Thalassionema/80C9E1B3-A418-4B60-BAB5-4E040BBD532C.png",
+      "width": "78",
+      "height": "94"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Synedra/Thalassionema",
+      "image_id": "5C952641-DCAD-45EF-AA71-391C9E3BDF6F",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Synedra_Thalassionema/02_476cb98c72.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Synedra/Thalassionema/5C952641-DCAD-45EF-AA71-391C9E3BDF6F.png",
+      "width": "97",
+      "height": "112"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Synedra/Thalassionema",
+      "image_id": "95279A82-AA7C-401C-9399-D6178D9F8CC6",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Synedra_Thalassionema/03_b6b666b2aa.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Synedra/Thalassionema/95279A82-AA7C-401C-9399-D6178D9F8CC6.png",
+      "width": "76",
+      "height": "169"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Synedra/Thalassionema",
+      "image_id": "643B1B9E-D954-4FAF-A674-02CD5EB4BD73",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Synedra_Thalassionema/04_4180d5896d.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Synedra/Thalassionema/643B1B9E-D954-4FAF-A674-02CD5EB4BD73.png",
+      "width": "79",
+      "height": "90"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Synedra/Thalassionema",
+      "image_id": "7F87C4A9-68E8-4E50-BE81-0841C70F9B85",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Synedra_Thalassionema/05_d0593e86bd.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Synedra/Thalassionema/7F87C4A9-68E8-4E50-BE81-0841C70F9B85.png",
+      "width": "73",
+      "height": "62"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Synedra/Thalassionema",
+      "image_id": "449DB2BE-4C5E-48A9-AFA3-0EE5F6093578",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Synedra_Thalassionema/06_95aa9c284e.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Synedra/Thalassionema/449DB2BE-4C5E-48A9-AFA3-0EE5F6093578.png",
+      "width": "34",
+      "height": "65"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Synedra/Thalassionema",
+      "image_id": "C911B3D9-B9DA-4B3C-85E4-2FAD6F4AEAF5",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Synedra_Thalassionema/07_ac7aa01a54.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Synedra/Thalassionema/C911B3D9-B9DA-4B3C-85E4-2FAD6F4AEAF5.png",
+      "width": "95",
+      "height": "105"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Bacillariophyceae: Synedra/Thalassionema",
+      "image_id": "60BBF250-4DB3-4C59-B784-1A019292C5FD",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Synedra_Thalassionema/08_aff81e1640.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Synedra/Thalassionema/60BBF250-4DB3-4C59-B784-1A019292C5FD.png",
+      "width": "84",
+      "height": "126"
+    }
+  ],
   "life_watch_2026_image_library::Thalassiosira punctigera": [
     {
       "dataset_id": "life_watch_2026_image_library",
@@ -16251,6 +17435,80 @@
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Thalassiosira punctigera/84E5917A-AEB4-48CF-B48A-A13BFDAEC588.png",
       "width": "137",
       "height": "172"
+    }
+  ],
+  "life_watch_2026_image_library::Thalassiosira/Porosira": [
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Thalassiosira/Porosira",
+      "image_id": "D6EBF378-A26B-411A-93A5-390E70942A50",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Thalassiosira_Porosira/01_12e6e1594e.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Thalassiosira/Porosira/D6EBF378-A26B-411A-93A5-390E70942A50.png",
+      "width": "51",
+      "height": "79"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Thalassiosira/Porosira",
+      "image_id": "A3A887B6-6631-4086-A0D9-852C4DE3298F",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Thalassiosira_Porosira/02_aef1edfefe.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Thalassiosira/Porosira/A3A887B6-6631-4086-A0D9-852C4DE3298F.png",
+      "width": "56",
+      "height": "157"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Thalassiosira/Porosira",
+      "image_id": "D448900A-7620-486A-B803-513893A6D9E4",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Thalassiosira_Porosira/03_3b5888829c.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Thalassiosira/Porosira/D448900A-7620-486A-B803-513893A6D9E4.png",
+      "width": "35",
+      "height": "54"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Thalassiosira/Porosira",
+      "image_id": "28DE65D9-C086-40E9-95A0-15FCA9291B42",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Thalassiosira_Porosira/04_ad594b00f6.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Thalassiosira/Porosira/28DE65D9-C086-40E9-95A0-15FCA9291B42.png",
+      "width": "65",
+      "height": "55"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Thalassiosira/Porosira",
+      "image_id": "78815ED4-5DE4-4232-B674-0B26EE6B78F7",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Thalassiosira_Porosira/05_58c3810d89.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Thalassiosira/Porosira/78815ED4-5DE4-4232-B674-0B26EE6B78F7.png",
+      "width": "111",
+      "height": "56"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Thalassiosira/Porosira",
+      "image_id": "B92D6980-922D-4047-B3CE-5CAB5B00805C",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Thalassiosira_Porosira/06_ec349fa6f0.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Thalassiosira/Porosira/B92D6980-922D-4047-B3CE-5CAB5B00805C.png",
+      "width": "76",
+      "height": "77"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Thalassiosira/Porosira",
+      "image_id": "874DCA71-F30F-4E27-A11F-B8E0472AA4C1",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Thalassiosira_Porosira/07_2cf078828e.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Thalassiosira/Porosira/874DCA71-F30F-4E27-A11F-B8E0472AA4C1.png",
+      "width": "58",
+      "height": "57"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Coscinodiscophycidae: Thalassiosira/Porosira",
+      "image_id": "1093131C-5590-4133-AF60-3653DD26E456",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Coscinodiscophycidae_Thalassiosira_Porosira/08_536fbd044e.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Thalassiosira/Porosira/1093131C-5590-4133-AF60-3653DD26E456.png",
+      "width": "60",
+      "height": "46"
     }
   ],
   "life_watch_2026_image_library::Tintinnina": [
@@ -16529,6 +17787,80 @@
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Trieres mobiliensis/T. regia/293C23A3-6FD3-439F-A318-D0C70970C4FB.png",
       "width": "121",
       "height": "99"
+    }
+  ],
+  "life_watch_2026_image_library::Trieres sinensis": [
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Trieres: Trieres sinensis",
+      "image_id": "F920C33C-D88A-4C96-9734-F5AC2C5811DA",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_Trieres_sinensis/01_26b019dfa9.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Trieres sinensis/F920C33C-D88A-4C96-9734-F5AC2C5811DA.png",
+      "width": "87",
+      "height": "47"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Trieres: Trieres sinensis",
+      "image_id": "7CC64345-EF3C-4AED-B8E1-854F0D56D441",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_Trieres_sinensis/02_fb0609bf7f.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Trieres sinensis/7CC64345-EF3C-4AED-B8E1-854F0D56D441.png",
+      "width": "96",
+      "height": "29"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Trieres: Trieres sinensis",
+      "image_id": "06D66C3D-CB29-4D6F-A2E9-0249EB784DE5",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_Trieres_sinensis/03_3a46e22c4c.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Trieres sinensis/06D66C3D-CB29-4D6F-A2E9-0249EB784DE5.png",
+      "width": "201",
+      "height": "203"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Trieres: Trieres sinensis",
+      "image_id": "EFC7A73F-8E53-42BB-B86C-7238FD29F933",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_Trieres_sinensis/04_1d700e6b2b.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Trieres sinensis/EFC7A73F-8E53-42BB-B86C-7238FD29F933.png",
+      "width": "294",
+      "height": "30"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Trieres: Trieres sinensis",
+      "image_id": "C2329E5B-837A-4732-AFE5-DA2DDFA08752",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_Trieres_sinensis/05_bf8869e35b.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Trieres sinensis/C2329E5B-837A-4732-AFE5-DA2DDFA08752.png",
+      "width": "194",
+      "height": "186"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Trieres: Trieres sinensis",
+      "image_id": "6AD2F361-EEE4-4920-B37C-842C93CA2BB8",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_Trieres_sinensis/06_83b6ba0486.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Trieres sinensis/6AD2F361-EEE4-4920-B37C-842C93CA2BB8.png",
+      "width": "110",
+      "height": "132"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Trieres: Trieres sinensis",
+      "image_id": "3FB7C276-4081-42A3-9449-57416B53D6EA",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_Trieres_sinensis/07_ad3241289f.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Trieres sinensis/3FB7C276-4081-42A3-9449-57416B53D6EA.png",
+      "width": "139",
+      "height": "78"
+    },
+    {
+      "dataset_id": "life_watch_2026_image_library",
+      "label": "Trieres: Trieres sinensis",
+      "image_id": "873714CB-2B6C-4D53-AA13-815451EA7B0F",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_Trieres_sinensis/08_8ccee561be.jpg",
+      "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Trieres sinensis/873714CB-2B6C-4D53-AA13-815451EA7B0F.png",
+      "width": "116",
+      "height": "67"
     }
   ],
   "life_watch_2026_image_library::Tripos": [
@@ -19546,6 +20878,80 @@
       "height": "185"
     }
   ],
+  "tara_pacific_bongo::Nassellaria<Polycystinea": [
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Polycystina: Nassellaria<Polycystinea",
+      "image_id": "aw_i05_s1_001_r110001872_7987",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Polycystina_Nassellaria_Polycystinea/01_7624da9cfe.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_7987.png",
+      "width": "97",
+      "height": "87"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Polycystina: Nassellaria<Polycystinea",
+      "image_id": "aw_i05_s1_001_r110001872_6065",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Polycystina_Nassellaria_Polycystinea/02_7eda487c1a.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_6065.png",
+      "width": "97",
+      "height": "106"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Polycystina: Nassellaria<Polycystinea",
+      "image_id": "aw_i05_s1_001_r110001872_17449",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Polycystina_Nassellaria_Polycystinea/03_74eccbd0e4.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_17449.png",
+      "width": "97",
+      "height": "82"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Polycystina: Nassellaria<Polycystinea",
+      "image_id": "aw_i05_s1_001_r110001872_1290",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Polycystina_Nassellaria_Polycystinea/04_a93c476ee5.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_1290.png",
+      "width": "97",
+      "height": "101"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Polycystina: Nassellaria<Polycystinea",
+      "image_id": "aw_i05_s1_001_r110001872_3083",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Polycystina_Nassellaria_Polycystinea/05_b351bf2387.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_3083.png",
+      "width": "97",
+      "height": "85"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Polycystina: Nassellaria<Polycystinea",
+      "image_id": "aw_i05_s1_001_r110001872_5118",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Polycystina_Nassellaria_Polycystinea/06_8d9b802618.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_5118.png",
+      "width": "97",
+      "height": "114"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Polycystina: Nassellaria<Polycystinea",
+      "image_id": "aw_i05_s1_001_r110001872_2634",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Polycystina_Nassellaria_Polycystinea/07_7bca329850.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_2634.png",
+      "width": "98",
+      "height": "101"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Polycystina: Nassellaria<Polycystinea",
+      "image_id": "aw_i05_s1_001_r110001872_3480",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Polycystina_Nassellaria_Polycystinea/08_4bca47bfa1.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_3480.png",
+      "width": "97",
+      "height": "91"
+    }
+  ],
   "tara_pacific_bongo::Neoceratium": [
     {
       "dataset_id": "tara_pacific_bongo",
@@ -20481,6 +21887,80 @@
       "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i13_s2_001_r110002420/srf_i13_s2_001_r110002420_3596.png",
       "width": "98",
       "height": "120"
+    }
+  ],
+  "tara_pacific_bongo::Podolampas<Podolampadaceae<Peridiniales<Dinophyceae": [
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Dinophyceae: Podolampas<Podolampadaceae<Peridiniales<Dinophyceae",
+      "image_id": "aw_i05_s1_001_r110001872_24228",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Dinophyceae_Podolampas_Podolampadaceae_Peridiniales_Dinophyceae/01_aa1152267b.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_24228.png",
+      "width": "97",
+      "height": "61"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Dinophyceae: Podolampas<Podolampadaceae<Peridiniales<Dinophyceae",
+      "image_id": "srf_i12_s2_001_r110001436_4157",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Dinophyceae_Podolampas_Podolampadaceae_Peridiniales_Dinophyceae/02_224c6adfcf.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i12_s2_001_r110001436/srf_i12_s2_001_r110001436_4157.png",
+      "width": "97",
+      "height": "87"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Dinophyceae: Podolampas<Podolampadaceae<Peridiniales<Dinophyceae",
+      "image_id": "srf_i12_s2_001_r110001436_3200",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Dinophyceae_Podolampas_Podolampadaceae_Peridiniales_Dinophyceae/03_39b07deb30.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i12_s2_001_r110001436/srf_i12_s2_001_r110001436_3200.png",
+      "width": "97",
+      "height": "82"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Dinophyceae: Podolampas<Podolampadaceae<Peridiniales<Dinophyceae",
+      "image_id": "srf_i14_s3_001_r110001294_15753",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Dinophyceae_Podolampas_Podolampadaceae_Peridiniales_Dinophyceae/04_75565bfd87.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i14_s3_001_r110001294/srf_i14_s3_001_r110001294_15753.png",
+      "width": "97",
+      "height": "90"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Dinophyceae: Podolampas<Podolampadaceae<Peridiniales<Dinophyceae",
+      "image_id": "srf_i15_s1_001_r110001043_570",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Dinophyceae_Podolampas_Podolampadaceae_Peridiniales_Dinophyceae/05_6bd8f70aa2.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i15_s1_001_r110001043/srf_i15_s1_001_r110001043_570.png",
+      "width": "97",
+      "height": "65"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Dinophyceae: Podolampas<Podolampadaceae<Peridiniales<Dinophyceae",
+      "image_id": "srf_i16_s1_001_r110001100_17468",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Dinophyceae_Podolampas_Podolampadaceae_Peridiniales_Dinophyceae/06_34a02cd1a3.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i16_s1_001_r110001100/srf_i16_s1_001_r110001100_17468.png",
+      "width": "97",
+      "height": "78"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Dinophyceae: Podolampas<Podolampadaceae<Peridiniales<Dinophyceae",
+      "image_id": "srf_i16_s2_001_r110001079_9650",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Dinophyceae_Podolampas_Podolampadaceae_Peridiniales_Dinophyceae/07_f9c42a5801.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i16_s2_001_r110001079/srf_i16_s2_001_r110001079_9650.png",
+      "width": "97",
+      "height": "55"
+    },
+    {
+      "dataset_id": "tara_pacific_bongo",
+      "label": "Dinophyceae: Podolampas<Podolampadaceae<Peridiniales<Dinophyceae",
+      "image_id": "srf_i16_s3_001_r110001121_12807",
+      "thumbnail_url": "/samples/tara_pacific_bongo/Dinophyceae_Podolampas_Podolampadaceae_Peridiniales_Dinophyceae/08_6324531bcb.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i16_s3_001_r110001121/srf_i16_s3_001_r110001121_12807.png",
+      "width": "97",
+      "height": "103"
     }
   ],
   "tara_pacific_bongo::Poroecus": [
@@ -23312,6 +24792,35 @@
       "height": "79"
     }
   ],
+  "tara_pacific_deck::Bacteriastrum<Chaetocerotaceae": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Chaetocerotaceae: Bacteriastrum<Chaetocerotaceae",
+      "image_id": "oa096_001_g100016058_15781",
+      "thumbnail_url": "/samples/tara_pacific_deck/Chaetocerotaceae_Bacteriastrum_Chaetocerotaceae/01_e381d12e87.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_15781.png",
+      "width": "97",
+      "height": "112"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Chaetocerotaceae: Bacteriastrum<Chaetocerotaceae",
+      "image_id": "oa096_001_g100016058_34358",
+      "thumbnail_url": "/samples/tara_pacific_deck/Chaetocerotaceae_Bacteriastrum_Chaetocerotaceae/02_0e57c19819.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_34358.png",
+      "width": "169",
+      "height": "144"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Chaetocerotaceae: Bacteriastrum<Chaetocerotaceae",
+      "image_id": "oa096_001_g100016058_21969",
+      "thumbnail_url": "/samples/tara_pacific_deck/Chaetocerotaceae_Bacteriastrum_Chaetocerotaceae/03_5918703ef3.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_21969.png",
+      "width": "98",
+      "height": "101"
+    }
+  ],
   "tara_pacific_deck::Bacteriastrum<Mediophyceae": [
     {
       "dataset_id": "tara_pacific_deck",
@@ -23606,6 +25115,80 @@
       "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa102_001_g-0001120/oa102_001_g-0001120_3943.png",
       "width": "97",
       "height": "107"
+    }
+  ],
+  "tara_pacific_deck::Chaetoceros<Chaetocerotaceae": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Chaetocerotaceae: Chaetoceros<Chaetocerotaceae",
+      "image_id": "i09_oa067_001_g100017677_14876",
+      "thumbnail_url": "/samples/tara_pacific_deck/Chaetocerotaceae_Chaetoceros_Chaetocerotaceae/01_c2ec26fd2e.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_14876.png",
+      "width": "98",
+      "height": "72"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Chaetocerotaceae: Chaetoceros<Chaetocerotaceae",
+      "image_id": "i09_oa067_001_g100017677_27647",
+      "thumbnail_url": "/samples/tara_pacific_deck/Chaetocerotaceae_Chaetoceros_Chaetocerotaceae/02_ac537aaf5f.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_27647.png",
+      "width": "97",
+      "height": "113"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Chaetocerotaceae: Chaetoceros<Chaetocerotaceae",
+      "image_id": "i09_oa067_001_g100017677_22407",
+      "thumbnail_url": "/samples/tara_pacific_deck/Chaetocerotaceae_Chaetoceros_Chaetocerotaceae/03_985e65eb0d.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_22407.png",
+      "width": "98",
+      "height": "110"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Chaetocerotaceae: Chaetoceros<Chaetocerotaceae",
+      "image_id": "i09_oa067_001_g100017677_21341",
+      "thumbnail_url": "/samples/tara_pacific_deck/Chaetocerotaceae_Chaetoceros_Chaetocerotaceae/04_d02eec6cdf.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_21341.png",
+      "width": "97",
+      "height": "119"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Chaetocerotaceae: Chaetoceros<Chaetocerotaceae",
+      "image_id": "i09_oa067_001_g100017677_10092",
+      "thumbnail_url": "/samples/tara_pacific_deck/Chaetocerotaceae_Chaetoceros_Chaetocerotaceae/05_1f22216957.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_10092.png",
+      "width": "97",
+      "height": "109"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Chaetocerotaceae: Chaetoceros<Chaetocerotaceae",
+      "image_id": "i09_oa067_001_g100017677_25427",
+      "thumbnail_url": "/samples/tara_pacific_deck/Chaetocerotaceae_Chaetoceros_Chaetocerotaceae/06_1c03f75c9d.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_25427.png",
+      "width": "97",
+      "height": "88"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Chaetocerotaceae: Chaetoceros<Chaetocerotaceae",
+      "image_id": "i09_oa067_001_g100017677_6656",
+      "thumbnail_url": "/samples/tara_pacific_deck/Chaetocerotaceae_Chaetoceros_Chaetocerotaceae/07_21488d9c4b.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_6656.png",
+      "width": "97",
+      "height": "125"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Chaetocerotaceae: Chaetoceros<Chaetocerotaceae",
+      "image_id": "i09_oa067_001_g100017677_16708",
+      "thumbnail_url": "/samples/tara_pacific_deck/Chaetocerotaceae_Chaetoceros_Chaetocerotaceae/08_4820829d47.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_16708.png",
+      "width": "159",
+      "height": "98"
     }
   ],
   "tara_pacific_deck::Chaetoceros<Mediophyceae": [
@@ -24202,6 +25785,80 @@
       "height": "194"
     }
   ],
+  "tara_pacific_deck::Codonellopsis<Tintinnidiidae": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Codonellopsis<Tintinnidiidae",
+      "image_id": "i00_oa163_001_g100015598_20044",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Codonellopsis_Tintinnidiidae/01_e10b5a4838.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_20044.png",
+      "width": "97",
+      "height": "121"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Codonellopsis<Tintinnidiidae",
+      "image_id": "i00_oa163_001_g100015598_39911",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Codonellopsis_Tintinnidiidae/02_d41f6a1cc0.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_39911.png",
+      "width": "97",
+      "height": "97"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Codonellopsis<Tintinnidiidae",
+      "image_id": "i00_oa163_001_g100015598_2375",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Codonellopsis_Tintinnidiidae/03_9d945b325a.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_2375.png",
+      "width": "97",
+      "height": "120"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Codonellopsis<Tintinnidiidae",
+      "image_id": "i00_oa163_001_g100015598_26198",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Codonellopsis_Tintinnidiidae/04_3699717fdf.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_26198.png",
+      "width": "97",
+      "height": "106"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Codonellopsis<Tintinnidiidae",
+      "image_id": "i00_oa163_001_g100015598_27353",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Codonellopsis_Tintinnidiidae/05_519467ac95.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_27353.png",
+      "width": "97",
+      "height": "106"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Codonellopsis<Tintinnidiidae",
+      "image_id": "i00_oa163_001_g100015598_38388",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Codonellopsis_Tintinnidiidae/06_38f9a8d7a8.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_38388.png",
+      "width": "97",
+      "height": "88"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Codonellopsis<Tintinnidiidae",
+      "image_id": "i00_oa163_001_g100015598_38872",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Codonellopsis_Tintinnidiidae/07_2c8d8b83bb.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_38872.png",
+      "width": "97",
+      "height": "83"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Codonellopsis<Tintinnidiidae",
+      "image_id": "i00_oa163_001_g100015598_39489",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Codonellopsis_Tintinnidiidae/08_34f2dd2dcc.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_39489.png",
+      "width": "97",
+      "height": "78"
+    }
+  ],
   "tara_pacific_deck::Copepoda<Maxillopoda": [
     {
       "dataset_id": "tara_pacific_deck",
@@ -24274,6 +25931,26 @@
       "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa140_001_g100014681/i00_oa140_001_g100014681_36303.png",
       "width": "306",
       "height": "192"
+    }
+  ],
+  "tara_pacific_deck::Copepoda<Multicrustacea": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Crustacea: Copepoda<Multicrustacea",
+      "image_id": "oa096_001_g100016058_19365",
+      "thumbnail_url": "/samples/tara_pacific_deck/Crustacea_Copepoda_Multicrustacea/01_3a84f33142.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_19365.png",
+      "width": "387",
+      "height": "373"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Crustacea: Copepoda<Multicrustacea",
+      "image_id": "oa096_001_g100016058_23829",
+      "thumbnail_url": "/samples/tara_pacific_deck/Crustacea_Copepoda_Multicrustacea/02_8e71562cff.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_23829.png",
+      "width": "198",
+      "height": "391"
     }
   ],
   "tara_pacific_deck::Corethron": [
@@ -26099,6 +27776,154 @@
       "height": "117"
     }
   ],
+  "tara_pacific_deck::Nassellaria<Polycystina": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Polycystina: Nassellaria<Polycystina",
+      "image_id": "i09_oa067_001_g100017677_2669",
+      "thumbnail_url": "/samples/tara_pacific_deck/Polycystina_Nassellaria_Polycystina/01_3de663b6b1.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_2669.png",
+      "width": "100",
+      "height": "126"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Polycystina: Nassellaria<Polycystina",
+      "image_id": "i09_oa067_001_g100017677_5176",
+      "thumbnail_url": "/samples/tara_pacific_deck/Polycystina_Nassellaria_Polycystina/02_02e88068db.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_5176.png",
+      "width": "97",
+      "height": "101"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Polycystina: Nassellaria<Polycystina",
+      "image_id": "i09_oa067_001_g100017677_26054",
+      "thumbnail_url": "/samples/tara_pacific_deck/Polycystina_Nassellaria_Polycystina/03_a6b238db14.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_26054.png",
+      "width": "97",
+      "height": "93"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Polycystina: Nassellaria<Polycystina",
+      "image_id": "oa096_001_g100016058_8123",
+      "thumbnail_url": "/samples/tara_pacific_deck/Polycystina_Nassellaria_Polycystina/04_a8675f25ee.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_8123.png",
+      "width": "97",
+      "height": "108"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Polycystina: Nassellaria<Polycystina",
+      "image_id": "oa096_001_g100016058_5672",
+      "thumbnail_url": "/samples/tara_pacific_deck/Polycystina_Nassellaria_Polycystina/05_a6e6bfac78.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_5672.png",
+      "width": "97",
+      "height": "99"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Polycystina: Nassellaria<Polycystina",
+      "image_id": "oa096_001_g100016058_5989",
+      "thumbnail_url": "/samples/tara_pacific_deck/Polycystina_Nassellaria_Polycystina/06_958c7d2b7e.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_5989.png",
+      "width": "118",
+      "height": "130"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Polycystina: Nassellaria<Polycystina",
+      "image_id": "oa096_001_g100016058_16549",
+      "thumbnail_url": "/samples/tara_pacific_deck/Polycystina_Nassellaria_Polycystina/07_18f22213ab.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_16549.png",
+      "width": "97",
+      "height": "104"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Polycystina: Nassellaria<Polycystina",
+      "image_id": "oa096_001_g100016058_36055",
+      "thumbnail_url": "/samples/tara_pacific_deck/Polycystina_Nassellaria_Polycystina/08_7123aa3a8e.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_36055.png",
+      "width": "97",
+      "height": "87"
+    }
+  ],
+  "tara_pacific_deck::Nassellaria<Polycystinea": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Polycystina: Nassellaria<Polycystinea",
+      "image_id": "i00_oa140_001_g100014681_7253",
+      "thumbnail_url": "/samples/tara_pacific_deck/Polycystina_Nassellaria_Polycystinea/01_982baea693.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa140_001_g100014681/i00_oa140_001_g100014681_7253.png",
+      "width": "97",
+      "height": "75"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Polycystina: Nassellaria<Polycystinea",
+      "image_id": "i00_oa164_001_g100015584_11625",
+      "thumbnail_url": "/samples/tara_pacific_deck/Polycystina_Nassellaria_Polycystinea/02_c8219e9aef.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa164_001_g100015584/i00_oa164_001_g100015584_11625.png",
+      "width": "97",
+      "height": "83"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Polycystina: Nassellaria<Polycystinea",
+      "image_id": "i00_oa164_001_g100015584_12291",
+      "thumbnail_url": "/samples/tara_pacific_deck/Polycystina_Nassellaria_Polycystinea/03_00572b8cb5.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa164_001_g100015584/i00_oa164_001_g100015584_12291.png",
+      "width": "97",
+      "height": "75"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Polycystina: Nassellaria<Polycystinea",
+      "image_id": "i00_oa165_001_g100015577_21021",
+      "thumbnail_url": "/samples/tara_pacific_deck/Polycystina_Nassellaria_Polycystinea/04_8a22ecacea.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa165_001_g100015577/i00_oa165_001_g100015577_21021.png",
+      "width": "97",
+      "height": "77"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Polycystina: Nassellaria<Polycystinea",
+      "image_id": "i10_oa068_001_g100017513_5928",
+      "thumbnail_url": "/samples/tara_pacific_deck/Polycystina_Nassellaria_Polycystinea/05_4ebfbc43d6.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i10_oa068_001_g100017513/i10_oa068_001_g100017513_5928.png",
+      "width": "97",
+      "height": "77"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Polycystina: Nassellaria<Polycystinea",
+      "image_id": "i10_oa068_001_g100017513_5047",
+      "thumbnail_url": "/samples/tara_pacific_deck/Polycystina_Nassellaria_Polycystinea/06_4b2bbabd66.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i10_oa068_001_g100017513/i10_oa068_001_g100017513_5047.png",
+      "width": "97",
+      "height": "81"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Polycystina: Nassellaria<Polycystinea",
+      "image_id": "i10_oa068_001_g100017513_1845",
+      "thumbnail_url": "/samples/tara_pacific_deck/Polycystina_Nassellaria_Polycystinea/07_a9af9be6d5.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i10_oa068_001_g100017513/i10_oa068_001_g100017513_1845.png",
+      "width": "97",
+      "height": "78"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Polycystina: Nassellaria<Polycystinea",
+      "image_id": "i10_oa069_001_g100017520_26414",
+      "thumbnail_url": "/samples/tara_pacific_deck/Polycystina_Nassellaria_Polycystinea/08_bf699e821d.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i10_oa069_001_g100017520/i10_oa069_001_g100017520_26414.png",
+      "width": "97",
+      "height": "62"
+    }
+  ],
   "tara_pacific_deck::Neoceratium": [
     {
       "dataset_id": "tara_pacific_deck",
@@ -26245,6 +28070,154 @@
       "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa165_001_g100015577/i00_oa165_001_g100015577_27438.png",
       "width": "163",
       "height": "119"
+    }
+  ],
+  "tara_pacific_deck::Neoceratium furca<Neoceratium": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinoflagellata: Neoceratium furca<Neoceratium",
+      "image_id": "i00_oa140_001_g100014681_17163",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinoflagellata_Neoceratium_furca_Neoceratium/01_fefdd97013.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa140_001_g100014681/i00_oa140_001_g100014681_17163.png",
+      "width": "131",
+      "height": "80"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinoflagellata: Neoceratium furca<Neoceratium",
+      "image_id": "i00_oa163_001_g100015598_39494",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinoflagellata_Neoceratium_furca_Neoceratium/02_87c45b7a75.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_39494.png",
+      "width": "97",
+      "height": "217"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinoflagellata: Neoceratium furca<Neoceratium",
+      "image_id": "i00_oa163_001_g100015598_28026",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinoflagellata_Neoceratium_furca_Neoceratium/03_4d72546f86.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_28026.png",
+      "width": "97",
+      "height": "194"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinoflagellata: Neoceratium furca<Neoceratium",
+      "image_id": "i00_oa163_001_g100015598_26268",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinoflagellata_Neoceratium_furca_Neoceratium/04_5717e54fee.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_26268.png",
+      "width": "97",
+      "height": "199"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinoflagellata: Neoceratium furca<Neoceratium",
+      "image_id": "i00_oa163_001_g100015598_30430",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinoflagellata_Neoceratium_furca_Neoceratium/05_22009ada13.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_30430.png",
+      "width": "198",
+      "height": "97"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinoflagellata: Neoceratium furca<Neoceratium",
+      "image_id": "i00_oa163_001_g100015598_17904",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinoflagellata_Neoceratium_furca_Neoceratium/06_659fbc60ad.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_17904.png",
+      "width": "201",
+      "height": "86"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinoflagellata: Neoceratium furca<Neoceratium",
+      "image_id": "i00_oa163_001_g100015598_12435",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinoflagellata_Neoceratium_furca_Neoceratium/07_6be4de47b5.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_12435.png",
+      "width": "118",
+      "height": "183"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinoflagellata: Neoceratium furca<Neoceratium",
+      "image_id": "i00_oa163_001_g100015598_25119",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinoflagellata_Neoceratium_furca_Neoceratium/08_7d833f7f54.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_25119.png",
+      "width": "100",
+      "height": "217"
+    }
+  ],
+  "tara_pacific_deck::Neoceratium fusus<Neoceratium": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinoflagellata: Neoceratium fusus<Neoceratium",
+      "image_id": "i00_oa136_001_g100014429_10304",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinoflagellata_Neoceratium_fusus_Neoceratium/01_0c24b59940.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_10304.png",
+      "width": "97",
+      "height": "317"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinoflagellata: Neoceratium fusus<Neoceratium",
+      "image_id": "i00_oa136_001_g100014429_11724",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinoflagellata_Neoceratium_fusus_Neoceratium/02_c9ac9e9e62.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_11724.png",
+      "width": "221",
+      "height": "132"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinoflagellata: Neoceratium fusus<Neoceratium",
+      "image_id": "i00_oa136_001_g100014429_10205",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinoflagellata_Neoceratium_fusus_Neoceratium/03_84ff7ca548.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_10205.png",
+      "width": "97",
+      "height": "289"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinoflagellata: Neoceratium fusus<Neoceratium",
+      "image_id": "i00_oa136_001_g100014429_4691",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinoflagellata_Neoceratium_fusus_Neoceratium/04_e4df48620b.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_4691.png",
+      "width": "127",
+      "height": "267"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinoflagellata: Neoceratium fusus<Neoceratium",
+      "image_id": "i00_oa136_001_g100014429_4500",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinoflagellata_Neoceratium_fusus_Neoceratium/05_c8548d0882.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_4500.png",
+      "width": "296",
+      "height": "126"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinoflagellata: Neoceratium fusus<Neoceratium",
+      "image_id": "i00_oa136_001_g100014429_11793",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinoflagellata_Neoceratium_fusus_Neoceratium/06_1770c6ea34.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_11793.png",
+      "width": "97",
+      "height": "302"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinoflagellata: Neoceratium fusus<Neoceratium",
+      "image_id": "i00_oa137_001_g100014437_3600",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinoflagellata_Neoceratium_fusus_Neoceratium/07_3d57434d8a.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa137_001_g100014437/i00_oa137_001_g100014437_3600.png",
+      "width": "97",
+      "height": "276"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinoflagellata: Neoceratium fusus<Neoceratium",
+      "image_id": "i00_oa137_001_g100014437_931",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinoflagellata_Neoceratium_fusus_Neoceratium/08_44a0dd19dc.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa137_001_g100014437/i00_oa137_001_g100014437_931.png",
+      "width": "97",
+      "height": "306"
     }
   ],
   "tara_pacific_deck::Neoceratium geniculatum": [
@@ -26637,6 +28610,80 @@
       "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i06_oa053_001_g100017329/i06_oa053_001_g100017329_810.png",
       "width": "101",
       "height": "113"
+    }
+  ],
+  "tara_pacific_deck::Ornithocercus quadratus<Ornithocercus": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ornithocercus: Ornithocercus quadratus<Ornithocercus",
+      "image_id": "i00_oa139_001_g100014672_22055",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ornithocercus_Ornithocercus_quadratus_Ornithocercus/01_9c3fd430d9.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_22055.png",
+      "width": "105",
+      "height": "156"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ornithocercus: Ornithocercus quadratus<Ornithocercus",
+      "image_id": "i18_oa127_001_g100016484_2055",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ornithocercus_Ornithocercus_quadratus_Ornithocercus/02_097ae84a48.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i18_oa127_001_g100016484/i18_oa127_001_g100016484_2055.png",
+      "width": "106",
+      "height": "126"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ornithocercus: Ornithocercus quadratus<Ornithocercus",
+      "image_id": "i99_oa178_004_g100013733_14899",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ornithocercus_Ornithocercus_quadratus_Ornithocercus/03_894fffc626.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i99_oa178_004_g100013733/i99_oa178_004_g100013733_14899.png",
+      "width": "119",
+      "height": "136"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ornithocercus: Ornithocercus quadratus<Ornithocercus",
+      "image_id": "i99_oa178_004_g100013733_31360",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ornithocercus_Ornithocercus_quadratus_Ornithocercus/04_be812f0030.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i99_oa178_004_g100013733/i99_oa178_004_g100013733_31360.png",
+      "width": "119",
+      "height": "149"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ornithocercus: Ornithocercus quadratus<Ornithocercus",
+      "image_id": "i99_oa178_004_g100013733_1067",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ornithocercus_Ornithocercus_quadratus_Ornithocercus/05_7a74a95077.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i99_oa178_004_g100013733/i99_oa178_004_g100013733_1067.png",
+      "width": "105",
+      "height": "114"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ornithocercus: Ornithocercus quadratus<Ornithocercus",
+      "image_id": "i99_oa180_001_g100014170_6135",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ornithocercus_Ornithocercus_quadratus_Ornithocercus/06_a67597c268.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i99_oa180_001_g100014170/i99_oa180_001_g100014170_6135.png",
+      "width": "120",
+      "height": "115"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ornithocercus: Ornithocercus quadratus<Ornithocercus",
+      "image_id": "i99_oa181_001_g100014177_6265",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ornithocercus_Ornithocercus_quadratus_Ornithocercus/07_5c07d614a2.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i99_oa181_001_g100014177/i99_oa181_001_g100014177_6265.png",
+      "width": "97",
+      "height": "129"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ornithocercus: Ornithocercus quadratus<Ornithocercus",
+      "image_id": "i99_oa181_001_g100014177_2874",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ornithocercus_Ornithocercus_quadratus_Ornithocercus/08_57f3b3c277.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i99_oa181_001_g100014177/i99_oa181_001_g100014177_2874.png",
+      "width": "100",
+      "height": "136"
     }
   ],
   "tara_pacific_deck::Ornithocercus steinii": [
@@ -27081,6 +29128,80 @@
       "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_18852.png",
       "width": "97",
       "height": "90"
+    }
+  ],
+  "tara_pacific_deck::Podolampas<Podolampadaceae<Peridiniales<Dinophyceae": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinophyceae: Podolampas<Podolampadaceae<Peridiniales<Dinophyceae",
+      "image_id": "i00_oa163_001_g100015598_20016",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinophyceae_Podolampas_Podolampadaceae_Peridiniales_Dinophyceae/01_a548439179.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_20016.png",
+      "width": "97",
+      "height": "77"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinophyceae: Podolampas<Podolampadaceae<Peridiniales<Dinophyceae",
+      "image_id": "i00_oa163_001_g100015598_27555",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinophyceae_Podolampas_Podolampadaceae_Peridiniales_Dinophyceae/02_cac8ef50ba.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_27555.png",
+      "width": "97",
+      "height": "68"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinophyceae: Podolampas<Podolampadaceae<Peridiniales<Dinophyceae",
+      "image_id": "i00_oa163_001_g100015598_14741",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinophyceae_Podolampas_Podolampadaceae_Peridiniales_Dinophyceae/03_49f374692e.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_14741.png",
+      "width": "97",
+      "height": "80"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinophyceae: Podolampas<Podolampadaceae<Peridiniales<Dinophyceae",
+      "image_id": "i04_oa041_002_g100017740_1645",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinophyceae_Podolampas_Podolampadaceae_Peridiniales_Dinophyceae/04_d13d996894.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i04_oa041_002_g100017740/i04_oa041_002_g100017740_1645.png",
+      "width": "97",
+      "height": "98"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinophyceae: Podolampas<Podolampadaceae<Peridiniales<Dinophyceae",
+      "image_id": "i24_oa162_001_g100015452_1066",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinophyceae_Podolampas_Podolampadaceae_Peridiniales_Dinophyceae/05_1c511bb037.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i24_oa162_001_g100015452/i24_oa162_001_g100015452_1066.png",
+      "width": "97",
+      "height": "71"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinophyceae: Podolampas<Podolampadaceae<Peridiniales<Dinophyceae",
+      "image_id": "i30_oa216_001_g100013709_9326",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinophyceae_Podolampas_Podolampadaceae_Peridiniales_Dinophyceae/06_2c0a6772ed.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i30_oa216_001_g100013709/i30_oa216_001_g100013709_9326.png",
+      "width": "97",
+      "height": "93"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinophyceae: Podolampas<Podolampadaceae<Peridiniales<Dinophyceae",
+      "image_id": "i99_oa188_001_g100013803_20881",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinophyceae_Podolampas_Podolampadaceae_Peridiniales_Dinophyceae/07_ee4b7b267a.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i99_oa188_001_g100013803/i99_oa188_001_g100013803_20881.png",
+      "width": "97",
+      "height": "66"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Dinophyceae: Podolampas<Podolampadaceae<Peridiniales<Dinophyceae",
+      "image_id": "i99_oa193_001_g100013853_17410",
+      "thumbnail_url": "/samples/tara_pacific_deck/Dinophyceae_Podolampas_Podolampadaceae_Peridiniales_Dinophyceae/08_9584a5f5db.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i99_oa193_001_g100013853/i99_oa193_001_g100013853_17410.png",
+      "width": "97",
+      "height": "77"
     }
   ],
   "tara_pacific_deck::Poroecus": [
@@ -28083,6 +30204,109 @@
       "height": "126"
     }
   ],
+  "tara_pacific_deck::Salpingella<Tintinnidae": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Salpingella<Tintinnidae",
+      "image_id": "oa096_001_g100016058_7703",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Salpingella_Tintinnidae/01_2198f35acf.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_7703.png",
+      "width": "97",
+      "height": "248"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Salpingella<Tintinnidae",
+      "image_id": "oa096_001_g100016058_8903",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Salpingella_Tintinnidae/02_49f4ead651.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_8903.png",
+      "width": "216",
+      "height": "91"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Salpingella<Tintinnidae",
+      "image_id": "oa096_001_g100016058_23551",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Salpingella_Tintinnidae/03_01ce78759d.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_23551.png",
+      "width": "97",
+      "height": "238"
+    }
+  ],
+  "tara_pacific_deck::Salpingella<Tintinnidiidae": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Salpingella<Tintinnidiidae",
+      "image_id": "i00_oa136_001_g100014429_6885",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Salpingella_Tintinnidiidae/01_16f4c539a6.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_6885.png",
+      "width": "172",
+      "height": "63"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Salpingella<Tintinnidiidae",
+      "image_id": "i00_oa136_001_g100014429_514",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Salpingella_Tintinnidiidae/02_c21ed1224b.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa136_001_g100014429/i00_oa136_001_g100014429_514.png",
+      "width": "97",
+      "height": "162"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Salpingella<Tintinnidiidae",
+      "image_id": "i00_oa165_001_g100015577_1379",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Salpingella_Tintinnidiidae/03_1874c1d0b0.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa165_001_g100015577/i00_oa165_001_g100015577_1379.png",
+      "width": "97",
+      "height": "272"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Salpingella<Tintinnidiidae",
+      "image_id": "i00_oa165_001_g100015577_21644",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Salpingella_Tintinnidiidae/04_0f54eb43b8.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa165_001_g100015577/i00_oa165_001_g100015577_21644.png",
+      "width": "198",
+      "height": "216"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Salpingella<Tintinnidiidae",
+      "image_id": "i13_oa079_001_g100015958_709",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Salpingella_Tintinnidiidae/05_d07ace95d7.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i13_oa079_001_g100015958/i13_oa079_001_g100015958_709.png",
+      "width": "97",
+      "height": "258"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Salpingella<Tintinnidiidae",
+      "image_id": "i25_oa166_001_g100015591_6721",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Salpingella_Tintinnidiidae/06_160648bd1a.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i25_oa166_001_g100015591/i25_oa166_001_g100015591_6721.png",
+      "width": "97",
+      "height": "243"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Salpingella<Tintinnidiidae",
+      "image_id": "i25_oa166_001_g100015591_9663",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Salpingella_Tintinnidiidae/07_d4560ff211.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i25_oa166_001_g100015591/i25_oa166_001_g100015591_9663.png",
+      "width": "143",
+      "height": "230"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Salpingella<Tintinnidiidae",
+      "image_id": "i27_oa171_001_g100015295_2763",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Salpingella_Tintinnidiidae/08_d673aa8586.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i27_oa171_001_g100015295/i27_oa171_001_g100015295_2763.png",
+      "width": "110",
+      "height": "199"
+    }
+  ],
   "tara_pacific_deck::Spumellaria": [
     {
       "dataset_id": "tara_pacific_deck",
@@ -28377,6 +30601,80 @@
       "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_18284.png",
       "width": "97",
       "height": "77"
+    }
+  ],
+  "tara_pacific_deck::Tintinnina<Choreotrichida": [
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Tintinnina<Choreotrichida",
+      "image_id": "i09_oa067_001_g100017677_23953",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Tintinnina_Choreotrichida/01_abea82c2c7.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_23953.png",
+      "width": "133",
+      "height": "80"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Tintinnina<Choreotrichida",
+      "image_id": "i09_oa067_001_g100017677_11260",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Tintinnina_Choreotrichida/02_96545b7efb.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_11260.png",
+      "width": "97",
+      "height": "246"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Tintinnina<Choreotrichida",
+      "image_id": "i09_oa067_001_g100017677_25883",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Tintinnina_Choreotrichida/03_70b736dfba.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_25883.png",
+      "width": "97",
+      "height": "80"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Tintinnina<Choreotrichida",
+      "image_id": "i09_oa067_001_g100017677_9374",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Tintinnina_Choreotrichida/04_c093c0afe4.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_9374.png",
+      "width": "97",
+      "height": "87"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Tintinnina<Choreotrichida",
+      "image_id": "i09_oa067_001_g100017677_25849",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Tintinnina_Choreotrichida/05_32d56d5643.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_25849.png",
+      "width": "97",
+      "height": "82"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Tintinnina<Choreotrichida",
+      "image_id": "i09_oa067_001_g100017677_15624",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Tintinnina_Choreotrichida/06_00b6e67731.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_15624.png",
+      "width": "153",
+      "height": "118"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Tintinnina<Choreotrichida",
+      "image_id": "i09_oa067_001_g100017677_11580",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Tintinnina_Choreotrichida/07_6aecc0ae9c.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_11580.png",
+      "width": "97",
+      "height": "89"
+    },
+    {
+      "dataset_id": "tara_pacific_deck",
+      "label": "Ciliophora: Tintinnina<Choreotrichida",
+      "image_id": "i09_oa067_001_g100017677_8714",
+      "thumbnail_url": "/samples/tara_pacific_deck/Ciliophora_Tintinnina_Choreotrichida/08_c1c03db5e2.jpg",
+      "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i09_oa067_001_g100017677/i09_oa067_001_g100017677_8714.png",
+      "width": "97",
+      "height": "124"
     }
   ],
   "tara_pacific_deck::Tunicata": [

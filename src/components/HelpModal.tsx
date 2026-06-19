@@ -174,8 +174,8 @@ export function HelpModal({ open, onClose }: Props) {
               while LifeWatch and Tara Pacific may have species-level descendants.
             </li>
             <li>
-              <strong>Intermediate rank</strong>: WoRMS may insert levels such as
-              Infrakingdom, Subphylum, Infraphylum, or Forma. These are shown as
+              <strong>Subphylum / subclass / superorder</strong>: WoRMS may insert
+              extra hierarchy between familiar ranks. These levels are shown as
               normal taxonomy structure, not risk.
             </li>
           </ul>
