@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-20T08:34:07+00:00",
+  "generated_at_utc": "2026-06-20T09:12:43+00:00",
   "source_targets": "derived/ml_ready/target_profiles.csv",
   "history_dir": "derived/ml_ready/mapping_history",
   "export_fields": [
@@ -15,7 +15,7 @@
     {
       "source_id": "ntc_082",
       "source_alias": "detritus",
-      "image_count": 1912254,
+      "image_count": 1912151,
       "valid_statuses": "invalid",
       "invalid_reasons": "non_taxonomic_category",
       "risk_flags": "n/a",
@@ -26,18 +26,18 @@
     {
       "source_id": "148899",
       "source_alias": "Bacillariophyceae",
-      "image_count": 356884,
+      "image_count": 356842,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "broad_class",
       "special_tags": "dwc_record_review|multiple",
       "dataset_ids": "life_watch_2026_image_library|tara_pacific_deck|life_watch|tara_pacific_bongo|flowcam_net",
-      "source_labels": "Long (chained) diatom|Bacillariophyceae|Centric Diatom|Pennate Diatom|Centric_Diatom|Pennate_Diatom|Synedra+Thalassionema|Synedra/Thalassionema|Bacillariophyceae_type1_colony|Stalked epiphytic diatom|Pennate_Diatom_colony|Epiphytic diatom|Pennate Diatom colony"
+      "source_labels": "Long (chained) diatom|Bacillariophyceae|Centric Diatom|Pennate Diatom|Pennate_Diatom|Centric_Diatom|Synedra+Thalassionema|Synedra/Thalassionema|Bacillariophyceae_type1_colony|Stalked epiphytic diatom|Pennate_Diatom_colony|Epiphytic diatom|Pennate Diatom colony"
     },
     {
       "source_id": "149069",
       "source_alias": "Rhizosolenia",
-      "image_count": 199300,
+      "image_count": 199282,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "n/a",
@@ -48,7 +48,7 @@
     {
       "source_id": "ntc_032",
       "source_alias": "fiber",
-      "image_count": 189938,
+      "image_count": 189725,
       "valid_statuses": "invalid",
       "invalid_reasons": "non_taxonomic_category",
       "risk_flags": "n/a",
@@ -59,7 +59,7 @@
     {
       "source_id": "ntc_083",
       "source_alias": "sphere",
-      "image_count": 126963,
+      "image_count": 126904,
       "valid_statuses": "invalid",
       "invalid_reasons": "non_taxonomic_category",
       "risk_flags": "n/a",
@@ -103,7 +103,7 @@
     {
       "source_id": "ntc_065",
       "source_alias": "remnant",
-      "image_count": 95012,
+      "image_count": 94979,
       "valid_statuses": "invalid",
       "invalid_reasons": "non_taxonomic_category",
       "risk_flags": "n/a",
@@ -125,7 +125,7 @@
     {
       "source_id": "ntc_079",
       "source_alias": "unknown",
-      "image_count": 66272,
+      "image_count": 66260,
       "valid_statuses": "invalid",
       "invalid_reasons": "non_taxonomic_category",
       "risk_flags": "n/a",
@@ -136,7 +136,7 @@
     {
       "source_id": "149151",
       "source_alias": "Pseudo-nitzschia",
-      "image_count": 64660,
+      "image_count": 64546,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "n/a",
@@ -169,7 +169,7 @@
     {
       "source_id": "148985",
       "source_alias": "Chaetoceros",
-      "image_count": 47452,
+      "image_count": 47443,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "n/a",
@@ -180,7 +180,7 @@
     {
       "source_id": "ntc_084",
       "source_alias": "rods",
-      "image_count": 41574,
+      "image_count": 41573,
       "valid_statuses": "invalid",
       "invalid_reasons": "non_taxonomic_category",
       "risk_flags": "n/a",
@@ -202,7 +202,7 @@
     {
       "source_id": "447730",
       "source_alias": "Bellerochea horologicalis",
-      "image_count": 35321,
+      "image_count": 35316,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "contaminated",
@@ -224,7 +224,7 @@
     {
       "source_id": "148971",
       "source_alias": "Coscinodiscophycidae",
-      "image_count": 30602,
+      "image_count": 30601,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "broad_class",
@@ -244,26 +244,26 @@
       "source_labels": "Nauplii|nauplii<Crustacea|nauplii|Crustacea|Copepoda<Multicrustacea"
     },
     {
-      "source_id": "ntc_002",
-      "source_alias": "artefact",
-      "image_count": 27163,
-      "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "life_watch_2026_image_library|life_watch|tara_pacific_deck|flowcam_net|tara_pacific_bongo",
-      "source_labels": "Artefact|artefact"
-    },
-    {
       "source_id": "ntc_073",
       "source_alias": "t001",
-      "image_count": 26061,
+      "image_count": 26060,
       "valid_statuses": "invalid",
       "invalid_reasons": "non_taxonomic_category",
       "risk_flags": "n/a",
       "special_tags": "n/a",
       "dataset_ids": "tara_pacific_bongo|tara_pacific_deck",
       "source_labels": "t001|t003|t005|t004|t002|t008|t010|t017|t006|t013|t011|t012|t007|t015|t014|t016"
+    },
+    {
+      "source_id": "ntc_002",
+      "source_alias": "artefact",
+      "image_count": 25595,
+      "valid_statuses": "invalid",
+      "invalid_reasons": "non_taxonomic_category",
+      "risk_flags": "n/a",
+      "special_tags": "n/a",
+      "dataset_ids": "life_watch_2026_image_library|life_watch|tara_pacific_deck|flowcam_net|tara_pacific_bongo",
+      "source_labels": "Artefact|artefact"
     },
     {
       "source_id": "591192",
@@ -279,7 +279,7 @@
     {
       "source_id": "ntc_004",
       "source_alias": "badfocus",
-      "image_count": 22821,
+      "image_count": 22614,
       "valid_statuses": "invalid",
       "invalid_reasons": "non_taxonomic_category",
       "risk_flags": "n/a",
@@ -422,7 +422,7 @@
     {
       "source_id": "ntc_007",
       "source_alias": "bubble",
-      "image_count": 8796,
+      "image_count": 8785,
       "valid_statuses": "invalid",
       "invalid_reasons": "non_taxonomic_category",
       "risk_flags": "n/a",
@@ -444,7 +444,7 @@
     {
       "source_id": "840626",
       "source_alias": "Tripos fusus",
-      "image_count": 7518,
+      "image_count": 7515,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "n/a",
@@ -829,7 +829,7 @@
     {
       "source_id": "1080",
       "source_alias": "Copepoda",
-      "image_count": 1672,
+      "image_count": 1671,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "broad_class",
@@ -3022,22 +3022,22 @@
           "validation_message": ""
         },
         {
-          "action": "keep",
-          "source_id": "ntc_002",
-          "target_id": "",
-          "source_alias": "artefact",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
           "action": "merge",
           "source_id": "ntc_073",
           "target_id": "ntc_053",
           "source_alias": "t001",
           "target_alias": "othertocheck",
           "notes": "inherited stage02 merge",
+          "validation_status": "ok",
+          "validation_message": ""
+        },
+        {
+          "action": "keep",
+          "source_id": "ntc_002",
+          "target_id": "",
+          "source_alias": "artefact",
+          "target_alias": "",
+          "notes": "",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5475,22 +5475,22 @@
           "validation_message": ""
         },
         {
-          "action": "merge",
-          "source_id": "ntc_002",
-          "target_id": "ntc_082",
-          "source_alias": "artefact",
-          "target_alias": "detritus",
-          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
           "action": "drop",
           "source_id": "ntc_073",
           "target_id": "",
           "source_alias": "t001",
           "target_alias": "",
           "notes": "phase 3 round10 formal drop: t001 target group",
+          "validation_status": "ok",
+          "validation_message": ""
+        },
+        {
+          "action": "merge",
+          "source_id": "ntc_002",
+          "target_id": "ntc_082",
+          "source_alias": "artefact",
+          "target_alias": "detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },

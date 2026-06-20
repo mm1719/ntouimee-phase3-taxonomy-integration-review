@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-20T08:34:23+00:00",
+  "generated_at_utc": "2026-06-20T09:12:52+00:00",
   "demo_app": "demo/taxonomy-integration-review",
   "phase_3_root": "/home/mason/Projects/phase_3",
   "source_studies": [
@@ -38,7 +38,7 @@
     },
     "mapping_status.json": {
       "path": "public/data/mapping_status.json",
-      "sha256": "0754120dc5f59c0ba0c7cf94af152da5aa9b0ed104775f62321bb384d576ec55",
+      "sha256": "43937c25d23839f0e3f35c76a6e06e626950e272f7d657c806c7041d511238d5",
       "bytes": 230648
     },
     "worms_lineages.json": {
