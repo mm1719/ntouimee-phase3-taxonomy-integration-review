@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-19T15:54:59+00:00",
+  "generated_at_utc": "2026-06-20T08:34:07+00:00",
   "source_targets": "derived/ml_ready/target_profiles.csv",
   "history_dir": "derived/ml_ready/mapping_history",
   "export_fields": [
@@ -5270,7 +5270,7 @@
           "target_id": "",
           "source_alias": "detritus",
           "target_alias": "",
-          "notes": "round10 formal keep: detritus target",
+          "notes": "phase 3 round10 formal keep: detritus target",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5300,7 +5300,7 @@
           "target_id": "ntc_082",
           "source_alias": "fiber",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5310,7 +5310,7 @@
           "target_id": "ntc_082",
           "source_alias": "sphere",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5350,7 +5350,7 @@
           "target_id": "ntc_082",
           "source_alias": "remnant",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5360,7 +5360,7 @@
           "target_id": "ntc_082",
           "source_alias": "dark",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5370,7 +5370,7 @@
           "target_id": "",
           "source_alias": "unknown",
           "target_alias": "",
-          "notes": "round10 formal drop: unknown target group",
+          "notes": "phase 3 round10 formal drop: unknown target group",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5390,7 +5390,7 @@
           "target_id": "",
           "source_alias": "duplicate",
           "target_alias": "",
-          "notes": "round10 formal drop: duplicate target",
+          "notes": "phase 3 round10 formal drop: duplicate target",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5420,7 +5420,7 @@
           "target_id": "ntc_082",
           "source_alias": "rods",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5450,7 +5450,7 @@
           "target_id": "",
           "source_alias": "egg/cyst",
           "target_alias": "",
-          "notes": "round10 formal keep: egg/cyst target",
+          "notes": "phase 3 round10 formal keep: egg/cyst target",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5480,7 +5480,7 @@
           "target_id": "ntc_082",
           "source_alias": "artefact",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5490,7 +5490,7 @@
           "target_id": "",
           "source_alias": "t001",
           "target_alias": "",
-          "notes": "round10 formal drop: t001 target group",
+          "notes": "phase 3 round10 formal drop: t001 target group",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5510,7 +5510,7 @@
           "target_id": "ntc_082",
           "source_alias": "badfocus",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5520,7 +5520,7 @@
           "target_id": "",
           "source_alias": "phytoplankton colony",
           "target_alias": "",
-          "notes": "round10 formal drop: phytoplankton colony",
+          "notes": "phase 3 round10 formal drop: phytoplankton colony",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5530,7 +5530,7 @@
           "target_id": "ntc_082",
           "source_alias": "light",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5540,7 +5540,7 @@
           "target_id": "ntc_082",
           "source_alias": "crustaceae-part",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5600,7 +5600,7 @@
           "target_id": "ntc_082",
           "source_alias": "multiple<other",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5640,7 +5640,7 @@
           "target_id": "ntc_082",
           "source_alias": "bubble",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5670,7 +5670,7 @@
           "target_id": "ntc_082",
           "source_alias": "other living",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5690,7 +5690,7 @@
           "target_id": "ntc_082",
           "source_alias": "part crustacea",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5760,7 +5760,7 @@
           "target_id": "ntc_082",
           "source_alias": "aggregates",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5880,7 +5880,7 @@
           "target_id": "ntc_082",
           "source_alias": "contrasted blob",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5920,7 +5920,7 @@
           "target_id": "ntc_082",
           "source_alias": "othertocheck",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5930,7 +5930,7 @@
           "target_id": "ntc_082",
           "source_alias": "faecal pellet",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -6000,7 +6000,7 @@
           "target_id": "ntc_082",
           "source_alias": "part ciliophora",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -6070,7 +6070,7 @@
           "target_id": "ntc_082",
           "source_alias": "crumple sphere",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -6100,7 +6100,7 @@
           "target_id": "ntc_082",
           "source_alias": "part odontella",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -6120,7 +6120,7 @@
           "target_id": "ntc_082",
           "source_alias": "part ditylum",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -6140,7 +6140,7 @@
           "target_id": "",
           "source_alias": "zooplankton",
           "target_alias": "",
-          "notes": "round10 formal drop: zooplankton",
+          "notes": "phase 3 round10 formal drop: zooplankton",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -6270,7 +6270,7 @@
           "target_id": "ntc_082",
           "source_alias": "biofouling rv",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -6290,7 +6290,7 @@
           "target_id": "ntc_082",
           "source_alias": "feces",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -6330,7 +6330,7 @@
           "target_id": "ntc_082",
           "source_alias": "ball bearing like",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -6380,7 +6380,7 @@
           "target_id": "ntc_028",
           "source_alias": "dinoflagellate cyst",
           "target_alias": "egg/cyst",
-          "notes": "round10 formal merge into egg/cyst: dinoflagellate cyst",
+          "notes": "phase 3 round10 formal merge into egg/cyst: dinoflagellate cyst",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -6410,7 +6410,7 @@
           "target_id": "",
           "source_alias": "veliger larvae d-shaped",
           "target_alias": "",
-          "notes": "round10 formal drop: veliger larvae d-shaped",
+          "notes": "phase 3 round10 formal drop: veliger larvae d-shaped",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -6630,7 +6630,7 @@
           "target_id": "ntc_082",
           "source_alias": "pollen",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -6740,7 +6740,7 @@
           "target_id": "",
           "source_alias": "dinophyceae shape",
           "target_alias": "",
-          "notes": "round10 formal drop: dinophyceae shape",
+          "notes": "phase 3 round10 formal drop: dinophyceae shape",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -6860,7 +6860,7 @@
           "target_id": "ntc_028",
           "source_alias": "other egg",
           "target_alias": "egg/cyst",
-          "notes": "round10 formal merge into egg/cyst: other egg",
+          "notes": "phase 3 round10 formal merge into egg/cyst: other egg",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -6870,7 +6870,7 @@
           "target_id": "ntc_082",
           "source_alias": "transparent u",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -7000,7 +7000,7 @@
           "target_id": "ntc_082",
           "source_alias": "mineral particle",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -7110,7 +7110,7 @@
           "target_id": "ntc_082",
           "source_alias": "tail<appendicularia",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -7160,7 +7160,7 @@
           "target_id": "ntc_028",
           "source_alias": "egg sac<egg",
           "target_alias": "egg/cyst",
-          "notes": "round10 formal merge into egg/cyst: egg sac<egg",
+          "notes": "phase 3 round10 formal merge into egg/cyst: egg sac<egg",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -7170,7 +7170,7 @@
           "target_id": "ntc_028",
           "source_alias": "egg<other",
           "target_alias": "egg/cyst",
-          "notes": "round10 formal merge into egg/cyst: egg<other",
+          "notes": "phase 3 round10 formal merge into egg/cyst: egg<other",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -7190,7 +7190,7 @@
           "target_id": "",
           "source_alias": "larvae<living",
           "target_alias": "",
-          "notes": "round10 formal drop: larvae<living exact target",
+          "notes": "phase 3 round10 formal drop: larvae<living exact target",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -7210,7 +7210,7 @@
           "target_id": "ntc_082",
           "source_alias": "spines<rhizaria",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -7260,7 +7260,7 @@
           "target_id": "",
           "source_alias": "trochozoa",
           "target_alias": "",
-          "notes": "round10 formal drop: trochozoa",
+          "notes": "phase 3 round10 formal drop: trochozoa",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -7370,7 +7370,7 @@
           "target_id": "ntc_028",
           "source_alias": "cyst<unicellular",
           "target_alias": "egg/cyst",
-          "notes": "round10 formal merge into egg/cyst: cyst<unicellular",
+          "notes": "phase 3 round10 formal merge into egg/cyst: cyst<unicellular",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -7390,7 +7390,7 @@
           "target_id": "ntc_082",
           "source_alias": "part<other",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -7480,7 +7480,7 @@
           "target_id": "ntc_082",
           "source_alias": "spines<acantharia",
           "target_alias": "detritus",
-          "notes": "round10 formal merge remaining invalid target into detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -7510,7 +7510,7 @@
           "target_id": "",
           "source_alias": "trochophore",
           "target_alias": "",
-          "notes": "round10 formal drop: trochophore",
+          "notes": "phase 3 round10 formal drop: trochophore",
           "validation_status": "ok",
           "validation_message": ""
         },

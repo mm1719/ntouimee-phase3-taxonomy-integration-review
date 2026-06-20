@@ -629,12 +629,14 @@ describe("App mapping status UI", () => {
     await renderApp("/mapping");
 
     expect(screen.getByRole("button", { name: "Mapping status" })).toHaveClass("active");
-    expect(screen.getByRole("heading", { name: "artefact" })).toBeInTheDocument();
-    await userEvent.click(screen.getByRole("button", { name: "Close class detail drawer" }));
     expect(screen.queryByRole("heading", { name: "artefact" })).not.toBeInTheDocument();
     const mappingPanel = screen.getByRole("heading", { name: "2026-06-14_manual_mapping_rules.csv" }).closest("main")!;
     expect(within(mappingPanel).getByText("ntc_002")).toBeInTheDocument();
     const mergeRow = within(mappingPanel).getByText("ntc_002").closest("tr")!;
+    await userEvent.click(mergeRow);
+    expect(screen.getByRole("heading", { name: "artefact" })).toBeInTheDocument();
+    await userEvent.click(screen.getByRole("button", { name: "Close class detail drawer" }));
+    expect(screen.queryByRole("heading", { name: "artefact" })).not.toBeInTheDocument();
     expect(within(mergeRow).getByText("othertocheck")).toBeInTheDocument();
     expect(within(mergeRow).getByText("fixture merge")).toBeInTheDocument();
   });

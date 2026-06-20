@@ -66,7 +66,7 @@ export function MappingStatusReview({ data }: Props) {
   );
   const [importError, setImportError] = useState("");
   const [queries, setQueries] = useState(["", "", ""]);
-  const [selectedSourceId, setSelectedSourceId] = useState<string | null>(data.targets[0]?.source_id ?? null);
+  const [selectedSourceId, setSelectedSourceId] = useState<string | null>(null);
   const fileInputRef = useRef<HTMLInputElement | null>(null);
 
   const activeHistory = data.histories.find((history) => history.history_id === historyId)
