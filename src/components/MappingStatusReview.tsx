@@ -1,4 +1,4 @@
-import { Download, FileUp, History, Search } from "lucide-react";
+import { Download, FileUp, History, Search, X } from "lucide-react";
 import { useMemo, useRef, useState } from "react";
 import type { MappingHistory, MappingRuleRow, MappingStatusData, MappingTarget } from "../types";
 import { parseCsv } from "../utils/csv";
@@ -66,7 +66,7 @@ export function MappingStatusReview({ data }: Props) {
   );
   const [importError, setImportError] = useState("");
   const [queries, setQueries] = useState(["", "", ""]);
-  const [selectedSourceId, setSelectedSourceId] = useState(data.targets[0]?.source_id ?? "");
+  const [selectedSourceId, setSelectedSourceId] = useState<string | null>(data.targets[0]?.source_id ?? null);
   const fileInputRef = useRef<HTMLInputElement | null>(null);
 
   const activeHistory = data.histories.find((history) => history.history_id === historyId)
@@ -98,7 +98,9 @@ export function MappingStatusReview({ data }: Props) {
       })
       .sort((left, right) => aliasSort(left.source_alias).localeCompare(aliasSort(right.source_alias)));
   }, [queries, rows, targetsById]);
-  const selectedRow = rows.find((row) => row.source_id === selectedSourceId) ?? rows[0];
+  const selectedRow = selectedSourceId
+    ? rows.find((row) => row.source_id === selectedSourceId)
+    : undefined;
   const selectedTarget = selectedRow ? targetsById.get(selectedRow.source_id) : undefined;
   const mergeErrors = rows.filter(
     (row) => row.action === "merge" && row.validation_status !== "ok"
@@ -391,14 +393,17 @@ export function MappingStatusReview({ data }: Props) {
         </div>
       </main>
 
-      <aside className="drawer">
-        <div className="drawer-header">
-          <div>
-            <p className="eyebrow">Class detail</p>
-            <h2>{selectedRow?.source_alias ?? "No selection"}</h2>
+      {selectedRow && (
+        <aside className="drawer">
+          <div className="drawer-header">
+            <div>
+              <p className="eyebrow">Class detail</p>
+              <h2>{selectedRow.source_alias}</h2>
+            </div>
+            <button className="icon-button" onClick={() => setSelectedSourceId(null)} aria-label="Close class detail drawer">
+              <X size={18} />
+            </button>
           </div>
-        </div>
-        {selectedRow && (
           <dl className="kv">
             <div><dt>Source ID</dt><dd><code>{selectedRow.source_id}</code></dd></div>
             <div><dt>Action</dt><dd>{selectedRow.action}</dd></div>
@@ -410,8 +415,8 @@ export function MappingStatusReview({ data }: Props) {
             <div><dt>Source labels</dt><dd>{selectedTarget?.source_labels ?? "n/a"}</dd></div>
             <div><dt>Notes</dt><dd>{selectedRow.notes || "n/a"}</dd></div>
           </dl>
-        )}
-      </aside>
+        </aside>
+      )}
     </>
   );
 }
