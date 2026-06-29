@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-29T07:20:56+00:00",
+  "generated_at_utc": "2026-06-29T07:27:55+00:00",
   "demo_app": "demo/taxonomy-integration-review",
   "phase_3_root": "/home/mason/Projects/phase_3",
   "source_studies": [
@@ -18,13 +18,13 @@
   "public_artifacts": {
     "taxonomy_tree.json": {
       "path": "public/data/taxonomy_tree.json",
-      "sha256": "f81afd6eb09296bf8d2a086d06540a8a6003ce47ecc31c64e2f8afa2a78e4685",
-      "bytes": 1234831
+      "sha256": "be2318449920b47a853222713101f5cac89127ed01048086e6cf98ea2e00f5eb",
+      "bytes": 1232761
     },
     "valid_class_candidates.csv": {
       "path": "public/data/valid_class_candidates.csv",
-      "sha256": "29d3cdb780e2cfede97298c6c15b35113499f183ac7ceed74ca00fb8b5bb885c",
-      "bytes": 1495629
+      "sha256": "92594c64a853dfb7db770e154d45c93d84ba790e1279f8ecb910eb11f6f74f78",
+      "bytes": 1495557
     },
     "class_image_samples.json": {
       "path": "public/data/class_image_samples.json",
@@ -43,8 +43,8 @@
     },
     "worms_lineages.json": {
       "path": "public/data/worms_lineages.json",
-      "sha256": "f4f171280edd7d8602cfeb5a647876b725ab74848cfb7146ec16b18a48cf5682",
-      "bytes": 460126
+      "sha256": "1ac3a499877422d3f9be0945d008a6678f232136b23c7a8faea47896165134ed",
+      "bytes": 460040
     }
   },
   "thumbnail_dirs": [

@@ -2828,9 +2828,7 @@
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/110247"
   },
   "110325": {
-    "lineage_notes": [
-      "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
-    ],
+    "lineage_notes": [],
     "nodes": [
       {
         "aphia_id": "1",

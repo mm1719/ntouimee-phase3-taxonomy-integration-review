@@ -16383,9 +16383,7 @@
                                                           "entry_id": "life_watch_2026_image_library::Dissodinium pseudolunula",
                                                           "image_count": 4,
                                                           "invalid_image_count": 0,
-                                                          "lineage_notes": [
-                                                            "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
-                                                          ],
+                                                          "lineage_notes": [],
                                                           "name": "Dissodinium pseudolunula",
                                                           "original_label": "Dissodinium pseudolunula",
                                                           "placement_id": "life_watch_2026_image_library::Dissodinium pseudolunula::110325::1",
@@ -16405,9 +16403,7 @@
                                                       "entry_count": 1,
                                                       "image_count": 4,
                                                       "key": "Species::110325::Dissodinium pseudolunula",
-                                                      "lineage_notes": [
-                                                        "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
-                                                      ],
+                                                      "lineage_notes": [],
                                                       "name": "Dissodinium pseudolunula",
                                                       "rank": "Species",
                                                       "risk_flags": [],
@@ -16421,9 +16417,7 @@
                                                   "entry_count": 1,
                                                   "image_count": 4,
                                                   "key": "Genus::109571::Pyrocystis",
-                                                  "lineage_notes": [
-                                                    "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
-                                                  ],
+                                                  "lineage_notes": [],
                                                   "name": "Pyrocystis",
                                                   "rank": "Genus",
                                                   "risk_flags": [],
@@ -16519,9 +16513,7 @@
                                               "entry_count": 4,
                                               "image_count": 387,
                                               "key": "Family::109444::Pyrocystaceae",
-                                              "lineage_notes": [
-                                                "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
-                                              ],
+                                              "lineage_notes": [],
                                               "name": "Pyrocystaceae",
                                               "rank": "Family",
                                               "risk_flags": [],
@@ -16689,9 +16681,7 @@
                                           "entry_count": 37,
                                           "image_count": 29009,
                                           "key": "Order::109391::Gonyaulacales",
-                                          "lineage_notes": [
-                                            "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
-                                          ],
+                                          "lineage_notes": [],
                                           "name": "Gonyaulacales",
                                           "rank": "Order",
                                           "risk_flags": [
@@ -17247,9 +17237,7 @@
                                       "entry_count": 50,
                                       "image_count": 35233,
                                       "key": "Subclass::493845::Peridiniphycidae",
-                                      "lineage_notes": [
-                                        "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
-                                      ],
+                                      "lineage_notes": [],
                                       "name": "Peridiniphycidae",
                                       "rank": "Subclass",
                                       "risk_flags": [
@@ -17377,9 +17365,7 @@
                                   "entry_count": 72,
                                   "image_count": 59949,
                                   "key": "Class::19542::Dinophyceae",
-                                  "lineage_notes": [
-                                    "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
-                                  ],
+                                  "lineage_notes": [],
                                   "name": "Dinophyceae",
                                   "rank": "Class",
                                   "risk_flags": [
@@ -17697,9 +17683,7 @@
                               "entry_count": 83,
                               "image_count": 73933,
                               "key": "Infraphylum::146203::Dinoflagellata",
-                              "lineage_notes": [
-                                "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
-                              ],
+                              "lineage_notes": [],
                               "name": "Dinoflagellata",
                               "rank": "Infraphylum",
                               "risk_flags": [
@@ -17723,9 +17707,7 @@
                           "entry_count": 83,
                           "image_count": 73933,
                           "key": "Subphylum::562620::Dinozoa",
-                          "lineage_notes": [
-                            "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
-                          ],
+                          "lineage_notes": [],
                           "name": "Dinozoa",
                           "rank": "Subphylum",
                           "risk_flags": [
@@ -17749,9 +17731,7 @@
                       "entry_count": 83,
                       "image_count": 73933,
                       "key": "Phylum::450030::Myzozoa",
-                      "lineage_notes": [
-                        "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
-                      ],
+                      "lineage_notes": [],
                       "name": "Myzozoa",
                       "rank": "Phylum",
                       "risk_flags": [
@@ -17775,9 +17755,7 @@
                   "entry_count": 153,
                   "image_count": 101601,
                   "key": "Infrakingdom::536209::Alveolata",
-                  "lineage_notes": [
-                    "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
-                  ],
+                  "lineage_notes": [],
                   "name": "Alveolata",
                   "rank": "Infrakingdom",
                   "risk_flags": [
@@ -18976,9 +18954,7 @@
               "entry_count": 180,
               "image_count": 118406,
               "key": "Subkingdom::582419::Harosa",
-              "lineage_notes": [
-                "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
-              ],
+              "lineage_notes": [],
               "name": "Harosa",
               "rank": "Subkingdom",
               "risk_flags": [
@@ -19003,9 +18979,7 @@
           "entry_count": 404,
           "image_count": 1336456,
           "key": "Kingdom::7::Chromista",
-          "lineage_notes": [
-            "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
-          ],
+          "lineage_notes": [],
           "name": "Chromista",
           "rank": "Kingdom",
           "risk_flags": [
@@ -19466,9 +19440,7 @@
       "entry_count": 471,
       "image_count": 1467375,
       "key": "Superdomain::1::Biota",
-      "lineage_notes": [
-        "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
-      ],
+      "lineage_notes": [],
       "name": "Biota",
       "rank": "Superdomain",
       "risk_flags": [
@@ -19511,9 +19483,7 @@
   ],
   "entry_count": 471,
   "image_count": 1467375,
-  "lineage_notes": [
-    "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
-  ],
+  "lineage_notes": [],
   "name": "WoRMS Taxonomy",
   "placement_weighted_count_policy": "selected_aphia_image_counts_when_available",
   "placement_weighted_image_count": 1467375,
