@@ -15,6 +15,27 @@ type Props = {
   onOpenInvalidSamples: (sampleKey: string) => void;
 };
 
+type StatusEvidence = {
+  source?: string;
+  aphia_id?: string;
+  name?: string;
+  rank?: string;
+  status?: string;
+  valid_aphia_id?: string;
+  valid_name?: string;
+  record_url?: string;
+};
+
+function parseStatusEvidence(value = ""): StatusEvidence[] {
+  if (!value) return [];
+  try {
+    const parsed = JSON.parse(value);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
 export function DetailDrawer({
   node,
   candidate,
@@ -29,6 +50,7 @@ export function DetailDrawer({
   if (!node) return null;
   const selectedIds = candidate ? splitCell(candidate.selected_aphia_ids) : [];
   const selectedCounts = candidate ? splitCell(candidate.selected_aphia_image_counts) : [];
+  const statusEvidence = parseStatusEvidence(candidate?.status_review_evidence_json);
   const datasetBadges = [...new Set([
     ...(node.dataset_id ? [node.dataset_id] : []),
     ...(node.datasets ?? [])
@@ -81,6 +103,38 @@ export function DetailDrawer({
             <div><dt>Accepted AphiaID</dt><dd>{candidate.accepted_aphia_id || "n/a"}</dd></div>
           </dl>
           <p className="muted">{candidate.synonym_note}</p>
+        </div>
+      )}
+
+      {candidate?.status_review_flag && (
+        <div className="drawer-section">
+          <h3>WoRMS status review</h3>
+          <dl className="kv compact-kv">
+            <div><dt>Review flag</dt><dd>{candidate.status_review_flag.split("|").join(", ")}</dd></div>
+            <div><dt>Rollup AphiaID</dt><dd>{candidate.status_review_rollup_aphia_id || "n/a"}</dd></div>
+            <div><dt>Rollup taxon</dt><dd>{candidate.status_review_rollup_name || "n/a"}</dd></div>
+            <div><dt>Rollup rank</dt><dd>{candidate.status_review_rollup_rank || "n/a"}</dd></div>
+          </dl>
+          {statusEvidence.length > 0 && (
+            <div className="evidence-list">
+              {statusEvidence.map((record, index) => (
+                <div className="evidence-item" key={`${record.source}-${record.aphia_id}-${index}`}>
+                  <dl className="kv compact-kv">
+                    <div><dt>Source</dt><dd>{record.source || "n/a"}</dd></div>
+                    <div><dt>AphiaID</dt><dd><code>{record.aphia_id || "n/a"}</code></dd></div>
+                    <div><dt>Name</dt><dd>{record.name || "n/a"}</dd></div>
+                    <div><dt>Rank / status</dt><dd>{[record.rank, record.status].filter(Boolean).join(" / ") || "n/a"}</dd></div>
+                    <div><dt>Valid target</dt><dd>{[record.valid_aphia_id, record.valid_name].filter(Boolean).join(" ") || "n/a"}</dd></div>
+                  </dl>
+                  {record.record_url && (
+                    <a href={record.record_url} target="_blank" rel="noreferrer" className="link">
+                      {record.record_url}
+                    </a>
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       )}
 

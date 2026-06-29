@@ -1,4 +1,24 @@
 {
+  "1": {
+    "lineage_notes": [],
+    "nodes": [
+      {
+        "aphia_id": "1",
+        "depth": 0,
+        "rank": "Superdomain",
+        "scientific_name": "Biota"
+      }
+    ],
+    "ok": true,
+    "risk_flags": [],
+    "standard_ranks": {
+      "Superdomain": {
+        "aphia_id": "1",
+        "scientific_name": "Biota"
+      }
+    },
+    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/1"
+  },
   "106422": {
     "lineage_notes": [],
     "nodes": [
@@ -606,6 +626,114 @@
       }
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/109394"
+  },
+  "109421": {
+    "lineage_notes": [],
+    "nodes": [
+      {
+        "aphia_id": "1",
+        "depth": 0,
+        "rank": "Superdomain",
+        "scientific_name": "Biota"
+      },
+      {
+        "aphia_id": "7",
+        "depth": 1,
+        "rank": "Kingdom",
+        "scientific_name": "Chromista"
+      },
+      {
+        "aphia_id": "582419",
+        "depth": 2,
+        "rank": "Subkingdom",
+        "scientific_name": "Harosa"
+      },
+      {
+        "aphia_id": "536209",
+        "depth": 3,
+        "rank": "Infrakingdom",
+        "scientific_name": "Alveolata"
+      },
+      {
+        "aphia_id": "450030",
+        "depth": 4,
+        "rank": "Phylum",
+        "scientific_name": "Myzozoa"
+      },
+      {
+        "aphia_id": "562620",
+        "depth": 5,
+        "rank": "Subphylum",
+        "scientific_name": "Dinozoa"
+      },
+      {
+        "aphia_id": "146203",
+        "depth": 6,
+        "rank": "Infraphylum",
+        "scientific_name": "Dinoflagellata"
+      },
+      {
+        "aphia_id": "19542",
+        "depth": 7,
+        "rank": "Class",
+        "scientific_name": "Dinophyceae"
+      },
+      {
+        "aphia_id": "493845",
+        "depth": 8,
+        "rank": "Subclass",
+        "scientific_name": "Peridiniphycidae"
+      },
+      {
+        "aphia_id": "109391",
+        "depth": 9,
+        "rank": "Order",
+        "scientific_name": "Gonyaulacales"
+      },
+      {
+        "aphia_id": "109421",
+        "depth": 10,
+        "rank": "Family",
+        "scientific_name": "Ceratiaceae"
+      }
+    ],
+    "ok": true,
+    "risk_flags": [],
+    "standard_ranks": {
+      "Class": {
+        "aphia_id": "19542",
+        "scientific_name": "Dinophyceae"
+      },
+      "Family": {
+        "aphia_id": "109421",
+        "scientific_name": "Ceratiaceae"
+      },
+      "Kingdom": {
+        "aphia_id": "7",
+        "scientific_name": "Chromista"
+      },
+      "Order": {
+        "aphia_id": "109391",
+        "scientific_name": "Gonyaulacales"
+      },
+      "Phylum": {
+        "aphia_id": "450030",
+        "scientific_name": "Myzozoa"
+      },
+      "Subclass": {
+        "aphia_id": "493845",
+        "scientific_name": "Peridiniphycidae"
+      },
+      "Subphylum": {
+        "aphia_id": "562620",
+        "scientific_name": "Dinozoa"
+      },
+      "Superdomain": {
+        "aphia_id": "1",
+        "scientific_name": "Biota"
+      }
+    },
+    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/109421"
   },
   "109444": {
     "lineage_notes": [],
@@ -2827,134 +2955,6 @@
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/110247"
   },
-  "110325": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "582419",
-        "depth": 2,
-        "rank": "Subkingdom",
-        "scientific_name": "Harosa"
-      },
-      {
-        "aphia_id": "536209",
-        "depth": 3,
-        "rank": "Infrakingdom",
-        "scientific_name": "Alveolata"
-      },
-      {
-        "aphia_id": "450030",
-        "depth": 4,
-        "rank": "Phylum",
-        "scientific_name": "Myzozoa"
-      },
-      {
-        "aphia_id": "562620",
-        "depth": 5,
-        "rank": "Subphylum",
-        "scientific_name": "Dinozoa"
-      },
-      {
-        "aphia_id": "146203",
-        "depth": 6,
-        "rank": "Infraphylum",
-        "scientific_name": "Dinoflagellata"
-      },
-      {
-        "aphia_id": "19542",
-        "depth": 7,
-        "rank": "Class",
-        "scientific_name": "Dinophyceae"
-      },
-      {
-        "aphia_id": "493845",
-        "depth": 8,
-        "rank": "Subclass",
-        "scientific_name": "Peridiniphycidae"
-      },
-      {
-        "aphia_id": "109391",
-        "depth": 9,
-        "rank": "Order",
-        "scientific_name": "Gonyaulacales"
-      },
-      {
-        "aphia_id": "109444",
-        "depth": 10,
-        "rank": "Family",
-        "scientific_name": "Pyrocystaceae"
-      },
-      {
-        "aphia_id": "109571",
-        "depth": 11,
-        "rank": "Genus",
-        "scientific_name": "Pyrocystis"
-      },
-      {
-        "aphia_id": "110325",
-        "depth": 12,
-        "rank": "Species",
-        "scientific_name": "Dissodinium pseudolunula"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "19542",
-        "scientific_name": "Dinophyceae"
-      },
-      "Family": {
-        "aphia_id": "109444",
-        "scientific_name": "Pyrocystaceae"
-      },
-      "Genus": {
-        "aphia_id": "109571",
-        "scientific_name": "Pyrocystis"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "109391",
-        "scientific_name": "Gonyaulacales"
-      },
-      "Phylum": {
-        "aphia_id": "450030",
-        "scientific_name": "Myzozoa"
-      },
-      "Species": {
-        "aphia_id": "110325",
-        "scientific_name": "Dissodinium pseudolunula"
-      },
-      "Subclass": {
-        "aphia_id": "493845",
-        "scientific_name": "Peridiniphycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "562620",
-        "scientific_name": "Dinozoa"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/110325"
-  },
   "1130": {
     "lineage_notes": [],
     "nodes": [
@@ -4225,6 +4225,96 @@
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/148899"
   },
+  "148915": {
+    "lineage_notes": [],
+    "nodes": [
+      {
+        "aphia_id": "1",
+        "depth": 0,
+        "rank": "Superdomain",
+        "scientific_name": "Biota"
+      },
+      {
+        "aphia_id": "7",
+        "depth": 1,
+        "rank": "Kingdom",
+        "scientific_name": "Chromista"
+      },
+      {
+        "aphia_id": "370437",
+        "depth": 2,
+        "rank": "Phylum",
+        "scientific_name": "Heterokontophyta"
+      },
+      {
+        "aphia_id": "493822",
+        "depth": 3,
+        "rank": "Subphylum",
+        "scientific_name": "Bacillariophytina"
+      },
+      {
+        "aphia_id": "148899",
+        "depth": 4,
+        "rank": "Class",
+        "scientific_name": "Bacillariophyceae"
+      },
+      {
+        "aphia_id": "148971",
+        "depth": 5,
+        "rank": "Subclass",
+        "scientific_name": "Coscinodiscophycidae"
+      },
+      {
+        "aphia_id": "591190",
+        "depth": 6,
+        "rank": "Superorder",
+        "scientific_name": "Coscinodiscanae"
+      },
+      {
+        "aphia_id": "148915",
+        "depth": 7,
+        "rank": "Order",
+        "scientific_name": "Coscinodiscales"
+      }
+    ],
+    "ok": true,
+    "risk_flags": [],
+    "standard_ranks": {
+      "Class": {
+        "aphia_id": "148899",
+        "scientific_name": "Bacillariophyceae"
+      },
+      "Kingdom": {
+        "aphia_id": "7",
+        "scientific_name": "Chromista"
+      },
+      "Order": {
+        "aphia_id": "148915",
+        "scientific_name": "Coscinodiscales"
+      },
+      "Phylum": {
+        "aphia_id": "370437",
+        "scientific_name": "Heterokontophyta"
+      },
+      "Subclass": {
+        "aphia_id": "148971",
+        "scientific_name": "Coscinodiscophycidae"
+      },
+      "Subphylum": {
+        "aphia_id": "493822",
+        "scientific_name": "Bacillariophytina"
+      },
+      "Superdomain": {
+        "aphia_id": "1",
+        "scientific_name": "Biota"
+      },
+      "Superorder": {
+        "aphia_id": "591190",
+        "scientific_name": "Coscinodiscanae"
+      }
+    },
+    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/148915"
+  },
   "148916": {
     "lineage_notes": [],
     "nodes": [
@@ -4325,7 +4415,7 @@
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/148916"
   },
-  "148936": {
+  "148917": {
     "lineage_notes": [],
     "nodes": [
       {
@@ -4365,34 +4455,28 @@
         "scientific_name": "Coscinodiscophycidae"
       },
       {
-        "aphia_id": "591189",
+        "aphia_id": "591190",
         "depth": 6,
         "rank": "Superorder",
-        "scientific_name": "Thalassiosiranae"
+        "scientific_name": "Coscinodiscanae"
       },
       {
-        "aphia_id": "148903",
+        "aphia_id": "148915",
         "depth": 7,
         "rank": "Order",
-        "scientific_name": "Thalassiosirales"
+        "scientific_name": "Coscinodiscales"
       },
       {
-        "aphia_id": "148904",
+        "aphia_id": "148916",
         "depth": 8,
         "rank": "Family",
-        "scientific_name": "Thalassiosiraceae"
+        "scientific_name": "Coscinodiscaceae"
       },
       {
-        "aphia_id": "148912",
+        "aphia_id": "148917",
         "depth": 9,
         "rank": "Genus",
-        "scientific_name": "Thalassiosira"
-      },
-      {
-        "aphia_id": "148936",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Thalassiosira punctigera"
+        "scientific_name": "Coscinodiscus"
       }
     ],
     "ok": true,
@@ -4403,28 +4487,24 @@
         "scientific_name": "Bacillariophyceae"
       },
       "Family": {
-        "aphia_id": "148904",
-        "scientific_name": "Thalassiosiraceae"
+        "aphia_id": "148916",
+        "scientific_name": "Coscinodiscaceae"
       },
       "Genus": {
-        "aphia_id": "148912",
-        "scientific_name": "Thalassiosira"
+        "aphia_id": "148917",
+        "scientific_name": "Coscinodiscus"
       },
       "Kingdom": {
         "aphia_id": "7",
         "scientific_name": "Chromista"
       },
       "Order": {
-        "aphia_id": "148903",
-        "scientific_name": "Thalassiosirales"
+        "aphia_id": "148915",
+        "scientific_name": "Coscinodiscales"
       },
       "Phylum": {
         "aphia_id": "370437",
         "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "148936",
-        "scientific_name": "Thalassiosira punctigera"
       },
       "Subclass": {
         "aphia_id": "148971",
@@ -4439,11 +4519,11 @@
         "scientific_name": "Biota"
       },
       "Superorder": {
-        "aphia_id": "591189",
-        "scientific_name": "Thalassiosiranae"
+        "aphia_id": "591190",
+        "scientific_name": "Coscinodiscanae"
       }
     },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/148936"
+    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/148917"
   },
   "148947": {
     "lineage_notes": [],
@@ -4554,126 +4634,6 @@
       }
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/148947"
-  },
-  "148948": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148971",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      {
-        "aphia_id": "591190",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Coscinodiscanae"
-      },
-      {
-        "aphia_id": "148915",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Coscinodiscales"
-      },
-      {
-        "aphia_id": "148946",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Heliopeltaceae"
-      },
-      {
-        "aphia_id": "148947",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Actinoptychus"
-      },
-      {
-        "aphia_id": "148948",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Actinoptychus senarius"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "148946",
-        "scientific_name": "Heliopeltaceae"
-      },
-      "Genus": {
-        "aphia_id": "148947",
-        "scientific_name": "Actinoptychus"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "148915",
-        "scientific_name": "Coscinodiscales"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "148948",
-        "scientific_name": "Actinoptychus senarius"
-      },
-      "Subclass": {
-        "aphia_id": "148971",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591190",
-        "scientific_name": "Coscinodiscanae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/148948"
   },
   "148949": {
     "lineage_notes": [],
@@ -4794,6 +4754,106 @@
       }
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/148949"
+  },
+  "148952": {
+    "lineage_notes": [],
+    "nodes": [
+      {
+        "aphia_id": "1",
+        "depth": 0,
+        "rank": "Superdomain",
+        "scientific_name": "Biota"
+      },
+      {
+        "aphia_id": "7",
+        "depth": 1,
+        "rank": "Kingdom",
+        "scientific_name": "Chromista"
+      },
+      {
+        "aphia_id": "370437",
+        "depth": 2,
+        "rank": "Phylum",
+        "scientific_name": "Heterokontophyta"
+      },
+      {
+        "aphia_id": "493822",
+        "depth": 3,
+        "rank": "Subphylum",
+        "scientific_name": "Bacillariophytina"
+      },
+      {
+        "aphia_id": "148899",
+        "depth": 4,
+        "rank": "Class",
+        "scientific_name": "Bacillariophyceae"
+      },
+      {
+        "aphia_id": "148978",
+        "depth": 5,
+        "rank": "Subclass",
+        "scientific_name": "Fragilariophycidae"
+      },
+      {
+        "aphia_id": "591199",
+        "depth": 6,
+        "rank": "Superorder",
+        "scientific_name": "Fragilariophycanae"
+      },
+      {
+        "aphia_id": "148951",
+        "depth": 7,
+        "rank": "Order",
+        "scientific_name": "Fragilariales"
+      },
+      {
+        "aphia_id": "148952",
+        "depth": 8,
+        "rank": "Family",
+        "scientific_name": "Fragilariaceae"
+      }
+    ],
+    "ok": true,
+    "risk_flags": [],
+    "standard_ranks": {
+      "Class": {
+        "aphia_id": "148899",
+        "scientific_name": "Bacillariophyceae"
+      },
+      "Family": {
+        "aphia_id": "148952",
+        "scientific_name": "Fragilariaceae"
+      },
+      "Kingdom": {
+        "aphia_id": "7",
+        "scientific_name": "Chromista"
+      },
+      "Order": {
+        "aphia_id": "148951",
+        "scientific_name": "Fragilariales"
+      },
+      "Phylum": {
+        "aphia_id": "370437",
+        "scientific_name": "Heterokontophyta"
+      },
+      "Subclass": {
+        "aphia_id": "148978",
+        "scientific_name": "Fragilariophycidae"
+      },
+      "Subphylum": {
+        "aphia_id": "493822",
+        "scientific_name": "Bacillariophytina"
+      },
+      "Superdomain": {
+        "aphia_id": "1",
+        "scientific_name": "Biota"
+      },
+      "Superorder": {
+        "aphia_id": "591199",
+        "scientific_name": "Fragilariophycanae"
+      }
+    },
+    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/148952"
   },
   "148953": {
     "lineage_notes": [],
@@ -5955,6 +6015,96 @@
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149013"
   },
+  "149015": {
+    "lineage_notes": [],
+    "nodes": [
+      {
+        "aphia_id": "1",
+        "depth": 0,
+        "rank": "Superdomain",
+        "scientific_name": "Biota"
+      },
+      {
+        "aphia_id": "7",
+        "depth": 1,
+        "rank": "Kingdom",
+        "scientific_name": "Chromista"
+      },
+      {
+        "aphia_id": "370437",
+        "depth": 2,
+        "rank": "Phylum",
+        "scientific_name": "Heterokontophyta"
+      },
+      {
+        "aphia_id": "493822",
+        "depth": 3,
+        "rank": "Subphylum",
+        "scientific_name": "Bacillariophytina"
+      },
+      {
+        "aphia_id": "148899",
+        "depth": 4,
+        "rank": "Class",
+        "scientific_name": "Bacillariophyceae"
+      },
+      {
+        "aphia_id": "148902",
+        "depth": 5,
+        "rank": "Subclass",
+        "scientific_name": "Bacillariophycidae"
+      },
+      {
+        "aphia_id": "591186",
+        "depth": 6,
+        "rank": "Superorder",
+        "scientific_name": "Bacillariophycanae"
+      },
+      {
+        "aphia_id": "149015",
+        "depth": 7,
+        "rank": "Order",
+        "scientific_name": "Naviculales"
+      }
+    ],
+    "ok": true,
+    "risk_flags": [],
+    "standard_ranks": {
+      "Class": {
+        "aphia_id": "148899",
+        "scientific_name": "Bacillariophyceae"
+      },
+      "Kingdom": {
+        "aphia_id": "7",
+        "scientific_name": "Chromista"
+      },
+      "Order": {
+        "aphia_id": "149015",
+        "scientific_name": "Naviculales"
+      },
+      "Phylum": {
+        "aphia_id": "370437",
+        "scientific_name": "Heterokontophyta"
+      },
+      "Subclass": {
+        "aphia_id": "148902",
+        "scientific_name": "Bacillariophycidae"
+      },
+      "Subphylum": {
+        "aphia_id": "493822",
+        "scientific_name": "Bacillariophytina"
+      },
+      "Superdomain": {
+        "aphia_id": "1",
+        "scientific_name": "Biota"
+      },
+      "Superorder": {
+        "aphia_id": "591186",
+        "scientific_name": "Bacillariophycanae"
+      }
+    },
+    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149015"
+  },
   "149018": {
     "lineage_notes": [],
     "nodes": [
@@ -6174,126 +6324,6 @@
       }
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149022"
-  },
-  "149023": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148971",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      {
-        "aphia_id": "591193",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Lithodesmiophycanae"
-      },
-      {
-        "aphia_id": "149020",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Lithodesmiales"
-      },
-      {
-        "aphia_id": "149021",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Lithodesmiaceae"
-      },
-      {
-        "aphia_id": "149022",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Ditylum"
-      },
-      {
-        "aphia_id": "149023",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Ditylum brightwellii"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "149021",
-        "scientific_name": "Lithodesmiaceae"
-      },
-      "Genus": {
-        "aphia_id": "149022",
-        "scientific_name": "Ditylum"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "149020",
-        "scientific_name": "Lithodesmiales"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "149023",
-        "scientific_name": "Ditylum brightwellii"
-      },
-      "Subclass": {
-        "aphia_id": "148971",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591193",
-        "scientific_name": "Lithodesmiophycanae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149023"
   },
   "149037": {
     "lineage_notes": [],
@@ -6824,126 +6854,6 @@
       }
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149054"
-  },
-  "149057": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148971",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      {
-        "aphia_id": "591195",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Cymatosirophycanae"
-      },
-      {
-        "aphia_id": "149009",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Cymatosirales"
-      },
-      {
-        "aphia_id": "149010",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Cymatosiraceae"
-      },
-      {
-        "aphia_id": "149056",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Plagiogrammopsis"
-      },
-      {
-        "aphia_id": "149057",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Plagiogrammopsis vanheurckii"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "149010",
-        "scientific_name": "Cymatosiraceae"
-      },
-      "Genus": {
-        "aphia_id": "149056",
-        "scientific_name": "Plagiogrammopsis"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "149009",
-        "scientific_name": "Cymatosirales"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "149057",
-        "scientific_name": "Plagiogrammopsis vanheurckii"
-      },
-      "Subclass": {
-        "aphia_id": "148971",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591195",
-        "scientific_name": "Cymatosirophycanae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149057"
   },
   "149068": {
     "lineage_notes": [],
@@ -7575,126 +7485,6 @@
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149111"
   },
-  "149112": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148971",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      {
-        "aphia_id": "591196",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Rhizosolenianae"
-      },
-      {
-        "aphia_id": "149067",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Rhizosoleniales"
-      },
-      {
-        "aphia_id": "149068",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Rhizosoleniaceae"
-      },
-      {
-        "aphia_id": "149111",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Guinardia"
-      },
-      {
-        "aphia_id": "149112",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Guinardia delicatula"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "149068",
-        "scientific_name": "Rhizosoleniaceae"
-      },
-      "Genus": {
-        "aphia_id": "149111",
-        "scientific_name": "Guinardia"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "149067",
-        "scientific_name": "Rhizosoleniales"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "149112",
-        "scientific_name": "Guinardia delicatula"
-      },
-      "Subclass": {
-        "aphia_id": "148971",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591196",
-        "scientific_name": "Rhizosolenianae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149112"
-  },
   "149118": {
     "lineage_notes": [],
     "nodes": [
@@ -7804,126 +7594,6 @@
       }
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149118"
-  },
-  "149120": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148971",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      {
-        "aphia_id": "591197",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Chaetocerotanae"
-      },
-      {
-        "aphia_id": "593505",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Chaetocerotanae incertae sedis"
-      },
-      {
-        "aphia_id": "148984",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Chaetocerotaceae"
-      },
-      {
-        "aphia_id": "148985",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Chaetoceros"
-      },
-      {
-        "aphia_id": "149120",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Chaetoceros danicus"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "148984",
-        "scientific_name": "Chaetocerotaceae"
-      },
-      "Genus": {
-        "aphia_id": "148985",
-        "scientific_name": "Chaetoceros"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "593505",
-        "scientific_name": "Chaetocerotanae incertae sedis"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "149120",
-        "scientific_name": "Chaetoceros danicus"
-      },
-      "Subclass": {
-        "aphia_id": "148971",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591197",
-        "scientific_name": "Chaetocerotanae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149120"
   },
   "149123": {
     "lineage_notes": [],
@@ -8155,246 +7825,6 @@
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149130"
   },
-  "149132": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148971",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      {
-        "aphia_id": "591196",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Rhizosolenianae"
-      },
-      {
-        "aphia_id": "149067",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Rhizosoleniales"
-      },
-      {
-        "aphia_id": "149068",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Rhizosoleniaceae"
-      },
-      {
-        "aphia_id": "149111",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Guinardia"
-      },
-      {
-        "aphia_id": "149132",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Guinardia flaccida"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "149068",
-        "scientific_name": "Rhizosoleniaceae"
-      },
-      "Genus": {
-        "aphia_id": "149111",
-        "scientific_name": "Guinardia"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "149067",
-        "scientific_name": "Rhizosoleniales"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "149132",
-        "scientific_name": "Guinardia flaccida"
-      },
-      "Subclass": {
-        "aphia_id": "148971",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591196",
-        "scientific_name": "Rhizosolenianae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149132"
-  },
-  "149137": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148971",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      {
-        "aphia_id": "591195",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Cymatosirophycanae"
-      },
-      {
-        "aphia_id": "149009",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Cymatosirales"
-      },
-      {
-        "aphia_id": "149010",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Cymatosiraceae"
-      },
-      {
-        "aphia_id": "149136",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Brockmanniella"
-      },
-      {
-        "aphia_id": "149137",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Brockmanniella brockmannii"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "149010",
-        "scientific_name": "Cymatosiraceae"
-      },
-      "Genus": {
-        "aphia_id": "149136",
-        "scientific_name": "Brockmanniella"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "149009",
-        "scientific_name": "Cymatosirales"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "149137",
-        "scientific_name": "Brockmanniella brockmannii"
-      },
-      "Subclass": {
-        "aphia_id": "148971",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591195",
-        "scientific_name": "Cymatosirophycanae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149137"
-  },
   "149138": {
     "lineage_notes": [],
     "nodes": [
@@ -8504,246 +7934,6 @@
       }
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149138"
-  },
-  "149145": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148902",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Bacillariophycidae"
-      },
-      {
-        "aphia_id": "591186",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Bacillariophycanae"
-      },
-      {
-        "aphia_id": "149015",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Naviculales"
-      },
-      {
-        "aphia_id": "149031",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Naviculaceae"
-      },
-      {
-        "aphia_id": "149144",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Meuniera"
-      },
-      {
-        "aphia_id": "149145",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Meuniera membranacea"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "149031",
-        "scientific_name": "Naviculaceae"
-      },
-      "Genus": {
-        "aphia_id": "149144",
-        "scientific_name": "Meuniera"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "149015",
-        "scientific_name": "Naviculales"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "149145",
-        "scientific_name": "Meuniera membranacea"
-      },
-      "Subclass": {
-        "aphia_id": "148902",
-        "scientific_name": "Bacillariophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591186",
-        "scientific_name": "Bacillariophycanae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149145"
-  },
-  "149149": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148902",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Bacillariophycidae"
-      },
-      {
-        "aphia_id": "591186",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Bacillariophycanae"
-      },
-      {
-        "aphia_id": "149001",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Bacillariales"
-      },
-      {
-        "aphia_id": "149002",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Bacillariaceae"
-      },
-      {
-        "aphia_id": "149148",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Bacillaria"
-      },
-      {
-        "aphia_id": "149149",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Bacillaria paxillifer"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "149002",
-        "scientific_name": "Bacillariaceae"
-      },
-      "Genus": {
-        "aphia_id": "149148",
-        "scientific_name": "Bacillaria"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "149001",
-        "scientific_name": "Bacillariales"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "149149",
-        "scientific_name": "Bacillaria paxillifer"
-      },
-      "Subclass": {
-        "aphia_id": "148902",
-        "scientific_name": "Bacillariophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591186",
-        "scientific_name": "Bacillariophycanae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149149"
   },
   "149151": {
     "lineage_notes": [],
@@ -8964,126 +8154,6 @@
       }
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149167"
-  },
-  "149168": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148971",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      {
-        "aphia_id": "591196",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Rhizosolenianae"
-      },
-      {
-        "aphia_id": "149067",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Rhizosoleniales"
-      },
-      {
-        "aphia_id": "149068",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Rhizosoleniaceae"
-      },
-      {
-        "aphia_id": "149167",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Proboscia"
-      },
-      {
-        "aphia_id": "149168",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Proboscia alata"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "149068",
-        "scientific_name": "Rhizosoleniaceae"
-      },
-      "Genus": {
-        "aphia_id": "149167",
-        "scientific_name": "Proboscia"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "149067",
-        "scientific_name": "Rhizosoleniales"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "149168",
-        "scientific_name": "Proboscia alata"
-      },
-      "Subclass": {
-        "aphia_id": "148971",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591196",
-        "scientific_name": "Rhizosolenianae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149168"
   },
   "149170": {
     "lineage_notes": [],
@@ -9775,126 +8845,6 @@
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149271"
   },
-  "149280": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148971",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      {
-        "aphia_id": "591190",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Coscinodiscanae"
-      },
-      {
-        "aphia_id": "148915",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Coscinodiscales"
-      },
-      {
-        "aphia_id": "149278",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Aulacodiscaceae"
-      },
-      {
-        "aphia_id": "149279",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Aulacodiscus"
-      },
-      {
-        "aphia_id": "149280",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Aulacodiscus argus"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "149278",
-        "scientific_name": "Aulacodiscaceae"
-      },
-      "Genus": {
-        "aphia_id": "149279",
-        "scientific_name": "Aulacodiscus"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "148915",
-        "scientific_name": "Coscinodiscales"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "149280",
-        "scientific_name": "Aulacodiscus argus"
-      },
-      "Subclass": {
-        "aphia_id": "148971",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591190",
-        "scientific_name": "Coscinodiscanae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149280"
-  },
   "149281": {
     "lineage_notes": [],
     "nodes": [
@@ -10114,6 +9064,116 @@
       }
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149285"
+  },
+  "149305": {
+    "lineage_notes": [],
+    "nodes": [
+      {
+        "aphia_id": "1",
+        "depth": 0,
+        "rank": "Superdomain",
+        "scientific_name": "Biota"
+      },
+      {
+        "aphia_id": "7",
+        "depth": 1,
+        "rank": "Kingdom",
+        "scientific_name": "Chromista"
+      },
+      {
+        "aphia_id": "370437",
+        "depth": 2,
+        "rank": "Phylum",
+        "scientific_name": "Heterokontophyta"
+      },
+      {
+        "aphia_id": "493822",
+        "depth": 3,
+        "rank": "Subphylum",
+        "scientific_name": "Bacillariophytina"
+      },
+      {
+        "aphia_id": "148899",
+        "depth": 4,
+        "rank": "Class",
+        "scientific_name": "Bacillariophyceae"
+      },
+      {
+        "aphia_id": "148971",
+        "depth": 5,
+        "rank": "Subclass",
+        "scientific_name": "Coscinodiscophycidae"
+      },
+      {
+        "aphia_id": "591192",
+        "depth": 6,
+        "rank": "Superorder",
+        "scientific_name": "Biddulphianae"
+      },
+      {
+        "aphia_id": "149234",
+        "depth": 7,
+        "rank": "Order",
+        "scientific_name": "Hemiaulales"
+      },
+      {
+        "aphia_id": "149304",
+        "depth": 8,
+        "rank": "Family",
+        "scientific_name": "Bellerocheaceae"
+      },
+      {
+        "aphia_id": "149305",
+        "depth": 9,
+        "rank": "Genus",
+        "scientific_name": "Bellerochea"
+      }
+    ],
+    "ok": true,
+    "risk_flags": [],
+    "standard_ranks": {
+      "Class": {
+        "aphia_id": "148899",
+        "scientific_name": "Bacillariophyceae"
+      },
+      "Family": {
+        "aphia_id": "149304",
+        "scientific_name": "Bellerocheaceae"
+      },
+      "Genus": {
+        "aphia_id": "149305",
+        "scientific_name": "Bellerochea"
+      },
+      "Kingdom": {
+        "aphia_id": "7",
+        "scientific_name": "Chromista"
+      },
+      "Order": {
+        "aphia_id": "149234",
+        "scientific_name": "Hemiaulales"
+      },
+      "Phylum": {
+        "aphia_id": "370437",
+        "scientific_name": "Heterokontophyta"
+      },
+      "Subclass": {
+        "aphia_id": "148971",
+        "scientific_name": "Coscinodiscophycidae"
+      },
+      "Subphylum": {
+        "aphia_id": "493822",
+        "scientific_name": "Bacillariophytina"
+      },
+      "Superdomain": {
+        "aphia_id": "1",
+        "scientific_name": "Biota"
+      },
+      "Superorder": {
+        "aphia_id": "591192",
+        "scientific_name": "Biddulphianae"
+      }
+    },
+    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149305"
   },
   "149309": {
     "lineage_notes": [],
@@ -10335,7 +9395,7 @@
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149313"
   },
-  "149322": {
+  "149321": {
     "lineage_notes": [],
     "nodes": [
       {
@@ -10397,12 +9457,6 @@
         "depth": 9,
         "rank": "Genus",
         "scientific_name": "Lithodesmium"
-      },
-      {
-        "aphia_id": "149322",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Lithodesmium undulatum"
       }
     ],
     "ok": true,
@@ -10432,10 +9486,6 @@
         "aphia_id": "370437",
         "scientific_name": "Heterokontophyta"
       },
-      "Species": {
-        "aphia_id": "149322",
-        "scientific_name": "Lithodesmium undulatum"
-      },
       "Subclass": {
         "aphia_id": "148971",
         "scientific_name": "Coscinodiscophycidae"
@@ -10453,7 +9503,7 @@
         "scientific_name": "Lithodesmiophycanae"
       }
     },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149322"
+    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/149321"
   },
   "149342": {
     "lineage_notes": [],
@@ -11143,126 +10193,6 @@
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/150205"
   },
-  "156632": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148971",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      {
-        "aphia_id": "591190",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Coscinodiscanae"
-      },
-      {
-        "aphia_id": "148915",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Coscinodiscales"
-      },
-      {
-        "aphia_id": "148916",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Coscinodiscaceae"
-      },
-      {
-        "aphia_id": "148917",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Coscinodiscus"
-      },
-      {
-        "aphia_id": "156632",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Coscinodiscus wailesii"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "148916",
-        "scientific_name": "Coscinodiscaceae"
-      },
-      "Genus": {
-        "aphia_id": "148917",
-        "scientific_name": "Coscinodiscus"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "148915",
-        "scientific_name": "Coscinodiscales"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "156632",
-        "scientific_name": "Coscinodiscus wailesii"
-      },
-      "Subclass": {
-        "aphia_id": "148971",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591190",
-        "scientific_name": "Coscinodiscanae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/156632"
-  },
   "157257": {
     "lineage_notes": [],
     "nodes": [
@@ -11546,126 +10476,6 @@
       }
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/157438"
-  },
-  "157440": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148971",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      {
-        "aphia_id": "591193",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Lithodesmiophycanae"
-      },
-      {
-        "aphia_id": "149020",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Lithodesmiales"
-      },
-      {
-        "aphia_id": "149021",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Lithodesmiaceae"
-      },
-      {
-        "aphia_id": "157438",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Helicotheca"
-      },
-      {
-        "aphia_id": "157440",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Helicotheca tamesis"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "149021",
-        "scientific_name": "Lithodesmiaceae"
-      },
-      "Genus": {
-        "aphia_id": "157438",
-        "scientific_name": "Helicotheca"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "149020",
-        "scientific_name": "Lithodesmiales"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "157440",
-        "scientific_name": "Helicotheca tamesis"
-      },
-      "Subclass": {
-        "aphia_id": "148971",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591193",
-        "scientific_name": "Lithodesmiophycanae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/157440"
   },
   "160538": {
     "lineage_notes": [],
@@ -12317,126 +11127,6 @@
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/162969"
   },
-  "163055": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148971",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      {
-        "aphia_id": "591197",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Chaetocerotanae"
-      },
-      {
-        "aphia_id": "593505",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Chaetocerotanae incertae sedis"
-      },
-      {
-        "aphia_id": "148984",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Chaetocerotaceae"
-      },
-      {
-        "aphia_id": "148985",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Chaetoceros"
-      },
-      {
-        "aphia_id": "163055",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Chaetoceros protuberans"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "148984",
-        "scientific_name": "Chaetocerotaceae"
-      },
-      "Genus": {
-        "aphia_id": "148985",
-        "scientific_name": "Chaetoceros"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "593505",
-        "scientific_name": "Chaetocerotanae incertae sedis"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "163055",
-        "scientific_name": "Chaetoceros protuberans"
-      },
-      "Subclass": {
-        "aphia_id": "148971",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591197",
-        "scientific_name": "Chaetocerotanae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/163055"
-  },
   "163067": {
     "lineage_notes": [],
     "nodes": [
@@ -12634,132 +11324,6 @@
       }
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/163248"
-  },
-  "163292": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148971",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      {
-        "aphia_id": "591192",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Biddulphianae"
-      },
-      {
-        "aphia_id": "149048",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Triceratiales"
-      },
-      {
-        "aphia_id": "149049",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Triceratiaceae"
-      },
-      {
-        "aphia_id": "148963",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Odontella"
-      },
-      {
-        "aphia_id": "149157",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Odontella rhombus"
-      },
-      {
-        "aphia_id": "163292",
-        "depth": 11,
-        "rank": "Forma",
-        "scientific_name": "Odontella rhombus f. trigona"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "149049",
-        "scientific_name": "Triceratiaceae"
-      },
-      "Genus": {
-        "aphia_id": "148963",
-        "scientific_name": "Odontella"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "149048",
-        "scientific_name": "Triceratiales"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "149157",
-        "scientific_name": "Odontella rhombus"
-      },
-      "Subclass": {
-        "aphia_id": "148971",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591192",
-        "scientific_name": "Biddulphianae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/163292"
   },
   "163573": {
     "lineage_notes": [],
@@ -15323,126 +13887,6 @@
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/196803"
   },
-  "196815": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148971",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      {
-        "aphia_id": "591189",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Thalassiosiranae"
-      },
-      {
-        "aphia_id": "148903",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Thalassiosirales"
-      },
-      {
-        "aphia_id": "148904",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Thalassiosiraceae"
-      },
-      {
-        "aphia_id": "148979",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Planktoniella"
-      },
-      {
-        "aphia_id": "196815",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Planktoniella sol"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "148904",
-        "scientific_name": "Thalassiosiraceae"
-      },
-      "Genus": {
-        "aphia_id": "148979",
-        "scientific_name": "Planktoniella"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "148903",
-        "scientific_name": "Thalassiosirales"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "196815",
-        "scientific_name": "Planktoniella sol"
-      },
-      "Subclass": {
-        "aphia_id": "148971",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591189",
-        "scientific_name": "Thalassiosiranae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/196815"
-  },
   "196834": {
     "lineage_notes": [],
     "nodes": [
@@ -16175,366 +14619,6 @@
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/235773"
   },
-  "251745": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148978",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Fragilariophycidae"
-      },
-      {
-        "aphia_id": "591199",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Fragilariophycanae"
-      },
-      {
-        "aphia_id": "148951",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Fragilariales"
-      },
-      {
-        "aphia_id": "148952",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Fragilariaceae"
-      },
-      {
-        "aphia_id": "251744",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Asteroplanus"
-      },
-      {
-        "aphia_id": "251745",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Asteroplanus karianus"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "148952",
-        "scientific_name": "Fragilariaceae"
-      },
-      "Genus": {
-        "aphia_id": "251744",
-        "scientific_name": "Asteroplanus"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "148951",
-        "scientific_name": "Fragilariales"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "251745",
-        "scientific_name": "Asteroplanus karianus"
-      },
-      "Subclass": {
-        "aphia_id": "148978",
-        "scientific_name": "Fragilariophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591199",
-        "scientific_name": "Fragilariophycanae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/251745"
-  },
-  "345491": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148971",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      {
-        "aphia_id": "591196",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Rhizosolenianae"
-      },
-      {
-        "aphia_id": "149067",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Rhizosoleniales"
-      },
-      {
-        "aphia_id": "149068",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Rhizosoleniaceae"
-      },
-      {
-        "aphia_id": "345490",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Neocalyptrella"
-      },
-      {
-        "aphia_id": "345491",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Neocalyptrella robusta"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "149068",
-        "scientific_name": "Rhizosoleniaceae"
-      },
-      "Genus": {
-        "aphia_id": "345490",
-        "scientific_name": "Neocalyptrella"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "149067",
-        "scientific_name": "Rhizosoleniales"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "345491",
-        "scientific_name": "Neocalyptrella robusta"
-      },
-      "Subclass": {
-        "aphia_id": "148971",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591196",
-        "scientific_name": "Rhizosolenianae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/345491"
-  },
-  "345513": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148971",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      {
-        "aphia_id": "591196",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Rhizosolenianae"
-      },
-      {
-        "aphia_id": "149067",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Rhizosoleniales"
-      },
-      {
-        "aphia_id": "149068",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Rhizosoleniaceae"
-      },
-      {
-        "aphia_id": "149167",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Proboscia"
-      },
-      {
-        "aphia_id": "345513",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Proboscia indica"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "149068",
-        "scientific_name": "Rhizosoleniaceae"
-      },
-      "Genus": {
-        "aphia_id": "149167",
-        "scientific_name": "Proboscia"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "149067",
-        "scientific_name": "Rhizosoleniales"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "345513",
-        "scientific_name": "Proboscia indica"
-      },
-      "Subclass": {
-        "aphia_id": "148971",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591196",
-        "scientific_name": "Rhizosolenianae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/345513"
-  },
   "345835": {
     "lineage_notes": [],
     "nodes": [
@@ -17262,126 +15346,6 @@
       }
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/425636"
-  },
-  "447730": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148971",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      {
-        "aphia_id": "591192",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Biddulphianae"
-      },
-      {
-        "aphia_id": "149234",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Hemiaulales"
-      },
-      {
-        "aphia_id": "149304",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Bellerocheaceae"
-      },
-      {
-        "aphia_id": "149305",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Bellerochea"
-      },
-      {
-        "aphia_id": "447730",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Bellerochea horologicalis"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "149304",
-        "scientific_name": "Bellerocheaceae"
-      },
-      "Genus": {
-        "aphia_id": "149305",
-        "scientific_name": "Bellerochea"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "149234",
-        "scientific_name": "Hemiaulales"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "447730",
-        "scientific_name": "Bellerochea horologicalis"
-      },
-      "Subclass": {
-        "aphia_id": "148971",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591192",
-        "scientific_name": "Biddulphianae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/447730"
   },
   "478557": {
     "lineage_notes": [],
@@ -19181,134 +17145,6 @@
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/841193"
   },
-  "841242": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "582419",
-        "depth": 2,
-        "rank": "Subkingdom",
-        "scientific_name": "Harosa"
-      },
-      {
-        "aphia_id": "536209",
-        "depth": 3,
-        "rank": "Infrakingdom",
-        "scientific_name": "Alveolata"
-      },
-      {
-        "aphia_id": "450030",
-        "depth": 4,
-        "rank": "Phylum",
-        "scientific_name": "Myzozoa"
-      },
-      {
-        "aphia_id": "562620",
-        "depth": 5,
-        "rank": "Subphylum",
-        "scientific_name": "Dinozoa"
-      },
-      {
-        "aphia_id": "146203",
-        "depth": 6,
-        "rank": "Infraphylum",
-        "scientific_name": "Dinoflagellata"
-      },
-      {
-        "aphia_id": "19542",
-        "depth": 7,
-        "rank": "Class",
-        "scientific_name": "Dinophyceae"
-      },
-      {
-        "aphia_id": "493845",
-        "depth": 8,
-        "rank": "Subclass",
-        "scientific_name": "Peridiniphycidae"
-      },
-      {
-        "aphia_id": "109391",
-        "depth": 9,
-        "rank": "Order",
-        "scientific_name": "Gonyaulacales"
-      },
-      {
-        "aphia_id": "109421",
-        "depth": 10,
-        "rank": "Family",
-        "scientific_name": "Ceratiaceae"
-      },
-      {
-        "aphia_id": "494057",
-        "depth": 11,
-        "rank": "Genus",
-        "scientific_name": "Tripos"
-      },
-      {
-        "aphia_id": "841242",
-        "depth": 12,
-        "rank": "Species",
-        "scientific_name": "Tripos geniculatus"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "19542",
-        "scientific_name": "Dinophyceae"
-      },
-      "Family": {
-        "aphia_id": "109421",
-        "scientific_name": "Ceratiaceae"
-      },
-      "Genus": {
-        "aphia_id": "494057",
-        "scientific_name": "Tripos"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "109391",
-        "scientific_name": "Gonyaulacales"
-      },
-      "Phylum": {
-        "aphia_id": "450030",
-        "scientific_name": "Myzozoa"
-      },
-      "Species": {
-        "aphia_id": "841242",
-        "scientific_name": "Tripos geniculatus"
-      },
-      "Subclass": {
-        "aphia_id": "493845",
-        "scientific_name": "Peridiniphycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "562620",
-        "scientific_name": "Dinozoa"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/841242"
-  },
   "841258": {
     "lineage_notes": [],
     "nodes": [
@@ -19654,131 +17490,5 @@
       }
     },
     "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/883"
-  },
-  "985653": {
-    "lineage_notes": [],
-    "nodes": [
-      {
-        "aphia_id": "1",
-        "depth": 0,
-        "rank": "Superdomain",
-        "scientific_name": "Biota"
-      },
-      {
-        "aphia_id": "7",
-        "depth": 1,
-        "rank": "Kingdom",
-        "scientific_name": "Chromista"
-      },
-      {
-        "aphia_id": "370437",
-        "depth": 2,
-        "rank": "Phylum",
-        "scientific_name": "Heterokontophyta"
-      },
-      {
-        "aphia_id": "493822",
-        "depth": 3,
-        "rank": "Subphylum",
-        "scientific_name": "Bacillariophytina"
-      },
-      {
-        "aphia_id": "148899",
-        "depth": 4,
-        "rank": "Class",
-        "scientific_name": "Bacillariophyceae"
-      },
-      {
-        "aphia_id": "148971",
-        "depth": 5,
-        "rank": "Subclass",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      {
-        "aphia_id": "591192",
-        "depth": 6,
-        "rank": "Superorder",
-        "scientific_name": "Biddulphianae"
-      },
-      {
-        "aphia_id": "149048",
-        "depth": 7,
-        "rank": "Order",
-        "scientific_name": "Triceratiales"
-      },
-      {
-        "aphia_id": "149049",
-        "depth": 8,
-        "rank": "Family",
-        "scientific_name": "Triceratiaceae"
-      },
-      {
-        "aphia_id": "149154",
-        "depth": 9,
-        "rank": "Genus",
-        "scientific_name": "Triceratium"
-      },
-      {
-        "aphia_id": "967836",
-        "depth": 10,
-        "rank": "Species",
-        "scientific_name": "Triceratium alternans"
-      },
-      {
-        "aphia_id": "985653",
-        "depth": 11,
-        "rank": "Forma",
-        "scientific_name": "Triceratium alternans f. alternans"
-      }
-    ],
-    "ok": true,
-    "risk_flags": [],
-    "standard_ranks": {
-      "Class": {
-        "aphia_id": "148899",
-        "scientific_name": "Bacillariophyceae"
-      },
-      "Family": {
-        "aphia_id": "149049",
-        "scientific_name": "Triceratiaceae"
-      },
-      "Genus": {
-        "aphia_id": "149154",
-        "scientific_name": "Triceratium"
-      },
-      "Kingdom": {
-        "aphia_id": "7",
-        "scientific_name": "Chromista"
-      },
-      "Order": {
-        "aphia_id": "149048",
-        "scientific_name": "Triceratiales"
-      },
-      "Phylum": {
-        "aphia_id": "370437",
-        "scientific_name": "Heterokontophyta"
-      },
-      "Species": {
-        "aphia_id": "967836",
-        "scientific_name": "Triceratium alternans"
-      },
-      "Subclass": {
-        "aphia_id": "148971",
-        "scientific_name": "Coscinodiscophycidae"
-      },
-      "Subphylum": {
-        "aphia_id": "493822",
-        "scientific_name": "Bacillariophytina"
-      },
-      "Superdomain": {
-        "aphia_id": "1",
-        "scientific_name": "Biota"
-      },
-      "Superorder": {
-        "aphia_id": "591192",
-        "scientific_name": "Biddulphianae"
-      }
-    },
-    "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/985653"
   }
 }

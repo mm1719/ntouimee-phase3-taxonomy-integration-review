@@ -23,7 +23,9 @@ type ReviewKey =
   | "juvenile"
   | "contaminated"
   | "multiple_valid_aphia_ids"
-  | "broad_class";
+  | "broad_class"
+  | "corrected"
+  | "challenged";
 
 const REVIEW_KEYS: ReviewKey[] = [
   "dwc_record_review",
@@ -31,7 +33,9 @@ const REVIEW_KEYS: ReviewKey[] = [
   "juvenile",
   "contaminated",
   "multiple_valid_aphia_ids",
-  "broad_class"
+  "broad_class",
+  "corrected",
+  "challenged"
 ];
 
 const SPECIAL_REVIEW_KEYS = new Set<ReviewKey>([
@@ -111,6 +115,28 @@ function reviewColumns(activeKey: ReviewKey) {
       }),
       helper.accessor("contaminated_sources", {
         header: "Baseline invalid validation",
+        cell: (info) => <TextCell value={info.getValue()} />
+      })
+    ];
+  }
+
+  if (activeKey === "corrected" || activeKey === "challenged") {
+    return [
+      ...common,
+      helper.accessor("selected_aphia_ids", {
+        header: "Selected AphiaID",
+        cell: (info) => <ListCell value={info.getValue()} />
+      }),
+      helper.accessor("status_review_rollup_aphia_id", {
+        header: "Rollup AphiaID",
+        cell: (info) => <ListCell value={info.getValue()} />
+      }),
+      helper.accessor("status_review_rollup_rank", {
+        header: "Rollup rank",
+        cell: (info) => <TextCell value={info.getValue()} />
+      }),
+      helper.accessor("synonym_note", {
+        header: "Status review note",
         cell: (info) => <TextCell value={info.getValue()} />
       })
     ];

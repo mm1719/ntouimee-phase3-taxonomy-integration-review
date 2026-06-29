@@ -19,6 +19,11 @@ export type TreeNode = {
   selected_aphia_id?: string;
   selected_aphia_source?: string;
   synonym_note?: string;
+  status_review_flag?: string;
+  status_review_rollup_aphia_id?: string;
+  status_review_rollup_name?: string;
+  status_review_rollup_rank?: string;
+  status_review_evidence_json?: string;
   broad_class?: string;
   broad_class_original_label?: string;
   broad_class_aphia_id?: string;
@@ -71,6 +76,11 @@ export type Candidate = {
   synonym_note: string;
   accepted_name: string;
   accepted_aphia_id: string;
+  status_review_flag: string;
+  status_review_rollup_aphia_id: string;
+  status_review_rollup_name: string;
+  status_review_rollup_rank: string;
+  status_review_evidence_json: string;
   broad_class: string;
   broad_class_original_label: string;
   broad_class_aphia_id: string;

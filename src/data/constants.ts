@@ -35,7 +35,9 @@ export const CORE_RANKS = new Set([
 export const RISK_LABELS: Record<string, string> = {
   contaminated: "Contaminated",
   multiple_valid_aphia_ids: "Multiple AphiaID",
-  broad_class: "Broad class"
+  broad_class: "Broad class",
+  corrected: "CORRECTED",
+  challenged: "CHALLENGED"
 };
 
 export const SPECIAL_TAG_LABELS: Record<string, string> = {

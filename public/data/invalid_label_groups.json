@@ -1968,6 +1968,43 @@
         "pseudo_aphia_id": "ntc_053"
       },
       {
+        "group_key": "part diatom",
+        "sample_key": "non_taxonomic_category::part diatom",
+        "aliases": [
+          "part diatom"
+        ],
+        "status": "Non-Taxonomic Category",
+        "dataset_ids": [
+          "tara_pacific_bongo"
+        ],
+        "total_image_count": 7,
+        "include_valid_tree_overlap": false,
+        "invalid_reason_count": 1,
+        "valid_image_count": 0,
+        "invalid_image_count": 7,
+        "datasets": [
+          {
+            "dataset_id": "tara_pacific_bongo",
+            "aliases": [
+              "part diatom"
+            ],
+            "image_count": 7,
+            "reasons": [
+              "No local AphiaID and no exact WoRMS name match under strict validation"
+            ],
+            "source_examples": [],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/part%20diatom?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 1,
+            "valid_image_count": 0,
+            "invalid_image_count": 7
+          }
+        ],
+        "pseudo_aphia_id": "ntc_087"
+      },
+      {
         "group_key": "part ciliophora",
         "sample_key": "non_taxonomic_category::part ciliophora",
         "aliases": [
@@ -1977,13 +2014,14 @@
         "status": "Non-Taxonomic Category",
         "dataset_ids": [
           "flowcam_net",
-          "tara_pacific_deck"
+          "tara_pacific_deck",
+          "tara_pacific_bongo"
         ],
-        "total_image_count": 1681,
+        "total_image_count": 1688,
         "include_valid_tree_overlap": false,
         "invalid_reason_count": 1,
         "valid_image_count": 0,
-        "invalid_image_count": 1681,
+        "invalid_image_count": 1688,
         "datasets": [
           {
             "dataset_id": "flowcam_net",
@@ -2024,9 +2062,64 @@
             "invalid_reason_count": 1,
             "valid_image_count": 0,
             "invalid_image_count": 1533
+          },
+          {
+            "dataset_id": "tara_pacific_bongo",
+            "aliases": [
+              "part<Ciliophora"
+            ],
+            "image_count": 7,
+            "reasons": [
+              "No local AphiaID and no exact WoRMS name match under strict validation"
+            ],
+            "source_examples": [],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/part%3CCiliophora?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 1,
+            "valid_image_count": 0,
+            "invalid_image_count": 7
           }
         ],
         "pseudo_aphia_id": "ntc_054"
+      },
+      {
+        "group_key": "part<copepoda",
+        "sample_key": "non_taxonomic_category::part<copepoda",
+        "aliases": [
+          "part<Copepoda"
+        ],
+        "status": "Non-Taxonomic Category",
+        "dataset_ids": [
+          "tara_pacific_bongo"
+        ],
+        "total_image_count": 1,
+        "include_valid_tree_overlap": false,
+        "invalid_reason_count": 1,
+        "valid_image_count": 0,
+        "invalid_image_count": 1,
+        "datasets": [
+          {
+            "dataset_id": "tara_pacific_bongo",
+            "aliases": [
+              "part<Copepoda"
+            ],
+            "image_count": 1,
+            "reasons": [
+              "No local AphiaID and no exact WoRMS name match under strict validation"
+            ],
+            "source_examples": [],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/part%3CCopepoda?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 1,
+            "valid_image_count": 0,
+            "invalid_image_count": 1
+          }
+        ],
+        "pseudo_aphia_id": "ntc_089"
       },
       {
         "group_key": "part crustacea",
@@ -2038,13 +2131,14 @@
         "status": "Non-Taxonomic Category",
         "dataset_ids": [
           "flowcam_net",
-          "tara_pacific_deck"
+          "tara_pacific_deck",
+          "tara_pacific_bongo"
         ],
-        "total_image_count": 6865,
+        "total_image_count": 12039,
         "include_valid_tree_overlap": false,
         "invalid_reason_count": 1,
         "valid_image_count": 0,
-        "invalid_image_count": 6865,
+        "invalid_image_count": 12039,
         "datasets": [
           {
             "dataset_id": "flowcam_net",
@@ -2085,6 +2179,24 @@
             "invalid_reason_count": 1,
             "valid_image_count": 0,
             "invalid_image_count": 3985
+          },
+          {
+            "dataset_id": "tara_pacific_bongo",
+            "aliases": [
+              "part<Crustacea"
+            ],
+            "image_count": 5174,
+            "reasons": [
+              "No local AphiaID and no exact WoRMS name match under strict validation"
+            ],
+            "source_examples": [],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/part%3CCrustacea?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 1,
+            "valid_image_count": 0,
+            "invalid_image_count": 5174
           }
         ],
         "pseudo_aphia_id": "ntc_055"
@@ -2412,6 +2524,64 @@
           }
         ],
         "pseudo_aphia_id": "ntc_065"
+      },
+      {
+        "group_key": "spines<acantharea",
+        "sample_key": "non_taxonomic_category::spines<acantharea",
+        "aliases": [
+          "spines<Acantharea"
+        ],
+        "status": "Non-Taxonomic Category",
+        "dataset_ids": [
+          "tara_pacific_deck",
+          "tara_pacific_bongo"
+        ],
+        "total_image_count": 56,
+        "include_valid_tree_overlap": false,
+        "invalid_reason_count": 1,
+        "valid_image_count": 0,
+        "invalid_image_count": 56,
+        "datasets": [
+          {
+            "dataset_id": "tara_pacific_deck",
+            "aliases": [
+              "spines<Acantharea"
+            ],
+            "image_count": 42,
+            "reasons": [
+              "No local AphiaID and no exact WoRMS name match under strict validation"
+            ],
+            "source_examples": [
+              "derived/analysis_ready/tara_pacific_deck/manifest.csv"
+            ],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/spines%3CAcantharea?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 1,
+            "valid_image_count": 0,
+            "invalid_image_count": 42
+          },
+          {
+            "dataset_id": "tara_pacific_bongo",
+            "aliases": [
+              "spines<Acantharea"
+            ],
+            "image_count": 14,
+            "reasons": [
+              "No local AphiaID and no exact WoRMS name match under strict validation"
+            ],
+            "source_examples": [],
+            "worms_sources": [
+              "https://www.marinespecies.org/rest/AphiaRecordsByName/spines%3CAcantharea?like=false&marine_only=false"
+            ],
+            "valid_tree_entry": "no",
+            "invalid_reason_count": 1,
+            "valid_image_count": 0,
+            "invalid_image_count": 14
+          }
+        ],
+        "pseudo_aphia_id": "ntc_091"
       },
       {
         "group_key": "spines<acantharia",
@@ -8123,6 +8293,69 @@
         "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/i00_oa140_001_g100014681/i00_oa140_001_g100014681_6347.png",
         "width": "97",
         "height": "91"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Ciliophora",
+        "image_id": "srf_i09_s1_001_r110001842_5745",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_ciliophora/01_b83b75abab.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/lt_500px_30pct/srf_i09_s1_001_r110001842/srf_i09_s1_001_r110001842_5745.png",
+        "width": "97",
+        "height": "70"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Ciliophora",
+        "image_id": "aw_i05_s1_001_r110001872_1636",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_ciliophora/02_2c9d33ec86.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_1636.png",
+        "width": "97",
+        "height": "157"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Ciliophora",
+        "image_id": "srf_i07_s3_001_r110002331_25749",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_ciliophora/03_6d631d0654.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i07_s3_001_r110002331/srf_i07_s3_001_r110002331_25749.png",
+        "width": "97",
+        "height": "89"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Ciliophora",
+        "image_id": "srf_i12_s3_001_r110001399_14824",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_ciliophora/04_6cdd6c1d59.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i12_s3_001_r110001399/srf_i12_s3_001_r110001399_14824.png",
+        "width": "179",
+        "height": "99"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Ciliophora",
+        "image_id": "srf_i12_s3_001_r110001399_1242",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_ciliophora/05_76f77c01de.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i12_s3_001_r110001399/srf_i12_s3_001_r110001399_1242.png",
+        "width": "110",
+        "height": "80"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Ciliophora",
+        "image_id": "srf_i15_s3_001_r110001321_690",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_ciliophora/06_f76376e52e.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i15_s3_001_r110001321/srf_i15_s3_001_r110001321_690.png",
+        "width": "97",
+        "height": "116"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Ciliophora",
+        "image_id": "srf_i15_s3_001_r110001321_450",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_ciliophora/07_27e31b402a.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i15_s3_001_r110001321/srf_i15_s3_001_r110001321_450.png",
+        "width": "121",
+        "height": "96"
       }
     ],
     "non_taxonomic_category::part crustacea": [
@@ -8269,6 +8502,143 @@
         "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa065_001_g100017444/oa065_001_g100017444_1537.png",
         "width": "97",
         "height": "93"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Crustacea",
+        "image_id": "aw_i04_s4_002_r110001920_10022",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_crustacea/01_56de50f737.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_10022.png",
+        "width": "150",
+        "height": "101"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Crustacea",
+        "image_id": "aw_i04_s4_002_r110001920_649",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_crustacea/02_0a35e69150.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_649.png",
+        "width": "166",
+        "height": "261"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Crustacea",
+        "image_id": "aw_i04_s4_002_r110001920_591",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_crustacea/03_65908c4cd5.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_591.png",
+        "width": "97",
+        "height": "112"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Crustacea",
+        "image_id": "aw_i04_s4_002_r110001920_832",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_crustacea/04_8e6926379b.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_832.png",
+        "width": "97",
+        "height": "85"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Crustacea",
+        "image_id": "aw_i04_s4_002_r110001920_9183",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_crustacea/05_3b0e552e81.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_9183.png",
+        "width": "128",
+        "height": "182"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Crustacea",
+        "image_id": "aw_i04_s4_002_r110001920_16129",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_crustacea/06_08d98e420c.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_16129.png",
+        "width": "127",
+        "height": "361"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Crustacea",
+        "image_id": "aw_i04_s4_002_r110001920_10499",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_crustacea/07_65028ac170.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_10499.png",
+        "width": "97",
+        "height": "168"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Crustacea",
+        "image_id": "aw_i04_s4_002_r110001920_9177",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_crustacea/08_f6fb24a156.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i04_s4_002_r110001920/aw_i04_s4_002_r110001920_9177.png",
+        "width": "97",
+        "height": "100"
+      }
+    ],
+    "non_taxonomic_category::part diatom": [
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part diatom",
+        "image_id": "aw_i05_s1_001_r110001872_837",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_diatom/01_261fe8c70c.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_837.png",
+        "width": "103",
+        "height": "150"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part diatom",
+        "image_id": "aw_i05_s3_001_r110001183_12148",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_diatom/02_6a1063d6b3.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s3_001_r110001183/aw_i05_s3_001_r110001183_12148.png",
+        "width": "97",
+        "height": "90"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part diatom",
+        "image_id": "srf_i08_s2_001_r110001518_11633",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_diatom/03_b7227b68dc.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i08_s2_001_r110001518/srf_i08_s2_001_r110001518_11633.png",
+        "width": "97",
+        "height": "87"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part diatom",
+        "image_id": "srf_i13_s1_001_r110001355_1297",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_diatom/04_153801afcb.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i13_s1_001_r110001355/srf_i13_s1_001_r110001355_1297.png",
+        "width": "97",
+        "height": "90"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part diatom",
+        "image_id": "srf_i13_s1_001_r110001355_2559",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_diatom/05_e960ffd70c.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i13_s1_001_r110001355/srf_i13_s1_001_r110001355_2559.png",
+        "width": "97",
+        "height": "100"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part diatom",
+        "image_id": "srf_i14_s3_001_r110001294_29661",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_diatom/06_9aeb826bc9.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i14_s3_001_r110001294/srf_i14_s3_001_r110001294_29661.png",
+        "width": "97",
+        "height": "92"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part diatom",
+        "image_id": "srf_i16_s2_001_r110001079_12283",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_diatom/07_80cf334df5.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i16_s2_001_r110001079/srf_i16_s2_001_r110001079_12283.png",
+        "width": "184",
+        "height": "106"
       }
     ],
     "non_taxonomic_category::part ditylum": [
@@ -8417,6 +8787,17 @@
         "source_ref": "derived/staging/flowcam_net/FlowCamNet/imgs/part_Odontella/164866655.png",
         "width": "46",
         "height": "78"
+      }
+    ],
+    "non_taxonomic_category::part<copepoda": [
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "part<Copepoda",
+        "image_id": "srf_i12_s1_001_r110001234_10176",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/part_copepoda/01_7ea72d2412.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i12_s1_001_r110001234/srf_i12_s1_001_r110001234_10176.png",
+        "width": "214",
+        "height": "252"
       }
     ],
     "non_taxonomic_category::part<other": [
@@ -9986,6 +10367,152 @@
         "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/oa096_001_g100016058/oa096_001_g100016058_13888.png",
         "width": "97",
         "height": "83"
+      }
+    ],
+    "non_taxonomic_category::spines<acantharea": [
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharea",
+        "image_id": "oa034_001_g100019601_5453",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/01_0631976830.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa034_001_g100019601/oa034_001_g100019601_5453.png",
+        "width": "97",
+        "height": "68"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharea",
+        "image_id": "oa034_001_g100019601_26694",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/02_9e3927579d.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa034_001_g100019601/oa034_001_g100019601_26694.png",
+        "width": "97",
+        "height": "71"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharea",
+        "image_id": "oa096_001_g100016058_32383",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/03_aee5911d57.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/lt_500px_30pct/oa096_001_g100016058/oa096_001_g100016058_32383.png",
+        "width": "97",
+        "height": "70"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharea",
+        "image_id": "i00_oa139_001_g100014672_14684",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/04_923cfa91a1.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa139_001_g100014672/i00_oa139_001_g100014672_14684.png",
+        "width": "97",
+        "height": "112"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharea",
+        "image_id": "i00_oa163_001_g100015598_21284",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/05_80d9d418f0.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i00_oa163_001_g100015598/i00_oa163_001_g100015598_21284.png",
+        "width": "154",
+        "height": "145"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharea",
+        "image_id": "i04_oa043_001_g100017842_2513",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/06_deab456b42.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i04_oa043_001_g100017842/i04_oa043_001_g100017842_2513.png",
+        "width": "97",
+        "height": "82"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharea",
+        "image_id": "i06_oa055_001_g100018780_3593",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/07_da5362c690.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i06_oa055_001_g100018780/i06_oa055_001_g100018780_3593.png",
+        "width": "97",
+        "height": "98"
+      },
+      {
+        "dataset_id": "tara_pacific_deck",
+        "label": "spines<Acantharea",
+        "image_id": "i19_oa142_001_g100014497_5055",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_deck/spines_acantharea/08_cebb8c1a50.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_deck_scale_bar_removed/images_png/gt_501px_100pct/i19_oa142_001_g100014497/i19_oa142_001_g100014497_5055.png",
+        "width": "126",
+        "height": "92"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "spines<Acantharea",
+        "image_id": "aw_i05_s1_001_r110001872_16293",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/spines_acantharea/01_9f9d237345.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_16293.png",
+        "width": "97",
+        "height": "115"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "spines<Acantharea",
+        "image_id": "aw_i05_s1_001_r110001872_5117",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/spines_acantharea/02_d90f58336a.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s1_001_r110001872/aw_i05_s1_001_r110001872_5117.png",
+        "width": "97",
+        "height": "108"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "spines<Acantharea",
+        "image_id": "aw_i05_s3_001_r110001183_246",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/spines_acantharea/03_a5ff32c4a1.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/aw_i05_s3_001_r110001183/aw_i05_s3_001_r110001183_246.png",
+        "width": "97",
+        "height": "92"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "spines<Acantharea",
+        "image_id": "srf_i08_s1_001_r110001508_3697",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/spines_acantharea/04_fef4bf92b9.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i08_s1_001_r110001508/srf_i08_s1_001_r110001508_3697.png",
+        "width": "97",
+        "height": "103"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "spines<Acantharea",
+        "image_id": "srf_i08_s2_001_r110001518_265",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/spines_acantharea/05_196e1b5ed1.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i08_s2_001_r110001518/srf_i08_s2_001_r110001518_265.png",
+        "width": "97",
+        "height": "90"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "spines<Acantharea",
+        "image_id": "srf_i12_s1_001_r110001234_3926",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/spines_acantharea/06_d1893c04e9.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i12_s1_001_r110001234/srf_i12_s1_001_r110001234_3926.png",
+        "width": "97",
+        "height": "94"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "spines<Acantharea",
+        "image_id": "srf_i13_s2_001_r110002420_33617",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/spines_acantharea/07_e1c4ca044f.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i13_s2_001_r110002420/srf_i13_s2_001_r110002420_33617.png",
+        "width": "100",
+        "height": "96"
+      },
+      {
+        "dataset_id": "tara_pacific_bongo",
+        "label": "spines<Acantharea",
+        "image_id": "srf_i13_s2_001_r110002420_13287",
+        "thumbnail_url": "/invalid-samples/non_taxonomic_category/tara_pacific_bongo/spines_acantharea/08_f37c7a0f7e.jpg",
+        "source_ref": "derived/cleaned/tara_pacific_bongo_scale_bar_removed/images_png/gt_501px_100pct/srf_i13_s2_001_r110002420/srf_i13_s2_001_r110002420_13287.png",
+        "width": "104",
+        "height": "125"
       }
     ],
     "non_taxonomic_category::spines<acantharia": [
@@ -13061,17 +13588,17 @@
     "sample_limit_per_dataset": 8,
     "excluded_valid_tree_overlap_default": false,
     "table_counts": {
-      "non_taxonomic_category": 49,
+      "non_taxonomic_category": 52,
       "taxonomic_mismatch": 7
     },
     "table_image_counts": {
-      "non_taxonomic_category": 2777310,
+      "non_taxonomic_category": 2782555,
       "taxonomic_mismatch": 22500
     },
-    "evidence_table_total_group_count": 56,
-    "evidence_table_total_image_count": 2799810,
-    "unique_group_count": 52,
-    "total_image_count": 2780528,
+    "evidence_table_total_group_count": 59,
+    "evidence_table_total_image_count": 2805055,
+    "unique_group_count": 55,
+    "total_image_count": 2785773,
     "total_image_count_semantics": "unique_dataset_invalid_group_image_union"
   }
 }
