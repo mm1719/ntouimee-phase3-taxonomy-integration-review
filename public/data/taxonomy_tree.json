@@ -4856,7 +4856,27 @@
                                               "synonym_note": "",
                                               "type": "dataset_class",
                                               "valid_image_count": 1462
-                                            },
+                                            }
+                                          ],
+                                          "datasets": [
+                                            "life_watch",
+                                            "life_watch_2026_image_library",
+                                            "tara_pacific_deck",
+                                            "tara_pacific_bongo"
+                                          ],
+                                          "entry_count": 4,
+                                          "image_count": 17129,
+                                          "key": "Genus::149130::Eucampia",
+                                          "lineage_notes": [],
+                                          "name": "Eucampia",
+                                          "rank": "Genus",
+                                          "risk_flags": [],
+                                          "special_tags": [],
+                                          "type": "taxon"
+                                        },
+                                        {
+                                          "aphia_id": "163248",
+                                          "children": [
                                             {
                                               "broad_class": "",
                                               "broad_class_aphia_id": "",
@@ -4872,37 +4892,16 @@
                                               "lineage_notes": [],
                                               "name": "Hemiaulus",
                                               "original_label": "Hemiaulus",
-                                              "placement_id": "flowcam_net::Hemiaulus::149130::1",
+                                              "placement_id": "flowcam_net::Hemiaulus::163248::1",
                                               "risk_flags": [],
-                                              "selected_aphia_id": "149130",
+                                              "selected_aphia_id": "163248",
                                               "selected_aphia_image_count": 208,
-                                              "selected_aphia_source": "worms_unaccepted_replacement",
+                                              "selected_aphia_source": "worms_name_assignment",
                                               "special_tags": [],
-                                              "synonym_note": "Unaccepted WoRMS AphiaID replaced before tree placement: 605114:Hemiaulus -> 149130:Eucampia",
+                                              "synonym_note": "",
                                               "type": "dataset_class",
                                               "valid_image_count": 208
-                                            }
-                                          ],
-                                          "datasets": [
-                                            "life_watch",
-                                            "life_watch_2026_image_library",
-                                            "flowcam_net",
-                                            "tara_pacific_deck",
-                                            "tara_pacific_bongo"
-                                          ],
-                                          "entry_count": 5,
-                                          "image_count": 17337,
-                                          "key": "Genus::149130::Eucampia",
-                                          "lineage_notes": [],
-                                          "name": "Eucampia",
-                                          "rank": "Genus",
-                                          "risk_flags": [],
-                                          "special_tags": [],
-                                          "type": "taxon"
-                                        },
-                                        {
-                                          "aphia_id": "163248",
-                                          "children": [
+                                            },
                                             {
                                               "broad_class": "",
                                               "broad_class_aphia_id": "",
@@ -4959,11 +4958,12 @@
                                             }
                                           ],
                                           "datasets": [
+                                            "flowcam_net",
                                             "tara_pacific_deck",
                                             "tara_pacific_bongo"
                                           ],
-                                          "entry_count": 2,
-                                          "image_count": 6184,
+                                          "entry_count": 3,
+                                          "image_count": 6392,
                                           "key": "Genus::163248::Hemiaulus",
                                           "lineage_notes": [],
                                           "name": "Hemiaulus",

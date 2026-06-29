@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-29T07:27:55+00:00",
+  "generated_at_utc": "2026-06-29T08:32:07+00:00",
   "demo_app": "demo/taxonomy-integration-review",
   "phase_3_root": "/home/mason/Projects/phase_3",
   "source_studies": [
@@ -18,13 +18,13 @@
   "public_artifacts": {
     "taxonomy_tree.json": {
       "path": "public/data/taxonomy_tree.json",
-      "sha256": "be2318449920b47a853222713101f5cac89127ed01048086e6cf98ea2e00f5eb",
-      "bytes": 1232761
+      "sha256": "563999eb36903af691edcc128b2cecb18b5dc4f1b5e3a1a0d6304a2c2f4a96a0",
+      "bytes": 1232662
     },
     "valid_class_candidates.csv": {
       "path": "public/data/valid_class_candidates.csv",
-      "sha256": "92594c64a853dfb7db770e154d45c93d84ba790e1279f8ecb910eb11f6f74f78",
-      "bytes": 1495557
+      "sha256": "8699d432841719b495c5cce92e6f13b32121b5a30d27a51c2bc9e71dc286eaad",
+      "bytes": 1495382
     },
     "class_image_samples.json": {
       "path": "public/data/class_image_samples.json",
