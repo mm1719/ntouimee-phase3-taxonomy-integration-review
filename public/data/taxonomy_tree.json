@@ -3544,65 +3544,6 @@
                       "aphia_id": "148899",
                       "children": [
                         {
-                          "aphia_id": "595704",
-                          "children": [
-                            {
-                              "aphia_id": "605114",
-                              "children": [
-                                {
-                                  "broad_class": "",
-                                  "broad_class_aphia_id": "",
-                                  "broad_class_original_label": "",
-                                  "broad_class_source_file": "",
-                                  "candidate_image_count": 208,
-                                  "children": [],
-                                  "dataset_id": "flowcam_net",
-                                  "dataset_label": "FlowCAMNet",
-                                  "entry_id": "flowcam_net::Hemiaulus",
-                                  "image_count": 208,
-                                  "invalid_image_count": 0,
-                                  "lineage_notes": [],
-                                  "name": "Hemiaulus",
-                                  "original_label": "Hemiaulus",
-                                  "placement_id": "flowcam_net::Hemiaulus::605114::1",
-                                  "risk_flags": [],
-                                  "selected_aphia_id": "605114",
-                                  "selected_aphia_image_count": 208,
-                                  "selected_aphia_source": "worms_name_assignment",
-                                  "special_tags": [],
-                                  "synonym_note": "",
-                                  "type": "dataset_class",
-                                  "valid_image_count": 208
-                                }
-                              ],
-                              "datasets": [
-                                "flowcam_net"
-                              ],
-                              "entry_count": 1,
-                              "image_count": 208,
-                              "key": "Genus::605114::Hemiaulus",
-                              "lineage_notes": [],
-                              "name": "Hemiaulus",
-                              "rank": "Genus",
-                              "risk_flags": [],
-                              "special_tags": [],
-                              "type": "taxon"
-                            }
-                          ],
-                          "datasets": [
-                            "flowcam_net"
-                          ],
-                          "entry_count": 1,
-                          "image_count": 208,
-                          "key": "Subclass::595704::Bacillariophyceae incertae sedis",
-                          "lineage_notes": [],
-                          "name": "Bacillariophyceae incertae sedis",
-                          "rank": "Subclass",
-                          "risk_flags": [],
-                          "special_tags": [],
-                          "type": "taxon"
-                        },
-                        {
                           "aphia_id": "148902",
                           "children": [
                             {
@@ -4503,74 +4444,6 @@
                                           "aphia_id": "148967",
                                           "children": [
                                             {
-                                              "aphia_id": "149655",
-                                              "children": [
-                                                {
-                                                  "broad_class": "",
-                                                  "broad_class_aphia_id": "",
-                                                  "broad_class_original_label": "",
-                                                  "broad_class_source_file": "",
-                                                  "candidate_image_count": 27,
-                                                  "children": [],
-                                                  "dataset_id": "life_watch_2026_image_library",
-                                                  "dataset_label": "LifeWatch 2026",
-                                                  "entry_id": "life_watch_2026_image_library::Biddulphia alternans",
-                                                  "image_count": 27,
-                                                  "invalid_image_count": 0,
-                                                  "lineage_notes": [],
-                                                  "name": "Biddulphia alternans",
-                                                  "original_label": "Biddulphia alternans",
-                                                  "placement_id": "life_watch_2026_image_library::Biddulphia alternans::149655::1",
-                                                  "risk_flags": [],
-                                                  "selected_aphia_id": "149655",
-                                                  "selected_aphia_image_count": 27,
-                                                  "selected_aphia_source": "local_aphia_id_validation",
-                                                  "special_tags": [],
-                                                  "synonym_note": "",
-                                                  "type": "dataset_class",
-                                                  "valid_image_count": 27
-                                                },
-                                                {
-                                                  "broad_class": "",
-                                                  "broad_class_aphia_id": "",
-                                                  "broad_class_original_label": "",
-                                                  "broad_class_source_file": "",
-                                                  "candidate_image_count": 346,
-                                                  "children": [],
-                                                  "dataset_id": "life_watch",
-                                                  "dataset_label": "LifeWatch",
-                                                  "entry_id": "life_watch::Biddulphia_alternans",
-                                                  "image_count": 346,
-                                                  "invalid_image_count": 0,
-                                                  "lineage_notes": [],
-                                                  "name": "Biddulphia_alternans",
-                                                  "original_label": "Biddulphia_alternans",
-                                                  "placement_id": "life_watch::Biddulphia_alternans::149655::1",
-                                                  "risk_flags": [],
-                                                  "selected_aphia_id": "149655",
-                                                  "selected_aphia_image_count": 346,
-                                                  "selected_aphia_source": "local_aphia_id_validation",
-                                                  "special_tags": [],
-                                                  "synonym_note": "",
-                                                  "type": "dataset_class",
-                                                  "valid_image_count": 346
-                                                }
-                                              ],
-                                              "datasets": [
-                                                "life_watch",
-                                                "life_watch_2026_image_library"
-                                              ],
-                                              "entry_count": 2,
-                                              "image_count": 373,
-                                              "key": "Species::149655::Biddulphia alternans",
-                                              "lineage_notes": [],
-                                              "name": "Biddulphia alternans",
-                                              "rank": "Species",
-                                              "risk_flags": [],
-                                              "special_tags": [],
-                                              "type": "taxon"
-                                            },
-                                            {
                                               "broad_class": "",
                                               "broad_class_aphia_id": "",
                                               "broad_class_original_label": "",
@@ -4599,12 +4472,10 @@
                                             }
                                           ],
                                           "datasets": [
-                                            "life_watch",
-                                            "life_watch_2026_image_library",
                                             "tara_pacific_bongo"
                                           ],
-                                          "entry_count": 3,
-                                          "image_count": 409,
+                                          "entry_count": 1,
+                                          "image_count": 36,
                                           "key": "Genus::148967::Biddulphia",
                                           "lineage_notes": [],
                                           "name": "Biddulphia",
@@ -4617,12 +4488,10 @@
                                         }
                                       ],
                                       "datasets": [
-                                        "life_watch",
-                                        "life_watch_2026_image_library",
                                         "tara_pacific_bongo"
                                       ],
-                                      "entry_count": 3,
-                                      "image_count": 409,
+                                      "entry_count": 1,
+                                      "image_count": 36,
                                       "key": "Family::148966::Biddulphiaceae",
                                       "lineage_notes": [],
                                       "name": "Biddulphiaceae",
@@ -4635,12 +4504,10 @@
                                     }
                                   ],
                                   "datasets": [
-                                    "life_watch",
-                                    "life_watch_2026_image_library",
                                     "tara_pacific_bongo"
                                   ],
-                                  "entry_count": 3,
-                                  "image_count": 409,
+                                  "entry_count": 1,
+                                  "image_count": 36,
                                   "key": "Order::148965::Biddulphiales",
                                   "lineage_notes": [],
                                   "name": "Biddulphiales",
@@ -4989,16 +4856,42 @@
                                               "synonym_note": "",
                                               "type": "dataset_class",
                                               "valid_image_count": 1462
+                                            },
+                                            {
+                                              "broad_class": "",
+                                              "broad_class_aphia_id": "",
+                                              "broad_class_original_label": "",
+                                              "broad_class_source_file": "",
+                                              "candidate_image_count": 208,
+                                              "children": [],
+                                              "dataset_id": "flowcam_net",
+                                              "dataset_label": "FlowCAMNet",
+                                              "entry_id": "flowcam_net::Hemiaulus",
+                                              "image_count": 208,
+                                              "invalid_image_count": 0,
+                                              "lineage_notes": [],
+                                              "name": "Hemiaulus",
+                                              "original_label": "Hemiaulus",
+                                              "placement_id": "flowcam_net::Hemiaulus::149130::1",
+                                              "risk_flags": [],
+                                              "selected_aphia_id": "149130",
+                                              "selected_aphia_image_count": 208,
+                                              "selected_aphia_source": "worms_unaccepted_replacement",
+                                              "special_tags": [],
+                                              "synonym_note": "Unaccepted WoRMS AphiaID replaced before tree placement: 605114:Hemiaulus -> 149130:Eucampia",
+                                              "type": "dataset_class",
+                                              "valid_image_count": 208
                                             }
                                           ],
                                           "datasets": [
                                             "life_watch",
                                             "life_watch_2026_image_library",
+                                            "flowcam_net",
                                             "tara_pacific_deck",
                                             "tara_pacific_bongo"
                                           ],
-                                          "entry_count": 4,
-                                          "image_count": 17129,
+                                          "entry_count": 5,
+                                          "image_count": 17337,
                                           "key": "Genus::149130::Eucampia",
                                           "lineage_notes": [],
                                           "name": "Eucampia",
@@ -5089,8 +4982,8 @@
                                         "tara_pacific_deck",
                                         "tara_pacific_bongo"
                                       ],
-                                      "entry_count": 8,
-                                      "image_count": 25533,
+                                      "entry_count": 9,
+                                      "image_count": 25741,
                                       "key": "Family::149235::Hemiaulaceae",
                                       "lineage_notes": [],
                                       "name": "Hemiaulaceae",
@@ -5109,8 +5002,8 @@
                                     "tara_pacific_deck",
                                     "tara_pacific_bongo"
                                   ],
-                                  "entry_count": 12,
-                                  "image_count": 60854,
+                                  "entry_count": 13,
+                                  "image_count": 61062,
                                   "key": "Order::149234::Hemiaulales",
                                   "lineage_notes": [],
                                   "name": "Hemiaulales",
@@ -5578,6 +5471,92 @@
                                           "aphia_id": "149154",
                                           "children": [
                                             {
+                                              "aphia_id": "967836",
+                                              "children": [
+                                                {
+                                                  "aphia_id": "985653",
+                                                  "children": [
+                                                    {
+                                                      "broad_class": "",
+                                                      "broad_class_aphia_id": "",
+                                                      "broad_class_original_label": "",
+                                                      "broad_class_source_file": "",
+                                                      "candidate_image_count": 27,
+                                                      "children": [],
+                                                      "dataset_id": "life_watch_2026_image_library",
+                                                      "dataset_label": "LifeWatch 2026",
+                                                      "entry_id": "life_watch_2026_image_library::Biddulphia alternans",
+                                                      "image_count": 27,
+                                                      "invalid_image_count": 0,
+                                                      "lineage_notes": [],
+                                                      "name": "Biddulphia alternans",
+                                                      "original_label": "Biddulphia alternans",
+                                                      "placement_id": "life_watch_2026_image_library::Biddulphia alternans::985653::1",
+                                                      "risk_flags": [],
+                                                      "selected_aphia_id": "985653",
+                                                      "selected_aphia_image_count": 27,
+                                                      "selected_aphia_source": "worms_unaccepted_replacement",
+                                                      "special_tags": [],
+                                                      "synonym_note": "Unaccepted WoRMS AphiaID replaced before tree placement: 149655:Biddulphia alternans -> 985653:Triceratium alternans f. alternans",
+                                                      "type": "dataset_class",
+                                                      "valid_image_count": 27
+                                                    },
+                                                    {
+                                                      "broad_class": "",
+                                                      "broad_class_aphia_id": "",
+                                                      "broad_class_original_label": "",
+                                                      "broad_class_source_file": "",
+                                                      "candidate_image_count": 346,
+                                                      "children": [],
+                                                      "dataset_id": "life_watch",
+                                                      "dataset_label": "LifeWatch",
+                                                      "entry_id": "life_watch::Biddulphia_alternans",
+                                                      "image_count": 346,
+                                                      "invalid_image_count": 0,
+                                                      "lineage_notes": [],
+                                                      "name": "Biddulphia_alternans",
+                                                      "original_label": "Biddulphia_alternans",
+                                                      "placement_id": "life_watch::Biddulphia_alternans::985653::1",
+                                                      "risk_flags": [],
+                                                      "selected_aphia_id": "985653",
+                                                      "selected_aphia_image_count": 346,
+                                                      "selected_aphia_source": "worms_unaccepted_replacement",
+                                                      "special_tags": [],
+                                                      "synonym_note": "Unaccepted WoRMS AphiaID replaced before tree placement: 149655:Biddulphia alternans -> 985653:Triceratium alternans f. alternans",
+                                                      "type": "dataset_class",
+                                                      "valid_image_count": 346
+                                                    }
+                                                  ],
+                                                  "datasets": [
+                                                    "life_watch",
+                                                    "life_watch_2026_image_library"
+                                                  ],
+                                                  "entry_count": 2,
+                                                  "image_count": 373,
+                                                  "key": "Forma::985653::Triceratium alternans f. alternans",
+                                                  "lineage_notes": [],
+                                                  "name": "Triceratium alternans f. alternans",
+                                                  "rank": "Forma",
+                                                  "risk_flags": [],
+                                                  "special_tags": [],
+                                                  "type": "taxon"
+                                                }
+                                              ],
+                                              "datasets": [
+                                                "life_watch",
+                                                "life_watch_2026_image_library"
+                                              ],
+                                              "entry_count": 2,
+                                              "image_count": 373,
+                                              "key": "Species::967836::Triceratium alternans",
+                                              "lineage_notes": [],
+                                              "name": "Triceratium alternans",
+                                              "rank": "Species",
+                                              "risk_flags": [],
+                                              "special_tags": [],
+                                              "type": "taxon"
+                                            },
+                                            {
                                               "aphia_id": "149170",
                                               "children": [
                                                 {
@@ -5650,8 +5629,8 @@
                                             "life_watch",
                                             "life_watch_2026_image_library"
                                           ],
-                                          "entry_count": 2,
-                                          "image_count": 669,
+                                          "entry_count": 4,
+                                          "image_count": 1042,
                                           "key": "Genus::149154::Triceratium",
                                           "lineage_notes": [],
                                           "name": "Triceratium",
@@ -5791,8 +5770,8 @@
                                         "flowcam_net",
                                         "tara_pacific_bongo"
                                       ],
-                                      "entry_count": 16,
-                                      "image_count": 48803,
+                                      "entry_count": 18,
+                                      "image_count": 49176,
                                       "key": "Family::149049::Triceratiaceae",
                                       "lineage_notes": [],
                                       "name": "Triceratiaceae",
@@ -5810,8 +5789,8 @@
                                     "flowcam_net",
                                     "tara_pacific_bongo"
                                   ],
-                                  "entry_count": 16,
-                                  "image_count": 48803,
+                                  "entry_count": 18,
+                                  "image_count": 49176,
                                   "key": "Order::149048::Triceratiales",
                                   "lineage_notes": [],
                                   "name": "Triceratiales",
@@ -5934,8 +5913,8 @@
                                 "tara_pacific_deck",
                                 "tara_pacific_bongo"
                               ],
-                              "entry_count": 35,
-                              "image_count": 133340,
+                              "entry_count": 36,
+                              "image_count": 133548,
                               "key": "Superorder::591192::Biddulphianae",
                               "lineage_notes": [],
                               "name": "Biddulphianae",
@@ -10194,8 +10173,8 @@
                             "tara_pacific_deck",
                             "tara_pacific_bongo"
                           ],
-                          "entry_count": 140,
-                          "image_count": 645788,
+                          "entry_count": 141,
+                          "image_count": 645996,
                           "key": "Subclass::148971::Coscinodiscophycidae",
                           "lineage_notes": [],
                           "name": "Coscinodiscophycidae",
@@ -13445,6 +13424,56 @@
                                               "broad_class_aphia_id": "",
                                               "broad_class_original_label": "",
                                               "broad_class_source_file": "",
+                                              "candidate_image_count": 604,
+                                              "children": [],
+                                              "dataset_id": "tara_pacific_bongo",
+                                              "dataset_label": "Tara Pacific Bongo",
+                                              "entry_id": "tara_pacific_bongo::Tintinnida",
+                                              "image_count": 604,
+                                              "invalid_image_count": 0,
+                                              "lineage_notes": [],
+                                              "name": "Tintinnida",
+                                              "original_label": "Tintinnida",
+                                              "placement_id": "tara_pacific_bongo::Tintinnida::732976::1",
+                                              "risk_flags": [],
+                                              "selected_aphia_id": "732976",
+                                              "selected_aphia_image_count": 604,
+                                              "selected_aphia_source": "worms_unaccepted_replacement",
+                                              "special_tags": [],
+                                              "synonym_note": "Unaccepted WoRMS AphiaID replaced before tree placement: 425497:Tintinnida -> 732976:Tintinnina",
+                                              "type": "dataset_class",
+                                              "valid_image_count": 604
+                                            },
+                                            {
+                                              "broad_class": "",
+                                              "broad_class_aphia_id": "",
+                                              "broad_class_original_label": "",
+                                              "broad_class_source_file": "",
+                                              "candidate_image_count": 4183,
+                                              "children": [],
+                                              "dataset_id": "tara_pacific_deck",
+                                              "dataset_label": "Tara Pacific Deck",
+                                              "entry_id": "tara_pacific_deck::Tintinnida",
+                                              "image_count": 4183,
+                                              "invalid_image_count": 0,
+                                              "lineage_notes": [],
+                                              "name": "Tintinnida",
+                                              "original_label": "Tintinnida",
+                                              "placement_id": "tara_pacific_deck::Tintinnida::732976::1",
+                                              "risk_flags": [],
+                                              "selected_aphia_id": "732976",
+                                              "selected_aphia_image_count": 4183,
+                                              "selected_aphia_source": "worms_unaccepted_replacement",
+                                              "special_tags": [],
+                                              "synonym_note": "Unaccepted WoRMS AphiaID replaced before tree placement: 425497:Tintinnida -> 732976:Tintinnina",
+                                              "type": "dataset_class",
+                                              "valid_image_count": 4183
+                                            },
+                                            {
+                                              "broad_class": "",
+                                              "broad_class_aphia_id": "",
+                                              "broad_class_original_label": "",
+                                              "broad_class_source_file": "",
                                               "candidate_image_count": 473,
                                               "children": [],
                                               "dataset_id": "flowcam_net",
@@ -13525,8 +13554,8 @@
                                             "tara_pacific_deck",
                                             "tara_pacific_bongo"
                                           ],
-                                          "entry_count": 48,
-                                          "image_count": 18306,
+                                          "entry_count": 50,
+                                          "image_count": 23093,
                                           "key": "Suborder::732976::Tintinnina",
                                           "lineage_notes": [],
                                           "name": "Tintinnina",
@@ -13547,8 +13576,8 @@
                                         "tara_pacific_deck",
                                         "tara_pacific_bongo"
                                       ],
-                                      "entry_count": 48,
-                                      "image_count": 18306,
+                                      "entry_count": 50,
+                                      "image_count": 23093,
                                       "key": "Order::341353::Choreotrichida",
                                       "lineage_notes": [],
                                       "name": "Choreotrichida",
@@ -13569,8 +13598,8 @@
                                     "tara_pacific_deck",
                                     "tara_pacific_bongo"
                                   ],
-                                  "entry_count": 48,
-                                  "image_count": 18306,
+                                  "entry_count": 50,
+                                  "image_count": 23093,
                                   "key": "Subclass::425509::Oligotrichia",
                                   "lineage_notes": [],
                                   "name": "Oligotrichia",
@@ -13591,8 +13620,8 @@
                                 "tara_pacific_deck",
                                 "tara_pacific_bongo"
                               ],
-                              "entry_count": 48,
-                              "image_count": 18306,
+                              "entry_count": 50,
+                              "image_count": 23093,
                               "key": "Class::732974::Oligotrichea",
                               "lineage_notes": [],
                               "name": "Oligotrichea",
@@ -13603,128 +13632,6 @@
                               "special_tags": [
                                 "dwc_record_review"
                               ],
-                              "type": "taxon"
-                            },
-                            {
-                              "aphia_id": "582433",
-                              "children": [
-                                {
-                                  "aphia_id": "1348",
-                                  "children": [
-                                    {
-                                      "aphia_id": "425491",
-                                      "children": [
-                                        {
-                                          "aphia_id": "425497",
-                                          "children": [
-                                            {
-                                              "broad_class": "",
-                                              "broad_class_aphia_id": "",
-                                              "broad_class_original_label": "",
-                                              "broad_class_source_file": "",
-                                              "candidate_image_count": 604,
-                                              "children": [],
-                                              "dataset_id": "tara_pacific_bongo",
-                                              "dataset_label": "Tara Pacific Bongo",
-                                              "entry_id": "tara_pacific_bongo::Tintinnida",
-                                              "image_count": 604,
-                                              "invalid_image_count": 0,
-                                              "lineage_notes": [],
-                                              "name": "Tintinnida",
-                                              "original_label": "Tintinnida",
-                                              "placement_id": "tara_pacific_bongo::Tintinnida::425497::1",
-                                              "risk_flags": [],
-                                              "selected_aphia_id": "425497",
-                                              "selected_aphia_image_count": 604,
-                                              "selected_aphia_source": "worms_name_assignment",
-                                              "special_tags": [],
-                                              "synonym_note": "",
-                                              "type": "dataset_class",
-                                              "valid_image_count": 604
-                                            },
-                                            {
-                                              "broad_class": "",
-                                              "broad_class_aphia_id": "",
-                                              "broad_class_original_label": "",
-                                              "broad_class_source_file": "",
-                                              "candidate_image_count": 4183,
-                                              "children": [],
-                                              "dataset_id": "tara_pacific_deck",
-                                              "dataset_label": "Tara Pacific Deck",
-                                              "entry_id": "tara_pacific_deck::Tintinnida",
-                                              "image_count": 4183,
-                                              "invalid_image_count": 0,
-                                              "lineage_notes": [],
-                                              "name": "Tintinnida",
-                                              "original_label": "Tintinnida",
-                                              "placement_id": "tara_pacific_deck::Tintinnida::425497::1",
-                                              "risk_flags": [],
-                                              "selected_aphia_id": "425497",
-                                              "selected_aphia_image_count": 4183,
-                                              "selected_aphia_source": "worms_name_assignment",
-                                              "special_tags": [],
-                                              "synonym_note": "",
-                                              "type": "dataset_class",
-                                              "valid_image_count": 4183
-                                            }
-                                          ],
-                                          "datasets": [
-                                            "tara_pacific_deck",
-                                            "tara_pacific_bongo"
-                                          ],
-                                          "entry_count": 2,
-                                          "image_count": 4787,
-                                          "key": "Order::425497::Tintinnida",
-                                          "lineage_notes": [],
-                                          "name": "Tintinnida",
-                                          "rank": "Order",
-                                          "risk_flags": [],
-                                          "special_tags": [],
-                                          "type": "taxon"
-                                        }
-                                      ],
-                                      "datasets": [
-                                        "tara_pacific_deck",
-                                        "tara_pacific_bongo"
-                                      ],
-                                      "entry_count": 2,
-                                      "image_count": 4787,
-                                      "key": "Subclass::425491::Choreotrichia",
-                                      "lineage_notes": [],
-                                      "name": "Choreotrichia",
-                                      "rank": "Subclass",
-                                      "risk_flags": [],
-                                      "special_tags": [],
-                                      "type": "taxon"
-                                    }
-                                  ],
-                                  "datasets": [
-                                    "tara_pacific_deck",
-                                    "tara_pacific_bongo"
-                                  ],
-                                  "entry_count": 2,
-                                  "image_count": 4787,
-                                  "key": "Class::1348::Spirotrichea",
-                                  "lineage_notes": [],
-                                  "name": "Spirotrichea",
-                                  "rank": "Class",
-                                  "risk_flags": [],
-                                  "special_tags": [],
-                                  "type": "taxon"
-                                }
-                              ],
-                              "datasets": [
-                                "tara_pacific_deck",
-                                "tara_pacific_bongo"
-                              ],
-                              "entry_count": 2,
-                              "image_count": 4787,
-                              "key": "Infraphylum::582433::Spirotrichia",
-                              "lineage_notes": [],
-                              "name": "Spirotrichia",
-                              "rank": "Infraphylum",
-                              "risk_flags": [],
-                              "special_tags": [],
                               "type": "taxon"
                             },
                             {
@@ -15446,336 +15353,6 @@
                                                   "aphia_id": "494056",
                                                   "children": [
                                                     {
-                                                      "aphia_id": "495640",
-                                                      "children": [
-                                                        {
-                                                          "broad_class": "",
-                                                          "broad_class_aphia_id": "",
-                                                          "broad_class_original_label": "",
-                                                          "broad_class_source_file": "",
-                                                          "candidate_image_count": 10,
-                                                          "children": [],
-                                                          "dataset_id": "tara_pacific_bongo",
-                                                          "dataset_label": "Tara Pacific Bongo",
-                                                          "entry_id": "tara_pacific_bongo::Neoceratium candelabrum",
-                                                          "image_count": 10,
-                                                          "invalid_image_count": 0,
-                                                          "lineage_notes": [],
-                                                          "name": "Neoceratium candelabrum",
-                                                          "original_label": "Neoceratium candelabrum",
-                                                          "placement_id": "tara_pacific_bongo::Neoceratium candelabrum::495640::1",
-                                                          "risk_flags": [],
-                                                          "selected_aphia_id": "495640",
-                                                          "selected_aphia_image_count": 10,
-                                                          "selected_aphia_source": "worms_name_assignment",
-                                                          "special_tags": [],
-                                                          "synonym_note": "",
-                                                          "type": "dataset_class",
-                                                          "valid_image_count": 10
-                                                        },
-                                                        {
-                                                          "broad_class": "",
-                                                          "broad_class_aphia_id": "",
-                                                          "broad_class_original_label": "",
-                                                          "broad_class_source_file": "",
-                                                          "candidate_image_count": 550,
-                                                          "children": [],
-                                                          "dataset_id": "tara_pacific_deck",
-                                                          "dataset_label": "Tara Pacific Deck",
-                                                          "entry_id": "tara_pacific_deck::Neoceratium candelabrum",
-                                                          "image_count": 550,
-                                                          "invalid_image_count": 0,
-                                                          "lineage_notes": [],
-                                                          "name": "Neoceratium candelabrum",
-                                                          "original_label": "Neoceratium candelabrum",
-                                                          "placement_id": "tara_pacific_deck::Neoceratium candelabrum::495640::1",
-                                                          "risk_flags": [],
-                                                          "selected_aphia_id": "495640",
-                                                          "selected_aphia_image_count": 550,
-                                                          "selected_aphia_source": "worms_name_assignment",
-                                                          "special_tags": [],
-                                                          "synonym_note": "",
-                                                          "type": "dataset_class",
-                                                          "valid_image_count": 550
-                                                        }
-                                                      ],
-                                                      "datasets": [
-                                                        "tara_pacific_deck",
-                                                        "tara_pacific_bongo"
-                                                      ],
-                                                      "entry_count": 2,
-                                                      "image_count": 560,
-                                                      "key": "Species::495640::Neoceratium candelabrum",
-                                                      "lineage_notes": [],
-                                                      "name": "Neoceratium candelabrum",
-                                                      "rank": "Species",
-                                                      "risk_flags": [],
-                                                      "special_tags": [],
-                                                      "type": "taxon"
-                                                    },
-                                                    {
-                                                      "aphia_id": "495659",
-                                                      "children": [
-                                                        {
-                                                          "broad_class": "",
-                                                          "broad_class_aphia_id": "",
-                                                          "broad_class_original_label": "",
-                                                          "broad_class_source_file": "",
-                                                          "candidate_image_count": 387,
-                                                          "children": [],
-                                                          "dataset_id": "flowcam_net",
-                                                          "dataset_label": "FlowCAMNet",
-                                                          "entry_id": "flowcam_net::Neoceratium furca",
-                                                          "image_count": 387,
-                                                          "invalid_image_count": 0,
-                                                          "lineage_notes": [],
-                                                          "name": "Neoceratium furca",
-                                                          "original_label": "Neoceratium furca",
-                                                          "placement_id": "flowcam_net::Neoceratium furca::495659::1",
-                                                          "risk_flags": [],
-                                                          "selected_aphia_id": "495659",
-                                                          "selected_aphia_image_count": 387,
-                                                          "selected_aphia_source": "worms_name_assignment",
-                                                          "special_tags": [],
-                                                          "synonym_note": "",
-                                                          "type": "dataset_class",
-                                                          "valid_image_count": 387
-                                                        }
-                                                      ],
-                                                      "datasets": [
-                                                        "flowcam_net"
-                                                      ],
-                                                      "entry_count": 1,
-                                                      "image_count": 387,
-                                                      "key": "Species::495659::Neoceratium furca",
-                                                      "lineage_notes": [],
-                                                      "name": "Neoceratium furca",
-                                                      "rank": "Species",
-                                                      "risk_flags": [],
-                                                      "special_tags": [],
-                                                      "type": "taxon"
-                                                    },
-                                                    {
-                                                      "aphia_id": "495660",
-                                                      "children": [
-                                                        {
-                                                          "broad_class": "",
-                                                          "broad_class_aphia_id": "",
-                                                          "broad_class_original_label": "",
-                                                          "broad_class_source_file": "",
-                                                          "candidate_image_count": 622,
-                                                          "children": [],
-                                                          "dataset_id": "flowcam_net",
-                                                          "dataset_label": "FlowCAMNet",
-                                                          "entry_id": "flowcam_net::Neoceratium fusus",
-                                                          "image_count": 622,
-                                                          "invalid_image_count": 0,
-                                                          "lineage_notes": [],
-                                                          "name": "Neoceratium fusus",
-                                                          "original_label": "Neoceratium fusus",
-                                                          "placement_id": "flowcam_net::Neoceratium fusus::495660::1",
-                                                          "risk_flags": [],
-                                                          "selected_aphia_id": "495660",
-                                                          "selected_aphia_image_count": 622,
-                                                          "selected_aphia_source": "worms_name_assignment",
-                                                          "special_tags": [],
-                                                          "synonym_note": "",
-                                                          "type": "dataset_class",
-                                                          "valid_image_count": 622
-                                                        }
-                                                      ],
-                                                      "datasets": [
-                                                        "flowcam_net"
-                                                      ],
-                                                      "entry_count": 1,
-                                                      "image_count": 622,
-                                                      "key": "Species::495660::Neoceratium fusus",
-                                                      "lineage_notes": [],
-                                                      "name": "Neoceratium fusus",
-                                                      "rank": "Species",
-                                                      "risk_flags": [],
-                                                      "special_tags": [],
-                                                      "type": "taxon"
-                                                    },
-                                                    {
-                                                      "aphia_id": "495661",
-                                                      "children": [
-                                                        {
-                                                          "broad_class": "",
-                                                          "broad_class_aphia_id": "",
-                                                          "broad_class_original_label": "",
-                                                          "broad_class_source_file": "",
-                                                          "candidate_image_count": 1,
-                                                          "children": [],
-                                                          "dataset_id": "tara_pacific_deck",
-                                                          "dataset_label": "Tara Pacific Deck",
-                                                          "entry_id": "tara_pacific_deck::Neoceratium geniculatum",
-                                                          "image_count": 1,
-                                                          "invalid_image_count": 0,
-                                                          "lineage_notes": [],
-                                                          "name": "Neoceratium geniculatum",
-                                                          "original_label": "Neoceratium geniculatum",
-                                                          "placement_id": "tara_pacific_deck::Neoceratium geniculatum::495661::1",
-                                                          "risk_flags": [],
-                                                          "selected_aphia_id": "495661",
-                                                          "selected_aphia_image_count": 1,
-                                                          "selected_aphia_source": "worms_name_assignment",
-                                                          "special_tags": [],
-                                                          "synonym_note": "",
-                                                          "type": "dataset_class",
-                                                          "valid_image_count": 1
-                                                        }
-                                                      ],
-                                                      "datasets": [
-                                                        "tara_pacific_deck"
-                                                      ],
-                                                      "entry_count": 1,
-                                                      "image_count": 1,
-                                                      "key": "Species::495661::Neoceratium geniculatum",
-                                                      "lineage_notes": [],
-                                                      "name": "Neoceratium geniculatum",
-                                                      "rank": "Species",
-                                                      "risk_flags": [],
-                                                      "special_tags": [],
-                                                      "type": "taxon"
-                                                    },
-                                                    {
-                                                      "aphia_id": "495673",
-                                                      "children": [
-                                                        {
-                                                          "broad_class": "",
-                                                          "broad_class_aphia_id": "",
-                                                          "broad_class_original_label": "",
-                                                          "broad_class_source_file": "",
-                                                          "candidate_image_count": 1,
-                                                          "children": [],
-                                                          "dataset_id": "tara_pacific_deck",
-                                                          "dataset_label": "Tara Pacific Deck",
-                                                          "entry_id": "tara_pacific_deck::Neoceratium limulus",
-                                                          "image_count": 1,
-                                                          "invalid_image_count": 0,
-                                                          "lineage_notes": [],
-                                                          "name": "Neoceratium limulus",
-                                                          "original_label": "Neoceratium limulus",
-                                                          "placement_id": "tara_pacific_deck::Neoceratium limulus::495673::1",
-                                                          "risk_flags": [],
-                                                          "selected_aphia_id": "495673",
-                                                          "selected_aphia_image_count": 1,
-                                                          "selected_aphia_source": "worms_name_assignment",
-                                                          "special_tags": [],
-                                                          "synonym_note": "",
-                                                          "type": "dataset_class",
-                                                          "valid_image_count": 1
-                                                        }
-                                                      ],
-                                                      "datasets": [
-                                                        "tara_pacific_deck"
-                                                      ],
-                                                      "entry_count": 1,
-                                                      "image_count": 1,
-                                                      "key": "Species::495673::Neoceratium limulus",
-                                                      "lineage_notes": [],
-                                                      "name": "Neoceratium limulus",
-                                                      "rank": "Species",
-                                                      "risk_flags": [],
-                                                      "special_tags": [],
-                                                      "type": "taxon"
-                                                    },
-                                                    {
-                                                      "aphia_id": "495685",
-                                                      "children": [
-                                                        {
-                                                          "broad_class": "",
-                                                          "broad_class_aphia_id": "",
-                                                          "broad_class_original_label": "",
-                                                          "broad_class_source_file": "",
-                                                          "candidate_image_count": 2620,
-                                                          "children": [],
-                                                          "dataset_id": "flowcam_net",
-                                                          "dataset_label": "FlowCAMNet",
-                                                          "entry_id": "flowcam_net::Neoceratium pentagonum",
-                                                          "image_count": 2620,
-                                                          "invalid_image_count": 0,
-                                                          "lineage_notes": [],
-                                                          "name": "Neoceratium pentagonum",
-                                                          "original_label": "Neoceratium pentagonum",
-                                                          "placement_id": "flowcam_net::Neoceratium pentagonum::495685::1",
-                                                          "risk_flags": [],
-                                                          "selected_aphia_id": "495685",
-                                                          "selected_aphia_image_count": 2620,
-                                                          "selected_aphia_source": "worms_name_assignment",
-                                                          "special_tags": [],
-                                                          "synonym_note": "",
-                                                          "type": "dataset_class",
-                                                          "valid_image_count": 2620
-                                                        },
-                                                        {
-                                                          "broad_class": "",
-                                                          "broad_class_aphia_id": "",
-                                                          "broad_class_original_label": "",
-                                                          "broad_class_source_file": "",
-                                                          "candidate_image_count": 1481,
-                                                          "children": [],
-                                                          "dataset_id": "tara_pacific_bongo",
-                                                          "dataset_label": "Tara Pacific Bongo",
-                                                          "entry_id": "tara_pacific_bongo::Neoceratium pentagonum",
-                                                          "image_count": 1481,
-                                                          "invalid_image_count": 0,
-                                                          "lineage_notes": [],
-                                                          "name": "Neoceratium pentagonum",
-                                                          "original_label": "Neoceratium pentagonum",
-                                                          "placement_id": "tara_pacific_bongo::Neoceratium pentagonum::495685::1",
-                                                          "risk_flags": [],
-                                                          "selected_aphia_id": "495685",
-                                                          "selected_aphia_image_count": 1481,
-                                                          "selected_aphia_source": "worms_name_assignment",
-                                                          "special_tags": [],
-                                                          "synonym_note": "",
-                                                          "type": "dataset_class",
-                                                          "valid_image_count": 1481
-                                                        },
-                                                        {
-                                                          "broad_class": "",
-                                                          "broad_class_aphia_id": "",
-                                                          "broad_class_original_label": "",
-                                                          "broad_class_source_file": "",
-                                                          "candidate_image_count": 6981,
-                                                          "children": [],
-                                                          "dataset_id": "tara_pacific_deck",
-                                                          "dataset_label": "Tara Pacific Deck",
-                                                          "entry_id": "tara_pacific_deck::Neoceratium pentagonum",
-                                                          "image_count": 6981,
-                                                          "invalid_image_count": 0,
-                                                          "lineage_notes": [],
-                                                          "name": "Neoceratium pentagonum",
-                                                          "original_label": "Neoceratium pentagonum",
-                                                          "placement_id": "tara_pacific_deck::Neoceratium pentagonum::495685::1",
-                                                          "risk_flags": [],
-                                                          "selected_aphia_id": "495685",
-                                                          "selected_aphia_image_count": 6981,
-                                                          "selected_aphia_source": "worms_name_assignment",
-                                                          "special_tags": [],
-                                                          "synonym_note": "",
-                                                          "type": "dataset_class",
-                                                          "valid_image_count": 6981
-                                                        }
-                                                      ],
-                                                      "datasets": [
-                                                        "flowcam_net",
-                                                        "tara_pacific_deck",
-                                                        "tara_pacific_bongo"
-                                                      ],
-                                                      "entry_count": 3,
-                                                      "image_count": 11082,
-                                                      "key": "Species::495685::Neoceratium pentagonum",
-                                                      "lineage_notes": [],
-                                                      "name": "Neoceratium pentagonum",
-                                                      "rank": "Species",
-                                                      "risk_flags": [],
-                                                      "special_tags": [],
-                                                      "type": "taxon"
-                                                    },
-                                                    {
                                                       "broad_class": "",
                                                       "broad_class_aphia_id": "",
                                                       "broad_class_original_label": "",
@@ -15860,8 +15437,8 @@
                                                     "tara_pacific_deck",
                                                     "tara_pacific_bongo"
                                                   ],
-                                                  "entry_count": 12,
-                                                  "image_count": 18168,
+                                                  "entry_count": 3,
+                                                  "image_count": 5515,
                                                   "key": "Genus::494056::Neoceratium",
                                                   "lineage_notes": [],
                                                   "name": "Neoceratium",
@@ -15876,8 +15453,101 @@
                                                   "aphia_id": "494057",
                                                   "children": [
                                                     {
+                                                      "aphia_id": "841193",
+                                                      "children": [
+                                                        {
+                                                          "broad_class": "",
+                                                          "broad_class_aphia_id": "",
+                                                          "broad_class_original_label": "",
+                                                          "broad_class_source_file": "",
+                                                          "candidate_image_count": 10,
+                                                          "children": [],
+                                                          "dataset_id": "tara_pacific_bongo",
+                                                          "dataset_label": "Tara Pacific Bongo",
+                                                          "entry_id": "tara_pacific_bongo::Neoceratium candelabrum",
+                                                          "image_count": 10,
+                                                          "invalid_image_count": 0,
+                                                          "lineage_notes": [],
+                                                          "name": "Neoceratium candelabrum",
+                                                          "original_label": "Neoceratium candelabrum",
+                                                          "placement_id": "tara_pacific_bongo::Neoceratium candelabrum::841193::1",
+                                                          "risk_flags": [],
+                                                          "selected_aphia_id": "841193",
+                                                          "selected_aphia_image_count": 10,
+                                                          "selected_aphia_source": "worms_unaccepted_replacement",
+                                                          "special_tags": [],
+                                                          "synonym_note": "Unaccepted WoRMS AphiaID replaced before tree placement: 495640:Neoceratium candelabrum -> 841193:Tripos candelabrum",
+                                                          "type": "dataset_class",
+                                                          "valid_image_count": 10
+                                                        },
+                                                        {
+                                                          "broad_class": "",
+                                                          "broad_class_aphia_id": "",
+                                                          "broad_class_original_label": "",
+                                                          "broad_class_source_file": "",
+                                                          "candidate_image_count": 550,
+                                                          "children": [],
+                                                          "dataset_id": "tara_pacific_deck",
+                                                          "dataset_label": "Tara Pacific Deck",
+                                                          "entry_id": "tara_pacific_deck::Neoceratium candelabrum",
+                                                          "image_count": 550,
+                                                          "invalid_image_count": 0,
+                                                          "lineage_notes": [],
+                                                          "name": "Neoceratium candelabrum",
+                                                          "original_label": "Neoceratium candelabrum",
+                                                          "placement_id": "tara_pacific_deck::Neoceratium candelabrum::841193::1",
+                                                          "risk_flags": [],
+                                                          "selected_aphia_id": "841193",
+                                                          "selected_aphia_image_count": 550,
+                                                          "selected_aphia_source": "worms_unaccepted_replacement",
+                                                          "special_tags": [],
+                                                          "synonym_note": "Unaccepted WoRMS AphiaID replaced before tree placement: 495640:Neoceratium candelabrum -> 841193:Tripos candelabrum",
+                                                          "type": "dataset_class",
+                                                          "valid_image_count": 550
+                                                        }
+                                                      ],
+                                                      "datasets": [
+                                                        "tara_pacific_deck",
+                                                        "tara_pacific_bongo"
+                                                      ],
+                                                      "entry_count": 2,
+                                                      "image_count": 560,
+                                                      "key": "Species::841193::Tripos candelabrum",
+                                                      "lineage_notes": [],
+                                                      "name": "Tripos candelabrum",
+                                                      "rank": "Species",
+                                                      "risk_flags": [],
+                                                      "special_tags": [],
+                                                      "type": "taxon"
+                                                    },
+                                                    {
                                                       "aphia_id": "840627",
                                                       "children": [
+                                                        {
+                                                          "broad_class": "",
+                                                          "broad_class_aphia_id": "",
+                                                          "broad_class_original_label": "",
+                                                          "broad_class_source_file": "",
+                                                          "candidate_image_count": 387,
+                                                          "children": [],
+                                                          "dataset_id": "flowcam_net",
+                                                          "dataset_label": "FlowCAMNet",
+                                                          "entry_id": "flowcam_net::Neoceratium furca",
+                                                          "image_count": 387,
+                                                          "invalid_image_count": 0,
+                                                          "lineage_notes": [],
+                                                          "name": "Neoceratium furca",
+                                                          "original_label": "Neoceratium furca",
+                                                          "placement_id": "flowcam_net::Neoceratium furca::840627::1",
+                                                          "risk_flags": [],
+                                                          "selected_aphia_id": "840627",
+                                                          "selected_aphia_image_count": 387,
+                                                          "selected_aphia_source": "worms_unaccepted_replacement",
+                                                          "special_tags": [],
+                                                          "synonym_note": "Unaccepted WoRMS AphiaID replaced before tree placement: 495659:Neoceratium furca -> 840627:Tripos furca",
+                                                          "type": "dataset_class",
+                                                          "valid_image_count": 387
+                                                        },
                                                         {
                                                           "broad_class": "",
                                                           "broad_class_aphia_id": "",
@@ -15933,10 +15603,11 @@
                                                       ],
                                                       "datasets": [
                                                         "life_watch",
-                                                        "life_watch_2026_image_library"
+                                                        "life_watch_2026_image_library",
+                                                        "flowcam_net"
                                                       ],
-                                                      "entry_count": 2,
-                                                      "image_count": 52,
+                                                      "entry_count": 3,
+                                                      "image_count": 439,
                                                       "key": "Species::840627::Tripos furca",
                                                       "lineage_notes": [],
                                                       "name": "Tripos furca",
@@ -15950,6 +15621,31 @@
                                                     {
                                                       "aphia_id": "840626",
                                                       "children": [
+                                                        {
+                                                          "broad_class": "",
+                                                          "broad_class_aphia_id": "",
+                                                          "broad_class_original_label": "",
+                                                          "broad_class_source_file": "",
+                                                          "candidate_image_count": 622,
+                                                          "children": [],
+                                                          "dataset_id": "flowcam_net",
+                                                          "dataset_label": "FlowCAMNet",
+                                                          "entry_id": "flowcam_net::Neoceratium fusus",
+                                                          "image_count": 622,
+                                                          "invalid_image_count": 0,
+                                                          "lineage_notes": [],
+                                                          "name": "Neoceratium fusus",
+                                                          "original_label": "Neoceratium fusus",
+                                                          "placement_id": "flowcam_net::Neoceratium fusus::840626::1",
+                                                          "risk_flags": [],
+                                                          "selected_aphia_id": "840626",
+                                                          "selected_aphia_image_count": 622,
+                                                          "selected_aphia_source": "worms_unaccepted_replacement",
+                                                          "special_tags": [],
+                                                          "synonym_note": "Unaccepted WoRMS AphiaID replaced before tree placement: 495660:Neoceratium fusus -> 840626:Tripos fusus",
+                                                          "type": "dataset_class",
+                                                          "valid_image_count": 622
+                                                        },
                                                         {
                                                           "broad_class": "",
                                                           "broad_class_aphia_id": "",
@@ -16003,13 +15699,98 @@
                                                       ],
                                                       "datasets": [
                                                         "life_watch",
-                                                        "life_watch_2026_image_library"
+                                                        "life_watch_2026_image_library",
+                                                        "flowcam_net"
                                                       ],
-                                                      "entry_count": 2,
-                                                      "image_count": 7518,
+                                                      "entry_count": 3,
+                                                      "image_count": 8140,
                                                       "key": "Species::840626::Tripos fusus",
                                                       "lineage_notes": [],
                                                       "name": "Tripos fusus",
+                                                      "rank": "Species",
+                                                      "risk_flags": [],
+                                                      "special_tags": [],
+                                                      "type": "taxon"
+                                                    },
+                                                    {
+                                                      "aphia_id": "841242",
+                                                      "children": [
+                                                        {
+                                                          "broad_class": "",
+                                                          "broad_class_aphia_id": "",
+                                                          "broad_class_original_label": "",
+                                                          "broad_class_source_file": "",
+                                                          "candidate_image_count": 1,
+                                                          "children": [],
+                                                          "dataset_id": "tara_pacific_deck",
+                                                          "dataset_label": "Tara Pacific Deck",
+                                                          "entry_id": "tara_pacific_deck::Neoceratium geniculatum",
+                                                          "image_count": 1,
+                                                          "invalid_image_count": 0,
+                                                          "lineage_notes": [],
+                                                          "name": "Neoceratium geniculatum",
+                                                          "original_label": "Neoceratium geniculatum",
+                                                          "placement_id": "tara_pacific_deck::Neoceratium geniculatum::841242::1",
+                                                          "risk_flags": [],
+                                                          "selected_aphia_id": "841242",
+                                                          "selected_aphia_image_count": 1,
+                                                          "selected_aphia_source": "worms_unaccepted_replacement",
+                                                          "special_tags": [],
+                                                          "synonym_note": "Unaccepted WoRMS AphiaID replaced before tree placement: 495661:Neoceratium geniculatum -> 841242:Tripos geniculatus",
+                                                          "type": "dataset_class",
+                                                          "valid_image_count": 1
+                                                        }
+                                                      ],
+                                                      "datasets": [
+                                                        "tara_pacific_deck"
+                                                      ],
+                                                      "entry_count": 1,
+                                                      "image_count": 1,
+                                                      "key": "Species::841242::Tripos geniculatus",
+                                                      "lineage_notes": [],
+                                                      "name": "Tripos geniculatus",
+                                                      "rank": "Species",
+                                                      "risk_flags": [],
+                                                      "special_tags": [],
+                                                      "type": "taxon"
+                                                    },
+                                                    {
+                                                      "aphia_id": "841258",
+                                                      "children": [
+                                                        {
+                                                          "broad_class": "",
+                                                          "broad_class_aphia_id": "",
+                                                          "broad_class_original_label": "",
+                                                          "broad_class_source_file": "",
+                                                          "candidate_image_count": 1,
+                                                          "children": [],
+                                                          "dataset_id": "tara_pacific_deck",
+                                                          "dataset_label": "Tara Pacific Deck",
+                                                          "entry_id": "tara_pacific_deck::Neoceratium limulus",
+                                                          "image_count": 1,
+                                                          "invalid_image_count": 0,
+                                                          "lineage_notes": [],
+                                                          "name": "Neoceratium limulus",
+                                                          "original_label": "Neoceratium limulus",
+                                                          "placement_id": "tara_pacific_deck::Neoceratium limulus::841258::1",
+                                                          "risk_flags": [],
+                                                          "selected_aphia_id": "841258",
+                                                          "selected_aphia_image_count": 1,
+                                                          "selected_aphia_source": "worms_unaccepted_replacement",
+                                                          "special_tags": [],
+                                                          "synonym_note": "Unaccepted WoRMS AphiaID replaced before tree placement: 495673:Neoceratium limulus -> 841258:Tripos limulus",
+                                                          "type": "dataset_class",
+                                                          "valid_image_count": 1
+                                                        }
+                                                      ],
+                                                      "datasets": [
+                                                        "tara_pacific_deck"
+                                                      ],
+                                                      "entry_count": 1,
+                                                      "image_count": 1,
+                                                      "key": "Species::841258::Tripos limulus",
+                                                      "lineage_notes": [],
+                                                      "name": "Tripos limulus",
                                                       "rank": "Species",
                                                       "risk_flags": [],
                                                       "special_tags": [],
@@ -16088,6 +15869,100 @@
                                                       "type": "taxon"
                                                     },
                                                     {
+                                                      "aphia_id": "841746",
+                                                      "children": [
+                                                        {
+                                                          "broad_class": "",
+                                                          "broad_class_aphia_id": "",
+                                                          "broad_class_original_label": "",
+                                                          "broad_class_source_file": "",
+                                                          "candidate_image_count": 2620,
+                                                          "children": [],
+                                                          "dataset_id": "flowcam_net",
+                                                          "dataset_label": "FlowCAMNet",
+                                                          "entry_id": "flowcam_net::Neoceratium pentagonum",
+                                                          "image_count": 2620,
+                                                          "invalid_image_count": 0,
+                                                          "lineage_notes": [],
+                                                          "name": "Neoceratium pentagonum",
+                                                          "original_label": "Neoceratium pentagonum",
+                                                          "placement_id": "flowcam_net::Neoceratium pentagonum::841746::1",
+                                                          "risk_flags": [],
+                                                          "selected_aphia_id": "841746",
+                                                          "selected_aphia_image_count": 2620,
+                                                          "selected_aphia_source": "worms_unaccepted_replacement",
+                                                          "special_tags": [],
+                                                          "synonym_note": "Unaccepted WoRMS AphiaID replaced before tree placement: 495685:Neoceratium pentagonum -> 841746:Tripos pentagonus",
+                                                          "type": "dataset_class",
+                                                          "valid_image_count": 2620
+                                                        },
+                                                        {
+                                                          "broad_class": "",
+                                                          "broad_class_aphia_id": "",
+                                                          "broad_class_original_label": "",
+                                                          "broad_class_source_file": "",
+                                                          "candidate_image_count": 1481,
+                                                          "children": [],
+                                                          "dataset_id": "tara_pacific_bongo",
+                                                          "dataset_label": "Tara Pacific Bongo",
+                                                          "entry_id": "tara_pacific_bongo::Neoceratium pentagonum",
+                                                          "image_count": 1481,
+                                                          "invalid_image_count": 0,
+                                                          "lineage_notes": [],
+                                                          "name": "Neoceratium pentagonum",
+                                                          "original_label": "Neoceratium pentagonum",
+                                                          "placement_id": "tara_pacific_bongo::Neoceratium pentagonum::841746::1",
+                                                          "risk_flags": [],
+                                                          "selected_aphia_id": "841746",
+                                                          "selected_aphia_image_count": 1481,
+                                                          "selected_aphia_source": "worms_unaccepted_replacement",
+                                                          "special_tags": [],
+                                                          "synonym_note": "Unaccepted WoRMS AphiaID replaced before tree placement: 495685:Neoceratium pentagonum -> 841746:Tripos pentagonus",
+                                                          "type": "dataset_class",
+                                                          "valid_image_count": 1481
+                                                        },
+                                                        {
+                                                          "broad_class": "",
+                                                          "broad_class_aphia_id": "",
+                                                          "broad_class_original_label": "",
+                                                          "broad_class_source_file": "",
+                                                          "candidate_image_count": 6981,
+                                                          "children": [],
+                                                          "dataset_id": "tara_pacific_deck",
+                                                          "dataset_label": "Tara Pacific Deck",
+                                                          "entry_id": "tara_pacific_deck::Neoceratium pentagonum",
+                                                          "image_count": 6981,
+                                                          "invalid_image_count": 0,
+                                                          "lineage_notes": [],
+                                                          "name": "Neoceratium pentagonum",
+                                                          "original_label": "Neoceratium pentagonum",
+                                                          "placement_id": "tara_pacific_deck::Neoceratium pentagonum::841746::1",
+                                                          "risk_flags": [],
+                                                          "selected_aphia_id": "841746",
+                                                          "selected_aphia_image_count": 6981,
+                                                          "selected_aphia_source": "worms_unaccepted_replacement",
+                                                          "special_tags": [],
+                                                          "synonym_note": "Unaccepted WoRMS AphiaID replaced before tree placement: 495685:Neoceratium pentagonum -> 841746:Tripos pentagonus",
+                                                          "type": "dataset_class",
+                                                          "valid_image_count": 6981
+                                                        }
+                                                      ],
+                                                      "datasets": [
+                                                        "flowcam_net",
+                                                        "tara_pacific_deck",
+                                                        "tara_pacific_bongo"
+                                                      ],
+                                                      "entry_count": 3,
+                                                      "image_count": 11082,
+                                                      "key": "Species::841746::Tripos pentagonus",
+                                                      "lineage_notes": [],
+                                                      "name": "Tripos pentagonus",
+                                                      "rank": "Species",
+                                                      "risk_flags": [],
+                                                      "special_tags": [],
+                                                      "type": "taxon"
+                                                    },
+                                                    {
                                                       "broad_class": "",
                                                       "broad_class_aphia_id": "",
                                                       "broad_class_original_label": "",
@@ -16142,10 +16017,13 @@
                                                   ],
                                                   "datasets": [
                                                     "life_watch",
-                                                    "life_watch_2026_image_library"
+                                                    "life_watch_2026_image_library",
+                                                    "flowcam_net",
+                                                    "tara_pacific_deck",
+                                                    "tara_pacific_bongo"
                                                   ],
-                                                  "entry_count": 8,
-                                                  "image_count": 8619,
+                                                  "entry_count": 17,
+                                                  "image_count": 21272,
                                                   "key": "Genus::494057::Tripos",
                                                   "lineage_notes": [],
                                                   "name": "Tripos",
@@ -16303,13 +16181,64 @@
                                                           "synonym_note": "",
                                                           "type": "dataset_class",
                                                           "valid_image_count": 1
+                                                        },
+                                                        {
+                                                          "broad_class": "",
+                                                          "broad_class_aphia_id": "",
+                                                          "broad_class_original_label": "",
+                                                          "broad_class_source_file": "",
+                                                          "candidate_image_count": 123,
+                                                          "children": [],
+                                                          "dataset_id": "tara_pacific_bongo",
+                                                          "dataset_label": "Tara Pacific Bongo",
+                                                          "entry_id": "tara_pacific_bongo::Micracanthodinium quadrispinum",
+                                                          "image_count": 123,
+                                                          "invalid_image_count": 0,
+                                                          "lineage_notes": [],
+                                                          "name": "Micracanthodinium quadrispinum",
+                                                          "original_label": "Micracanthodinium quadrispinum",
+                                                          "placement_id": "tara_pacific_bongo::Micracanthodinium quadrispinum::233346::1",
+                                                          "risk_flags": [],
+                                                          "selected_aphia_id": "233346",
+                                                          "selected_aphia_image_count": 123,
+                                                          "selected_aphia_source": "worms_unaccepted_replacement",
+                                                          "special_tags": [],
+                                                          "synonym_note": "Unaccepted WoRMS AphiaID replaced before tree placement: 233348:Micracanthodinium quadrispinum -> 233346:Cladopyxis quadrispina",
+                                                          "type": "dataset_class",
+                                                          "valid_image_count": 123
+                                                        },
+                                                        {
+                                                          "broad_class": "",
+                                                          "broad_class_aphia_id": "",
+                                                          "broad_class_original_label": "",
+                                                          "broad_class_source_file": "",
+                                                          "candidate_image_count": 139,
+                                                          "children": [],
+                                                          "dataset_id": "tara_pacific_deck",
+                                                          "dataset_label": "Tara Pacific Deck",
+                                                          "entry_id": "tara_pacific_deck::Micracanthodinium quadrispinum",
+                                                          "image_count": 139,
+                                                          "invalid_image_count": 0,
+                                                          "lineage_notes": [],
+                                                          "name": "Micracanthodinium quadrispinum",
+                                                          "original_label": "Micracanthodinium quadrispinum",
+                                                          "placement_id": "tara_pacific_deck::Micracanthodinium quadrispinum::233346::1",
+                                                          "risk_flags": [],
+                                                          "selected_aphia_id": "233346",
+                                                          "selected_aphia_image_count": 139,
+                                                          "selected_aphia_source": "worms_unaccepted_replacement",
+                                                          "special_tags": [],
+                                                          "synonym_note": "Unaccepted WoRMS AphiaID replaced before tree placement: 233348:Micracanthodinium quadrispinum -> 233346:Cladopyxis quadrispina",
+                                                          "type": "dataset_class",
+                                                          "valid_image_count": 139
                                                         }
                                                       ],
                                                       "datasets": [
-                                                        "tara_pacific_deck"
+                                                        "tara_pacific_deck",
+                                                        "tara_pacific_bongo"
                                                       ],
-                                                      "entry_count": 1,
-                                                      "image_count": 1,
+                                                      "entry_count": 3,
+                                                      "image_count": 263,
                                                       "key": "Species::233346::Cladopyxis quadrispina",
                                                       "lineage_notes": [],
                                                       "name": "Cladopyxis quadrispina",
@@ -16403,8 +16332,8 @@
                                                     "tara_pacific_deck",
                                                     "tara_pacific_bongo"
                                                   ],
-                                                  "entry_count": 4,
-                                                  "image_count": 223,
+                                                  "entry_count": 6,
+                                                  "image_count": 485,
                                                   "key": "Genus::109509::Cladopyxis",
                                                   "lineage_notes": [],
                                                   "name": "Cladopyxis",
@@ -16413,92 +16342,6 @@
                                                   "special_tags": [
                                                     "dwc_record_review"
                                                   ],
-                                                  "type": "taxon"
-                                                },
-                                                {
-                                                  "aphia_id": "109510",
-                                                  "children": [
-                                                    {
-                                                      "aphia_id": "233348",
-                                                      "children": [
-                                                        {
-                                                          "broad_class": "",
-                                                          "broad_class_aphia_id": "",
-                                                          "broad_class_original_label": "",
-                                                          "broad_class_source_file": "",
-                                                          "candidate_image_count": 123,
-                                                          "children": [],
-                                                          "dataset_id": "tara_pacific_bongo",
-                                                          "dataset_label": "Tara Pacific Bongo",
-                                                          "entry_id": "tara_pacific_bongo::Micracanthodinium quadrispinum",
-                                                          "image_count": 123,
-                                                          "invalid_image_count": 0,
-                                                          "lineage_notes": [],
-                                                          "name": "Micracanthodinium quadrispinum",
-                                                          "original_label": "Micracanthodinium quadrispinum",
-                                                          "placement_id": "tara_pacific_bongo::Micracanthodinium quadrispinum::233348::1",
-                                                          "risk_flags": [],
-                                                          "selected_aphia_id": "233348",
-                                                          "selected_aphia_image_count": 123,
-                                                          "selected_aphia_source": "worms_name_assignment",
-                                                          "special_tags": [],
-                                                          "synonym_note": "",
-                                                          "type": "dataset_class",
-                                                          "valid_image_count": 123
-                                                        },
-                                                        {
-                                                          "broad_class": "",
-                                                          "broad_class_aphia_id": "",
-                                                          "broad_class_original_label": "",
-                                                          "broad_class_source_file": "",
-                                                          "candidate_image_count": 139,
-                                                          "children": [],
-                                                          "dataset_id": "tara_pacific_deck",
-                                                          "dataset_label": "Tara Pacific Deck",
-                                                          "entry_id": "tara_pacific_deck::Micracanthodinium quadrispinum",
-                                                          "image_count": 139,
-                                                          "invalid_image_count": 0,
-                                                          "lineage_notes": [],
-                                                          "name": "Micracanthodinium quadrispinum",
-                                                          "original_label": "Micracanthodinium quadrispinum",
-                                                          "placement_id": "tara_pacific_deck::Micracanthodinium quadrispinum::233348::1",
-                                                          "risk_flags": [],
-                                                          "selected_aphia_id": "233348",
-                                                          "selected_aphia_image_count": 139,
-                                                          "selected_aphia_source": "worms_name_assignment",
-                                                          "special_tags": [],
-                                                          "synonym_note": "",
-                                                          "type": "dataset_class",
-                                                          "valid_image_count": 139
-                                                        }
-                                                      ],
-                                                      "datasets": [
-                                                        "tara_pacific_deck",
-                                                        "tara_pacific_bongo"
-                                                      ],
-                                                      "entry_count": 2,
-                                                      "image_count": 262,
-                                                      "key": "Species::233348::Micracanthodinium quadrispinum",
-                                                      "lineage_notes": [],
-                                                      "name": "Micracanthodinium quadrispinum",
-                                                      "rank": "Species",
-                                                      "risk_flags": [],
-                                                      "special_tags": [],
-                                                      "type": "taxon"
-                                                    }
-                                                  ],
-                                                  "datasets": [
-                                                    "tara_pacific_deck",
-                                                    "tara_pacific_bongo"
-                                                  ],
-                                                  "entry_count": 2,
-                                                  "image_count": 262,
-                                                  "key": "Genus::109510::Micracanthodinium",
-                                                  "lineage_notes": [],
-                                                  "name": "Micracanthodinium",
-                                                  "rank": "Genus",
-                                                  "risk_flags": [],
-                                                  "special_tags": [],
                                                   "type": "taxon"
                                                 }
                                               ],
@@ -16523,7 +16366,7 @@
                                               "aphia_id": "109444",
                                               "children": [
                                                 {
-                                                  "aphia_id": "109569",
+                                                  "aphia_id": "109571",
                                                   "children": [
                                                     {
                                                       "aphia_id": "110325",
@@ -16540,7 +16383,9 @@
                                                           "entry_id": "life_watch_2026_image_library::Dissodinium pseudolunula",
                                                           "image_count": 4,
                                                           "invalid_image_count": 0,
-                                                          "lineage_notes": [],
+                                                          "lineage_notes": [
+                                                            "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
+                                                          ],
                                                           "name": "Dissodinium pseudolunula",
                                                           "original_label": "Dissodinium pseudolunula",
                                                           "placement_id": "life_watch_2026_image_library::Dissodinium pseudolunula::110325::1",
@@ -16560,7 +16405,9 @@
                                                       "entry_count": 1,
                                                       "image_count": 4,
                                                       "key": "Species::110325::Dissodinium pseudolunula",
-                                                      "lineage_notes": [],
+                                                      "lineage_notes": [
+                                                        "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
+                                                      ],
                                                       "name": "Dissodinium pseudolunula",
                                                       "rank": "Species",
                                                       "risk_flags": [],
@@ -16573,9 +16420,11 @@
                                                   ],
                                                   "entry_count": 1,
                                                   "image_count": 4,
-                                                  "key": "Genus::109569::Dissodinium",
-                                                  "lineage_notes": [],
-                                                  "name": "Dissodinium",
+                                                  "key": "Genus::109571::Pyrocystis",
+                                                  "lineage_notes": [
+                                                    "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
+                                                  ],
+                                                  "name": "Pyrocystis",
                                                   "rank": "Genus",
                                                   "risk_flags": [],
                                                   "special_tags": [],
@@ -16670,7 +16519,9 @@
                                               "entry_count": 4,
                                               "image_count": 387,
                                               "key": "Family::109444::Pyrocystaceae",
-                                              "lineage_notes": [],
+                                              "lineage_notes": [
+                                                "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
+                                              ],
                                               "name": "Pyrocystaceae",
                                               "rank": "Family",
                                               "risk_flags": [],
@@ -16838,7 +16689,9 @@
                                           "entry_count": 37,
                                           "image_count": 29009,
                                           "key": "Order::109391::Gonyaulacales",
-                                          "lineage_notes": [],
+                                          "lineage_notes": [
+                                            "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
+                                          ],
                                           "name": "Gonyaulacales",
                                           "rank": "Order",
                                           "risk_flags": [
@@ -17394,7 +17247,9 @@
                                       "entry_count": 50,
                                       "image_count": 35233,
                                       "key": "Subclass::493845::Peridiniphycidae",
-                                      "lineage_notes": [],
+                                      "lineage_notes": [
+                                        "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
+                                      ],
                                       "name": "Peridiniphycidae",
                                       "rank": "Subclass",
                                       "risk_flags": [
@@ -17522,7 +17377,9 @@
                                   "entry_count": 72,
                                   "image_count": 59949,
                                   "key": "Class::19542::Dinophyceae",
-                                  "lineage_notes": [],
+                                  "lineage_notes": [
+                                    "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
+                                  ],
                                   "name": "Dinophyceae",
                                   "rank": "Class",
                                   "risk_flags": [
@@ -17840,7 +17697,9 @@
                               "entry_count": 83,
                               "image_count": 73933,
                               "key": "Infraphylum::146203::Dinoflagellata",
-                              "lineage_notes": [],
+                              "lineage_notes": [
+                                "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
+                              ],
                               "name": "Dinoflagellata",
                               "rank": "Infraphylum",
                               "risk_flags": [
@@ -17864,7 +17723,9 @@
                           "entry_count": 83,
                           "image_count": 73933,
                           "key": "Subphylum::562620::Dinozoa",
-                          "lineage_notes": [],
+                          "lineage_notes": [
+                            "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
+                          ],
                           "name": "Dinozoa",
                           "rank": "Subphylum",
                           "risk_flags": [
@@ -17888,7 +17749,9 @@
                       "entry_count": 83,
                       "image_count": 73933,
                       "key": "Phylum::450030::Myzozoa",
-                      "lineage_notes": [],
+                      "lineage_notes": [
+                        "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
+                      ],
                       "name": "Myzozoa",
                       "rank": "Phylum",
                       "risk_flags": [
@@ -17912,7 +17775,9 @@
                   "entry_count": 153,
                   "image_count": 101601,
                   "key": "Infrakingdom::536209::Alveolata",
-                  "lineage_notes": [],
+                  "lineage_notes": [
+                    "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
+                  ],
                   "name": "Alveolata",
                   "rank": "Infrakingdom",
                   "risk_flags": [
@@ -18517,6 +18382,31 @@
                               "broad_class_aphia_id": "",
                               "broad_class_original_label": "",
                               "broad_class_source_file": "",
+                              "candidate_image_count": 1036,
+                              "children": [],
+                              "dataset_id": "tara_pacific_bongo",
+                              "dataset_label": "Tara Pacific Bongo",
+                              "entry_id": "tara_pacific_bongo::Acantharea",
+                              "image_count": 1036,
+                              "invalid_image_count": 0,
+                              "lineage_notes": [],
+                              "name": "Acantharea",
+                              "original_label": "Acantharea",
+                              "placement_id": "tara_pacific_bongo::Acantharea::586732::1",
+                              "risk_flags": [],
+                              "selected_aphia_id": "586732",
+                              "selected_aphia_image_count": 1036,
+                              "selected_aphia_source": "worms_unaccepted_replacement",
+                              "special_tags": [],
+                              "synonym_note": "Unaccepted WoRMS AphiaID replaced before tree placement: 235747:Acantharea -> 586732:Acantharia",
+                              "type": "dataset_class",
+                              "valid_image_count": 1036
+                            },
+                            {
+                              "broad_class": "",
+                              "broad_class_aphia_id": "",
+                              "broad_class_original_label": "",
+                              "broad_class_source_file": "",
                               "candidate_image_count": 79,
                               "children": [],
                               "dataset_id": "flowcam_net",
@@ -18567,10 +18457,11 @@
                           ],
                           "datasets": [
                             "flowcam_net",
-                            "tara_pacific_deck"
+                            "tara_pacific_deck",
+                            "tara_pacific_bongo"
                           ],
-                          "entry_count": 3,
-                          "image_count": 4777,
+                          "entry_count": 4,
+                          "image_count": 5813,
                           "key": "Class::586732::Acantharia",
                           "lineage_notes": [],
                           "name": "Acantharia",
@@ -18903,8 +18794,8 @@
                         "tara_pacific_deck",
                         "tara_pacific_bongo"
                       ],
-                      "entry_count": 12,
-                      "image_count": 7758,
+                      "entry_count": 13,
+                      "image_count": 8794,
                       "key": "Phylum::582421::Radiozoa",
                       "lineage_notes": [],
                       "name": "Radiozoa",
@@ -19060,8 +18951,8 @@
                     "tara_pacific_deck",
                     "tara_pacific_bongo"
                   ],
-                  "entry_count": 23,
-                  "image_count": 14509,
+                  "entry_count": 24,
+                  "image_count": 15545,
                   "key": "Infrakingdom::582420::Rhizaria",
                   "lineage_notes": [],
                   "name": "Rhizaria",
@@ -19082,10 +18973,12 @@
                 "tara_pacific_deck",
                 "tara_pacific_bongo"
               ],
-              "entry_count": 179,
-              "image_count": 117370,
+              "entry_count": 180,
+              "image_count": 118406,
               "key": "Subkingdom::582419::Harosa",
-              "lineage_notes": [],
+              "lineage_notes": [
+                "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
+              ],
               "name": "Harosa",
               "rank": "Subkingdom",
               "risk_flags": [
@@ -19107,10 +19000,12 @@
             "tara_pacific_bongo",
             "ifremer_srn"
           ],
-          "entry_count": 403,
-          "image_count": 1335420,
+          "entry_count": 404,
+          "image_count": 1336456,
           "key": "Kingdom::7::Chromista",
-          "lineage_notes": [],
+          "lineage_notes": [
+            "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
+          ],
           "name": "Chromista",
           "rank": "Kingdom",
           "risk_flags": [
@@ -19558,99 +19453,6 @@
             "dwc_record_review"
           ],
           "type": "taxon"
-        },
-        {
-          "aphia_id": "5",
-          "children": [
-            {
-              "aphia_id": "9",
-              "children": [
-                {
-                  "aphia_id": "196831",
-                  "children": [
-                    {
-                      "aphia_id": "235747",
-                      "children": [
-                        {
-                          "broad_class": "",
-                          "broad_class_aphia_id": "",
-                          "broad_class_original_label": "",
-                          "broad_class_source_file": "",
-                          "candidate_image_count": 1036,
-                          "children": [],
-                          "dataset_id": "tara_pacific_bongo",
-                          "dataset_label": "Tara Pacific Bongo",
-                          "entry_id": "tara_pacific_bongo::Acantharea",
-                          "image_count": 1036,
-                          "invalid_image_count": 0,
-                          "lineage_notes": [],
-                          "name": "Acantharea",
-                          "original_label": "Acantharea",
-                          "placement_id": "tara_pacific_bongo::Acantharea::235747::1",
-                          "risk_flags": [],
-                          "selected_aphia_id": "235747",
-                          "selected_aphia_image_count": 1036,
-                          "selected_aphia_source": "worms_name_assignment",
-                          "special_tags": [],
-                          "synonym_note": "",
-                          "type": "dataset_class",
-                          "valid_image_count": 1036
-                        }
-                      ],
-                      "datasets": [
-                        "tara_pacific_bongo"
-                      ],
-                      "entry_count": 1,
-                      "image_count": 1036,
-                      "key": "Class::235747::Acantharea",
-                      "lineage_notes": [],
-                      "name": "Acantharea",
-                      "rank": "Class",
-                      "risk_flags": [],
-                      "special_tags": [],
-                      "type": "taxon"
-                    }
-                  ],
-                  "datasets": [
-                    "tara_pacific_bongo"
-                  ],
-                  "entry_count": 1,
-                  "image_count": 1036,
-                  "key": "Subphylum::196831::Radiolaria",
-                  "lineage_notes": [],
-                  "name": "Radiolaria",
-                  "rank": "Subphylum",
-                  "risk_flags": [],
-                  "special_tags": [],
-                  "type": "taxon"
-                }
-              ],
-              "datasets": [
-                "tara_pacific_bongo"
-              ],
-              "entry_count": 1,
-              "image_count": 1036,
-              "key": "Phylum::9::Sarcomastigophora",
-              "lineage_notes": [],
-              "name": "Sarcomastigophora",
-              "rank": "Phylum",
-              "risk_flags": [],
-              "special_tags": [],
-              "type": "taxon"
-            }
-          ],
-          "datasets": [
-            "tara_pacific_bongo"
-          ],
-          "entry_count": 1,
-          "image_count": 1036,
-          "key": "Kingdom::5::Protozoa",
-          "lineage_notes": [],
-          "name": "Protozoa",
-          "rank": "Kingdom",
-          "risk_flags": [],
-          "special_tags": [],
-          "type": "taxon"
         }
       ],
       "datasets": [
@@ -19664,7 +19466,9 @@
       "entry_count": 471,
       "image_count": 1467375,
       "key": "Superdomain::1::Biota",
-      "lineage_notes": [],
+      "lineage_notes": [
+        "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
+      ],
       "name": "Biota",
       "rank": "Superdomain",
       "risk_flags": [
@@ -19707,7 +19511,9 @@
   ],
   "entry_count": 471,
   "image_count": 1467375,
-  "lineage_notes": [],
+  "lineage_notes": [
+    "unaccepted_lineage_node_replaced:109569:Dissodinium -> 109571:Pyrocystis"
+  ],
   "name": "WoRMS Taxonomy",
   "placement_weighted_count_policy": "selected_aphia_image_counts_when_available",
   "placement_weighted_image_count": 1467375,
@@ -19724,5 +19530,5 @@
   ],
   "type": "root",
   "unique_candidate_image_count": 1467375,
-  "unique_selected_aphia_id_count": 197
+  "unique_selected_aphia_id_count": 191
 }

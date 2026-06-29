@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-20T09:12:43+00:00",
+  "generated_at_utc": "2026-06-29T06:50:58+00:00",
   "source_targets": "derived/ml_ready/target_profiles.csv",
   "history_dir": "derived/ml_ready/mapping_history",
   "export_fields": [
@@ -10,7 +10,7 @@
     "target_alias",
     "notes"
   ],
-  "target_count": 244,
+  "target_count": 238,
   "targets": [
     {
       "source_id": "ntc_082",
@@ -323,13 +323,13 @@
     {
       "source_id": "149130",
       "source_alias": "Eucampia",
-      "image_count": 17129,
+      "image_count": 17337,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "n/a",
       "special_tags": "n/a",
-      "dataset_ids": "life_watch|life_watch_2026_image_library|tara_pacific_deck|tara_pacific_bongo",
-      "source_labels": "Eucampia"
+      "dataset_ids": "life_watch|life_watch_2026_image_library|tara_pacific_deck|tara_pacific_bongo|flowcam_net",
+      "source_labels": "Eucampia|Hemiaulus"
     },
     {
       "source_id": "19542",
@@ -398,8 +398,8 @@
       "source_labels": "Zygoceros"
     },
     {
-      "source_id": "495685",
-      "source_alias": "Neoceratium pentagonum",
+      "source_id": "841746",
+      "source_alias": "Tripos pentagonus",
       "image_count": 11082,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
@@ -444,13 +444,13 @@
     {
       "source_id": "840626",
       "source_alias": "Tripos fusus",
-      "image_count": 7515,
+      "image_count": 8137,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "n/a",
       "special_tags": "n/a",
-      "dataset_ids": "life_watch|life_watch_2026_image_library",
-      "source_labels": "Tripos_fusus|Tripos fusus"
+      "dataset_ids": "life_watch|flowcam_net|life_watch_2026_image_library",
+      "source_labels": "Tripos_fusus|Neoceratium fusus|Tripos fusus"
     },
     {
       "source_id": "ntc_051",
@@ -541,6 +541,17 @@
       "source_labels": "Proboscia_indica|Proboscia indica"
     },
     {
+      "source_id": "732976",
+      "source_alias": "Tintinnina",
+      "image_count": 5755,
+      "valid_statuses": "valid",
+      "invalid_reasons": "n/a",
+      "risk_flags": "contaminated",
+      "special_tags": "n/a",
+      "dataset_ids": "tara_pacific_deck|tara_pacific_bongo|flowcam_net|life_watch|life_watch_2026_image_library",
+      "source_labels": "Tintinnida|Tintinnina"
+    },
+    {
       "source_id": "149054",
       "source_alias": "Paralia",
       "image_count": 5753,
@@ -561,6 +572,17 @@
       "special_tags": "n/a",
       "dataset_ids": "tara_pacific_bongo|life_watch_2026_image_library",
       "source_labels": "aggregates|Aggregate"
+    },
+    {
+      "source_id": "586732",
+      "source_alias": "Acantharia",
+      "image_count": 5582,
+      "valid_statuses": "valid",
+      "invalid_reasons": "n/a",
+      "risk_flags": "n/a",
+      "special_tags": "dwc_record_review",
+      "dataset_ids": "tara_pacific_deck|tara_pacific_bongo|flowcam_net",
+      "source_labels": "Acantharia|Acantharea"
     },
     {
       "source_id": "494056",
@@ -618,17 +640,6 @@
       "source_labels": "Bacteriastrum"
     },
     {
-      "source_id": "425497",
-      "source_alias": "Tintinnida",
-      "image_count": 4787,
-      "valid_statuses": "valid",
-      "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_deck|tara_pacific_bongo",
-      "source_labels": "Tintinnida"
-    },
-    {
       "source_id": "149149",
       "source_alias": "Bacillaria paxillifer",
       "image_count": 4582,
@@ -638,17 +649,6 @@
       "special_tags": "n/a",
       "dataset_ids": "life_watch|life_watch_2026_image_library",
       "source_labels": "Bacillaria_paxillifer|Bacillaria paxillifer"
-    },
-    {
-      "source_id": "586732",
-      "source_alias": "Acantharia",
-      "image_count": 4546,
-      "valid_statuses": "valid",
-      "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
-      "special_tags": "dwc_record_review",
-      "dataset_ids": "tara_pacific_deck|flowcam_net",
-      "source_labels": "Acantharia"
     },
     {
       "source_id": "148916",
@@ -1025,17 +1025,6 @@
       "source_labels": "Tripos"
     },
     {
-      "source_id": "235747",
-      "source_alias": "Acantharea",
-      "image_count": 1036,
-      "valid_statuses": "valid",
-      "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_bongo",
-      "source_labels": "Acantharea"
-    },
-    {
       "source_id": "149022",
       "source_alias": "Ditylum",
       "image_count": 1026,
@@ -1056,17 +1045,6 @@
       "special_tags": "dwc_record_review",
       "dataset_ids": "flowcam_net|tara_pacific_deck|tara_pacific_bongo",
       "source_labels": "Undellidae"
-    },
-    {
-      "source_id": "732976",
-      "source_alias": "Tintinnina",
-      "image_count": 968,
-      "valid_statuses": "valid",
-      "invalid_reasons": "n/a",
-      "risk_flags": "contaminated",
-      "special_tags": "n/a",
-      "dataset_ids": "flowcam_net|life_watch|life_watch_2026_image_library",
-      "source_labels": "Tintinnina"
     },
     {
       "source_id": "163067",
@@ -1223,17 +1201,6 @@
       "source_labels": "Triceratium_favus|Triceratium favus"
     },
     {
-      "source_id": "495660",
-      "source_alias": "Neoceratium fusus",
-      "image_count": 622,
-      "valid_statuses": "valid",
-      "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "flowcam_net",
-      "source_labels": "Neoceratium fusus"
-    },
-    {
       "source_id": "inv_005",
       "source_alias": "dinoflagellate cyst",
       "image_count": 609,
@@ -1256,8 +1223,8 @@
       "source_labels": "Xystonellidae"
     },
     {
-      "source_id": "495640",
-      "source_alias": "Neoceratium candelabrum",
+      "source_id": "841193",
+      "source_alias": "Tripos candelabrum",
       "image_count": 560,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
@@ -1366,6 +1333,17 @@
       "source_labels": "Ornithocercus|Ornithocercus quadratus<Ornithocercus"
     },
     {
+      "source_id": "840627",
+      "source_alias": "Tripos furca",
+      "image_count": 400,
+      "valid_statuses": "valid",
+      "invalid_reasons": "n/a",
+      "risk_flags": "n/a",
+      "special_tags": "n/a",
+      "dataset_ids": "flowcam_net|life_watch_2026_image_library",
+      "source_labels": "Neoceratium furca|Tripos furca"
+    },
+    {
       "source_id": "109462",
       "source_alias": "Dinophysis",
       "image_count": 399,
@@ -1421,17 +1399,6 @@
       "source_labels": "Oncaeidae"
     },
     {
-      "source_id": "495659",
-      "source_alias": "Neoceratium furca",
-      "image_count": 387,
-      "valid_statuses": "valid",
-      "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "flowcam_net",
-      "source_labels": "Neoceratium furca"
-    },
-    {
       "source_id": "109444",
       "source_alias": "Pyrocystaceae",
       "image_count": 383,
@@ -1454,8 +1421,8 @@
       "source_labels": "Actinoptychus_senarius|Actinoptychus senarius"
     },
     {
-      "source_id": "149655",
-      "source_alias": "Biddulphia alternans",
+      "source_id": "985653",
+      "source_alias": "Triceratium alternans f. alternans",
       "image_count": 373,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
@@ -1619,15 +1586,15 @@
       "source_labels": "Oithonidae"
     },
     {
-      "source_id": "233348",
-      "source_alias": "Micracanthodinium quadrispinum",
-      "image_count": 262,
+      "source_id": "233346",
+      "source_alias": "Cladopyxis quadrispina",
+      "image_count": 263,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "n/a",
       "special_tags": "n/a",
       "dataset_ids": "tara_pacific_deck|tara_pacific_bongo",
-      "source_labels": "Micracanthodinium quadrispinum"
+      "source_labels": "Micracanthodinium quadrispinum|Cladopyxis quadrispina"
     },
     {
       "source_id": "ntc_025",
@@ -1716,17 +1683,6 @@
       "special_tags": "dwc_record_review",
       "dataset_ids": "tara_pacific_deck|tara_pacific_bongo",
       "source_labels": "Codonellidae"
-    },
-    {
-      "source_id": "605114",
-      "source_alias": "Hemiaulus",
-      "image_count": 208,
-      "valid_statuses": "valid",
-      "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "flowcam_net",
-      "source_labels": "Hemiaulus"
     },
     {
       "source_id": "163780",
@@ -2290,17 +2246,6 @@
       "source_labels": "(Pseudo-)pediastrum"
     },
     {
-      "source_id": "840627",
-      "source_alias": "Tripos furca",
-      "image_count": 13,
-      "valid_statuses": "valid",
-      "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "life_watch_2026_image_library",
-      "source_labels": "Tripos furca"
-    },
-    {
       "source_id": "149281",
       "source_alias": "Auliscus",
       "image_count": 12,
@@ -2620,17 +2565,6 @@
       "source_labels": "Akashiwo sanguinea"
     },
     {
-      "source_id": "233346",
-      "source_alias": "Cladopyxis quadrispina",
-      "image_count": 1,
-      "valid_statuses": "valid",
-      "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_deck",
-      "source_labels": "Cladopyxis quadrispina"
-    },
-    {
       "source_id": "416015",
       "source_alias": "Stentor",
       "image_count": 1,
@@ -2664,28 +2598,6 @@
       "source_labels": "Cosmarium"
     },
     {
-      "source_id": "495661",
-      "source_alias": "Neoceratium geniculatum",
-      "image_count": 1,
-      "valid_statuses": "valid",
-      "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_deck",
-      "source_labels": "Neoceratium geniculatum"
-    },
-    {
-      "source_id": "495673",
-      "source_alias": "Neoceratium limulus",
-      "image_count": 1,
-      "valid_statuses": "valid",
-      "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "tara_pacific_deck",
-      "source_labels": "Neoceratium limulus"
-    },
-    {
       "source_id": "592906",
       "source_alias": "Coccolithophyceae",
       "image_count": 1,
@@ -2695,6 +2607,28 @@
       "special_tags": "n/a",
       "dataset_ids": "life_watch_2026_image_library",
       "source_labels": "Coccolithophyceae"
+    },
+    {
+      "source_id": "841242",
+      "source_alias": "Tripos geniculatus",
+      "image_count": 1,
+      "valid_statuses": "valid",
+      "invalid_reasons": "n/a",
+      "risk_flags": "n/a",
+      "special_tags": "n/a",
+      "dataset_ids": "tara_pacific_deck",
+      "source_labels": "Neoceratium geniculatum"
+    },
+    {
+      "source_id": "841258",
+      "source_alias": "Tripos limulus",
+      "image_count": 1,
+      "valid_statuses": "valid",
+      "invalid_reasons": "n/a",
+      "risk_flags": "n/a",
+      "special_tags": "n/a",
+      "dataset_ids": "tara_pacific_deck",
+      "source_labels": "Neoceratium limulus"
     }
   ],
   "latest_history_id": "zz_2026_06_19_formal_mapping_status",
@@ -2703,7 +2637,7 @@
       "history_id": "2026_06_14_manual_mapping_rules",
       "file_name": "2026-06-14_manual_mapping_rules.csv",
       "path": "derived/ml_ready/mapping_history/2026-06-14_manual_mapping_rules.csv",
-      "row_count": 244,
+      "row_count": 238,
       "explicit_row_count": 31,
       "merge_count": 29,
       "drop_count": 2,
@@ -3163,9 +3097,9 @@
         },
         {
           "action": "keep",
-          "source_id": "495685",
+          "source_id": "841746",
           "target_id": "",
-          "source_alias": "Neoceratium pentagonum",
+          "source_alias": "Tripos pentagonus",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -3293,6 +3227,16 @@
         },
         {
           "action": "keep",
+          "source_id": "732976",
+          "target_id": "",
+          "source_alias": "Tintinnina",
+          "target_alias": "",
+          "notes": "",
+          "validation_status": "ok",
+          "validation_message": ""
+        },
+        {
+          "action": "keep",
           "source_id": "149054",
           "target_id": "",
           "source_alias": "Paralia",
@@ -3306,6 +3250,16 @@
           "source_id": "ntc_001",
           "target_id": "",
           "source_alias": "aggregates",
+          "target_alias": "",
+          "notes": "",
+          "validation_status": "ok",
+          "validation_message": ""
+        },
+        {
+          "action": "keep",
+          "source_id": "586732",
+          "target_id": "",
+          "source_alias": "Acantharia",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -3363,29 +3317,9 @@
         },
         {
           "action": "keep",
-          "source_id": "425497",
-          "target_id": "",
-          "source_alias": "Tintinnida",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "149149",
           "target_id": "",
           "source_alias": "Bacillaria paxillifer",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
-          "source_id": "586732",
-          "target_id": "",
-          "source_alias": "Acantharia",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -3733,16 +3667,6 @@
         },
         {
           "action": "keep",
-          "source_id": "235747",
-          "target_id": "",
-          "source_alias": "Acantharea",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "149022",
           "target_id": "",
           "source_alias": "Ditylum",
@@ -3756,16 +3680,6 @@
           "source_id": "172430",
           "target_id": "",
           "source_alias": "Undellidae",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
-          "source_id": "732976",
-          "target_id": "",
-          "source_alias": "Tintinnina",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -3913,16 +3827,6 @@
         },
         {
           "action": "keep",
-          "source_id": "495660",
-          "target_id": "",
-          "source_alias": "Neoceratium fusus",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "inv_005",
           "target_id": "",
           "source_alias": "dinoflagellate cyst",
@@ -3943,9 +3847,9 @@
         },
         {
           "action": "keep",
-          "source_id": "495640",
+          "source_id": "841193",
           "target_id": "",
-          "source_alias": "Neoceratium candelabrum",
+          "source_alias": "Tripos candelabrum",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -4043,6 +3947,16 @@
         },
         {
           "action": "keep",
+          "source_id": "840627",
+          "target_id": "",
+          "source_alias": "Tripos furca",
+          "target_alias": "",
+          "notes": "",
+          "validation_status": "ok",
+          "validation_message": ""
+        },
+        {
+          "action": "keep",
           "source_id": "109462",
           "target_id": "",
           "source_alias": "Dinophysis",
@@ -4093,16 +4007,6 @@
         },
         {
           "action": "keep",
-          "source_id": "495659",
-          "target_id": "",
-          "source_alias": "Neoceratium furca",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "109444",
           "target_id": "",
           "source_alias": "Pyrocystaceae",
@@ -4123,9 +4027,9 @@
         },
         {
           "action": "keep",
-          "source_id": "149655",
+          "source_id": "985653",
           "target_id": "",
-          "source_alias": "Biddulphia alternans",
+          "source_alias": "Triceratium alternans f. alternans",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -4273,9 +4177,9 @@
         },
         {
           "action": "keep",
-          "source_id": "233348",
+          "source_id": "233346",
           "target_id": "",
-          "source_alias": "Micracanthodinium quadrispinum",
+          "source_alias": "Cladopyxis quadrispina",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -4356,16 +4260,6 @@
           "source_id": "150201",
           "target_id": "",
           "source_alias": "Codonellidae",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
-          "source_id": "605114",
-          "target_id": "",
-          "source_alias": "Hemiaulus",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -4882,16 +4776,6 @@
           "validation_message": ""
         },
         {
-          "action": "keep",
-          "source_id": "840627",
-          "target_id": "",
-          "source_alias": "Tripos furca",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
           "action": "merge",
           "source_id": "149281",
           "target_id": "148971",
@@ -5183,16 +5067,6 @@
         },
         {
           "action": "keep",
-          "source_id": "233346",
-          "target_id": "",
-          "source_alias": "Cladopyxis quadrispina",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "416015",
           "target_id": "",
           "source_alias": "Stentor",
@@ -5223,29 +5097,29 @@
         },
         {
           "action": "keep",
-          "source_id": "495661",
-          "target_id": "",
-          "source_alias": "Neoceratium geniculatum",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
-          "source_id": "495673",
-          "target_id": "",
-          "source_alias": "Neoceratium limulus",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "592906",
           "target_id": "",
           "source_alias": "Coccolithophyceae",
+          "target_alias": "",
+          "notes": "",
+          "validation_status": "ok",
+          "validation_message": ""
+        },
+        {
+          "action": "keep",
+          "source_id": "841242",
+          "target_id": "",
+          "source_alias": "Tripos geniculatus",
+          "target_alias": "",
+          "notes": "",
+          "validation_status": "ok",
+          "validation_message": ""
+        },
+        {
+          "action": "keep",
+          "source_id": "841258",
+          "target_id": "",
+          "source_alias": "Tripos limulus",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -5257,7 +5131,7 @@
       "history_id": "zz_2026_06_19_formal_mapping_status",
       "file_name": "zz_2026-06-19_formal_mapping_status.csv",
       "path": "derived/ml_ready/mapping_history/zz_2026-06-19_formal_mapping_status.csv",
-      "row_count": 244,
+      "row_count": 238,
       "explicit_row_count": 46,
       "merge_count": 36,
       "drop_count": 10,
@@ -5616,9 +5490,9 @@
         },
         {
           "action": "keep",
-          "source_id": "495685",
+          "source_id": "841746",
           "target_id": "",
-          "source_alias": "Neoceratium pentagonum",
+          "source_alias": "Tripos pentagonus",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -5746,6 +5620,16 @@
         },
         {
           "action": "keep",
+          "source_id": "732976",
+          "target_id": "",
+          "source_alias": "Tintinnina",
+          "target_alias": "",
+          "notes": "",
+          "validation_status": "ok",
+          "validation_message": ""
+        },
+        {
+          "action": "keep",
           "source_id": "149054",
           "target_id": "",
           "source_alias": "Paralia",
@@ -5761,6 +5645,16 @@
           "source_alias": "aggregates",
           "target_alias": "detritus",
           "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
+          "validation_status": "ok",
+          "validation_message": ""
+        },
+        {
+          "action": "keep",
+          "source_id": "586732",
+          "target_id": "",
+          "source_alias": "Acantharia",
+          "target_alias": "",
+          "notes": "",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -5816,29 +5710,9 @@
         },
         {
           "action": "keep",
-          "source_id": "425497",
-          "target_id": "",
-          "source_alias": "Tintinnida",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "149149",
           "target_id": "",
           "source_alias": "Bacillaria paxillifer",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
-          "source_id": "586732",
-          "target_id": "",
-          "source_alias": "Acantharia",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -6186,16 +6060,6 @@
         },
         {
           "action": "keep",
-          "source_id": "235747",
-          "target_id": "",
-          "source_alias": "Acantharea",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "149022",
           "target_id": "",
           "source_alias": "Ditylum",
@@ -6209,16 +6073,6 @@
           "source_id": "172430",
           "target_id": "",
           "source_alias": "Undellidae",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
-          "source_id": "732976",
-          "target_id": "",
-          "source_alias": "Tintinnina",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -6365,16 +6219,6 @@
           "validation_message": ""
         },
         {
-          "action": "keep",
-          "source_id": "495660",
-          "target_id": "",
-          "source_alias": "Neoceratium fusus",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
           "action": "merge",
           "source_id": "inv_005",
           "target_id": "ntc_028",
@@ -6396,9 +6240,9 @@
         },
         {
           "action": "keep",
-          "source_id": "495640",
+          "source_id": "841193",
           "target_id": "",
-          "source_alias": "Neoceratium candelabrum",
+          "source_alias": "Tripos candelabrum",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -6496,6 +6340,16 @@
         },
         {
           "action": "keep",
+          "source_id": "840627",
+          "target_id": "",
+          "source_alias": "Tripos furca",
+          "target_alias": "",
+          "notes": "",
+          "validation_status": "ok",
+          "validation_message": ""
+        },
+        {
+          "action": "keep",
           "source_id": "109462",
           "target_id": "",
           "source_alias": "Dinophysis",
@@ -6546,16 +6400,6 @@
         },
         {
           "action": "keep",
-          "source_id": "495659",
-          "target_id": "",
-          "source_alias": "Neoceratium furca",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "109444",
           "target_id": "",
           "source_alias": "Pyrocystaceae",
@@ -6576,9 +6420,9 @@
         },
         {
           "action": "keep",
-          "source_id": "149655",
+          "source_id": "985653",
           "target_id": "",
-          "source_alias": "Biddulphia alternans",
+          "source_alias": "Triceratium alternans f. alternans",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -6726,9 +6570,9 @@
         },
         {
           "action": "keep",
-          "source_id": "233348",
+          "source_id": "233346",
           "target_id": "",
-          "source_alias": "Micracanthodinium quadrispinum",
+          "source_alias": "Cladopyxis quadrispina",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -6809,16 +6653,6 @@
           "source_id": "150201",
           "target_id": "",
           "source_alias": "Codonellidae",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
-          "source_id": "605114",
-          "target_id": "",
-          "source_alias": "Hemiaulus",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -7336,16 +7170,6 @@
         },
         {
           "action": "keep",
-          "source_id": "840627",
-          "target_id": "",
-          "source_alias": "Tripos furca",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "149281",
           "target_id": "",
           "source_alias": "Auliscus",
@@ -7636,16 +7460,6 @@
         },
         {
           "action": "keep",
-          "source_id": "233346",
-          "target_id": "",
-          "source_alias": "Cladopyxis quadrispina",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "416015",
           "target_id": "",
           "source_alias": "Stentor",
@@ -7676,29 +7490,29 @@
         },
         {
           "action": "keep",
-          "source_id": "495661",
-          "target_id": "",
-          "source_alias": "Neoceratium geniculatum",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
-          "source_id": "495673",
-          "target_id": "",
-          "source_alias": "Neoceratium limulus",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "592906",
           "target_id": "",
           "source_alias": "Coccolithophyceae",
+          "target_alias": "",
+          "notes": "",
+          "validation_status": "ok",
+          "validation_message": ""
+        },
+        {
+          "action": "keep",
+          "source_id": "841242",
+          "target_id": "",
+          "source_alias": "Tripos geniculatus",
+          "target_alias": "",
+          "notes": "",
+          "validation_status": "ok",
+          "validation_message": ""
+        },
+        {
+          "action": "keep",
+          "source_id": "841258",
+          "target_id": "",
+          "source_alias": "Tripos limulus",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
