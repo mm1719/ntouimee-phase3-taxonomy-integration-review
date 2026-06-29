@@ -120,23 +120,53 @@ function reviewColumns(activeKey: ReviewKey) {
     ];
   }
 
-  if (activeKey === "corrected" || activeKey === "challenged") {
+  if (activeKey === "corrected") {
     return [
       ...common,
+      helper.accessor("worms_aphia_ids", {
+        header: "Original AphiaID",
+        cell: (info) => <ListCell value={info.getValue()} />
+      }),
       helper.accessor("selected_aphia_ids", {
-        header: "Selected AphiaID",
+        header: "Corrected AphiaID",
+        cell: (info) => <ListCell value={info.getValue()} />
+      }),
+      helper.accessor("accepted_name", {
+        header: "Accepted name",
+        cell: (info) => <TextCell value={info.getValue()} />
+      }),
+      helper.accessor("accepted_aphia_id", {
+        header: "Accepted ID",
+        cell: (info) => <ListCell value={info.getValue()} />
+      }),
+      helper.accessor("synonym_note", {
+        header: "Correction evidence",
+        cell: (info) => <TextCell value={info.getValue()} />
+      })
+    ];
+  }
+
+  if (activeKey === "challenged") {
+    return [
+      ...common,
+      helper.accessor("worms_aphia_ids", {
+        header: "Original AphiaID",
         cell: (info) => <ListCell value={info.getValue()} />
       }),
       helper.accessor("status_review_rollup_aphia_id", {
         header: "Rollup AphiaID",
         cell: (info) => <ListCell value={info.getValue()} />
       }),
+      helper.accessor("status_review_rollup_name", {
+        header: "Rollup taxon",
+        cell: (info) => <TextCell value={info.getValue()} />
+      }),
       helper.accessor("status_review_rollup_rank", {
         header: "Rollup rank",
         cell: (info) => <TextCell value={info.getValue()} />
       }),
       helper.accessor("synonym_note", {
-        header: "Status review note",
+        header: "Challenge evidence",
         cell: (info) => <TextCell value={info.getValue()} />
       })
     ];

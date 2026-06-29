@@ -51,6 +51,11 @@ export function DetailDrawer({
   const selectedIds = candidate ? splitCell(candidate.selected_aphia_ids) : [];
   const selectedCounts = candidate ? splitCell(candidate.selected_aphia_image_counts) : [];
   const statusEvidence = parseStatusEvidence(candidate?.status_review_evidence_json);
+  const statusFlags = candidate ? splitCell(candidate.status_review_flag) : [];
+  const isCorrected = statusFlags.includes("corrected");
+  const displayedStatusEvidence = isCorrected
+    ? statusEvidence.filter((record) => record.source === "original" || record.source === "valid_target")
+    : statusEvidence;
   const datasetBadges = [...new Set([
     ...(node.dataset_id ? [node.dataset_id] : []),
     ...(node.datasets ?? [])
@@ -95,7 +100,7 @@ export function DetailDrawer({
         )}
       </dl>
 
-      {candidate?.synonym_note && (
+      {candidate?.synonym_note && !candidate?.status_review_flag && (
         <div className="drawer-section">
           <h3>Synonym correction</h3>
           <dl className="kv compact-kv">
@@ -108,16 +113,27 @@ export function DetailDrawer({
 
       {candidate?.status_review_flag && (
         <div className="drawer-section">
-          <h3>WoRMS status review</h3>
+          <h3>{isCorrected ? "WoRMS correction review" : "WoRMS status review"}</h3>
           <dl className="kv compact-kv">
             <div><dt>Review flag</dt><dd>{candidate.status_review_flag.split("|").join(", ")}</dd></div>
-            <div><dt>Rollup AphiaID</dt><dd>{candidate.status_review_rollup_aphia_id || "n/a"}</dd></div>
-            <div><dt>Rollup taxon</dt><dd>{candidate.status_review_rollup_name || "n/a"}</dd></div>
-            <div><dt>Rollup rank</dt><dd>{candidate.status_review_rollup_rank || "n/a"}</dd></div>
+            {isCorrected ? (
+              <>
+                <div><dt>Corrected AphiaID</dt><dd>{candidate.selected_aphia_ids || "n/a"}</dd></div>
+                <div><dt>Accepted target</dt><dd>{candidate.accepted_name || "n/a"}</dd></div>
+                <div><dt>Accepted AphiaID</dt><dd>{candidate.accepted_aphia_id || "n/a"}</dd></div>
+              </>
+            ) : (
+              <>
+                <div><dt>Rollup AphiaID</dt><dd>{candidate.status_review_rollup_aphia_id || "n/a"}</dd></div>
+                <div><dt>Rollup taxon</dt><dd>{candidate.status_review_rollup_name || "n/a"}</dd></div>
+                <div><dt>Rollup rank</dt><dd>{candidate.status_review_rollup_rank || "n/a"}</dd></div>
+              </>
+            )}
           </dl>
-          {statusEvidence.length > 0 && (
+          {candidate.synonym_note && <p className="muted">{candidate.synonym_note}</p>}
+          {displayedStatusEvidence.length > 0 && (
             <div className="evidence-list">
-              {statusEvidence.map((record, index) => (
+              {displayedStatusEvidence.map((record, index) => (
                 <div className="evidence-item" key={`${record.source}-${record.aphia_id}-${index}`}>
                   <dl className="kv compact-kv">
                     <div><dt>Source</dt><dd>{record.source || "n/a"}</dd></div>

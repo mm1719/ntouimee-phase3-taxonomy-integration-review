@@ -114,6 +114,33 @@ const candidates: Candidate[] = [
     broad_class_original_label: "Crustacea broad",
     broad_class_aphia_id: "1066",
     broad_class_source_file: "studies/label_aphia_inventory/round3_invalid_label_cleanup.csv"
+  },
+  {
+    ...baseCandidate,
+    entry_id: "deck::corrected",
+    dataset_id: "tara_pacific_deck",
+    label: "Neoceratium furca",
+    image_count: "387",
+    selected_aphia_ids: "840627",
+    risk_flags: "corrected",
+    worms_aphia_ids: "495659",
+    accepted_name: "Tripos furca",
+    accepted_aphia_id: "840627",
+    synonym_note: "WoRMS status review: 495659:Neoceratium furca -> 840627:Tripos furca"
+  },
+  {
+    ...baseCandidate,
+    entry_id: "life::challenged",
+    dataset_id: "life_watch_2026_image_library",
+    label: "Dissodinium pseudolunula",
+    image_count: "4",
+    selected_aphia_ids: "109444",
+    risk_flags: "challenged",
+    worms_aphia_ids: "110325",
+    status_review_rollup_aphia_id: "109444",
+    status_review_rollup_name: "Pyrocystaceae",
+    status_review_rollup_rank: "Family",
+    synonym_note: "WoRMS status review: 110325:Dissodinium pseudolunula -> 109444:Pyrocystaceae"
   }
 ];
 
@@ -223,6 +250,48 @@ describe("RiskPanels", () => {
 
     await user.click(screen.getByRole("row", { name: /Crustacea broad/ }));
     expect(onSelect).toHaveBeenCalledWith("flow::broad");
+  });
+
+  it("uses corrected-specific review columns", async () => {
+    const user = userEvent.setup();
+    render(<RiskPanels candidates={candidates} onSelect={vi.fn()} />);
+
+    await user.click(screen.getByRole("button", { name: /Corrected/ }));
+
+    expect(tableHeaders()).toEqual([
+      "ID",
+      "Dataset",
+      "Label",
+      "Images",
+      "Original AphiaID",
+      "Corrected AphiaID",
+      "Accepted name",
+      "Accepted ID",
+      "Correction evidence"
+    ]);
+    expect(screen.getByText("Neoceratium furca")).toBeInTheDocument();
+    expect(screen.getByText("Tripos furca")).toBeInTheDocument();
+  });
+
+  it("uses challenged-specific rollup review columns", async () => {
+    const user = userEvent.setup();
+    render(<RiskPanels candidates={candidates} onSelect={vi.fn()} />);
+
+    await user.click(screen.getByRole("button", { name: /Challenged/ }));
+
+    expect(tableHeaders()).toEqual([
+      "ID",
+      "Dataset",
+      "Label",
+      "Images",
+      "Original AphiaID",
+      "Rollup AphiaID",
+      "Rollup taxon",
+      "Rollup rank",
+      "Challenge evidence"
+    ]);
+    expect(screen.getByText("Dissodinium pseudolunula")).toBeInTheDocument();
+    expect(screen.getByText("Pyrocystaceae")).toBeInTheDocument();
   });
 
   it("shows an empty state for a risk with no candidates", async () => {

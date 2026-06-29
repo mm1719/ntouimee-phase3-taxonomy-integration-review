@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import { DetailDrawer } from "../DetailDrawer";
 import type { Candidate, TreeNode } from "../../types";
 
-const candidate: Candidate = {
+const challengedCandidate: Candidate = {
   entry_id: "life_watch_2026_image_library::Dissodinium pseudolunula",
   dataset_id: "life_watch_2026_image_library",
   label: "Dissodinium pseudolunula",
@@ -54,26 +54,84 @@ const candidate: Candidate = {
   source_example: "metadata.csv"
 };
 
-const node: TreeNode = {
-  type: "dataset_class",
-  name: candidate.label,
-  entry_id: candidate.entry_id,
-  dataset_id: candidate.dataset_id,
-  original_label: candidate.original_label,
-  selected_aphia_id: "109444",
-  selected_aphia_source: candidate.selected_aphia_source,
-  image_count: 4,
-  entry_count: 1,
-  risk_flags: ["challenged"],
-  children: []
+const correctedCandidate: Candidate = {
+  ...challengedCandidate,
+  entry_id: "flowcam_net::Neoceratium furca",
+  dataset_id: "flowcam_net",
+  label: "Neoceratium furca",
+  original_label: "Neoceratium furca",
+  image_count: "387",
+  selected_aphia_ids: "840627",
+  selected_aphia_source: "worms_status_corrected",
+  terminal_worms_names: "Tripos furca",
+  terminal_ranks: "Species",
+  risk_flags: "corrected",
+  worms_aphia_ids: "495659",
+  worms_record_urls: "https://www.marinespecies.org/aphia.php?p=taxdetails&id=840627",
+  synonym_note: "WoRMS status review: 495659:Neoceratium furca -> 840627:Tripos furca",
+  accepted_name: "Tripos furca",
+  accepted_aphia_id: "840627",
+  status_review_flag: "corrected",
+  status_review_rollup_aphia_id: "",
+  status_review_rollup_name: "",
+  status_review_rollup_rank: "",
+  status_review_evidence_json: JSON.stringify([
+    {
+      source: "original",
+      aphia_id: "495659",
+      name: "Neoceratium furca",
+      rank: "Species",
+      status: "unaccepted",
+      valid_aphia_id: "840627",
+      valid_name: "Tripos furca"
+    },
+    {
+      source: "valid_target",
+      aphia_id: "840627",
+      name: "Tripos furca",
+      rank: "Species",
+      status: "accepted",
+      valid_aphia_id: "840627",
+      valid_name: "Tripos furca"
+    },
+    {
+      source: "synonym_of_840627",
+      aphia_id: "1637442",
+      name: "Biceratium debile",
+      rank: "Species",
+      status: "unaccepted",
+      valid_aphia_id: "840627",
+      valid_name: "Tripos furca"
+    }
+  ])
 };
+
+function nodeFor(candidate: Candidate): TreeNode {
+  return {
+    type: "dataset_class",
+    name: candidate.label,
+    entry_id: candidate.entry_id,
+    dataset_id: candidate.dataset_id,
+    original_label: candidate.original_label,
+    selected_aphia_id: candidate.selected_aphia_ids,
+    selected_aphia_source: candidate.selected_aphia_source,
+    image_count: Number(candidate.image_count),
+    entry_count: 1,
+    risk_flags: splitRiskFlags(candidate.risk_flags),
+    children: []
+  };
+}
+
+function splitRiskFlags(value: string) {
+  return value.split("|").filter(Boolean);
+}
 
 describe("DetailDrawer", () => {
   it("shows status review evidence with title-case risk labels", () => {
     render(
       <DetailDrawer
-        node={node}
-        candidate={candidate}
+        node={nodeFor(challengedCandidate)}
+        candidate={challengedCandidate}
         samples={[]}
         sampleMap={{}}
         invalidSampleMap={{}}
@@ -89,5 +147,27 @@ describe("DetailDrawer", () => {
     expect(screen.getByText("WoRMS status review")).toBeInTheDocument();
     expect(screen.getByText("Pyrocystaceae")).toBeInTheDocument();
     expect(screen.getAllByText("Dissodinium pseudolunula").length).toBeGreaterThan(0);
+  });
+
+  it("shows only original and accepted target evidence for corrected entries", () => {
+    render(
+      <DetailDrawer
+        node={nodeFor(correctedCandidate)}
+        candidate={correctedCandidate}
+        samples={[]}
+        sampleMap={{}}
+        invalidSampleMap={{}}
+        invalidGroups={[]}
+        onClose={vi.fn()}
+        onOpenSamples={vi.fn()}
+        onOpenInvalidSamples={vi.fn()}
+      />
+    );
+
+    expect(screen.getByText("Corrected")).toBeInTheDocument();
+    expect(screen.getByText("WoRMS correction review")).toBeInTheDocument();
+    expect(screen.getAllByText("Neoceratium furca").length).toBeGreaterThan(0);
+    expect(screen.getAllByText("Tripos furca").length).toBeGreaterThan(0);
+    expect(screen.queryByText("Biceratium debile")).not.toBeInTheDocument();
   });
 });
