@@ -116,6 +116,23 @@ export function HelpModal({ open, onClose }: Props) {
                 original label in the detail drawer.
               </dd>
             </div>
+            <div>
+              <dt>Corrected</dt>
+              <dd>
+                The original WoRMS record is unaccepted, but WoRMS resolves it to
+                an accepted valid AphiaID. The accepted target is used for tree
+                placement, while the original ID/name remains visible as review
+                evidence.
+              </dd>
+            </div>
+            <div>
+              <dt>Challenged</dt>
+              <dd>
+                The original WoRMS record or its valid target is still non-accepted
+                or ambiguous. The tree uses the nearest accepted common ancestor
+                when needed, and keeps the full candidate evidence in the drawer.
+              </dd>
+            </div>
           </dl>
         </div>
 

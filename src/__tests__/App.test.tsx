@@ -446,8 +446,11 @@ describe("App valid tree UI", () => {
     await renderApp("/valid");
 
     await user.click(screen.getByRole("button", { name: "Open terminology help" }));
-    expect(screen.getByRole("dialog", { name: "Terminology help" })).toBeInTheDocument();
-    expect(screen.getByText("Risk flags")).toBeInTheDocument();
+    const dialog = screen.getByRole("dialog", { name: "Terminology help" });
+    expect(dialog).toBeInTheDocument();
+    expect(within(dialog).getByText("Risk flags")).toBeInTheDocument();
+    expect(within(dialog).getByText("Corrected")).toBeInTheDocument();
+    expect(within(dialog).getByText("Challenged")).toBeInTheDocument();
 
     await user.click(screen.getByRole("button", { name: "Close help" }));
     expect(screen.queryByRole("dialog", { name: "Terminology help" })).not.toBeInTheDocument();
