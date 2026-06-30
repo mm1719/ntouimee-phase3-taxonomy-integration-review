@@ -32,7 +32,7 @@ Current demo data is generated from the phase 3 study outputs, then copied into 
    - `studies/label_aphia_inventory/worms_label_aphia_validation_labels.csv`
    - `studies/label_aphia_inventory/tara_pacific_dwca_aphia_coverage.csv`
    - `studies/dataset_class_counts/*_class_counts.csv`
-2. The script writes the canonical visualization outputs to `studies/valid_class_taxonomy_visualization/`, including:
+2. The script writes the canonical visualization outputs to `studies/taxonomy_integration_review/`, including:
    - `valid_class_candidates.csv`
    - `taxonomy_tree.json`
    - `taxonomy_lineage_report.md`

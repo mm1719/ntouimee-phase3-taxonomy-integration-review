@@ -38,7 +38,7 @@ def main() -> int:
         "demo_app": "demo/taxonomy-integration-review",
         "phase_3_root": str(ROOT),
         "source_studies": [
-            "studies/valid_class_taxonomy_visualization",
+            "studies/taxonomy_integration_review",
             "studies/invalid_label_visualization",
             "studies/label_aphia_inventory/worms_invalid_labels_for_review.csv",
             "studies/label_aphia_inventory/invalid_label_cleanup_decisions.csv",

@@ -17,7 +17,7 @@ from PIL import Image, ImageOps
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEMO_ROOT = SCRIPT_DIR.parent
 ROOT = SCRIPT_DIR.parents[2]
-CANDIDATES = ROOT / "studies/valid_class_taxonomy_visualization/valid_class_candidates.csv"
+CANDIDATES = ROOT / "studies/taxonomy_integration_review/valid_class_candidates.csv"
 OUT = DEMO_ROOT / "public/data/class_image_samples.json"
 SAMPLES_DIR = DEMO_ROOT / "public/samples"
 SAMPLE_LIMIT = 8
