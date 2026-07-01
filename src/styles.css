@@ -78,6 +78,7 @@ select { width: 100%; border: 1px solid #cfd5ca; border-radius: 8px; padding: 8p
 .badge { border-left: 4px solid; border-top: 1px solid #e5e7eb; border-right: 1px solid #e5e7eb; border-bottom: 1px solid #e5e7eb; }
 .risk-badge { border: 1px solid #d97706; color: #92400e; background: #fff7ed; }
 .risk-broad_class { border-color: #ea580c; color: #9a3412; background: #ffedd5; }
+.risk-subordinate_aphia_id { border-color: #c2410c; color: #7c2d12; background: #fed7aa; }
 .risk-corrected, .risk-challenged { border-color: #f59e0b; color: #92400e; background: #fef3c7; }
 .special-tag { border: 1px solid #0f766e; color: #115e59; background: #ecfdf5; }
 .tag-multiple { border-color: #0e7490; color: #155e75; background: #ecfeff; }
@@ -108,6 +109,8 @@ select { width: 100%; border: 1px solid #cfd5ca; border-radius: 8px; padding: 8p
 
 .panel { margin-top: 18px; padding: 14px; }
 .panel-note { margin: 4px 0 10px; padding-left: 1px; }
+.subordinate-original-multiple { background: #fff7ed; }
+.subordinate-original-multiple:hover { background: #ffedd5; }
 .segmented { display: flex; flex-wrap: wrap; gap: 6px; }
 .segmented button { border: 1px solid #d7dbd2; background: #fff; border-radius: 7px; padding: 4px; cursor: pointer; }
 .segmented button.active { background: #fef3c7; border-color: #f59e0b; }

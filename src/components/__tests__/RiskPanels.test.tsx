@@ -76,7 +76,18 @@ const candidates: Candidate[] = [
     selected_aphia_ids: "1 | 2",
     terminal_worms_names: "Taxon one | Taxon two",
     terminal_ranks: "Genus | Species",
-    risk_flags: "multiple_valid_aphia_ids"
+    risk_flags: "subordinate_aphia_id"
+  },
+  {
+    ...baseCandidate,
+    entry_id: "life::subordinate",
+    dataset_id: "life_watch",
+    label: "Bellerochea",
+    image_count: "8795",
+    selected_aphia_ids: "447730",
+    terminal_worms_names: "Bellerochea horologicalis",
+    terminal_ranks: "Species",
+    risk_flags: "subordinate_aphia_id"
   },
   {
     ...baseCandidate,
@@ -186,11 +197,11 @@ describe("RiskPanels", () => {
     expect(screen.getByText(/AphiaID resolves to another taxon/)).toBeInTheDocument();
   });
 
-  it("switches to multiple AphiaID columns", async () => {
+  it("switches to subordinate AphiaID columns and highlights former multi-Aphia rows", async () => {
     const user = userEvent.setup();
     render(<RiskPanels candidates={candidates} onSelect={vi.fn()} />);
 
-    await user.click(screen.getByRole("button", { name: /Multiple AphiaID/ }));
+    await user.click(screen.getByRole("button", { name: /Subordinate AphiaID/ }));
 
     expect(tableHeaders()).toEqual([
       "ID",
@@ -203,6 +214,8 @@ describe("RiskPanels", () => {
     ]);
     expect(screen.getByText("Taxon one")).toBeInTheDocument();
     expect(screen.getByText("Taxon two")).toBeInTheDocument();
+    expect(screen.getByRole("row", { name: /Multiple valid/ })).toHaveClass("subordinate-original-multiple");
+    expect(screen.getByRole("row", { name: /Bellerochea/ })).not.toHaveClass("subordinate-original-multiple");
   });
 
   it("switches to multiple and juvenile special-tag columns", async () => {

@@ -200,6 +200,7 @@ export function DetailDrawer({
             <div><dt>Broad AphiaID</dt><dd>{candidate.broad_class_aphia_id || "n/a"}</dd></div>
           </dl>
           <p className="path-text">{candidate.broad_class_source_file}</p>
+          {candidate.broad_class_reason && <p className="muted">{candidate.broad_class_reason}</p>}
         </div>
       )}
 

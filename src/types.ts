@@ -87,6 +87,7 @@ export type Candidate = {
   broad_class_original_label: string;
   broad_class_aphia_id: string;
   broad_class_source_file: string;
+  broad_class_reason?: string;
   source_example: string;
 };
 

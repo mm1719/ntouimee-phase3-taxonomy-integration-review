@@ -5996,72 +5996,72 @@
   "life_watch::Bacillariophyceae_type1_colony": [
     {
       "dataset_id": "life_watch",
-      "label": "Bacillariophyceae_type1_colony",
+      "label": "Bacillariophyceae: Bacillariophyceae_type1_colony",
       "image_id": "DFB1291D-B946-4CFD-BF1B-F56A91027B84",
-      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_type1_colony/01_4f124298d6.jpg",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Bacillariophyceae_type1_colony/01_4f124298d6.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Bacillariophyceae_type1_colony/ecotaxa_Bacillariophyceae_type1_colony_DFB1291D-B946-4CFD-BF1B-F56A91027B84.jpg",
       "width": "40",
       "height": "68"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Bacillariophyceae_type1_colony",
+      "label": "Bacillariophyceae: Bacillariophyceae_type1_colony",
       "image_id": "639A4198-9768-4B3D-A477-4F16EF960CDD",
-      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_type1_colony/02_1f3417cecd.jpg",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Bacillariophyceae_type1_colony/02_1f3417cecd.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Bacillariophyceae_type1_colony/ecotaxa_Bacillariophyceae_type1_colony_639A4198-9768-4B3D-A477-4F16EF960CDD.jpg",
       "width": "65",
       "height": "74"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Bacillariophyceae_type1_colony",
+      "label": "Bacillariophyceae: Bacillariophyceae_type1_colony",
       "image_id": "96A2162F-8917-4D80-91C3-1AD2E91E2F07",
-      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_type1_colony/03_8982fec20e.jpg",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Bacillariophyceae_type1_colony/03_8982fec20e.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Bacillariophyceae_type1_colony/ecotaxa_Bacillariophyceae_type1_colony_96A2162F-8917-4D80-91C3-1AD2E91E2F07.jpg",
       "width": "35",
       "height": "74"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Bacillariophyceae_type1_colony",
+      "label": "Bacillariophyceae: Bacillariophyceae_type1_colony",
       "image_id": "C06211E4-E579-4ED7-B107-5332B074C3CB",
-      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_type1_colony/04_e08508dc77.jpg",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Bacillariophyceae_type1_colony/04_e08508dc77.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Bacillariophyceae_type1_colony/ecotaxa_Bacillariophyceae_type1_colony_C06211E4-E579-4ED7-B107-5332B074C3CB.jpg",
       "width": "50",
       "height": "72"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Bacillariophyceae_type1_colony",
+      "label": "Bacillariophyceae: Bacillariophyceae_type1_colony",
       "image_id": "52916B39-65B8-4D19-A557-3873AD101F27",
-      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_type1_colony/05_5b540b1d09.jpg",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Bacillariophyceae_type1_colony/05_5b540b1d09.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Bacillariophyceae_type1_colony/ecotaxa_Bacillariophyceae_type1_colony_52916B39-65B8-4D19-A557-3873AD101F27.jpg",
       "width": "61",
       "height": "42"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Bacillariophyceae_type1_colony",
+      "label": "Bacillariophyceae: Bacillariophyceae_type1_colony",
       "image_id": "58788A7F-804F-4ABE-9542-B2170F7DF546",
-      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_type1_colony/06_732dd39e82.jpg",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Bacillariophyceae_type1_colony/06_732dd39e82.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Bacillariophyceae_type1_colony/ecotaxa_Bacillariophyceae_type1_colony_58788A7F-804F-4ABE-9542-B2170F7DF546.jpg",
       "width": "50",
       "height": "76"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Bacillariophyceae_type1_colony",
+      "label": "Bacillariophyceae: Bacillariophyceae_type1_colony",
       "image_id": "476815D6-E612-4CB7-B12D-BFB68BFAE013",
-      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_type1_colony/07_7165be3db9.jpg",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Bacillariophyceae_type1_colony/07_7165be3db9.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Bacillariophyceae_type1_colony/ecotaxa_Bacillariophyceae_type1_colony_476815D6-E612-4CB7-B12D-BFB68BFAE013.jpg",
       "width": "44",
       "height": "73"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Bacillariophyceae_type1_colony",
+      "label": "Bacillariophyceae: Bacillariophyceae_type1_colony",
       "image_id": "931B724E-84AD-45C9-B4E3-6ED24F6A2D8B",
-      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_type1_colony/08_7c95657d52.jpg",
+      "thumbnail_url": "/samples/life_watch/Bacillariophyceae_Bacillariophyceae_type1_colony/08_7c95657d52.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Bacillariophyceae_type1_colony/ecotaxa_Bacillariophyceae_type1_colony_931B724E-84AD-45C9-B4E3-6ED24F6A2D8B.jpg",
       "width": "51",
       "height": "57"
@@ -6662,72 +6662,72 @@
   "life_watch::Ceratium_horridum+C._longipes": [
     {
       "dataset_id": "life_watch",
-      "label": "Ceratium_horridum+C._longipes",
+      "label": "Ceratium: Ceratium_horridum+C._longipes",
       "image_id": "6686790A-CFC0-46A0-A763-657B4E485A40",
-      "thumbnail_url": "/samples/life_watch/Ceratium_horridum_C._longipes/01_2369e88e14.jpg",
+      "thumbnail_url": "/samples/life_watch/Ceratium_Ceratium_horridum_C._longipes/01_2369e88e14.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Ceratium_horridum+C._longipes/ecotaxa_Ceratium_horridum+C._longipes_6686790A-CFC0-46A0-A763-657B4E485A40.jpg",
       "width": "114",
       "height": "188"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Ceratium_horridum+C._longipes",
+      "label": "Ceratium: Ceratium_horridum+C._longipes",
       "image_id": "609E3E81-0FFB-4A51-826C-8628462DC5E6",
-      "thumbnail_url": "/samples/life_watch/Ceratium_horridum_C._longipes/02_e310fcfd31.jpg",
+      "thumbnail_url": "/samples/life_watch/Ceratium_Ceratium_horridum_C._longipes/02_e310fcfd31.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Ceratium_horridum+C._longipes/ecotaxa_Ceratium_horridum+C._longipes_609E3E81-0FFB-4A51-826C-8628462DC5E6.jpg",
       "width": "179",
       "height": "217"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Ceratium_horridum+C._longipes",
+      "label": "Ceratium: Ceratium_horridum+C._longipes",
       "image_id": "7E5E249A-25CA-47D8-BC1A-5F60A445DF8C",
-      "thumbnail_url": "/samples/life_watch/Ceratium_horridum_C._longipes/03_50a959ab1a.jpg",
+      "thumbnail_url": "/samples/life_watch/Ceratium_Ceratium_horridum_C._longipes/03_50a959ab1a.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Ceratium_horridum+C._longipes/ecotaxa_Ceratium_horridum+C._longipes_7E5E249A-25CA-47D8-BC1A-5F60A445DF8C.jpg",
       "width": "195",
       "height": "159"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Ceratium_horridum+C._longipes",
+      "label": "Ceratium: Ceratium_horridum+C._longipes",
       "image_id": "9EC0D2E6-9F80-4FD6-89C0-F1AF2E763F85",
-      "thumbnail_url": "/samples/life_watch/Ceratium_horridum_C._longipes/04_007a652cf2.jpg",
+      "thumbnail_url": "/samples/life_watch/Ceratium_Ceratium_horridum_C._longipes/04_007a652cf2.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Ceratium_horridum+C._longipes/ecotaxa_Ceratium_horridum+C._longipes_9EC0D2E6-9F80-4FD6-89C0-F1AF2E763F85.jpg",
       "width": "151",
       "height": "188"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Ceratium_horridum+C._longipes",
+      "label": "Ceratium: Ceratium_horridum+C._longipes",
       "image_id": "FD2DDBF5-1D8B-4091-A160-21F8CE36D0AB",
-      "thumbnail_url": "/samples/life_watch/Ceratium_horridum_C._longipes/05_78b1dbcf36.jpg",
+      "thumbnail_url": "/samples/life_watch/Ceratium_Ceratium_horridum_C._longipes/05_78b1dbcf36.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Ceratium_horridum+C._longipes/ecotaxa_Ceratium_horridum+C._longipes_FD2DDBF5-1D8B-4091-A160-21F8CE36D0AB.jpg",
       "width": "171",
       "height": "138"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Ceratium_horridum+C._longipes",
+      "label": "Ceratium: Ceratium_horridum+C._longipes",
       "image_id": "B52D0C19-FB88-4D35-AF10-1F4447B474FF",
-      "thumbnail_url": "/samples/life_watch/Ceratium_horridum_C._longipes/06_9763d92c29.jpg",
+      "thumbnail_url": "/samples/life_watch/Ceratium_Ceratium_horridum_C._longipes/06_9763d92c29.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Ceratium_horridum+C._longipes/ecotaxa_Ceratium_horridum+C._longipes_B52D0C19-FB88-4D35-AF10-1F4447B474FF.jpg",
       "width": "139",
       "height": "130"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Ceratium_horridum+C._longipes",
+      "label": "Ceratium: Ceratium_horridum+C._longipes",
       "image_id": "5C9BAE03-9AC4-42FA-BBA1-47EF8DE65394",
-      "thumbnail_url": "/samples/life_watch/Ceratium_horridum_C._longipes/07_1d39d98a9c.jpg",
+      "thumbnail_url": "/samples/life_watch/Ceratium_Ceratium_horridum_C._longipes/07_1d39d98a9c.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Ceratium_horridum+C._longipes/ecotaxa_Ceratium_horridum+C._longipes_5C9BAE03-9AC4-42FA-BBA1-47EF8DE65394.jpg",
       "width": "142",
       "height": "118"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Ceratium_horridum+C._longipes",
+      "label": "Ceratium: Ceratium_horridum+C._longipes",
       "image_id": "D741E4CF-E4A5-4E7B-B97E-77A08C7ACEA5",
-      "thumbnail_url": "/samples/life_watch/Ceratium_horridum_C._longipes/08_8edba15bd0.jpg",
+      "thumbnail_url": "/samples/life_watch/Ceratium_Ceratium_horridum_C._longipes/08_8edba15bd0.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Ceratium_horridum+C._longipes/ecotaxa_Ceratium_horridum+C._longipes_D741E4CF-E4A5-4E7B-B97E-77A08C7ACEA5.jpg",
       "width": "167",
       "height": "107"
@@ -6884,72 +6884,72 @@
   "life_watch::Chaetoceros_curvisetus+C._pseudocurvisetus": [
     {
       "dataset_id": "life_watch",
-      "label": "Chaetoceros_curvisetus+C._pseudocurvisetus",
+      "label": "Chaetoceros: Chaetoceros_curvisetus+C._pseudocurvisetus",
       "image_id": "6E2665F0-C7CF-4FF8-8873-8FC52D9C8C17",
-      "thumbnail_url": "/samples/life_watch/Chaetoceros_curvisetus_C._pseudocurvisetus/01_755c65d5a2.jpg",
+      "thumbnail_url": "/samples/life_watch/Chaetoceros_Chaetoceros_curvisetus_C._pseudocurvisetus/01_755c65d5a2.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Chaetoceros_curvisetus+C._pseudocurvisetus/ecotaxa_Chaetoceros_curvisetus+C._pseudocurvisetus_6E2665F0-C7CF-4FF8-8873-8FC52D9C8C17.jpg",
       "width": "82",
       "height": "65"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Chaetoceros_curvisetus+C._pseudocurvisetus",
+      "label": "Chaetoceros: Chaetoceros_curvisetus+C._pseudocurvisetus",
       "image_id": "5C8281D6-D361-43B3-B999-C29F149E8CA2",
-      "thumbnail_url": "/samples/life_watch/Chaetoceros_curvisetus_C._pseudocurvisetus/02_5ab9dd23fa.jpg",
+      "thumbnail_url": "/samples/life_watch/Chaetoceros_Chaetoceros_curvisetus_C._pseudocurvisetus/02_5ab9dd23fa.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Chaetoceros_curvisetus+C._pseudocurvisetus/ecotaxa_Chaetoceros_curvisetus+C._pseudocurvisetus_5C8281D6-D361-43B3-B999-C29F149E8CA2.jpg",
       "width": "95",
       "height": "68"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Chaetoceros_curvisetus+C._pseudocurvisetus",
+      "label": "Chaetoceros: Chaetoceros_curvisetus+C._pseudocurvisetus",
       "image_id": "43D30FC3-6A43-4440-A887-582325572DC5",
-      "thumbnail_url": "/samples/life_watch/Chaetoceros_curvisetus_C._pseudocurvisetus/03_4453f45417.jpg",
+      "thumbnail_url": "/samples/life_watch/Chaetoceros_Chaetoceros_curvisetus_C._pseudocurvisetus/03_4453f45417.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Chaetoceros_curvisetus+C._pseudocurvisetus/ecotaxa_Chaetoceros_curvisetus+C._pseudocurvisetus_43D30FC3-6A43-4440-A887-582325572DC5.jpg",
       "width": "49",
       "height": "70"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Chaetoceros_curvisetus+C._pseudocurvisetus",
+      "label": "Chaetoceros: Chaetoceros_curvisetus+C._pseudocurvisetus",
       "image_id": "BCB95BFA-5271-421B-BD99-BE53D6E83793",
-      "thumbnail_url": "/samples/life_watch/Chaetoceros_curvisetus_C._pseudocurvisetus/04_54d1fc763e.jpg",
+      "thumbnail_url": "/samples/life_watch/Chaetoceros_Chaetoceros_curvisetus_C._pseudocurvisetus/04_54d1fc763e.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Chaetoceros_curvisetus+C._pseudocurvisetus/ecotaxa_Chaetoceros_curvisetus+C._pseudocurvisetus_BCB95BFA-5271-421B-BD99-BE53D6E83793.jpg",
       "width": "35",
       "height": "71"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Chaetoceros_curvisetus+C._pseudocurvisetus",
+      "label": "Chaetoceros: Chaetoceros_curvisetus+C._pseudocurvisetus",
       "image_id": "5212DD9A-5612-4ACC-BDED-F12BD5F6B712",
-      "thumbnail_url": "/samples/life_watch/Chaetoceros_curvisetus_C._pseudocurvisetus/05_0d561be35e.jpg",
+      "thumbnail_url": "/samples/life_watch/Chaetoceros_Chaetoceros_curvisetus_C._pseudocurvisetus/05_0d561be35e.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Chaetoceros_curvisetus+C._pseudocurvisetus/ecotaxa_Chaetoceros_curvisetus+C._pseudocurvisetus_5212DD9A-5612-4ACC-BDED-F12BD5F6B712.jpg",
       "width": "47",
       "height": "69"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Chaetoceros_curvisetus+C._pseudocurvisetus",
+      "label": "Chaetoceros: Chaetoceros_curvisetus+C._pseudocurvisetus",
       "image_id": "9F3FA099-BFF8-45FC-937A-4DF51BAF3930",
-      "thumbnail_url": "/samples/life_watch/Chaetoceros_curvisetus_C._pseudocurvisetus/06_4ca866928c.jpg",
+      "thumbnail_url": "/samples/life_watch/Chaetoceros_Chaetoceros_curvisetus_C._pseudocurvisetus/06_4ca866928c.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Chaetoceros_curvisetus+C._pseudocurvisetus/ecotaxa_Chaetoceros_curvisetus+C._pseudocurvisetus_9F3FA099-BFF8-45FC-937A-4DF51BAF3930.jpg",
       "width": "59",
       "height": "91"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Chaetoceros_curvisetus+C._pseudocurvisetus",
+      "label": "Chaetoceros: Chaetoceros_curvisetus+C._pseudocurvisetus",
       "image_id": "1883A265-209F-42C7-B24A-CC59110D7E9C",
-      "thumbnail_url": "/samples/life_watch/Chaetoceros_curvisetus_C._pseudocurvisetus/07_d7a9f1998c.jpg",
+      "thumbnail_url": "/samples/life_watch/Chaetoceros_Chaetoceros_curvisetus_C._pseudocurvisetus/07_d7a9f1998c.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Chaetoceros_curvisetus+C._pseudocurvisetus/ecotaxa_Chaetoceros_curvisetus+C._pseudocurvisetus_1883A265-209F-42C7-B24A-CC59110D7E9C.jpg",
       "width": "79",
       "height": "68"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Chaetoceros_curvisetus+C._pseudocurvisetus",
+      "label": "Chaetoceros: Chaetoceros_curvisetus+C._pseudocurvisetus",
       "image_id": "EF4C63AE-30E0-471C-963D-F2A095B42499",
-      "thumbnail_url": "/samples/life_watch/Chaetoceros_curvisetus_C._pseudocurvisetus/08_a67e1c9668.jpg",
+      "thumbnail_url": "/samples/life_watch/Chaetoceros_Chaetoceros_curvisetus_C._pseudocurvisetus/08_a67e1c9668.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Chaetoceros_curvisetus+C._pseudocurvisetus/ecotaxa_Chaetoceros_curvisetus+C._pseudocurvisetus_EF4C63AE-30E0-471C-963D-F2A095B42499.jpg",
       "width": "67",
       "height": "44"
@@ -7254,72 +7254,72 @@
   "life_watch::Copepoda_adult": [
     {
       "dataset_id": "life_watch",
-      "label": "Copepoda_adult",
+      "label": "Copepoda: Copepoda_adult",
       "image_id": "3761A653-0C9C-4F76-9ED5-BE3F49471A6D",
-      "thumbnail_url": "/samples/life_watch/Copepoda_adult/01_b505e9f92d.jpg",
+      "thumbnail_url": "/samples/life_watch/Copepoda_Copepoda_adult/01_b505e9f92d.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Copepoda_adult/ecotaxa_Copepoda_adult_3761A653-0C9C-4F76-9ED5-BE3F49471A6D.jpg",
       "width": "273",
       "height": "134"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Copepoda_adult",
+      "label": "Copepoda: Copepoda_adult",
       "image_id": "939EB022-B538-476F-A565-9FF6CAB92FA7",
-      "thumbnail_url": "/samples/life_watch/Copepoda_adult/02_f29f9c834b.jpg",
+      "thumbnail_url": "/samples/life_watch/Copepoda_Copepoda_adult/02_f29f9c834b.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Copepoda_adult/ecotaxa_Copepoda_adult_939EB022-B538-476F-A565-9FF6CAB92FA7.jpg",
       "width": "200",
       "height": "282"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Copepoda_adult",
+      "label": "Copepoda: Copepoda_adult",
       "image_id": "DA1D718F-8F54-4F3D-8854-AAF936D5B833",
-      "thumbnail_url": "/samples/life_watch/Copepoda_adult/03_11c4301d11.jpg",
+      "thumbnail_url": "/samples/life_watch/Copepoda_Copepoda_adult/03_11c4301d11.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Copepoda_adult/ecotaxa_Copepoda_adult_DA1D718F-8F54-4F3D-8854-AAF936D5B833.jpg",
       "width": "128",
       "height": "250"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Copepoda_adult",
+      "label": "Copepoda: Copepoda_adult",
       "image_id": "0B43993B-5C0D-40CE-B06F-B6944F47340A",
-      "thumbnail_url": "/samples/life_watch/Copepoda_adult/04_223f1bfccb.jpg",
+      "thumbnail_url": "/samples/life_watch/Copepoda_Copepoda_adult/04_223f1bfccb.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Copepoda_adult/ecotaxa_Copepoda_adult_0B43993B-5C0D-40CE-B06F-B6944F47340A.jpg",
       "width": "296",
       "height": "168"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Copepoda_adult",
+      "label": "Copepoda: Copepoda_adult",
       "image_id": "47D0AF1A-0F53-4094-98EC-A07CB457FD7A",
-      "thumbnail_url": "/samples/life_watch/Copepoda_adult/05_5bbd3bb39e.jpg",
+      "thumbnail_url": "/samples/life_watch/Copepoda_Copepoda_adult/05_5bbd3bb39e.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Copepoda_adult/ecotaxa_Copepoda_adult_47D0AF1A-0F53-4094-98EC-A07CB457FD7A.jpg",
       "width": "233",
       "height": "193"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Copepoda_adult",
+      "label": "Copepoda: Copepoda_adult",
       "image_id": "13153DE0-E149-4554-9461-AEB6DE321ACB",
-      "thumbnail_url": "/samples/life_watch/Copepoda_adult/06_1785369595.jpg",
+      "thumbnail_url": "/samples/life_watch/Copepoda_Copepoda_adult/06_1785369595.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Copepoda_adult/ecotaxa_Copepoda_adult_13153DE0-E149-4554-9461-AEB6DE321ACB.jpg",
       "width": "200",
       "height": "263"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Copepoda_adult",
+      "label": "Copepoda: Copepoda_adult",
       "image_id": "9C1DBA87-3AC2-46D9-BC16-C519F0B6FC04",
-      "thumbnail_url": "/samples/life_watch/Copepoda_adult/07_12d0e6c187.jpg",
+      "thumbnail_url": "/samples/life_watch/Copepoda_Copepoda_adult/07_12d0e6c187.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Copepoda_adult/ecotaxa_Copepoda_adult_9C1DBA87-3AC2-46D9-BC16-C519F0B6FC04.jpg",
       "width": "200",
       "height": "244"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Copepoda_adult",
+      "label": "Copepoda: Copepoda_adult",
       "image_id": "E6550BA6-03E7-4EBC-9647-C2EB4E7CD2FE",
-      "thumbnail_url": "/samples/life_watch/Copepoda_adult/08_c92a25e053.jpg",
+      "thumbnail_url": "/samples/life_watch/Copepoda_Copepoda_adult/08_c92a25e053.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Copepoda_adult/ecotaxa_Copepoda_adult_E6550BA6-03E7-4EBC-9647-C2EB4E7CD2FE.jpg",
       "width": "178",
       "height": "247"
@@ -9770,72 +9770,72 @@
   "life_watch::Porifera_spicule": [
     {
       "dataset_id": "life_watch",
-      "label": "Porifera_spicule",
+      "label": "Porifera: Porifera_spicule",
       "image_id": "69AAF003-4517-42E4-9910-D709F3BE635B",
-      "thumbnail_url": "/samples/life_watch/Porifera_spicule/01_325acbd6d0.jpg",
+      "thumbnail_url": "/samples/life_watch/Porifera_Porifera_spicule/01_325acbd6d0.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Porifera_spicule/ecotaxa_Porifera_spicule_69AAF003-4517-42E4-9910-D709F3BE635B.jpg",
       "width": "82",
       "height": "61"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Porifera_spicule",
+      "label": "Porifera: Porifera_spicule",
       "image_id": "5A384638-BDE2-4EF0-B436-EB064721B63E",
-      "thumbnail_url": "/samples/life_watch/Porifera_spicule/02_503f218463.jpg",
+      "thumbnail_url": "/samples/life_watch/Porifera_Porifera_spicule/02_503f218463.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Porifera_spicule/ecotaxa_Porifera_spicule_5A384638-BDE2-4EF0-B436-EB064721B63E.jpg",
       "width": "22",
       "height": "174"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Porifera_spicule",
+      "label": "Porifera: Porifera_spicule",
       "image_id": "6B4FFA4E-EECF-423B-951C-1EF23C09065F",
-      "thumbnail_url": "/samples/life_watch/Porifera_spicule/03_9ce8b936a8.jpg",
+      "thumbnail_url": "/samples/life_watch/Porifera_Porifera_spicule/03_9ce8b936a8.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Porifera_spicule/ecotaxa_Porifera_spicule_6B4FFA4E-EECF-423B-951C-1EF23C09065F.jpg",
       "width": "23",
       "height": "176"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Porifera_spicule",
+      "label": "Porifera: Porifera_spicule",
       "image_id": "3231A1FE-CF06-44C8-93B3-694F79596E42",
-      "thumbnail_url": "/samples/life_watch/Porifera_spicule/04_3a7438274c.jpg",
+      "thumbnail_url": "/samples/life_watch/Porifera_Porifera_spicule/04_3a7438274c.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Porifera_spicule/ecotaxa_Porifera_spicule_3231A1FE-CF06-44C8-93B3-694F79596E42.jpg",
       "width": "99",
       "height": "56"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Porifera_spicule",
+      "label": "Porifera: Porifera_spicule",
       "image_id": "D18ED193-94FE-41CB-9CC8-604C92280AD9",
-      "thumbnail_url": "/samples/life_watch/Porifera_spicule/05_573ebd8e66.jpg",
+      "thumbnail_url": "/samples/life_watch/Porifera_Porifera_spicule/05_573ebd8e66.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Porifera_spicule/ecotaxa_Porifera_spicule_D18ED193-94FE-41CB-9CC8-604C92280AD9.jpg",
       "width": "75",
       "height": "89"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Porifera_spicule",
+      "label": "Porifera: Porifera_spicule",
       "image_id": "0B9744A0-8F43-48D6-A3BD-6540E16F9CA9",
-      "thumbnail_url": "/samples/life_watch/Porifera_spicule/06_4cd1f982da.jpg",
+      "thumbnail_url": "/samples/life_watch/Porifera_Porifera_spicule/06_4cd1f982da.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Porifera_spicule/ecotaxa_Porifera_spicule_0B9744A0-8F43-48D6-A3BD-6540E16F9CA9.jpg",
       "width": "67",
       "height": "121"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Porifera_spicule",
+      "label": "Porifera: Porifera_spicule",
       "image_id": "81FAE714-B88E-4388-B590-B30948C654FE",
-      "thumbnail_url": "/samples/life_watch/Porifera_spicule/07_879fa14c60.jpg",
+      "thumbnail_url": "/samples/life_watch/Porifera_Porifera_spicule/07_879fa14c60.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Porifera_spicule/ecotaxa_Porifera_spicule_81FAE714-B88E-4388-B590-B30948C654FE.jpg",
       "width": "29",
       "height": "211"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Porifera_spicule",
+      "label": "Porifera: Porifera_spicule",
       "image_id": "4E3C7566-12CF-4BAB-9F4A-9EF6FE61F4FC",
-      "thumbnail_url": "/samples/life_watch/Porifera_spicule/08_217bec9e7c.jpg",
+      "thumbnail_url": "/samples/life_watch/Porifera_Porifera_spicule/08_217bec9e7c.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Porifera_spicule/ecotaxa_Porifera_spicule_4E3C7566-12CF-4BAB-9F4A-9EF6FE61F4FC.jpg",
       "width": "20",
       "height": "150"
@@ -10436,72 +10436,72 @@
   "life_watch::Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina": [
     {
       "dataset_id": "life_watch",
-      "label": "Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
+      "label": "Rhizosolenia: Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
       "image_id": "58A3E0B2-0E53-4E3F-B6C0-E974D7F81C47",
-      "thumbnail_url": "/samples/life_watch/Rhizosolenia_setigera__f._pungens_R._hebetata_f._semispina/01_1688ca28b6.jpg",
+      "thumbnail_url": "/samples/life_watch/Rhizosolenia_Rhizosolenia_setigera__f._pungens_R._hebetata_f._semispina/01_1688ca28b6.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina/ecotaxa_Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina_58A3E0B2-0E53-4E3F-B6C0-E974D7F81C47.jpg",
       "width": "40",
       "height": "176"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
+      "label": "Rhizosolenia: Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
       "image_id": "C8FFD439-1B46-43F2-AA98-1D68A8459CB6",
-      "thumbnail_url": "/samples/life_watch/Rhizosolenia_setigera__f._pungens_R._hebetata_f._semispina/02_745c3eacc3.jpg",
+      "thumbnail_url": "/samples/life_watch/Rhizosolenia_Rhizosolenia_setigera__f._pungens_R._hebetata_f._semispina/02_745c3eacc3.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina/ecotaxa_Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina_C8FFD439-1B46-43F2-AA98-1D68A8459CB6.jpg",
       "width": "21",
       "height": "82"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
+      "label": "Rhizosolenia: Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
       "image_id": "4B0C9F95-7AAA-4AD5-9529-97E0C25B4907",
-      "thumbnail_url": "/samples/life_watch/Rhizosolenia_setigera__f._pungens_R._hebetata_f._semispina/03_ca6ee83398.jpg",
+      "thumbnail_url": "/samples/life_watch/Rhizosolenia_Rhizosolenia_setigera__f._pungens_R._hebetata_f._semispina/03_ca6ee83398.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina/ecotaxa_Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina_4B0C9F95-7AAA-4AD5-9529-97E0C25B4907.jpg",
       "width": "36",
       "height": "217"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
+      "label": "Rhizosolenia: Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
       "image_id": "969F6422-2CAC-4C80-AFD9-8AE3C4980C81",
-      "thumbnail_url": "/samples/life_watch/Rhizosolenia_setigera__f._pungens_R._hebetata_f._semispina/04_1e773045a9.jpg",
+      "thumbnail_url": "/samples/life_watch/Rhizosolenia_Rhizosolenia_setigera__f._pungens_R._hebetata_f._semispina/04_1e773045a9.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina/ecotaxa_Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina_969F6422-2CAC-4C80-AFD9-8AE3C4980C81.jpg",
       "width": "258",
       "height": "157"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
+      "label": "Rhizosolenia: Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
       "image_id": "A3B7885C-7E62-4025-929E-901A74796FDF",
-      "thumbnail_url": "/samples/life_watch/Rhizosolenia_setigera__f._pungens_R._hebetata_f._semispina/05_9eb79fce46.jpg",
+      "thumbnail_url": "/samples/life_watch/Rhizosolenia_Rhizosolenia_setigera__f._pungens_R._hebetata_f._semispina/05_9eb79fce46.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina/ecotaxa_Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina_A3B7885C-7E62-4025-929E-901A74796FDF.jpg",
       "width": "122",
       "height": "149"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
+      "label": "Rhizosolenia: Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
       "image_id": "8AE36A99-9156-4064-9D64-287D146E86B8",
-      "thumbnail_url": "/samples/life_watch/Rhizosolenia_setigera__f._pungens_R._hebetata_f._semispina/06_b7f1132db4.jpg",
+      "thumbnail_url": "/samples/life_watch/Rhizosolenia_Rhizosolenia_setigera__f._pungens_R._hebetata_f._semispina/06_b7f1132db4.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina/ecotaxa_Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina_8AE36A99-9156-4064-9D64-287D146E86B8.jpg",
       "width": "143",
       "height": "137"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
+      "label": "Rhizosolenia: Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
       "image_id": "4086F483-4B59-4918-8E41-54FB2077CDEA",
-      "thumbnail_url": "/samples/life_watch/Rhizosolenia_setigera__f._pungens_R._hebetata_f._semispina/07_7faffcb40d.jpg",
+      "thumbnail_url": "/samples/life_watch/Rhizosolenia_Rhizosolenia_setigera__f._pungens_R._hebetata_f._semispina/07_7faffcb40d.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina/ecotaxa_Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina_4086F483-4B59-4918-8E41-54FB2077CDEA.jpg",
       "width": "23",
       "height": "164"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
+      "label": "Rhizosolenia: Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
       "image_id": "0EE1BC6F-976F-46BC-A2DE-65AA908278C2",
-      "thumbnail_url": "/samples/life_watch/Rhizosolenia_setigera__f._pungens_R._hebetata_f._semispina/08_ff43ad14b9.jpg",
+      "thumbnail_url": "/samples/life_watch/Rhizosolenia_Rhizosolenia_setigera__f._pungens_R._hebetata_f._semispina/08_ff43ad14b9.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina/ecotaxa_Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina_0EE1BC6F-976F-46BC-A2DE-65AA908278C2.jpg",
       "width": "41",
       "height": "119"
@@ -11250,72 +11250,72 @@
   "life_watch::Trieres_mobiliensis+T._regia": [
     {
       "dataset_id": "life_watch",
-      "label": "Trieres_mobiliensis+T._regia",
+      "label": "Trieres: Trieres_mobiliensis+T._regia",
       "image_id": "C92289EF-08C1-4E1F-B44E-14F2245D8954",
-      "thumbnail_url": "/samples/life_watch/Trieres_mobiliensis_T._regia/01_631afaf7fa.jpg",
+      "thumbnail_url": "/samples/life_watch/Trieres_Trieres_mobiliensis_T._regia/01_631afaf7fa.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Trieres_mobiliensis+T._regia/ecotaxa_Trieres_mobiliensis+T._regia_C92289EF-08C1-4E1F-B44E-14F2245D8954.jpg",
       "width": "97",
       "height": "97"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Trieres_mobiliensis+T._regia",
+      "label": "Trieres: Trieres_mobiliensis+T._regia",
       "image_id": "5AEEBE4C-9617-4DF4-83B2-2B9F7A28F730",
-      "thumbnail_url": "/samples/life_watch/Trieres_mobiliensis_T._regia/02_316a510b3c.jpg",
+      "thumbnail_url": "/samples/life_watch/Trieres_Trieres_mobiliensis_T._regia/02_316a510b3c.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Trieres_mobiliensis+T._regia/ecotaxa_Trieres_mobiliensis+T._regia_5AEEBE4C-9617-4DF4-83B2-2B9F7A28F730.jpg",
       "width": "130",
       "height": "88"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Trieres_mobiliensis+T._regia",
+      "label": "Trieres: Trieres_mobiliensis+T._regia",
       "image_id": "E88FC2E1-28F1-4D5E-802E-1C68906E0397",
-      "thumbnail_url": "/samples/life_watch/Trieres_mobiliensis_T._regia/03_e2ce4a6563.jpg",
+      "thumbnail_url": "/samples/life_watch/Trieres_Trieres_mobiliensis_T._regia/03_e2ce4a6563.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Trieres_mobiliensis+T._regia/ecotaxa_Trieres_mobiliensis+T._regia_E88FC2E1-28F1-4D5E-802E-1C68906E0397.jpg",
       "width": "149",
       "height": "66"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Trieres_mobiliensis+T._regia",
+      "label": "Trieres: Trieres_mobiliensis+T._regia",
       "image_id": "BAFFEB49-CB8E-451B-B7B6-FEA1053870C1",
-      "thumbnail_url": "/samples/life_watch/Trieres_mobiliensis_T._regia/04_e3f6b8f6ef.jpg",
+      "thumbnail_url": "/samples/life_watch/Trieres_Trieres_mobiliensis_T._regia/04_e3f6b8f6ef.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Trieres_mobiliensis+T._regia/ecotaxa_Trieres_mobiliensis+T._regia_BAFFEB49-CB8E-451B-B7B6-FEA1053870C1.jpg",
       "width": "79",
       "height": "136"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Trieres_mobiliensis+T._regia",
+      "label": "Trieres: Trieres_mobiliensis+T._regia",
       "image_id": "8AA75BD2-0B87-4027-A498-FB85C9008B53",
-      "thumbnail_url": "/samples/life_watch/Trieres_mobiliensis_T._regia/05_a33c5313e7.jpg",
+      "thumbnail_url": "/samples/life_watch/Trieres_Trieres_mobiliensis_T._regia/05_a33c5313e7.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Trieres_mobiliensis+T._regia/ecotaxa_Trieres_mobiliensis+T._regia_8AA75BD2-0B87-4027-A498-FB85C9008B53.jpg",
       "width": "77",
       "height": "48"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Trieres_mobiliensis+T._regia",
+      "label": "Trieres: Trieres_mobiliensis+T._regia",
       "image_id": "0305E656-08B0-4B72-A27B-2FCA593F1464",
-      "thumbnail_url": "/samples/life_watch/Trieres_mobiliensis_T._regia/06_b013f7a030.jpg",
+      "thumbnail_url": "/samples/life_watch/Trieres_Trieres_mobiliensis_T._regia/06_b013f7a030.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Trieres_mobiliensis+T._regia/ecotaxa_Trieres_mobiliensis+T._regia_0305E656-08B0-4B72-A27B-2FCA593F1464.jpg",
       "width": "99",
       "height": "94"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Trieres_mobiliensis+T._regia",
+      "label": "Trieres: Trieres_mobiliensis+T._regia",
       "image_id": "F2D68E84-F3D4-4210-94DF-68AAE45F5358",
-      "thumbnail_url": "/samples/life_watch/Trieres_mobiliensis_T._regia/07_64b651b525.jpg",
+      "thumbnail_url": "/samples/life_watch/Trieres_Trieres_mobiliensis_T._regia/07_64b651b525.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Trieres_mobiliensis+T._regia/ecotaxa_Trieres_mobiliensis+T._regia_F2D68E84-F3D4-4210-94DF-68AAE45F5358.jpg",
       "width": "114",
       "height": "114"
     },
     {
       "dataset_id": "life_watch",
-      "label": "Trieres_mobiliensis+T._regia",
+      "label": "Trieres: Trieres_mobiliensis+T._regia",
       "image_id": "33918240-0FDA-4751-9EDC-4A43B269C82D",
-      "thumbnail_url": "/samples/life_watch/Trieres_mobiliensis_T._regia/08_26158d805f.jpg",
+      "thumbnail_url": "/samples/life_watch/Trieres_Trieres_mobiliensis_T._regia/08_26158d805f.jpg",
       "source_ref": "datasets/LifeWatch/data/images/Trieres_mobiliensis+T._regia/ecotaxa_Trieres_mobiliensis+T._regia_33918240-0FDA-4751-9EDC-4A43B269C82D.jpg",
       "width": "130",
       "height": "91"
@@ -12698,72 +12698,72 @@
   "life_watch_2026_image_library::Bacillariophyceae_type1_colony": [
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Bacillariophyceae_type1_colony",
+      "label": "Bacillariophyceae: Bacillariophyceae_type1_colony",
       "image_id": "6DD7B329-EA10-4E18-918C-7ECBE6EC4209",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_type1_colony/01_de49349f16.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Bacillariophyceae_type1_colony/01_de49349f16.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Bacillariophyceae_type1_colony/6DD7B329-EA10-4E18-918C-7ECBE6EC4209.png",
       "width": "62",
       "height": "54"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Bacillariophyceae_type1_colony",
+      "label": "Bacillariophyceae: Bacillariophyceae_type1_colony",
       "image_id": "514E1A13-04CF-4BB0-8C60-67084EB751C5",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_type1_colony/02_3f2aafa6d2.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Bacillariophyceae_type1_colony/02_3f2aafa6d2.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Bacillariophyceae_type1_colony/514E1A13-04CF-4BB0-8C60-67084EB751C5.png",
       "width": "60",
       "height": "73"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Bacillariophyceae_type1_colony",
+      "label": "Bacillariophyceae: Bacillariophyceae_type1_colony",
       "image_id": "21B675F7-4C7A-464B-AF12-93434F0C1EEC",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_type1_colony/03_20098883a3.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Bacillariophyceae_type1_colony/03_20098883a3.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Bacillariophyceae_type1_colony/21B675F7-4C7A-464B-AF12-93434F0C1EEC.png",
       "width": "68",
       "height": "41"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Bacillariophyceae_type1_colony",
+      "label": "Bacillariophyceae: Bacillariophyceae_type1_colony",
       "image_id": "A2D84930-4A00-46A4-8492-2CAF8EF93E7D",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_type1_colony/04_85025ef573.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Bacillariophyceae_type1_colony/04_85025ef573.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Bacillariophyceae_type1_colony/A2D84930-4A00-46A4-8492-2CAF8EF93E7D.png",
       "width": "53",
       "height": "83"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Bacillariophyceae_type1_colony",
+      "label": "Bacillariophyceae: Bacillariophyceae_type1_colony",
       "image_id": "49EC600D-8288-4FAE-A33E-555E70414367",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_type1_colony/05_53ec90094d.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Bacillariophyceae_type1_colony/05_53ec90094d.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Bacillariophyceae_type1_colony/49EC600D-8288-4FAE-A33E-555E70414367.png",
       "width": "67",
       "height": "51"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Bacillariophyceae_type1_colony",
+      "label": "Bacillariophyceae: Bacillariophyceae_type1_colony",
       "image_id": "A0311696-60D8-4894-893D-9148823B4DE4",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_type1_colony/06_744a8482e9.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Bacillariophyceae_type1_colony/06_744a8482e9.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Bacillariophyceae_type1_colony/A0311696-60D8-4894-893D-9148823B4DE4.png",
       "width": "46",
       "height": "79"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Bacillariophyceae_type1_colony",
+      "label": "Bacillariophyceae: Bacillariophyceae_type1_colony",
       "image_id": "D1B4D63D-FDF7-4680-A218-99299C78046F",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_type1_colony/07_f4d79d38b9.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Bacillariophyceae_type1_colony/07_f4d79d38b9.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Bacillariophyceae_type1_colony/D1B4D63D-FDF7-4680-A218-99299C78046F.png",
       "width": "70",
       "height": "59"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Bacillariophyceae_type1_colony",
+      "label": "Bacillariophyceae: Bacillariophyceae_type1_colony",
       "image_id": "F9C352BF-B2BF-4605-9274-4EF9CC8BA22D",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_type1_colony/08_228cb7913b.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Bacillariophyceae_Bacillariophyceae_type1_colony/08_228cb7913b.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Bacillariophyceae_type1_colony/F9C352BF-B2BF-4605-9274-4EF9CC8BA22D.png",
       "width": "44",
       "height": "57"
@@ -13384,72 +13384,72 @@
   "life_watch_2026_image_library::Chaetoceros curvisetus/C. pseudocurvisetus": [
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Chaetoceros curvisetus/C. pseudocurvisetus",
+      "label": "Chaetoceros: Chaetoceros curvisetus/C. pseudocurvisetus",
       "image_id": "9FAAE7FB-A652-4C49-8B35-7EA3DFC60EB3",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Chaetoceros_curvisetus_C._pseudocurvisetus/01_6857e2541f.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Chaetoceros_Chaetoceros_curvisetus_C._pseudocurvisetus/01_6857e2541f.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Chaetoceros curvisetus/C. pseudocurvisetus/9FAAE7FB-A652-4C49-8B35-7EA3DFC60EB3.png",
       "width": "46",
       "height": "97"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Chaetoceros curvisetus/C. pseudocurvisetus",
+      "label": "Chaetoceros: Chaetoceros curvisetus/C. pseudocurvisetus",
       "image_id": "16139943-198C-4ABD-8123-FA2947F6E600",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Chaetoceros_curvisetus_C._pseudocurvisetus/02_5532315dbb.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Chaetoceros_Chaetoceros_curvisetus_C._pseudocurvisetus/02_5532315dbb.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Chaetoceros curvisetus/C. pseudocurvisetus/16139943-198C-4ABD-8123-FA2947F6E600.png",
       "width": "133",
       "height": "39"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Chaetoceros curvisetus/C. pseudocurvisetus",
+      "label": "Chaetoceros: Chaetoceros curvisetus/C. pseudocurvisetus",
       "image_id": "A6FA9F7D-F0EE-463E-8D7E-9C8FD83051A3",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Chaetoceros_curvisetus_C._pseudocurvisetus/03_fa18c1a8ae.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Chaetoceros_Chaetoceros_curvisetus_C._pseudocurvisetus/03_fa18c1a8ae.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Chaetoceros curvisetus/C. pseudocurvisetus/A6FA9F7D-F0EE-463E-8D7E-9C8FD83051A3.png",
       "width": "98",
       "height": "153"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Chaetoceros curvisetus/C. pseudocurvisetus",
+      "label": "Chaetoceros: Chaetoceros curvisetus/C. pseudocurvisetus",
       "image_id": "A6C8ED48-7403-47BE-A8E3-71BF32A68D2B",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Chaetoceros_curvisetus_C._pseudocurvisetus/04_c041e9d364.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Chaetoceros_Chaetoceros_curvisetus_C._pseudocurvisetus/04_c041e9d364.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Chaetoceros curvisetus/C. pseudocurvisetus/A6C8ED48-7403-47BE-A8E3-71BF32A68D2B.png",
       "width": "139",
       "height": "57"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Chaetoceros curvisetus/C. pseudocurvisetus",
+      "label": "Chaetoceros: Chaetoceros curvisetus/C. pseudocurvisetus",
       "image_id": "A5C748F0-BE13-452B-A9A8-8A399F699C47",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Chaetoceros_curvisetus_C._pseudocurvisetus/05_983fda5230.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Chaetoceros_Chaetoceros_curvisetus_C._pseudocurvisetus/05_983fda5230.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Chaetoceros curvisetus/C. pseudocurvisetus/A5C748F0-BE13-452B-A9A8-8A399F699C47.png",
       "width": "56",
       "height": "119"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Chaetoceros curvisetus/C. pseudocurvisetus",
+      "label": "Chaetoceros: Chaetoceros curvisetus/C. pseudocurvisetus",
       "image_id": "C78EF720-FB0C-4D86-8BB1-CF53F4F1D89B",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Chaetoceros_curvisetus_C._pseudocurvisetus/06_d3cbca21b7.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Chaetoceros_Chaetoceros_curvisetus_C._pseudocurvisetus/06_d3cbca21b7.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Chaetoceros curvisetus/C. pseudocurvisetus/C78EF720-FB0C-4D86-8BB1-CF53F4F1D89B.png",
       "width": "47",
       "height": "79"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Chaetoceros curvisetus/C. pseudocurvisetus",
+      "label": "Chaetoceros: Chaetoceros curvisetus/C. pseudocurvisetus",
       "image_id": "875FEAB2-D4A5-4E97-A9D8-FC693F098098",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Chaetoceros_curvisetus_C._pseudocurvisetus/07_f98d480eeb.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Chaetoceros_Chaetoceros_curvisetus_C._pseudocurvisetus/07_f98d480eeb.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Chaetoceros curvisetus/C. pseudocurvisetus/875FEAB2-D4A5-4E97-A9D8-FC693F098098.png",
       "width": "181",
       "height": "85"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Chaetoceros curvisetus/C. pseudocurvisetus",
+      "label": "Chaetoceros: Chaetoceros curvisetus/C. pseudocurvisetus",
       "image_id": "4DCDFB28-24D6-496C-AAFD-9AEE5BA9AC0E",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Chaetoceros_curvisetus_C._pseudocurvisetus/08_efb9f4acb4.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Chaetoceros_Chaetoceros_curvisetus_C._pseudocurvisetus/08_efb9f4acb4.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Chaetoceros curvisetus/C. pseudocurvisetus/4DCDFB28-24D6-496C-AAFD-9AEE5BA9AC0E.png",
       "width": "116",
       "height": "151"
@@ -13666,72 +13666,72 @@
   "life_watch_2026_image_library::Copepoda adult": [
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Copepoda adult",
+      "label": "Copepoda: Copepoda adult",
       "image_id": "04A0EE4D-7B4A-4F4E-86E3-21BC20960F8B",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Copepoda_adult/01_301e5b4101.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Copepoda_Copepoda_adult/01_301e5b4101.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Copepoda adult/04A0EE4D-7B4A-4F4E-86E3-21BC20960F8B.png",
       "width": "209",
       "height": "178"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Copepoda adult",
+      "label": "Copepoda: Copepoda adult",
       "image_id": "5E2A450C-087F-447D-9E05-E148E6138C21",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Copepoda_adult/02_f672e99a1e.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Copepoda_Copepoda_adult/02_f672e99a1e.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Copepoda adult/5E2A450C-087F-447D-9E05-E148E6138C21.png",
       "width": "200",
       "height": "148"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Copepoda adult",
+      "label": "Copepoda: Copepoda adult",
       "image_id": "05130239-4E8D-439C-873F-BF039FAA0222",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Copepoda_adult/03_79978e7e8e.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Copepoda_Copepoda_adult/03_79978e7e8e.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Copepoda adult/05130239-4E8D-439C-873F-BF039FAA0222.png",
       "width": "283",
       "height": "176"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Copepoda adult",
+      "label": "Copepoda: Copepoda adult",
       "image_id": "57884DF0-4772-4522-B86C-8FECE13E74D7",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Copepoda_adult/04_9812c9bf8a.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Copepoda_Copepoda_adult/04_9812c9bf8a.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Copepoda adult/57884DF0-4772-4522-B86C-8FECE13E74D7.png",
       "width": "221",
       "height": "162"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Copepoda adult",
+      "label": "Copepoda: Copepoda adult",
       "image_id": "D792A62D-CFEE-4ACA-9C12-DEE9A89175D2",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Copepoda_adult/05_202eab85cb.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Copepoda_Copepoda_adult/05_202eab85cb.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Copepoda adult/D792A62D-CFEE-4ACA-9C12-DEE9A89175D2.png",
       "width": "216",
       "height": "173"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Copepoda adult",
+      "label": "Copepoda: Copepoda adult",
       "image_id": "9918D79B-29F4-472A-98F0-7271C2D01CB9",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Copepoda_adult/06_daffdea4ea.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Copepoda_Copepoda_adult/06_daffdea4ea.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Copepoda adult/9918D79B-29F4-472A-98F0-7271C2D01CB9.png",
       "width": "278",
       "height": "62"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Copepoda adult",
+      "label": "Copepoda: Copepoda adult",
       "image_id": "B4EA52BD-6D31-4BD2-868E-B2FD2DF595C4",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Copepoda_adult/07_59ef994f88.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Copepoda_Copepoda_adult/07_59ef994f88.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Copepoda adult/B4EA52BD-6D31-4BD2-868E-B2FD2DF595C4.png",
       "width": "95",
       "height": "296"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Copepoda adult",
+      "label": "Copepoda: Copepoda adult",
       "image_id": "CC82E5F3-C804-4EB7-80CE-84CB2BDF4295",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Copepoda_adult/08_9742679085.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Copepoda_Copepoda_adult/08_9742679085.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Copepoda adult/CC82E5F3-C804-4EB7-80CE-84CB2BDF4295.png",
       "width": "103",
       "height": "269"
@@ -15111,54 +15111,54 @@
   "life_watch_2026_image_library::Holothuroidea ossicles": [
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Holothuroidea ossicles",
+      "label": "Holothuroidea: Holothuroidea ossicles",
       "image_id": "1BF24C60-B5CC-4BF6-B2E4-9934E0FACD42",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Holothuroidea_ossicles/01_a163c38951.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Holothuroidea_Holothuroidea_ossicles/01_a163c38951.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Holothuroidea ossicles/1BF24C60-B5CC-4BF6-B2E4-9934E0FACD42.png",
       "width": "113",
       "height": "134"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Holothuroidea ossicles",
+      "label": "Holothuroidea: Holothuroidea ossicles",
       "image_id": "A153ECC4-7EB2-4C02-9E23-4B34936FCFA3",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Holothuroidea_ossicles/02_4c34178547.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Holothuroidea_Holothuroidea_ossicles/02_4c34178547.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Holothuroidea ossicles/A153ECC4-7EB2-4C02-9E23-4B34936FCFA3.png",
       "width": "63",
       "height": "84"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Holothuroidea ossicles",
+      "label": "Holothuroidea: Holothuroidea ossicles",
       "image_id": "BF9991DE-BF55-420C-A5B3-2867C053A0C1",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Holothuroidea_ossicles/03_0f7471aec8.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Holothuroidea_Holothuroidea_ossicles/03_0f7471aec8.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Holothuroidea ossicles/BF9991DE-BF55-420C-A5B3-2867C053A0C1.png",
       "width": "108",
       "height": "274"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Holothuroidea ossicles",
+      "label": "Holothuroidea: Holothuroidea ossicles",
       "image_id": "957BD559-195B-4990-B64C-6AA5CF69D2EC",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Holothuroidea_ossicles/04_427eba7905.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Holothuroidea_Holothuroidea_ossicles/04_427eba7905.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Holothuroidea ossicles/957BD559-195B-4990-B64C-6AA5CF69D2EC.png",
       "width": "67",
       "height": "74"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Holothuroidea ossicles",
+      "label": "Holothuroidea: Holothuroidea ossicles",
       "image_id": "4D9CF9DB-D195-47E2-A00E-3CA7756864C4",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Holothuroidea_ossicles/05_9b7bb920aa.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Holothuroidea_Holothuroidea_ossicles/05_9b7bb920aa.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Holothuroidea ossicles/4D9CF9DB-D195-47E2-A00E-3CA7756864C4.png",
       "width": "54",
       "height": "53"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Holothuroidea ossicles",
+      "label": "Holothuroidea: Holothuroidea ossicles",
       "image_id": "917A5D75-2B94-49A0-839E-217BCA5326D0",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Holothuroidea_ossicles/06_5b38d95157.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Holothuroidea_Holothuroidea_ossicles/06_5b38d95157.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Holothuroidea ossicles/917A5D75-2B94-49A0-839E-217BCA5326D0.png",
       "width": "124",
       "height": "110"
@@ -15584,72 +15584,72 @@
   "life_watch_2026_image_library::Mollusca incertae": [
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Mollusca incertae",
+      "label": "Mollusca: Mollusca incertae",
       "image_id": "2A49C55D-42E7-4019-BF72-D2D9280CFF52",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Mollusca_incertae/01_93612e94a9.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Mollusca_Mollusca_incertae/01_93612e94a9.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Mollusca incertae/2A49C55D-42E7-4019-BF72-D2D9280CFF52.png",
       "width": "72",
       "height": "85"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Mollusca incertae",
+      "label": "Mollusca: Mollusca incertae",
       "image_id": "99A10384-5C2D-43A8-9C90-BA6481418668",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Mollusca_incertae/02_4db7064189.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Mollusca_Mollusca_incertae/02_4db7064189.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Mollusca incertae/99A10384-5C2D-43A8-9C90-BA6481418668.png",
       "width": "52",
       "height": "53"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Mollusca incertae",
+      "label": "Mollusca: Mollusca incertae",
       "image_id": "0AC3B6EB-6C4B-4B4C-8D7E-73BFDB4CD30B",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Mollusca_incertae/03_3004660de2.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Mollusca_Mollusca_incertae/03_3004660de2.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Mollusca incertae/0AC3B6EB-6C4B-4B4C-8D7E-73BFDB4CD30B.png",
       "width": "52",
       "height": "57"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Mollusca incertae",
+      "label": "Mollusca: Mollusca incertae",
       "image_id": "2FB3B118-6C01-4990-A2F7-E0B685316BA3",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Mollusca_incertae/04_1e33877979.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Mollusca_Mollusca_incertae/04_1e33877979.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Mollusca incertae/2FB3B118-6C01-4990-A2F7-E0B685316BA3.png",
       "width": "53",
       "height": "56"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Mollusca incertae",
+      "label": "Mollusca: Mollusca incertae",
       "image_id": "87EC11CB-A89E-4AD4-B629-C63FAA5A2FDA",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Mollusca_incertae/05_6a5fa93ded.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Mollusca_Mollusca_incertae/05_6a5fa93ded.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Mollusca incertae/87EC11CB-A89E-4AD4-B629-C63FAA5A2FDA.png",
       "width": "67",
       "height": "58"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Mollusca incertae",
+      "label": "Mollusca: Mollusca incertae",
       "image_id": "B4C79FE9-0E85-4C2D-96F8-8D4DB4C34BB0",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Mollusca_incertae/06_8d99f7eac9.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Mollusca_Mollusca_incertae/06_8d99f7eac9.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Mollusca incertae/B4C79FE9-0E85-4C2D-96F8-8D4DB4C34BB0.png",
       "width": "49",
       "height": "77"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Mollusca incertae",
+      "label": "Mollusca: Mollusca incertae",
       "image_id": "939F2E0D-660C-4A5A-A54B-A94B1A6AA0E0",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Mollusca_incertae/07_4d49c71207.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Mollusca_Mollusca_incertae/07_4d49c71207.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Mollusca incertae/939F2E0D-660C-4A5A-A54B-A94B1A6AA0E0.png",
       "width": "55",
       "height": "86"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Mollusca incertae",
+      "label": "Mollusca: Mollusca incertae",
       "image_id": "808F08F0-0815-4B6A-AF73-D409B2BE4D75",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Mollusca_incertae/08_405f3a54a9.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Mollusca_Mollusca_incertae/08_405f3a54a9.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Mollusca incertae/808F08F0-0815-4B6A-AF73-D409B2BE4D75.png",
       "width": "79",
       "height": "76"
@@ -16633,72 +16633,72 @@
   "life_watch_2026_image_library::Porifera spicule": [
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Porifera spicule",
+      "label": "Porifera: Porifera spicule",
       "image_id": "2DAA5B3C-CBDF-47E8-B12E-3464FC3CB67D",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Porifera_spicule/01_11fa746d5c.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Porifera_Porifera_spicule/01_11fa746d5c.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Porifera spicule/2DAA5B3C-CBDF-47E8-B12E-3464FC3CB67D.png",
       "width": "61",
       "height": "92"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Porifera spicule",
+      "label": "Porifera: Porifera spicule",
       "image_id": "E3CBF0D5-812F-4193-8D0C-10DB79E7B9DD",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Porifera_spicule/02_9eea2573a0.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Porifera_Porifera_spicule/02_9eea2573a0.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Porifera spicule/E3CBF0D5-812F-4193-8D0C-10DB79E7B9DD.png",
       "width": "185",
       "height": "149"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Porifera spicule",
+      "label": "Porifera: Porifera spicule",
       "image_id": "A2E482AC-4BC5-4E36-9455-926DFA283198",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Porifera_spicule/03_e51de92e72.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Porifera_Porifera_spicule/03_e51de92e72.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Porifera spicule/A2E482AC-4BC5-4E36-9455-926DFA283198.png",
       "width": "34",
       "height": "192"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Porifera spicule",
+      "label": "Porifera: Porifera spicule",
       "image_id": "6F7E2A8B-7B8F-4981-8C38-356DE98A1CB2",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Porifera_spicule/04_0ed202a25a.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Porifera_Porifera_spicule/04_0ed202a25a.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Porifera spicule/6F7E2A8B-7B8F-4981-8C38-356DE98A1CB2.png",
       "width": "133",
       "height": "137"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Porifera spicule",
+      "label": "Porifera: Porifera spicule",
       "image_id": "D0E5F663-D5EB-4D5E-8D65-26164B8168A9",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Porifera_spicule/05_7450d6deaf.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Porifera_Porifera_spicule/05_7450d6deaf.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Porifera spicule/D0E5F663-D5EB-4D5E-8D65-26164B8168A9.png",
       "width": "156",
       "height": "244"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Porifera spicule",
+      "label": "Porifera: Porifera spicule",
       "image_id": "895BCF90-63FA-4400-B609-E9030F2C38CE",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Porifera_spicule/06_fb920ce8cc.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Porifera_Porifera_spicule/06_fb920ce8cc.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Porifera spicule/895BCF90-63FA-4400-B609-E9030F2C38CE.png",
       "width": "40",
       "height": "108"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Porifera spicule",
+      "label": "Porifera: Porifera spicule",
       "image_id": "9AE0554A-3149-49E5-899C-3346A1FE2FB6",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Porifera_spicule/07_5910e4ad42.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Porifera_Porifera_spicule/07_5910e4ad42.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Porifera spicule/9AE0554A-3149-49E5-899C-3346A1FE2FB6.png",
       "width": "124",
       "height": "55"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Porifera spicule",
+      "label": "Porifera: Porifera spicule",
       "image_id": "3B5A8D5B-4C9D-4B11-B4C3-4E18BEE647AF",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Porifera_spicule/08_3f05299d15.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Porifera_Porifera_spicule/08_3f05299d15.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Porifera spicule/3B5A8D5B-4C9D-4B11-B4C3-4E18BEE647AF.png",
       "width": "101",
       "height": "144"
@@ -17032,72 +17032,72 @@
   "life_watch_2026_image_library::Radiozoa incertae": [
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Radiozoa incertae",
+      "label": "Radiozoa: Radiozoa incertae",
       "image_id": "1FCA596F-2733-43D2-B647-FD7335986ACB",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Radiozoa_incertae/01_05da82faee.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Radiozoa_Radiozoa_incertae/01_05da82faee.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Radiozoa incertae/1FCA596F-2733-43D2-B647-FD7335986ACB.png",
       "width": "77",
       "height": "81"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Radiozoa incertae",
+      "label": "Radiozoa: Radiozoa incertae",
       "image_id": "9D5D9698-0006-49A6-9231-3311961823B1",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Radiozoa_incertae/02_0c470c2fe5.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Radiozoa_Radiozoa_incertae/02_0c470c2fe5.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Radiozoa incertae/9D5D9698-0006-49A6-9231-3311961823B1.png",
       "width": "73",
       "height": "63"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Radiozoa incertae",
+      "label": "Radiozoa: Radiozoa incertae",
       "image_id": "DD49C18B-E146-4D0B-93CD-6AB0875F2697",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Radiozoa_incertae/03_0679ef4494.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Radiozoa_Radiozoa_incertae/03_0679ef4494.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Radiozoa incertae/DD49C18B-E146-4D0B-93CD-6AB0875F2697.png",
       "width": "123",
       "height": "90"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Radiozoa incertae",
+      "label": "Radiozoa: Radiozoa incertae",
       "image_id": "62AD5C15-01B4-45C4-AAB0-ABBAA41D4FF9",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Radiozoa_incertae/04_9d1ec353d9.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Radiozoa_Radiozoa_incertae/04_9d1ec353d9.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Radiozoa incertae/62AD5C15-01B4-45C4-AAB0-ABBAA41D4FF9.png",
       "width": "64",
       "height": "72"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Radiozoa incertae",
+      "label": "Radiozoa: Radiozoa incertae",
       "image_id": "CE3C581F-A056-4670-A046-90BFF3D14852",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Radiozoa_incertae/05_327fa074ae.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Radiozoa_Radiozoa_incertae/05_327fa074ae.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Radiozoa incertae/CE3C581F-A056-4670-A046-90BFF3D14852.png",
       "width": "63",
       "height": "100"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Radiozoa incertae",
+      "label": "Radiozoa: Radiozoa incertae",
       "image_id": "BCB93B92-3FB2-415B-A7FD-1044BB9FDB7C",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Radiozoa_incertae/06_44f1c5cb53.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Radiozoa_Radiozoa_incertae/06_44f1c5cb53.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Radiozoa incertae/BCB93B92-3FB2-415B-A7FD-1044BB9FDB7C.png",
       "width": "80",
       "height": "88"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Radiozoa incertae",
+      "label": "Radiozoa: Radiozoa incertae",
       "image_id": "5DD9F868-74FB-4E94-8B63-6FB838DF9E43",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Radiozoa_incertae/07_b90ac0a894.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Radiozoa_Radiozoa_incertae/07_b90ac0a894.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Radiozoa incertae/5DD9F868-74FB-4E94-8B63-6FB838DF9E43.png",
       "width": "73",
       "height": "56"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Radiozoa incertae",
+      "label": "Radiozoa: Radiozoa incertae",
       "image_id": "A9900733-EC22-429B-B082-9171AE0A1279",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Radiozoa_incertae/08_64397128a1.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Radiozoa_Radiozoa_incertae/08_64397128a1.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Radiozoa incertae/A9900733-EC22-429B-B082-9171AE0A1279.png",
       "width": "78",
       "height": "124"
@@ -17254,72 +17254,72 @@
   "life_watch_2026_image_library::Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina": [
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
+      "label": "Rhizosolenia: Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
       "image_id": "69FC0E5C-6FE8-4BFB-9EE8-FDA4CF6D372F",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosolenia_setigera_f._pungens_R._hebetata_f._semispina/01_3e3dc9ea03.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosolenia_Rhizosolenia_setigera_f._pungens_R._hebetata_f._semispina/01_3e3dc9ea03.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina/69FC0E5C-6FE8-4BFB-9EE8-FDA4CF6D372F.png",
       "width": "50",
       "height": "93"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
+      "label": "Rhizosolenia: Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
       "image_id": "D5B6CD86-EBA8-42F0-B807-C2E1EF6AB236",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosolenia_setigera_f._pungens_R._hebetata_f._semispina/02_b781c8bb00.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosolenia_Rhizosolenia_setigera_f._pungens_R._hebetata_f._semispina/02_b781c8bb00.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina/D5B6CD86-EBA8-42F0-B807-C2E1EF6AB236.png",
       "width": "47",
       "height": "167"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
+      "label": "Rhizosolenia: Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
       "image_id": "3F974E85-1D65-412D-A2AC-1EF65E0C7D17",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosolenia_setigera_f._pungens_R._hebetata_f._semispina/03_294d420ffe.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosolenia_Rhizosolenia_setigera_f._pungens_R._hebetata_f._semispina/03_294d420ffe.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina/3F974E85-1D65-412D-A2AC-1EF65E0C7D17.png",
       "width": "106",
       "height": "194"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
+      "label": "Rhizosolenia: Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
       "image_id": "8123AA42-1448-4037-B800-8CA7487D0CE7",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosolenia_setigera_f._pungens_R._hebetata_f._semispina/04_f542a82e83.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosolenia_Rhizosolenia_setigera_f._pungens_R._hebetata_f._semispina/04_f542a82e83.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina/8123AA42-1448-4037-B800-8CA7487D0CE7.png",
       "width": "22",
       "height": "171"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
+      "label": "Rhizosolenia: Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
       "image_id": "C4A930E3-1046-4E81-A3AE-7376023F85DE",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosolenia_setigera_f._pungens_R._hebetata_f._semispina/05_242c5ba6cf.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosolenia_Rhizosolenia_setigera_f._pungens_R._hebetata_f._semispina/05_242c5ba6cf.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina/C4A930E3-1046-4E81-A3AE-7376023F85DE.png",
       "width": "21",
       "height": "94"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
+      "label": "Rhizosolenia: Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
       "image_id": "3C161D2A-E38E-4983-818A-27D3BE1329E9",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosolenia_setigera_f._pungens_R._hebetata_f._semispina/06_a432bc57ef.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosolenia_Rhizosolenia_setigera_f._pungens_R._hebetata_f._semispina/06_a432bc57ef.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina/3C161D2A-E38E-4983-818A-27D3BE1329E9.png",
       "width": "116",
       "height": "124"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
+      "label": "Rhizosolenia: Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
       "image_id": "28FB24BA-F665-4C6F-8F9A-8A4424D265E2",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosolenia_setigera_f._pungens_R._hebetata_f._semispina/07_cbb78af781.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosolenia_Rhizosolenia_setigera_f._pungens_R._hebetata_f._semispina/07_cbb78af781.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina/28FB24BA-F665-4C6F-8F9A-8A4424D265E2.png",
       "width": "21",
       "height": "162"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
+      "label": "Rhizosolenia: Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
       "image_id": "6B6E979A-2BDD-449C-8CF3-DA119D5A5E40",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosolenia_setigera_f._pungens_R._hebetata_f._semispina/08_6b7c5780a3.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Rhizosolenia_Rhizosolenia_setigera_f._pungens_R._hebetata_f._semispina/08_6b7c5780a3.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina/6B6E979A-2BDD-449C-8CF3-DA119D5A5E40.png",
       "width": "86",
       "height": "125"
@@ -18209,72 +18209,72 @@
   "life_watch_2026_image_library::Trieres mobiliensis/T. regia": [
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Trieres mobiliensis/T. regia",
+      "label": "Trieres: Trieres mobiliensis/T. regia",
       "image_id": "3C48371A-30E8-4963-94D5-E1DEDA7D9917",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_mobiliensis_T._regia/01_04dd45238e.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_Trieres_mobiliensis_T._regia/01_04dd45238e.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Trieres mobiliensis/T. regia/3C48371A-30E8-4963-94D5-E1DEDA7D9917.png",
       "width": "131",
       "height": "88"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Trieres mobiliensis/T. regia",
+      "label": "Trieres: Trieres mobiliensis/T. regia",
       "image_id": "3E2E1BB4-D1F0-448C-BBD0-672588E28C25",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_mobiliensis_T._regia/02_15521025ca.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_Trieres_mobiliensis_T._regia/02_15521025ca.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Trieres mobiliensis/T. regia/3E2E1BB4-D1F0-448C-BBD0-672588E28C25.png",
       "width": "85",
       "height": "72"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Trieres mobiliensis/T. regia",
+      "label": "Trieres: Trieres mobiliensis/T. regia",
       "image_id": "CF506796-4D3A-49AC-83D1-CD79BF032556",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_mobiliensis_T._regia/03_9d17abc06c.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_Trieres_mobiliensis_T._regia/03_9d17abc06c.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Trieres mobiliensis/T. regia/CF506796-4D3A-49AC-83D1-CD79BF032556.png",
       "width": "154",
       "height": "64"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Trieres mobiliensis/T. regia",
+      "label": "Trieres: Trieres mobiliensis/T. regia",
       "image_id": "EF9031D9-391F-4D15-8439-35429D720C70",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_mobiliensis_T._regia/04_1bbdae5174.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_Trieres_mobiliensis_T._regia/04_1bbdae5174.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Trieres mobiliensis/T. regia/EF9031D9-391F-4D15-8439-35429D720C70.png",
       "width": "155",
       "height": "64"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Trieres mobiliensis/T. regia",
+      "label": "Trieres: Trieres mobiliensis/T. regia",
       "image_id": "74810498-9132-48F4-8F8C-AF8912286E7F",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_mobiliensis_T._regia/05_b3bd3bad0f.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_Trieres_mobiliensis_T._regia/05_b3bd3bad0f.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Trieres mobiliensis/T. regia/74810498-9132-48F4-8F8C-AF8912286E7F.png",
       "width": "96",
       "height": "171"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Trieres mobiliensis/T. regia",
+      "label": "Trieres: Trieres mobiliensis/T. regia",
       "image_id": "074DFBC3-D6E3-4A6A-BFE3-B81B935F6FE9",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_mobiliensis_T._regia/06_2b90c3fd0b.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_Trieres_mobiliensis_T._regia/06_2b90c3fd0b.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Trieres mobiliensis/T. regia/074DFBC3-D6E3-4A6A-BFE3-B81B935F6FE9.png",
       "width": "166",
       "height": "159"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Trieres mobiliensis/T. regia",
+      "label": "Trieres: Trieres mobiliensis/T. regia",
       "image_id": "B614749D-973E-4D74-84C6-168DAAC1A462",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_mobiliensis_T._regia/07_3b0835c7d3.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_Trieres_mobiliensis_T._regia/07_3b0835c7d3.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Trieres mobiliensis/T. regia/B614749D-973E-4D74-84C6-168DAAC1A462.png",
       "width": "148",
       "height": "92"
     },
     {
       "dataset_id": "life_watch_2026_image_library",
-      "label": "Trieres mobiliensis/T. regia",
+      "label": "Trieres: Trieres mobiliensis/T. regia",
       "image_id": "293C23A3-6FD3-439F-A318-D0C70970C4FB",
-      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_mobiliensis_T._regia/08_c4677d5436.jpg",
+      "thumbnail_url": "/samples/life_watch_2026_image_library/Trieres_Trieres_mobiliensis_T._regia/08_c4677d5436.jpg",
       "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Trieres mobiliensis/T. regia/293C23A3-6FD3-439F-A318-D0C70970C4FB.png",
       "width": "121",
       "height": "99"

@@ -665,10 +665,10 @@
                               "valid_image_count": 229
                             },
                             {
-                              "broad_class": "",
-                              "broad_class_aphia_id": "",
-                              "broad_class_original_label": "",
-                              "broad_class_source_file": "",
+                              "broad_class": "Copepoda",
+                              "broad_class_aphia_id": "1080",
+                              "broad_class_original_label": "Copepoda adult",
+                              "broad_class_source_file": "studies/taxonomy_integration_review/label_aphia_mismatch_audit.md",
                               "candidate_image_count": 38,
                               "children": [],
                               "dataset_id": "life_watch_2026_image_library",
@@ -677,13 +677,15 @@
                               "image_count": 38,
                               "invalid_image_count": 0,
                               "lineage_notes": [],
-                              "name": "Copepoda adult",
+                              "name": "Copepoda: Copepoda adult",
                               "original_label": "Copepoda adult",
                               "placement_id": "life_watch_2026_image_library::Copepoda adult::1080::1",
-                              "risk_flags": [],
+                              "risk_flags": [
+                                "broad_class"
+                              ],
                               "selected_aphia_id": "1080",
                               "selected_aphia_image_count": 38,
-                              "selected_aphia_source": "local_aphia_id_validation",
+                              "selected_aphia_source": "round12_loose_upward_broad_class",
                               "special_tags": [],
                               "status_review_evidence_json": "",
                               "status_review_flag": "",
@@ -759,10 +761,10 @@
                               "valid_image_count": 451
                             },
                             {
-                              "broad_class": "",
-                              "broad_class_aphia_id": "",
-                              "broad_class_original_label": "",
-                              "broad_class_source_file": "",
+                              "broad_class": "Copepoda",
+                              "broad_class_aphia_id": "1080",
+                              "broad_class_original_label": "Copepoda_adult",
+                              "broad_class_source_file": "studies/taxonomy_integration_review/label_aphia_mismatch_audit.md",
                               "candidate_image_count": 901,
                               "children": [],
                               "dataset_id": "life_watch",
@@ -771,13 +773,15 @@
                               "image_count": 901,
                               "invalid_image_count": 0,
                               "lineage_notes": [],
-                              "name": "Copepoda_adult",
+                              "name": "Copepoda: Copepoda_adult",
                               "original_label": "Copepoda_adult",
                               "placement_id": "life_watch::Copepoda_adult::1080::1",
-                              "risk_flags": [],
+                              "risk_flags": [
+                                "broad_class"
+                              ],
                               "selected_aphia_id": "1080",
                               "selected_aphia_image_count": 901,
-                              "selected_aphia_source": "local_aphia_id_validation",
+                              "selected_aphia_source": "round12_loose_upward_broad_class",
                               "special_tags": [],
                               "status_review_evidence_json": "",
                               "status_review_flag": "",
@@ -1546,10 +1550,10 @@
                       "aphia_id": "123083",
                       "children": [
                         {
-                          "broad_class": "",
-                          "broad_class_aphia_id": "",
-                          "broad_class_original_label": "",
-                          "broad_class_source_file": "",
+                          "broad_class": "Holothuroidea",
+                          "broad_class_aphia_id": "123083",
+                          "broad_class_original_label": "Holothuroidea ossicles",
+                          "broad_class_source_file": "studies/taxonomy_integration_review/label_aphia_mismatch_audit.md",
                           "candidate_image_count": 6,
                           "children": [],
                           "dataset_id": "life_watch_2026_image_library",
@@ -1558,13 +1562,15 @@
                           "image_count": 6,
                           "invalid_image_count": 0,
                           "lineage_notes": [],
-                          "name": "Holothuroidea ossicles",
+                          "name": "Holothuroidea: Holothuroidea ossicles",
                           "original_label": "Holothuroidea ossicles",
                           "placement_id": "life_watch_2026_image_library::Holothuroidea ossicles::123083::1",
-                          "risk_flags": [],
+                          "risk_flags": [
+                            "broad_class"
+                          ],
                           "selected_aphia_id": "123083",
                           "selected_aphia_image_count": 6,
-                          "selected_aphia_source": "local_aphia_id_validation",
+                          "selected_aphia_source": "round12_loose_upward_broad_class",
                           "special_tags": [],
                           "status_review_evidence_json": "",
                           "status_review_flag": "",
@@ -1585,7 +1591,9 @@
                       "lineage_notes": [],
                       "name": "Holothuroidea",
                       "rank": "Class",
-                      "risk_flags": [],
+                      "risk_flags": [
+                        "broad_class"
+                      ],
                       "special_tags": [],
                       "type": "taxon"
                     }
@@ -1599,7 +1607,9 @@
                   "lineage_notes": [],
                   "name": "Echinozoa",
                   "rank": "Subphylum",
-                  "risk_flags": [],
+                  "risk_flags": [
+                    "broad_class"
+                  ],
                   "special_tags": [],
                   "type": "taxon"
                 },
@@ -1784,10 +1794,10 @@
                   "valid_image_count": 29
                 },
                 {
-                  "broad_class": "",
-                  "broad_class_aphia_id": "",
-                  "broad_class_original_label": "",
-                  "broad_class_source_file": "",
+                  "broad_class": "Mollusca",
+                  "broad_class_aphia_id": "51",
+                  "broad_class_original_label": "Mollusca incertae",
+                  "broad_class_source_file": "studies/taxonomy_integration_review/label_aphia_mismatch_audit.md",
                   "candidate_image_count": 31,
                   "children": [],
                   "dataset_id": "life_watch_2026_image_library",
@@ -1796,13 +1806,15 @@
                   "image_count": 31,
                   "invalid_image_count": 0,
                   "lineage_notes": [],
-                  "name": "Mollusca incertae",
+                  "name": "Mollusca: Mollusca incertae",
                   "original_label": "Mollusca incertae",
                   "placement_id": "life_watch_2026_image_library::Mollusca incertae::51::1",
-                  "risk_flags": [],
+                  "risk_flags": [
+                    "broad_class"
+                  ],
                   "selected_aphia_id": "51",
                   "selected_aphia_image_count": 31,
-                  "selected_aphia_source": "local_aphia_id_validation",
+                  "selected_aphia_source": "round12_loose_upward_broad_class",
                   "special_tags": [],
                   "status_review_evidence_json": "",
                   "status_review_flag": "",
@@ -1987,10 +1999,10 @@
               "aphia_id": "558",
               "children": [
                 {
-                  "broad_class": "",
-                  "broad_class_aphia_id": "",
-                  "broad_class_original_label": "",
-                  "broad_class_source_file": "",
+                  "broad_class": "Porifera",
+                  "broad_class_aphia_id": "558",
+                  "broad_class_original_label": "Porifera spicule",
+                  "broad_class_source_file": "studies/taxonomy_integration_review/label_aphia_mismatch_audit.md",
                   "candidate_image_count": 8,
                   "children": [],
                   "dataset_id": "life_watch_2026_image_library",
@@ -1999,13 +2011,15 @@
                   "image_count": 8,
                   "invalid_image_count": 0,
                   "lineage_notes": [],
-                  "name": "Porifera spicule",
+                  "name": "Porifera: Porifera spicule",
                   "original_label": "Porifera spicule",
                   "placement_id": "life_watch_2026_image_library::Porifera spicule::558::1",
-                  "risk_flags": [],
+                  "risk_flags": [
+                    "broad_class"
+                  ],
                   "selected_aphia_id": "558",
                   "selected_aphia_image_count": 8,
-                  "selected_aphia_source": "local_aphia_id_validation",
+                  "selected_aphia_source": "round12_loose_upward_broad_class",
                   "special_tags": [],
                   "status_review_evidence_json": "",
                   "status_review_flag": "",
@@ -2017,10 +2031,10 @@
                   "valid_image_count": 8
                 },
                 {
-                  "broad_class": "",
-                  "broad_class_aphia_id": "",
-                  "broad_class_original_label": "",
-                  "broad_class_source_file": "",
+                  "broad_class": "Porifera",
+                  "broad_class_aphia_id": "558",
+                  "broad_class_original_label": "Porifera_spicule",
+                  "broad_class_source_file": "studies/taxonomy_integration_review/label_aphia_mismatch_audit.md",
                   "candidate_image_count": 281,
                   "children": [],
                   "dataset_id": "life_watch",
@@ -2029,13 +2043,15 @@
                   "image_count": 281,
                   "invalid_image_count": 0,
                   "lineage_notes": [],
-                  "name": "Porifera_spicule",
+                  "name": "Porifera: Porifera_spicule",
                   "original_label": "Porifera_spicule",
                   "placement_id": "life_watch::Porifera_spicule::558::1",
-                  "risk_flags": [],
+                  "risk_flags": [
+                    "broad_class"
+                  ],
                   "selected_aphia_id": "558",
                   "selected_aphia_image_count": 281,
-                  "selected_aphia_source": "local_aphia_id_validation",
+                  "selected_aphia_source": "round12_loose_upward_broad_class",
                   "special_tags": [],
                   "status_review_evidence_json": "",
                   "status_review_flag": "",
@@ -2057,7 +2073,9 @@
               "lineage_notes": [],
               "name": "Porifera",
               "rank": "Phylum",
-              "risk_flags": [],
+              "risk_flags": [
+                "broad_class"
+              ],
               "special_tags": [],
               "type": "taxon"
             },
@@ -5246,6 +5264,7 @@
                                                   "original_label": "Bellerochea",
                                                   "placement_id": "life_watch::Bellerochea::447730::1",
                                                   "risk_flags": [
+                                                    "subordinate_aphia_id",
                                                     "challenged"
                                                   ],
                                                   "selected_aphia_id": "447730",
@@ -5278,6 +5297,7 @@
                                                   "original_label": "Bellerochea",
                                                   "placement_id": "life_watch_2026_image_library::Bellerochea::447730::1",
                                                   "risk_flags": [
+                                                    "subordinate_aphia_id",
                                                     "challenged"
                                                   ],
                                                   "selected_aphia_id": "447730",
@@ -5371,7 +5391,8 @@
                                               "rank": "Species",
                                               "risk_flags": [
                                                 "challenged",
-                                                "contaminated"
+                                                "contaminated",
+                                                "subordinate_aphia_id"
                                               ],
                                               "special_tags": [],
                                               "type": "taxon"
@@ -5389,7 +5410,8 @@
                                           "rank": "Genus",
                                           "risk_flags": [
                                             "challenged",
-                                            "contaminated"
+                                            "contaminated",
+                                            "subordinate_aphia_id"
                                           ],
                                           "special_tags": [],
                                           "type": "taxon"
@@ -5407,7 +5429,8 @@
                                       "rank": "Family",
                                       "risk_flags": [
                                         "challenged",
-                                        "contaminated"
+                                        "contaminated",
+                                        "subordinate_aphia_id"
                                       ],
                                       "special_tags": [],
                                       "type": "taxon"
@@ -5784,7 +5807,8 @@
                                   "rank": "Order",
                                   "risk_flags": [
                                     "challenged",
-                                    "contaminated"
+                                    "contaminated",
+                                    "subordinate_aphia_id"
                                   ],
                                   "special_tags": [
                                     "dwc_record_review"
@@ -6402,10 +6426,10 @@
                                           "aphia_id": "836581",
                                           "children": [
                                             {
-                                              "broad_class": "",
-                                              "broad_class_aphia_id": "",
-                                              "broad_class_original_label": "",
-                                              "broad_class_source_file": "",
+                                              "broad_class": "Trieres",
+                                              "broad_class_aphia_id": "836581",
+                                              "broad_class_original_label": "Trieres mobiliensis/T. regia",
+                                              "broad_class_source_file": "studies/taxonomy_integration_review/label_aphia_mismatch_audit.md",
                                               "candidate_image_count": 505,
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
@@ -6414,13 +6438,15 @@
                                               "image_count": 505,
                                               "invalid_image_count": 0,
                                               "lineage_notes": [],
-                                              "name": "Trieres mobiliensis/T. regia",
+                                              "name": "Trieres: Trieres mobiliensis/T. regia",
                                               "original_label": "Trieres mobiliensis/T. regia",
                                               "placement_id": "life_watch_2026_image_library::Trieres mobiliensis/T. regia::836581::1",
-                                              "risk_flags": [],
+                                              "risk_flags": [
+                                                "broad_class"
+                                              ],
                                               "selected_aphia_id": "836581",
                                               "selected_aphia_image_count": 505,
-                                              "selected_aphia_source": "local_aphia_id_validation",
+                                              "selected_aphia_source": "round12_loose_upward_broad_class",
                                               "special_tags": [],
                                               "status_review_evidence_json": "",
                                               "status_review_flag": "",
@@ -6466,6 +6492,38 @@
                                             {
                                               "broad_class": "Trieres",
                                               "broad_class_aphia_id": "836581",
+                                              "broad_class_original_label": "Trieres_mobiliensis+T._regia",
+                                              "broad_class_source_file": "studies/taxonomy_integration_review/label_aphia_mismatch_audit.md",
+                                              "candidate_image_count": 3418,
+                                              "children": [],
+                                              "dataset_id": "life_watch",
+                                              "dataset_label": "LifeWatch",
+                                              "entry_id": "life_watch::Trieres_mobiliensis+T._regia",
+                                              "image_count": 3418,
+                                              "invalid_image_count": 0,
+                                              "lineage_notes": [],
+                                              "name": "Trieres: Trieres_mobiliensis+T._regia",
+                                              "original_label": "Trieres_mobiliensis+T._regia",
+                                              "placement_id": "life_watch::Trieres_mobiliensis+T._regia::836581::1",
+                                              "risk_flags": [
+                                                "broad_class"
+                                              ],
+                                              "selected_aphia_id": "836581",
+                                              "selected_aphia_image_count": 3418,
+                                              "selected_aphia_source": "round12_loose_upward_broad_class",
+                                              "special_tags": [],
+                                              "status_review_evidence_json": "",
+                                              "status_review_flag": "",
+                                              "status_review_rollup_aphia_id": "",
+                                              "status_review_rollup_name": "",
+                                              "status_review_rollup_rank": "",
+                                              "synonym_note": "",
+                                              "type": "dataset_class",
+                                              "valid_image_count": 3418
+                                            },
+                                            {
+                                              "broad_class": "Trieres",
+                                              "broad_class_aphia_id": "836581",
                                               "broad_class_original_label": "Trieres_sinensis",
                                               "broad_class_source_file": "studies/label_aphia_inventory/round9_invalid_label_cleanup.csv",
                                               "candidate_image_count": 8799,
@@ -6494,36 +6552,6 @@
                                               "synonym_note": "",
                                               "type": "dataset_class",
                                               "valid_image_count": 8799
-                                            },
-                                            {
-                                              "broad_class": "",
-                                              "broad_class_aphia_id": "",
-                                              "broad_class_original_label": "",
-                                              "broad_class_source_file": "",
-                                              "candidate_image_count": 3418,
-                                              "children": [],
-                                              "dataset_id": "life_watch",
-                                              "dataset_label": "LifeWatch",
-                                              "entry_id": "life_watch::Trieres_mobiliensis+T._regia",
-                                              "image_count": 3418,
-                                              "invalid_image_count": 0,
-                                              "lineage_notes": [],
-                                              "name": "Trieres_mobiliensis+T._regia",
-                                              "original_label": "Trieres_mobiliensis+T._regia",
-                                              "placement_id": "life_watch::Trieres_mobiliensis+T._regia::836581::1",
-                                              "risk_flags": [],
-                                              "selected_aphia_id": "836581",
-                                              "selected_aphia_image_count": 3418,
-                                              "selected_aphia_source": "local_aphia_id_validation",
-                                              "special_tags": [],
-                                              "status_review_evidence_json": "",
-                                              "status_review_flag": "",
-                                              "status_review_rollup_aphia_id": "",
-                                              "status_review_rollup_name": "",
-                                              "status_review_rollup_rank": "",
-                                              "synonym_note": "",
-                                              "type": "dataset_class",
-                                              "valid_image_count": 3418
                                             }
                                           ],
                                           "datasets": [
@@ -6723,7 +6751,8 @@
                               "risk_flags": [
                                 "broad_class",
                                 "challenged",
-                                "contaminated"
+                                "contaminated",
+                                "subordinate_aphia_id"
                               ],
                               "special_tags": [
                                 "dwc_record_review"
@@ -7315,10 +7344,10 @@
                                               "valid_image_count": 33675
                                             },
                                             {
-                                              "broad_class": "",
-                                              "broad_class_aphia_id": "",
-                                              "broad_class_original_label": "",
-                                              "broad_class_source_file": "",
+                                              "broad_class": "Chaetoceros",
+                                              "broad_class_aphia_id": "148985",
+                                              "broad_class_original_label": "Chaetoceros curvisetus/C. pseudocurvisetus",
+                                              "broad_class_source_file": "studies/taxonomy_integration_review/label_aphia_mismatch_audit.md",
                                               "candidate_image_count": 549,
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
@@ -7327,13 +7356,15 @@
                                               "image_count": 549,
                                               "invalid_image_count": 0,
                                               "lineage_notes": [],
-                                              "name": "Chaetoceros curvisetus/C. pseudocurvisetus",
+                                              "name": "Chaetoceros: Chaetoceros curvisetus/C. pseudocurvisetus",
                                               "original_label": "Chaetoceros curvisetus/C. pseudocurvisetus",
                                               "placement_id": "life_watch_2026_image_library::Chaetoceros curvisetus/C. pseudocurvisetus::148985::1",
-                                              "risk_flags": [],
+                                              "risk_flags": [
+                                                "broad_class"
+                                              ],
                                               "selected_aphia_id": "148985",
                                               "selected_aphia_image_count": 549,
-                                              "selected_aphia_source": "local_aphia_id_validation",
+                                              "selected_aphia_source": "round12_loose_upward_broad_class",
                                               "special_tags": [],
                                               "status_review_evidence_json": "",
                                               "status_review_flag": "",
@@ -7345,10 +7376,10 @@
                                               "valid_image_count": 549
                                             },
                                             {
-                                              "broad_class": "",
-                                              "broad_class_aphia_id": "",
-                                              "broad_class_original_label": "",
-                                              "broad_class_source_file": "",
+                                              "broad_class": "Chaetoceros",
+                                              "broad_class_aphia_id": "148985",
+                                              "broad_class_original_label": "Chaetoceros_curvisetus+C._pseudocurvisetus",
+                                              "broad_class_source_file": "studies/taxonomy_integration_review/label_aphia_mismatch_audit.md",
                                               "candidate_image_count": 1993,
                                               "children": [],
                                               "dataset_id": "life_watch",
@@ -7357,13 +7388,15 @@
                                               "image_count": 1993,
                                               "invalid_image_count": 0,
                                               "lineage_notes": [],
-                                              "name": "Chaetoceros_curvisetus+C._pseudocurvisetus",
+                                              "name": "Chaetoceros: Chaetoceros_curvisetus+C._pseudocurvisetus",
                                               "original_label": "Chaetoceros_curvisetus+C._pseudocurvisetus",
                                               "placement_id": "life_watch::Chaetoceros_curvisetus+C._pseudocurvisetus::148985::1",
-                                              "risk_flags": [],
+                                              "risk_flags": [
+                                                "broad_class"
+                                              ],
                                               "selected_aphia_id": "148985",
                                               "selected_aphia_image_count": 1993,
-                                              "selected_aphia_source": "local_aphia_id_validation",
+                                              "selected_aphia_source": "round12_loose_upward_broad_class",
                                               "special_tags": [],
                                               "status_review_evidence_json": "",
                                               "status_review_flag": "",
@@ -7388,6 +7421,7 @@
                                           "name": "Chaetoceros",
                                           "rank": "Genus",
                                           "risk_flags": [
+                                            "broad_class",
                                             "challenged"
                                           ],
                                           "special_tags": [
@@ -10595,10 +10629,10 @@
                                               "valid_image_count": 2939
                                             },
                                             {
-                                              "broad_class": "",
-                                              "broad_class_aphia_id": "",
-                                              "broad_class_original_label": "",
-                                              "broad_class_source_file": "",
+                                              "broad_class": "Rhizosolenia",
+                                              "broad_class_aphia_id": "149069",
+                                              "broad_class_original_label": "Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
+                                              "broad_class_source_file": "studies/taxonomy_integration_review/label_aphia_mismatch_audit.md",
                                               "candidate_image_count": 30341,
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
@@ -10607,13 +10641,15 @@
                                               "image_count": 30341,
                                               "invalid_image_count": 0,
                                               "lineage_notes": [],
-                                              "name": "Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
+                                              "name": "Rhizosolenia: Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
                                               "original_label": "Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
                                               "placement_id": "life_watch_2026_image_library::Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina::149069::1",
-                                              "risk_flags": [],
+                                              "risk_flags": [
+                                                "broad_class"
+                                              ],
                                               "selected_aphia_id": "149069",
                                               "selected_aphia_image_count": 30341,
-                                              "selected_aphia_source": "local_aphia_id_validation",
+                                              "selected_aphia_source": "round12_loose_upward_broad_class",
                                               "special_tags": [],
                                               "status_review_evidence_json": "",
                                               "status_review_flag": "",
@@ -10625,10 +10661,10 @@
                                               "valid_image_count": 30341
                                             },
                                             {
-                                              "broad_class": "",
-                                              "broad_class_aphia_id": "",
-                                              "broad_class_original_label": "",
-                                              "broad_class_source_file": "",
+                                              "broad_class": "Rhizosolenia",
+                                              "broad_class_aphia_id": "149069",
+                                              "broad_class_original_label": "Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
+                                              "broad_class_source_file": "studies/taxonomy_integration_review/label_aphia_mismatch_audit.md",
                                               "candidate_image_count": 8800,
                                               "children": [],
                                               "dataset_id": "life_watch",
@@ -10637,13 +10673,15 @@
                                               "image_count": 8800,
                                               "invalid_image_count": 0,
                                               "lineage_notes": [],
-                                              "name": "Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
+                                              "name": "Rhizosolenia: Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
                                               "original_label": "Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
                                               "placement_id": "life_watch::Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina::149069::1",
-                                              "risk_flags": [],
+                                              "risk_flags": [
+                                                "broad_class"
+                                              ],
                                               "selected_aphia_id": "149069",
                                               "selected_aphia_image_count": 8800,
-                                              "selected_aphia_source": "local_aphia_id_validation",
+                                              "selected_aphia_source": "round12_loose_upward_broad_class",
                                               "special_tags": [],
                                               "status_review_evidence_json": "",
                                               "status_review_flag": "",
@@ -10666,7 +10704,9 @@
                                           "lineage_notes": [],
                                           "name": "Rhizosolenia",
                                           "rank": "Genus",
-                                          "risk_flags": [],
+                                          "risk_flags": [
+                                            "broad_class"
+                                          ],
                                           "special_tags": [
                                             "dwc_record_review"
                                           ],
@@ -11662,7 +11702,8 @@
                           "risk_flags": [
                             "broad_class",
                             "challenged",
-                            "contaminated"
+                            "contaminated",
+                            "subordinate_aphia_id"
                           ],
                           "special_tags": [
                             "dwc_record_review"
@@ -12562,6 +12603,74 @@
                         {
                           "broad_class": "Bacillariophyceae",
                           "broad_class_aphia_id": "148899",
+                          "broad_class_original_label": "Bacillariophyceae_type1_colony",
+                          "broad_class_source_file": "studies/taxonomy_integration_review/label_aphia_mismatch_audit.md",
+                          "candidate_image_count": 3101,
+                          "children": [],
+                          "dataset_id": "life_watch",
+                          "dataset_label": "LifeWatch",
+                          "entry_id": "life_watch::Bacillariophyceae_type1_colony",
+                          "image_count": 3101,
+                          "invalid_image_count": 0,
+                          "lineage_notes": [],
+                          "name": "Bacillariophyceae: Bacillariophyceae_type1_colony",
+                          "original_label": "Bacillariophyceae_type1_colony",
+                          "placement_id": "life_watch::Bacillariophyceae_type1_colony::148899::1",
+                          "risk_flags": [
+                            "broad_class"
+                          ],
+                          "selected_aphia_id": "148899",
+                          "selected_aphia_image_count": 3101,
+                          "selected_aphia_source": "round12_loose_upward_broad_class",
+                          "special_tags": [
+                            "multiple"
+                          ],
+                          "status_review_evidence_json": "",
+                          "status_review_flag": "",
+                          "status_review_rollup_aphia_id": "",
+                          "status_review_rollup_name": "",
+                          "status_review_rollup_rank": "",
+                          "synonym_note": "",
+                          "type": "dataset_class",
+                          "valid_image_count": 3101
+                        },
+                        {
+                          "broad_class": "Bacillariophyceae",
+                          "broad_class_aphia_id": "148899",
+                          "broad_class_original_label": "Bacillariophyceae_type1_colony",
+                          "broad_class_source_file": "studies/taxonomy_integration_review/label_aphia_mismatch_audit.md",
+                          "candidate_image_count": 11,
+                          "children": [],
+                          "dataset_id": "life_watch_2026_image_library",
+                          "dataset_label": "LifeWatch 2026",
+                          "entry_id": "life_watch_2026_image_library::Bacillariophyceae_type1_colony",
+                          "image_count": 11,
+                          "invalid_image_count": 0,
+                          "lineage_notes": [],
+                          "name": "Bacillariophyceae: Bacillariophyceae_type1_colony",
+                          "original_label": "Bacillariophyceae_type1_colony",
+                          "placement_id": "life_watch_2026_image_library::Bacillariophyceae_type1_colony::148899::1",
+                          "risk_flags": [
+                            "broad_class"
+                          ],
+                          "selected_aphia_id": "148899",
+                          "selected_aphia_image_count": 11,
+                          "selected_aphia_source": "round12_loose_upward_broad_class",
+                          "special_tags": [
+                            "multiple"
+                          ],
+                          "status_review_evidence_json": "",
+                          "status_review_flag": "",
+                          "status_review_rollup_aphia_id": "",
+                          "status_review_rollup_name": "",
+                          "status_review_rollup_rank": "",
+                          "synonym_note": "",
+                          "type": "dataset_class",
+                          "valid_image_count": 11
+                        },
+                        {
+                          "broad_class": "Bacillariophyceae",
+                          "broad_class_aphia_id": "148899",
                           "broad_class_original_label": "Centric Diatom",
                           "broad_class_source_file": "studies/label_aphia_inventory/round8_invalid_label_cleanup.csv",
                           "candidate_image_count": 34804,
@@ -12914,70 +13023,6 @@
                           "synonym_note": "",
                           "type": "dataset_class",
                           "valid_image_count": 8570
-                        },
-                        {
-                          "broad_class": "",
-                          "broad_class_aphia_id": "",
-                          "broad_class_original_label": "",
-                          "broad_class_source_file": "",
-                          "candidate_image_count": 3101,
-                          "children": [],
-                          "dataset_id": "life_watch",
-                          "dataset_label": "LifeWatch",
-                          "entry_id": "life_watch::Bacillariophyceae_type1_colony",
-                          "image_count": 3101,
-                          "invalid_image_count": 0,
-                          "lineage_notes": [],
-                          "name": "Bacillariophyceae_type1_colony",
-                          "original_label": "Bacillariophyceae_type1_colony",
-                          "placement_id": "life_watch::Bacillariophyceae_type1_colony::148899::1",
-                          "risk_flags": [],
-                          "selected_aphia_id": "148899",
-                          "selected_aphia_image_count": 3101,
-                          "selected_aphia_source": "local_aphia_id_validation",
-                          "special_tags": [
-                            "multiple"
-                          ],
-                          "status_review_evidence_json": "",
-                          "status_review_flag": "",
-                          "status_review_rollup_aphia_id": "",
-                          "status_review_rollup_name": "",
-                          "status_review_rollup_rank": "",
-                          "synonym_note": "",
-                          "type": "dataset_class",
-                          "valid_image_count": 3101
-                        },
-                        {
-                          "broad_class": "",
-                          "broad_class_aphia_id": "",
-                          "broad_class_original_label": "",
-                          "broad_class_source_file": "",
-                          "candidate_image_count": 11,
-                          "children": [],
-                          "dataset_id": "life_watch_2026_image_library",
-                          "dataset_label": "LifeWatch 2026",
-                          "entry_id": "life_watch_2026_image_library::Bacillariophyceae_type1_colony",
-                          "image_count": 11,
-                          "invalid_image_count": 0,
-                          "lineage_notes": [],
-                          "name": "Bacillariophyceae_type1_colony",
-                          "original_label": "Bacillariophyceae_type1_colony",
-                          "placement_id": "life_watch_2026_image_library::Bacillariophyceae_type1_colony::148899::1",
-                          "risk_flags": [],
-                          "selected_aphia_id": "148899",
-                          "selected_aphia_image_count": 11,
-                          "selected_aphia_source": "local_aphia_id_validation",
-                          "special_tags": [
-                            "multiple"
-                          ],
-                          "status_review_evidence_json": "",
-                          "status_review_flag": "",
-                          "status_review_rollup_aphia_id": "",
-                          "status_review_rollup_name": "",
-                          "status_review_rollup_rank": "",
-                          "synonym_note": "",
-                          "type": "dataset_class",
-                          "valid_image_count": 11
                         }
                       ],
                       "datasets": [
@@ -12997,7 +13042,8 @@
                       "risk_flags": [
                         "broad_class",
                         "challenged",
-                        "contaminated"
+                        "contaminated",
+                        "subordinate_aphia_id"
                       ],
                       "special_tags": [
                         "dwc_record_review",
@@ -13023,7 +13069,8 @@
                   "risk_flags": [
                     "broad_class",
                     "challenged",
-                    "contaminated"
+                    "contaminated",
+                    "subordinate_aphia_id"
                   ],
                   "special_tags": [
                     "dwc_record_review",
@@ -13049,7 +13096,8 @@
               "risk_flags": [
                 "broad_class",
                 "challenged",
-                "contaminated"
+                "contaminated",
+                "subordinate_aphia_id"
               ],
               "special_tags": [
                 "dwc_record_review",
@@ -17424,10 +17472,10 @@
                                                   "aphia_id": "109506",
                                                   "children": [
                                                     {
-                                                      "broad_class": "",
-                                                      "broad_class_aphia_id": "",
-                                                      "broad_class_original_label": "",
-                                                      "broad_class_source_file": "",
+                                                      "broad_class": "Ceratium",
+                                                      "broad_class_aphia_id": "109506",
+                                                      "broad_class_original_label": "Ceratium_horridum+C._longipes",
+                                                      "broad_class_source_file": "studies/taxonomy_integration_review/label_aphia_mismatch_audit.md",
                                                       "candidate_image_count": 259,
                                                       "children": [],
                                                       "dataset_id": "life_watch",
@@ -17436,13 +17484,15 @@
                                                       "image_count": 259,
                                                       "invalid_image_count": 0,
                                                       "lineage_notes": [],
-                                                      "name": "Ceratium_horridum+C._longipes",
+                                                      "name": "Ceratium: Ceratium_horridum+C._longipes",
                                                       "original_label": "Ceratium_horridum+C._longipes",
                                                       "placement_id": "life_watch::Ceratium_horridum+C._longipes::109506::1",
-                                                      "risk_flags": [],
+                                                      "risk_flags": [
+                                                        "broad_class"
+                                                      ],
                                                       "selected_aphia_id": "109506",
                                                       "selected_aphia_image_count": 259,
-                                                      "selected_aphia_source": "local_aphia_id_validation",
+                                                      "selected_aphia_source": "round12_loose_upward_broad_class",
                                                       "special_tags": [],
                                                       "status_review_evidence_json": "",
                                                       "status_review_flag": "",
@@ -17463,7 +17513,9 @@
                                                   "lineage_notes": [],
                                                   "name": "Ceratium",
                                                   "rank": "Genus",
-                                                  "risk_flags": [],
+                                                  "risk_flags": [
+                                                    "broad_class"
+                                                  ],
                                                   "special_tags": [],
                                                   "type": "taxon"
                                                 },
@@ -17721,11 +17773,11 @@
                                                           "original_label": "Tripos",
                                                           "placement_id": "life_watch::Tripos::840627::3",
                                                           "risk_flags": [
-                                                            "multiple_valid_aphia_ids"
+                                                            "subordinate_aphia_id"
                                                           ],
                                                           "selected_aphia_id": "840627",
                                                           "selected_aphia_image_count": 39,
-                                                          "selected_aphia_source": "local_aphia_id_validation",
+                                                          "selected_aphia_source": "round12_subordinate_aphia_id",
                                                           "special_tags": [],
                                                           "status_review_evidence_json": "",
                                                           "status_review_flag": "",
@@ -17780,7 +17832,7 @@
                                                       "rank": "Species",
                                                       "risk_flags": [
                                                         "corrected",
-                                                        "multiple_valid_aphia_ids"
+                                                        "subordinate_aphia_id"
                                                       ],
                                                       "special_tags": [],
                                                       "type": "taxon"
@@ -18020,11 +18072,11 @@
                                                           "original_label": "Tripos",
                                                           "placement_id": "life_watch::Tripos::837459::2",
                                                           "risk_flags": [
-                                                            "multiple_valid_aphia_ids"
+                                                            "subordinate_aphia_id"
                                                           ],
                                                           "selected_aphia_id": "837459",
                                                           "selected_aphia_image_count": 77,
-                                                          "selected_aphia_source": "local_aphia_id_validation",
+                                                          "selected_aphia_source": "round12_subordinate_aphia_id",
                                                           "special_tags": [],
                                                           "status_review_evidence_json": "",
                                                           "status_review_flag": "",
@@ -18077,7 +18129,7 @@
                                                       "name": "Tripos lineatus",
                                                       "rank": "Species",
                                                       "risk_flags": [
-                                                        "multiple_valid_aphia_ids"
+                                                        "subordinate_aphia_id"
                                                       ],
                                                       "special_tags": [],
                                                       "type": "taxon"
@@ -18216,11 +18268,11 @@
                                                       "original_label": "Tripos",
                                                       "placement_id": "life_watch::Tripos::494057::1",
                                                       "risk_flags": [
-                                                        "multiple_valid_aphia_ids"
+                                                        "subordinate_aphia_id"
                                                       ],
                                                       "selected_aphia_id": "494057",
                                                       "selected_aphia_image_count": 850,
-                                                      "selected_aphia_source": "local_aphia_id_validation",
+                                                      "selected_aphia_source": "round12_subordinate_aphia_id",
                                                       "special_tags": [],
                                                       "status_review_evidence_json": "",
                                                       "status_review_flag": "",
@@ -18278,7 +18330,7 @@
                                                   "risk_flags": [
                                                     "challenged",
                                                     "corrected",
-                                                    "multiple_valid_aphia_ids"
+                                                    "subordinate_aphia_id"
                                                   ],
                                                   "special_tags": [],
                                                   "type": "taxon"
@@ -18298,9 +18350,10 @@
                                               "name": "Ceratiaceae",
                                               "rank": "Family",
                                               "risk_flags": [
+                                                "broad_class",
                                                 "challenged",
                                                 "corrected",
-                                                "multiple_valid_aphia_ids"
+                                                "subordinate_aphia_id"
                                               ],
                                               "special_tags": [
                                                 "dwc_record_review"
@@ -19034,9 +19087,10 @@
                                           "name": "Gonyaulacales",
                                           "rank": "Order",
                                           "risk_flags": [
+                                            "broad_class",
                                             "challenged",
                                             "corrected",
-                                            "multiple_valid_aphia_ids"
+                                            "subordinate_aphia_id"
                                           ],
                                           "special_tags": [
                                             "dwc_record_review"
@@ -19310,11 +19364,11 @@
                                                           "original_label": "Protoperidinium",
                                                           "placement_id": "life_watch::Protoperidinium::110217::2",
                                                           "risk_flags": [
-                                                            "multiple_valid_aphia_ids"
+                                                            "subordinate_aphia_id"
                                                           ],
                                                           "selected_aphia_id": "110217",
                                                           "selected_aphia_image_count": 70,
-                                                          "selected_aphia_source": "local_aphia_id_validation",
+                                                          "selected_aphia_source": "round12_subordinate_aphia_id",
                                                           "special_tags": [],
                                                           "status_review_evidence_json": "",
                                                           "status_review_flag": "",
@@ -19336,7 +19390,7 @@
                                                       "name": "Protoperidinium depressum",
                                                       "rank": "Species",
                                                       "risk_flags": [
-                                                        "multiple_valid_aphia_ids"
+                                                        "subordinate_aphia_id"
                                                       ],
                                                       "special_tags": [],
                                                       "type": "taxon"
@@ -19435,11 +19489,11 @@
                                                       "original_label": "Protoperidinium",
                                                       "placement_id": "life_watch::Protoperidinium::109553::1",
                                                       "risk_flags": [
-                                                        "multiple_valid_aphia_ids"
+                                                        "subordinate_aphia_id"
                                                       ],
                                                       "selected_aphia_id": "109553",
                                                       "selected_aphia_image_count": 1702,
-                                                      "selected_aphia_source": "local_aphia_id_validation",
+                                                      "selected_aphia_source": "round12_subordinate_aphia_id",
                                                       "special_tags": [],
                                                       "status_review_evidence_json": "",
                                                       "status_review_flag": "",
@@ -19559,7 +19613,7 @@
                                                   "name": "Protoperidinium",
                                                   "rank": "Genus",
                                                   "risk_flags": [
-                                                    "multiple_valid_aphia_ids"
+                                                    "subordinate_aphia_id"
                                                   ],
                                                   "special_tags": [
                                                     "dwc_record_review"
@@ -19581,7 +19635,7 @@
                                               "name": "Protoperidiniaceae",
                                               "rank": "Family",
                                               "risk_flags": [
-                                                "multiple_valid_aphia_ids"
+                                                "subordinate_aphia_id"
                                               ],
                                               "special_tags": [
                                                 "dwc_record_review"
@@ -19635,7 +19689,7 @@
                                           "name": "Peridiniales",
                                           "rank": "Order",
                                           "risk_flags": [
-                                            "multiple_valid_aphia_ids"
+                                            "subordinate_aphia_id"
                                           ],
                                           "special_tags": [
                                             "dwc_record_review"
@@ -19657,9 +19711,10 @@
                                       "name": "Peridiniphycidae",
                                       "rank": "Subclass",
                                       "risk_flags": [
+                                        "broad_class",
                                         "challenged",
                                         "corrected",
-                                        "multiple_valid_aphia_ids"
+                                        "subordinate_aphia_id"
                                       ],
                                       "special_tags": [
                                         "dwc_record_review"
@@ -19810,7 +19865,7 @@
                                     "broad_class",
                                     "challenged",
                                     "corrected",
-                                    "multiple_valid_aphia_ids"
+                                    "subordinate_aphia_id"
                                   ],
                                   "special_tags": [
                                     "dwc_record_review"
@@ -20186,7 +20241,7 @@
                                 "challenged",
                                 "contaminated",
                                 "corrected",
-                                "multiple_valid_aphia_ids"
+                                "subordinate_aphia_id"
                               ],
                               "special_tags": [
                                 "dwc_record_review"
@@ -20212,7 +20267,7 @@
                             "challenged",
                             "contaminated",
                             "corrected",
-                            "multiple_valid_aphia_ids"
+                            "subordinate_aphia_id"
                           ],
                           "special_tags": [
                             "dwc_record_review"
@@ -20238,7 +20293,7 @@
                         "challenged",
                         "contaminated",
                         "corrected",
-                        "multiple_valid_aphia_ids"
+                        "subordinate_aphia_id"
                       ],
                       "special_tags": [
                         "dwc_record_review"
@@ -20264,7 +20319,7 @@
                     "challenged",
                     "contaminated",
                     "corrected",
-                    "multiple_valid_aphia_ids"
+                    "subordinate_aphia_id"
                   ],
                   "special_tags": [
                     "dwc_record_review"
@@ -21048,6 +21103,7 @@
                                       "original_label": "Nassellaria",
                                       "placement_id": "life_watch_2026_image_library::Nassellaria::345893::1",
                                       "risk_flags": [
+                                        "subordinate_aphia_id",
                                         "challenged"
                                       ],
                                       "selected_aphia_id": "345893",
@@ -21074,7 +21130,8 @@
                                   "name": "Nassellaria incertae sedis",
                                   "rank": "Suborder",
                                   "risk_flags": [
-                                    "challenged"
+                                    "challenged",
+                                    "subordinate_aphia_id"
                                   ],
                                   "special_tags": [],
                                   "type": "taxon"
@@ -21121,7 +21178,8 @@
                               "name": "Nassellaria",
                               "rank": "Order",
                               "risk_flags": [
-                                "challenged"
+                                "challenged",
+                                "subordinate_aphia_id"
                               ],
                               "special_tags": [],
                               "type": "taxon"
@@ -21352,7 +21410,8 @@
                           "rank": "Class",
                           "risk_flags": [
                             "broad_class",
-                            "challenged"
+                            "challenged",
+                            "subordinate_aphia_id"
                           ],
                           "special_tags": [
                             "dwc_record_review"
@@ -21360,10 +21419,10 @@
                           "type": "taxon"
                         },
                         {
-                          "broad_class": "",
-                          "broad_class_aphia_id": "",
-                          "broad_class_original_label": "",
-                          "broad_class_source_file": "",
+                          "broad_class": "Radiozoa",
+                          "broad_class_aphia_id": "582421",
+                          "broad_class_original_label": "Radiozoa incertae",
+                          "broad_class_source_file": "studies/taxonomy_integration_review/label_aphia_mismatch_audit.md",
                           "candidate_image_count": 12,
                           "children": [],
                           "dataset_id": "life_watch_2026_image_library",
@@ -21372,13 +21431,15 @@
                           "image_count": 12,
                           "invalid_image_count": 0,
                           "lineage_notes": [],
-                          "name": "Radiozoa incertae",
+                          "name": "Radiozoa: Radiozoa incertae",
                           "original_label": "Radiozoa incertae",
                           "placement_id": "life_watch_2026_image_library::Radiozoa incertae::582421::1",
-                          "risk_flags": [],
+                          "risk_flags": [
+                            "broad_class"
+                          ],
                           "selected_aphia_id": "582421",
                           "selected_aphia_image_count": 12,
-                          "selected_aphia_source": "local_aphia_id_validation",
+                          "selected_aphia_source": "round12_loose_upward_broad_class",
                           "special_tags": [],
                           "status_review_evidence_json": "",
                           "status_review_flag": "",
@@ -21405,7 +21466,8 @@
                       "risk_flags": [
                         "broad_class",
                         "challenged",
-                        "corrected"
+                        "corrected",
+                        "subordinate_aphia_id"
                       ],
                       "special_tags": [
                         "dwc_record_review"
@@ -21589,7 +21651,8 @@
                   "risk_flags": [
                     "broad_class",
                     "challenged",
-                    "corrected"
+                    "corrected",
+                    "subordinate_aphia_id"
                   ],
                   "special_tags": [
                     "dwc_record_review"
@@ -21615,7 +21678,7 @@
                 "challenged",
                 "contaminated",
                 "corrected",
-                "multiple_valid_aphia_ids"
+                "subordinate_aphia_id"
               ],
               "special_tags": [
                 "dwc_record_review"
@@ -21642,7 +21705,7 @@
             "challenged",
             "contaminated",
             "corrected",
-            "multiple_valid_aphia_ids"
+            "subordinate_aphia_id"
           ],
           "special_tags": [
             "dwc_record_review",
@@ -22120,7 +22183,7 @@
         "challenged",
         "contaminated",
         "corrected",
-        "multiple_valid_aphia_ids"
+        "subordinate_aphia_id"
       ],
       "special_tags": [
         "dwc_record_review",
@@ -22167,7 +22230,7 @@
     "challenged",
     "contaminated",
     "corrected",
-    "multiple_valid_aphia_ids"
+    "subordinate_aphia_id"
   ],
   "special_tags": [
     "dwc_record_review",

@@ -22,7 +22,7 @@ type ReviewKey =
   | "multiple"
   | "juvenile"
   | "contaminated"
-  | "multiple_valid_aphia_ids"
+  | "subordinate_aphia_id"
   | "broad_class"
   | "corrected"
   | "challenged";
@@ -32,7 +32,7 @@ const REVIEW_KEYS: ReviewKey[] = [
   "multiple",
   "juvenile",
   "contaminated",
-  "multiple_valid_aphia_ids",
+  "subordinate_aphia_id",
   "broad_class",
   "corrected",
   "challenged"
@@ -191,7 +191,7 @@ function reviewColumns(activeKey: ReviewKey) {
     ];
   }
 
-  if (activeKey === "multiple_valid_aphia_ids") {
+  if (activeKey === "subordinate_aphia_id") {
     return [
       ...common,
       helper.accessor("selected_aphia_ids", {
@@ -296,7 +296,16 @@ export function RiskPanels({ candidates, onSelect }: Props) {
             </thead>
             <tbody>
               {table.getRowModel().rows.map((row) => (
-                <tr key={row.original.entry_id} onClick={() => onSelect(row.original.entry_id)}>
+                <tr
+                  key={row.original.entry_id}
+                  className={
+                    activeKey === "subordinate_aphia_id" &&
+                    splitCell(row.original.selected_aphia_ids).length > 1
+                      ? "subordinate-original-multiple"
+                      : ""
+                  }
+                  onClick={() => onSelect(row.original.entry_id)}
+                >
                   {row.getVisibleCells().map((cell) => (
                     <td key={cell.id}>{flexRender(cell.column.columnDef.cell, cell.getContext())}</td>
                   ))}

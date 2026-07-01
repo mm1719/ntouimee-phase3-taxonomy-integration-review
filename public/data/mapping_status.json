@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-01T03:17:52+00:00",
+  "generated_at_utc": "2026-07-01T07:03:09+00:00",
   "source_targets": "derived/ml_ready/target_profiles.csv",
   "history_dir": "derived/ml_ready/mapping_history",
   "export_fields": [
@@ -40,7 +40,7 @@
       "image_count": 199282,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
+      "risk_flags": "broad_class",
       "special_tags": "dwc_record_review",
       "dataset_ids": "life_watch_2026_image_library|life_watch|tara_pacific_bongo",
       "source_labels": "Rhizosolenia|Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina|Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina"
@@ -172,7 +172,7 @@
       "image_count": 47443,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
+      "risk_flags": "broad_class",
       "special_tags": "n/a",
       "dataset_ids": "life_watch_2026_image_library|life_watch|flowcam_net",
       "source_labels": "Chaetoceros|Chaetoceros_curvisetus+C._pseudocurvisetus|Chaetoceros curvisetus/C. pseudocurvisetus"
@@ -205,7 +205,7 @@
       "image_count": 35316,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
-      "risk_flags": "challenged|contaminated",
+      "risk_flags": "challenged|subordinate_aphia_id|contaminated",
       "special_tags": "n/a",
       "dataset_ids": "life_watch_2026_image_library|life_watch",
       "source_labels": "Bellerochea|Bellerochea_horologicalis|Bellerochea horologicalis"
@@ -612,7 +612,7 @@
       "image_count": 5196,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
-      "risk_flags": "multiple_valid_aphia_ids",
+      "risk_flags": "subordinate_aphia_id",
       "special_tags": "dwc_record_review",
       "dataset_ids": "tara_pacific_deck|life_watch|flowcam_net|life_watch_2026_image_library|tara_pacific_bongo",
       "source_labels": "Protoperidinium"
@@ -1019,7 +1019,7 @@
       "image_count": 1067,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
-      "risk_flags": "multiple_valid_aphia_ids",
+      "risk_flags": "subordinate_aphia_id",
       "special_tags": "n/a",
       "dataset_ids": "life_watch|life_watch_2026_image_library",
       "source_labels": "Tripos"
@@ -1536,7 +1536,7 @@
       "image_count": 289,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
+      "risk_flags": "broad_class",
       "special_tags": "n/a",
       "dataset_ids": "life_watch|life_watch_2026_image_library",
       "source_labels": "Porifera_spicule|Porifera spicule"
@@ -1613,7 +1613,7 @@
       "image_count": 259,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
+      "risk_flags": "broad_class",
       "special_tags": "n/a",
       "dataset_ids": "life_watch",
       "source_labels": "Ceratium_horridum+C._longipes"
@@ -2273,7 +2273,7 @@
       "image_count": 12,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
+      "risk_flags": "broad_class",
       "special_tags": "n/a",
       "dataset_ids": "life_watch_2026_image_library",
       "source_labels": "Radiozoa incertae"
@@ -2295,7 +2295,7 @@
       "image_count": 11,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
-      "risk_flags": "challenged",
+      "risk_flags": "subordinate_aphia_id|challenged",
       "special_tags": "n/a",
       "dataset_ids": "life_watch_2026_image_library",
       "source_labels": "Nassellaria"
@@ -2372,7 +2372,7 @@
       "image_count": 6,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
+      "risk_flags": "broad_class",
       "special_tags": "n/a",
       "dataset_ids": "life_watch_2026_image_library",
       "source_labels": "Holothuroidea ossicles"

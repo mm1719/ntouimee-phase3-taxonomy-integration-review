@@ -129,6 +129,27 @@ const algaebaseBackedCandidate = {
   status_review_external_evidence_json: string;
 };
 
+const round12BroadCandidate = {
+  ...challengedCandidate,
+  entry_id: "life_watch::Rhizosolenia_setigera",
+  dataset_id: "life_watch",
+  label: "Rhizosolenia: Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
+  original_label: "Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
+  image_count: "8800",
+  selected_aphia_ids: "149069",
+  selected_aphia_source: "round12_loose_upward_broad_class",
+  terminal_worms_names: "Rhizosolenia",
+  terminal_ranks: "Genus",
+  risk_flags: "broad_class",
+  status_review_flag: "",
+  status_review_evidence_json: "",
+  broad_class: "Rhizosolenia",
+  broad_class_original_label: "Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
+  broad_class_aphia_id: "149069",
+  broad_class_source_file: "studies/taxonomy_integration_review/label_aphia_mismatch_audit.md",
+  broad_class_reason: "Round 12 loose AphiaID match: original label is narrower than the source AphiaID record, so the row is treated as broad class placement."
+} as Candidate & { broad_class_reason: string };
+
 function nodeFor(candidate: Candidate): TreeNode {
   return {
     type: "dataset_class",
@@ -213,5 +234,24 @@ describe("DetailDrawer", () => {
     expect(screen.getByText("algaebase_supported_keep_name")).toBeInTheDocument();
     expect(screen.getByText("Dissodinium pseudolunula Swift ex Elbrächter & Drebes")).toBeInTheDocument();
     expect(screen.getByText("https://www.algaebase.org/search/species/detail/?species_id=52283")).toBeInTheDocument();
+  });
+
+  it("shows the round 12 broad-class reason in the drawer", () => {
+    render(
+      <DetailDrawer
+        node={nodeFor(round12BroadCandidate)}
+        candidate={round12BroadCandidate}
+        samples={[]}
+        sampleMap={{}}
+        invalidSampleMap={{}}
+        invalidGroups={[]}
+        onClose={vi.fn()}
+        onOpenSamples={vi.fn()}
+        onOpenInvalidSamples={vi.fn()}
+      />
+    );
+
+    expect(screen.getByText("Broad class mapping")).toBeInTheDocument();
+    expect(screen.getByText(/original label is narrower than the source AphiaID record/)).toBeInTheDocument();
   });
 });

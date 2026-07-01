@@ -101,19 +101,17 @@ export function HelpModal({ open, onClose }: Props) {
               </dd>
             </div>
             <div>
-              <dt>Multiple AphiaID</dt>
+              <dt>Subordinate AphiaID</dt>
               <dd>
-                One dataset label has more than one valid selected AphiaID. It is
-                placed in multiple lineage positions rather than merged automatically.
+                該類別的資料存在一個資料的 aphia id，其對應的名稱是該資料名稱的從屬，在歸類上以 Aphia ID 為準。
               </dd>
             </div>
             <div>
               <dt>Broad class</dt>
               <dd>
-                Tara Pacific invalid label was mapped to a literature-derived
-                broad class, and that broad class exact-matched WoRMS. The tree
-                places it under the broad-class terminal while preserving the
-                original label in the detail drawer.
+                Invalid broad mappings or Round 12 upward loose matches are placed
+                at a verified broader WoRMS taxon while preserving the original
+                label and reason in the detail drawer.
               </dd>
             </div>
             <div>
