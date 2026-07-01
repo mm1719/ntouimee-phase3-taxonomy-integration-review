@@ -26,7 +26,26 @@ type StatusEvidence = {
   record_url?: string;
 };
 
+type ExternalEvidence = {
+  source?: string;
+  record_id?: string;
+  matched_name?: string;
+  current_name?: string;
+  taxonomic_status?: string;
+  url?: string;
+};
+
 function parseStatusEvidence(value = ""): StatusEvidence[] {
+  if (!value) return [];
+  try {
+    const parsed = JSON.parse(value);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+function parseExternalEvidence(value = ""): ExternalEvidence[] {
   if (!value) return [];
   try {
     const parsed = JSON.parse(value);
@@ -51,6 +70,7 @@ export function DetailDrawer({
   const selectedIds = candidate ? splitCell(candidate.selected_aphia_ids) : [];
   const selectedCounts = candidate ? splitCell(candidate.selected_aphia_image_counts) : [];
   const statusEvidence = parseStatusEvidence(candidate?.status_review_evidence_json);
+  const externalEvidence = parseExternalEvidence(candidate?.status_review_external_evidence_json);
   const statusFlags = candidate ? splitCell(candidate.status_review_flag) : [];
   const isCorrected = statusFlags.includes("corrected");
   const displayedStatusEvidence = isCorrected
@@ -150,6 +170,23 @@ export function DetailDrawer({
                 </div>
               ))}
             </div>
+          )}
+        </div>
+      )}
+
+      {candidate?.status_review_external_action && externalEvidence.length > 0 && (
+        <div className="drawer-section">
+          <h3>AlgaeBase backing</h3>
+          <dl className="kv compact-kv">
+            <div><dt>Decision</dt><dd>{candidate.status_review_external_action}</dd></div>
+            <div><dt>Source</dt><dd>{externalEvidence[0].source || "AlgaeBase via GNV"}</dd></div>
+            <div><dt>Status</dt><dd>{externalEvidence[0].taxonomic_status || "n/a"}</dd></div>
+            <div><dt>Name</dt><dd>{externalEvidence[0].current_name || externalEvidence[0].matched_name || "n/a"}</dd></div>
+          </dl>
+          {externalEvidence[0].url && (
+            <a href={externalEvidence[0].url} target="_blank" rel="noreferrer" className="link">
+              {externalEvidence[0].url}
+            </a>
           )}
         </div>
       )}

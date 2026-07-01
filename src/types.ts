@@ -80,6 +80,8 @@ export type Candidate = {
   status_review_rollup_aphia_id: string;
   status_review_rollup_name: string;
   status_review_rollup_rank: string;
+  status_review_external_action?: string;
+  status_review_external_evidence_json?: string;
   status_review_evidence_json: string;
   broad_class: string;
   broad_class_original_label: string;

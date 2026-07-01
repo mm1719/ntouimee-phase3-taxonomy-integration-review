@@ -106,6 +106,29 @@ const correctedCandidate: Candidate = {
   ])
 };
 
+const algaebaseBackedCandidate = {
+  ...challengedCandidate,
+  selected_aphia_ids: "110325",
+  selected_aphia_source: "worms_status_challenged_algaebase_keep",
+  status_review_rollup_aphia_id: "110325",
+  status_review_rollup_name: "Dissodinium pseudolunula",
+  status_review_rollup_rank: "Species",
+  status_review_external_action: "algaebase_supported_keep_name",
+  status_review_external_evidence_json: JSON.stringify([
+    {
+      source: "AlgaeBase via Global Names Verifier source 195",
+      record_id: "52283",
+      matched_name: "Dissodinium pseudolunula Swift ex Elbrächter & Drebes",
+      current_name: "Dissodinium pseudolunula Swift ex Elbrächter & Drebes",
+      taxonomic_status: "Accepted",
+      url: "https://www.algaebase.org/search/species/detail/?species_id=52283"
+    }
+  ])
+} as Candidate & {
+  status_review_external_action: string;
+  status_review_external_evidence_json: string;
+};
+
 function nodeFor(candidate: Candidate): TreeNode {
   return {
     type: "dataset_class",
@@ -169,5 +192,26 @@ describe("DetailDrawer", () => {
     expect(screen.getAllByText("Neoceratium furca").length).toBeGreaterThan(0);
     expect(screen.getAllByText("Tripos furca").length).toBeGreaterThan(0);
     expect(screen.queryByText("Biceratium debile")).not.toBeInTheDocument();
+  });
+
+  it("shows the single AlgaeBase backing reference for challenged entries", () => {
+    render(
+      <DetailDrawer
+        node={nodeFor(algaebaseBackedCandidate)}
+        candidate={algaebaseBackedCandidate}
+        samples={[]}
+        sampleMap={{}}
+        invalidSampleMap={{}}
+        invalidGroups={[]}
+        onClose={vi.fn()}
+        onOpenSamples={vi.fn()}
+        onOpenInvalidSamples={vi.fn()}
+      />
+    );
+
+    expect(screen.getByText("AlgaeBase backing")).toBeInTheDocument();
+    expect(screen.getByText("algaebase_supported_keep_name")).toBeInTheDocument();
+    expect(screen.getByText("Dissodinium pseudolunula Swift ex Elbrächter & Drebes")).toBeInTheDocument();
+    expect(screen.getByText("https://www.algaebase.org/search/species/detail/?species_id=52283")).toBeInTheDocument();
   });
 });
