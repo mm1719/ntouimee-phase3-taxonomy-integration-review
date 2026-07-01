@@ -103,7 +103,8 @@ export function HelpModal({ open, onClose }: Props) {
             <div>
               <dt>Subordinate AphiaID</dt>
               <dd>
-                該類別的資料存在一個資料的 aphia id，其對應的名稱是該資料名稱的從屬，在歸類上以 Aphia ID 為準。
+                At least one source AphiaID points to a taxon that is subordinate
+                to the dataset label. Placement follows the AphiaID-backed taxon.
               </dd>
             </div>
             <div>

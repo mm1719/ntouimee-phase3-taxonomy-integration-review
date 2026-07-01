@@ -78,7 +78,6 @@ select { width: 100%; border: 1px solid #cfd5ca; border-radius: 8px; padding: 8p
 .badge { border-left: 4px solid; border-top: 1px solid #e5e7eb; border-right: 1px solid #e5e7eb; border-bottom: 1px solid #e5e7eb; }
 .risk-badge { border: 1px solid #d97706; color: #92400e; background: #fff7ed; }
 .risk-broad_class { border-color: #ea580c; color: #9a3412; background: #ffedd5; }
-.risk-subordinate_aphia_id { border-color: #c2410c; color: #7c2d12; background: #fed7aa; }
 .risk-corrected, .risk-challenged { border-color: #f59e0b; color: #92400e; background: #fef3c7; }
 .special-tag { border: 1px solid #0f766e; color: #115e59; background: #ecfdf5; }
 .tag-multiple { border-color: #0e7490; color: #155e75; background: #ecfeff; }
