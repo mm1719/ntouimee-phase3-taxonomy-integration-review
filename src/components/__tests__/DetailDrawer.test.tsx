@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 import { DetailDrawer } from "../DetailDrawer";
 import type { Candidate, TreeNode } from "../../types";
 
@@ -150,6 +150,18 @@ const round12BroadCandidate = {
   broad_class_reason: "Round 12 loose AphiaID match: original label is narrower than the source AphiaID record, so the row is treated as broad class placement."
 } as Candidate & { broad_class_reason: string };
 
+const contaminatedCandidate = {
+  ...challengedCandidate,
+  entry_id: "life_watch::Bellerochea_horologicalis",
+  dataset_id: "life_watch",
+  label: "Bellerochea_horologicalis",
+  original_label: "Bellerochea_horologicalis",
+  selected_aphia_ids: "149305",
+  risk_flags: "contaminated",
+  status_review_flag: "",
+  contaminated_sources: "Taxonomic Mismatch: 1066 -> Crustacea"
+} as Candidate;
+
 function nodeFor(candidate: Candidate): TreeNode {
   return {
     type: "dataset_class",
@@ -253,5 +265,30 @@ describe("DetailDrawer", () => {
 
     expect(screen.getByText("Broad class mapping")).toBeInTheDocument();
     expect(screen.getByText(/original label is narrower than the source AphiaID record/)).toBeInTheDocument();
+  });
+
+  it("opens selected-AphiaID valid samples for contaminated entries", () => {
+    const onOpenSamples = vi.fn();
+    render(
+      <DetailDrawer
+        node={nodeFor(contaminatedCandidate)}
+        candidate={contaminatedCandidate}
+        samples={[{ dataset_id: "life_watch", label: "fallback", image_id: "1", thumbnail_url: "/samples/a.jpg", source_ref: "a.jpg", width: "1", height: "1" }]}
+        sampleMap={{
+          "life_watch::Bellerochea_horologicalis::aphia::149305": [
+            { dataset_id: "life_watch", label: "selected", image_id: "2", thumbnail_url: "/samples/b.jpg", source_ref: "b.jpg", width: "1", height: "1" },
+            { dataset_id: "life_watch", label: "selected", image_id: "3", thumbnail_url: "/samples/c.jpg", source_ref: "c.jpg", width: "1", height: "1" }
+          ]
+        }}
+        invalidSampleMap={{}}
+        invalidGroups={[]}
+        onClose={vi.fn()}
+        onOpenSamples={onOpenSamples}
+        onOpenInvalidSamples={vi.fn()}
+      />
+    );
+
+    fireEvent.click(screen.getByText("Valid evidence thumbnails (2)"));
+    expect(onOpenSamples).toHaveBeenCalledWith("life_watch::Bellerochea_horologicalis::aphia::149305");
   });
 });

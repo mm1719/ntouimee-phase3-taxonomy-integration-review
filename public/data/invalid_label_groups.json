@@ -12852,71 +12852,8 @@
       {
         "dataset_id": "life_watch_2026_image_library",
         "label": "Asterolampraceae",
-        "image_id": "5668B4B4-32B6-46AC-918D-CEF2E88B7582",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/asterolampraceae/01_e8c48ce6c1.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Asterolampraceae/5668B4B4-32B6-46AC-918D-CEF2E88B7582.png",
-        "width": "79",
-        "height": "88"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Asterolampraceae",
-        "image_id": "75BE9872-6CAF-42B6-832C-45193FDA4F3D",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/asterolampraceae/02_d9486f14f2.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Asterolampraceae/75BE9872-6CAF-42B6-832C-45193FDA4F3D.png",
-        "width": "50",
-        "height": "73"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Asterolampraceae",
-        "image_id": "D4446245-128B-4547-A8FD-25D33DA63EF0",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/asterolampraceae/03_e580a7e910.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Asterolampraceae/D4446245-128B-4547-A8FD-25D33DA63EF0.png",
-        "width": "68",
-        "height": "66"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Asterolampraceae",
-        "image_id": "91429D26-6503-4E93-A103-A7EA7E078EBA",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/asterolampraceae/04_b4f44668ef.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Asterolampraceae/91429D26-6503-4E93-A103-A7EA7E078EBA.png",
-        "width": "62",
-        "height": "52"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Asterolampraceae",
-        "image_id": "9659A7E3-CC63-4A0C-B493-D965D306CC95",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/asterolampraceae/05_c7dbfed37e.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Asterolampraceae/9659A7E3-CC63-4A0C-B493-D965D306CC95.png",
-        "width": "66",
-        "height": "48"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Asterolampraceae",
-        "image_id": "B642BB57-70A9-47CA-843A-CAC301B94AB7",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/asterolampraceae/06_07c3518caf.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Asterolampraceae/B642BB57-70A9-47CA-843A-CAC301B94AB7.png",
-        "width": "57",
-        "height": "78"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Asterolampraceae",
-        "image_id": "B15C7114-A453-40AF-8FA8-69A06650E869",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/asterolampraceae/07_1d027fa36a.jpg",
-        "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Asterolampraceae/B15C7114-A453-40AF-8FA8-69A06650E869.png",
-        "width": "49",
-        "height": "67"
-      },
-      {
-        "dataset_id": "life_watch_2026_image_library",
-        "label": "Asterolampraceae",
         "image_id": "99247C7D-C79D-4882-BFBE-125E030755B2",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/asterolampraceae/08_19020d20ab.jpg",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch_2026_image_library/asterolampraceae/01_3d8872ee86.jpg",
         "source_ref": "datasets/LifeWatch 2026 Image Library/extracted/image_lib_v1.0/images/Asterolampraceae/99247C7D-C79D-4882-BFBE-125E030755B2.png",
         "width": "129",
         "height": "117"
@@ -12926,74 +12863,20 @@
       {
         "dataset_id": "life_watch",
         "label": "Bellerochea_horologicalis",
-        "image_id": "5F2387BD-01DB-423A-BDD9-D88E7BB89B9C",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/bellerochea_horologicalis/01_f8658c4f4e.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Bellerochea_horologicalis/ecotaxa_Bellerochea_horologicalis_5F2387BD-01DB-423A-BDD9-D88E7BB89B9C.jpg",
-        "width": "165",
-        "height": "51"
+        "image_id": "BCFE386B-1F84-4517-BCE8-461561B56B9B",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/bellerochea_horologicalis/01_3c7d293980.jpg",
+        "source_ref": "datasets/LifeWatch/data/images/Bellerochea_horologicalis/ecotaxa_Bellerochea_horologicalis_BCFE386B-1F84-4517-BCE8-461561B56B9B.jpg",
+        "width": "95",
+        "height": "63"
       },
       {
         "dataset_id": "life_watch",
         "label": "Bellerochea_horologicalis",
-        "image_id": "B08616AF-260F-48B5-9434-C7188F4A4829",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/bellerochea_horologicalis/02_2646426582.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Bellerochea_horologicalis/ecotaxa_Bellerochea_horologicalis_B08616AF-260F-48B5-9434-C7188F4A4829.jpg",
-        "width": "96",
-        "height": "253"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Bellerochea_horologicalis",
-        "image_id": "B7B8F78F-6361-4179-A41B-1CA0D89C22BA",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/bellerochea_horologicalis/03_e3430bc7e7.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Bellerochea_horologicalis/ecotaxa_Bellerochea_horologicalis_B7B8F78F-6361-4179-A41B-1CA0D89C22BA.jpg",
-        "width": "131",
-        "height": "196"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Bellerochea_horologicalis",
-        "image_id": "6E0261F2-8D09-4C31-84F0-E81FD5C883CD",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/bellerochea_horologicalis/04_6288b430ff.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Bellerochea_horologicalis/ecotaxa_Bellerochea_horologicalis_6E0261F2-8D09-4C31-84F0-E81FD5C883CD.jpg",
-        "width": "322",
-        "height": "108"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Bellerochea_horologicalis",
-        "image_id": "28DD6A88-802F-4606-9FD3-8796F2F1E373",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/bellerochea_horologicalis/05_794805e6e6.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Bellerochea_horologicalis/ecotaxa_Bellerochea_horologicalis_28DD6A88-802F-4606-9FD3-8796F2F1E373.jpg",
-        "width": "99",
-        "height": "83"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Bellerochea_horologicalis",
-        "image_id": "87E83CAF-9E94-421D-AA80-B3AF4D959882",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/bellerochea_horologicalis/06_26f33e1346.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Bellerochea_horologicalis/ecotaxa_Bellerochea_horologicalis_87E83CAF-9E94-421D-AA80-B3AF4D959882.jpg",
-        "width": "62",
-        "height": "128"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Bellerochea_horologicalis",
-        "image_id": "86C51694-D17D-4766-B240-F3066A4B10DD",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/bellerochea_horologicalis/07_1a7d060718.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Bellerochea_horologicalis/ecotaxa_Bellerochea_horologicalis_86C51694-D17D-4766-B240-F3066A4B10DD.jpg",
-        "width": "63",
-        "height": "239"
-      },
-      {
-        "dataset_id": "life_watch",
-        "label": "Bellerochea_horologicalis",
-        "image_id": "F4BC8568-F4A2-46DF-B58C-908A66D73169",
-        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/bellerochea_horologicalis/08_3dec845e94.jpg",
-        "source_ref": "datasets/LifeWatch/data/images/Bellerochea_horologicalis/ecotaxa_Bellerochea_horologicalis_F4BC8568-F4A2-46DF-B58C-908A66D73169.jpg",
-        "width": "61",
-        "height": "275"
+        "image_id": "CE161843-510C-4419-A442-1F575FB642E6",
+        "thumbnail_url": "/invalid-samples/taxonomic_mismatch/life_watch/bellerochea_horologicalis/02_2235af42c5.jpg",
+        "source_ref": "datasets/LifeWatch/data/images/Bellerochea_horologicalis/ecotaxa_Bellerochea_horologicalis_CE161843-510C-4419-A442-1F575FB642E6.jpg",
+        "width": "82",
+        "height": "68"
       }
     ],
     "taxonomic_mismatch::crustaceae-part": [

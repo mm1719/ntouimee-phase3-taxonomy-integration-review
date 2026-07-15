@@ -154,8 +154,7 @@ def build_samples() -> dict[str, list[dict[str, str]]]:
                 aphia_id = row.get(cfg.get("aphia_id", ""), "")
                 aphia_sample_key = (
                     f"{entry_id}::aphia::{aphia_id}"
-                    if len(selected_aphia_ids) > 1
-                    and aphia_id
+                    if aphia_id
                     and aphia_id in selected_aphia_ids
                     else ""
                 )

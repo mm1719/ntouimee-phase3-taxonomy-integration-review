@@ -141,6 +141,25 @@ describe("valid route public data contract", () => {
 
     expect(specialTagCount).toBeGreaterThan(0);
   });
+
+  it("applies round 13 Bacillariophyceae and Hemidiscus selected-ID cleanup", () => {
+    candidates.forEach((candidate) => {
+      expect(splitCell(candidate.selected_aphia_ids), candidate.entry_id).not.toContain("148898");
+      expect(splitCell(candidate.selected_aphia_ids), candidate.entry_id).not.toContain("737409");
+    });
+
+    const bongoHemidiscus = candidates.find(
+      (candidate) => candidate.entry_id === "tara_pacific_bongo::Hemidiscus"
+    );
+    expect(bongoHemidiscus?.selected_aphia_ids).toBe("180366");
+    expect(splitCell(bongoHemidiscus?.risk_flags ?? "")).toContain("contaminated");
+
+    const lifeWatchHemidiscus = candidates.find(
+      (candidate) => candidate.entry_id === "life_watch_2026_image_library::Hemidiscus"
+    );
+    expect(lifeWatchHemidiscus?.selected_aphia_ids).toBe("180366");
+    expect(splitCell(lifeWatchHemidiscus?.risk_flags ?? "")).not.toContain("contaminated");
+  });
 });
 
 describe("invalid route public data contract", () => {

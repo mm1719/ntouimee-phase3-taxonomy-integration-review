@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-01T07:03:09+00:00",
+  "generated_at_utc": "2026-07-15T02:11:10+00:00",
   "source_targets": "derived/ml_ready/target_profiles.csv",
   "history_dir": "derived/ml_ready/mapping_history",
   "export_fields": [
@@ -10,7 +10,7 @@
     "target_alias",
     "notes"
   ],
-  "target_count": 241,
+  "target_count": 239,
   "targets": [
     {
       "source_id": "ntc_082",
@@ -26,13 +26,13 @@
     {
       "source_id": "148899",
       "source_alias": "Bacillariophyceae",
-      "image_count": 356842,
+      "image_count": 467491,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "broad_class",
       "special_tags": "dwc_record_review|multiple",
-      "dataset_ids": "life_watch_2026_image_library|tara_pacific_deck|life_watch|tara_pacific_bongo|flowcam_net",
-      "source_labels": "Long (chained) diatom|Bacillariophyceae|Centric Diatom|Pennate Diatom|Pennate_Diatom|Centric_Diatom|Synedra+Thalassionema|Synedra/Thalassionema|Bacillariophyceae_type1_colony|Stalked epiphytic diatom|Pennate_Diatom_colony|Epiphytic diatom|Pennate Diatom colony"
+      "dataset_ids": "life_watch_2026_image_library|tara_pacific_deck|tara_pacific_bongo|life_watch|flowcam_net",
+      "source_labels": "Long (chained) diatom|Bacillariophyceae|chainthin|Centric Diatom|Rhizosolenids|Pennate Diatom|Chaetoceros<Mediophyceae|Pennate_Diatom|Centric_Diatom|Synedra+Thalassionema|Synedra/Thalassionema|Coscinodiscids|pennate<Bacillariophyta|Rhizosolenia inter. Richelia|Bacillariophyceae_type1_colony|Pseudo-Nitzschia chain|chainlarge|multiple<Diatoma|Bacteriastrum<Mediophyceae|rhizosolenia tmp i|pennate|Stalked epiphytic diatom|rhizosolenia inter richelia tmp i|Climacodium inter. Crocosphaera|Pennate_Diatom_colony|centric|Chaetoceros inter ciliate|Epiphytic diatom|Odontella sp.|Pennate Diatom colony|Chaetoceros inter. Calothrix"
     },
     {
       "source_id": "149069",
@@ -66,17 +66,6 @@
       "special_tags": "n/a",
       "dataset_ids": "tara_pacific_deck|flowcam_net",
       "source_labels": "lightsphere|othersphere|darksphere|light<sphere|dark<sphere"
-    },
-    {
-      "source_id": "148898",
-      "source_alias": "Bacillariophyta",
-      "image_count": 110649,
-      "valid_statuses": "valid",
-      "invalid_reasons": "n/a",
-      "risk_flags": "broad_class",
-      "special_tags": "multiple",
-      "dataset_ids": "tara_pacific_deck|tara_pacific_bongo|flowcam_net",
-      "source_labels": "chainthin|Rhizosolenids|Chaetoceros<Mediophyceae|Coscinodiscids|pennate<Bacillariophyta|Rhizosolenia inter. Richelia|Pseudo-Nitzschia chain|chainlarge|multiple<Diatoma|Bacteriastrum<Mediophyceae|rhizosolenia tmp i|pennate|rhizosolenia inter richelia tmp i|Climacodium inter. Crocosphaera|centric|Chaetoceros inter ciliate|Odontella sp.|Chaetoceros inter. Calothrix"
     },
     {
       "source_id": "149023",
@@ -2224,14 +2213,14 @@
       "source_labels": "Thalassiosira punctigera"
     },
     {
-      "source_id": "737409",
+      "source_id": "180366",
       "source_alias": "Hemidiscus",
-      "image_count": 15,
+      "image_count": 16,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
+      "risk_flags": "contaminated",
       "special_tags": "dwc_record_review",
-      "dataset_ids": "tara_pacific_bongo",
+      "dataset_ids": "tara_pacific_bongo|life_watch_2026_image_library",
       "source_labels": "Hemidiscus"
     },
     {
@@ -2565,17 +2554,6 @@
       "source_labels": "Trichodesmium"
     },
     {
-      "source_id": "180366",
-      "source_alias": "Hemidiscus",
-      "image_count": 1,
-      "valid_statuses": "valid",
-      "invalid_reasons": "n/a",
-      "risk_flags": "n/a",
-      "special_tags": "n/a",
-      "dataset_ids": "life_watch_2026_image_library",
-      "source_labels": "Hemidiscus"
-    },
-    {
       "source_id": "232546",
       "source_alias": "Akashiwo sanguinea",
       "image_count": 1,
@@ -2670,7 +2648,7 @@
       "history_id": "2026_06_14_manual_mapping_rules",
       "file_name": "2026-06-14_manual_mapping_rules.csv",
       "path": "derived/ml_ready/mapping_history/2026-06-14_manual_mapping_rules.csv",
-      "row_count": 241,
+      "row_count": 239,
       "explicit_row_count": 31,
       "merge_count": 29,
       "drop_count": 2,
@@ -2823,16 +2801,6 @@
           "source_id": "ntc_083",
           "target_id": "",
           "source_alias": "sphere",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
-          "source_id": "148898",
-          "target_id": "",
-          "source_alias": "Bacillariophyta",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",
@@ -4790,7 +4758,7 @@
         },
         {
           "action": "keep",
-          "source_id": "737409",
+          "source_id": "180366",
           "target_id": "",
           "source_alias": "Hemidiscus",
           "target_alias": "",
@@ -5100,16 +5068,6 @@
         },
         {
           "action": "keep",
-          "source_id": "180366",
-          "target_id": "",
-          "source_alias": "Hemidiscus",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
           "source_id": "232546",
           "target_id": "",
           "source_alias": "Akashiwo sanguinea",
@@ -5194,7 +5152,7 @@
       "history_id": "zz_2026_06_19_formal_mapping_status",
       "file_name": "zz_2026-06-19_formal_mapping_status.csv",
       "path": "derived/ml_ready/mapping_history/zz_2026-06-19_formal_mapping_status.csv",
-      "row_count": 241,
+      "row_count": 239,
       "explicit_row_count": 46,
       "merge_count": 36,
       "drop_count": 10,
@@ -5248,16 +5206,6 @@
           "source_alias": "sphere",
           "target_alias": "detritus",
           "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
-          "source_id": "148898",
-          "target_id": "",
-          "source_alias": "Bacillariophyta",
-          "target_alias": "",
-          "notes": "",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -7213,7 +7161,7 @@
         },
         {
           "action": "keep",
-          "source_id": "737409",
+          "source_id": "180366",
           "target_id": "",
           "source_alias": "Hemidiscus",
           "target_alias": "",
@@ -7516,16 +7464,6 @@
           "source_id": "177604",
           "target_id": "",
           "source_alias": "Trichodesmium",
-          "target_alias": "",
-          "notes": "",
-          "validation_status": "ok",
-          "validation_message": ""
-        },
-        {
-          "action": "keep",
-          "source_id": "180366",
-          "target_id": "",
-          "source_alias": "Hemidiscus",
           "target_alias": "",
           "notes": "",
           "validation_status": "ok",

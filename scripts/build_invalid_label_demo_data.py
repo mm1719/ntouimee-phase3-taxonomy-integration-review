@@ -52,6 +52,7 @@ MANIFESTS = {
         "label": "label_original",
         "image_path": "source_path",
         "image_id": "image_id",
+        "aphia_id": "aphia_id",
         "width": "width",
         "height": "height",
     },
@@ -60,6 +61,7 @@ MANIFESTS = {
         "label": "label_original",
         "image_path": "source_path",
         "image_id": "image_id",
+        "aphia_id": "aphia_id",
         "width": "width",
         "height": "height",
     },
@@ -322,6 +324,7 @@ def build_samples(
 ) -> dict[str, list[dict[str, str]]]:
     wanted: dict[str, set[str]] = defaultdict(set)
     label_to_sample_keys: dict[tuple[str, str], list[str]] = defaultdict(list)
+    sample_key_aphia_filters: dict[tuple[str, str, str], set[str]] = defaultdict(set)
     for row in invalid_rows:
         dataset_id = row["dataset_id"]
         key = label_key(row["label"])
@@ -330,7 +333,14 @@ def build_samples(
         for status in split_cell(row["invalid_statuses"]):
             status_key = STATUS_KEYS.get(status)
             if status_key:
-                label_to_sample_keys[(dataset_id, key)].append(f"{status_key}::{group_key}")
+                sample_key = f"{status_key}::{group_key}"
+                label_to_sample_keys[(dataset_id, key)].append(sample_key)
+                if status == "Taxonomic Mismatch":
+                    selected_ids = set(split_cell(row.get("valid_tree_selected_aphia_ids", "")))
+                    source_ids = set(split_cell(row.get("numeric_aphia_ids", "")))
+                    sample_key_aphia_filters[(dataset_id, key, sample_key)].update(
+                        source_ids - selected_ids or source_ids
+                    )
 
     if SAMPLES_DIR.exists():
         shutil.rmtree(SAMPLES_DIR)
@@ -365,6 +375,17 @@ def build_samples(
                 for sample_key in target_sample_keys:
                     counter_key = (sample_key, dataset_id, key)
                     if per_dataset_counts[counter_key] >= SAMPLE_LIMIT_PER_DATASET:
+                        continue
+                    aphia_field = str(cfg.get("aphia_id", ""))
+                    aphia_filter = sample_key_aphia_filters.get(
+                        (dataset_id, key, sample_key), set()
+                    )
+                    if (
+                        aphia_field
+                        and aphia_filter
+                        and row.get(aphia_field, "")
+                        and row.get(aphia_field, "") not in aphia_filter
+                    ):
                         continue
                     sample_index = per_dataset_counts[counter_key] + 1
                     digest = hashlib.sha1(

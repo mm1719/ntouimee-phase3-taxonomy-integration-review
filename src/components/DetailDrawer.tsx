@@ -80,6 +80,13 @@ export function DetailDrawer({
     ...(node.dataset_id ? [node.dataset_id] : []),
     ...(node.datasets ?? [])
   ])];
+  const validEvidenceSampleKey =
+    candidate && selectedIds.length === 1
+      ? `${candidate.entry_id}::aphia::${selectedIds[0]}`
+      : candidate?.entry_id ?? "";
+  const validEvidenceSamples = validEvidenceSampleKey
+    ? sampleMap[validEvidenceSampleKey] ?? samples
+    : samples;
 
   return (
     <aside className="drawer">
@@ -213,9 +220,9 @@ export function DetailDrawer({
           </dl>
           <p className="path-text">{candidate.contaminated_sources}</p>
           <div className="evidence-actions">
-            <button className="ghost-button" onClick={() => onOpenSamples(candidate.entry_id)}>
+            <button className="ghost-button" onClick={() => onOpenSamples(validEvidenceSampleKey || candidate.entry_id)}>
               <Images size={16} />
-              Valid evidence thumbnails ({samples.length})
+              Valid evidence thumbnails ({validEvidenceSamples.length})
             </button>
             {invalidGroups.map((group) => (
               <button
