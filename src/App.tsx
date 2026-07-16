@@ -8,7 +8,7 @@ import { MappingStatusReview } from "./components/MappingStatusReview";
 import { RiskPanels } from "./components/RiskPanels";
 import { SamplePage } from "./components/SamplePage";
 import { TaxonomyTree } from "./components/TaxonomyTree";
-import { DATASET_LABELS, DATASETS, RISK_LABELS, SPECIAL_TAG_LABELS } from "./data/constants";
+import { DATASETS, RISK_LABELS, SPECIAL_TAG_LABELS, datasetLabel, datasetSort } from "./data/constants";
 import type { Candidate, DatasetId, InvalidLabelData, InvalidLabelGroup, MappingStatusData, SampleMap, TreeNode } from "./types";
 import { parseCsv } from "./utils/csv";
 import { collectRanks, filterTree, normalizeTree, type Filters } from "./utils/tree";
@@ -95,6 +95,16 @@ function App() {
   }, [data]);
 
   const ranks = useMemo(() => (data ? collectRanks(data.tree) : []), [data]);
+  const datasetOptions = useMemo(() => {
+    if (!data) return DATASETS;
+    const treeDatasets = Object.keys(data.tree.dataset_labels ?? {});
+    if (treeDatasets.length > 0) return treeDatasets.sort(datasetSort);
+    return [...new Set(data.candidates.map((candidate) => candidate.dataset_id))].sort(datasetSort);
+  }, [data]);
+
+  useEffect(() => {
+    if (data) setDatasets(new Set(datasetOptions));
+  }, [data, datasetOptions]);
 
   const filters: Filters = useMemo(
     () => ({ queries, datasets, risks, rank }),
@@ -260,14 +270,14 @@ function App() {
 
             <section>
               <h2><SlidersHorizontal size={16} /> Datasets</h2>
-              {DATASETS.map((dataset) => (
+              {datasetOptions.map((dataset) => (
                 <label className="check-row" key={dataset}>
                   <input
                     type="checkbox"
                     checked={datasets.has(dataset)}
                     onChange={() => toggleDataset(dataset)}
                   />
-                  {DATASET_LABELS[dataset]}
+                  {datasetLabel(dataset, data.tree.dataset_labels)}
                 </label>
               ))}
             </section>
@@ -350,7 +360,7 @@ function App() {
                   name: candidate.label,
                   entry_id: candidate.entry_id,
                   dataset_id: candidate.dataset_id,
-                  dataset_label: DATASET_LABELS[candidate.dataset_id],
+                  dataset_label: datasetLabel(candidate.dataset_id, data.tree.dataset_labels),
                   original_label: candidate.original_label,
                   image_count: Number(candidate.image_count),
                   candidate_image_count: Number(candidate.image_count),

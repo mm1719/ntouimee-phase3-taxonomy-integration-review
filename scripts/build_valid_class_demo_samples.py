@@ -96,15 +96,19 @@ def relative_ref(value: str) -> str:
 
 def read_candidates() -> dict[str, dict[str, dict[str, str]]]:
     labels: dict[str, dict[str, dict[str, str]]] = defaultdict(dict)
-    with CANDIDATES.open("r", encoding="utf-8", newline="") as handle:
-        for row in csv.DictReader(handle):
-            source_label = row.get("original_label") or row["label"]
-            labels[row["dataset_id"]][source_label] = {
-                "display_label": row["label"],
-                "entry_id": row["entry_id"],
-                "selected_aphia_ids": row.get("selected_aphia_ids", ""),
-            }
+    for row in read_candidate_rows():
+        source_label = row.get("original_label") or row["label"]
+        labels[row["dataset_id"]][source_label] = {
+            "display_label": row["label"],
+            "entry_id": row["entry_id"],
+            "selected_aphia_ids": row.get("selected_aphia_ids", ""),
+        }
     return labels
+
+
+def read_candidate_rows() -> list[dict[str, str]]:
+    with CANDIDATES.open("r", encoding="utf-8", newline="") as handle:
+        return list(csv.DictReader(handle))
 
 
 def label_key(value: str) -> str:
@@ -119,6 +123,66 @@ def write_thumbnail(source: Path, output: Path) -> None:
         if image.mode not in {"RGB", "L"}:
             image = image.convert("RGB")
         image.save(output, format="JPEG", quality=82, optimize=True)
+
+
+def image_size(source: Path) -> tuple[str, str]:
+    try:
+        with Image.open(source) as image:
+            return str(image.width), str(image.height)
+    except Exception:
+        return "", ""
+
+
+def add_ecotaxa_samples(samples: dict[str, list[dict[str, str]]]) -> None:
+    for row in read_candidate_rows():
+        dataset_id = row["dataset_id"]
+        if not dataset_id.startswith("ecotaxa_"):
+            continue
+        entry_id = row["entry_id"]
+        label = row["label"]
+        selected_aphia_ids = [
+            item for item in row.get("selected_aphia_ids", "").split("|") if item
+        ]
+        for source_value in [
+            item for item in row.get("source_example", "").split("|") if item
+        ]:
+            if len(samples[entry_id]) >= SAMPLE_LIMIT:
+                break
+            source_path = Path(source_value)
+            if not source_path.is_absolute():
+                source_path = ROOT / source_path
+            if not source_path.exists():
+                continue
+            sample_index = len(samples[entry_id]) + 1
+            digest = hashlib.sha1(
+                f"{entry_id}:{source_value}:{sample_index}".encode("utf-8")
+            ).hexdigest()[:10]
+            output_rel = (
+                Path("samples")
+                / safe_segment(dataset_id)
+                / safe_segment(label)
+                / f"{sample_index:02d}_{digest}.jpg"
+            )
+            output_path = DEMO_ROOT / "public" / output_rel
+            try:
+                write_thumbnail(source_path, output_path)
+            except Exception:
+                continue
+            width, height = image_size(source_path)
+            sample_row = {
+                "dataset_id": dataset_id,
+                "label": label,
+                "image_id": source_path.stem,
+                "thumbnail_url": "/" + str(output_rel),
+                "source_ref": relative_ref(source_value),
+                "width": width,
+                "height": height,
+            }
+            samples[entry_id].append(sample_row)
+            for aphia_id in selected_aphia_ids:
+                aphia_sample_key = f"{entry_id}::aphia::{aphia_id}"
+                if len(samples[aphia_sample_key]) < SAMPLE_LIMIT:
+                    samples[aphia_sample_key].append(sample_row)
 
 
 def build_samples() -> dict[str, list[dict[str, str]]]:
@@ -201,6 +265,7 @@ def build_samples() -> dict[str, list[dict[str, str]]]:
                     remaining.discard(entry_id)
                     if not remaining:
                         break
+    add_ecotaxa_samples(samples)
     return dict(sorted(samples.items()))
 
 

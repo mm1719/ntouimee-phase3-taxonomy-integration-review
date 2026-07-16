@@ -1,10 +1,10 @@
-import { DATASET_COLORS, DATASET_LABELS, NOTE_LABELS, RISK_LABELS, SPECIAL_TAG_LABELS } from "../data/constants";
+import { datasetColor, datasetLabel, NOTE_LABELS, RISK_LABELS, SPECIAL_TAG_LABELS } from "../data/constants";
 import type { DatasetId } from "../types";
 
 export function DatasetBadge({ id }: { id: DatasetId }) {
   return (
-    <span className="badge" style={{ borderColor: DATASET_COLORS[id] }}>
-      {DATASET_LABELS[id]}
+    <span className="badge" style={{ borderColor: datasetColor(id) }}>
+      {datasetLabel(id)}
     </span>
   );
 }

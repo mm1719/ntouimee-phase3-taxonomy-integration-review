@@ -1,6 +1,6 @@
 import type { DatasetId } from "../types";
 
-export const DATASET_LABELS: Record<DatasetId, string> = {
+export const DATASET_LABELS: Record<string, string> = {
   life_watch: "LifeWatch",
   life_watch_2026_image_library: "LifeWatch 2026",
   flowcam_net: "FlowCAMNet",
@@ -9,7 +9,7 @@ export const DATASET_LABELS: Record<DatasetId, string> = {
   ifremer_srn: "Ifremer SRN"
 };
 
-export const DATASET_COLORS: Record<DatasetId, string> = {
+export const DATASET_COLORS: Record<string, string> = {
   life_watch: "#2563eb",
   life_watch_2026_image_library: "#7c3aed",
   flowcam_net: "#16a34a",
@@ -19,6 +19,41 @@ export const DATASET_COLORS: Record<DatasetId, string> = {
 };
 
 export const DATASETS = Object.keys(DATASET_LABELS) as DatasetId[];
+export const ECOTAXA_DATASET_COLOR = "#0f766e";
+
+export function datasetLabel(
+  dataset: DatasetId,
+  labels: Record<string, string> = {}
+) {
+  if (labels[dataset]) return labels[dataset];
+  if (DATASET_LABELS[dataset]) return DATASET_LABELS[dataset];
+  if (dataset.startsWith("ecotaxa_")) return `EcoTaxa ${dataset.replace("ecotaxa_", "")}`;
+  return dataset;
+}
+
+export function datasetColor(dataset: DatasetId) {
+  if (DATASET_COLORS[dataset]) return DATASET_COLORS[dataset];
+  if (dataset.startsWith("ecotaxa_")) return ECOTAXA_DATASET_COLOR;
+  return "#6b7280";
+}
+
+export function datasetSort(a: DatasetId, b: DatasetId) {
+  const aKnown = DATASETS.indexOf(a);
+  const bKnown = DATASETS.indexOf(b);
+  if (aKnown !== -1 || bKnown !== -1) {
+    if (aKnown === -1) return 1;
+    if (bKnown === -1) return -1;
+    return aKnown - bKnown;
+  }
+  const aProject = a.startsWith("ecotaxa_") ? Number(a.replace("ecotaxa_", "")) : NaN;
+  const bProject = b.startsWith("ecotaxa_") ? Number(b.replace("ecotaxa_", "")) : NaN;
+  if (!Number.isNaN(aProject) || !Number.isNaN(bProject)) {
+    if (Number.isNaN(aProject)) return 1;
+    if (Number.isNaN(bProject)) return -1;
+    return aProject - bProject;
+  }
+  return a.localeCompare(b);
+}
 
 export const CORE_RANKS = new Set([
   "Root",

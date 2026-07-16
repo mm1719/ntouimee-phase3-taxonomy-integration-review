@@ -8,7 +8,7 @@ import {
 } from "@tanstack/react-table";
 import { useMemo, useState } from "react";
 import { RiskBadge, SpecialTagBadge } from "./Badges";
-import { DATASET_LABELS } from "../data/constants";
+import { datasetLabel } from "../data/constants";
 import type { Candidate } from "../types";
 import { splitCell } from "../utils/csv";
 
@@ -71,7 +71,7 @@ function reviewColumns(activeKey: ReviewKey) {
     }),
     helper.accessor("dataset_id", {
       header: "Dataset",
-      cell: (info) => DATASET_LABELS[info.getValue()] ?? info.getValue()
+      cell: (info) => datasetLabel(info.getValue())
     }),
     helper.accessor("label", { header: "Label" }),
     helper.accessor("image_count", {
