@@ -1,4 +1,186 @@
 {
+  "ecotaxa_10750::134941::ecotaxa_source_aphia_id_keratella_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_10750",
+      "label": "Keratella",
+      "image_id": "USC_X3B3_4x_FOV300_R3_01445",
+      "thumbnail_url": "/samples/ecotaxa_10750/Keratella/01_5dafaa1aa9.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_10750/USC_X3B3_4x_FOV300_R3_01445.png",
+      "width": "146",
+      "height": "262"
+    },
+    {
+      "dataset_id": "ecotaxa_10750",
+      "label": "Keratella",
+      "image_id": "USC_X3C2_4x_FOV300_R3_00728",
+      "thumbnail_url": "/samples/ecotaxa_10750/Keratella/02_a273086656.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_10750/USC_X3C2_4x_FOV300_R3_00728.png",
+      "width": "203",
+      "height": "216"
+    },
+    {
+      "dataset_id": "ecotaxa_10750",
+      "label": "Keratella",
+      "image_id": "USC_X3D1_4x_FOV300_R2_04405",
+      "thumbnail_url": "/samples/ecotaxa_10750/Keratella/03_fe78ab6ee1.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_10750/USC_X3D1_4x_FOV300_R2_04405.png",
+      "width": "240",
+      "height": "296"
+    },
+    {
+      "dataset_id": "ecotaxa_10750",
+      "label": "Keratella",
+      "image_id": "USC_X3D4_4x_FOV300_R2_02139",
+      "thumbnail_url": "/samples/ecotaxa_10750/Keratella/04_474d7e433e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_10750/USC_X3D4_4x_FOV300_R2_02139.png",
+      "width": "166",
+      "height": "211"
+    },
+    {
+      "dataset_id": "ecotaxa_10750",
+      "label": "Keratella",
+      "image_id": "USC_X3D5_4x_FOV300_R1_01315",
+      "thumbnail_url": "/samples/ecotaxa_10750/Keratella/05_e3d25069ff.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_10750/USC_X3D5_4x_FOV300_R1_01315.png",
+      "width": "116",
+      "height": "218"
+    }
+  ],
+  "ecotaxa_10750::134941::ecotaxa_source_aphia_id_keratella_n_a_n_a::aphia::134941": [
+    {
+      "dataset_id": "ecotaxa_10750",
+      "label": "Keratella",
+      "image_id": "USC_X3B3_4x_FOV300_R3_01445",
+      "thumbnail_url": "/samples/ecotaxa_10750/Keratella/01_5dafaa1aa9.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_10750/USC_X3B3_4x_FOV300_R3_01445.png",
+      "width": "146",
+      "height": "262"
+    },
+    {
+      "dataset_id": "ecotaxa_10750",
+      "label": "Keratella",
+      "image_id": "USC_X3C2_4x_FOV300_R3_00728",
+      "thumbnail_url": "/samples/ecotaxa_10750/Keratella/02_a273086656.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_10750/USC_X3C2_4x_FOV300_R3_00728.png",
+      "width": "203",
+      "height": "216"
+    },
+    {
+      "dataset_id": "ecotaxa_10750",
+      "label": "Keratella",
+      "image_id": "USC_X3D1_4x_FOV300_R2_04405",
+      "thumbnail_url": "/samples/ecotaxa_10750/Keratella/03_fe78ab6ee1.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_10750/USC_X3D1_4x_FOV300_R2_04405.png",
+      "width": "240",
+      "height": "296"
+    },
+    {
+      "dataset_id": "ecotaxa_10750",
+      "label": "Keratella",
+      "image_id": "USC_X3D4_4x_FOV300_R2_02139",
+      "thumbnail_url": "/samples/ecotaxa_10750/Keratella/04_474d7e433e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_10750/USC_X3D4_4x_FOV300_R2_02139.png",
+      "width": "166",
+      "height": "211"
+    },
+    {
+      "dataset_id": "ecotaxa_10750",
+      "label": "Keratella",
+      "image_id": "USC_X3D5_4x_FOV300_R1_01315",
+      "thumbnail_url": "/samples/ecotaxa_10750/Keratella/05_e3d25069ff.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_10750/USC_X3D5_4x_FOV300_R1_01315.png",
+      "width": "116",
+      "height": "218"
+    }
+  ],
+  "ecotaxa_10750::367360::ecotaxa_source_aphia_id_aulosphaeridae_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_10750",
+      "label": "Aulosphaeridae",
+      "image_id": "USC_X4C1_4x_FOV300_R2_01049",
+      "thumbnail_url": "/samples/ecotaxa_10750/Aulosphaeridae/01_48ab391986.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_10750/USC_X4C1_4x_FOV300_R2_01049.png",
+      "width": "64",
+      "height": "68"
+    }
+  ],
+  "ecotaxa_10750::367360::ecotaxa_source_aphia_id_aulosphaeridae_n_a_n_a::aphia::367360": [
+    {
+      "dataset_id": "ecotaxa_10750",
+      "label": "Aulosphaeridae",
+      "image_id": "USC_X4C1_4x_FOV300_R2_01049",
+      "thumbnail_url": "/samples/ecotaxa_10750/Aulosphaeridae/01_48ab391986.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_10750/USC_X4C1_4x_FOV300_R2_01049.png",
+      "width": "64",
+      "height": "68"
+    }
+  ],
+  "ecotaxa_11273::146421::ecotaxa_source_aphia_id_appendicularia_tunicata_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_11273",
+      "label": "Appendicularia",
+      "image_id": "USC_01IC00_4x_FOV300_R1_01674",
+      "thumbnail_url": "/samples/ecotaxa_11273/Appendicularia/01_0837e9f990.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_11273/USC_01IC00_4x_FOV300_R1_01674.png",
+      "width": "310",
+      "height": "444"
+    }
+  ],
+  "ecotaxa_11273::146421::ecotaxa_source_aphia_id_appendicularia_tunicata_n_a_n_a::aphia::146421": [
+    {
+      "dataset_id": "ecotaxa_11273",
+      "label": "Appendicularia",
+      "image_id": "USC_01IC00_4x_FOV300_R1_01674",
+      "thumbnail_url": "/samples/ecotaxa_11273/Appendicularia/01_0837e9f990.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_11273/USC_01IC00_4x_FOV300_R1_01674.png",
+      "width": "310",
+      "height": "444"
+    }
+  ],
+  "ecotaxa_11716::14260::ecotaxa_source_aphia_id_rotifera_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_11716",
+      "label": "Rotifera",
+      "image_id": "USC_X3E2_10x_FOV100_R1_21968",
+      "thumbnail_url": "/samples/ecotaxa_11716/Rotifera/01_37ffe627d6.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_11716/USC_X3E2_10x_FOV100_R1_21968.png",
+      "width": "81",
+      "height": "134"
+    }
+  ],
+  "ecotaxa_11716::14260::ecotaxa_source_aphia_id_rotifera_n_a_n_a::aphia::14260": [
+    {
+      "dataset_id": "ecotaxa_11716",
+      "label": "Rotifera",
+      "image_id": "USC_X3E2_10x_FOV100_R1_21968",
+      "thumbnail_url": "/samples/ecotaxa_11716/Rotifera/01_37ffe627d6.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_11716/USC_X3E2_10x_FOV100_R1_21968.png",
+      "width": "81",
+      "height": "134"
+    }
+  ],
+  "ecotaxa_11716::582420::ecotaxa_broad_class_acantharea_broad_class_n_a": [
+    {
+      "dataset_id": "ecotaxa_11716",
+      "label": "Rhizaria",
+      "image_id": "USC_X3A1_10x_FOV100_R1_25404",
+      "thumbnail_url": "/samples/ecotaxa_11716/Rhizaria/01_e90a0ba259.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_11716/USC_X3A1_10x_FOV100_R1_25404.png",
+      "width": "41",
+      "height": "42"
+    }
+  ],
+  "ecotaxa_11716::582420::ecotaxa_broad_class_acantharea_broad_class_n_a::aphia::582420": [
+    {
+      "dataset_id": "ecotaxa_11716",
+      "label": "Rhizaria",
+      "image_id": "USC_X3A1_10x_FOV100_R1_25404",
+      "thumbnail_url": "/samples/ecotaxa_11716/Rhizaria/01_e90a0ba259.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_11716/USC_X3A1_10x_FOV100_R1_25404.png",
+      "width": "41",
+      "height": "42"
+    }
+  ],
   "ecotaxa_1342::160595::ecotaxa_source_aphia_id_pterosperma_n_a_n_a": [
     {
       "dataset_id": "ecotaxa_1342",
@@ -609,6 +791,68 @@
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_13909/b64_05_phyto_2988.png",
       "width": "114",
       "height": "186"
+    }
+  ],
+  "ecotaxa_13982::1410::ecotaxa_source_aphia_id_foraminifera_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_13982",
+      "label": "Foraminifera",
+      "image_id": "SS_2024_01_SWMP_10x_1ml_Psvd_R3_1832",
+      "thumbnail_url": "/samples/ecotaxa_13982/Foraminifera/01_8cad49cd88.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_13982/SS_2024_01_SWMP_10x_1ml_Psvd_R3_1832.png",
+      "width": "71",
+      "height": "91"
+    }
+  ],
+  "ecotaxa_13982::1410::ecotaxa_source_aphia_id_foraminifera_n_a_n_a::aphia::1410": [
+    {
+      "dataset_id": "ecotaxa_13982",
+      "label": "Foraminifera",
+      "image_id": "SS_2024_01_SWMP_10x_1ml_Psvd_R3_1832",
+      "thumbnail_url": "/samples/ecotaxa_13982/Foraminifera/01_8cad49cd88.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_13982/SS_2024_01_SWMP_10x_1ml_Psvd_R3_1832.png",
+      "width": "71",
+      "height": "91"
+    }
+  ],
+  "ecotaxa_14694::1410::ecotaxa_source_aphia_id_foraminifera_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_14694",
+      "label": "Foraminifera",
+      "image_id": "Harvey_15February2024_JEL_4x_rep2_23569",
+      "thumbnail_url": "/samples/ecotaxa_14694/Foraminifera/01_94da87a79b.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_14694/Harvey_15February2024_JEL_4x_rep2_23569.png",
+      "width": "97",
+      "height": "99"
+    },
+    {
+      "dataset_id": "ecotaxa_14694",
+      "label": "Foraminifera",
+      "image_id": "DDEEC14A3BFB11F08D580030180A94F9",
+      "thumbnail_url": "/samples/ecotaxa_14694/Foraminifera/02_6247c1a4f7.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_14694/DDEEC14A3BFB11F08D580030180A94F9.png",
+      "width": "68",
+      "height": "62"
+    }
+  ],
+  "ecotaxa_14694::1410::ecotaxa_source_aphia_id_foraminifera_n_a_n_a::aphia::1410": [
+    {
+      "dataset_id": "ecotaxa_14694",
+      "label": "Foraminifera",
+      "image_id": "Harvey_15February2024_JEL_4x_rep2_23569",
+      "thumbnail_url": "/samples/ecotaxa_14694/Foraminifera/01_94da87a79b.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_14694/Harvey_15February2024_JEL_4x_rep2_23569.png",
+      "width": "97",
+      "height": "99"
+    },
+    {
+      "dataset_id": "ecotaxa_14694",
+      "label": "Foraminifera",
+      "image_id": "DDEEC14A3BFB11F08D580030180A94F9",
+      "thumbnail_url": "/samples/ecotaxa_14694/Foraminifera/02_6247c1a4f7.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_14694/DDEEC14A3BFB11F08D580030180A94F9.png",
+      "width": "68",
+      "height": "62"
     }
   ],
   "ecotaxa_14791::134930::ecotaxa_source_aphia_id_conochilus_n_a_n_a": [
@@ -3651,6 +3895,28 @@
       "height": "131"
     }
   ],
+  "ecotaxa_16271::1410::ecotaxa_source_aphia_id_foraminifera_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_16271",
+      "label": "Foraminifera",
+      "image_id": "DB8A41B523DA11F18AD00030180A94F9",
+      "thumbnail_url": "/samples/ecotaxa_16271/Foraminifera/01_4d0f9d41e6.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_16271/DB8A41B523DA11F18AD00030180A94F9.png",
+      "width": "106",
+      "height": "127"
+    }
+  ],
+  "ecotaxa_16271::1410::ecotaxa_source_aphia_id_foraminifera_n_a_n_a::aphia::1410": [
+    {
+      "dataset_id": "ecotaxa_16271",
+      "label": "Foraminifera",
+      "image_id": "DB8A41B523DA11F18AD00030180A94F9",
+      "thumbnail_url": "/samples/ecotaxa_16271/Foraminifera/01_4d0f9d41e6.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_16271/DB8A41B523DA11F18AD00030180A94F9.png",
+      "width": "106",
+      "height": "127"
+    }
+  ],
   "ecotaxa_17598::103407::ecotaxa_source_aphia_id_oikopleura__vexillaria__dioica_n_a_n_a": [
     {
       "dataset_id": "ecotaxa_17598",
@@ -3939,6 +4205,484 @@
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17686/083872901612ab6580355a6257533169.png",
       "width": "128",
       "height": "184"
+    }
+  ],
+  "ecotaxa_17869::134529::ecotaxa_source_aphia_id_pyramimonas_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_17869",
+      "label": "Pyramimonas",
+      "image_id": "D24F6254626511F090E0003018C22CC8",
+      "thumbnail_url": "/samples/ecotaxa_17869/Pyramimonas/01_fb1b7b1c3a.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17869/D24F6254626511F090E0003018C22CC8.png",
+      "width": "56",
+      "height": "30"
+    },
+    {
+      "dataset_id": "ecotaxa_17869",
+      "label": "Pyramimonas",
+      "image_id": "61390003626611F090E0003018C22CC8",
+      "thumbnail_url": "/samples/ecotaxa_17869/Pyramimonas/02_34fa95f976.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17869/61390003626611F090E0003018C22CC8.png",
+      "width": "52",
+      "height": "41"
+    }
+  ],
+  "ecotaxa_17869::134529::ecotaxa_source_aphia_id_pyramimonas_n_a_n_a::aphia::134529": [
+    {
+      "dataset_id": "ecotaxa_17869",
+      "label": "Pyramimonas",
+      "image_id": "D24F6254626511F090E0003018C22CC8",
+      "thumbnail_url": "/samples/ecotaxa_17869/Pyramimonas/01_fb1b7b1c3a.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17869/D24F6254626511F090E0003018C22CC8.png",
+      "width": "56",
+      "height": "30"
+    },
+    {
+      "dataset_id": "ecotaxa_17869",
+      "label": "Pyramimonas",
+      "image_id": "61390003626611F090E0003018C22CC8",
+      "thumbnail_url": "/samples/ecotaxa_17869/Pyramimonas/02_34fa95f976.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17869/61390003626611F090E0003018C22CC8.png",
+      "width": "52",
+      "height": "41"
+    }
+  ],
+  "ecotaxa_17886::103358::ecotaxa_source_aphia_id_fritillaria_fritillariinae_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_17886",
+      "label": "Fritillaria",
+      "image_id": "ZGG_20-0m_FC300_169",
+      "thumbnail_url": "/samples/ecotaxa_17886/Fritillaria/01_b9ff05960d.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17886/ZGG_20-0m_FC300_169.jpg",
+      "width": "353",
+      "height": "397"
+    },
+    {
+      "dataset_id": "ecotaxa_17886",
+      "label": "Fritillaria",
+      "image_id": "ZGG_20-0m_FC300_527",
+      "thumbnail_url": "/samples/ecotaxa_17886/Fritillaria/02_6880d12e83.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17886/ZGG_20-0m_FC300_527.jpg",
+      "width": "314",
+      "height": "358"
+    },
+    {
+      "dataset_id": "ecotaxa_17886",
+      "label": "Fritillaria",
+      "image_id": "ZGG_20-0m_FC300_608",
+      "thumbnail_url": "/samples/ecotaxa_17886/Fritillaria/03_d295f59af3.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17886/ZGG_20-0m_FC300_608.jpg",
+      "width": "458",
+      "height": "471"
+    },
+    {
+      "dataset_id": "ecotaxa_17886",
+      "label": "Fritillaria",
+      "image_id": "ZGG_20-0m_FC300_687",
+      "thumbnail_url": "/samples/ecotaxa_17886/Fritillaria/04_f0db9a4c45.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17886/ZGG_20-0m_FC300_687.jpg",
+      "width": "411",
+      "height": "445"
+    },
+    {
+      "dataset_id": "ecotaxa_17886",
+      "label": "Fritillaria",
+      "image_id": "ZGG_20-0m_FC300_857",
+      "thumbnail_url": "/samples/ecotaxa_17886/Fritillaria/05_4448ff1f99.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17886/ZGG_20-0m_FC300_857.jpg",
+      "width": "411",
+      "height": "292"
+    }
+  ],
+  "ecotaxa_17886::103358::ecotaxa_source_aphia_id_fritillaria_fritillariinae_n_a_n_a::aphia::103358": [
+    {
+      "dataset_id": "ecotaxa_17886",
+      "label": "Fritillaria",
+      "image_id": "ZGG_20-0m_FC300_169",
+      "thumbnail_url": "/samples/ecotaxa_17886/Fritillaria/01_b9ff05960d.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17886/ZGG_20-0m_FC300_169.jpg",
+      "width": "353",
+      "height": "397"
+    },
+    {
+      "dataset_id": "ecotaxa_17886",
+      "label": "Fritillaria",
+      "image_id": "ZGG_20-0m_FC300_527",
+      "thumbnail_url": "/samples/ecotaxa_17886/Fritillaria/02_6880d12e83.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17886/ZGG_20-0m_FC300_527.jpg",
+      "width": "314",
+      "height": "358"
+    },
+    {
+      "dataset_id": "ecotaxa_17886",
+      "label": "Fritillaria",
+      "image_id": "ZGG_20-0m_FC300_608",
+      "thumbnail_url": "/samples/ecotaxa_17886/Fritillaria/03_d295f59af3.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17886/ZGG_20-0m_FC300_608.jpg",
+      "width": "458",
+      "height": "471"
+    },
+    {
+      "dataset_id": "ecotaxa_17886",
+      "label": "Fritillaria",
+      "image_id": "ZGG_20-0m_FC300_687",
+      "thumbnail_url": "/samples/ecotaxa_17886/Fritillaria/04_f0db9a4c45.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17886/ZGG_20-0m_FC300_687.jpg",
+      "width": "411",
+      "height": "445"
+    },
+    {
+      "dataset_id": "ecotaxa_17886",
+      "label": "Fritillaria",
+      "image_id": "ZGG_20-0m_FC300_857",
+      "thumbnail_url": "/samples/ecotaxa_17886/Fritillaria/05_4448ff1f99.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17886/ZGG_20-0m_FC300_857.jpg",
+      "width": "411",
+      "height": "292"
+    }
+  ],
+  "ecotaxa_17886::134992::ecotaxa_source_aphia_id_keratella_quadrata_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_17886",
+      "label": "Keratella quadrata",
+      "image_id": "ZGG_20-0m_FC300_2_1173",
+      "thumbnail_url": "/samples/ecotaxa_17886/Keratella_quadrata/01_1954137ff7.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17886/ZGG_20-0m_FC300_2_1173.jpg",
+      "width": "316",
+      "height": "529"
+    },
+    {
+      "dataset_id": "ecotaxa_17886",
+      "label": "Keratella quadrata",
+      "image_id": "ZGG_20-0m_FC300_2_1963",
+      "thumbnail_url": "/samples/ecotaxa_17886/Keratella_quadrata/02_545e23ee7d.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17886/ZGG_20-0m_FC300_2_1963.jpg",
+      "width": "196",
+      "height": "157"
+    },
+    {
+      "dataset_id": "ecotaxa_17886",
+      "label": "Keratella quadrata",
+      "image_id": "ZGG_20-0m_FC300_2_8426",
+      "thumbnail_url": "/samples/ecotaxa_17886/Keratella_quadrata/03_c54bb3616a.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17886/ZGG_20-0m_FC300_2_8426.jpg",
+      "width": "273",
+      "height": "155"
+    },
+    {
+      "dataset_id": "ecotaxa_17886",
+      "label": "Keratella quadrata",
+      "image_id": "ZGG_20-0m_FC300_3_3908",
+      "thumbnail_url": "/samples/ecotaxa_17886/Keratella_quadrata/04_142160ff1e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17886/ZGG_20-0m_FC300_3_3908.jpg",
+      "width": "403",
+      "height": "590"
+    },
+    {
+      "dataset_id": "ecotaxa_17886",
+      "label": "Keratella quadrata",
+      "image_id": "ZGG_20-0m_FC300_3_8832",
+      "thumbnail_url": "/samples/ecotaxa_17886/Keratella_quadrata/05_54ad61a344.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17886/ZGG_20-0m_FC300_3_8832.jpg",
+      "width": "402",
+      "height": "129"
+    }
+  ],
+  "ecotaxa_17886::134992::ecotaxa_source_aphia_id_keratella_quadrata_n_a_n_a::aphia::134992": [
+    {
+      "dataset_id": "ecotaxa_17886",
+      "label": "Keratella quadrata",
+      "image_id": "ZGG_20-0m_FC300_2_1173",
+      "thumbnail_url": "/samples/ecotaxa_17886/Keratella_quadrata/01_1954137ff7.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17886/ZGG_20-0m_FC300_2_1173.jpg",
+      "width": "316",
+      "height": "529"
+    },
+    {
+      "dataset_id": "ecotaxa_17886",
+      "label": "Keratella quadrata",
+      "image_id": "ZGG_20-0m_FC300_2_1963",
+      "thumbnail_url": "/samples/ecotaxa_17886/Keratella_quadrata/02_545e23ee7d.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17886/ZGG_20-0m_FC300_2_1963.jpg",
+      "width": "196",
+      "height": "157"
+    },
+    {
+      "dataset_id": "ecotaxa_17886",
+      "label": "Keratella quadrata",
+      "image_id": "ZGG_20-0m_FC300_2_8426",
+      "thumbnail_url": "/samples/ecotaxa_17886/Keratella_quadrata/03_c54bb3616a.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17886/ZGG_20-0m_FC300_2_8426.jpg",
+      "width": "273",
+      "height": "155"
+    },
+    {
+      "dataset_id": "ecotaxa_17886",
+      "label": "Keratella quadrata",
+      "image_id": "ZGG_20-0m_FC300_3_3908",
+      "thumbnail_url": "/samples/ecotaxa_17886/Keratella_quadrata/04_142160ff1e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17886/ZGG_20-0m_FC300_3_3908.jpg",
+      "width": "403",
+      "height": "590"
+    },
+    {
+      "dataset_id": "ecotaxa_17886",
+      "label": "Keratella quadrata",
+      "image_id": "ZGG_20-0m_FC300_3_8832",
+      "thumbnail_url": "/samples/ecotaxa_17886/Keratella_quadrata/05_54ad61a344.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17886/ZGG_20-0m_FC300_3_8832.jpg",
+      "width": "402",
+      "height": "129"
+    }
+  ],
+  "ecotaxa_17887::103358::ecotaxa_source_aphia_id_fritillaria_fritillariinae_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Fritillaria",
+      "image_id": "ZGGW_20-0m_FC1000_19",
+      "thumbnail_url": "/samples/ecotaxa_17887/Fritillaria/01_6a697f08e1.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGW_20-0m_FC1000_19.jpg",
+      "width": "383",
+      "height": "686"
+    },
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Fritillaria",
+      "image_id": "ZGGW_20-0m_FC1000_66",
+      "thumbnail_url": "/samples/ecotaxa_17887/Fritillaria/02_3ecccfa18a.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGW_20-0m_FC1000_66.jpg",
+      "width": "156",
+      "height": "304"
+    },
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Fritillaria",
+      "image_id": "ZGGW_20-0m_FC1000_74",
+      "thumbnail_url": "/samples/ecotaxa_17887/Fritillaria/03_291c43891e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGW_20-0m_FC1000_74.jpg",
+      "width": "229",
+      "height": "171"
+    },
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Fritillaria",
+      "image_id": "ZGGW_20-0m_FC1000_76",
+      "thumbnail_url": "/samples/ecotaxa_17887/Fritillaria/04_28f809a7bf.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGW_20-0m_FC1000_76.jpg",
+      "width": "223",
+      "height": "124"
+    },
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Fritillaria",
+      "image_id": "ZGGW_20-0m_FC1000_87",
+      "thumbnail_url": "/samples/ecotaxa_17887/Fritillaria/05_f89fd7b591.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGW_20-0m_FC1000_87.jpg",
+      "width": "360",
+      "height": "371"
+    }
+  ],
+  "ecotaxa_17887::103358::ecotaxa_source_aphia_id_fritillaria_fritillariinae_n_a_n_a::aphia::103358": [
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Fritillaria",
+      "image_id": "ZGGW_20-0m_FC1000_19",
+      "thumbnail_url": "/samples/ecotaxa_17887/Fritillaria/01_6a697f08e1.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGW_20-0m_FC1000_19.jpg",
+      "width": "383",
+      "height": "686"
+    },
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Fritillaria",
+      "image_id": "ZGGW_20-0m_FC1000_66",
+      "thumbnail_url": "/samples/ecotaxa_17887/Fritillaria/02_3ecccfa18a.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGW_20-0m_FC1000_66.jpg",
+      "width": "156",
+      "height": "304"
+    },
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Fritillaria",
+      "image_id": "ZGGW_20-0m_FC1000_74",
+      "thumbnail_url": "/samples/ecotaxa_17887/Fritillaria/03_291c43891e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGW_20-0m_FC1000_74.jpg",
+      "width": "229",
+      "height": "171"
+    },
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Fritillaria",
+      "image_id": "ZGGW_20-0m_FC1000_76",
+      "thumbnail_url": "/samples/ecotaxa_17887/Fritillaria/04_28f809a7bf.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGW_20-0m_FC1000_76.jpg",
+      "width": "223",
+      "height": "124"
+    },
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Fritillaria",
+      "image_id": "ZGGW_20-0m_FC1000_87",
+      "thumbnail_url": "/samples/ecotaxa_17887/Fritillaria/05_f89fd7b591.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGW_20-0m_FC1000_87.jpg",
+      "width": "360",
+      "height": "371"
+    }
+  ],
+  "ecotaxa_17887::134941::ecotaxa_source_aphia_id_keratella_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Keratella",
+      "image_id": "ZGGS_20-0m_FC1000_2_3436",
+      "thumbnail_url": "/samples/ecotaxa_17887/Keratella/01_dd868fbf46.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGS_20-0m_FC1000_2_3436.jpg",
+      "width": "209",
+      "height": "162"
+    },
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Keratella",
+      "image_id": "ZGGW_40-20m_FC1000_3_36",
+      "thumbnail_url": "/samples/ecotaxa_17887/Keratella/02_597a609d40.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGW_40-20m_FC1000_3_36.jpg",
+      "width": "563",
+      "height": "558"
+    }
+  ],
+  "ecotaxa_17887::134941::ecotaxa_source_aphia_id_keratella_n_a_n_a::aphia::134941": [
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Keratella",
+      "image_id": "ZGGS_20-0m_FC1000_2_3436",
+      "thumbnail_url": "/samples/ecotaxa_17887/Keratella/01_dd868fbf46.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGS_20-0m_FC1000_2_3436.jpg",
+      "width": "209",
+      "height": "162"
+    },
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Keratella",
+      "image_id": "ZGGW_40-20m_FC1000_3_36",
+      "thumbnail_url": "/samples/ecotaxa_17887/Keratella/02_597a609d40.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGW_40-20m_FC1000_3_36.jpg",
+      "width": "563",
+      "height": "558"
+    }
+  ],
+  "ecotaxa_17887::134991::ecotaxa_source_aphia_id_keratella_cruciformis_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Keratella cruciformis",
+      "image_id": "ZGGS_20-0m_FC1000_2_6387",
+      "thumbnail_url": "/samples/ecotaxa_17887/Keratella_cruciformis/01_bc8c3f196f.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGS_20-0m_FC1000_2_6387.jpg",
+      "width": "54",
+      "height": "70"
+    }
+  ],
+  "ecotaxa_17887::134991::ecotaxa_source_aphia_id_keratella_cruciformis_n_a_n_a::aphia::134991": [
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Keratella cruciformis",
+      "image_id": "ZGGS_20-0m_FC1000_2_6387",
+      "thumbnail_url": "/samples/ecotaxa_17887/Keratella_cruciformis/01_bc8c3f196f.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGS_20-0m_FC1000_2_6387.jpg",
+      "width": "54",
+      "height": "70"
+    }
+  ],
+  "ecotaxa_17887::134992::ecotaxa_source_aphia_id_keratella_quadrata_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Keratella quadrata",
+      "image_id": "ZGGS_20-0m_FC1000_1_144",
+      "thumbnail_url": "/samples/ecotaxa_17887/Keratella_quadrata/01_c9d1eef8d7.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGS_20-0m_FC1000_1_144.jpg",
+      "width": "50",
+      "height": "80"
+    },
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Keratella quadrata",
+      "image_id": "ZGGS_20-0m_FC1000_1_172",
+      "thumbnail_url": "/samples/ecotaxa_17887/Keratella_quadrata/02_a4adcbc234.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGS_20-0m_FC1000_1_172.jpg",
+      "width": "74",
+      "height": "108"
+    },
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Keratella quadrata",
+      "image_id": "ZGGS_20-0m_FC1000_1_408",
+      "thumbnail_url": "/samples/ecotaxa_17887/Keratella_quadrata/03_f28ba2f2ba.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGS_20-0m_FC1000_1_408.jpg",
+      "width": "90",
+      "height": "53"
+    },
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Keratella quadrata",
+      "image_id": "ZGGS_20-0m_FC1000_1_446",
+      "thumbnail_url": "/samples/ecotaxa_17887/Keratella_quadrata/04_7f9d8a14ea.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGS_20-0m_FC1000_1_446.jpg",
+      "width": "396",
+      "height": "377"
+    },
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Keratella quadrata",
+      "image_id": "ZGGS_20-0m_FC1000_1_990",
+      "thumbnail_url": "/samples/ecotaxa_17887/Keratella_quadrata/05_04319139af.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGS_20-0m_FC1000_1_990.jpg",
+      "width": "96",
+      "height": "97"
+    }
+  ],
+  "ecotaxa_17887::134992::ecotaxa_source_aphia_id_keratella_quadrata_n_a_n_a::aphia::134992": [
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Keratella quadrata",
+      "image_id": "ZGGS_20-0m_FC1000_1_144",
+      "thumbnail_url": "/samples/ecotaxa_17887/Keratella_quadrata/01_c9d1eef8d7.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGS_20-0m_FC1000_1_144.jpg",
+      "width": "50",
+      "height": "80"
+    },
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Keratella quadrata",
+      "image_id": "ZGGS_20-0m_FC1000_1_172",
+      "thumbnail_url": "/samples/ecotaxa_17887/Keratella_quadrata/02_a4adcbc234.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGS_20-0m_FC1000_1_172.jpg",
+      "width": "74",
+      "height": "108"
+    },
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Keratella quadrata",
+      "image_id": "ZGGS_20-0m_FC1000_1_408",
+      "thumbnail_url": "/samples/ecotaxa_17887/Keratella_quadrata/03_f28ba2f2ba.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGS_20-0m_FC1000_1_408.jpg",
+      "width": "90",
+      "height": "53"
+    },
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Keratella quadrata",
+      "image_id": "ZGGS_20-0m_FC1000_1_446",
+      "thumbnail_url": "/samples/ecotaxa_17887/Keratella_quadrata/04_7f9d8a14ea.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGS_20-0m_FC1000_1_446.jpg",
+      "width": "396",
+      "height": "377"
+    },
+    {
+      "dataset_id": "ecotaxa_17887",
+      "label": "Keratella quadrata",
+      "image_id": "ZGGS_20-0m_FC1000_1_990",
+      "thumbnail_url": "/samples/ecotaxa_17887/Keratella_quadrata/05_04319139af.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_17887/ZGGS_20-0m_FC1000_1_990.jpg",
+      "width": "96",
+      "height": "97"
     }
   ],
   "ecotaxa_17935::10194::ecotaxa_source_aphia_id_actinopterygii_n_a_n_a": [
@@ -6697,6 +7441,536 @@
       "height": "320"
     }
   ],
+  "ecotaxa_18222::1371::ecotaxa_source_aphia_id_siphonophorae_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_18222",
+      "label": "Siphonophorae",
+      "image_id": "PMLS_set24_13FM_2mm_50rpm_10fps_1p4_00463",
+      "thumbnail_url": "/samples/ecotaxa_18222/Siphonophorae/01_559bec4477.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18222/PMLS_set24_13FM_2mm_50rpm_10fps_1p4_00463.png",
+      "width": "134",
+      "height": "189"
+    }
+  ],
+  "ecotaxa_18222::1371::ecotaxa_source_aphia_id_siphonophorae_n_a_n_a::aphia::1371": [
+    {
+      "dataset_id": "ecotaxa_18222",
+      "label": "Siphonophorae",
+      "image_id": "PMLS_set24_13FM_2mm_50rpm_10fps_1p4_00463",
+      "thumbnail_url": "/samples/ecotaxa_18222/Siphonophorae/01_559bec4477.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18222/PMLS_set24_13FM_2mm_50rpm_10fps_1p4_00463.png",
+      "width": "134",
+      "height": "189"
+    }
+  ],
+  "ecotaxa_18329::103367::ecotaxa_source_aphia_id_oikopleura_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Oikopleura",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00081",
+      "thumbnail_url": "/samples/ecotaxa_18329/Oikopleura/01_b4c2852489.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00081.png",
+      "width": "94",
+      "height": "173"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Oikopleura",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00082",
+      "thumbnail_url": "/samples/ecotaxa_18329/Oikopleura/02_9d41ba4cf9.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00082.png",
+      "width": "174",
+      "height": "90"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Oikopleura",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01684",
+      "thumbnail_url": "/samples/ecotaxa_18329/Oikopleura/03_3e059e5c3b.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01684.png",
+      "width": "64",
+      "height": "68"
+    }
+  ],
+  "ecotaxa_18329::103367::ecotaxa_source_aphia_id_oikopleura_n_a_n_a::aphia::103367": [
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Oikopleura",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00081",
+      "thumbnail_url": "/samples/ecotaxa_18329/Oikopleura/01_b4c2852489.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00081.png",
+      "width": "94",
+      "height": "173"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Oikopleura",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00082",
+      "thumbnail_url": "/samples/ecotaxa_18329/Oikopleura/02_9d41ba4cf9.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00082.png",
+      "width": "174",
+      "height": "90"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Oikopleura",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01684",
+      "thumbnail_url": "/samples/ecotaxa_18329/Oikopleura/03_3e059e5c3b.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01684.png",
+      "width": "64",
+      "height": "68"
+    }
+  ],
+  "ecotaxa_18329::1337::ecotaxa_source_aphia_id_hydrozoa_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Hydrozoa",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01461",
+      "thumbnail_url": "/samples/ecotaxa_18329/Hydrozoa/01_8f55616e74.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01461.png",
+      "width": "120",
+      "height": "152"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Hydrozoa",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01833",
+      "thumbnail_url": "/samples/ecotaxa_18329/Hydrozoa/02_94ae8e8b68.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01833.png",
+      "width": "56",
+      "height": "59"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Hydrozoa",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_02969",
+      "thumbnail_url": "/samples/ecotaxa_18329/Hydrozoa/03_02028a9de7.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_02969.png",
+      "width": "58",
+      "height": "63"
+    }
+  ],
+  "ecotaxa_18329::1337::ecotaxa_source_aphia_id_hydrozoa_n_a_n_a::aphia::1337": [
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Hydrozoa",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01461",
+      "thumbnail_url": "/samples/ecotaxa_18329/Hydrozoa/01_8f55616e74.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01461.png",
+      "width": "120",
+      "height": "152"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Hydrozoa",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01833",
+      "thumbnail_url": "/samples/ecotaxa_18329/Hydrozoa/02_94ae8e8b68.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01833.png",
+      "width": "56",
+      "height": "59"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Hydrozoa",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_02969",
+      "thumbnail_url": "/samples/ecotaxa_18329/Hydrozoa/03_02028a9de7.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_02969.png",
+      "width": "58",
+      "height": "63"
+    }
+  ],
+  "ecotaxa_18329::135441::ecotaxa_source_aphia_id_muggiaea_atlantica_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Muggiaea atlantica",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01686",
+      "thumbnail_url": "/samples/ecotaxa_18329/Muggiaea_atlantica/01_8ab26c010b.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01686.png",
+      "width": "411",
+      "height": "231"
+    }
+  ],
+  "ecotaxa_18329::135441::ecotaxa_source_aphia_id_muggiaea_atlantica_n_a_n_a::aphia::135441": [
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Muggiaea atlantica",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01686",
+      "thumbnail_url": "/samples/ecotaxa_18329/Muggiaea_atlantica/01_8ab26c010b.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01686.png",
+      "width": "411",
+      "height": "231"
+    }
+  ],
+  "ecotaxa_18329::1371::ecotaxa_source_aphia_id_siphonophorae_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Siphonophorae",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00672",
+      "thumbnail_url": "/samples/ecotaxa_18329/Siphonophorae/01_4d10e5571b.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00672.png",
+      "width": "111",
+      "height": "110"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Siphonophorae",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00833",
+      "thumbnail_url": "/samples/ecotaxa_18329/Siphonophorae/02_6be2805dc9.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00833.png",
+      "width": "163",
+      "height": "155"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Siphonophorae",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01015",
+      "thumbnail_url": "/samples/ecotaxa_18329/Siphonophorae/03_4dbc1081f1.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01015.png",
+      "width": "84",
+      "height": "76"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Siphonophorae",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01044",
+      "thumbnail_url": "/samples/ecotaxa_18329/Siphonophorae/04_7265dfb36c.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01044.png",
+      "width": "133",
+      "height": "88"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Siphonophorae",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01045",
+      "thumbnail_url": "/samples/ecotaxa_18329/Siphonophorae/05_cf0f9403d5.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01045.png",
+      "width": "98",
+      "height": "132"
+    }
+  ],
+  "ecotaxa_18329::1371::ecotaxa_source_aphia_id_siphonophorae_n_a_n_a::aphia::1371": [
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Siphonophorae",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00672",
+      "thumbnail_url": "/samples/ecotaxa_18329/Siphonophorae/01_4d10e5571b.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00672.png",
+      "width": "111",
+      "height": "110"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Siphonophorae",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00833",
+      "thumbnail_url": "/samples/ecotaxa_18329/Siphonophorae/02_6be2805dc9.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00833.png",
+      "width": "163",
+      "height": "155"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Siphonophorae",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01015",
+      "thumbnail_url": "/samples/ecotaxa_18329/Siphonophorae/03_4dbc1081f1.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01015.png",
+      "width": "84",
+      "height": "76"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Siphonophorae",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01044",
+      "thumbnail_url": "/samples/ecotaxa_18329/Siphonophorae/04_7265dfb36c.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01044.png",
+      "width": "133",
+      "height": "88"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Siphonophorae",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01045",
+      "thumbnail_url": "/samples/ecotaxa_18329/Siphonophorae/05_cf0f9403d5.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01045.png",
+      "width": "98",
+      "height": "132"
+    }
+  ],
+  "ecotaxa_18329::137217::ecotaxa_source_aphia_id_salpidae_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Salpidae",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01649",
+      "thumbnail_url": "/samples/ecotaxa_18329/Salpidae/01_723c16ab6f.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01649.png",
+      "width": "72",
+      "height": "104"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Salpidae",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_02671",
+      "thumbnail_url": "/samples/ecotaxa_18329/Salpidae/02_faaf6f4cf0.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_02671.png",
+      "width": "119",
+      "height": "164"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Salpidae",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_02674",
+      "thumbnail_url": "/samples/ecotaxa_18329/Salpidae/03_9090506d1e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_02674.png",
+      "width": "117",
+      "height": "97"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Salpidae",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_02784",
+      "thumbnail_url": "/samples/ecotaxa_18329/Salpidae/04_084daa4b4c.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_02784.png",
+      "width": "171",
+      "height": "128"
+    }
+  ],
+  "ecotaxa_18329::137217::ecotaxa_source_aphia_id_salpidae_n_a_n_a::aphia::137217": [
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Salpidae",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01649",
+      "thumbnail_url": "/samples/ecotaxa_18329/Salpidae/01_723c16ab6f.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01649.png",
+      "width": "72",
+      "height": "104"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Salpidae",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_02671",
+      "thumbnail_url": "/samples/ecotaxa_18329/Salpidae/02_faaf6f4cf0.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_02671.png",
+      "width": "119",
+      "height": "164"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Salpidae",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_02674",
+      "thumbnail_url": "/samples/ecotaxa_18329/Salpidae/03_9090506d1e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_02674.png",
+      "width": "117",
+      "height": "97"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Salpidae",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_02784",
+      "thumbnail_url": "/samples/ecotaxa_18329/Salpidae/04_084daa4b4c.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_02784.png",
+      "width": "171",
+      "height": "128"
+    }
+  ],
+  "ecotaxa_18329::146420::ecotaxa_source_aphia_id_tunicata_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Tunicata",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00734",
+      "thumbnail_url": "/samples/ecotaxa_18329/Tunicata/01_23bd77e50b.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00734.png",
+      "width": "53",
+      "height": "67"
+    }
+  ],
+  "ecotaxa_18329::146420::ecotaxa_source_aphia_id_tunicata_n_a_n_a::aphia::146420": [
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Tunicata",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00734",
+      "thumbnail_url": "/samples/ecotaxa_18329/Tunicata/01_23bd77e50b.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00734.png",
+      "width": "53",
+      "height": "67"
+    }
+  ],
+  "ecotaxa_18329::883::ecotaxa_source_aphia_id_polychaeta_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Polychaeta",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00572",
+      "thumbnail_url": "/samples/ecotaxa_18329/Polychaeta/01_f3bfaef1cc.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00572.png",
+      "width": "182",
+      "height": "290"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Polychaeta",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01409",
+      "thumbnail_url": "/samples/ecotaxa_18329/Polychaeta/02_1699ddd245.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01409.png",
+      "width": "60",
+      "height": "47"
+    }
+  ],
+  "ecotaxa_18329::883::ecotaxa_source_aphia_id_polychaeta_n_a_n_a::aphia::883": [
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Polychaeta",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00572",
+      "thumbnail_url": "/samples/ecotaxa_18329/Polychaeta/01_f3bfaef1cc.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_00572.png",
+      "width": "182",
+      "height": "290"
+    },
+    {
+      "dataset_id": "ecotaxa_18329",
+      "label": "Polychaeta",
+      "image_id": "PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01409",
+      "thumbnail_url": "/samples/ecotaxa_18329/Polychaeta/02_1699ddd245.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_18329/PMLS_abr24_8FM_2mm_75rpm_12fps_1p8_01409.png",
+      "width": "60",
+      "height": "47"
+    }
+  ],
+  "ecotaxa_19557::103367::ecotaxa_source_aphia_id_oikopleura_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_19557",
+      "label": "Oikopleura",
+      "image_id": "AC2F6AD9828011F091D6581122927C8E",
+      "thumbnail_url": "/samples/ecotaxa_19557/Oikopleura/01_3b8a2abc9e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_19557/AC2F6AD9828011F091D6581122927C8E.png",
+      "width": "417",
+      "height": "218"
+    }
+  ],
+  "ecotaxa_19557::103367::ecotaxa_source_aphia_id_oikopleura_n_a_n_a::aphia::103367": [
+    {
+      "dataset_id": "ecotaxa_19557",
+      "label": "Oikopleura",
+      "image_id": "AC2F6AD9828011F091D6581122927C8E",
+      "thumbnail_url": "/samples/ecotaxa_19557/Oikopleura/01_3b8a2abc9e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_19557/AC2F6AD9828011F091D6581122927C8E.png",
+      "width": "417",
+      "height": "218"
+    }
+  ],
+  "ecotaxa_19557::134528::ecotaxa_source_aphia_id_halosphaera_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_19557",
+      "label": "Halosphaera",
+      "image_id": "8FA0717781ED11F091D6581122927C8E",
+      "thumbnail_url": "/samples/ecotaxa_19557/Halosphaera/01_bb534b0a50.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_19557/8FA0717781ED11F091D6581122927C8E.png",
+      "width": "51",
+      "height": "52"
+    },
+    {
+      "dataset_id": "ecotaxa_19557",
+      "label": "Halosphaera",
+      "image_id": "F618AAB4820111F091D6581122927C8E",
+      "thumbnail_url": "/samples/ecotaxa_19557/Halosphaera/02_c343370711.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_19557/F618AAB4820111F091D6581122927C8E.png",
+      "width": "51",
+      "height": "52"
+    }
+  ],
+  "ecotaxa_19557::134528::ecotaxa_source_aphia_id_halosphaera_n_a_n_a::aphia::134528": [
+    {
+      "dataset_id": "ecotaxa_19557",
+      "label": "Halosphaera",
+      "image_id": "8FA0717781ED11F091D6581122927C8E",
+      "thumbnail_url": "/samples/ecotaxa_19557/Halosphaera/01_bb534b0a50.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_19557/8FA0717781ED11F091D6581122927C8E.png",
+      "width": "51",
+      "height": "52"
+    },
+    {
+      "dataset_id": "ecotaxa_19557",
+      "label": "Halosphaera",
+      "image_id": "F618AAB4820111F091D6581122927C8E",
+      "thumbnail_url": "/samples/ecotaxa_19557/Halosphaera/02_c343370711.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_19557/F618AAB4820111F091D6581122927C8E.png",
+      "width": "51",
+      "height": "52"
+    }
+  ],
+  "ecotaxa_19557::582420::ecotaxa_source_aphia_id_rhizaria_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_19557",
+      "label": "Rhizaria",
+      "image_id": "5EA69C1681BC11F091D6581122927C8E",
+      "thumbnail_url": "/samples/ecotaxa_19557/Rhizaria/01_2b8e7ecd54.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_19557/5EA69C1681BC11F091D6581122927C8E.png",
+      "width": "36",
+      "height": "41"
+    },
+    {
+      "dataset_id": "ecotaxa_19557",
+      "label": "Rhizaria",
+      "image_id": "11DA473A81C311F091D6581122927C8E",
+      "thumbnail_url": "/samples/ecotaxa_19557/Rhizaria/02_a3aa54b208.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_19557/11DA473A81C311F091D6581122927C8E.png",
+      "width": "122",
+      "height": "141"
+    },
+    {
+      "dataset_id": "ecotaxa_19557",
+      "label": "Rhizaria",
+      "image_id": "71A0DAB981C711F091D6581122927C8E",
+      "thumbnail_url": "/samples/ecotaxa_19557/Rhizaria/03_aec7017f52.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_19557/71A0DAB981C711F091D6581122927C8E.png",
+      "width": "58",
+      "height": "58"
+    },
+    {
+      "dataset_id": "ecotaxa_19557",
+      "label": "Rhizaria",
+      "image_id": "E727CC2D828111F091D6581122927C8E",
+      "thumbnail_url": "/samples/ecotaxa_19557/Rhizaria/04_d16e870db5.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_19557/E727CC2D828111F091D6581122927C8E.png",
+      "width": "51",
+      "height": "40"
+    }
+  ],
+  "ecotaxa_19557::582420::ecotaxa_source_aphia_id_rhizaria_n_a_n_a::aphia::582420": [
+    {
+      "dataset_id": "ecotaxa_19557",
+      "label": "Rhizaria",
+      "image_id": "5EA69C1681BC11F091D6581122927C8E",
+      "thumbnail_url": "/samples/ecotaxa_19557/Rhizaria/01_2b8e7ecd54.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_19557/5EA69C1681BC11F091D6581122927C8E.png",
+      "width": "36",
+      "height": "41"
+    },
+    {
+      "dataset_id": "ecotaxa_19557",
+      "label": "Rhizaria",
+      "image_id": "11DA473A81C311F091D6581122927C8E",
+      "thumbnail_url": "/samples/ecotaxa_19557/Rhizaria/02_a3aa54b208.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_19557/11DA473A81C311F091D6581122927C8E.png",
+      "width": "122",
+      "height": "141"
+    },
+    {
+      "dataset_id": "ecotaxa_19557",
+      "label": "Rhizaria",
+      "image_id": "71A0DAB981C711F091D6581122927C8E",
+      "thumbnail_url": "/samples/ecotaxa_19557/Rhizaria/03_aec7017f52.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_19557/71A0DAB981C711F091D6581122927C8E.png",
+      "width": "58",
+      "height": "58"
+    },
+    {
+      "dataset_id": "ecotaxa_19557",
+      "label": "Rhizaria",
+      "image_id": "E727CC2D828111F091D6581122927C8E",
+      "thumbnail_url": "/samples/ecotaxa_19557/Rhizaria/04_d16e870db5.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_19557/E727CC2D828111F091D6581122927C8E.png",
+      "width": "51",
+      "height": "40"
+    }
+  ],
   "ecotaxa_19751::14260::ecotaxa_source_aphia_id_rotifera_n_a_n_a": [
     {
       "dataset_id": "ecotaxa_19751",
@@ -8223,6 +9497,422 @@
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_21049/sediments_traps_npolar_l1_d2_642.png",
       "width": "153",
       "height": "182"
+    }
+  ],
+  "ecotaxa_21146::134528::ecotaxa_source_aphia_id_halosphaera_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Halosphaera",
+      "image_id": "test5mm_500um_8fpsrawfile_000226_blobnb_1",
+      "thumbnail_url": "/samples/ecotaxa_21146/Halosphaera/01_081eac4865.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500um_8fpsrawfile_000226_blobnb_1.jpg",
+      "width": "87",
+      "height": "87"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Halosphaera",
+      "image_id": "test5mm_500um_8fpsrawfile_000995_blobnb_1",
+      "thumbnail_url": "/samples/ecotaxa_21146/Halosphaera/02_1839905944.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500um_8fpsrawfile_000995_blobnb_1.jpg",
+      "width": "83",
+      "height": "95"
+    }
+  ],
+  "ecotaxa_21146::134528::ecotaxa_source_aphia_id_halosphaera_n_a_n_a::aphia::134528": [
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Halosphaera",
+      "image_id": "test5mm_500um_8fpsrawfile_000226_blobnb_1",
+      "thumbnail_url": "/samples/ecotaxa_21146/Halosphaera/01_081eac4865.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500um_8fpsrawfile_000226_blobnb_1.jpg",
+      "width": "87",
+      "height": "87"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Halosphaera",
+      "image_id": "test5mm_500um_8fpsrawfile_000995_blobnb_1",
+      "thumbnail_url": "/samples/ecotaxa_21146/Halosphaera/02_1839905944.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500um_8fpsrawfile_000995_blobnb_1.jpg",
+      "width": "83",
+      "height": "95"
+    }
+  ],
+  "ecotaxa_21146::135338::ecotaxa_source_aphia_id_diphyidae_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Diphyidae",
+      "image_id": "test5mm_500rawfile_000349_blobnb_5",
+      "thumbnail_url": "/samples/ecotaxa_21146/Diphyidae/01_95fa4da071.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_000349_blobnb_5.jpg",
+      "width": "344",
+      "height": "494"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Diphyidae",
+      "image_id": "test5mm_500rawfile_001503_blobnb_1",
+      "thumbnail_url": "/samples/ecotaxa_21146/Diphyidae/02_5d0e47f92c.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_001503_blobnb_1.jpg",
+      "width": "322",
+      "height": "621"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Diphyidae",
+      "image_id": "test5mm_500rawfile_001593_blobnb_1",
+      "thumbnail_url": "/samples/ecotaxa_21146/Diphyidae/03_01aa9c51b7.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_001593_blobnb_1.jpg",
+      "width": "388",
+      "height": "408"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Diphyidae",
+      "image_id": "test5mm_500rawfile_001601_blobnb_4",
+      "thumbnail_url": "/samples/ecotaxa_21146/Diphyidae/04_0ee03f9cc3.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_001601_blobnb_4.jpg",
+      "width": "595",
+      "height": "287"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Diphyidae",
+      "image_id": "test5mm_500rawfile_001781_blobnb_1",
+      "thumbnail_url": "/samples/ecotaxa_21146/Diphyidae/05_159c7ecf3b.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_001781_blobnb_1.jpg",
+      "width": "465",
+      "height": "296"
+    }
+  ],
+  "ecotaxa_21146::135338::ecotaxa_source_aphia_id_diphyidae_n_a_n_a::aphia::135338": [
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Diphyidae",
+      "image_id": "test5mm_500rawfile_000349_blobnb_5",
+      "thumbnail_url": "/samples/ecotaxa_21146/Diphyidae/01_95fa4da071.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_000349_blobnb_5.jpg",
+      "width": "344",
+      "height": "494"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Diphyidae",
+      "image_id": "test5mm_500rawfile_001503_blobnb_1",
+      "thumbnail_url": "/samples/ecotaxa_21146/Diphyidae/02_5d0e47f92c.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_001503_blobnb_1.jpg",
+      "width": "322",
+      "height": "621"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Diphyidae",
+      "image_id": "test5mm_500rawfile_001593_blobnb_1",
+      "thumbnail_url": "/samples/ecotaxa_21146/Diphyidae/03_01aa9c51b7.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_001593_blobnb_1.jpg",
+      "width": "388",
+      "height": "408"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Diphyidae",
+      "image_id": "test5mm_500rawfile_001601_blobnb_4",
+      "thumbnail_url": "/samples/ecotaxa_21146/Diphyidae/04_0ee03f9cc3.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_001601_blobnb_4.jpg",
+      "width": "595",
+      "height": "287"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Diphyidae",
+      "image_id": "test5mm_500rawfile_001781_blobnb_1",
+      "thumbnail_url": "/samples/ecotaxa_21146/Diphyidae/05_159c7ecf3b.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_001781_blobnb_1.jpg",
+      "width": "465",
+      "height": "296"
+    }
+  ],
+  "ecotaxa_21146::137272::ecotaxa_source_aphia_id_salpa_fusiformis_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Salpa fusiformis",
+      "image_id": "test5mm_150rawfile_000317_blobnb_012",
+      "thumbnail_url": "/samples/ecotaxa_21146/Salpa_fusiformis/01_428e270610.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_150rawfile_000317_blobnb_012.jpg",
+      "width": "990",
+      "height": "443"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Salpa fusiformis",
+      "image_id": "test5mm_500rawfile_000331_blobnb_3",
+      "thumbnail_url": "/samples/ecotaxa_21146/Salpa_fusiformis/02_4ffd741b89.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_000331_blobnb_3.jpg",
+      "width": "464",
+      "height": "680"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Salpa fusiformis",
+      "image_id": "test5mm_500rawfile_000789_blobnb_1",
+      "thumbnail_url": "/samples/ecotaxa_21146/Salpa_fusiformis/03_a9dd7d4da2.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_000789_blobnb_1.jpg",
+      "width": "755",
+      "height": "569"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Salpa fusiformis",
+      "image_id": "test5mm_500rawfile_001490_blobnb_05",
+      "thumbnail_url": "/samples/ecotaxa_21146/Salpa_fusiformis/04_ccded2b034.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_001490_blobnb_05.jpg",
+      "width": "717",
+      "height": "431"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Salpa fusiformis",
+      "image_id": "test5mm_500rawfile_001757_blobnb_2",
+      "thumbnail_url": "/samples/ecotaxa_21146/Salpa_fusiformis/05_c7f4c2447e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_001757_blobnb_2.jpg",
+      "width": "589",
+      "height": "832"
+    }
+  ],
+  "ecotaxa_21146::137272::ecotaxa_source_aphia_id_salpa_fusiformis_n_a_n_a::aphia::137272": [
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Salpa fusiformis",
+      "image_id": "test5mm_150rawfile_000317_blobnb_012",
+      "thumbnail_url": "/samples/ecotaxa_21146/Salpa_fusiformis/01_428e270610.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_150rawfile_000317_blobnb_012.jpg",
+      "width": "990",
+      "height": "443"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Salpa fusiformis",
+      "image_id": "test5mm_500rawfile_000331_blobnb_3",
+      "thumbnail_url": "/samples/ecotaxa_21146/Salpa_fusiformis/02_4ffd741b89.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_000331_blobnb_3.jpg",
+      "width": "464",
+      "height": "680"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Salpa fusiformis",
+      "image_id": "test5mm_500rawfile_000789_blobnb_1",
+      "thumbnail_url": "/samples/ecotaxa_21146/Salpa_fusiformis/03_a9dd7d4da2.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_000789_blobnb_1.jpg",
+      "width": "755",
+      "height": "569"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Salpa fusiformis",
+      "image_id": "test5mm_500rawfile_001490_blobnb_05",
+      "thumbnail_url": "/samples/ecotaxa_21146/Salpa_fusiformis/04_ccded2b034.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_001490_blobnb_05.jpg",
+      "width": "717",
+      "height": "431"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Salpa fusiformis",
+      "image_id": "test5mm_500rawfile_001757_blobnb_2",
+      "thumbnail_url": "/samples/ecotaxa_21146/Salpa_fusiformis/05_c7f4c2447e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_001757_blobnb_2.jpg",
+      "width": "589",
+      "height": "832"
+    }
+  ],
+  "ecotaxa_21146::137279::ecotaxa_source_aphia_id_thalia_democratica_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Thalia democratica",
+      "image_id": "test5mm_150rawfile_000033_blobnb_022",
+      "thumbnail_url": "/samples/ecotaxa_21146/Thalia_democratica/01_2c2eeccbd9.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_150rawfile_000033_blobnb_022.jpg",
+      "width": "664",
+      "height": "424"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Thalia democratica",
+      "image_id": "test5mm_150rawfile_000082_blobnb_053",
+      "thumbnail_url": "/samples/ecotaxa_21146/Thalia_democratica/02_43794ec66f.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_150rawfile_000082_blobnb_053.jpg",
+      "width": "595",
+      "height": "368"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Thalia democratica",
+      "image_id": "test5mm_150rawfile_000111_blobnb_040",
+      "thumbnail_url": "/samples/ecotaxa_21146/Thalia_democratica/03_59505a3af3.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_150rawfile_000111_blobnb_040.jpg",
+      "width": "564",
+      "height": "705"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Thalia democratica",
+      "image_id": "test5mm_150rawfile_000121_blobnb_063",
+      "thumbnail_url": "/samples/ecotaxa_21146/Thalia_democratica/04_a3e6076de0.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_150rawfile_000121_blobnb_063.jpg",
+      "width": "438",
+      "height": "760"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Thalia democratica",
+      "image_id": "test5mm_150rawfile_000214_blobnb_106",
+      "thumbnail_url": "/samples/ecotaxa_21146/Thalia_democratica/05_b70461a47f.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_150rawfile_000214_blobnb_106.jpg",
+      "width": "465",
+      "height": "577"
+    }
+  ],
+  "ecotaxa_21146::137279::ecotaxa_source_aphia_id_thalia_democratica_n_a_n_a::aphia::137279": [
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Thalia democratica",
+      "image_id": "test5mm_150rawfile_000033_blobnb_022",
+      "thumbnail_url": "/samples/ecotaxa_21146/Thalia_democratica/01_2c2eeccbd9.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_150rawfile_000033_blobnb_022.jpg",
+      "width": "664",
+      "height": "424"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Thalia democratica",
+      "image_id": "test5mm_150rawfile_000082_blobnb_053",
+      "thumbnail_url": "/samples/ecotaxa_21146/Thalia_democratica/02_43794ec66f.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_150rawfile_000082_blobnb_053.jpg",
+      "width": "595",
+      "height": "368"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Thalia democratica",
+      "image_id": "test5mm_150rawfile_000111_blobnb_040",
+      "thumbnail_url": "/samples/ecotaxa_21146/Thalia_democratica/03_59505a3af3.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_150rawfile_000111_blobnb_040.jpg",
+      "width": "564",
+      "height": "705"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Thalia democratica",
+      "image_id": "test5mm_150rawfile_000121_blobnb_063",
+      "thumbnail_url": "/samples/ecotaxa_21146/Thalia_democratica/04_a3e6076de0.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_150rawfile_000121_blobnb_063.jpg",
+      "width": "438",
+      "height": "760"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Thalia democratica",
+      "image_id": "test5mm_150rawfile_000214_blobnb_106",
+      "thumbnail_url": "/samples/ecotaxa_21146/Thalia_democratica/05_b70461a47f.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_150rawfile_000214_blobnb_106.jpg",
+      "width": "465",
+      "height": "577"
+    }
+  ],
+  "ecotaxa_21146::582420::ecotaxa_source_aphia_id_rhizaria_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Rhizaria",
+      "image_id": "test5mm_150rawfile_000210_blobnb_011",
+      "thumbnail_url": "/samples/ecotaxa_21146/Rhizaria/01_4376858e49.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_150rawfile_000210_blobnb_011.jpg",
+      "width": "179",
+      "height": "271"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Rhizaria",
+      "image_id": "test5mm_500rawfile_000770_blobnb_1",
+      "thumbnail_url": "/samples/ecotaxa_21146/Rhizaria/02_9123f0e702.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_000770_blobnb_1.jpg",
+      "width": "211",
+      "height": "269"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Rhizaria",
+      "image_id": "test5mm_500rawfile_001466_blobnb_09",
+      "thumbnail_url": "/samples/ecotaxa_21146/Rhizaria/03_41cc2d876e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_001466_blobnb_09.jpg",
+      "width": "283",
+      "height": "265"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Rhizaria",
+      "image_id": "test5mm_500um_8fpsrawfile_000017_blobnb_4",
+      "thumbnail_url": "/samples/ecotaxa_21146/Rhizaria/04_26c9163317.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500um_8fpsrawfile_000017_blobnb_4.jpg",
+      "width": "183",
+      "height": "214"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Rhizaria",
+      "image_id": "test5mm_500um_8fpsrawfile_000039_blobnb_1",
+      "thumbnail_url": "/samples/ecotaxa_21146/Rhizaria/05_fe9b3d200d.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500um_8fpsrawfile_000039_blobnb_1.jpg",
+      "width": "192",
+      "height": "257"
+    }
+  ],
+  "ecotaxa_21146::582420::ecotaxa_source_aphia_id_rhizaria_n_a_n_a::aphia::582420": [
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Rhizaria",
+      "image_id": "test5mm_150rawfile_000210_blobnb_011",
+      "thumbnail_url": "/samples/ecotaxa_21146/Rhizaria/01_4376858e49.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_150rawfile_000210_blobnb_011.jpg",
+      "width": "179",
+      "height": "271"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Rhizaria",
+      "image_id": "test5mm_500rawfile_000770_blobnb_1",
+      "thumbnail_url": "/samples/ecotaxa_21146/Rhizaria/02_9123f0e702.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_000770_blobnb_1.jpg",
+      "width": "211",
+      "height": "269"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Rhizaria",
+      "image_id": "test5mm_500rawfile_001466_blobnb_09",
+      "thumbnail_url": "/samples/ecotaxa_21146/Rhizaria/03_41cc2d876e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500rawfile_001466_blobnb_09.jpg",
+      "width": "283",
+      "height": "265"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Rhizaria",
+      "image_id": "test5mm_500um_8fpsrawfile_000017_blobnb_4",
+      "thumbnail_url": "/samples/ecotaxa_21146/Rhizaria/04_26c9163317.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500um_8fpsrawfile_000017_blobnb_4.jpg",
+      "width": "183",
+      "height": "214"
+    },
+    {
+      "dataset_id": "ecotaxa_21146",
+      "label": "Rhizaria",
+      "image_id": "test5mm_500um_8fpsrawfile_000039_blobnb_1",
+      "thumbnail_url": "/samples/ecotaxa_21146/Rhizaria/05_fe9b3d200d.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_21146/test5mm_500um_8fpsrawfile_000039_blobnb_1.jpg",
+      "width": "192",
+      "height": "257"
     }
   ],
   "ecotaxa_211::582420::ecotaxa_broad_class_acantharea_broad_class_n_a": [
@@ -13837,6 +15527,1128 @@
       "height": "53"
     }
   ],
+  "ecotaxa_6015::103358::ecotaxa_source_aphia_id_fritillaria_fritillariinae_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Fritillaria",
+      "image_id": "09ABR2014_40-10000um-A2R1_000024_Image_36_of_53",
+      "thumbnail_url": "/samples/ecotaxa_6015/Fritillaria/01_a13847f2da.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/09ABR2014_40-10000um-A2R1_000024_Image_36_of_53.jpg",
+      "width": "384",
+      "height": "460"
+    }
+  ],
+  "ecotaxa_6015::103358::ecotaxa_source_aphia_id_fritillaria_fritillariinae_n_a_n_a::aphia::103358": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Fritillaria",
+      "image_id": "09ABR2014_40-10000um-A2R1_000024_Image_36_of_53",
+      "thumbnail_url": "/samples/ecotaxa_6015/Fritillaria/01_a13847f2da.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/09ABR2014_40-10000um-A2R1_000024_Image_36_of_53.jpg",
+      "width": "384",
+      "height": "460"
+    }
+  ],
+  "ecotaxa_6015::103367::ecotaxa_source_aphia_id_oikopleura_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Oikopleura",
+      "image_id": "15DEZ2011_40-10000um-A3R2_000002_Image_1_of_30",
+      "thumbnail_url": "/samples/ecotaxa_6015/Oikopleura/01_3869f97132.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/15DEZ2011_40-10000um-A3R2_000002_Image_1_of_30.jpg",
+      "width": "376",
+      "height": "589"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Oikopleura",
+      "image_id": "23NOV2001_40-10000um-A3R3_000021_Image_25_of_41",
+      "thumbnail_url": "/samples/ecotaxa_6015/Oikopleura/02_47150c378f.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/23NOV2001_40-10000um-A3R3_000021_Image_25_of_41.jpg",
+      "width": "192",
+      "height": "297"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Oikopleura",
+      "image_id": "28DEZ2011_40-10000um-A3R1_000045_Image_1_of_37",
+      "thumbnail_url": "/samples/ecotaxa_6015/Oikopleura/03_7024b4e727.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/28DEZ2011_40-10000um-A3R1_000045_Image_1_of_37.jpg",
+      "width": "124",
+      "height": "215"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Oikopleura",
+      "image_id": "29DEZ2014_40-10000um-A1R1_000038_Image_1_of_63",
+      "thumbnail_url": "/samples/ecotaxa_6015/Oikopleura/04_39e5821200.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/29DEZ2014_40-10000um-A1R1_000038_Image_1_of_63.jpg",
+      "width": "290",
+      "height": "519"
+    }
+  ],
+  "ecotaxa_6015::103367::ecotaxa_source_aphia_id_oikopleura_n_a_n_a::aphia::103367": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Oikopleura",
+      "image_id": "15DEZ2011_40-10000um-A3R2_000002_Image_1_of_30",
+      "thumbnail_url": "/samples/ecotaxa_6015/Oikopleura/01_3869f97132.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/15DEZ2011_40-10000um-A3R2_000002_Image_1_of_30.jpg",
+      "width": "376",
+      "height": "589"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Oikopleura",
+      "image_id": "23NOV2001_40-10000um-A3R3_000021_Image_25_of_41",
+      "thumbnail_url": "/samples/ecotaxa_6015/Oikopleura/02_47150c378f.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/23NOV2001_40-10000um-A3R3_000021_Image_25_of_41.jpg",
+      "width": "192",
+      "height": "297"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Oikopleura",
+      "image_id": "28DEZ2011_40-10000um-A3R1_000045_Image_1_of_37",
+      "thumbnail_url": "/samples/ecotaxa_6015/Oikopleura/03_7024b4e727.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/28DEZ2011_40-10000um-A3R1_000045_Image_1_of_37.jpg",
+      "width": "124",
+      "height": "215"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Oikopleura",
+      "image_id": "29DEZ2014_40-10000um-A1R1_000038_Image_1_of_63",
+      "thumbnail_url": "/samples/ecotaxa_6015/Oikopleura/04_39e5821200.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/29DEZ2014_40-10000um-A1R1_000038_Image_1_of_63.jpg",
+      "width": "290",
+      "height": "519"
+    }
+  ],
+  "ecotaxa_6015::117239::ecotaxa_source_aphia_id_solmaris_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Solmaris",
+      "image_id": "03DEZ2014_40-10000um-A1R1_000011_Image_1_of_51",
+      "thumbnail_url": "/samples/ecotaxa_6015/Solmaris/01_d65e5d8e07.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/03DEZ2014_40-10000um-A1R1_000011_Image_1_of_51.jpg",
+      "width": "344",
+      "height": "440"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Solmaris",
+      "image_id": "03DEZ2014_40-10000um-A2R3_000047_Image_1_of_60",
+      "thumbnail_url": "/samples/ecotaxa_6015/Solmaris/02_3db15d825a.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/03DEZ2014_40-10000um-A2R3_000047_Image_1_of_60.jpg",
+      "width": "279",
+      "height": "383"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Solmaris",
+      "image_id": "03DEZ2014_40-10000um-A3R1_000005_Image_11_of_52",
+      "thumbnail_url": "/samples/ecotaxa_6015/Solmaris/03_6d47804b31.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/03DEZ2014_40-10000um-A3R1_000005_Image_11_of_52.jpg",
+      "width": "271",
+      "height": "155"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Solmaris",
+      "image_id": "03DEZ2014_40-10000um-A3R3_000045_Image_62_of_107",
+      "thumbnail_url": "/samples/ecotaxa_6015/Solmaris/04_643bdd7c4d.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/03DEZ2014_40-10000um-A3R3_000045_Image_62_of_107.jpg",
+      "width": "191",
+      "height": "300"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Solmaris",
+      "image_id": "04DEZ2013_40-10000um-A1R2_000053_Image_20_of_61",
+      "thumbnail_url": "/samples/ecotaxa_6015/Solmaris/05_997d2d529a.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/04DEZ2013_40-10000um-A1R2_000053_Image_20_of_61.jpg",
+      "width": "194",
+      "height": "230"
+    }
+  ],
+  "ecotaxa_6015::117239::ecotaxa_source_aphia_id_solmaris_n_a_n_a::aphia::117239": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Solmaris",
+      "image_id": "03DEZ2014_40-10000um-A1R1_000011_Image_1_of_51",
+      "thumbnail_url": "/samples/ecotaxa_6015/Solmaris/01_d65e5d8e07.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/03DEZ2014_40-10000um-A1R1_000011_Image_1_of_51.jpg",
+      "width": "344",
+      "height": "440"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Solmaris",
+      "image_id": "03DEZ2014_40-10000um-A2R3_000047_Image_1_of_60",
+      "thumbnail_url": "/samples/ecotaxa_6015/Solmaris/02_3db15d825a.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/03DEZ2014_40-10000um-A2R3_000047_Image_1_of_60.jpg",
+      "width": "279",
+      "height": "383"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Solmaris",
+      "image_id": "03DEZ2014_40-10000um-A3R1_000005_Image_11_of_52",
+      "thumbnail_url": "/samples/ecotaxa_6015/Solmaris/03_6d47804b31.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/03DEZ2014_40-10000um-A3R1_000005_Image_11_of_52.jpg",
+      "width": "271",
+      "height": "155"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Solmaris",
+      "image_id": "03DEZ2014_40-10000um-A3R3_000045_Image_62_of_107",
+      "thumbnail_url": "/samples/ecotaxa_6015/Solmaris/04_643bdd7c4d.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/03DEZ2014_40-10000um-A3R3_000045_Image_62_of_107.jpg",
+      "width": "191",
+      "height": "300"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Solmaris",
+      "image_id": "04DEZ2013_40-10000um-A1R2_000053_Image_20_of_61",
+      "thumbnail_url": "/samples/ecotaxa_6015/Solmaris/05_997d2d529a.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/04DEZ2013_40-10000um-A1R2_000053_Image_20_of_61.jpg",
+      "width": "194",
+      "height": "230"
+    }
+  ],
+  "ecotaxa_6015::117568::ecotaxa_source_aphia_id_liriope_tetraphylla_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Liriope tetraphylla",
+      "image_id": "01ABR2015_40-10000um-A2R3_000037_Image_53_of_112",
+      "thumbnail_url": "/samples/ecotaxa_6015/Liriope_tetraphylla/01_3746cf3f1b.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01ABR2015_40-10000um-A2R3_000037_Image_53_of_112.jpg",
+      "width": "169",
+      "height": "88"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Liriope tetraphylla",
+      "image_id": "01ABR2015_40-10000um-A3R3_000007_Image_3_of_102",
+      "thumbnail_url": "/samples/ecotaxa_6015/Liriope_tetraphylla/02_7ffc706466.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01ABR2015_40-10000um-A3R3_000007_Image_3_of_102.jpg",
+      "width": "222",
+      "height": "218"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Liriope tetraphylla",
+      "image_id": "01ABR2015_40-10000um-A3R3_000059_Image_21_of_31",
+      "thumbnail_url": "/samples/ecotaxa_6015/Liriope_tetraphylla/03_5a6f341900.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01ABR2015_40-10000um-A3R3_000059_Image_21_of_31.jpg",
+      "width": "109",
+      "height": "152"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Liriope tetraphylla",
+      "image_id": "02JUN2015_40-10000um-A3R3_000028_Image_77_of_89",
+      "thumbnail_url": "/samples/ecotaxa_6015/Liriope_tetraphylla/04_5ece3b6a7f.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2015_40-10000um-A3R3_000028_Image_77_of_89.jpg",
+      "width": "107",
+      "height": "115"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Liriope tetraphylla",
+      "image_id": "02MAI2012_40-10000um-A1R1_000022_Image_7_of_64",
+      "thumbnail_url": "/samples/ecotaxa_6015/Liriope_tetraphylla/05_5dbadfa49b.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02MAI2012_40-10000um-A1R1_000022_Image_7_of_64.jpg",
+      "width": "215",
+      "height": "197"
+    }
+  ],
+  "ecotaxa_6015::117568::ecotaxa_source_aphia_id_liriope_tetraphylla_n_a_n_a::aphia::117568": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Liriope tetraphylla",
+      "image_id": "01ABR2015_40-10000um-A2R3_000037_Image_53_of_112",
+      "thumbnail_url": "/samples/ecotaxa_6015/Liriope_tetraphylla/01_3746cf3f1b.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01ABR2015_40-10000um-A2R3_000037_Image_53_of_112.jpg",
+      "width": "169",
+      "height": "88"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Liriope tetraphylla",
+      "image_id": "01ABR2015_40-10000um-A3R3_000007_Image_3_of_102",
+      "thumbnail_url": "/samples/ecotaxa_6015/Liriope_tetraphylla/02_7ffc706466.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01ABR2015_40-10000um-A3R3_000007_Image_3_of_102.jpg",
+      "width": "222",
+      "height": "218"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Liriope tetraphylla",
+      "image_id": "01ABR2015_40-10000um-A3R3_000059_Image_21_of_31",
+      "thumbnail_url": "/samples/ecotaxa_6015/Liriope_tetraphylla/03_5a6f341900.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01ABR2015_40-10000um-A3R3_000059_Image_21_of_31.jpg",
+      "width": "109",
+      "height": "152"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Liriope tetraphylla",
+      "image_id": "02JUN2015_40-10000um-A3R3_000028_Image_77_of_89",
+      "thumbnail_url": "/samples/ecotaxa_6015/Liriope_tetraphylla/04_5ece3b6a7f.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2015_40-10000um-A3R3_000028_Image_77_of_89.jpg",
+      "width": "107",
+      "height": "115"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Liriope tetraphylla",
+      "image_id": "02MAI2012_40-10000um-A1R1_000022_Image_7_of_64",
+      "thumbnail_url": "/samples/ecotaxa_6015/Liriope_tetraphylla/05_5dbadfa49b.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02MAI2012_40-10000um-A1R1_000022_Image_7_of_64.jpg",
+      "width": "215",
+      "height": "197"
+    }
+  ],
+  "ecotaxa_6015::1337::ecotaxa_source_aphia_id_hydrozoa_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Hydrozoa",
+      "image_id": "02JUN2010_40-10000um-A1R3_000040_Image_23_of_46",
+      "thumbnail_url": "/samples/ecotaxa_6015/Hydrozoa/01_496b1a1d15.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2010_40-10000um-A1R3_000040_Image_23_of_46.jpg",
+      "width": "207",
+      "height": "357"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Hydrozoa",
+      "image_id": "02JUN2015_40-10000um-A1R2_000038_Image_81_of_95",
+      "thumbnail_url": "/samples/ecotaxa_6015/Hydrozoa/02_4089628a98.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2015_40-10000um-A1R2_000038_Image_81_of_95.jpg",
+      "width": "295",
+      "height": "259"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Hydrozoa",
+      "image_id": "04MAR2015_40-10000um-A1R2_000004_Image_33_of_66",
+      "thumbnail_url": "/samples/ecotaxa_6015/Hydrozoa/03_aa5f4992bf.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/04MAR2015_40-10000um-A1R2_000004_Image_33_of_66.jpg",
+      "width": "323",
+      "height": "255"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Hydrozoa",
+      "image_id": "09DEZ2015_40-10000um-A2R2_000034_Image_43_of_75",
+      "thumbnail_url": "/samples/ecotaxa_6015/Hydrozoa/04_31496fdb40.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/09DEZ2015_40-10000um-A2R2_000034_Image_43_of_75.jpg",
+      "width": "310",
+      "height": "428"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Hydrozoa",
+      "image_id": "09JUN2015_40-10000um-A1R3_000012_Image_44_of_58",
+      "thumbnail_url": "/samples/ecotaxa_6015/Hydrozoa/05_1808cc474c.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/09JUN2015_40-10000um-A1R3_000012_Image_44_of_58.jpg",
+      "width": "280",
+      "height": "368"
+    }
+  ],
+  "ecotaxa_6015::1337::ecotaxa_source_aphia_id_hydrozoa_n_a_n_a::aphia::1337": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Hydrozoa",
+      "image_id": "02JUN2010_40-10000um-A1R3_000040_Image_23_of_46",
+      "thumbnail_url": "/samples/ecotaxa_6015/Hydrozoa/01_496b1a1d15.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2010_40-10000um-A1R3_000040_Image_23_of_46.jpg",
+      "width": "207",
+      "height": "357"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Hydrozoa",
+      "image_id": "02JUN2015_40-10000um-A1R2_000038_Image_81_of_95",
+      "thumbnail_url": "/samples/ecotaxa_6015/Hydrozoa/02_4089628a98.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2015_40-10000um-A1R2_000038_Image_81_of_95.jpg",
+      "width": "295",
+      "height": "259"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Hydrozoa",
+      "image_id": "04MAR2015_40-10000um-A1R2_000004_Image_33_of_66",
+      "thumbnail_url": "/samples/ecotaxa_6015/Hydrozoa/03_aa5f4992bf.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/04MAR2015_40-10000um-A1R2_000004_Image_33_of_66.jpg",
+      "width": "323",
+      "height": "255"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Hydrozoa",
+      "image_id": "09DEZ2015_40-10000um-A2R2_000034_Image_43_of_75",
+      "thumbnail_url": "/samples/ecotaxa_6015/Hydrozoa/04_31496fdb40.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/09DEZ2015_40-10000um-A2R2_000034_Image_43_of_75.jpg",
+      "width": "310",
+      "height": "428"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Hydrozoa",
+      "image_id": "09JUN2015_40-10000um-A1R3_000012_Image_44_of_58",
+      "thumbnail_url": "/samples/ecotaxa_6015/Hydrozoa/05_1808cc474c.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/09JUN2015_40-10000um-A1R3_000012_Image_44_of_58.jpg",
+      "width": "280",
+      "height": "368"
+    }
+  ],
+  "ecotaxa_6015::137247::ecotaxa_source_aphia_id_doliolum_nationalis_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Doliolum nationalis",
+      "image_id": "01DEZ2010_40-10000um-A2R1_000075_Image_1_of_22",
+      "thumbnail_url": "/samples/ecotaxa_6015/Doliolum_nationalis/01_037b8017ab.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A2R1_000075_Image_1_of_22.jpg",
+      "width": "207",
+      "height": "380"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Doliolum nationalis",
+      "image_id": "01DEZ2010_40-10000um-A2R3_000083_Image_22_of_37",
+      "thumbnail_url": "/samples/ecotaxa_6015/Doliolum_nationalis/02_02c1b8a2ad.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A2R3_000083_Image_22_of_37.jpg",
+      "width": "347",
+      "height": "289"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Doliolum nationalis",
+      "image_id": "02JUN2010_40-10000um-A3R2_000002_Image_26_of_57",
+      "thumbnail_url": "/samples/ecotaxa_6015/Doliolum_nationalis/03_dd3d582dcf.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2010_40-10000um-A3R2_000002_Image_26_of_57.jpg",
+      "width": "219",
+      "height": "245"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Doliolum nationalis",
+      "image_id": "02JUN2015_40-10000um-A1R1_000018_Image_1_of_101",
+      "thumbnail_url": "/samples/ecotaxa_6015/Doliolum_nationalis/04_23899adfa4.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2015_40-10000um-A1R1_000018_Image_1_of_101.jpg",
+      "width": "394",
+      "height": "297"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Doliolum nationalis",
+      "image_id": "02JUN2015_40-10000um-A1R2_000033_Image_27_of_83",
+      "thumbnail_url": "/samples/ecotaxa_6015/Doliolum_nationalis/05_066d073c0f.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2015_40-10000um-A1R2_000033_Image_27_of_83.jpg",
+      "width": "231",
+      "height": "240"
+    }
+  ],
+  "ecotaxa_6015::137247::ecotaxa_source_aphia_id_doliolum_nationalis_n_a_n_a::aphia::137247": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Doliolum nationalis",
+      "image_id": "01DEZ2010_40-10000um-A2R1_000075_Image_1_of_22",
+      "thumbnail_url": "/samples/ecotaxa_6015/Doliolum_nationalis/01_037b8017ab.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A2R1_000075_Image_1_of_22.jpg",
+      "width": "207",
+      "height": "380"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Doliolum nationalis",
+      "image_id": "01DEZ2010_40-10000um-A2R3_000083_Image_22_of_37",
+      "thumbnail_url": "/samples/ecotaxa_6015/Doliolum_nationalis/02_02c1b8a2ad.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A2R3_000083_Image_22_of_37.jpg",
+      "width": "347",
+      "height": "289"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Doliolum nationalis",
+      "image_id": "02JUN2010_40-10000um-A3R2_000002_Image_26_of_57",
+      "thumbnail_url": "/samples/ecotaxa_6015/Doliolum_nationalis/03_dd3d582dcf.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2010_40-10000um-A3R2_000002_Image_26_of_57.jpg",
+      "width": "219",
+      "height": "245"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Doliolum nationalis",
+      "image_id": "02JUN2015_40-10000um-A1R1_000018_Image_1_of_101",
+      "thumbnail_url": "/samples/ecotaxa_6015/Doliolum_nationalis/04_23899adfa4.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2015_40-10000um-A1R1_000018_Image_1_of_101.jpg",
+      "width": "394",
+      "height": "297"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Doliolum nationalis",
+      "image_id": "02JUN2015_40-10000um-A1R2_000033_Image_27_of_83",
+      "thumbnail_url": "/samples/ecotaxa_6015/Doliolum_nationalis/05_066d073c0f.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2015_40-10000um-A1R2_000033_Image_27_of_83.jpg",
+      "width": "231",
+      "height": "240"
+    }
+  ],
+  "ecotaxa_6015::1410::ecotaxa_source_aphia_id_foraminifera_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Foraminifera",
+      "image_id": "02JUN2010_40-10000um-A1R3_000011_Image_56_of_84",
+      "thumbnail_url": "/samples/ecotaxa_6015/Foraminifera/01_8e0b6f5a5e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2010_40-10000um-A1R3_000011_Image_56_of_84.jpg",
+      "width": "58",
+      "height": "51"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Foraminifera",
+      "image_id": "02JUN2010_40-10000um-A1R3_000030_Image_51_of_75",
+      "thumbnail_url": "/samples/ecotaxa_6015/Foraminifera/02_7346d8c632.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2010_40-10000um-A1R3_000030_Image_51_of_75.jpg",
+      "width": "56",
+      "height": "52"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Foraminifera",
+      "image_id": "02JUN2010_40-10000um-A2R1_000019_Image_101_of_142",
+      "thumbnail_url": "/samples/ecotaxa_6015/Foraminifera/03_cc3e301fb0.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2010_40-10000um-A2R1_000019_Image_101_of_142.jpg",
+      "width": "49",
+      "height": "57"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Foraminifera",
+      "image_id": "02JUN2010_40-10000um-A2R1_000027_Image_21_of_82",
+      "thumbnail_url": "/samples/ecotaxa_6015/Foraminifera/04_7a34faa1e8.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2010_40-10000um-A2R1_000027_Image_21_of_82.jpg",
+      "width": "49",
+      "height": "70"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Foraminifera",
+      "image_id": "02JUN2010_40-10000um-A2R3_000006_Image_56_of_108",
+      "thumbnail_url": "/samples/ecotaxa_6015/Foraminifera/05_343a7d28dd.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2010_40-10000um-A2R3_000006_Image_56_of_108.jpg",
+      "width": "57",
+      "height": "50"
+    }
+  ],
+  "ecotaxa_6015::1410::ecotaxa_source_aphia_id_foraminifera_n_a_n_a::aphia::1410": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Foraminifera",
+      "image_id": "02JUN2010_40-10000um-A1R3_000011_Image_56_of_84",
+      "thumbnail_url": "/samples/ecotaxa_6015/Foraminifera/01_8e0b6f5a5e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2010_40-10000um-A1R3_000011_Image_56_of_84.jpg",
+      "width": "58",
+      "height": "51"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Foraminifera",
+      "image_id": "02JUN2010_40-10000um-A1R3_000030_Image_51_of_75",
+      "thumbnail_url": "/samples/ecotaxa_6015/Foraminifera/02_7346d8c632.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2010_40-10000um-A1R3_000030_Image_51_of_75.jpg",
+      "width": "56",
+      "height": "52"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Foraminifera",
+      "image_id": "02JUN2010_40-10000um-A2R1_000019_Image_101_of_142",
+      "thumbnail_url": "/samples/ecotaxa_6015/Foraminifera/03_cc3e301fb0.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2010_40-10000um-A2R1_000019_Image_101_of_142.jpg",
+      "width": "49",
+      "height": "57"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Foraminifera",
+      "image_id": "02JUN2010_40-10000um-A2R1_000027_Image_21_of_82",
+      "thumbnail_url": "/samples/ecotaxa_6015/Foraminifera/04_7a34faa1e8.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2010_40-10000um-A2R1_000027_Image_21_of_82.jpg",
+      "width": "49",
+      "height": "70"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Foraminifera",
+      "image_id": "02JUN2010_40-10000um-A2R3_000006_Image_56_of_108",
+      "thumbnail_url": "/samples/ecotaxa_6015/Foraminifera/05_343a7d28dd.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/02JUN2010_40-10000um-A2R3_000006_Image_56_of_108.jpg",
+      "width": "57",
+      "height": "50"
+    }
+  ],
+  "ecotaxa_6015::146421::ecotaxa_source_aphia_id_appendicularia_tunicata_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Appendicularia",
+      "image_id": "01ABR2015_40-10000um-A2R1_000058_Image_1_of_75",
+      "thumbnail_url": "/samples/ecotaxa_6015/Appendicularia/01_0560bc6861.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01ABR2015_40-10000um-A2R1_000058_Image_1_of_75.jpg",
+      "width": "308",
+      "height": "347"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Appendicularia",
+      "image_id": "01DEZ2010_40-10000um-A1R1_000011_Image_1_of_62",
+      "thumbnail_url": "/samples/ecotaxa_6015/Appendicularia/02_05e8c43402.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A1R1_000011_Image_1_of_62.jpg",
+      "width": "243",
+      "height": "387"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Appendicularia",
+      "image_id": "01DEZ2010_40-10000um-A2R1_000011_Image_1_of_45",
+      "thumbnail_url": "/samples/ecotaxa_6015/Appendicularia/03_6a52c0556b.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A2R1_000011_Image_1_of_45.jpg",
+      "width": "193",
+      "height": "300"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Appendicularia",
+      "image_id": "01DEZ2010_40-10000um-A2R1_000074_Image_1_of_33",
+      "thumbnail_url": "/samples/ecotaxa_6015/Appendicularia/04_a738e37259.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A2R1_000074_Image_1_of_33.jpg",
+      "width": "401",
+      "height": "332"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Appendicularia",
+      "image_id": "01DEZ2010_40-10000um-A2R3_000073_Image_22_of_52",
+      "thumbnail_url": "/samples/ecotaxa_6015/Appendicularia/05_368787ec2e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A2R3_000073_Image_22_of_52.jpg",
+      "width": "175",
+      "height": "240"
+    }
+  ],
+  "ecotaxa_6015::146421::ecotaxa_source_aphia_id_appendicularia_tunicata_n_a_n_a::aphia::146421": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Appendicularia",
+      "image_id": "01ABR2015_40-10000um-A2R1_000058_Image_1_of_75",
+      "thumbnail_url": "/samples/ecotaxa_6015/Appendicularia/01_0560bc6861.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01ABR2015_40-10000um-A2R1_000058_Image_1_of_75.jpg",
+      "width": "308",
+      "height": "347"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Appendicularia",
+      "image_id": "01DEZ2010_40-10000um-A1R1_000011_Image_1_of_62",
+      "thumbnail_url": "/samples/ecotaxa_6015/Appendicularia/02_05e8c43402.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A1R1_000011_Image_1_of_62.jpg",
+      "width": "243",
+      "height": "387"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Appendicularia",
+      "image_id": "01DEZ2010_40-10000um-A2R1_000011_Image_1_of_45",
+      "thumbnail_url": "/samples/ecotaxa_6015/Appendicularia/03_6a52c0556b.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A2R1_000011_Image_1_of_45.jpg",
+      "width": "193",
+      "height": "300"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Appendicularia",
+      "image_id": "01DEZ2010_40-10000um-A2R1_000074_Image_1_of_33",
+      "thumbnail_url": "/samples/ecotaxa_6015/Appendicularia/04_a738e37259.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A2R1_000074_Image_1_of_33.jpg",
+      "width": "401",
+      "height": "332"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Appendicularia",
+      "image_id": "01DEZ2010_40-10000um-A2R3_000073_Image_22_of_52",
+      "thumbnail_url": "/samples/ecotaxa_6015/Appendicularia/05_368787ec2e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A2R3_000073_Image_22_of_52.jpg",
+      "width": "175",
+      "height": "240"
+    }
+  ],
+  "ecotaxa_6015::1806::ecotaxa_source_aphia_id_echinodermata_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Echinodermata",
+      "image_id": "01DEZ2001_40-10000um-A1R1_000015_Image_1_of_48",
+      "thumbnail_url": "/samples/ecotaxa_6015/Echinodermata/01_f4519de0cd.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2001_40-10000um-A1R1_000015_Image_1_of_48.jpg",
+      "width": "296",
+      "height": "416"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Echinodermata",
+      "image_id": "04DEZ2001_40-10000um-A1R3_000055_Image_14_of_64",
+      "thumbnail_url": "/samples/ecotaxa_6015/Echinodermata/02_1a7bbcd3aa.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/04DEZ2001_40-10000um-A1R3_000055_Image_14_of_64.jpg",
+      "width": "261",
+      "height": "306"
+    }
+  ],
+  "ecotaxa_6015::1806::ecotaxa_source_aphia_id_echinodermata_n_a_n_a::aphia::1806": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Echinodermata",
+      "image_id": "01DEZ2001_40-10000um-A1R1_000015_Image_1_of_48",
+      "thumbnail_url": "/samples/ecotaxa_6015/Echinodermata/01_f4519de0cd.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2001_40-10000um-A1R1_000015_Image_1_of_48.jpg",
+      "width": "296",
+      "height": "416"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Echinodermata",
+      "image_id": "04DEZ2001_40-10000um-A1R3_000055_Image_14_of_64",
+      "thumbnail_url": "/samples/ecotaxa_6015/Echinodermata/02_1a7bbcd3aa.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/04DEZ2001_40-10000um-A1R3_000055_Image_14_of_64.jpg",
+      "width": "261",
+      "height": "306"
+    }
+  ],
+  "ecotaxa_6015::1839::ecotaxa_source_aphia_id_ascidiacea_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Ascidiacea",
+      "image_id": "01OUT2008_40-10000um-A1R1_000035_Image_53_of_111",
+      "thumbnail_url": "/samples/ecotaxa_6015/Ascidiacea/01_82831b7cf1.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01OUT2008_40-10000um-A1R1_000035_Image_53_of_111.jpg",
+      "width": "169",
+      "height": "153"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Ascidiacea",
+      "image_id": "03DEZ2014_40-10000um-A1R2_000054_Image_82_of_88",
+      "thumbnail_url": "/samples/ecotaxa_6015/Ascidiacea/02_7bd443f4f6.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/03DEZ2014_40-10000um-A1R2_000054_Image_82_of_88.jpg",
+      "width": "95",
+      "height": "184"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Ascidiacea",
+      "image_id": "03DEZ2014_40-10000um-A2R2_000052_Image_46_of_64",
+      "thumbnail_url": "/samples/ecotaxa_6015/Ascidiacea/03_1a14e80ef4.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/03DEZ2014_40-10000um-A2R2_000052_Image_46_of_64.jpg",
+      "width": "128",
+      "height": "218"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Ascidiacea",
+      "image_id": "03DEZ2014_40-10000um-A2R3_000031_Image_79_of_80",
+      "thumbnail_url": "/samples/ecotaxa_6015/Ascidiacea/04_09273f8487.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/03DEZ2014_40-10000um-A2R3_000031_Image_79_of_80.jpg",
+      "width": "126",
+      "height": "205"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Ascidiacea",
+      "image_id": "03DEZ2014_40-10000um-A3R2_000025_Image_16_of_18",
+      "thumbnail_url": "/samples/ecotaxa_6015/Ascidiacea/05_8ef3994922.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/03DEZ2014_40-10000um-A3R2_000025_Image_16_of_18.jpg",
+      "width": "205",
+      "height": "55"
+    }
+  ],
+  "ecotaxa_6015::1839::ecotaxa_source_aphia_id_ascidiacea_n_a_n_a::aphia::1839": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Ascidiacea",
+      "image_id": "01OUT2008_40-10000um-A1R1_000035_Image_53_of_111",
+      "thumbnail_url": "/samples/ecotaxa_6015/Ascidiacea/01_82831b7cf1.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01OUT2008_40-10000um-A1R1_000035_Image_53_of_111.jpg",
+      "width": "169",
+      "height": "153"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Ascidiacea",
+      "image_id": "03DEZ2014_40-10000um-A1R2_000054_Image_82_of_88",
+      "thumbnail_url": "/samples/ecotaxa_6015/Ascidiacea/02_7bd443f4f6.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/03DEZ2014_40-10000um-A1R2_000054_Image_82_of_88.jpg",
+      "width": "95",
+      "height": "184"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Ascidiacea",
+      "image_id": "03DEZ2014_40-10000um-A2R2_000052_Image_46_of_64",
+      "thumbnail_url": "/samples/ecotaxa_6015/Ascidiacea/03_1a14e80ef4.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/03DEZ2014_40-10000um-A2R2_000052_Image_46_of_64.jpg",
+      "width": "128",
+      "height": "218"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Ascidiacea",
+      "image_id": "03DEZ2014_40-10000um-A2R3_000031_Image_79_of_80",
+      "thumbnail_url": "/samples/ecotaxa_6015/Ascidiacea/04_09273f8487.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/03DEZ2014_40-10000um-A2R3_000031_Image_79_of_80.jpg",
+      "width": "126",
+      "height": "205"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Ascidiacea",
+      "image_id": "03DEZ2014_40-10000um-A3R2_000025_Image_16_of_18",
+      "thumbnail_url": "/samples/ecotaxa_6015/Ascidiacea/05_8ef3994922.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/03DEZ2014_40-10000um-A3R2_000025_Image_16_of_18.jpg",
+      "width": "205",
+      "height": "55"
+    }
+  ],
+  "ecotaxa_6015::558::ecotaxa_broad_class_spicule_broad_class_n_a": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Porifera",
+      "image_id": "01AGO2001_40-10000um-A1R2_000028_Image_39_of_101",
+      "thumbnail_url": "/samples/ecotaxa_6015/Porifera/01_27ae6108a6.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01AGO2001_40-10000um-A1R2_000028_Image_39_of_101.jpg",
+      "width": "75",
+      "height": "89"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Porifera",
+      "image_id": "03OUT2012_40-10000um-A2R1_000032_Image_18_of_72",
+      "thumbnail_url": "/samples/ecotaxa_6015/Porifera/02_f964e40de6.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/03OUT2012_40-10000um-A2R1_000032_Image_18_of_72.jpg",
+      "width": "84",
+      "height": "92"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Porifera",
+      "image_id": "01DEZ2001_40-10000um-A1R1_000027_Image_24_of_91",
+      "thumbnail_url": "/samples/ecotaxa_6015/Porifera/03_37531cca23.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2001_40-10000um-A1R1_000027_Image_24_of_91.jpg",
+      "width": "75",
+      "height": "94"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Porifera",
+      "image_id": "01DEZ2001_40-10000um-A1R1_000028_Image_35_of_67",
+      "thumbnail_url": "/samples/ecotaxa_6015/Porifera/04_4c40128abe.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2001_40-10000um-A1R1_000028_Image_35_of_67.jpg",
+      "width": "56",
+      "height": "109"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Porifera",
+      "image_id": "01DEZ2001_40-10000um-A1R1_000035_Image_54_of_97",
+      "thumbnail_url": "/samples/ecotaxa_6015/Porifera/05_ec71399a1f.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2001_40-10000um-A1R1_000035_Image_54_of_97.jpg",
+      "width": "66",
+      "height": "109"
+    }
+  ],
+  "ecotaxa_6015::558::ecotaxa_broad_class_spicule_broad_class_n_a::aphia::558": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Porifera",
+      "image_id": "01AGO2001_40-10000um-A1R2_000028_Image_39_of_101",
+      "thumbnail_url": "/samples/ecotaxa_6015/Porifera/01_27ae6108a6.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01AGO2001_40-10000um-A1R2_000028_Image_39_of_101.jpg",
+      "width": "75",
+      "height": "89"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Porifera",
+      "image_id": "03OUT2012_40-10000um-A2R1_000032_Image_18_of_72",
+      "thumbnail_url": "/samples/ecotaxa_6015/Porifera/02_f964e40de6.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/03OUT2012_40-10000um-A2R1_000032_Image_18_of_72.jpg",
+      "width": "84",
+      "height": "92"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Porifera",
+      "image_id": "01DEZ2001_40-10000um-A1R1_000027_Image_24_of_91",
+      "thumbnail_url": "/samples/ecotaxa_6015/Porifera/03_37531cca23.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2001_40-10000um-A1R1_000027_Image_24_of_91.jpg",
+      "width": "75",
+      "height": "94"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Porifera",
+      "image_id": "01DEZ2001_40-10000um-A1R1_000028_Image_35_of_67",
+      "thumbnail_url": "/samples/ecotaxa_6015/Porifera/04_4c40128abe.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2001_40-10000um-A1R1_000028_Image_35_of_67.jpg",
+      "width": "56",
+      "height": "109"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Porifera",
+      "image_id": "01DEZ2001_40-10000um-A1R1_000035_Image_54_of_97",
+      "thumbnail_url": "/samples/ecotaxa_6015/Porifera/05_ec71399a1f.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2001_40-10000um-A1R1_000035_Image_54_of_97.jpg",
+      "width": "66",
+      "height": "109"
+    }
+  ],
+  "ecotaxa_6015::586732::ecotaxa_source_aphia_id_acantharia_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Acantharia",
+      "image_id": "15AGO2001_40-10000um-A1R5_000021_Image_9_of_110",
+      "thumbnail_url": "/samples/ecotaxa_6015/Acantharia/01_e6db134705.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/15AGO2001_40-10000um-A1R5_000021_Image_9_of_110.jpg",
+      "width": "66",
+      "height": "63"
+    }
+  ],
+  "ecotaxa_6015::586732::ecotaxa_source_aphia_id_acantharia_n_a_n_a::aphia::586732": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Acantharia",
+      "image_id": "15AGO2001_40-10000um-A1R5_000021_Image_9_of_110",
+      "thumbnail_url": "/samples/ecotaxa_6015/Acantharia/01_e6db134705.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/15AGO2001_40-10000um-A1R5_000021_Image_9_of_110.jpg",
+      "width": "66",
+      "height": "63"
+    }
+  ],
+  "ecotaxa_6015::799::ecotaxa_source_aphia_id_nematoda_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Nematoda",
+      "image_id": "07DEZ2004_40-10000um-A3R2_000042_Image_10_of_85",
+      "thumbnail_url": "/samples/ecotaxa_6015/Nematoda/01_212efc4089.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/07DEZ2004_40-10000um-A3R2_000042_Image_10_of_85.jpg",
+      "width": "96",
+      "height": "124"
+    }
+  ],
+  "ecotaxa_6015::799::ecotaxa_source_aphia_id_nematoda_n_a_n_a::aphia::799": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Nematoda",
+      "image_id": "07DEZ2004_40-10000um-A3R2_000042_Image_10_of_85",
+      "thumbnail_url": "/samples/ecotaxa_6015/Nematoda/01_212efc4089.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/07DEZ2004_40-10000um-A3R2_000042_Image_10_of_85.jpg",
+      "width": "96",
+      "height": "124"
+    }
+  ],
+  "ecotaxa_6015::863399::ecotaxa_source_aphia_id_collodaria_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Collodaria",
+      "image_id": "01DEZ2010_40-10000um-A1R3_000001_Image_61_of_72",
+      "thumbnail_url": "/samples/ecotaxa_6015/Collodaria/01_3ade9c191d.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A1R3_000001_Image_61_of_72.jpg",
+      "width": "83",
+      "height": "77"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Collodaria",
+      "image_id": "01DEZ2010_40-10000um-A1R3_000003_Image_42_of_44",
+      "thumbnail_url": "/samples/ecotaxa_6015/Collodaria/02_b644b52b63.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A1R3_000003_Image_42_of_44.jpg",
+      "width": "73",
+      "height": "78"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Collodaria",
+      "image_id": "01DEZ2010_40-10000um-A1R2_000009_Image_12_of_41",
+      "thumbnail_url": "/samples/ecotaxa_6015/Collodaria/03_2229efe77c.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A1R2_000009_Image_12_of_41.jpg",
+      "width": "63",
+      "height": "75"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Collodaria",
+      "image_id": "01DEZ2010_40-10000um-A2R1_000030_Image_2_of_39",
+      "thumbnail_url": "/samples/ecotaxa_6015/Collodaria/04_74c358f899.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A2R1_000030_Image_2_of_39.jpg",
+      "width": "80",
+      "height": "71"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Collodaria",
+      "image_id": "01DEZ2010_40-10000um-A2R1_000032_Image_44_of_67",
+      "thumbnail_url": "/samples/ecotaxa_6015/Collodaria/05_b1cdb5de70.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A2R1_000032_Image_44_of_67.jpg",
+      "width": "73",
+      "height": "74"
+    }
+  ],
+  "ecotaxa_6015::863399::ecotaxa_source_aphia_id_collodaria_n_a_n_a::aphia::863399": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Collodaria",
+      "image_id": "01DEZ2010_40-10000um-A1R3_000001_Image_61_of_72",
+      "thumbnail_url": "/samples/ecotaxa_6015/Collodaria/01_3ade9c191d.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A1R3_000001_Image_61_of_72.jpg",
+      "width": "83",
+      "height": "77"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Collodaria",
+      "image_id": "01DEZ2010_40-10000um-A1R3_000003_Image_42_of_44",
+      "thumbnail_url": "/samples/ecotaxa_6015/Collodaria/02_b644b52b63.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A1R3_000003_Image_42_of_44.jpg",
+      "width": "73",
+      "height": "78"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Collodaria",
+      "image_id": "01DEZ2010_40-10000um-A1R2_000009_Image_12_of_41",
+      "thumbnail_url": "/samples/ecotaxa_6015/Collodaria/03_2229efe77c.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A1R2_000009_Image_12_of_41.jpg",
+      "width": "63",
+      "height": "75"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Collodaria",
+      "image_id": "01DEZ2010_40-10000um-A2R1_000030_Image_2_of_39",
+      "thumbnail_url": "/samples/ecotaxa_6015/Collodaria/04_74c358f899.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A2R1_000030_Image_2_of_39.jpg",
+      "width": "80",
+      "height": "71"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Collodaria",
+      "image_id": "01DEZ2010_40-10000um-A2R1_000032_Image_44_of_67",
+      "thumbnail_url": "/samples/ecotaxa_6015/Collodaria/05_b1cdb5de70.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01DEZ2010_40-10000um-A2R1_000032_Image_44_of_67.jpg",
+      "width": "73",
+      "height": "74"
+    }
+  ],
+  "ecotaxa_6015::883::ecotaxa_source_aphia_id_polychaeta_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Polychaeta",
+      "image_id": "01ABR2015_40-10000um-A2R2_000047_Image_1_of_41",
+      "thumbnail_url": "/samples/ecotaxa_6015/Polychaeta/01_e01b996af2.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01ABR2015_40-10000um-A2R2_000047_Image_1_of_41.jpg",
+      "width": "151",
+      "height": "250"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Polychaeta",
+      "image_id": "01ABR2015_40-10000um-A3R3_000003_Image_44_of_58",
+      "thumbnail_url": "/samples/ecotaxa_6015/Polychaeta/02_e6e41f0835.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01ABR2015_40-10000um-A3R3_000003_Image_44_of_58.jpg",
+      "width": "323",
+      "height": "224"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Polychaeta",
+      "image_id": "01AGO2001_40-10000um-A1R1_000021_Image_1_of_112",
+      "thumbnail_url": "/samples/ecotaxa_6015/Polychaeta/03_fd7211602b.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01AGO2001_40-10000um-A1R1_000021_Image_1_of_112.jpg",
+      "width": "69",
+      "height": "103"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Polychaeta",
+      "image_id": "01JUL2010_40-10000um-A2R3_000069_Image_4_of_29",
+      "thumbnail_url": "/samples/ecotaxa_6015/Polychaeta/04_133e99ec21.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01JUL2010_40-10000um-A2R3_000069_Image_4_of_29.jpg",
+      "width": "315",
+      "height": "297"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Polychaeta",
+      "image_id": "01NOV2007_40-10000um-A3R3_000016_Image_38_of_107",
+      "thumbnail_url": "/samples/ecotaxa_6015/Polychaeta/05_1cbc401c1c.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01NOV2007_40-10000um-A3R3_000016_Image_38_of_107.jpg",
+      "width": "242",
+      "height": "271"
+    }
+  ],
+  "ecotaxa_6015::883::ecotaxa_source_aphia_id_polychaeta_n_a_n_a::aphia::883": [
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Polychaeta",
+      "image_id": "01ABR2015_40-10000um-A2R2_000047_Image_1_of_41",
+      "thumbnail_url": "/samples/ecotaxa_6015/Polychaeta/01_e01b996af2.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01ABR2015_40-10000um-A2R2_000047_Image_1_of_41.jpg",
+      "width": "151",
+      "height": "250"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Polychaeta",
+      "image_id": "01ABR2015_40-10000um-A3R3_000003_Image_44_of_58",
+      "thumbnail_url": "/samples/ecotaxa_6015/Polychaeta/02_e6e41f0835.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01ABR2015_40-10000um-A3R3_000003_Image_44_of_58.jpg",
+      "width": "323",
+      "height": "224"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Polychaeta",
+      "image_id": "01AGO2001_40-10000um-A1R1_000021_Image_1_of_112",
+      "thumbnail_url": "/samples/ecotaxa_6015/Polychaeta/03_fd7211602b.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01AGO2001_40-10000um-A1R1_000021_Image_1_of_112.jpg",
+      "width": "69",
+      "height": "103"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Polychaeta",
+      "image_id": "01JUL2010_40-10000um-A2R3_000069_Image_4_of_29",
+      "thumbnail_url": "/samples/ecotaxa_6015/Polychaeta/04_133e99ec21.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01JUL2010_40-10000um-A2R3_000069_Image_4_of_29.jpg",
+      "width": "315",
+      "height": "297"
+    },
+    {
+      "dataset_id": "ecotaxa_6015",
+      "label": "Polychaeta",
+      "image_id": "01NOV2007_40-10000um-A3R3_000016_Image_38_of_107",
+      "thumbnail_url": "/samples/ecotaxa_6015/Polychaeta/05_1cbc401c1c.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_6015/01NOV2007_40-10000um-A3R3_000016_Image_38_of_107.jpg",
+      "width": "242",
+      "height": "271"
+    }
+  ],
   "ecotaxa_7666::103354::ecotaxa_source_aphia_id_fritillariidae_n_a_n_a": [
     {
       "dataset_id": "ecotaxa_7666",
@@ -15645,6 +18457,252 @@
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_825/phyto20170910_stn_51_1117.png",
       "width": "224",
       "height": "144"
+    }
+  ],
+  "ecotaxa_8847::134941::ecotaxa_source_aphia_id_keratella_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Keratella",
+      "image_id": "03f70bd94c1f7c23e3544a2b5c33cd95",
+      "thumbnail_url": "/samples/ecotaxa_8847/Keratella/01_846beae0b0.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/03f70bd94c1f7c23e3544a2b5c33cd95.png",
+      "width": "64",
+      "height": "44"
+    },
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Keratella",
+      "image_id": "07c91d6b59dfbc497ff84d049f4c4f93",
+      "thumbnail_url": "/samples/ecotaxa_8847/Keratella/02_a485155325.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/07c91d6b59dfbc497ff84d049f4c4f93.png",
+      "width": "44",
+      "height": "81"
+    },
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Keratella",
+      "image_id": "047bd27be90471221ddf35cd4e3f985e",
+      "thumbnail_url": "/samples/ecotaxa_8847/Keratella/03_d9a4eb316a.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/047bd27be90471221ddf35cd4e3f985e.png",
+      "width": "49",
+      "height": "82"
+    },
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Keratella",
+      "image_id": "03dbd206004aabbc3ff818ea4279b7f9",
+      "thumbnail_url": "/samples/ecotaxa_8847/Keratella/04_9059bc3411.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/03dbd206004aabbc3ff818ea4279b7f9.png",
+      "width": "67",
+      "height": "55"
+    },
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Keratella",
+      "image_id": "06358563a46d2c9afb66ccc937d82cbe",
+      "thumbnail_url": "/samples/ecotaxa_8847/Keratella/05_942327f716.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/06358563a46d2c9afb66ccc937d82cbe.png",
+      "width": "41",
+      "height": "66"
+    }
+  ],
+  "ecotaxa_8847::134941::ecotaxa_source_aphia_id_keratella_n_a_n_a::aphia::134941": [
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Keratella",
+      "image_id": "03f70bd94c1f7c23e3544a2b5c33cd95",
+      "thumbnail_url": "/samples/ecotaxa_8847/Keratella/01_846beae0b0.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/03f70bd94c1f7c23e3544a2b5c33cd95.png",
+      "width": "64",
+      "height": "44"
+    },
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Keratella",
+      "image_id": "07c91d6b59dfbc497ff84d049f4c4f93",
+      "thumbnail_url": "/samples/ecotaxa_8847/Keratella/02_a485155325.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/07c91d6b59dfbc497ff84d049f4c4f93.png",
+      "width": "44",
+      "height": "81"
+    },
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Keratella",
+      "image_id": "047bd27be90471221ddf35cd4e3f985e",
+      "thumbnail_url": "/samples/ecotaxa_8847/Keratella/03_d9a4eb316a.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/047bd27be90471221ddf35cd4e3f985e.png",
+      "width": "49",
+      "height": "82"
+    },
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Keratella",
+      "image_id": "03dbd206004aabbc3ff818ea4279b7f9",
+      "thumbnail_url": "/samples/ecotaxa_8847/Keratella/04_9059bc3411.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/03dbd206004aabbc3ff818ea4279b7f9.png",
+      "width": "67",
+      "height": "55"
+    },
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Keratella",
+      "image_id": "06358563a46d2c9afb66ccc937d82cbe",
+      "thumbnail_url": "/samples/ecotaxa_8847/Keratella/05_942327f716.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/06358563a46d2c9afb66ccc937d82cbe.png",
+      "width": "41",
+      "height": "66"
+    }
+  ],
+  "ecotaxa_8847::134990::ecotaxa_source_aphia_id_keratella_cochlearis_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Keratella cochlearis",
+      "image_id": "0748a9b0225390f9127ce4a95033e4c3",
+      "thumbnail_url": "/samples/ecotaxa_8847/Keratella_cochlearis/01_65e1e9d48e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/0748a9b0225390f9127ce4a95033e4c3.png",
+      "width": "86",
+      "height": "58"
+    },
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Keratella cochlearis",
+      "image_id": "00454725d55af5077478c16056b31241",
+      "thumbnail_url": "/samples/ecotaxa_8847/Keratella_cochlearis/02_736e349668.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/00454725d55af5077478c16056b31241.png",
+      "width": "55",
+      "height": "83"
+    },
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Keratella cochlearis",
+      "image_id": "0189630a9655eab99bcdc0325344dbfe",
+      "thumbnail_url": "/samples/ecotaxa_8847/Keratella_cochlearis/03_0e56100d6a.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/0189630a9655eab99bcdc0325344dbfe.png",
+      "width": "64",
+      "height": "89"
+    },
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Keratella cochlearis",
+      "image_id": "07bd43e73146970a731d148159ee5600",
+      "thumbnail_url": "/samples/ecotaxa_8847/Keratella_cochlearis/04_e3f96f389d.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/07bd43e73146970a731d148159ee5600.png",
+      "width": "35",
+      "height": "37"
+    },
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Keratella cochlearis",
+      "image_id": "047e456daa81b0d4e50828dad5251895",
+      "thumbnail_url": "/samples/ecotaxa_8847/Keratella_cochlearis/05_928587a03f.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/047e456daa81b0d4e50828dad5251895.png",
+      "width": "50",
+      "height": "72"
+    }
+  ],
+  "ecotaxa_8847::134990::ecotaxa_source_aphia_id_keratella_cochlearis_n_a_n_a::aphia::134990": [
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Keratella cochlearis",
+      "image_id": "0748a9b0225390f9127ce4a95033e4c3",
+      "thumbnail_url": "/samples/ecotaxa_8847/Keratella_cochlearis/01_65e1e9d48e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/0748a9b0225390f9127ce4a95033e4c3.png",
+      "width": "86",
+      "height": "58"
+    },
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Keratella cochlearis",
+      "image_id": "00454725d55af5077478c16056b31241",
+      "thumbnail_url": "/samples/ecotaxa_8847/Keratella_cochlearis/02_736e349668.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/00454725d55af5077478c16056b31241.png",
+      "width": "55",
+      "height": "83"
+    },
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Keratella cochlearis",
+      "image_id": "0189630a9655eab99bcdc0325344dbfe",
+      "thumbnail_url": "/samples/ecotaxa_8847/Keratella_cochlearis/03_0e56100d6a.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/0189630a9655eab99bcdc0325344dbfe.png",
+      "width": "64",
+      "height": "89"
+    },
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Keratella cochlearis",
+      "image_id": "07bd43e73146970a731d148159ee5600",
+      "thumbnail_url": "/samples/ecotaxa_8847/Keratella_cochlearis/04_e3f96f389d.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/07bd43e73146970a731d148159ee5600.png",
+      "width": "35",
+      "height": "37"
+    },
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Keratella cochlearis",
+      "image_id": "047e456daa81b0d4e50828dad5251895",
+      "thumbnail_url": "/samples/ecotaxa_8847/Keratella_cochlearis/05_928587a03f.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/047e456daa81b0d4e50828dad5251895.png",
+      "width": "50",
+      "height": "72"
+    }
+  ],
+  "ecotaxa_8847::14260::ecotaxa_source_aphia_id_rotifera_n_a_n_a": [
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Rotifera",
+      "image_id": "02446377e0b884075c7faed6c4773b01",
+      "thumbnail_url": "/samples/ecotaxa_8847/Rotifera/01_3caf4102c2.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/02446377e0b884075c7faed6c4773b01.png",
+      "width": "49",
+      "height": "48"
+    },
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Rotifera",
+      "image_id": "0685f333e44844bb62fac6a5dd0ca3c2",
+      "thumbnail_url": "/samples/ecotaxa_8847/Rotifera/02_3ca50df41e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/0685f333e44844bb62fac6a5dd0ca3c2.png",
+      "width": "55",
+      "height": "51"
+    },
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Rotifera",
+      "image_id": "ac8f2602f2b7e08bc3a05b8227ad8dac",
+      "thumbnail_url": "/samples/ecotaxa_8847/Rotifera/03_b6d9e003ad.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/ac8f2602f2b7e08bc3a05b8227ad8dac.png",
+      "width": "55",
+      "height": "68"
+    }
+  ],
+  "ecotaxa_8847::14260::ecotaxa_source_aphia_id_rotifera_n_a_n_a::aphia::14260": [
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Rotifera",
+      "image_id": "02446377e0b884075c7faed6c4773b01",
+      "thumbnail_url": "/samples/ecotaxa_8847/Rotifera/01_3caf4102c2.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/02446377e0b884075c7faed6c4773b01.png",
+      "width": "49",
+      "height": "48"
+    },
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Rotifera",
+      "image_id": "0685f333e44844bb62fac6a5dd0ca3c2",
+      "thumbnail_url": "/samples/ecotaxa_8847/Rotifera/02_3ca50df41e.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/0685f333e44844bb62fac6a5dd0ca3c2.png",
+      "width": "55",
+      "height": "51"
+    },
+    {
+      "dataset_id": "ecotaxa_8847",
+      "label": "Rotifera",
+      "image_id": "ac8f2602f2b7e08bc3a05b8227ad8dac",
+      "thumbnail_url": "/samples/ecotaxa_8847/Rotifera/03_b6d9e003ad.jpg",
+      "source_ref": "derived/staging/ecotaxa_flowcam_expansion/images/project_8847/ac8f2602f2b7e08bc3a05b8227ad8dac.png",
+      "width": "55",
+      "height": "68"
     }
   ],
   "flowcam_net::Acantharia": [
