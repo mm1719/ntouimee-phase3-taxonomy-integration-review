@@ -1195,12 +1195,12 @@
                               "broad_class_aphia_id": "1080",
                               "broad_class_original_label": "Copepoda_adult",
                               "broad_class_source_file": "studies/taxonomy_integration_review/label_aphia_mismatch_audit.md",
-                              "candidate_image_count": 901,
+                              "candidate_image_count": 900,
                               "children": [],
                               "dataset_id": "life_watch",
                               "dataset_label": "LifeWatch",
                               "entry_id": "life_watch::Copepoda_adult",
-                              "image_count": 901,
+                              "image_count": 900,
                               "invalid_image_count": 0,
                               "lineage_notes": [],
                               "name": "Copepoda: Copepoda_adult",
@@ -1210,7 +1210,7 @@
                                 "broad_class"
                               ],
                               "selected_aphia_id": "1080",
-                              "selected_aphia_image_count": 901,
+                              "selected_aphia_image_count": 900,
                               "selected_aphia_source": "round12_loose_upward_broad_class",
                               "special_tags": [],
                               "status_review_evidence_json": "",
@@ -1220,7 +1220,7 @@
                               "status_review_rollup_rank": "",
                               "synonym_note": "",
                               "type": "dataset_class",
-                              "valid_image_count": 901
+                              "valid_image_count": 900
                             }
                           ],
                           "datasets": [
@@ -1231,7 +1231,7 @@
                             "tara_pacific_bongo"
                           ],
                           "entry_count": 12,
-                          "image_count": 2808,
+                          "image_count": 2807,
                           "key": "Class::1080::Copepoda",
                           "lineage_notes": [],
                           "name": "Copepoda",
@@ -1351,7 +1351,7 @@
                         "tara_pacific_bongo"
                       ],
                       "entry_count": 13,
-                      "image_count": 2810,
+                      "image_count": 2809,
                       "key": "Superclass::845959::Multicrustacea",
                       "lineage_notes": [],
                       "name": "Multicrustacea",
@@ -1635,7 +1635,7 @@
                     "tara_pacific_bongo"
                   ],
                   "entry_count": 21,
-                  "image_count": 30088,
+                  "image_count": 30087,
                   "key": "Subphylum::1066::Crustacea",
                   "lineage_notes": [],
                   "name": "Crustacea",
@@ -1658,7 +1658,7 @@
                 "tara_pacific_bongo"
               ],
               "entry_count": 21,
-              "image_count": 30088,
+              "image_count": 30087,
               "key": "Phylum::1065::Arthropoda",
               "lineage_notes": [],
               "name": "Arthropoda",
@@ -6541,7 +6541,7 @@
             "ecotaxa_22067"
           ],
           "entry_count": 141,
-          "image_count": 55733,
+          "image_count": 55732,
           "key": "Kingdom::2::Animalia",
           "lineage_notes": [],
           "name": "Animalia",
@@ -7777,12 +7777,12 @@
                                               "broad_class_aphia_id": "",
                                               "broad_class_original_label": "",
                                               "broad_class_source_file": "",
-                                              "candidate_image_count": 8800,
+                                              "candidate_image_count": 8791,
                                               "children": [],
                                               "dataset_id": "life_watch",
                                               "dataset_label": "LifeWatch",
                                               "entry_id": "life_watch::Pseudo-nitzschia",
-                                              "image_count": 8800,
+                                              "image_count": 8791,
                                               "invalid_image_count": 0,
                                               "lineage_notes": [],
                                               "name": "Pseudo-nitzschia",
@@ -7790,7 +7790,7 @@
                                               "placement_id": "life_watch::Pseudo-nitzschia::149151::1",
                                               "risk_flags": [],
                                               "selected_aphia_id": "149151",
-                                              "selected_aphia_image_count": 8800,
+                                              "selected_aphia_image_count": 8791,
                                               "selected_aphia_source": "local_aphia_id_validation",
                                               "special_tags": [],
                                               "status_review_evidence_json": "",
@@ -7800,19 +7800,19 @@
                                               "status_review_rollup_rank": "",
                                               "synonym_note": "",
                                               "type": "dataset_class",
-                                              "valid_image_count": 8800
+                                              "valid_image_count": 8791
                                             },
                                             {
                                               "broad_class": "",
                                               "broad_class_aphia_id": "",
                                               "broad_class_original_label": "",
                                               "broad_class_source_file": "",
-                                              "candidate_image_count": 53220,
+                                              "candidate_image_count": 53196,
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
                                               "dataset_label": "LifeWatch 2026",
                                               "entry_id": "life_watch_2026_image_library::Pseudo-nitzschia",
-                                              "image_count": 53220,
+                                              "image_count": 53196,
                                               "invalid_image_count": 0,
                                               "lineage_notes": [],
                                               "name": "Pseudo-nitzschia",
@@ -7820,7 +7820,7 @@
                                               "placement_id": "life_watch_2026_image_library::Pseudo-nitzschia::149151::1",
                                               "risk_flags": [],
                                               "selected_aphia_id": "149151",
-                                              "selected_aphia_image_count": 53220,
+                                              "selected_aphia_image_count": 53196,
                                               "selected_aphia_source": "local_aphia_id_validation",
                                               "special_tags": [],
                                               "status_review_evidence_json": "",
@@ -7830,7 +7830,7 @@
                                               "status_review_rollup_rank": "",
                                               "synonym_note": "",
                                               "type": "dataset_class",
-                                              "valid_image_count": 53220
+                                              "valid_image_count": 53196
                                             },
                                             {
                                               "broad_class": "",
@@ -7867,12 +7867,12 @@
                                               "broad_class_aphia_id": "",
                                               "broad_class_original_label": "",
                                               "broad_class_source_file": "",
-                                              "candidate_image_count": 2178,
+                                              "candidate_image_count": 2097,
                                               "children": [],
                                               "dataset_id": "ifremer_srn",
                                               "dataset_label": "Ifremer SRN",
                                               "entry_id": "ifremer_srn::Pseudo_nitzschia",
-                                              "image_count": 2178,
+                                              "image_count": 2097,
                                               "invalid_image_count": 0,
                                               "lineage_notes": [],
                                               "name": "Pseudo_nitzschia",
@@ -7880,7 +7880,7 @@
                                               "placement_id": "ifremer_srn::Pseudo_nitzschia::149151::1",
                                               "risk_flags": [],
                                               "selected_aphia_id": "149151",
-                                              "selected_aphia_image_count": 2178,
+                                              "selected_aphia_image_count": 2097,
                                               "selected_aphia_source": "local_aphia_id_validation",
                                               "special_tags": [],
                                               "status_review_evidence_json": "",
@@ -7890,7 +7890,7 @@
                                               "status_review_rollup_rank": "",
                                               "synonym_note": "",
                                               "type": "dataset_class",
-                                              "valid_image_count": 2178
+                                              "valid_image_count": 2097
                                             }
                                           ],
                                           "datasets": [
@@ -7900,7 +7900,7 @@
                                             "ifremer_srn"
                                           ],
                                           "entry_count": 4,
-                                          "image_count": 64660,
+                                          "image_count": 64546,
                                           "key": "Genus::149151::Pseudo-nitzschia",
                                           "lineage_notes": [],
                                           "name": "Pseudo-nitzschia",
@@ -7951,7 +7951,7 @@
                                         "ifremer_srn"
                                       ],
                                       "entry_count": 12,
-                                      "image_count": 71160,
+                                      "image_count": 71046,
                                       "key": "Family::149002::Bacillariaceae",
                                       "lineage_notes": [],
                                       "name": "Bacillariaceae",
@@ -7974,7 +7974,7 @@
                                     "ifremer_srn"
                                   ],
                                   "entry_count": 12,
-                                  "image_count": 71160,
+                                  "image_count": 71046,
                                   "key": "Order::149001::Bacillariales",
                                   "lineage_notes": [],
                                   "name": "Bacillariales",
@@ -8237,7 +8237,7 @@
                                 "ifremer_srn"
                               ],
                               "entry_count": 17,
-                              "image_count": 72576,
+                              "image_count": 72462,
                               "key": "Superorder::591186::Bacillariophycanae",
                               "lineage_notes": [],
                               "name": "Bacillariophycanae",
@@ -8356,7 +8356,7 @@
                             "ifremer_srn"
                           ],
                           "entry_count": 19,
-                          "image_count": 84068,
+                          "image_count": 83954,
                           "key": "Subclass::148902::Bacillariophycidae",
                           "lineage_notes": [],
                           "name": "Bacillariophycidae",
@@ -8610,12 +8610,12 @@
                                                   "broad_class_aphia_id": "",
                                                   "broad_class_original_label": "",
                                                   "broad_class_source_file": "",
-                                                  "candidate_image_count": 25776,
+                                                  "candidate_image_count": 25771,
                                                   "children": [],
                                                   "dataset_id": "life_watch_2026_image_library",
                                                   "dataset_label": "LifeWatch 2026",
                                                   "entry_id": "life_watch_2026_image_library::Bellerochea",
-                                                  "image_count": 25776,
+                                                  "image_count": 25771,
                                                   "invalid_image_count": 0,
                                                   "lineage_notes": [],
                                                   "name": "Bellerochea",
@@ -8626,7 +8626,7 @@
                                                     "challenged"
                                                   ],
                                                   "selected_aphia_id": "447730",
-                                                  "selected_aphia_image_count": 25776,
+                                                  "selected_aphia_image_count": 25771,
                                                   "selected_aphia_source": "worms_status_challenged_algaebase_keep",
                                                   "special_tags": [],
                                                   "status_review_evidence_json": "[{\"aphia_id\": \"447730\", \"name\": \"Bellerochea horologicalis\", \"rank\": \"Species\", \"record_url\": \"https://www.marinespecies.org/aphia.php?p=taxdetails&id=447730\", \"source\": \"original\", \"status\": \"unassessed\", \"valid_aphia_id\": \"447730\", \"valid_name\": \"Bellerochea horologicalis\"}, {\"aphia_id\": \"447730\", \"name\": \"Bellerochea horologicalis\", \"rank\": \"Species\", \"record_url\": \"https://www.marinespecies.org/aphia.php?p=taxdetails&id=447730\", \"source\": \"valid_target\", \"status\": \"unassessed\", \"valid_aphia_id\": \"447730\", \"valid_name\": \"Bellerochea horologicalis\"}]",
@@ -8636,7 +8636,7 @@
                                                   "status_review_rollup_rank": "Species",
                                                   "synonym_note": "WoRMS status review: WoRMS status review: 447730:Bellerochea horologicalis -> 447730:Bellerochea horologicalis; AlgaeBase-supported keep.",
                                                   "type": "dataset_class",
-                                                  "valid_image_count": 25776
+                                                  "valid_image_count": 25771
                                                 },
                                                 {
                                                   "broad_class": "",
@@ -8709,7 +8709,7 @@
                                                 "life_watch_2026_image_library"
                                               ],
                                               "entry_count": 4,
-                                              "image_count": 35321,
+                                              "image_count": 35316,
                                               "key": "Species::447730::Bellerochea horologicalis",
                                               "lineage_notes": [],
                                               "name": "Bellerochea horologicalis",
@@ -8728,7 +8728,7 @@
                                             "life_watch_2026_image_library"
                                           ],
                                           "entry_count": 4,
-                                          "image_count": 35321,
+                                          "image_count": 35316,
                                           "key": "Genus::149305::Bellerochea",
                                           "lineage_notes": [],
                                           "name": "Bellerochea",
@@ -8747,7 +8747,7 @@
                                         "life_watch_2026_image_library"
                                       ],
                                       "entry_count": 4,
-                                      "image_count": 35321,
+                                      "image_count": 35316,
                                       "key": "Family::149304::Bellerocheaceae",
                                       "lineage_notes": [],
                                       "name": "Bellerocheaceae",
@@ -9125,7 +9125,7 @@
                                     "tara_pacific_bongo"
                                   ],
                                   "entry_count": 13,
-                                  "image_count": 61062,
+                                  "image_count": 61057,
                                   "key": "Order::149234::Hemiaulales",
                                   "lineage_notes": [],
                                   "name": "Hemiaulales",
@@ -10068,7 +10068,7 @@
                                 "tara_pacific_bongo"
                               ],
                               "entry_count": 36,
-                              "image_count": 133548,
+                              "image_count": 133543,
                               "key": "Superorder::591192::Biddulphianae",
                               "lineage_notes": [],
                               "name": "Biddulphianae",
@@ -10613,12 +10613,12 @@
                                               "broad_class_aphia_id": "",
                                               "broad_class_original_label": "",
                                               "broad_class_source_file": "",
-                                              "candidate_image_count": 8800,
+                                              "candidate_image_count": 8796,
                                               "children": [],
                                               "dataset_id": "life_watch",
                                               "dataset_label": "LifeWatch",
                                               "entry_id": "life_watch::Chaetoceros",
-                                              "image_count": 8800,
+                                              "image_count": 8796,
                                               "invalid_image_count": 0,
                                               "lineage_notes": [],
                                               "name": "Chaetoceros",
@@ -10626,7 +10626,7 @@
                                               "placement_id": "life_watch::Chaetoceros::148985::1",
                                               "risk_flags": [],
                                               "selected_aphia_id": "148985",
-                                              "selected_aphia_image_count": 8800,
+                                              "selected_aphia_image_count": 8796,
                                               "selected_aphia_source": "local_aphia_id_validation",
                                               "special_tags": [],
                                               "status_review_evidence_json": "",
@@ -10636,19 +10636,19 @@
                                               "status_review_rollup_rank": "",
                                               "synonym_note": "",
                                               "type": "dataset_class",
-                                              "valid_image_count": 8800
+                                              "valid_image_count": 8796
                                             },
                                             {
                                               "broad_class": "",
                                               "broad_class_aphia_id": "",
                                               "broad_class_original_label": "",
                                               "broad_class_source_file": "",
-                                              "candidate_image_count": 33675,
+                                              "candidate_image_count": 33670,
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
                                               "dataset_label": "LifeWatch 2026",
                                               "entry_id": "life_watch_2026_image_library::Chaetoceros",
-                                              "image_count": 33675,
+                                              "image_count": 33670,
                                               "invalid_image_count": 0,
                                               "lineage_notes": [],
                                               "name": "Chaetoceros",
@@ -10656,7 +10656,7 @@
                                               "placement_id": "life_watch_2026_image_library::Chaetoceros::148985::1",
                                               "risk_flags": [],
                                               "selected_aphia_id": "148985",
-                                              "selected_aphia_image_count": 33675,
+                                              "selected_aphia_image_count": 33670,
                                               "selected_aphia_source": "local_aphia_id_validation",
                                               "special_tags": [],
                                               "status_review_evidence_json": "",
@@ -10666,7 +10666,7 @@
                                               "status_review_rollup_rank": "",
                                               "synonym_note": "",
                                               "type": "dataset_class",
-                                              "valid_image_count": 33675
+                                              "valid_image_count": 33670
                                             },
                                             {
                                               "broad_class": "Chaetoceros",
@@ -10740,7 +10740,7 @@
                                             "tara_pacific_deck"
                                           ],
                                           "entry_count": 14,
-                                          "image_count": 50947,
+                                          "image_count": 50938,
                                           "key": "Genus::148985::Chaetoceros",
                                           "lineage_notes": [],
                                           "name": "Chaetoceros",
@@ -10826,7 +10826,7 @@
                                         "tara_pacific_deck"
                                       ],
                                       "entry_count": 19,
-                                      "image_count": 56172,
+                                      "image_count": 56163,
                                       "key": "Family::148984::Chaetocerotaceae",
                                       "lineage_notes": [],
                                       "name": "Chaetocerotaceae",
@@ -10848,7 +10848,7 @@
                                     "tara_pacific_deck"
                                   ],
                                   "entry_count": 19,
-                                  "image_count": 56172,
+                                  "image_count": 56163,
                                   "key": "Order::593505::Chaetocerotanae incertae sedis",
                                   "lineage_notes": [],
                                   "name": "Chaetocerotanae incertae sedis",
@@ -10934,7 +10934,7 @@
                                 "tara_pacific_deck"
                               ],
                               "entry_count": 20,
-                              "image_count": 56483,
+                              "image_count": 56474,
                               "key": "Superorder::591197::Chaetocerotanae",
                               "lineage_notes": [],
                               "name": "Chaetocerotanae",
@@ -13911,12 +13911,12 @@
                                               "broad_class_aphia_id": "",
                                               "broad_class_original_label": "",
                                               "broad_class_source_file": "",
-                                              "candidate_image_count": 8800,
+                                              "candidate_image_count": 8797,
                                               "children": [],
                                               "dataset_id": "life_watch",
                                               "dataset_label": "LifeWatch",
                                               "entry_id": "life_watch::Rhizosolenia",
-                                              "image_count": 8800,
+                                              "image_count": 8797,
                                               "invalid_image_count": 0,
                                               "lineage_notes": [],
                                               "name": "Rhizosolenia",
@@ -13924,7 +13924,7 @@
                                               "placement_id": "life_watch::Rhizosolenia::149069::1",
                                               "risk_flags": [],
                                               "selected_aphia_id": "149069",
-                                              "selected_aphia_image_count": 8800,
+                                              "selected_aphia_image_count": 8797,
                                               "selected_aphia_source": "local_aphia_id_validation",
                                               "special_tags": [],
                                               "status_review_evidence_json": "",
@@ -13934,19 +13934,19 @@
                                               "status_review_rollup_rank": "",
                                               "synonym_note": "",
                                               "type": "dataset_class",
-                                              "valid_image_count": 8800
+                                              "valid_image_count": 8797
                                             },
                                             {
                                               "broad_class": "",
                                               "broad_class_aphia_id": "",
                                               "broad_class_original_label": "",
                                               "broad_class_source_file": "",
-                                              "candidate_image_count": 148420,
+                                              "candidate_image_count": 148414,
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
                                               "dataset_label": "LifeWatch 2026",
                                               "entry_id": "life_watch_2026_image_library::Rhizosolenia",
-                                              "image_count": 148420,
+                                              "image_count": 148414,
                                               "invalid_image_count": 0,
                                               "lineage_notes": [],
                                               "name": "Rhizosolenia",
@@ -13954,7 +13954,7 @@
                                               "placement_id": "life_watch_2026_image_library::Rhizosolenia::149069::1",
                                               "risk_flags": [],
                                               "selected_aphia_id": "149069",
-                                              "selected_aphia_image_count": 148420,
+                                              "selected_aphia_image_count": 148414,
                                               "selected_aphia_source": "local_aphia_id_validation",
                                               "special_tags": [],
                                               "status_review_evidence_json": "",
@@ -13964,7 +13964,7 @@
                                               "status_review_rollup_rank": "",
                                               "synonym_note": "",
                                               "type": "dataset_class",
-                                              "valid_image_count": 148420
+                                              "valid_image_count": 148414
                                             },
                                             {
                                               "broad_class": "",
@@ -14003,12 +14003,12 @@
                                               "broad_class_aphia_id": "149069",
                                               "broad_class_original_label": "Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
                                               "broad_class_source_file": "studies/taxonomy_integration_review/label_aphia_mismatch_audit.md",
-                                              "candidate_image_count": 30341,
+                                              "candidate_image_count": 30338,
                                               "children": [],
                                               "dataset_id": "life_watch_2026_image_library",
                                               "dataset_label": "LifeWatch 2026",
                                               "entry_id": "life_watch_2026_image_library::Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
-                                              "image_count": 30341,
+                                              "image_count": 30338,
                                               "invalid_image_count": 0,
                                               "lineage_notes": [],
                                               "name": "Rhizosolenia: Rhizosolenia setigera (f. pungens)/R. hebetata f. semispina",
@@ -14018,7 +14018,7 @@
                                                 "broad_class"
                                               ],
                                               "selected_aphia_id": "149069",
-                                              "selected_aphia_image_count": 30341,
+                                              "selected_aphia_image_count": 30338,
                                               "selected_aphia_source": "round12_loose_upward_broad_class",
                                               "special_tags": [],
                                               "status_review_evidence_json": "",
@@ -14028,19 +14028,19 @@
                                               "status_review_rollup_rank": "",
                                               "synonym_note": "",
                                               "type": "dataset_class",
-                                              "valid_image_count": 30341
+                                              "valid_image_count": 30338
                                             },
                                             {
                                               "broad_class": "Rhizosolenia",
                                               "broad_class_aphia_id": "149069",
                                               "broad_class_original_label": "Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
                                               "broad_class_source_file": "studies/taxonomy_integration_review/label_aphia_mismatch_audit.md",
-                                              "candidate_image_count": 8800,
+                                              "candidate_image_count": 8794,
                                               "children": [],
                                               "dataset_id": "life_watch",
                                               "dataset_label": "LifeWatch",
                                               "entry_id": "life_watch::Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
-                                              "image_count": 8800,
+                                              "image_count": 8794,
                                               "invalid_image_count": 0,
                                               "lineage_notes": [],
                                               "name": "Rhizosolenia: Rhizosolenia_setigera_(f._pungens)+R._hebetata_f._semispina",
@@ -14050,7 +14050,7 @@
                                                 "broad_class"
                                               ],
                                               "selected_aphia_id": "149069",
-                                              "selected_aphia_image_count": 8800,
+                                              "selected_aphia_image_count": 8794,
                                               "selected_aphia_source": "round12_loose_upward_broad_class",
                                               "special_tags": [],
                                               "status_review_evidence_json": "",
@@ -14060,7 +14060,7 @@
                                               "status_review_rollup_rank": "",
                                               "synonym_note": "",
                                               "type": "dataset_class",
-                                              "valid_image_count": 8800
+                                              "valid_image_count": 8794
                                             }
                                           ],
                                           "datasets": [
@@ -14069,7 +14069,7 @@
                                             "tara_pacific_bongo"
                                           ],
                                           "entry_count": 5,
-                                          "image_count": 199300,
+                                          "image_count": 199282,
                                           "key": "Genus::149069::Rhizosolenia",
                                           "lineage_notes": [],
                                           "name": "Rhizosolenia",
@@ -14185,7 +14185,7 @@
                                         "tara_pacific_bongo"
                                       ],
                                       "entry_count": 25,
-                                      "image_count": 282932,
+                                      "image_count": 282914,
                                       "key": "Family::149068::Rhizosoleniaceae",
                                       "lineage_notes": [],
                                       "name": "Rhizosoleniaceae",
@@ -14208,7 +14208,7 @@
                                     "tara_pacific_bongo"
                                   ],
                                   "entry_count": 25,
-                                  "image_count": 282932,
+                                  "image_count": 282914,
                                   "key": "Order::149067::Rhizosoleniales",
                                   "lineage_notes": [],
                                   "name": "Rhizosoleniales",
@@ -14231,7 +14231,7 @@
                                 "tara_pacific_bongo"
                               ],
                               "entry_count": 25,
-                              "image_count": 282932,
+                              "image_count": 282914,
                               "key": "Superorder::591196::Rhizosolenianae",
                               "lineage_notes": [],
                               "name": "Rhizosolenianae",
@@ -14996,13 +14996,13 @@
                               "broad_class_aphia_id": "148971",
                               "broad_class_original_label": "Thalassiosira+Porosira",
                               "broad_class_source_file": "studies/label_aphia_inventory/round9_invalid_label_cleanup.csv",
-                              "candidate_image_count": 2470,
+                              "candidate_image_count": 2469,
                               "children": [],
                               "dataset_id": "life_watch",
                               "dataset_label": "LifeWatch",
                               "entry_id": "life_watch::Thalassiosira+Porosira",
-                              "image_count": 2470,
-                              "invalid_image_count": 2470,
+                              "image_count": 2469,
+                              "invalid_image_count": 2469,
                               "lineage_notes": [],
                               "name": "Coscinodiscophycidae: Thalassiosira+Porosira",
                               "original_label": "Thalassiosira+Porosira",
@@ -15011,7 +15011,7 @@
                                 "broad_class"
                               ],
                               "selected_aphia_id": "148971",
-                              "selected_aphia_image_count": 2470,
+                              "selected_aphia_image_count": 2469,
                               "selected_aphia_source": "round9_broad_class_mapping",
                               "special_tags": [],
                               "status_review_evidence_json": "",
@@ -15021,7 +15021,7 @@
                               "status_review_rollup_rank": "",
                               "synonym_note": "",
                               "type": "dataset_class",
-                              "valid_image_count": 2470
+                              "valid_image_count": 2469
                             },
                             {
                               "broad_class": "Coscinodiscophycidae",
@@ -15064,7 +15064,7 @@
                             "tara_pacific_bongo"
                           ],
                           "entry_count": 142,
-                          "image_count": 646011,
+                          "image_count": 645978,
                           "key": "Subclass::148971::Coscinodiscophycidae",
                           "lineage_notes": [],
                           "name": "Coscinodiscophycidae",
@@ -16139,13 +16139,13 @@
                           "broad_class_aphia_id": "148899",
                           "broad_class_original_label": "Centric Diatom",
                           "broad_class_source_file": "studies/label_aphia_inventory/round8_invalid_label_cleanup.csv",
-                          "candidate_image_count": 34804,
+                          "candidate_image_count": 34789,
                           "children": [],
                           "dataset_id": "life_watch_2026_image_library",
                           "dataset_label": "LifeWatch 2026",
                           "entry_id": "life_watch_2026_image_library::Centric Diatom",
-                          "image_count": 34804,
-                          "invalid_image_count": 34804,
+                          "image_count": 34789,
+                          "invalid_image_count": 34789,
                           "lineage_notes": [],
                           "name": "Bacillariophyceae: Centric Diatom",
                           "original_label": "Centric Diatom",
@@ -16154,7 +16154,7 @@
                             "broad_class"
                           ],
                           "selected_aphia_id": "148899",
-                          "selected_aphia_image_count": 34804,
+                          "selected_aphia_image_count": 34789,
                           "selected_aphia_source": "round8_broad_class_mapping",
                           "special_tags": [],
                           "status_review_evidence_json": "",
@@ -16164,20 +16164,20 @@
                           "status_review_rollup_rank": "",
                           "synonym_note": "",
                           "type": "dataset_class",
-                          "valid_image_count": 34804
+                          "valid_image_count": 34789
                         },
                         {
                           "broad_class": "Bacillariophyceae",
                           "broad_class_aphia_id": "148899",
                           "broad_class_original_label": "Centric_Diatom",
                           "broad_class_source_file": "studies/label_aphia_inventory/round8_invalid_label_cleanup.csv",
-                          "candidate_image_count": 8799,
+                          "candidate_image_count": 8797,
                           "children": [],
                           "dataset_id": "life_watch",
                           "dataset_label": "LifeWatch",
                           "entry_id": "life_watch::Centric_Diatom",
-                          "image_count": 8799,
-                          "invalid_image_count": 8799,
+                          "image_count": 8797,
+                          "invalid_image_count": 8797,
                           "lineage_notes": [],
                           "name": "Bacillariophyceae: Centric_Diatom",
                           "original_label": "Centric_Diatom",
@@ -16186,7 +16186,7 @@
                             "broad_class"
                           ],
                           "selected_aphia_id": "148899",
-                          "selected_aphia_image_count": 8799,
+                          "selected_aphia_image_count": 8797,
                           "selected_aphia_source": "round8_broad_class_mapping",
                           "special_tags": [],
                           "status_review_evidence_json": "",
@@ -16196,7 +16196,7 @@
                           "status_review_rollup_rank": "",
                           "synonym_note": "",
                           "type": "dataset_class",
-                          "valid_image_count": 8799
+                          "valid_image_count": 8797
                         },
                         {
                           "broad_class": "Bacillariophyceae",
@@ -16651,13 +16651,13 @@
                           "broad_class_aphia_id": "148899",
                           "broad_class_original_label": "Long (chained) diatom",
                           "broad_class_source_file": "studies/label_aphia_inventory/round8_invalid_label_cleanup.csv",
-                          "candidate_image_count": 170240,
+                          "candidate_image_count": 170217,
                           "children": [],
                           "dataset_id": "life_watch_2026_image_library",
                           "dataset_label": "LifeWatch 2026",
                           "entry_id": "life_watch_2026_image_library::Long (chained) diatom",
-                          "image_count": 170240,
-                          "invalid_image_count": 170240,
+                          "image_count": 170217,
+                          "invalid_image_count": 170217,
                           "lineage_notes": [],
                           "name": "Bacillariophyceae: Long (chained) diatom",
                           "original_label": "Long (chained) diatom",
@@ -16666,7 +16666,7 @@
                             "broad_class"
                           ],
                           "selected_aphia_id": "148899",
-                          "selected_aphia_image_count": 170240,
+                          "selected_aphia_image_count": 170217,
                           "selected_aphia_source": "round8_broad_class_mapping",
                           "special_tags": [],
                           "status_review_evidence_json": "",
@@ -16676,7 +16676,7 @@
                           "status_review_rollup_rank": "",
                           "synonym_note": "",
                           "type": "dataset_class",
-                          "valid_image_count": 170240
+                          "valid_image_count": 170217
                         },
                         {
                           "broad_class": "Bacillariophyceae",
@@ -16815,13 +16815,13 @@
                           "broad_class_aphia_id": "148899",
                           "broad_class_original_label": "Pennate Diatom",
                           "broad_class_source_file": "studies/label_aphia_inventory/round8_invalid_label_cleanup.csv",
-                          "candidate_image_count": 16090,
+                          "candidate_image_count": 16089,
                           "children": [],
                           "dataset_id": "life_watch_2026_image_library",
                           "dataset_label": "LifeWatch 2026",
                           "entry_id": "life_watch_2026_image_library::Pennate Diatom",
-                          "image_count": 16090,
-                          "invalid_image_count": 16090,
+                          "image_count": 16089,
+                          "invalid_image_count": 16089,
                           "lineage_notes": [],
                           "name": "Bacillariophyceae: Pennate Diatom",
                           "original_label": "Pennate Diatom",
@@ -16830,7 +16830,7 @@
                             "broad_class"
                           ],
                           "selected_aphia_id": "148899",
-                          "selected_aphia_image_count": 16090,
+                          "selected_aphia_image_count": 16089,
                           "selected_aphia_source": "round8_broad_class_mapping",
                           "special_tags": [],
                           "status_review_evidence_json": "",
@@ -16840,7 +16840,7 @@
                           "status_review_rollup_rank": "",
                           "synonym_note": "",
                           "type": "dataset_class",
-                          "valid_image_count": 16090
+                          "valid_image_count": 16089
                         },
                         {
                           "broad_class": "Bacillariophyceae",
@@ -16945,13 +16945,13 @@
                           "broad_class_aphia_id": "148899",
                           "broad_class_original_label": "Pennate_Diatom",
                           "broad_class_source_file": "studies/label_aphia_inventory/round8_invalid_label_cleanup.csv",
-                          "candidate_image_count": 8798,
+                          "candidate_image_count": 8797,
                           "children": [],
                           "dataset_id": "life_watch",
                           "dataset_label": "LifeWatch",
                           "entry_id": "life_watch::Pennate_Diatom",
-                          "image_count": 8798,
-                          "invalid_image_count": 8798,
+                          "image_count": 8797,
+                          "invalid_image_count": 8797,
                           "lineage_notes": [],
                           "name": "Bacillariophyceae: Pennate_Diatom",
                           "original_label": "Pennate_Diatom",
@@ -16960,7 +16960,7 @@
                             "broad_class"
                           ],
                           "selected_aphia_id": "148899",
-                          "selected_aphia_image_count": 8798,
+                          "selected_aphia_image_count": 8797,
                           "selected_aphia_source": "round8_broad_class_mapping",
                           "special_tags": [],
                           "status_review_evidence_json": "",
@@ -16970,7 +16970,7 @@
                           "status_review_rollup_rank": "",
                           "synonym_note": "",
                           "type": "dataset_class",
-                          "valid_image_count": 8798
+                          "valid_image_count": 8797
                         },
                         {
                           "broad_class": "Bacillariophyceae",
@@ -17400,7 +17400,7 @@
                         "ifremer_srn"
                       ],
                       "entry_count": 223,
-                      "image_count": 1215539,
+                      "image_count": 1215350,
                       "key": "Class::148899::Bacillariophyceae",
                       "lineage_notes": [],
                       "name": "Bacillariophyceae",
@@ -17427,7 +17427,7 @@
                     "ifremer_srn"
                   ],
                   "entry_count": 223,
-                  "image_count": 1215539,
+                  "image_count": 1215350,
                   "key": "Subphylum::493822::Bacillariophytina",
                   "lineage_notes": [],
                   "name": "Bacillariophytina",
@@ -17454,7 +17454,7 @@
                 "ifremer_srn"
               ],
               "entry_count": 223,
-              "image_count": 1215539,
+              "image_count": 1215350,
               "key": "Phylum::370437::Heterokontophyta",
               "lineage_notes": [],
               "name": "Heterokontophyta",
@@ -22273,12 +22273,12 @@
                                                           "broad_class_aphia_id": "",
                                                           "broad_class_original_label": "",
                                                           "broad_class_source_file": "",
-                                                          "candidate_image_count": 6930,
+                                                          "candidate_image_count": 6927,
                                                           "children": [],
                                                           "dataset_id": "life_watch",
                                                           "dataset_label": "LifeWatch",
                                                           "entry_id": "life_watch::Tripos_fusus",
-                                                          "image_count": 6930,
+                                                          "image_count": 6927,
                                                           "invalid_image_count": 0,
                                                           "lineage_notes": [],
                                                           "name": "Tripos_fusus",
@@ -22286,7 +22286,7 @@
                                                           "placement_id": "life_watch::Tripos_fusus::840626::1",
                                                           "risk_flags": [],
                                                           "selected_aphia_id": "840626",
-                                                          "selected_aphia_image_count": 6930,
+                                                          "selected_aphia_image_count": 6927,
                                                           "selected_aphia_source": "local_aphia_id_validation",
                                                           "special_tags": [],
                                                           "status_review_evidence_json": "",
@@ -22296,7 +22296,7 @@
                                                           "status_review_rollup_rank": "",
                                                           "synonym_note": "",
                                                           "type": "dataset_class",
-                                                          "valid_image_count": 6930
+                                                          "valid_image_count": 6927
                                                         }
                                                       ],
                                                       "datasets": [
@@ -22305,7 +22305,7 @@
                                                         "flowcam_net"
                                                       ],
                                                       "entry_count": 3,
-                                                      "image_count": 8140,
+                                                      "image_count": 8137,
                                                       "key": "Species::840626::Tripos fusus",
                                                       "lineage_notes": [],
                                                       "name": "Tripos fusus",
@@ -22688,7 +22688,7 @@
                                                     "tara_pacific_bongo"
                                                   ],
                                                   "entry_count": 17,
-                                                  "image_count": 21272,
+                                                  "image_count": 21269,
                                                   "key": "Genus::494057::Tripos",
                                                   "lineage_notes": [],
                                                   "name": "Tripos",
@@ -22710,7 +22710,7 @@
                                                 "tara_pacific_bongo"
                                               ],
                                               "entry_count": 21,
-                                              "image_count": 27046,
+                                              "image_count": 27043,
                                               "key": "Family::109421::Ceratiaceae",
                                               "lineage_notes": [],
                                               "name": "Ceratiaceae",
@@ -23447,7 +23447,7 @@
                                             "tara_pacific_bongo"
                                           ],
                                           "entry_count": 37,
-                                          "image_count": 29009,
+                                          "image_count": 29006,
                                           "key": "Order::109391::Gonyaulacales",
                                           "lineage_notes": [],
                                           "name": "Gonyaulacales",
@@ -24071,7 +24071,7 @@
                                         "tara_pacific_bongo"
                                       ],
                                       "entry_count": 50,
-                                      "image_count": 35233,
+                                      "image_count": 35230,
                                       "key": "Subclass::493845::Peridiniphycidae",
                                       "lineage_notes": [],
                                       "name": "Peridiniphycidae",
@@ -24222,7 +24222,7 @@
                                     "tara_pacific_bongo"
                                   ],
                                   "entry_count": 72,
-                                  "image_count": 59949,
+                                  "image_count": 59946,
                                   "key": "Class::19542::Dinophyceae",
                                   "lineage_notes": [],
                                   "name": "Dinophyceae",
@@ -24597,7 +24597,7 @@
                                 "tara_pacific_bongo"
                               ],
                               "entry_count": 83,
-                              "image_count": 73933,
+                              "image_count": 73930,
                               "key": "Infraphylum::146203::Dinoflagellata",
                               "lineage_notes": [],
                               "name": "Dinoflagellata",
@@ -24623,7 +24623,7 @@
                             "tara_pacific_bongo"
                           ],
                           "entry_count": 83,
-                          "image_count": 73933,
+                          "image_count": 73930,
                           "key": "Subphylum::562620::Dinozoa",
                           "lineage_notes": [],
                           "name": "Dinozoa",
@@ -24649,7 +24649,7 @@
                         "tara_pacific_bongo"
                       ],
                       "entry_count": 83,
-                      "image_count": 73933,
+                      "image_count": 73930,
                       "key": "Phylum::450030::Myzozoa",
                       "lineage_notes": [],
                       "name": "Myzozoa",
@@ -24675,7 +24675,7 @@
                     "tara_pacific_bongo"
                   ],
                   "entry_count": 153,
-                  "image_count": 101601,
+                  "image_count": 101598,
                   "key": "Infrakingdom::536209::Alveolata",
                   "lineage_notes": [],
                   "name": "Alveolata",
@@ -30352,7 +30352,7 @@
                 "ecotaxa_22067"
               ],
               "entry_count": 286,
-              "image_count": 130768,
+              "image_count": 130765,
               "key": "Subkingdom::582419::Harosa",
               "lineage_notes": [],
               "name": "Harosa",
@@ -30412,7 +30412,7 @@
             "ecotaxa_22067"
           ],
           "entry_count": 511,
-          "image_count": 1348833,
+          "image_count": 1348641,
           "key": "Kingdom::7::Chromista",
           "lineage_notes": [],
           "name": "Chromista",
@@ -33417,7 +33417,7 @@
         "ecotaxa_22067"
       ],
       "entry_count": 724,
-      "image_count": 1524585,
+      "image_count": 1524392,
       "key": "Superdomain::1::Biota",
       "lineage_notes": [],
       "name": "Biota",
@@ -33607,11 +33607,11 @@
     "ecotaxa_22067"
   ],
   "entry_count": 724,
-  "image_count": 1524585,
+  "image_count": 1524392,
   "lineage_notes": [],
   "name": "WoRMS Taxonomy",
   "placement_weighted_count_policy": "selected_aphia_image_counts_when_available",
-  "placement_weighted_image_count": 1524585,
+  "placement_weighted_image_count": 1524392,
   "rank": "Root",
   "risk_flags": [
     "broad_class",
@@ -33626,6 +33626,6 @@
     "multiple"
   ],
   "type": "root",
-  "unique_candidate_image_count": 1524585,
+  "unique_candidate_image_count": 1524392,
   "unique_selected_aphia_id_count": 277
 }
