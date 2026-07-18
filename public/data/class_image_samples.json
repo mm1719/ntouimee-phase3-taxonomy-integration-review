@@ -1668,17 +1668,8 @@
     {
       "dataset_id": "ecotaxa_14791",
       "label": "Zygnematophyceae",
-      "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20250121_2025-02-10_2594.jpg",
-      "thumbnail_url": "/samples/ecotaxa_14791/Zygnematophyceae/02_cd9f4f935b.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20250121_2025-02-10_2594.jpg.png",
-      "width": "1014",
-      "height": "665"
-    },
-    {
-      "dataset_id": "ecotaxa_14791",
-      "label": "Zygnematophyceae",
       "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20250215_2025-02-27_628.jpg",
-      "thumbnail_url": "/samples/ecotaxa_14791/Zygnematophyceae/03_e4fc215b84.jpg",
+      "thumbnail_url": "/samples/ecotaxa_14791/Zygnematophyceae/02_f35e98ea25.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20250215_2025-02-27_628.jpg.png",
       "width": "513",
       "height": "1026"
@@ -1687,7 +1678,7 @@
       "dataset_id": "ecotaxa_14791",
       "label": "Zygnematophyceae",
       "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20250320_2025-03-27_9197.jpg",
-      "thumbnail_url": "/samples/ecotaxa_14791/Zygnematophyceae/04_3e7a251c38.jpg",
+      "thumbnail_url": "/samples/ecotaxa_14791/Zygnematophyceae/03_0cab09466c.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20250320_2025-03-27_9197.jpg.png",
       "width": "1133",
       "height": "486"
@@ -1696,10 +1687,19 @@
       "dataset_id": "ecotaxa_14791",
       "label": "Zygnematophyceae",
       "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20250720_2025-07-29_9299.jpg",
-      "thumbnail_url": "/samples/ecotaxa_14791/Zygnematophyceae/05_ab7a3ba5ab.jpg",
+      "thumbnail_url": "/samples/ecotaxa_14791/Zygnematophyceae/04_ed7ef97d0b.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20250720_2025-07-29_9299.jpg.png",
       "width": "1076",
       "height": "673"
+    },
+    {
+      "dataset_id": "ecotaxa_14791",
+      "label": "Zygnematophyceae",
+      "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20250902_2025-09-16_1524.jpg",
+      "thumbnail_url": "/samples/ecotaxa_14791/Zygnematophyceae/05_55b82b6e42.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20250902_2025-09-16_1524.jpg.png",
+      "width": "1200",
+      "height": "779"
     }
   ],
   "ecotaxa_14791::1634603::ecotaxa_source_aphia_id_zygnematophyceae_n_a_n_a::aphia::1634603": [
@@ -1715,17 +1715,8 @@
     {
       "dataset_id": "ecotaxa_14791",
       "label": "Zygnematophyceae",
-      "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20250121_2025-02-10_2594.jpg",
-      "thumbnail_url": "/samples/ecotaxa_14791/Zygnematophyceae/02_cd9f4f935b.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20250121_2025-02-10_2594.jpg.png",
-      "width": "1014",
-      "height": "665"
-    },
-    {
-      "dataset_id": "ecotaxa_14791",
-      "label": "Zygnematophyceae",
       "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20250215_2025-02-27_628.jpg",
-      "thumbnail_url": "/samples/ecotaxa_14791/Zygnematophyceae/03_e4fc215b84.jpg",
+      "thumbnail_url": "/samples/ecotaxa_14791/Zygnematophyceae/02_f35e98ea25.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20250215_2025-02-27_628.jpg.png",
       "width": "513",
       "height": "1026"
@@ -1734,7 +1725,7 @@
       "dataset_id": "ecotaxa_14791",
       "label": "Zygnematophyceae",
       "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20250320_2025-03-27_9197.jpg",
-      "thumbnail_url": "/samples/ecotaxa_14791/Zygnematophyceae/04_3e7a251c38.jpg",
+      "thumbnail_url": "/samples/ecotaxa_14791/Zygnematophyceae/03_0cab09466c.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20250320_2025-03-27_9197.jpg.png",
       "width": "1133",
       "height": "486"
@@ -1743,10 +1734,19 @@
       "dataset_id": "ecotaxa_14791",
       "label": "Zygnematophyceae",
       "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20250720_2025-07-29_9299.jpg",
-      "thumbnail_url": "/samples/ecotaxa_14791/Zygnematophyceae/05_ab7a3ba5ab.jpg",
+      "thumbnail_url": "/samples/ecotaxa_14791/Zygnematophyceae/04_ed7ef97d0b.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20250720_2025-07-29_9299.jpg.png",
       "width": "1076",
       "height": "673"
+    },
+    {
+      "dataset_id": "ecotaxa_14791",
+      "label": "Zygnematophyceae",
+      "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20250902_2025-09-16_1524.jpg",
+      "thumbnail_url": "/samples/ecotaxa_14791/Zygnematophyceae/05_55b82b6e42.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20250902_2025-09-16_1524.jpg.png",
+      "width": "1200",
+      "height": "779"
     }
   ],
   "ecotaxa_14791::163478::ecotaxa_source_aphia_id_micractinium_n_a_n_a": [
@@ -3077,35 +3077,8 @@
     {
       "dataset_id": "ecotaxa_14791",
       "label": "Cercomonas",
-      "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20241002_2024-10-18_glut_2647.jpg",
-      "thumbnail_url": "/samples/ecotaxa_14791/Cercomonas/01_a1a321ebf8.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20241002_2024-10-18_glut_2647.jpg.png",
-      "width": "458",
-      "height": "355"
-    },
-    {
-      "dataset_id": "ecotaxa_14791",
-      "label": "Cercomonas",
-      "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20241002_2024-10-18_nofixative_1434.jpg",
-      "thumbnail_url": "/samples/ecotaxa_14791/Cercomonas/02_9f957da9dc.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20241002_2024-10-18_nofixative_1434.jpg.png",
-      "width": "510",
-      "height": "451"
-    },
-    {
-      "dataset_id": "ecotaxa_14791",
-      "label": "Cercomonas",
-      "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20241101_2024-11-04_fresh_1113.jpg",
-      "thumbnail_url": "/samples/ecotaxa_14791/Cercomonas/03_ade1bdd7ea.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20241101_2024-11-04_fresh_1113.jpg.png",
-      "width": "521",
-      "height": "438"
-    },
-    {
-      "dataset_id": "ecotaxa_14791",
-      "label": "Cercomonas",
       "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20241101_2024-11-04_pluronic_1485.jpg",
-      "thumbnail_url": "/samples/ecotaxa_14791/Cercomonas/04_4dd09457ea.jpg",
+      "thumbnail_url": "/samples/ecotaxa_14791/Cercomonas/01_ff55b2046e.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20241101_2024-11-04_pluronic_1485.jpg.png",
       "width": "563",
       "height": "638"
@@ -3113,46 +3086,46 @@
     {
       "dataset_id": "ecotaxa_14791",
       "label": "Cercomonas",
-      "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20241101_2024-11-05_fresh_25.jpg",
-      "thumbnail_url": "/samples/ecotaxa_14791/Cercomonas/05_c8c8f1be2a.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20241101_2024-11-05_fresh_25.jpg.png",
-      "width": "451",
-      "height": "463"
+      "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20241220_2025-01-13_617.jpg",
+      "thumbnail_url": "/samples/ecotaxa_14791/Cercomonas/02_de3b947a78.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20241220_2025-01-13_617.jpg.png",
+      "width": "489",
+      "height": "618"
+    },
+    {
+      "dataset_id": "ecotaxa_14791",
+      "label": "Cercomonas",
+      "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20241220_2025-01-13_3210.jpg",
+      "thumbnail_url": "/samples/ecotaxa_14791/Cercomonas/03_df622dc231.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20241220_2025-01-13_3210.jpg.png",
+      "width": "542",
+      "height": "546"
+    },
+    {
+      "dataset_id": "ecotaxa_14791",
+      "label": "Cercomonas",
+      "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20241224_2025-01-13_491.jpg",
+      "thumbnail_url": "/samples/ecotaxa_14791/Cercomonas/04_3c1b285685.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20241224_2025-01-13_491.jpg.png",
+      "width": "499",
+      "height": "533"
+    },
+    {
+      "dataset_id": "ecotaxa_14791",
+      "label": "Cercomonas",
+      "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20241225_2025-01-13_827.jpg",
+      "thumbnail_url": "/samples/ecotaxa_14791/Cercomonas/05_b51f3008b2.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20241225_2025-01-13_827.jpg.png",
+      "width": "554",
+      "height": "559"
     }
   ],
   "ecotaxa_14791::577493::ecotaxa_source_aphia_id_cercomonas_n_a_n_a::aphia::577493": [
     {
       "dataset_id": "ecotaxa_14791",
       "label": "Cercomonas",
-      "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20241002_2024-10-18_glut_2647.jpg",
-      "thumbnail_url": "/samples/ecotaxa_14791/Cercomonas/01_a1a321ebf8.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20241002_2024-10-18_glut_2647.jpg.png",
-      "width": "458",
-      "height": "355"
-    },
-    {
-      "dataset_id": "ecotaxa_14791",
-      "label": "Cercomonas",
-      "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20241002_2024-10-18_nofixative_1434.jpg",
-      "thumbnail_url": "/samples/ecotaxa_14791/Cercomonas/02_9f957da9dc.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20241002_2024-10-18_nofixative_1434.jpg.png",
-      "width": "510",
-      "height": "451"
-    },
-    {
-      "dataset_id": "ecotaxa_14791",
-      "label": "Cercomonas",
-      "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20241101_2024-11-04_fresh_1113.jpg",
-      "thumbnail_url": "/samples/ecotaxa_14791/Cercomonas/03_ade1bdd7ea.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20241101_2024-11-04_fresh_1113.jpg.png",
-      "width": "521",
-      "height": "438"
-    },
-    {
-      "dataset_id": "ecotaxa_14791",
-      "label": "Cercomonas",
       "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20241101_2024-11-04_pluronic_1485.jpg",
-      "thumbnail_url": "/samples/ecotaxa_14791/Cercomonas/04_4dd09457ea.jpg",
+      "thumbnail_url": "/samples/ecotaxa_14791/Cercomonas/01_ff55b2046e.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20241101_2024-11-04_pluronic_1485.jpg.png",
       "width": "563",
       "height": "638"
@@ -3160,11 +3133,38 @@
     {
       "dataset_id": "ecotaxa_14791",
       "label": "Cercomonas",
-      "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20241101_2024-11-05_fresh_25.jpg",
-      "thumbnail_url": "/samples/ecotaxa_14791/Cercomonas/05_c8c8f1be2a.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20241101_2024-11-05_fresh_25.jpg.png",
-      "width": "451",
-      "height": "463"
+      "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20241220_2025-01-13_617.jpg",
+      "thumbnail_url": "/samples/ecotaxa_14791/Cercomonas/02_de3b947a78.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20241220_2025-01-13_617.jpg.png",
+      "width": "489",
+      "height": "618"
+    },
+    {
+      "dataset_id": "ecotaxa_14791",
+      "label": "Cercomonas",
+      "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20241220_2025-01-13_3210.jpg",
+      "thumbnail_url": "/samples/ecotaxa_14791/Cercomonas/03_df622dc231.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20241220_2025-01-13_3210.jpg.png",
+      "width": "542",
+      "height": "546"
+    },
+    {
+      "dataset_id": "ecotaxa_14791",
+      "label": "Cercomonas",
+      "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20241224_2025-01-13_491.jpg",
+      "thumbnail_url": "/samples/ecotaxa_14791/Cercomonas/04_3c1b285685.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20241224_2025-01-13_491.jpg.png",
+      "width": "499",
+      "height": "533"
+    },
+    {
+      "dataset_id": "ecotaxa_14791",
+      "label": "Cercomonas",
+      "image_id": "thumbnail_Flowcam_10x_lexplore_wasam_20241225_2025-01-13_827.jpg",
+      "thumbnail_url": "/samples/ecotaxa_14791/Cercomonas/05_b51f3008b2.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_14791/thumbnail_Flowcam_10x_lexplore_wasam_20241225_2025-01-13_827.jpg.png",
+      "width": "554",
+      "height": "559"
     }
   ],
   "ecotaxa_14791::577929::ecotaxa_source_aphia_id_westella_n_a_n_a": [
@@ -4729,17 +4729,8 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Fritillariidae",
-      "image_id": "bongo100_event039_r1_20250302_4040",
-      "thumbnail_url": "/samples/ecotaxa_17935/Fritillariidae/03_802f5c0d7b.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_4040.png",
-      "width": "378",
-      "height": "163"
-    },
-    {
-      "dataset_id": "ecotaxa_17935",
-      "label": "Fritillariidae",
       "image_id": "bongo100_event050_r1_20250303_2187",
-      "thumbnail_url": "/samples/ecotaxa_17935/Fritillariidae/04_313f826a18.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Fritillariidae/03_cc7b9dc1c9.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event050_r1_20250303_2187.png",
       "width": "174",
       "height": "327"
@@ -4748,10 +4739,19 @@
       "dataset_id": "ecotaxa_17935",
       "label": "Fritillariidae",
       "image_id": "bongo100_event050_r1_20250303_2948",
-      "thumbnail_url": "/samples/ecotaxa_17935/Fritillariidae/05_91ae0d0e1f.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Fritillariidae/04_3ef9e16c33.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event050_r1_20250303_2948.png",
       "width": "397",
       "height": "294"
+    },
+    {
+      "dataset_id": "ecotaxa_17935",
+      "label": "Fritillariidae",
+      "image_id": "bongo100_event050_r1_20250303_5841",
+      "thumbnail_url": "/samples/ecotaxa_17935/Fritillariidae/05_c4d3391607.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event050_r1_20250303_5841.png",
+      "width": "357",
+      "height": "238"
     }
   ],
   "ecotaxa_17935::103354::ecotaxa_source_aphia_id_fritillariidae_n_a_n_a::aphia::103354": [
@@ -4776,17 +4776,8 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Fritillariidae",
-      "image_id": "bongo100_event039_r1_20250302_4040",
-      "thumbnail_url": "/samples/ecotaxa_17935/Fritillariidae/03_802f5c0d7b.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_4040.png",
-      "width": "378",
-      "height": "163"
-    },
-    {
-      "dataset_id": "ecotaxa_17935",
-      "label": "Fritillariidae",
       "image_id": "bongo100_event050_r1_20250303_2187",
-      "thumbnail_url": "/samples/ecotaxa_17935/Fritillariidae/04_313f826a18.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Fritillariidae/03_cc7b9dc1c9.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event050_r1_20250303_2187.png",
       "width": "174",
       "height": "327"
@@ -4795,10 +4786,19 @@
       "dataset_id": "ecotaxa_17935",
       "label": "Fritillariidae",
       "image_id": "bongo100_event050_r1_20250303_2948",
-      "thumbnail_url": "/samples/ecotaxa_17935/Fritillariidae/05_91ae0d0e1f.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Fritillariidae/04_3ef9e16c33.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event050_r1_20250303_2948.png",
       "width": "397",
       "height": "294"
+    },
+    {
+      "dataset_id": "ecotaxa_17935",
+      "label": "Fritillariidae",
+      "image_id": "bongo100_event050_r1_20250303_5841",
+      "thumbnail_url": "/samples/ecotaxa_17935/Fritillariidae/05_c4d3391607.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event050_r1_20250303_5841.png",
+      "width": "357",
+      "height": "238"
     }
   ],
   "ecotaxa_17935::103356::ecotaxa_source_aphia_id_oikopleuridae_n_a_n_a": [
@@ -4926,20 +4926,20 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Halosphaera",
-      "image_id": "bongo100_event039_r1_20250302_1591",
-      "thumbnail_url": "/samples/ecotaxa_17935/Halosphaera/04_4962720b74.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_1591.png",
-      "width": "95",
-      "height": "105"
+      "image_id": "bongo100_event057_r1_20250304_1060",
+      "thumbnail_url": "/samples/ecotaxa_17935/Halosphaera/04_068d243cf1.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event057_r1_20250304_1060.png",
+      "width": "122",
+      "height": "141"
     },
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Halosphaera",
-      "image_id": "bongo100_event039_r1_20250302_2992",
-      "thumbnail_url": "/samples/ecotaxa_17935/Halosphaera/05_9a422c70e9.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_2992.png",
-      "width": "118",
-      "height": "137"
+      "image_id": "bongo100_event057_r1_20250304_2373",
+      "thumbnail_url": "/samples/ecotaxa_17935/Halosphaera/05_51798f5250.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event057_r1_20250304_2373.png",
+      "width": "104",
+      "height": "114"
     }
   ],
   "ecotaxa_17935::134528::ecotaxa_source_aphia_id_halosphaera_n_a_n_a::aphia::134528": [
@@ -4973,20 +4973,20 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Halosphaera",
-      "image_id": "bongo100_event039_r1_20250302_1591",
-      "thumbnail_url": "/samples/ecotaxa_17935/Halosphaera/04_4962720b74.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_1591.png",
-      "width": "95",
-      "height": "105"
+      "image_id": "bongo100_event057_r1_20250304_1060",
+      "thumbnail_url": "/samples/ecotaxa_17935/Halosphaera/04_068d243cf1.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event057_r1_20250304_1060.png",
+      "width": "122",
+      "height": "141"
     },
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Halosphaera",
-      "image_id": "bongo100_event039_r1_20250302_2992",
-      "thumbnail_url": "/samples/ecotaxa_17935/Halosphaera/05_9a422c70e9.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_2992.png",
-      "width": "118",
-      "height": "137"
+      "image_id": "bongo100_event057_r1_20250304_2373",
+      "thumbnail_url": "/samples/ecotaxa_17935/Halosphaera/05_51798f5250.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event057_r1_20250304_2373.png",
+      "width": "104",
+      "height": "114"
     }
   ],
   "ecotaxa_17935::1410::ecotaxa_source_aphia_id_foraminifera_n_a_n_a": [
@@ -5029,11 +5029,11 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Foraminifera",
-      "image_id": "bongo100_event068_r1_20250305_858",
-      "thumbnail_url": "/samples/ecotaxa_17935/Foraminifera/05_3dd8fedc78.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event068_r1_20250305_858.png",
-      "width": "174",
-      "height": "184"
+      "image_id": "bongo100_event068_r1_20250305_2955",
+      "thumbnail_url": "/samples/ecotaxa_17935/Foraminifera/05_bb6403c3f9.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event068_r1_20250305_2955.png",
+      "width": "104",
+      "height": "152"
     }
   ],
   "ecotaxa_17935::1410::ecotaxa_source_aphia_id_foraminifera_n_a_n_a::aphia::1410": [
@@ -5076,11 +5076,11 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Foraminifera",
-      "image_id": "bongo100_event068_r1_20250305_858",
-      "thumbnail_url": "/samples/ecotaxa_17935/Foraminifera/05_3dd8fedc78.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event068_r1_20250305_858.png",
-      "width": "174",
-      "height": "184"
+      "image_id": "bongo100_event068_r1_20250305_2955",
+      "thumbnail_url": "/samples/ecotaxa_17935/Foraminifera/05_bb6403c3f9.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event068_r1_20250305_2955.png",
+      "width": "104",
+      "height": "152"
     }
   ],
   "ecotaxa_17935::146421::ecotaxa_source_aphia_id_appendicularia_tunicata_n_a_n_a": [
@@ -5275,26 +5275,8 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Amphibelone",
-      "image_id": "bongo100_event050_r1_20250303_2172",
-      "thumbnail_url": "/samples/ecotaxa_17935/Amphibelone/01_dcca978c7f.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event050_r1_20250303_2172.png",
-      "width": "95",
-      "height": "150"
-    },
-    {
-      "dataset_id": "ecotaxa_17935",
-      "label": "Amphibelone",
-      "image_id": "bongo100_event120_b_20250312_58",
-      "thumbnail_url": "/samples/ecotaxa_17935/Amphibelone/02_702fe2c470.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_58.png",
-      "width": "95",
-      "height": "139"
-    },
-    {
-      "dataset_id": "ecotaxa_17935",
-      "label": "Amphibelone",
       "image_id": "bongo100_event120_b_20250312_85",
-      "thumbnail_url": "/samples/ecotaxa_17935/Amphibelone/03_83edc56c44.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Amphibelone/01_ac2f9f072d.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_85.png",
       "width": "95",
       "height": "155"
@@ -5302,46 +5284,46 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Amphibelone",
-      "image_id": "bongo100_event120_b_20250312_730",
-      "thumbnail_url": "/samples/ecotaxa_17935/Amphibelone/04_ec990262ac.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_730.png",
-      "width": "162",
-      "height": "122"
+      "image_id": "bongo100_event120_b_20250312_835",
+      "thumbnail_url": "/samples/ecotaxa_17935/Amphibelone/02_5b25c5beb3.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_835.png",
+      "width": "95",
+      "height": "188"
     },
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Amphibelone",
-      "image_id": "bongo100_event120_b_20250312_835",
-      "thumbnail_url": "/samples/ecotaxa_17935/Amphibelone/05_09ecfbb90c.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_835.png",
+      "image_id": "bongo100_event120_b_20250312_1675",
+      "thumbnail_url": "/samples/ecotaxa_17935/Amphibelone/03_2d83f47669.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_1675.png",
       "width": "95",
-      "height": "188"
+      "height": "151"
+    },
+    {
+      "dataset_id": "ecotaxa_17935",
+      "label": "Amphibelone",
+      "image_id": "bongo100_event120_b_20250312_2343",
+      "thumbnail_url": "/samples/ecotaxa_17935/Amphibelone/04_6af4c003d9.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_2343.png",
+      "width": "95",
+      "height": "147"
+    },
+    {
+      "dataset_id": "ecotaxa_17935",
+      "label": "Amphibelone",
+      "image_id": "bongo100_event120_b_20250312_3713",
+      "thumbnail_url": "/samples/ecotaxa_17935/Amphibelone/05_afc41da502.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_3713.png",
+      "width": "95",
+      "height": "141"
     }
   ],
   "ecotaxa_17935::1701367::ecotaxa_source_aphia_id_amphibelone_n_a_n_a::aphia::1701367": [
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Amphibelone",
-      "image_id": "bongo100_event050_r1_20250303_2172",
-      "thumbnail_url": "/samples/ecotaxa_17935/Amphibelone/01_dcca978c7f.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event050_r1_20250303_2172.png",
-      "width": "95",
-      "height": "150"
-    },
-    {
-      "dataset_id": "ecotaxa_17935",
-      "label": "Amphibelone",
-      "image_id": "bongo100_event120_b_20250312_58",
-      "thumbnail_url": "/samples/ecotaxa_17935/Amphibelone/02_702fe2c470.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_58.png",
-      "width": "95",
-      "height": "139"
-    },
-    {
-      "dataset_id": "ecotaxa_17935",
-      "label": "Amphibelone",
       "image_id": "bongo100_event120_b_20250312_85",
-      "thumbnail_url": "/samples/ecotaxa_17935/Amphibelone/03_83edc56c44.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Amphibelone/01_ac2f9f072d.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_85.png",
       "width": "95",
       "height": "155"
@@ -5349,20 +5331,38 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Amphibelone",
-      "image_id": "bongo100_event120_b_20250312_730",
-      "thumbnail_url": "/samples/ecotaxa_17935/Amphibelone/04_ec990262ac.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_730.png",
-      "width": "162",
-      "height": "122"
+      "image_id": "bongo100_event120_b_20250312_835",
+      "thumbnail_url": "/samples/ecotaxa_17935/Amphibelone/02_5b25c5beb3.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_835.png",
+      "width": "95",
+      "height": "188"
     },
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Amphibelone",
-      "image_id": "bongo100_event120_b_20250312_835",
-      "thumbnail_url": "/samples/ecotaxa_17935/Amphibelone/05_09ecfbb90c.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_835.png",
+      "image_id": "bongo100_event120_b_20250312_1675",
+      "thumbnail_url": "/samples/ecotaxa_17935/Amphibelone/03_2d83f47669.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_1675.png",
       "width": "95",
-      "height": "188"
+      "height": "151"
+    },
+    {
+      "dataset_id": "ecotaxa_17935",
+      "label": "Amphibelone",
+      "image_id": "bongo100_event120_b_20250312_2343",
+      "thumbnail_url": "/samples/ecotaxa_17935/Amphibelone/04_6af4c003d9.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_2343.png",
+      "width": "95",
+      "height": "147"
+    },
+    {
+      "dataset_id": "ecotaxa_17935",
+      "label": "Amphibelone",
+      "image_id": "bongo100_event120_b_20250312_3713",
+      "thumbnail_url": "/samples/ecotaxa_17935/Amphibelone/05_afc41da502.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_3713.png",
+      "width": "95",
+      "height": "141"
     }
   ],
   "ecotaxa_17935::235740::ecotaxa_broad_class_nassellaria_polycystina_broad_class_n_a": [
@@ -5387,17 +5387,8 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Polycystina",
-      "image_id": "bongo100_event039_r1_20250302_4109",
-      "thumbnail_url": "/samples/ecotaxa_17935/Polycystina/03_caa64d8cef.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_4109.png",
-      "width": "142",
-      "height": "183"
-    },
-    {
-      "dataset_id": "ecotaxa_17935",
-      "label": "Polycystina",
       "image_id": "bongo100_event039_r1_20250302_4148",
-      "thumbnail_url": "/samples/ecotaxa_17935/Polycystina/04_44fa48f87f.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Polycystina/03_ab94b9d80c.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_4148.png",
       "width": "161",
       "height": "160"
@@ -5406,10 +5397,19 @@
       "dataset_id": "ecotaxa_17935",
       "label": "Polycystina",
       "image_id": "bongo100_event039_r1_20250302_4669",
-      "thumbnail_url": "/samples/ecotaxa_17935/Polycystina/05_69e5dad2db.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Polycystina/04_779adf3b33.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_4669.png",
       "width": "95",
       "height": "124"
+    },
+    {
+      "dataset_id": "ecotaxa_17935",
+      "label": "Polycystina",
+      "image_id": "bongo100_event039_r1_20250302_4863",
+      "thumbnail_url": "/samples/ecotaxa_17935/Polycystina/05_7a18efb6ba.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_4863.png",
+      "width": "98",
+      "height": "135"
     }
   ],
   "ecotaxa_17935::235740::ecotaxa_broad_class_nassellaria_polycystina_broad_class_n_a::aphia::235740": [
@@ -5434,17 +5434,8 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Polycystina",
-      "image_id": "bongo100_event039_r1_20250302_4109",
-      "thumbnail_url": "/samples/ecotaxa_17935/Polycystina/03_caa64d8cef.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_4109.png",
-      "width": "142",
-      "height": "183"
-    },
-    {
-      "dataset_id": "ecotaxa_17935",
-      "label": "Polycystina",
       "image_id": "bongo100_event039_r1_20250302_4148",
-      "thumbnail_url": "/samples/ecotaxa_17935/Polycystina/04_44fa48f87f.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Polycystina/03_ab94b9d80c.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_4148.png",
       "width": "161",
       "height": "160"
@@ -5453,10 +5444,19 @@
       "dataset_id": "ecotaxa_17935",
       "label": "Polycystina",
       "image_id": "bongo100_event039_r1_20250302_4669",
-      "thumbnail_url": "/samples/ecotaxa_17935/Polycystina/05_69e5dad2db.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Polycystina/04_779adf3b33.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_4669.png",
       "width": "95",
       "height": "124"
+    },
+    {
+      "dataset_id": "ecotaxa_17935",
+      "label": "Polycystina",
+      "image_id": "bongo100_event039_r1_20250302_4863",
+      "thumbnail_url": "/samples/ecotaxa_17935/Polycystina/05_7a18efb6ba.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_4863.png",
+      "width": "98",
+      "height": "135"
     }
   ],
   "ecotaxa_17935::235751::ecotaxa_source_aphia_id_amphilonche_acanthometridae_n_a_n_a": [
@@ -5481,17 +5481,8 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Amphilonche",
-      "image_id": "bongo100_event112_b_20250311_4730",
-      "thumbnail_url": "/samples/ecotaxa_17935/Amphilonche/03_83688b7ad0.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event112_b_20250311_4730.png",
-      "width": "204",
-      "height": "166"
-    },
-    {
-      "dataset_id": "ecotaxa_17935",
-      "label": "Amphilonche",
       "image_id": "bongo100_event120_b_20250312_1073",
-      "thumbnail_url": "/samples/ecotaxa_17935/Amphilonche/04_132a3888b6.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Amphilonche/03_7387da9845.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_1073.png",
       "width": "160",
       "height": "252"
@@ -5500,10 +5491,19 @@
       "dataset_id": "ecotaxa_17935",
       "label": "Amphilonche",
       "image_id": "bongo100_event120_b_20250312_2791",
-      "thumbnail_url": "/samples/ecotaxa_17935/Amphilonche/05_20c42b42a9.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Amphilonche/04_90760f9c5d.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_2791.png",
       "width": "247",
       "height": "384"
+    },
+    {
+      "dataset_id": "ecotaxa_17935",
+      "label": "Amphilonche",
+      "image_id": "bongo100_event120_b_20250312_3906",
+      "thumbnail_url": "/samples/ecotaxa_17935/Amphilonche/05_43483fa64a.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_3906.png",
+      "width": "193",
+      "height": "97"
     }
   ],
   "ecotaxa_17935::235751::ecotaxa_source_aphia_id_amphilonche_acanthometridae_n_a_n_a::aphia::235751": [
@@ -5528,17 +5528,8 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Amphilonche",
-      "image_id": "bongo100_event112_b_20250311_4730",
-      "thumbnail_url": "/samples/ecotaxa_17935/Amphilonche/03_83688b7ad0.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event112_b_20250311_4730.png",
-      "width": "204",
-      "height": "166"
-    },
-    {
-      "dataset_id": "ecotaxa_17935",
-      "label": "Amphilonche",
       "image_id": "bongo100_event120_b_20250312_1073",
-      "thumbnail_url": "/samples/ecotaxa_17935/Amphilonche/04_132a3888b6.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Amphilonche/03_7387da9845.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_1073.png",
       "width": "160",
       "height": "252"
@@ -5547,10 +5538,19 @@
       "dataset_id": "ecotaxa_17935",
       "label": "Amphilonche",
       "image_id": "bongo100_event120_b_20250312_2791",
-      "thumbnail_url": "/samples/ecotaxa_17935/Amphilonche/05_20c42b42a9.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Amphilonche/04_90760f9c5d.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_2791.png",
       "width": "247",
       "height": "384"
+    },
+    {
+      "dataset_id": "ecotaxa_17935",
+      "label": "Amphilonche",
+      "image_id": "bongo100_event120_b_20250312_3906",
+      "thumbnail_url": "/samples/ecotaxa_17935/Amphilonche/05_43483fa64a.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event120_b_20250312_3906.png",
+      "width": "193",
+      "height": "97"
     }
   ],
   "ecotaxa_17935::345835::ecotaxa_source_aphia_id_spumellaria_n_a_n_a": [
@@ -5687,11 +5687,11 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Actinommidae",
-      "image_id": "bongo100_event057_r1_20250304_3",
-      "thumbnail_url": "/samples/ecotaxa_17935/Actinommidae/05_94abed7eec.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event057_r1_20250304_3.png",
-      "width": "126",
-      "height": "140"
+      "image_id": "bongo100_event057_r1_20250304_730",
+      "thumbnail_url": "/samples/ecotaxa_17935/Actinommidae/05_0db55840bb.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event057_r1_20250304_730.png",
+      "width": "95",
+      "height": "126"
     }
   ],
   "ecotaxa_17935::345836::ecotaxa_source_aphia_id_actinommidae_n_a_n_a::aphia::345836": [
@@ -5734,11 +5734,11 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Actinommidae",
-      "image_id": "bongo100_event057_r1_20250304_3",
-      "thumbnail_url": "/samples/ecotaxa_17935/Actinommidae/05_94abed7eec.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event057_r1_20250304_3.png",
-      "width": "126",
-      "height": "140"
+      "image_id": "bongo100_event057_r1_20250304_730",
+      "thumbnail_url": "/samples/ecotaxa_17935/Actinommidae/05_0db55840bb.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event057_r1_20250304_730.png",
+      "width": "95",
+      "height": "126"
     }
   ],
   "ecotaxa_17935::345838::ecotaxa_source_aphia_id_theoperidae_n_a_n_a": [
@@ -6273,29 +6273,29 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Protocystis",
-      "image_id": "bongo100_event057_r1_20250304_5213",
-      "thumbnail_url": "/samples/ecotaxa_17935/Protocystis/03_ec720dacd6.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event057_r1_20250304_5213.png",
-      "width": "97",
-      "height": "171"
-    },
-    {
-      "dataset_id": "ecotaxa_17935",
-      "label": "Protocystis",
-      "image_id": "bongo100_event068_r1_20250305_174",
-      "thumbnail_url": "/samples/ecotaxa_17935/Protocystis/04_88b7002ea7.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event068_r1_20250305_174.png",
-      "width": "95",
-      "height": "164"
-    },
-    {
-      "dataset_id": "ecotaxa_17935",
-      "label": "Protocystis",
       "image_id": "bongo100_event068_r1_20250305_3134",
-      "thumbnail_url": "/samples/ecotaxa_17935/Protocystis/05_28c0053ed9.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Protocystis/03_de072870d8.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event068_r1_20250305_3134.png",
       "width": "151",
       "height": "106"
+    },
+    {
+      "dataset_id": "ecotaxa_17935",
+      "label": "Protocystis",
+      "image_id": "bongo100_event068_r1_20250305_4156",
+      "thumbnail_url": "/samples/ecotaxa_17935/Protocystis/04_3413768dc5.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event068_r1_20250305_4156.png",
+      "width": "144",
+      "height": "96"
+    },
+    {
+      "dataset_id": "ecotaxa_17935",
+      "label": "Protocystis",
+      "image_id": "bongo100_event078_r1_20250306_5069",
+      "thumbnail_url": "/samples/ecotaxa_17935/Protocystis/05_f28b444c87.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event078_r1_20250306_5069.png",
+      "width": "95",
+      "height": "142"
     }
   ],
   "ecotaxa_17935::345907::ecotaxa_source_aphia_id_protocystis_n_a_n_a::aphia::345907": [
@@ -6320,46 +6320,37 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Protocystis",
-      "image_id": "bongo100_event057_r1_20250304_5213",
-      "thumbnail_url": "/samples/ecotaxa_17935/Protocystis/03_ec720dacd6.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event057_r1_20250304_5213.png",
-      "width": "97",
-      "height": "171"
-    },
-    {
-      "dataset_id": "ecotaxa_17935",
-      "label": "Protocystis",
-      "image_id": "bongo100_event068_r1_20250305_174",
-      "thumbnail_url": "/samples/ecotaxa_17935/Protocystis/04_88b7002ea7.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event068_r1_20250305_174.png",
-      "width": "95",
-      "height": "164"
-    },
-    {
-      "dataset_id": "ecotaxa_17935",
-      "label": "Protocystis",
       "image_id": "bongo100_event068_r1_20250305_3134",
-      "thumbnail_url": "/samples/ecotaxa_17935/Protocystis/05_28c0053ed9.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Protocystis/03_de072870d8.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event068_r1_20250305_3134.png",
       "width": "151",
       "height": "106"
+    },
+    {
+      "dataset_id": "ecotaxa_17935",
+      "label": "Protocystis",
+      "image_id": "bongo100_event068_r1_20250305_4156",
+      "thumbnail_url": "/samples/ecotaxa_17935/Protocystis/04_3413768dc5.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event068_r1_20250305_4156.png",
+      "width": "144",
+      "height": "96"
+    },
+    {
+      "dataset_id": "ecotaxa_17935",
+      "label": "Protocystis",
+      "image_id": "bongo100_event078_r1_20250306_5069",
+      "thumbnail_url": "/samples/ecotaxa_17935/Protocystis/05_f28b444c87.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event078_r1_20250306_5069.png",
+      "width": "95",
+      "height": "142"
     }
   ],
   "ecotaxa_17935::367309::ecotaxa_source_aphia_id_collosphaeridae_n_a_n_a": [
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Collosphaeridae",
-      "image_id": "bongo100_event057_r1_20250304_3018",
-      "thumbnail_url": "/samples/ecotaxa_17935/Collosphaeridae/01_39259e838f.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event057_r1_20250304_3018.png",
-      "width": "113",
-      "height": "119"
-    },
-    {
-      "dataset_id": "ecotaxa_17935",
-      "label": "Collosphaeridae",
       "image_id": "bongo100_event057_r1_20250304_3613",
-      "thumbnail_url": "/samples/ecotaxa_17935/Collosphaeridae/02_e51b0f16d9.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Collosphaeridae/01_cf8cceeafe.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event057_r1_20250304_3613.png",
       "width": "95",
       "height": "131"
@@ -6368,7 +6359,7 @@
       "dataset_id": "ecotaxa_17935",
       "label": "Collosphaeridae",
       "image_id": "bongo100_event199_x3_20250324_2203",
-      "thumbnail_url": "/samples/ecotaxa_17935/Collosphaeridae/03_f0b5ff56d4.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Collosphaeridae/02_f812c936a7.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event199_x3_20250324_2203.png",
       "width": "105",
       "height": "119"
@@ -6377,7 +6368,7 @@
       "dataset_id": "ecotaxa_17935",
       "label": "Collosphaeridae",
       "image_id": "bongo100_event199_x3_20250324_2371",
-      "thumbnail_url": "/samples/ecotaxa_17935/Collosphaeridae/04_96f9072c67.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Collosphaeridae/03_fa599a25fe.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event199_x3_20250324_2371.png",
       "width": "100",
       "height": "143"
@@ -6386,27 +6377,27 @@
       "dataset_id": "ecotaxa_17935",
       "label": "Collosphaeridae",
       "image_id": "bongo100_event199_x3_20250324_3235",
-      "thumbnail_url": "/samples/ecotaxa_17935/Collosphaeridae/05_eab570bdb1.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Collosphaeridae/04_208276e4e4.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event199_x3_20250324_3235.png",
       "width": "95",
       "height": "148"
+    },
+    {
+      "dataset_id": "ecotaxa_17935",
+      "label": "Collosphaeridae",
+      "image_id": "bongo100_event199_x3_20250324_3765",
+      "thumbnail_url": "/samples/ecotaxa_17935/Collosphaeridae/05_98ed54a123.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event199_x3_20250324_3765.png",
+      "width": "95",
+      "height": "105"
     }
   ],
   "ecotaxa_17935::367309::ecotaxa_source_aphia_id_collosphaeridae_n_a_n_a::aphia::367309": [
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Collosphaeridae",
-      "image_id": "bongo100_event057_r1_20250304_3018",
-      "thumbnail_url": "/samples/ecotaxa_17935/Collosphaeridae/01_39259e838f.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event057_r1_20250304_3018.png",
-      "width": "113",
-      "height": "119"
-    },
-    {
-      "dataset_id": "ecotaxa_17935",
-      "label": "Collosphaeridae",
       "image_id": "bongo100_event057_r1_20250304_3613",
-      "thumbnail_url": "/samples/ecotaxa_17935/Collosphaeridae/02_e51b0f16d9.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Collosphaeridae/01_cf8cceeafe.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event057_r1_20250304_3613.png",
       "width": "95",
       "height": "131"
@@ -6415,7 +6406,7 @@
       "dataset_id": "ecotaxa_17935",
       "label": "Collosphaeridae",
       "image_id": "bongo100_event199_x3_20250324_2203",
-      "thumbnail_url": "/samples/ecotaxa_17935/Collosphaeridae/03_f0b5ff56d4.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Collosphaeridae/02_f812c936a7.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event199_x3_20250324_2203.png",
       "width": "105",
       "height": "119"
@@ -6424,7 +6415,7 @@
       "dataset_id": "ecotaxa_17935",
       "label": "Collosphaeridae",
       "image_id": "bongo100_event199_x3_20250324_2371",
-      "thumbnail_url": "/samples/ecotaxa_17935/Collosphaeridae/04_96f9072c67.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Collosphaeridae/03_fa599a25fe.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event199_x3_20250324_2371.png",
       "width": "100",
       "height": "143"
@@ -6433,10 +6424,19 @@
       "dataset_id": "ecotaxa_17935",
       "label": "Collosphaeridae",
       "image_id": "bongo100_event199_x3_20250324_3235",
-      "thumbnail_url": "/samples/ecotaxa_17935/Collosphaeridae/05_eab570bdb1.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Collosphaeridae/04_208276e4e4.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event199_x3_20250324_3235.png",
       "width": "95",
       "height": "148"
+    },
+    {
+      "dataset_id": "ecotaxa_17935",
+      "label": "Collosphaeridae",
+      "image_id": "bongo100_event199_x3_20250324_3765",
+      "thumbnail_url": "/samples/ecotaxa_17935/Collosphaeridae/05_98ed54a123.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event199_x3_20250324_3765.png",
+      "width": "95",
+      "height": "105"
     }
   ],
   "ecotaxa_17935::367312::ecotaxa_source_aphia_id_coccodiscidae_n_a_n_a": [
@@ -6479,11 +6479,11 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Coccodiscidae",
-      "image_id": "bongo100_event050_r1_20250303_4117",
-      "thumbnail_url": "/samples/ecotaxa_17935/Coccodiscidae/05_bf5be1c89f.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event050_r1_20250303_4117.png",
-      "width": "108",
-      "height": "147"
+      "image_id": "bongo100_event050_r1_20250303_5624",
+      "thumbnail_url": "/samples/ecotaxa_17935/Coccodiscidae/05_a9cb0c417d.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event050_r1_20250303_5624.png",
+      "width": "95",
+      "height": "114"
     }
   ],
   "ecotaxa_17935::367312::ecotaxa_source_aphia_id_coccodiscidae_n_a_n_a::aphia::367312": [
@@ -6526,11 +6526,11 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Coccodiscidae",
-      "image_id": "bongo100_event050_r1_20250303_4117",
-      "thumbnail_url": "/samples/ecotaxa_17935/Coccodiscidae/05_bf5be1c89f.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event050_r1_20250303_4117.png",
-      "width": "108",
-      "height": "147"
+      "image_id": "bongo100_event050_r1_20250303_5624",
+      "thumbnail_url": "/samples/ecotaxa_17935/Coccodiscidae/05_a9cb0c417d.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event050_r1_20250303_5624.png",
+      "width": "95",
+      "height": "114"
     }
   ],
   "ecotaxa_17935::367317::ecotaxa_source_aphia_id_collosphaera_n_a_n_a": [
@@ -7002,17 +7002,8 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Callimitra",
-      "image_id": "bongo100_event039_r1_20250302_3516",
-      "thumbnail_url": "/samples/ecotaxa_17935/Callimitra/02_c853791f7e.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_3516.png",
-      "width": "163",
-      "height": "177"
-    },
-    {
-      "dataset_id": "ecotaxa_17935",
-      "label": "Callimitra",
       "image_id": "bongo100_event039_r1_20250302_4135",
-      "thumbnail_url": "/samples/ecotaxa_17935/Callimitra/03_079acf2cd6.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Callimitra/02_5afeb39125.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_4135.png",
       "width": "100",
       "height": "176"
@@ -7021,7 +7012,7 @@
       "dataset_id": "ecotaxa_17935",
       "label": "Callimitra",
       "image_id": "bongo100_event050_r1_20250303_1289",
-      "thumbnail_url": "/samples/ecotaxa_17935/Callimitra/04_bf30ef8720.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Callimitra/03_9b5b339653.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event050_r1_20250303_1289.png",
       "width": "95",
       "height": "131"
@@ -7030,10 +7021,19 @@
       "dataset_id": "ecotaxa_17935",
       "label": "Callimitra",
       "image_id": "bongo100_event050_r1_20250303_4527",
-      "thumbnail_url": "/samples/ecotaxa_17935/Callimitra/05_b623971f8b.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Callimitra/04_8dfd9420d1.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event050_r1_20250303_4527.png",
       "width": "166",
       "height": "183"
+    },
+    {
+      "dataset_id": "ecotaxa_17935",
+      "label": "Callimitra",
+      "image_id": "bongo100_event050_r1_20250303_5551",
+      "thumbnail_url": "/samples/ecotaxa_17935/Callimitra/05_206dbd9bed.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event050_r1_20250303_5551.png",
+      "width": "98",
+      "height": "142"
     }
   ],
   "ecotaxa_17935::493517::ecotaxa_source_aphia_id_callimitra_n_a_n_a::aphia::493517": [
@@ -7049,17 +7049,8 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Callimitra",
-      "image_id": "bongo100_event039_r1_20250302_3516",
-      "thumbnail_url": "/samples/ecotaxa_17935/Callimitra/02_c853791f7e.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_3516.png",
-      "width": "163",
-      "height": "177"
-    },
-    {
-      "dataset_id": "ecotaxa_17935",
-      "label": "Callimitra",
       "image_id": "bongo100_event039_r1_20250302_4135",
-      "thumbnail_url": "/samples/ecotaxa_17935/Callimitra/03_079acf2cd6.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Callimitra/02_5afeb39125.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_4135.png",
       "width": "100",
       "height": "176"
@@ -7068,7 +7059,7 @@
       "dataset_id": "ecotaxa_17935",
       "label": "Callimitra",
       "image_id": "bongo100_event050_r1_20250303_1289",
-      "thumbnail_url": "/samples/ecotaxa_17935/Callimitra/04_bf30ef8720.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Callimitra/03_9b5b339653.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event050_r1_20250303_1289.png",
       "width": "95",
       "height": "131"
@@ -7077,10 +7068,19 @@
       "dataset_id": "ecotaxa_17935",
       "label": "Callimitra",
       "image_id": "bongo100_event050_r1_20250303_4527",
-      "thumbnail_url": "/samples/ecotaxa_17935/Callimitra/05_b623971f8b.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Callimitra/04_8dfd9420d1.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event050_r1_20250303_4527.png",
       "width": "166",
       "height": "183"
+    },
+    {
+      "dataset_id": "ecotaxa_17935",
+      "label": "Callimitra",
+      "image_id": "bongo100_event050_r1_20250303_5551",
+      "thumbnail_url": "/samples/ecotaxa_17935/Callimitra/05_206dbd9bed.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event050_r1_20250303_5551.png",
+      "width": "98",
+      "height": "142"
     }
   ],
   "ecotaxa_17935::493577::ecotaxa_source_aphia_id_sethophormis_aurelia_n_a_n_a": [
@@ -7199,17 +7199,8 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Rhizaria",
-      "image_id": "bongo100_event039_r1_20250302_548",
-      "thumbnail_url": "/samples/ecotaxa_17935/Rhizaria/03_63d97fe3e5.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_548.png",
-      "width": "110",
-      "height": "117"
-    },
-    {
-      "dataset_id": "ecotaxa_17935",
-      "label": "Rhizaria",
       "image_id": "bongo100_event039_r1_20250302_574",
-      "thumbnail_url": "/samples/ecotaxa_17935/Rhizaria/04_7b9ad1e2ed.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Rhizaria/03_66ae910a28.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_574.png",
       "width": "151",
       "height": "156"
@@ -7218,10 +7209,19 @@
       "dataset_id": "ecotaxa_17935",
       "label": "Rhizaria",
       "image_id": "bongo100_event039_r1_20250302_672",
-      "thumbnail_url": "/samples/ecotaxa_17935/Rhizaria/05_786e67813d.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Rhizaria/04_d488e7e3d8.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_672.png",
       "width": "155",
       "height": "158"
+    },
+    {
+      "dataset_id": "ecotaxa_17935",
+      "label": "Rhizaria",
+      "image_id": "bongo100_event039_r1_20250302_859",
+      "thumbnail_url": "/samples/ecotaxa_17935/Rhizaria/05_169aeafdae.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_859.png",
+      "width": "102",
+      "height": "120"
     }
   ],
   "ecotaxa_17935::582420::ecotaxa_source_aphia_id_rhizaria_n_a_n_a::aphia::582420": [
@@ -7246,17 +7246,8 @@
     {
       "dataset_id": "ecotaxa_17935",
       "label": "Rhizaria",
-      "image_id": "bongo100_event039_r1_20250302_548",
-      "thumbnail_url": "/samples/ecotaxa_17935/Rhizaria/03_63d97fe3e5.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_548.png",
-      "width": "110",
-      "height": "117"
-    },
-    {
-      "dataset_id": "ecotaxa_17935",
-      "label": "Rhizaria",
       "image_id": "bongo100_event039_r1_20250302_574",
-      "thumbnail_url": "/samples/ecotaxa_17935/Rhizaria/04_7b9ad1e2ed.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Rhizaria/03_66ae910a28.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_574.png",
       "width": "151",
       "height": "156"
@@ -7265,10 +7256,19 @@
       "dataset_id": "ecotaxa_17935",
       "label": "Rhizaria",
       "image_id": "bongo100_event039_r1_20250302_672",
-      "thumbnail_url": "/samples/ecotaxa_17935/Rhizaria/05_786e67813d.jpg",
+      "thumbnail_url": "/samples/ecotaxa_17935/Rhizaria/04_d488e7e3d8.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_672.png",
       "width": "155",
       "height": "158"
+    },
+    {
+      "dataset_id": "ecotaxa_17935",
+      "label": "Rhizaria",
+      "image_id": "bongo100_event039_r1_20250302_859",
+      "thumbnail_url": "/samples/ecotaxa_17935/Rhizaria/05_169aeafdae.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_17935/bongo100_event039_r1_20250302_859.png",
+      "width": "102",
+      "height": "120"
     }
   ],
   "ecotaxa_17935::586732::ecotaxa_source_aphia_id_acantharia_n_a_n_a": [
@@ -8721,8 +8721,17 @@
     {
       "dataset_id": "ecotaxa_19759",
       "label": "Pediastrum",
+      "image_id": "taraeuropa_033_112555214_10548",
+      "thumbnail_url": "/samples/ecotaxa_19759/Pediastrum/01_117d2722ba.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_19759/taraeuropa_033_112555214_10548.png",
+      "width": "96",
+      "height": "80"
+    },
+    {
+      "dataset_id": "ecotaxa_19759",
+      "label": "Pediastrum",
       "image_id": "taraeuropa_034_112557278_13725",
-      "thumbnail_url": "/samples/ecotaxa_19759/Pediastrum/01_809def84a9.jpg",
+      "thumbnail_url": "/samples/ecotaxa_19759/Pediastrum/02_1f79622186.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_19759/taraeuropa_034_112557278_13725.png",
       "width": "96",
       "height": "91"
@@ -8731,7 +8740,7 @@
       "dataset_id": "ecotaxa_19759",
       "label": "Pediastrum",
       "image_id": "taraeuropa_034_112557278_13374",
-      "thumbnail_url": "/samples/ecotaxa_19759/Pediastrum/02_c467a05fe9.jpg",
+      "thumbnail_url": "/samples/ecotaxa_19759/Pediastrum/03_93ba979895.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_19759/taraeuropa_034_112557278_13374.png",
       "width": "96",
       "height": "101"
@@ -8740,7 +8749,7 @@
       "dataset_id": "ecotaxa_19759",
       "label": "Pediastrum",
       "image_id": "taraeuropa_034_112557278_7821",
-      "thumbnail_url": "/samples/ecotaxa_19759/Pediastrum/03_a4f916d6bc.jpg",
+      "thumbnail_url": "/samples/ecotaxa_19759/Pediastrum/04_f8034c2b74.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_19759/taraeuropa_034_112557278_7821.png",
       "width": "96",
       "height": "98"
@@ -8749,27 +8758,27 @@
       "dataset_id": "ecotaxa_19759",
       "label": "Pediastrum",
       "image_id": "taraeuropa_034_112557278_8848",
-      "thumbnail_url": "/samples/ecotaxa_19759/Pediastrum/04_0c2b4aa7db.jpg",
+      "thumbnail_url": "/samples/ecotaxa_19759/Pediastrum/05_eeca6c7b8d.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_19759/taraeuropa_034_112557278_8848.png",
       "width": "96",
       "height": "104"
-    },
-    {
-      "dataset_id": "ecotaxa_19759",
-      "label": "Pediastrum",
-      "image_id": "taraeuropa_034_112557278_10033",
-      "thumbnail_url": "/samples/ecotaxa_19759/Pediastrum/05_336d29851f.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_19759/taraeuropa_034_112557278_10033.png",
-      "width": "96",
-      "height": "117"
     }
   ],
   "ecotaxa_19759::160561::ecotaxa_source_aphia_id_pediastrum_n_a_n_a::aphia::160561": [
     {
       "dataset_id": "ecotaxa_19759",
       "label": "Pediastrum",
+      "image_id": "taraeuropa_033_112555214_10548",
+      "thumbnail_url": "/samples/ecotaxa_19759/Pediastrum/01_117d2722ba.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_19759/taraeuropa_033_112555214_10548.png",
+      "width": "96",
+      "height": "80"
+    },
+    {
+      "dataset_id": "ecotaxa_19759",
+      "label": "Pediastrum",
       "image_id": "taraeuropa_034_112557278_13725",
-      "thumbnail_url": "/samples/ecotaxa_19759/Pediastrum/01_809def84a9.jpg",
+      "thumbnail_url": "/samples/ecotaxa_19759/Pediastrum/02_1f79622186.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_19759/taraeuropa_034_112557278_13725.png",
       "width": "96",
       "height": "91"
@@ -8778,7 +8787,7 @@
       "dataset_id": "ecotaxa_19759",
       "label": "Pediastrum",
       "image_id": "taraeuropa_034_112557278_13374",
-      "thumbnail_url": "/samples/ecotaxa_19759/Pediastrum/02_c467a05fe9.jpg",
+      "thumbnail_url": "/samples/ecotaxa_19759/Pediastrum/03_93ba979895.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_19759/taraeuropa_034_112557278_13374.png",
       "width": "96",
       "height": "101"
@@ -8787,7 +8796,7 @@
       "dataset_id": "ecotaxa_19759",
       "label": "Pediastrum",
       "image_id": "taraeuropa_034_112557278_7821",
-      "thumbnail_url": "/samples/ecotaxa_19759/Pediastrum/03_a4f916d6bc.jpg",
+      "thumbnail_url": "/samples/ecotaxa_19759/Pediastrum/04_f8034c2b74.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_19759/taraeuropa_034_112557278_7821.png",
       "width": "96",
       "height": "98"
@@ -8796,19 +8805,10 @@
       "dataset_id": "ecotaxa_19759",
       "label": "Pediastrum",
       "image_id": "taraeuropa_034_112557278_8848",
-      "thumbnail_url": "/samples/ecotaxa_19759/Pediastrum/04_0c2b4aa7db.jpg",
+      "thumbnail_url": "/samples/ecotaxa_19759/Pediastrum/05_eeca6c7b8d.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_19759/taraeuropa_034_112557278_8848.png",
       "width": "96",
       "height": "104"
-    },
-    {
-      "dataset_id": "ecotaxa_19759",
-      "label": "Pediastrum",
-      "image_id": "taraeuropa_034_112557278_10033",
-      "thumbnail_url": "/samples/ecotaxa_19759/Pediastrum/05_336d29851f.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_19759/taraeuropa_034_112557278_10033.png",
-      "width": "96",
-      "height": "117"
     }
   ],
   "ecotaxa_19759::160595::ecotaxa_source_aphia_id_pterosperma_n_a_n_a": [
@@ -8936,20 +8936,20 @@
     {
       "dataset_id": "ecotaxa_19759",
       "label": "Scenedesmus",
-      "image_id": "taraeuropa_035_112557295_10964",
-      "thumbnail_url": "/samples/ecotaxa_19759/Scenedesmus/04_7f39f4cccf.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_19759/taraeuropa_035_112557295_10964.png",
+      "image_id": "taraeuropa_035_112557295_14116",
+      "thumbnail_url": "/samples/ecotaxa_19759/Scenedesmus/04_ee8a8b8192.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_19759/taraeuropa_035_112557295_14116.png",
       "width": "96",
       "height": "72"
     },
     {
       "dataset_id": "ecotaxa_19759",
       "label": "Scenedesmus",
-      "image_id": "taraeuropa_035_112557295_14116",
-      "thumbnail_url": "/samples/ecotaxa_19759/Scenedesmus/05_5910469b1e.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_19759/taraeuropa_035_112557295_14116.png",
+      "image_id": "taraeuropa_035_112557295_11330",
+      "thumbnail_url": "/samples/ecotaxa_19759/Scenedesmus/05_5b10fa8582.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_19759/taraeuropa_035_112557295_11330.png",
       "width": "96",
-      "height": "72"
+      "height": "104"
     }
   ],
   "ecotaxa_19759::160602::ecotaxa_source_aphia_id_scenedesmus_n_a_n_a::aphia::160602": [
@@ -8983,20 +8983,20 @@
     {
       "dataset_id": "ecotaxa_19759",
       "label": "Scenedesmus",
-      "image_id": "taraeuropa_035_112557295_10964",
-      "thumbnail_url": "/samples/ecotaxa_19759/Scenedesmus/04_7f39f4cccf.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_19759/taraeuropa_035_112557295_10964.png",
+      "image_id": "taraeuropa_035_112557295_14116",
+      "thumbnail_url": "/samples/ecotaxa_19759/Scenedesmus/04_ee8a8b8192.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_19759/taraeuropa_035_112557295_14116.png",
       "width": "96",
       "height": "72"
     },
     {
       "dataset_id": "ecotaxa_19759",
       "label": "Scenedesmus",
-      "image_id": "taraeuropa_035_112557295_14116",
-      "thumbnail_url": "/samples/ecotaxa_19759/Scenedesmus/05_5910469b1e.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_19759/taraeuropa_035_112557295_14116.png",
+      "image_id": "taraeuropa_035_112557295_11330",
+      "thumbnail_url": "/samples/ecotaxa_19759/Scenedesmus/05_5b10fa8582.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_19759/taraeuropa_035_112557295_11330.png",
       "width": "96",
-      "height": "72"
+      "height": "104"
     }
   ],
   "ecotaxa_19759::1806::ecotaxa_source_aphia_id_echinodermata_n_a_n_a": [
@@ -11797,35 +11797,8 @@
     {
       "dataset_id": "ecotaxa_22067",
       "label": "Cercomonas",
-      "image_id": "thumbnail_Flowcam_10x_lexplore_INT_2026-03-18_2026-03-18_500.jpg",
-      "thumbnail_url": "/samples/ecotaxa_22067/Cercomonas/01_156fbcbe06.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_22067/thumbnail_Flowcam_10x_lexplore_INT_2026-03-18_2026-03-18_500.jpg.png",
-      "width": "421",
-      "height": "391"
-    },
-    {
-      "dataset_id": "ecotaxa_22067",
-      "label": "Cercomonas",
-      "image_id": "thumbnail_Flowcam_10x_lexplore_INT_2026-03-18_2026-03-18_1846.jpg",
-      "thumbnail_url": "/samples/ecotaxa_22067/Cercomonas/02_a27f27dd24.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_22067/thumbnail_Flowcam_10x_lexplore_INT_2026-03-18_2026-03-18_1846.jpg.png",
-      "width": "434",
-      "height": "285"
-    },
-    {
-      "dataset_id": "ecotaxa_22067",
-      "label": "Cercomonas",
-      "image_id": "thumbnail_Flowcam_10x_lexplore_INT_2026-04-08_2026-04-08_2604.jpg",
-      "thumbnail_url": "/samples/ecotaxa_22067/Cercomonas/03_4858417f02.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_22067/thumbnail_Flowcam_10x_lexplore_INT_2026-04-08_2026-04-08_2604.jpg.png",
-      "width": "408",
-      "height": "359"
-    },
-    {
-      "dataset_id": "ecotaxa_22067",
-      "label": "Cercomonas",
       "image_id": "thumbnail_Flowcam_10x_lexplore_INT_2026-04-08_2026-04-08_2902.jpg",
-      "thumbnail_url": "/samples/ecotaxa_22067/Cercomonas/04_a3327f64cd.jpg",
+      "thumbnail_url": "/samples/ecotaxa_22067/Cercomonas/01_d44e83b43d.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_22067/thumbnail_Flowcam_10x_lexplore_INT_2026-04-08_2026-04-08_2902.jpg.png",
       "width": "539",
       "height": "606"
@@ -11834,45 +11807,45 @@
       "dataset_id": "ecotaxa_22067",
       "label": "Cercomonas",
       "image_id": "thumbnail_Flowcam_10x_lexplore_INT_20260218-2026-02-19_1567.jpg",
-      "thumbnail_url": "/samples/ecotaxa_22067/Cercomonas/05_2af05a8429.jpg",
+      "thumbnail_url": "/samples/ecotaxa_22067/Cercomonas/02_e297d32dbb.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_22067/thumbnail_Flowcam_10x_lexplore_INT_20260218-2026-02-19_1567.jpg.png",
       "width": "17",
       "height": "24"
+    },
+    {
+      "dataset_id": "ecotaxa_22067",
+      "label": "Cercomonas",
+      "image_id": "thumbnail_Flowcam_10x_lexplore_PARADILAC_PN_2026-01-06_2026-01-07_11043.jpg",
+      "thumbnail_url": "/samples/ecotaxa_22067/Cercomonas/03_d8e45ab5b3.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_22067/thumbnail_Flowcam_10x_lexplore_PARADILAC_PN_2026-01-06_2026-01-07_11043.jpg.png",
+      "width": "551",
+      "height": "602"
+    },
+    {
+      "dataset_id": "ecotaxa_22067",
+      "label": "Cercomonas",
+      "image_id": "thumbnail_Flowcam_10x_lexplore_PARADILAC_PN_2026-01-06_2026-01-07_11159.jpg",
+      "thumbnail_url": "/samples/ecotaxa_22067/Cercomonas/04_c1a9be4031.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_22067/thumbnail_Flowcam_10x_lexplore_PARADILAC_PN_2026-01-06_2026-01-07_11159.jpg.png",
+      "width": "675",
+      "height": "617"
+    },
+    {
+      "dataset_id": "ecotaxa_22067",
+      "label": "Cercomonas",
+      "image_id": "thumbnail_Flowcam_10x_lexplore_PARADILAC_PN_2026-01-06_2026-01-07_13453.jpg",
+      "thumbnail_url": "/samples/ecotaxa_22067/Cercomonas/05_a35c0f03b7.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_22067/thumbnail_Flowcam_10x_lexplore_PARADILAC_PN_2026-01-06_2026-01-07_13453.jpg.png",
+      "width": "598",
+      "height": "537"
     }
   ],
   "ecotaxa_22067::577493::ecotaxa_source_aphia_id_cercomonas_n_a_n_a::aphia::577493": [
     {
       "dataset_id": "ecotaxa_22067",
       "label": "Cercomonas",
-      "image_id": "thumbnail_Flowcam_10x_lexplore_INT_2026-03-18_2026-03-18_500.jpg",
-      "thumbnail_url": "/samples/ecotaxa_22067/Cercomonas/01_156fbcbe06.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_22067/thumbnail_Flowcam_10x_lexplore_INT_2026-03-18_2026-03-18_500.jpg.png",
-      "width": "421",
-      "height": "391"
-    },
-    {
-      "dataset_id": "ecotaxa_22067",
-      "label": "Cercomonas",
-      "image_id": "thumbnail_Flowcam_10x_lexplore_INT_2026-03-18_2026-03-18_1846.jpg",
-      "thumbnail_url": "/samples/ecotaxa_22067/Cercomonas/02_a27f27dd24.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_22067/thumbnail_Flowcam_10x_lexplore_INT_2026-03-18_2026-03-18_1846.jpg.png",
-      "width": "434",
-      "height": "285"
-    },
-    {
-      "dataset_id": "ecotaxa_22067",
-      "label": "Cercomonas",
-      "image_id": "thumbnail_Flowcam_10x_lexplore_INT_2026-04-08_2026-04-08_2604.jpg",
-      "thumbnail_url": "/samples/ecotaxa_22067/Cercomonas/03_4858417f02.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_22067/thumbnail_Flowcam_10x_lexplore_INT_2026-04-08_2026-04-08_2604.jpg.png",
-      "width": "408",
-      "height": "359"
-    },
-    {
-      "dataset_id": "ecotaxa_22067",
-      "label": "Cercomonas",
       "image_id": "thumbnail_Flowcam_10x_lexplore_INT_2026-04-08_2026-04-08_2902.jpg",
-      "thumbnail_url": "/samples/ecotaxa_22067/Cercomonas/04_a3327f64cd.jpg",
+      "thumbnail_url": "/samples/ecotaxa_22067/Cercomonas/01_d44e83b43d.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_22067/thumbnail_Flowcam_10x_lexplore_INT_2026-04-08_2026-04-08_2902.jpg.png",
       "width": "539",
       "height": "606"
@@ -11881,10 +11854,37 @@
       "dataset_id": "ecotaxa_22067",
       "label": "Cercomonas",
       "image_id": "thumbnail_Flowcam_10x_lexplore_INT_20260218-2026-02-19_1567.jpg",
-      "thumbnail_url": "/samples/ecotaxa_22067/Cercomonas/05_2af05a8429.jpg",
+      "thumbnail_url": "/samples/ecotaxa_22067/Cercomonas/02_e297d32dbb.jpg",
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_22067/thumbnail_Flowcam_10x_lexplore_INT_20260218-2026-02-19_1567.jpg.png",
       "width": "17",
       "height": "24"
+    },
+    {
+      "dataset_id": "ecotaxa_22067",
+      "label": "Cercomonas",
+      "image_id": "thumbnail_Flowcam_10x_lexplore_PARADILAC_PN_2026-01-06_2026-01-07_11043.jpg",
+      "thumbnail_url": "/samples/ecotaxa_22067/Cercomonas/03_d8e45ab5b3.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_22067/thumbnail_Flowcam_10x_lexplore_PARADILAC_PN_2026-01-06_2026-01-07_11043.jpg.png",
+      "width": "551",
+      "height": "602"
+    },
+    {
+      "dataset_id": "ecotaxa_22067",
+      "label": "Cercomonas",
+      "image_id": "thumbnail_Flowcam_10x_lexplore_PARADILAC_PN_2026-01-06_2026-01-07_11159.jpg",
+      "thumbnail_url": "/samples/ecotaxa_22067/Cercomonas/04_c1a9be4031.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_22067/thumbnail_Flowcam_10x_lexplore_PARADILAC_PN_2026-01-06_2026-01-07_11159.jpg.png",
+      "width": "675",
+      "height": "617"
+    },
+    {
+      "dataset_id": "ecotaxa_22067",
+      "label": "Cercomonas",
+      "image_id": "thumbnail_Flowcam_10x_lexplore_PARADILAC_PN_2026-01-06_2026-01-07_13453.jpg",
+      "thumbnail_url": "/samples/ecotaxa_22067/Cercomonas/05_a35c0f03b7.jpg",
+      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_22067/thumbnail_Flowcam_10x_lexplore_PARADILAC_PN_2026-01-06_2026-01-07_13453.jpg.png",
+      "width": "598",
+      "height": "537"
     }
   ],
   "ecotaxa_22067::577679::ecotaxa_source_aphia_id_spirogyra_n_a_n_a": [
@@ -11896,15 +11896,6 @@
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_22067/thumbnail_Flowcam_10x_lexplore_PARADILAC_INT_2026-01-06_2026-01-07_549.jpg.png",
       "width": "502",
       "height": "981"
-    },
-    {
-      "dataset_id": "ecotaxa_22067",
-      "label": "Spirogyra",
-      "image_id": "thumbnail_Flowcam_10x_lexplore_PARADILAC_PN_2026-01-20_2026-01-20_33820.jpg",
-      "thumbnail_url": "/samples/ecotaxa_22067/Spirogyra/02_22d66dc89a.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_22067/thumbnail_Flowcam_10x_lexplore_PARADILAC_PN_2026-01-20_2026-01-20_33820.jpg.png",
-      "width": "1316",
-      "height": "851"
     }
   ],
   "ecotaxa_22067::577679::ecotaxa_source_aphia_id_spirogyra_n_a_n_a::aphia::577679": [
@@ -11916,15 +11907,6 @@
       "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_22067/thumbnail_Flowcam_10x_lexplore_PARADILAC_INT_2026-01-06_2026-01-07_549.jpg.png",
       "width": "502",
       "height": "981"
-    },
-    {
-      "dataset_id": "ecotaxa_22067",
-      "label": "Spirogyra",
-      "image_id": "thumbnail_Flowcam_10x_lexplore_PARADILAC_PN_2026-01-20_2026-01-20_33820.jpg",
-      "thumbnail_url": "/samples/ecotaxa_22067/Spirogyra/02_22d66dc89a.jpg",
-      "source_ref": "derived/cleaned/ecotaxa_flowcam_scale_bar_removed/images_png/project_22067/thumbnail_Flowcam_10x_lexplore_PARADILAC_PN_2026-01-20_2026-01-20_33820.jpg.png",
-      "width": "1316",
-      "height": "851"
     }
   ],
   "ecotaxa_22067::577929::ecotaxa_source_aphia_id_westella_n_a_n_a": [
