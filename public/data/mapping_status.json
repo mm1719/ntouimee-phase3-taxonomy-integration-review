@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-15T02:11:10+00:00",
+  "generated_at_utc": "2026-07-18T05:20:38+00:00",
   "source_targets": "derived/ml_ready/target_profiles.csv",
   "history_dir": "derived/ml_ready/mapping_history",
   "export_fields": [
@@ -15,7 +15,7 @@
     {
       "source_id": "ntc_082",
       "source_alias": "detritus",
-      "image_count": 1912151,
+      "image_count": 1911662,
       "valid_statuses": "invalid",
       "invalid_reasons": "non_taxonomic_category",
       "risk_flags": "n/a",
@@ -26,7 +26,7 @@
     {
       "source_id": "148899",
       "source_alias": "Bacillariophyceae",
-      "image_count": 467491,
+      "image_count": 467468,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "broad_class",
@@ -37,7 +37,7 @@
     {
       "source_id": "149069",
       "source_alias": "Rhizosolenia",
-      "image_count": 199282,
+      "image_count": 199280,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "broad_class",
@@ -48,7 +48,7 @@
     {
       "source_id": "ntc_032",
       "source_alias": "fiber",
-      "image_count": 189725,
+      "image_count": 189661,
       "valid_statuses": "invalid",
       "invalid_reasons": "non_taxonomic_category",
       "risk_flags": "n/a",
@@ -70,7 +70,7 @@
     {
       "source_id": "149023",
       "source_alias": "Ditylum brightwellii",
-      "image_count": 96236,
+      "image_count": 96225,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "challenged",
@@ -92,7 +92,7 @@
     {
       "source_id": "ntc_065",
       "source_alias": "remnant",
-      "image_count": 94979,
+      "image_count": 94894,
       "valid_statuses": "invalid",
       "invalid_reasons": "non_taxonomic_category",
       "risk_flags": "n/a",
@@ -114,7 +114,7 @@
     {
       "source_id": "ntc_079",
       "source_alias": "unknown",
-      "image_count": 66260,
+      "image_count": 66232,
       "valid_statuses": "invalid",
       "invalid_reasons": "non_taxonomic_category",
       "risk_flags": "n/a",
@@ -125,7 +125,7 @@
     {
       "source_id": "149151",
       "source_alias": "Pseudo-nitzschia",
-      "image_count": 64546,
+      "image_count": 64545,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "n/a",
@@ -147,7 +147,7 @@
     {
       "source_id": "149132",
       "source_alias": "Guinardia flaccida",
-      "image_count": 48480,
+      "image_count": 48479,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "challenged",
@@ -158,7 +158,7 @@
     {
       "source_id": "148985",
       "source_alias": "Chaetoceros",
-      "image_count": 47443,
+      "image_count": 47438,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "broad_class",
@@ -180,7 +180,7 @@
     {
       "source_id": "836581",
       "source_alias": "Trieres",
-      "image_count": 39543,
+      "image_count": 39523,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "broad_class",
@@ -191,7 +191,7 @@
     {
       "source_id": "447730",
       "source_alias": "Bellerochea horologicalis",
-      "image_count": 35316,
+      "image_count": 35313,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "challenged|subordinate_aphia_id|contaminated",
@@ -202,7 +202,7 @@
     {
       "source_id": "ntc_028",
       "source_alias": "egg/cyst",
-      "image_count": 30954,
+      "image_count": 30938,
       "valid_statuses": "invalid",
       "invalid_reasons": "non_taxonomic_category",
       "risk_flags": "n/a",
@@ -224,7 +224,7 @@
     {
       "source_id": "1066",
       "source_alias": "Crustacea",
-      "image_count": 27278,
+      "image_count": 27277,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "broad_class",
@@ -257,7 +257,7 @@
     {
       "source_id": "591192",
       "source_alias": "Biddulphianae",
-      "image_count": 23274,
+      "image_count": 23266,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "broad_class",
@@ -301,7 +301,7 @@
     {
       "source_id": "inv_003",
       "source_alias": "crustaceae-part",
-      "image_count": 17484,
+      "image_count": 17480,
       "valid_statuses": "invalid",
       "invalid_reasons": "non_taxonomic_category|taxonomic_mismatch",
       "risk_flags": "n/a",
@@ -389,7 +389,7 @@
     {
       "source_id": "162969",
       "source_alias": "Zygoceros",
-      "image_count": 11492,
+      "image_count": 11490,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "n/a",
@@ -466,7 +466,7 @@
     {
       "source_id": "1322468",
       "source_alias": "Hobaniella longicruris",
-      "image_count": 7072,
+      "image_count": 7071,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "n/a",
@@ -774,7 +774,7 @@
     {
       "source_id": "196815",
       "source_alias": "Planktoniella sol",
-      "image_count": 2015,
+      "image_count": 2014,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "challenged",
@@ -1291,7 +1291,7 @@
     {
       "source_id": "148949",
       "source_alias": "Actinoptychus splendens",
-      "image_count": 480,
+      "image_count": 479,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "n/a",
