@@ -40433,14 +40433,26 @@
         "scientific_name": "Chromista"
       },
       {
-        "aphia_id": "148898",
+        "aphia_id": "370437",
         "depth": 2,
         "rank": "Phylum",
-        "scientific_name": "Bacillariophyta"
+        "scientific_name": "Heterokontophyta"
+      },
+      {
+        "aphia_id": "493822",
+        "depth": 3,
+        "rank": "Subphylum",
+        "scientific_name": "Bacillariophytina"
+      },
+      {
+        "aphia_id": "148899",
+        "depth": 4,
+        "rank": "Class",
+        "scientific_name": "Bacillariophyceae"
       },
       {
         "aphia_id": "345484",
-        "depth": 3,
+        "depth": 5,
         "rank": "Genus",
         "scientific_name": "Mediopyxis"
       }
@@ -40448,6 +40460,10 @@
     "ok": true,
     "risk_flags": [],
     "standard_ranks": {
+      "Class": {
+        "aphia_id": "148899",
+        "scientific_name": "Bacillariophyceae"
+      },
       "Genus": {
         "aphia_id": "345484",
         "scientific_name": "Mediopyxis"
@@ -40457,8 +40473,12 @@
         "scientific_name": "Chromista"
       },
       "Phylum": {
-        "aphia_id": "148898",
-        "scientific_name": "Bacillariophyta"
+        "aphia_id": "370437",
+        "scientific_name": "Heterokontophyta"
+      },
+      "Subphylum": {
+        "aphia_id": "493822",
+        "scientific_name": "Bacillariophytina"
       },
       "Superdomain": {
         "aphia_id": "1",

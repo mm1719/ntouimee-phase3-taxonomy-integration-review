@@ -10103,71 +10103,6 @@
           "aphia_id": "7",
           "children": [
             {
-              "aphia_id": "148898",
-              "children": [
-                {
-                  "aphia_id": "345484",
-                  "children": [
-                    {
-                      "broad_class": "",
-                      "broad_class_aphia_id": "",
-                      "broad_class_original_label": "",
-                      "broad_class_source_file": "",
-                      "candidate_image_count": 19,
-                      "children": [],
-                      "dataset_id": "planktoscope",
-                      "dataset_label": "PlanktoScope",
-                      "entry_id": "planktoscope::Mediopyxis",
-                      "image_count": 19,
-                      "instrument": "PlanktoScope",
-                      "invalid_image_count": 0,
-                      "lineage_notes": [],
-                      "name": "Mediopyxis",
-                      "original_label": "Mediopyxis",
-                      "placement_id": "planktoscope::Mediopyxis::345484::1",
-                      "risk_flags": [],
-                      "selected_aphia_id": "345484",
-                      "selected_aphia_image_count": 19,
-                      "selected_aphia_source": "strict_exact_keep",
-                      "special_tags": [],
-                      "status_review_evidence_json": "",
-                      "status_review_flag": "",
-                      "status_review_rollup_aphia_id": "",
-                      "status_review_rollup_name": "",
-                      "status_review_rollup_rank": "",
-                      "synonym_note": "",
-                      "type": "dataset_class",
-                      "valid_image_count": 19
-                    }
-                  ],
-                  "datasets": [
-                    "planktoscope"
-                  ],
-                  "entry_count": 1,
-                  "image_count": 19,
-                  "key": "Genus::345484::Mediopyxis",
-                  "lineage_notes": [],
-                  "name": "Mediopyxis",
-                  "rank": "Genus",
-                  "risk_flags": [],
-                  "special_tags": [],
-                  "type": "taxon"
-                }
-              ],
-              "datasets": [
-                "planktoscope"
-              ],
-              "entry_count": 1,
-              "image_count": 19,
-              "key": "Phylum::148898::Bacillariophyta",
-              "lineage_notes": [],
-              "name": "Bacillariophyta",
-              "rank": "Phylum",
-              "risk_flags": [],
-              "special_tags": [],
-              "type": "taxon"
-            },
-            {
               "aphia_id": "370437",
               "children": [
                 {
@@ -10176,6 +10111,54 @@
                     {
                       "aphia_id": "148899",
                       "children": [
+                        {
+                          "aphia_id": "345484",
+                          "children": [
+                            {
+                              "broad_class": "",
+                              "broad_class_aphia_id": "",
+                              "broad_class_original_label": "",
+                              "broad_class_source_file": "",
+                              "candidate_image_count": 19,
+                              "children": [],
+                              "dataset_id": "planktoscope",
+                              "dataset_label": "PlanktoScope",
+                              "entry_id": "planktoscope::Mediopyxis",
+                              "image_count": 19,
+                              "instrument": "PlanktoScope",
+                              "invalid_image_count": 0,
+                              "lineage_notes": [],
+                              "name": "Mediopyxis",
+                              "original_label": "Mediopyxis",
+                              "placement_id": "planktoscope::Mediopyxis::345484::1",
+                              "risk_flags": [],
+                              "selected_aphia_id": "345484",
+                              "selected_aphia_image_count": 19,
+                              "selected_aphia_source": "strict_exact_keep",
+                              "special_tags": [],
+                              "status_review_evidence_json": "",
+                              "status_review_flag": "",
+                              "status_review_rollup_aphia_id": "",
+                              "status_review_rollup_name": "",
+                              "status_review_rollup_rank": "",
+                              "synonym_note": "",
+                              "type": "dataset_class",
+                              "valid_image_count": 19
+                            }
+                          ],
+                          "datasets": [
+                            "planktoscope"
+                          ],
+                          "entry_count": 1,
+                          "image_count": 19,
+                          "key": "Genus::345484::Mediopyxis",
+                          "lineage_notes": [],
+                          "name": "Mediopyxis",
+                          "rank": "Genus",
+                          "risk_flags": [],
+                          "special_tags": [],
+                          "type": "taxon"
+                        },
                         {
                           "aphia_id": "341285",
                           "children": [
@@ -27349,8 +27332,8 @@
                         "syke_ifcb",
                         "whoi_plankton"
                       ],
-                      "entry_count": 387,
-                      "image_count": 1726876,
+                      "entry_count": 388,
+                      "image_count": 1726895,
                       "key": "Class::148899::Bacillariophyceae",
                       "lineage_notes": [],
                       "name": "Bacillariophyceae",
@@ -27380,8 +27363,8 @@
                     "syke_ifcb",
                     "whoi_plankton"
                   ],
-                  "entry_count": 387,
-                  "image_count": 1726876,
+                  "entry_count": 388,
+                  "image_count": 1726895,
                   "key": "Subphylum::493822::Bacillariophytina",
                   "lineage_notes": [],
                   "name": "Bacillariophytina",
@@ -27411,8 +27394,8 @@
                 "syke_ifcb",
                 "whoi_plankton"
               ],
-              "entry_count": 387,
-              "image_count": 1726876,
+              "entry_count": 388,
+              "image_count": 1726895,
               "key": "Phylum::370437::Heterokontophyta",
               "lineage_notes": [],
               "name": "Heterokontophyta",

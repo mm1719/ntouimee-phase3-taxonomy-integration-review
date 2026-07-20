@@ -159,6 +159,16 @@ describe("valid route public data contract", () => {
     );
     expect(lifeWatchHemidiscus?.selected_aphia_ids).toBe("180366");
     expect(splitCell(lifeWatchHemidiscus?.risk_flags ?? "")).not.toContain("contaminated");
+
+    visitTree(tree, (node) => {
+      expect(node.aphia_id).not.toBe("148898");
+    });
+    const mediopyxis = lineages["345484"] as {
+      nodes: Array<{ aphia_id: string }>;
+    };
+    expect(mediopyxis.nodes.map((node) => node.aphia_id)).toEqual([
+      "1", "7", "370437", "493822", "148899", "345484"
+    ]);
   });
 
   it("keeps the reviewed other-instrument valid cohort and provenance complete", () => {
