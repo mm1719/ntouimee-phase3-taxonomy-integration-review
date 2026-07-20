@@ -108,6 +108,12 @@ const correctedCandidate: Candidate = {
 
 const algaebaseBackedCandidate = {
   ...challengedCandidate,
+  instrument: "FlowCAM",
+  license: "CC-BY-4.0",
+  license_status: "confirmed_source_metadata",
+  license_url: "https://creativecommons.org/licenses/by/4.0/",
+  source_url: "https://example.org/dataset",
+  doi: "10.1234/example",
   selected_aphia_ids: "110325",
   selected_aphia_source: "worms_status_challenged_algaebase_keep",
   status_review_rollup_aphia_id: "110325",
@@ -122,6 +128,14 @@ const algaebaseBackedCandidate = {
       current_name: "Dissodinium pseudolunula Swift ex Elbrächter & Drebes",
       taxonomic_status: "Accepted",
       url: "https://www.algaebase.org/search/species/detail/?species_id=52283"
+    },
+    {
+      source: "Catalogue of Life",
+      record_id: "C9PMN",
+      matched_name: "Diplodinium",
+      current_name: "Diplodinium",
+      taxonomic_status: "Accepted",
+      url: "https://www.catalogueoflife.org/data/taxon/C9PMN"
     }
   ])
 } as Candidate & {
@@ -227,7 +241,7 @@ describe("DetailDrawer", () => {
     expect(screen.queryByText("Biceratium debile")).not.toBeInTheDocument();
   });
 
-  it("shows the single AlgaeBase backing reference for challenged entries", () => {
+  it("shows instrument, license, AlgaeBase backing, and a compact COL difference", () => {
     render(
       <DetailDrawer
         node={nodeFor(algaebaseBackedCandidate)}
@@ -242,10 +256,18 @@ describe("DetailDrawer", () => {
       />
     );
 
+    const drawer = screen.getByRole("heading", {
+      name: "Dissodinium pseudolunula"
+    }).closest("aside")!;
+    expect(drawer.querySelector(".kv dt")?.textContent).toBe("Instrument");
+    expect(screen.getByText("FlowCAM")).toBeInTheDocument();
+    expect(screen.getByText("CC-BY-4.0")).toBeInTheDocument();
     expect(screen.getByText("AlgaeBase backing")).toBeInTheDocument();
     expect(screen.getByText("algaebase_supported_keep_name")).toBeInTheDocument();
     expect(screen.getByText("Dissodinium pseudolunula Swift ex Elbrächter & Drebes")).toBeInTheDocument();
     expect(screen.getByText("https://www.algaebase.org/search/species/detail/?species_id=52283")).toBeInTheDocument();
+    expect(screen.getByText("Catalogue of Life difference")).toBeInTheDocument();
+    expect(screen.getByText("Diplodinium / Accepted")).toBeInTheDocument();
   });
 
   it("shows the round 12 broad-class reason in the drawer", () => {

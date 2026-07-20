@@ -11,6 +11,22 @@ const tree = {
   dataset_class_entry_count: 3,
   unique_selected_aphia_id_count: 2,
   unique_candidate_image_count: 615,
+  dataset_labels: {
+    flowcam_net: "FlowCAMNet",
+    tara_pacific_deck: "Tara Pacific Deck",
+    life_watch: "LifeWatch",
+    whoi_plankton: "WHOI Plankton",
+    syke_ifcb: "SYKE IFCB",
+    medplanktonset: "MedPlanktonSet"
+  },
+  dataset_instruments: {
+    flowcam_net: "FlowCAM",
+    tara_pacific_deck: "FlowCAM",
+    life_watch: "FlowCAM",
+    whoi_plankton: "IFCB",
+    syke_ifcb: "IFCB",
+    medplanktonset: "IFCB"
+  },
   children: [
     {
       type: "taxon",
@@ -487,6 +503,21 @@ describe("App valid tree UI", () => {
 
     await user.click(screen.getByLabelText("Tara Pacific Deck"));
     expect(screen.queryByRole("button", { name: /Crustacea broad/ })).not.toBeInTheDocument();
+  });
+
+  it("toggles all datasets under an instrument parent", async () => {
+    const user = userEvent.setup();
+    await renderApp("/valid");
+
+    expect(screen.getByLabelText("WHOI Plankton")).toBeChecked();
+    expect(screen.getByLabelText("SYKE IFCB")).toBeChecked();
+    expect(screen.getByLabelText("MedPlanktonSet")).toBeChecked();
+
+    await user.click(screen.getByLabelText("IFCB datasets"));
+
+    expect(screen.getByLabelText("WHOI Plankton")).not.toBeChecked();
+    expect(screen.getByLabelText("SYKE IFCB")).not.toBeChecked();
+    expect(screen.getByLabelText("MedPlanktonSet")).not.toBeChecked();
   });
 
   it("selects a tree node, opens the detail drawer, and opens samples", async () => {

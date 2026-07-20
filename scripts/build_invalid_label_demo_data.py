@@ -8,17 +8,27 @@ import hashlib
 import json
 import re
 import shutil
+import sys
 from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
 from PIL import Image, ImageOps
 
-
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEMO_ROOT = SCRIPT_DIR.parent
 ROOT = SCRIPT_DIR.parents[2]
+sys.path.insert(0, str(ROOT / "scripts"))
+
+import build_other_instrument_lineage_review as other_review  # noqa: E402
+
 INVALID_CSV = ROOT / "studies/label_aphia_inventory/worms_invalid_labels_for_review.csv"
+OTHER_INVALID_CSV = (
+    ROOT / "derived/ml_ready/supporting/other_instrument_invalid_labels.csv"
+)
+VALID_CANDIDATES_CSV = (
+    ROOT / "studies/taxonomy_integration_review/valid_class_candidates.csv"
+)
 OUT_DIR = ROOT / "studies/invalid_label_visualization"
 OUT_JSON = OUT_DIR / "invalid_label_groups.json"
 DEMO_JSON = DEMO_ROOT / "public/data/invalid_label_groups.json"
@@ -44,7 +54,12 @@ DATASET_ORDER = [
     "tara_pacific_deck",
     "tara_pacific_bongo",
     "ifremer_srn",
+    "whoi_plankton",
+    "syke_ifcb",
+    "medplanktonset",
+    "planktoscope",
 ]
+OTHER_INSTRUMENT_DATASETS = set(DATASET_ORDER[-4:])
 
 MANIFESTS = {
     "life_watch": {
@@ -57,7 +72,8 @@ MANIFESTS = {
         "height": "height",
     },
     "life_watch_2026_image_library": {
-        "path": ROOT / "derived/analysis_ready/life_watch_2026_image_library/manifest.csv",
+        "path": ROOT
+        / "derived/analysis_ready/life_watch_2026_image_library/manifest.csv",
         "label": "label_original",
         "image_path": "source_path",
         "image_id": "image_id",
@@ -74,7 +90,8 @@ MANIFESTS = {
         "height": "height",
     },
     "tara_pacific_deck": {
-        "path": ROOT / "derived/cleaned/tara_pacific_deck_scale_bar_removed/manifest.csv",
+        "path": ROOT
+        / "derived/cleaned/tara_pacific_deck_scale_bar_removed/manifest.csv",
         "label": "label_original",
         "image_path": "cleaned_path",
         "image_id": "image_id",
@@ -82,7 +99,8 @@ MANIFESTS = {
         "height": "image_height",
     },
     "tara_pacific_bongo": {
-        "path": ROOT / "derived/cleaned/tara_pacific_bongo_scale_bar_removed/manifest.csv",
+        "path": ROOT
+        / "derived/cleaned/tara_pacific_bongo_scale_bar_removed/manifest.csv",
         "label": "label_original",
         "image_path": "cleaned_path",
         "image_id": "image_id",
@@ -139,6 +157,7 @@ def load_invalid_alias_keys() -> dict[str, str]:
 
 INVALID_ALIAS_KEYS = load_invalid_alias_keys()
 
+
 def load_promoted_invalid_review_keys() -> set[tuple[str, str]]:
     if not CLEANUP_DECISIONS_CSV.exists():
         return set()
@@ -177,6 +196,7 @@ def load_pseudo_aphia_ids() -> dict[str, str]:
                 pseudo_by_alias_key[registry_label_key(alias)] = pseudo_id
     return pseudo_by_alias_key
 
+
 def invalid_group_key(value: str) -> str:
     key = label_key(value)
     return INVALID_ALIAS_KEYS.get(key, key)
@@ -193,7 +213,6 @@ def alias_sort_key(value: str) -> tuple[str, list[int], str]:
 def safe_segment(value: str) -> str:
     cleaned = re.sub(r"[^A-Za-z0-9._-]+", "_", value.strip())
     return cleaned.strip("._")[:96] or "unknown"
-
 
 
 def unique_sorted(values: list[str]) -> list[str]:
@@ -227,11 +246,32 @@ def read_invalid_rows() -> list[dict[str, str]]:
     ]
     existing = {(row["dataset_id"], label_key(row["label"])) for row in filtered}
     supplemental = load_supplemental_invalid_alias_rows(existing)
-    return filtered + supplemental
+    with OTHER_INVALID_CSV.open("r", encoding="utf-8", newline="") as handle:
+        other_rows = list(csv.DictReader(handle))
+    return filtered + supplemental + other_rows
+
+
+def load_dataset_metadata() -> dict[str, dict[str, str]]:
+    fields = [
+        "instrument",
+        "license",
+        "license_status",
+        "license_url",
+        "source_url",
+        "doi",
+    ]
+    metadata: dict[str, dict[str, str]] = {}
+    with VALID_CANDIDATES_CSV.open("r", encoding="utf-8", newline="") as handle:
+        for row in csv.DictReader(handle):
+            metadata.setdefault(
+                row["dataset_id"],
+                {field: row.get(field, "") for field in fields},
+            )
+    return metadata
 
 
 def load_supplemental_invalid_alias_rows(
-    existing: set[tuple[str, str]]
+    existing: set[tuple[str, str]],
 ) -> list[dict[str, str]]:
     if not CLEANUP_DECISIONS_CSV.exists():
         return []
@@ -296,6 +336,12 @@ def build_manifest_counts(
         wanted[row["dataset_id"]].add(label_key(row["label"]))
 
     counts: dict[tuple[str, str], int] = defaultdict(int)
+    for row in invalid_rows:
+        if row["dataset_id"] in MANIFESTS:
+            continue
+        counts[(row["dataset_id"], invalid_group_key(row["label"]))] += int(
+            row.get("row_count") or 0
+        )
     for dataset_id, cfg in MANIFESTS.items():
         if dataset_id not in wanted:
             continue
@@ -304,7 +350,9 @@ def build_manifest_counts(
             for row in reader:
                 key = label_key(row.get(cfg["label"], ""))
                 if key in wanted[dataset_id]:
-                    counts[(dataset_id, invalid_group_key(row.get(cfg["label"], "")))] += 1
+                    counts[
+                        (dataset_id, invalid_group_key(row.get(cfg["label"], "")))
+                    ] += 1
     return counts
 
 
@@ -312,7 +360,9 @@ def write_thumbnail(source: Path, output: Path) -> None:
     output.parent.mkdir(parents=True, exist_ok=True)
     with Image.open(source) as image:
         image = ImageOps.exif_transpose(image)
-        image.thumbnail((THUMBNAIL_MAX_EDGE, THUMBNAIL_MAX_EDGE), Image.Resampling.LANCZOS)
+        image.thumbnail(
+            (THUMBNAIL_MAX_EDGE, THUMBNAIL_MAX_EDGE), Image.Resampling.LANCZOS
+        )
         if image.mode not in {"RGB", "L"}:
             image = image.convert("RGB")
         image.save(output, format="JPEG", quality=82, optimize=True)
@@ -336,7 +386,9 @@ def build_samples(
                 sample_key = f"{status_key}::{group_key}"
                 label_to_sample_keys[(dataset_id, key)].append(sample_key)
                 if status == "Taxonomic Mismatch":
-                    selected_ids = set(split_cell(row.get("valid_tree_selected_aphia_ids", "")))
+                    selected_ids = set(
+                        split_cell(row.get("valid_tree_selected_aphia_ids", ""))
+                    )
                     source_ids = set(split_cell(row.get("numeric_aphia_ids", "")))
                     sample_key_aphia_filters[(dataset_id, key, sample_key)].update(
                         source_ids - selected_ids or source_ids
@@ -417,12 +469,48 @@ def build_samples(
                         }
                     )
                     per_dataset_counts[counter_key] += 1
+
+    other_rows = [
+        row for row in invalid_rows if row["dataset_id"] in OTHER_INSTRUMENT_DATASETS
+    ]
+    audit_rows = [
+        {
+            "dataset_id": row["dataset_id"],
+            "source_label": row["label"],
+            "post_qc_image_count": row["row_count"],
+        }
+        for row in other_rows
+    ]
+    other_samples = other_review.collect_sample_rows(audit_rows, limit=5, strict=False)
+    thumbnails = other_review.write_thumbnails(
+        other_samples,
+        SAMPLES_DIR / "other_instruments",
+        size=THUMBNAIL_MAX_EDGE,
+    )
+    for key, rows in other_samples.items():
+        target_sample_keys = label_to_sample_keys[(key[0], label_key(key[1]))]
+        for row, thumbnail in zip(rows, thumbnails[key], strict=True):
+            for sample_key in target_sample_keys:
+                samples[sample_key].append(
+                    {
+                        "dataset_id": row["dataset_id"],
+                        "label": row["label"],
+                        "image_id": row["image_id"],
+                        "thumbnail_url": (
+                            "/invalid-samples/other_instruments/" + thumbnail["src"]
+                        ),
+                        "source_ref": (f"{row['archive_name']}::{row['entry_path']}"),
+                        "width": row["width"],
+                        "height": row["height"],
+                    }
+                )
     return dict(sorted(samples.items()))
 
 
 def build_groups(rows: list[dict[str, str]]) -> dict[str, Any]:
     manifest_counts = build_manifest_counts(rows)
     pseudo_aphia_ids = load_pseudo_aphia_ids()
+    dataset_metadata = load_dataset_metadata()
     grouped: dict[str, dict[str, dict[str, Any]]] = {
         key: {} for key in STATUS_KEYS.values()
     }
@@ -463,6 +551,7 @@ def build_groups(rows: list[dict[str, str]]) -> dict[str, Any]:
                 dataset_id,
                 {
                     "dataset_id": dataset_id,
+                    **dataset_metadata.get(dataset_id, {}),
                     "aliases": [],
                     "image_count": 0,
                     "reasons": [],
@@ -503,7 +592,9 @@ def build_groups(rows: list[dict[str, str]]) -> dict[str, Any]:
                 count = manifest_counts.get((dataset_id, group["group_key"]), 0)
                 dataset["image_count"] = count
                 dataset["invalid_image_count"] = count
-                dataset["valid_image_count"] = count if dataset["valid_tree_entry"] == "yes" else 0
+                dataset["valid_image_count"] = (
+                    count if dataset["valid_tree_entry"] == "yes" else 0
+                )
                 total += count
                 dataset["aliases"] = unique_sorted(dataset["aliases"])
                 dataset["reasons"] = unique_sorted(dataset["reasons"])
@@ -516,15 +607,15 @@ def build_groups(rows: list[dict[str, str]]) -> dict[str, Any]:
                 normalized_alias_key(group["aliases"]),
                 pseudo_aphia_ids.get(registry_label_key(group["group_key"]), ""),
             )
-            group["invalid_image_count"] = sum(dataset["invalid_image_count"] for dataset in datasets)
-            group["valid_image_count"] = sum(dataset["valid_image_count"] for dataset in datasets)
+            group["invalid_image_count"] = sum(
+                dataset["invalid_image_count"] for dataset in datasets
+            )
+            group["valid_image_count"] = sum(
+                dataset["valid_image_count"] for dataset in datasets
+            )
             group["invalid_reason_count"] = len(
                 unique_sorted(
-                    [
-                        reason
-                        for dataset in datasets
-                        for reason in dataset["reasons"]
-                    ]
+                    [reason for dataset in datasets for reason in dataset["reasons"]]
                 )
             )
             group["datasets"] = datasets
@@ -532,7 +623,9 @@ def build_groups(rows: list[dict[str, str]]) -> dict[str, Any]:
     tables = {
         status_key: sorted(
             table.values(),
-            key=lambda group: alias_sort_key(group["aliases"][0] if group["aliases"] else group["group_key"]),
+            key=lambda group: alias_sort_key(
+                group["aliases"][0] if group["aliases"] else group["group_key"]
+            ),
         )
         for status_key, table in grouped.items()
     }
@@ -541,28 +634,26 @@ def build_groups(rows: list[dict[str, str]]) -> dict[str, Any]:
         for key, value in tables.items()
     }
     unique_invalid_image_count = sum(
-        manifest_counts.get(group_key, 0)
-        for group_key in set(manifest_counts)
+        manifest_counts.get(group_key, 0) for group_key in set(manifest_counts)
     )
     unique_group_keys = {
-        group["group_key"]
-        for table in tables.values()
-        for group in table
+        group["group_key"] for table in tables.values() for group in table
     }
     samples = build_samples(rows, sample_keys)
     data = {
         "tables": tables,
         "samples": samples,
         "summary": {
-            "source": str(INVALID_CSV),
+            "source": "|".join(
+                (relative_ref(INVALID_CSV), relative_ref(OTHER_INVALID_CSV))
+            ),
             "sample_limit_per_dataset": SAMPLE_LIMIT_PER_DATASET,
             "excluded_valid_tree_overlap_default": False,
-            "table_counts": {
-                key: len(value)
-                for key, value in tables.items()
-            },
+            "table_counts": {key: len(value) for key, value in tables.items()},
             "table_image_counts": table_image_counts,
-            "evidence_table_total_group_count": sum(len(value) for value in tables.values()),
+            "evidence_table_total_group_count": sum(
+                len(value) for value in tables.values()
+            ),
             "evidence_table_total_image_count": sum(table_image_counts.values()),
             "unique_group_count": len(unique_group_keys),
             "total_image_count": unique_invalid_image_count,
@@ -592,17 +683,21 @@ def write_duplicate_evidence_report(data: dict[str, Any]) -> None:
                 item["tables"].add(table_key)
                 item["aliases"].update(group["aliases"])
 
-    duplicates = [
-        item for item in by_dataset_group.values()
-        if len(item["tables"]) > 1
-    ]
-    duplicates.sort(key=lambda item: (-int(item["image_count"]), item["dataset_id"], item["group_key"]))
+    duplicates = [item for item in by_dataset_group.values() if len(item["tables"]) > 1]
+    duplicates.sort(
+        key=lambda item: (
+            -int(item["image_count"]),
+            item["dataset_id"],
+            item["group_key"],
+        )
+    )
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     with OUT_DUPLICATE_CSV.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(
             handle,
             fieldnames=["dataset_id", "group_key", "image_count", "tables", "aliases"],
+            lineterminator="\n",
         )
         writer.writeheader()
         for item in duplicates:
@@ -635,7 +730,9 @@ def write_duplicate_evidence_report(data: dict[str, Any]) -> None:
                 group=str(item["group_key"]).replace("|", "\\|"),
                 count=int(item["image_count"]),
                 tables="|".join(sorted(item["tables"])).replace("|", "\\|"),
-                aliases=", ".join(unique_sorted(list(item["aliases"]))).replace("|", "\\|"),
+                aliases=", ".join(unique_sorted(list(item["aliases"]))).replace(
+                    "|", "\\|"
+                ),
             )
         )
     OUT_DUPLICATE_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")

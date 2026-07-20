@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { HelpCircle, Search, SlidersHorizontal } from "lucide-react";
 import { DetailDrawer } from "./components/DetailDrawer";
 import { HelpModal } from "./components/HelpModal";
+import { InstrumentDatasetFilters } from "./components/InstrumentDatasetFilters";
 import { InvalidDetailDrawer } from "./components/InvalidDetailDrawer";
 import { InvalidLabelsReview } from "./components/InvalidLabelsReview";
 import { MappingStatusReview } from "./components/MappingStatusReview";
@@ -162,6 +163,14 @@ function App() {
     });
   }
 
+  function toggleDatasets(group: DatasetId[], enabled: boolean) {
+    setDatasets((current) => {
+      const next = new Set(current);
+      group.forEach((dataset) => enabled ? next.add(dataset) : next.delete(dataset));
+      return next;
+    });
+  }
+
   function toggleRisk(risk: string) {
     setRisks((current) => {
       const next = new Set(current);
@@ -270,16 +279,14 @@ function App() {
 
             <section>
               <h2><SlidersHorizontal size={16} /> Datasets</h2>
-              {datasetOptions.map((dataset) => (
-                <label className="check-row" key={dataset}>
-                  <input
-                    type="checkbox"
-                    checked={datasets.has(dataset)}
-                    onChange={() => toggleDataset(dataset)}
-                  />
-                  {datasetLabel(dataset, data.tree.dataset_labels)}
-                </label>
-              ))}
+              <InstrumentDatasetFilters
+                options={datasetOptions}
+                selected={datasets}
+                instruments={data.tree.dataset_instruments}
+                labels={data.tree.dataset_labels}
+                onToggle={toggleDataset}
+                onToggleMany={toggleDatasets}
+              />
             </section>
 
             <section>
@@ -361,6 +368,7 @@ function App() {
                   entry_id: candidate.entry_id,
                   dataset_id: candidate.dataset_id,
                   dataset_label: datasetLabel(candidate.dataset_id, data.tree.dataset_labels),
+                  instrument: candidate.instrument,
                   original_label: candidate.original_label,
                   image_count: Number(candidate.image_count),
                   candidate_image_count: Number(candidate.image_count),
@@ -397,6 +405,7 @@ function App() {
               sampleMap={data.samples}
               invalidSampleMap={data.invalid.samples}
               invalidGroups={selectedInvalidGroups}
+              datasetInstruments={data.tree.dataset_instruments}
               onClose={() => setSelected(null)}
               onOpenSamples={setSampleEntry}
               onOpenInvalidSamples={setInvalidSampleKey}
@@ -407,6 +416,8 @@ function App() {
               <InvalidLabelsReview
                 data={data.invalid}
                 selected={selectedInvalid}
+                datasetLabels={data.tree.dataset_labels}
+                datasetInstruments={data.tree.dataset_instruments}
                 onSelect={setSelectedInvalid}
               />
               <InvalidDetailDrawer

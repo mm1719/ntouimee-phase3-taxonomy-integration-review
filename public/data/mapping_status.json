@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-18T05:20:38+00:00",
+  "generated_at_utc": "2026-07-20T04:20:15+00:00",
   "source_targets": "derived/ml_ready/target_profiles.csv",
   "history_dir": "derived/ml_ready/mapping_history",
   "export_fields": [
@@ -248,7 +248,7 @@
       "source_alias": "artefact",
       "image_count": 25595,
       "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
+      "invalid_reasons": "non_taxonomic_category|taxonomic_mismatch",
       "risk_flags": "n/a",
       "special_tags": "n/a",
       "dataset_ids": "life_watch_2026_image_library|life_watch|tara_pacific_deck|flowcam_net|tara_pacific_bongo",
@@ -356,13 +356,13 @@
     {
       "source_id": "146203",
       "source_alias": "Dinoflagellata",
-      "image_count": 13984,
+      "image_count": 14003,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
       "risk_flags": "broad_class|contaminated",
       "special_tags": "n/a",
       "dataset_ids": "tara_pacific_deck|tara_pacific_bongo|life_watch|life_watch_2026_image_library|flowcam_net",
-      "source_labels": "Neoceratium furca<Neoceratium|Dinophyceae X|Dinoflagellata|Neoceratium fusus<Neoceratium|polar view|polar_view|Ornithocercus magnificus<Ornithocercus"
+      "source_labels": "Neoceratium furca<Neoceratium|Dinophyceae X|Dinoflagellata|Neoceratium fusus<Neoceratium|polar view|polar_view|Ornithocercus magnificus<Ornithocercus|Ornithocercus quadratus<Ornithocercus"
     },
     {
       "source_id": "ntc_045",
@@ -556,7 +556,7 @@
       "source_alias": "aggregates",
       "image_count": 5683,
       "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
+      "invalid_reasons": "non_taxonomic_category|taxonomic_mismatch",
       "risk_flags": "n/a",
       "special_tags": "n/a",
       "dataset_ids": "tara_pacific_bongo|life_watch_2026_image_library",
@@ -886,7 +886,7 @@
       "source_alias": "crumple sphere",
       "image_count": 1500,
       "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
+      "invalid_reasons": "non_taxonomic_category|taxonomic_mismatch",
       "risk_flags": "n/a",
       "special_tags": "n/a",
       "dataset_ids": "tara_pacific_deck|flowcam_net|tara_pacific_bongo",
@@ -963,7 +963,7 @@
       "source_alias": "zooplankton",
       "image_count": 1177,
       "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
+      "invalid_reasons": "non_taxonomic_category|taxonomic_mismatch",
       "risk_flags": "n/a",
       "special_tags": "n/a",
       "dataset_ids": "life_watch|life_watch_2026_image_library",
@@ -1313,13 +1313,13 @@
     {
       "source_id": "109464",
       "source_alias": "Ornithocercus",
-      "image_count": 428,
+      "image_count": 409,
       "valid_statuses": "valid",
       "invalid_reasons": "n/a",
-      "risk_flags": "broad_class",
+      "risk_flags": "n/a",
       "special_tags": "dwc_record_review",
       "dataset_ids": "flowcam_net|tara_pacific_deck|tara_pacific_bongo",
-      "source_labels": "Ornithocercus|Ornithocercus quadratus<Ornithocercus"
+      "source_labels": "Ornithocercus"
     },
     {
       "source_id": "840627",
@@ -1469,7 +1469,7 @@
       "source_alias": "pollen",
       "image_count": 329,
       "valid_statuses": "invalid",
-      "invalid_reasons": "non_taxonomic_category",
+      "invalid_reasons": "non_taxonomic_category|taxonomic_mismatch",
       "risk_flags": "n/a",
       "special_tags": "n/a",
       "dataset_ids": "life_watch|tara_pacific_deck|life_watch_2026_image_library",

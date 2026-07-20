@@ -14,6 +14,9 @@ export function InvalidDetailDrawer({ group, samples, onClose, onOpenSamples }: 
   const [showSources, setShowSources] = useState(false);
   if (!group) return null;
   const sourceLimit = 5;
+  const instruments = [...new Set(
+    group.datasets.map((dataset) => dataset.instrument).filter(Boolean)
+  )];
 
   return (
     <aside className="drawer">
@@ -36,6 +39,7 @@ export function InvalidDetailDrawer({ group, samples, onClose, onOpenSamples }: 
       </div>
 
       <dl className="kv">
+        <div><dt>Instrument</dt><dd>{instruments.join(", ") || "n/a"}</dd></div>
         <div><dt>Pseudo AphiaID</dt><dd><code>{group.pseudo_aphia_id}</code></dd></div>
         <div><dt>Status</dt><dd>{group.status}</dd></div>
         <div><dt>Total images</dt><dd>{group.total_image_count.toLocaleString()}</dd></div>
@@ -53,6 +57,9 @@ export function InvalidDetailDrawer({ group, samples, onClose, onOpenSamples }: 
         <div className="drawer-section" key={dataset.dataset_id}>
           <h3>{dataset.dataset_id}</h3>
           <dl className="kv compact-kv">
+            <div><dt>Instrument</dt><dd>{dataset.instrument || "n/a"}</dd></div>
+            <div><dt>License</dt><dd>{dataset.license || "n/a"}</dd></div>
+            <div><dt>License status</dt><dd>{dataset.license_status || "n/a"}</dd></div>
             <div><dt>Images</dt><dd>{dataset.image_count.toLocaleString()}</dd></div>
             {dataset.valid_tree_entry === "yes" && (
               <>
@@ -64,6 +71,17 @@ export function InvalidDetailDrawer({ group, samples, onClose, onOpenSamples }: 
             <div><dt>Aliases</dt><dd>{dataset.aliases.join(", ")}</dd></div>
             <div><dt>Valid tree</dt><dd>{dataset.valid_tree_entry}</dd></div>
           </dl>
+          {dataset.license_url && (
+            <a href={dataset.license_url} target="_blank" rel="noreferrer" className="link">
+              License terms
+            </a>
+          )}
+          {dataset.source_url && (
+            <a href={dataset.source_url} target="_blank" rel="noreferrer" className="link">
+              Dataset source
+            </a>
+          )}
+          {dataset.doi && <p className="path-text">DOI: {dataset.doi}</p>}
 
           <h3>Reasons</h3>
           <ul className="detail-list">
