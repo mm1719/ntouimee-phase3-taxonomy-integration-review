@@ -9,13 +9,16 @@ import {
 import { Search } from "lucide-react";
 import { useMemo, useState } from "react";
 import type { DatasetId, InvalidLabelData, InvalidLabelGroup } from "../types";
-import { DATASET_LABELS, DATASETS } from "../data/constants";
+import { datasetLabel, datasetSort } from "../data/constants";
+import { InstrumentDatasetFilters } from "./InstrumentDatasetFilters";
 
 type InvalidTableKey = "non_taxonomic_category" | "taxonomic_mismatch";
 
 type Props = {
   data: InvalidLabelData;
   selected: InvalidLabelGroup | null;
+  datasetLabels?: Record<DatasetId, string>;
+  datasetInstruments?: Record<DatasetId, string>;
   onSelect: (group: InvalidLabelGroup) => void;
 };
 
@@ -33,10 +36,24 @@ function aliasSort(value: string) {
     .join("|");
 }
 
-export function InvalidLabelsReview({ data, selected, onSelect }: Props) {
+export function InvalidLabelsReview({
+  data,
+  selected,
+  datasetLabels = {},
+  datasetInstruments = {},
+  onSelect
+}: Props) {
   const [activeTable, setActiveTable] = useState<InvalidTableKey>("non_taxonomic_category");
   const [queries, setQueries] = useState(["", "", ""]);
-  const [datasets, setDatasets] = useState<Set<DatasetId>>(new Set(DATASETS));
+  const datasetOptions = useMemo(
+    () => [...new Set(
+      Object.values(data.tables).flatMap((groups) =>
+        groups.flatMap((group) => group.dataset_ids)
+      )
+    )].sort(datasetSort),
+    [data.tables]
+  );
+  const [datasets, setDatasets] = useState<Set<DatasetId>>(new Set(datasetOptions));
   const [showValidTreeOverlap, setShowValidTreeOverlap] = useState(true);
   const [sorting, setSorting] = useState<SortingState>([]);
   const [tableScale, setTableScale] = useState(1.1);
@@ -93,18 +110,18 @@ export function InvalidLabelsReview({ data, selected, onSelect }: Props) {
         header: "Images",
         cell: (info) => info.getValue().toLocaleString()
       }),
-      ...DATASETS.map((dataset) =>
+      ...datasetOptions.map((dataset) =>
         helper.accessor(
           (row) => row.datasets.find((item) => item.dataset_id === dataset)?.image_count ?? 0,
           {
             id: dataset,
-            header: DATASET_LABELS[dataset],
+            header: datasetLabel(dataset, datasetLabels),
             cell: (info) => info.getValue().toLocaleString()
           }
         )
       )
     ],
-    []
+    [datasetLabels, datasetOptions]
   );
 
   const table = useReactTable({
@@ -121,6 +138,14 @@ export function InvalidLabelsReview({ data, selected, onSelect }: Props) {
       const next = new Set(current);
       if (next.has(dataset)) next.delete(dataset);
       else next.add(dataset);
+      return next;
+    });
+  }
+
+  function toggleDatasets(group: DatasetId[], enabled: boolean) {
+    setDatasets((current) => {
+      const next = new Set(current);
+      group.forEach((dataset) => enabled ? next.add(dataset) : next.delete(dataset));
       return next;
     });
   }
@@ -162,16 +187,14 @@ export function InvalidLabelsReview({ data, selected, onSelect }: Props) {
 
         <section>
           <h2>Datasets</h2>
-          {DATASETS.map((dataset) => (
-            <label className="check-row" key={dataset}>
-              <input
-                type="checkbox"
-                checked={datasets.has(dataset)}
-                onChange={() => toggleDataset(dataset)}
-              />
-              {DATASET_LABELS[dataset]}
-            </label>
-          ))}
+          <InstrumentDatasetFilters
+            options={datasetOptions}
+            selected={datasets}
+            instruments={datasetInstruments}
+            labels={datasetLabels}
+            onToggle={toggleDataset}
+            onToggleMany={toggleDatasets}
+          />
         </section>
 
         <section>

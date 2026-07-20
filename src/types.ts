@@ -9,6 +9,7 @@ export type TreeNode = {
   placement_id?: string;
   dataset_id?: DatasetId;
   dataset_label?: string;
+  instrument?: string;
   original_label?: string;
   selected_aphia_id?: string;
   selected_aphia_source?: string;
@@ -32,6 +33,7 @@ export type TreeNode = {
   children?: TreeNode[];
   dataset_colors?: Record<DatasetId, string>;
   dataset_labels?: Record<DatasetId, string>;
+  dataset_instruments?: Record<DatasetId, string>;
   dataset_class_entry_count?: number;
   unique_selected_aphia_id_count?: number;
   unique_candidate_image_count?: number;
@@ -45,6 +47,13 @@ export type TreeNode = {
 export type Candidate = {
   entry_id: string;
   dataset_id: DatasetId;
+  dataset_label?: string;
+  instrument?: string;
+  license?: string;
+  license_status?: string;
+  license_url?: string;
+  source_url?: string;
+  doi?: string;
   label: string;
   original_label: string;
   image_count: string;
@@ -99,6 +108,12 @@ export type SampleMap = Record<string, ImageSample[]>;
 
 export type InvalidDatasetEvidence = {
   dataset_id: DatasetId;
+  instrument?: string;
+  license?: string;
+  license_status?: string;
+  license_url?: string;
+  source_url?: string;
+  doi?: string;
   aliases: string[];
   image_count: number;
   reasons: string[];

@@ -10,6 +10,7 @@ type Props = {
   sampleMap: SampleMap;
   invalidSampleMap: SampleMap;
   invalidGroups: InvalidLabelGroup[];
+  datasetInstruments?: Record<string, string>;
   onClose: () => void;
   onOpenSamples: (entryId: string) => void;
   onOpenInvalidSamples: (sampleKey: string) => void;
@@ -62,6 +63,7 @@ export function DetailDrawer({
   sampleMap,
   invalidSampleMap,
   invalidGroups,
+  datasetInstruments = {},
   onClose,
   onOpenSamples,
   onOpenInvalidSamples
@@ -71,6 +73,12 @@ export function DetailDrawer({
   const selectedCounts = candidate ? splitCell(candidate.selected_aphia_image_counts) : [];
   const statusEvidence = parseStatusEvidence(candidate?.status_review_evidence_json);
   const externalEvidence = parseExternalEvidence(candidate?.status_review_external_evidence_json);
+  const algaeBaseEvidence = externalEvidence.find((record) =>
+    record.source?.includes("AlgaeBase")
+  ) ?? externalEvidence[0];
+  const catalogueEvidence = externalEvidence.find((record) =>
+    record.source?.includes("Catalogue of Life")
+  );
   const statusFlags = candidate ? splitCell(candidate.status_review_flag) : [];
   const isCorrected = statusFlags.includes("corrected");
   const displayedStatusEvidence = isCorrected
@@ -79,6 +87,11 @@ export function DetailDrawer({
   const datasetBadges = [...new Set([
     ...(node.dataset_id ? [node.dataset_id] : []),
     ...(node.datasets ?? [])
+  ])];
+  const instruments = [...new Set([
+    ...(candidate?.instrument ? [candidate.instrument] : []),
+    ...(node.instrument ? [node.instrument] : []),
+    ...datasetBadges.map((dataset) => datasetInstruments[dataset]).filter(Boolean)
   ])];
   const validEvidenceSampleKey =
     candidate && selectedIds.length === 1
@@ -113,6 +126,9 @@ export function DetailDrawer({
       </div>
 
       <dl className="kv">
+        <div><dt>Instrument</dt><dd>{instruments.join(", ") || "n/a"}</dd></div>
+        {candidate?.license && <div><dt>License</dt><dd>{candidate.license}</dd></div>}
+        {candidate?.license_status && <div><dt>License status</dt><dd>{candidate.license_status}</dd></div>}
         <div><dt>Rank</dt><dd>{node.rank || "Dataset class"}</dd></div>
         <div><dt>AphiaID</dt><dd>{node.selected_aphia_id || node.aphia_id || "n/a"}</dd></div>
         <div><dt>Image count</dt><dd>{node.image_count.toLocaleString()}</dd></div>
@@ -181,19 +197,34 @@ export function DetailDrawer({
         </div>
       )}
 
-      {candidate?.status_review_external_action && externalEvidence.length > 0 && (
+      {candidate?.status_review_external_action && algaeBaseEvidence && (
         <div className="drawer-section">
           <h3>AlgaeBase backing</h3>
           <dl className="kv compact-kv">
             <div><dt>Decision</dt><dd>{candidate.status_review_external_action}</dd></div>
-            <div><dt>Source</dt><dd>{externalEvidence[0].source || "AlgaeBase via GNV"}</dd></div>
-            <div><dt>Status</dt><dd>{externalEvidence[0].taxonomic_status || "n/a"}</dd></div>
-            <div><dt>Name</dt><dd>{externalEvidence[0].current_name || externalEvidence[0].matched_name || "n/a"}</dd></div>
+            <div><dt>Source</dt><dd>{algaeBaseEvidence.source || "AlgaeBase via GNV"}</dd></div>
+            <div><dt>Status</dt><dd>{algaeBaseEvidence.taxonomic_status || "n/a"}</dd></div>
+            <div><dt>Name</dt><dd>{algaeBaseEvidence.current_name || algaeBaseEvidence.matched_name || "n/a"}</dd></div>
           </dl>
-          {externalEvidence[0].url && (
-            <a href={externalEvidence[0].url} target="_blank" rel="noreferrer" className="link">
-              {externalEvidence[0].url}
+          {algaeBaseEvidence.url && (
+            <a href={algaeBaseEvidence.url} target="_blank" rel="noreferrer" className="link">
+              {algaeBaseEvidence.url}
             </a>
+          )}
+          {catalogueEvidence && (
+            <div className="evidence-item">
+              <strong>Catalogue of Life difference</strong>
+              <p className="muted">
+                {[catalogueEvidence.current_name || catalogueEvidence.matched_name, catalogueEvidence.taxonomic_status]
+                  .filter(Boolean)
+                  .join(" / ")}
+              </p>
+              {catalogueEvidence.url && (
+                <a href={catalogueEvidence.url} target="_blank" rel="noreferrer" className="link">
+                  {catalogueEvidence.url}
+                </a>
+              )}
+            </div>
           )}
         </div>
       )}
@@ -281,6 +312,17 @@ export function DetailDrawer({
         <div className="drawer-section">
           <h3>Source references</h3>
           <p className="path-text">{candidate.source_example || "No local source example recorded."}</p>
+          {candidate.license_url && (
+            <a href={candidate.license_url} target="_blank" rel="noreferrer" className="link">
+              License terms
+            </a>
+          )}
+          {candidate.source_url && (
+            <a href={candidate.source_url} target="_blank" rel="noreferrer" className="link">
+              Dataset source
+            </a>
+          )}
+          {candidate.doi && <p className="path-text">DOI: {candidate.doi}</p>}
           {splitCell(candidate.worms_record_urls).map((url) => (
             <a key={url} href={url} target="_blank" rel="noreferrer" className="link">
               {url}

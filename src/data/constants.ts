@@ -6,7 +6,11 @@ export const DATASET_LABELS: Record<string, string> = {
   flowcam_net: "FlowCAMNet",
   tara_pacific_deck: "Tara Pacific Deck",
   tara_pacific_bongo: "Tara Pacific Bongo",
-  ifremer_srn: "Ifremer SRN"
+  ifremer_srn: "Ifremer SRN",
+  whoi_plankton: "WHOI Plankton",
+  syke_ifcb: "SYKE IFCB",
+  medplanktonset: "MedPlanktonSet",
+  planktoscope: "PlanktoScope"
 };
 
 export const DATASET_COLORS: Record<string, string> = {
@@ -15,7 +19,11 @@ export const DATASET_COLORS: Record<string, string> = {
   flowcam_net: "#16a34a",
   tara_pacific_deck: "#f97316",
   tara_pacific_bongo: "#dc2626",
-  ifremer_srn: "#0891b2"
+  ifremer_srn: "#0891b2",
+  whoi_plankton: "#8b5cf6",
+  syke_ifcb: "#a855f7",
+  medplanktonset: "#c026d3",
+  planktoscope: "#db2777"
 };
 
 export const DATASETS = Object.keys(DATASET_LABELS) as DatasetId[];

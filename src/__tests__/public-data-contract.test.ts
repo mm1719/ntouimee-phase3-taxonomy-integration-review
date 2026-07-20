@@ -160,6 +160,41 @@ describe("valid route public data contract", () => {
     expect(lifeWatchHemidiscus?.selected_aphia_ids).toBe("180366");
     expect(splitCell(lifeWatchHemidiscus?.risk_flags ?? "")).not.toContain("contaminated");
   });
+
+  it("keeps the reviewed other-instrument valid cohort and provenance complete", () => {
+    const otherDatasetIds = new Set([
+      "whoi_plankton",
+      "syke_ifcb",
+      "medplanktonset",
+      "planktoscope",
+    ]);
+    const otherCandidates = candidates.filter((candidate) =>
+      otherDatasetIds.has(candidate.dataset_id)
+    );
+    const sampleUrls = new Set<string>();
+
+    expect(otherCandidates).toHaveLength(491);
+    expect(
+      otherCandidates.reduce((sum, candidate) => sum + Number(candidate.image_count), 0)
+    ).toBe(710278);
+    otherCandidates.forEach((candidate) => {
+      expect(candidate.instrument, candidate.entry_id).toBeTruthy();
+      expect(candidate.license, candidate.entry_id).toBeTruthy();
+      expect(candidate.license_status, candidate.entry_id).toBeTruthy();
+      expect(tree.dataset_instruments?.[candidate.dataset_id], candidate.entry_id).toBe(
+        candidate.instrument
+      );
+      const candidateSamples = Object.entries(samples)
+        .filter(
+          ([key]) =>
+            key === candidate.entry_id || key.startsWith(`${candidate.entry_id}::aphia::`)
+        )
+        .flatMap(([, rows]) => rows);
+      expect(candidateSamples.length, candidate.entry_id).toBeGreaterThan(0);
+      candidateSamples.forEach((sample) => sampleUrls.add(sample.thumbnail_url));
+    });
+    expect(sampleUrls.size).toBe(2311);
+  });
 });
 
 describe("invalid route public data contract", () => {
@@ -245,6 +280,40 @@ describe("invalid route public data contract", () => {
         expect(count, `${sampleKey} ${countKey}`).toBeLessThanOrEqual(invalid.summary.sample_limit_per_dataset);
       });
     });
+  });
+
+  it("keeps the reviewed other-instrument invalid cohort and provenance complete", () => {
+    const otherDatasetIds = new Set([
+      "whoi_plankton",
+      "syke_ifcb",
+      "medplanktonset",
+      "planktoscope",
+    ]);
+    const otherGroups = new Map<string, number>();
+    const otherSampleUrls = new Set<string>();
+
+    Object.values(invalid.tables).flat().forEach((group) => {
+      group.datasets.forEach((dataset) => {
+        if (!otherDatasetIds.has(dataset.dataset_id)) return;
+        const key = `${dataset.dataset_id}::${group.group_key}`;
+        otherGroups.set(key, dataset.image_count);
+        expect(dataset.instrument, key).toBeTruthy();
+        expect(dataset.license, key).toBeTruthy();
+        expect(dataset.license_status, key).toBeTruthy();
+      });
+    });
+    Object.values(invalid.samples).flat().forEach((sample) => {
+      if (otherDatasetIds.has(sample.dataset_id)) {
+        otherSampleUrls.add(sample.thumbnail_url);
+      }
+    });
+
+    expect(otherGroups.size).toBe(67);
+    expect(Array.from(otherGroups.values()).reduce((sum, count) => sum + count, 0)).toBe(
+      3171890
+    );
+    expect(otherSampleUrls.size).toBe(331);
+    expect(invalid.summary.source).toContain("other_instrument_invalid_labels.csv");
   });
 });
 
