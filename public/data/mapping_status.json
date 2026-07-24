@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-20T04:20:15+00:00",
+  "generated_at_utc": "2026-07-24T08:05:20+00:00",
   "source_targets": "derived/ml_ready/target_profiles.csv",
   "history_dir": "derived/ml_ready/mapping_history",
   "export_fields": [
@@ -5153,8 +5153,8 @@
       "file_name": "zz_2026-06-19_formal_mapping_status.csv",
       "path": "derived/ml_ready/mapping_history/zz_2026-06-19_formal_mapping_status.csv",
       "row_count": 239,
-      "explicit_row_count": 46,
-      "merge_count": 36,
+      "explicit_row_count": 49,
+      "merge_count": 39,
       "drop_count": 10,
       "warning_count": 0,
       "warnings": [],
@@ -6960,12 +6960,12 @@
           "validation_message": ""
         },
         {
-          "action": "keep",
+          "action": "merge",
           "source_id": "ntc_091",
-          "target_id": "",
+          "target_id": "ntc_082",
           "source_alias": "spines<acantharea",
-          "target_alias": "",
-          "notes": "",
+          "target_alias": "detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -7280,12 +7280,12 @@
           "validation_message": ""
         },
         {
-          "action": "keep",
+          "action": "merge",
           "source_id": "ntc_087",
-          "target_id": "",
+          "target_id": "ntc_082",
           "source_alias": "part diatom",
-          "target_alias": "",
-          "notes": "",
+          "target_alias": "detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         },
@@ -7540,12 +7540,12 @@
           "validation_message": ""
         },
         {
-          "action": "keep",
+          "action": "merge",
           "source_id": "ntc_089",
-          "target_id": "",
+          "target_id": "ntc_082",
           "source_alias": "part<copepoda",
-          "target_alias": "",
-          "notes": "",
+          "target_alias": "detritus",
+          "notes": "phase 3 round10 formal merge remaining invalid target into detritus",
           "validation_status": "ok",
           "validation_message": ""
         }
